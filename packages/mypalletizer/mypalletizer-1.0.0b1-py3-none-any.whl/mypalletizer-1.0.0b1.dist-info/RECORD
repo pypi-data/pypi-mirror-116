@@ -1,0 +1,10 @@
+mypalletizer/__init__.py,sha256=KUAOdLHP-q6GT_7RR6-FNFUXWRk9bFPGoqNxRweK_bU,523
+mypalletizer/common.py,sha256=-JSlXm4GiKsMsVBe-KxmyuL7gJwam-F1rdBx_R8C2Yw,4021
+mypalletizer/generate.py,sha256=qRuRHW29hGudZVKw4_NP1kF46RT3HZlqhRW-Th5uGuc,13705
+mypalletizer/log.py,sha256=KjGS4jRy2CG9tHZSxi1aXdk4-p3YQV7INZNQpAoLYQw,536
+mypalletizer/main.py,sha256=yJsdgpG3Yb4DXjVaxk23mjJ4DG14UZ4c_cngRjNJlN4,5433
+mypalletizer/utils.py,sha256=JzTiE8-0lpod82jxvPGWXOVny1B6HZbPgo67bSVaDR8,627
+mypalletizer-1.0.0b1.dist-info/METADATA,sha256=SAUCkvh1XFacdoac05Jpju02xeiK9xzVImHLrxAeu_U,15610
+mypalletizer-1.0.0b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypalletizer-1.0.0b1.dist-info/top_level.txt,sha256=f8eqFsuQn6Xd2PxzAKmFPqCXFeVEcCLnt5dNGBg95Ms,13
+mypalletizer-1.0.0b1.dist-info/RECORD,,
