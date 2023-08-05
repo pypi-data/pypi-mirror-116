@@ -1,0 +1,12 @@
+RestClient/RestApi.py,sha256=TEy53ICBALDSKuUC6Z2PIBAPPnZ8jIY3mwubSpfn0uo,2486
+RestClient/AuthHandling/BasicAuth.py,sha256=DCyuNgMA2OF8XHU-naARFccioi0UXjxGiPj5dHq3N58,895
+RestClient/AuthHandling/X509Auth.py,sha256=bUZAJOojdMIYWwpIMDg85wgb_X2dLUsbEYIzrm6Jrso,4272
+RestClient/ErrorHandling/RestClientExceptions.py,sha256=zUqKU2uFHl6PaZ2NZT2KmxAmC_LLoLrTq1wAiEPFvL8,785
+RestClient/ProxyPlugins/Socks5Proxy.py,sha256=h4aM1wcFhq5WZNeA3JYYva8YDxQvcKccF0xTEeUqBz4,895
+RestClient/RequestHandling/HTTPRequest.py,sha256=hE0-khrJyar6fEbaQ24lxjTTggE5w1qCEFP_KtZxTuQ,2833
+RestClient/RequestHandling/HTTPResponse.py,sha256=EI8zeDIX83Cq8_75a5VkD0IE2kQaTb7clT4FOVUTf2U,2489
+dbs3_pycurl-3.17.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dbs3_pycurl-3.17.1.dist-info/METADATA,sha256=qslMgboPqP2L0M9KTuEcTVsWla8mstWW4S9LPumRJ9A,309
+dbs3_pycurl-3.17.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dbs3_pycurl-3.17.1.dist-info/top_level.txt,sha256=EHGbJzcHUewWaSQffbHZd2p0vHtJwB0w_aZLI0BJ41g,11
+dbs3_pycurl-3.17.1.dist-info/RECORD,,
