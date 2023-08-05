@@ -1,0 +1,7 @@
+Timings for SDC, MLSDC and MLSDC+finter:   6.63093996 --   7.42859697 --   8.21265197
+Total energy and relative deviation in iteration  0: 407936.7556966486 -- 0.00000000e+00
+Total energy and relative deviation in iteration 12: 406977.9425667251 -- 2.35039652e-03
+Total energy and relative deviation in iteration  0: 407936.7556966486 -- 0.00000000e+00
+Total energy and relative deviation in iteration  6: 406977.9425660007 -- 2.35039652e-03
+Total energy and relative deviation in iteration  0: 407936.7556966486 -- 0.00000000e+00
+Total energy and relative deviation in iteration  7: 406977.9428639800 -- 2.35039579e-03
