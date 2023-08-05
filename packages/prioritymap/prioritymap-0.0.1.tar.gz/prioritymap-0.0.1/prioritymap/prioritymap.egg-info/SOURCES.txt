@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+prioritymap/prioritymap.egg-info/PKG-INFO
+prioritymap/prioritymap.egg-info/SOURCES.txt
+prioritymap/prioritymap.egg-info/dependency_links.txt
+prioritymap/prioritymap.egg-info/top_level.txt
