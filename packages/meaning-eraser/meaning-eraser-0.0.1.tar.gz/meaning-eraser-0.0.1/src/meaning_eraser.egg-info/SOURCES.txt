@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/meaning.py
+src/meaning_eraser.egg-info/PKG-INFO
+src/meaning_eraser.egg-info/SOURCES.txt
+src/meaning_eraser.egg-info/dependency_links.txt
+src/meaning_eraser.egg-info/top_level.txt

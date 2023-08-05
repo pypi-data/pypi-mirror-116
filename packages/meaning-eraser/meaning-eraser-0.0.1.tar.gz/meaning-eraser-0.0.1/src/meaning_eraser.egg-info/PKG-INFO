@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: meaning-eraser
+Version: 0.0.1
+Summary: Just use it. You will be pleased.
+Home-page: https://lh3.googleusercontent.com/proxy/Rmdoy5CW5W6qQtvP7mBHBadP0aOMHbn2X_RP5MktfoSvLXPpeLjIWF9CwmHAFiOqjAMbAknd4D6OrngLIVwMK1sQvMNluEUrw4KXrCxmZGYkePPSCQ
+Author: Danila Simanok
+Author-email: danilasimanok@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Meaning Eraser
+
+A simple program that can erase the meaning of your life.
+
+## Installation
+
+This program is only for Linux.
+
+To install it run `pip install meaning-eraser`
+
+## Usage
+
+To erase the meaning of your life run `python -m meaning.py`
+
+
