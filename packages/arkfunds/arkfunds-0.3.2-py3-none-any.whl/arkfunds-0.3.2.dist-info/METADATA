@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: arkfunds
+Version: 0.3.2
+Summary: Python library for monitoring Ark Invest funds data.
+Home-page: https://github.com/frefrik/arkfunds-python
+License: MIT
+Keywords: ark,ark invest,ark funds,etf,funds,finance
+Author: Fredrik Haarstad
+Author-email: codemonkey@zomg.no
+Requires-Python: >=3.7.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=4.1.2,<5.0.0); extra == "docs"
+Requires-Dist: pandas (>=1.3.1,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: sphinx-rtd-theme (>=0.5.2,<0.6.0); extra == "docs"
+Project-URL: Repository, https://github.com/frefrik/arkfunds-python
+Description-Content-Type: text/x-rst
+
+arkfunds-python
+===============
+
+.. image:: https://badge.fury.io/py/arkfunds.svg
+   :target: https://badge.fury.io/py/arkfunds
+   :alt: PyPI version
+.. image:: https://img.shields.io/github/license/frefrik/arkfunds-python
+   :target: LICENSE
+   :alt: Project Licence
+
+
+A Python library for monitoring `Ark Invest <https://ark-funds.com/>`_ funds data.
+
+Installation
+------------
+
+Install the latest release from `PyPI <https://pypi.org/project/arkfunds/>`_\ :
+
+.. code-block:: console
+
+   pip install arkfunds
+
+Quickstart
+----------
+
+.. code-block:: python
+
+   from arkfunds import ETF, Stock
+
+   # ARK ETFs
+   etf = ETF("ARKK")
+
+   etf.profile()
+   etf.holdings()
+   etf.trades()
+   etf.news()
+
+   # Stocks
+   symbols = ["tsla", "coin", "tdoc"]
+   stock = Stock(symbols)
+
+   stock.profile()
+   stock.fund_ownership()
+   stock.trades()
+
+   stock.price()
+   stock.price_history()
+
+Getting Started
+---------------
+See our `Getting started guide <https://arkfunds-python.readthedocs.io/en/latest/getting-started.html>`_ in the documentation.
+
+License
+-------
+
+This project is licensed under the **MIT license**. Feel free to edit and distribute this template as you like.
+
+See `LICENSE <LICENSE>`_ for more information.
+
