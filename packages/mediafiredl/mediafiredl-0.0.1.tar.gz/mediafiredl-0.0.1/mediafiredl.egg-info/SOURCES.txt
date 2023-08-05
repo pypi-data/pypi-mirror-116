@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mediafiredl/MediafireDL.py
+mediafiredl/__init__.py
+mediafiredl.egg-info/PKG-INFO
+mediafiredl.egg-info/SOURCES.txt
+mediafiredl.egg-info/dependency_links.txt
+mediafiredl.egg-info/requires.txt
+mediafiredl.egg-info/top_level.txt
