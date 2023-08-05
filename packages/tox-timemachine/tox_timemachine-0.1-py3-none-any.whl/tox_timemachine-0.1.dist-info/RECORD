@@ -1,0 +1,10 @@
+tox_timemachine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tox_timemachine/bisect.py,sha256=Pbd7nVaLGoggknL3_9cEInLFngQBfcoiXgMQ0cCmq5o,1020
+tox_timemachine/plugin.py,sha256=1mOVfPt6uP18UvOg7_fYtj-4C1so1ovXnFRsDIYNPJ8,2144
+tox_timemachine-0.1.dist-info/LICENSE,sha256=N-tR13VS8FxyrhJLSIIm1AIX__wC4kLFVapBpthGGLU,1299
+tox_timemachine-0.1.dist-info/METADATA,sha256=gkQcJQMZUOU-Js9kY_18CrEkt0BIQIt0v10mmLznRx8,1718
+tox_timemachine-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tox_timemachine-0.1.dist-info/entry_points.txt,sha256=kDYtq96ETgiyyOOAPTztKDNMbOEw3iNdMoYu1OXI8Io,116
+tox_timemachine-0.1.dist-info/top_level.txt,sha256=0mi5yUMTNrI2ZiFcanba4UNPPPC66CJfVvyoSItpxhA,16
+tox_timemachine-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tox_timemachine-0.1.dist-info/RECORD,,

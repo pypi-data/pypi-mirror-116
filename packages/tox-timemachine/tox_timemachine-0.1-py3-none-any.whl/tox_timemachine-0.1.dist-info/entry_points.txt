@@ -1,0 +1,6 @@
+[console_scripts]
+tox-timemachine-bisect = tox_timemachine.bisect:main
+
+[tox]
+pypi-filter = tox_timemachine.plugin
+
