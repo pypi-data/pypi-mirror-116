@@ -1,0 +1,18 @@
+Change Log
+==========
+
+0.0.1 (11/08/2021)
+------------------
+- First Release
+
+0.0.2 (11/08/2021)
+------------------
+- fixed folder structure for python code
+
+0.0.3 (11/08/2021)
+------------------
+- used setuptools.find_packages() for package discovery
+
+0.04 (11/08/2021)
+-----------------
+- comment out ssh-agent kill command
