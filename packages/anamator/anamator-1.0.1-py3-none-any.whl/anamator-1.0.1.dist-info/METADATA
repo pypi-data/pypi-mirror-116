@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: anamator
+Version: 1.0.1
+Summary: Library animating basic concepts of single-variable real analysis
+Home-page: https://github.com/AlexanderGolys/anamator
+Author: Maths Visually Explained
+Author-email: alexandergolys@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/AlexanderGolys/anamator
+Keywords: animation,graphics,maths
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Pillow (>=7.2.0)
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: scipy (>=1.5.1)
+Requires-Dist: opencv-python (>=4.5.2.54)
+Requires-Dist: deprecation
+
+# anamator
+
+Project created on purpose of animating basics concepts of real analysis. 
+
+
