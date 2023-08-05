@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/anamator.egg-info/PKG-INFO
+src/anamator.egg-info/SOURCES.txt
+src/anamator.egg-info/dependency_links.txt
+src/anamator.egg-info/requires.txt
+src/anamator.egg-info/top_level.txt
+src/animator/__init__.py
+src/animator/basic_func.py
+src/animator/objects.py
