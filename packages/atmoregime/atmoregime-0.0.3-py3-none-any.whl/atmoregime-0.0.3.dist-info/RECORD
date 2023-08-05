@@ -1,0 +1,12 @@
+atmoregime-0.0.3.data/data/data/test_data.csv,sha256=K7fcWgB7CKzSxm0lVGLyaJR9_C-YJW4BKAsKt69WsNo,22
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/clustering.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/deseasonaliser.py,sha256=36HNBix40qj1Roi9QO129Bwc4JDpJMN4M4qZGyE956w,3628
+src/example.py,sha256=lb-DThgJIL2-asdx9RJkLvn_BkpQRkqmSDspWnQezu8,45
+src/preprocessing.py,sha256=VuJcvMpwf1pXPhhybGTWglAe07jYCoPH5VFqLhn30fo,7246
+src/util.py,sha256=yg6zHdQ-ZSNl2umL4vmvQLiCU_aVam38ZIwb_87Ge6A,194
+atmoregime-0.0.3.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+atmoregime-0.0.3.dist-info/METADATA,sha256=8_6hC5MiZ0TfpDv3iJGf2N_31D5-TcPDUDNrUw2usfA,895
+atmoregime-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+atmoregime-0.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+atmoregime-0.0.3.dist-info/RECORD,,
