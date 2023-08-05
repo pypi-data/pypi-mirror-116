@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+treecontainers/__init__.py
+treecontainers/prioritymap.py
+treecontainers.egg-info/PKG-INFO
+treecontainers.egg-info/SOURCES.txt
+treecontainers.egg-info/dependency_links.txt
+treecontainers.egg-info/top_level.txt
