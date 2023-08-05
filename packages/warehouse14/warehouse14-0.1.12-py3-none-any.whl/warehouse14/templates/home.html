@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% set active_page = 'home' %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 push-m2 m8">
+                <h4>Welcome to our internal Python Package Index.</h4>
+                <div class="card">
+                    <div class="card-content">
+                        <p>We provide inner source libraries of others and you can share your own.</p>
+                        <p>Please visit <a href="https://pypi.org/project/warehouse14/">Warehouse14</a> for information
+                            about this tool.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 push-m2  m8">
+                <div class="card">
+                    <div class="card-content">
+                        <p>To install packages or publish your own, you will need an API token and configure your
+                            toolchain.</p>
+                    </div>
+                    <div class="card-action center">
+                        <a href="{{ url_for("account_token") }}">Create an API token</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

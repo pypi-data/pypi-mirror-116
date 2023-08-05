@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% set active_page = 'account' %}
+
+{% block title %}Home{% endblock %}
+
+{% block nav_content %}
+    <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="active" href="{{ url_for('account') }}#1">Account Settings</a></li>
+        </ul>
+    </div>
+{% endblock %}
+
+{% set account = current_user.account %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <h2>API Token</h2>
+        </div>
+
+        {% if token_raw %}
+            <h5>Token for "{{ new_token.name }}"</h5>
+            <div class="row">
+                <div class="col s12">
+                    <code class="code-block">
+                        {{ token_raw }}
+                    </code>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card-panel red accent-2"><span class="white-text">
+                       For security reasons this token will only appear once. Copy it now.
+                    </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <h5>How to use this token:</h5>
+            <ul>
+                <li>Set your username to <code>__token__</code></li>
+                <li>Set your password to the token value, including the
+                    <code>wh14-</code> prefix
+                </li>
+            </ul>
+
+            {# Pip #}
+            <div class="divider"></div>
+            <h5>Configure PIP:</h5>
+            <p>
+                To install packages prom this index, you will have to configure an extra index url for pip.
+            </p>
+            <pre class="code-block">pip config set global.extra-index-url {{ url_for('simple.simple_index', _external=True).split("//")[0] }}//__token__:{{ token_raw }}@{{ url_for('simple.simple_index', _external=True).split("//")[1] }}</pre>
+
+            {# Poetry #}
+            <div class="divider"></div>
+            <h5>Configure Poetry:</h5>
+            <p>
+                If use <a href="https://pypi.org/project/poetry/">Poetry</a> to upload your
+                projects, use the following commands to configure:
+            </p>
+
+            <pre class="code-block">
+poetry config repositories.warehouse14 {{ url_for('simple.simple_index', _external=True) }}
+poetry config http-basic.warehouse14 __token__ "{{ token_raw }}"</pre>
+            <p>Publish your projects with: <code>poetry publish -r warehouse14</code></p>
+
+            {# Twine #}
+            <div class="divider"></div>
+            <h5>Configure Twine:</h5>
+            <p>
+                For example, if you use <a href="https://pypi.org/project/twine/">Twine</a> to upload your
+                projects, set up your <code>$HOME/.pypirc</code> file like this:
+            </p>
+
+            <pre class="code-block">
+[distutils]
+  index-servers =
+    pypi
+    warehouse14
+
+[warehouse14]
+  repository = {{ url_for('simple.simple_index', _external=True) }}
+  username = __token__
+  password = {{ token_raw }}
+
+            </pre>
+
+            <p>
+                Now use <code>twine --repository warehouse14</code> to upload your package.
+            </p>
+            <div class="divider"></div>
+
+        {% else %}
+            <form method="POST">
+                {{ create_form.hidden_tag() }}
+
+                <div class="row">
+                    <h5>Create an API token</h5>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        {{ create_form.name(size=20) }}
+                        {{ create_form.name.label }}
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light col s2 offset-s4 white-text" type="submit" name="action">
+                    Create
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        {% endif %}
+    </div>
+
+{% endblock %}
