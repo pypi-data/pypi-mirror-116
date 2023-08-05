@@ -1,0 +1,13 @@
+vexcogutils/__init__.py,sha256=WW03Gk-mVr0CKGterdQpW2CbD-ASUgCANV4NMr2YBm4,168
+vexcogutils/chat.py,sha256=0izZf60NM60b8UqCG3klrswGEcDqZhrqNtzzbam8xWE,2488
+vexcogutils/consts.py,sha256=xnvlV6iv7R_03nMLovgVfs02R4FaNFrd0QadvPHdeOs,182
+vexcogutils/loop.py,sha256=-V6Y5AXbiR24qsgQhZuTJca8a1UuPDzR3f2BMXYlMqM,4790
+vexcogutils/meta.py,sha256=vrrKlM9CC1UucZ5IDbW0_yClFLb_LAqbqAWvAtn8Fu0,4422
+vexcogutils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vexcogutils/sqldriver.py,sha256=KXwq9K-EInkXI8wKP3GFS3smWQvrPVFyn9ET3k9ySpI,3273
+vexcogutils/version.py,sha256=F1u2mSK8Wly-J_mt7oHk_RJLir3nEN_Ri1OneijYSlc,22
+vex_cog_utils-1.4.8.dist-info/LICENSE,sha256=5A0TygnLM-nou9AbRaPkUoRU6SA2Ss8wX677kj7xu_A,1064
+vex_cog_utils-1.4.8.dist-info/METADATA,sha256=NPPfURKGHFlPR6JtRVAIqwFzaXP8f8c6Flg5x5VrYh8,1167
+vex_cog_utils-1.4.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vex_cog_utils-1.4.8.dist-info/top_level.txt,sha256=rQX68pTr9X6MKNsFXJnCeg3CQesCY5haTxiGmjaJuNc,12
+vex_cog_utils-1.4.8.dist-info/RECORD,,
