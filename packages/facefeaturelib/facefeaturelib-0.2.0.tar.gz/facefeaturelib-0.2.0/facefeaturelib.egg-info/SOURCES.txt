@@ -1,0 +1,10 @@
+README.md
+setup.py
+facefeaturelib/__init__.py
+facefeaturelib/face_detector.py
+facefeaturelib/inference_onnx.py
+facefeaturelib/scrfd.py
+facefeaturelib.egg-info/PKG-INFO
+facefeaturelib.egg-info/SOURCES.txt
+facefeaturelib.egg-info/dependency_links.txt
+facefeaturelib.egg-info/top_level.txt
