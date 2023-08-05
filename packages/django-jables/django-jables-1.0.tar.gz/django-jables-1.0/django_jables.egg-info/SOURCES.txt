@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_jables.egg-info/PKG-INFO
+django_jables.egg-info/SOURCES.txt
+django_jables.egg-info/dependency_links.txt
+django_jables.egg-info/requires.txt
+django_jables.egg-info/top_level.txt
+jables/__init__.py
+jables/apps.py
+jables/models.py
