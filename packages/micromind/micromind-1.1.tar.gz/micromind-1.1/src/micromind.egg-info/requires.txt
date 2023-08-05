@@ -1,0 +1,5 @@
+czifile
+numpy
+opencv-contrib-python-headless
+pandas
+tifffile
