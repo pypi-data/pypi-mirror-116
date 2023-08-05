@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dd_snovio/__init__.py
+dd_snovio/snovio.py
+dd_snovio.egg-info/PKG-INFO
+dd_snovio.egg-info/SOURCES.txt
+dd_snovio.egg-info/dependency_links.txt
+dd_snovio.egg-info/requires.txt
+dd_snovio.egg-info/top_level.txt
