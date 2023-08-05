@@ -1,0 +1,9 @@
+README.md
+setup.py
+xyl1pdf/__init__.py
+xyl1pdf/pdf2image.py
+xyl1pdf/pdf2text.py
+xyl1pdf.egg-info/PKG-INFO
+xyl1pdf.egg-info/SOURCES.txt
+xyl1pdf.egg-info/dependency_links.txt
+xyl1pdf.egg-info/top_level.txt
