@@ -1,0 +1,16 @@
+numberize/__init__.py,sha256=IyVuLoLv4xlmK3Td7UITBqMbhx6SM68EddHG-H-njRU,109
+numberize/calculators.py,sha256=5b6_a0Fs8MpFNXa7fb5z1w0jHtLDtTzvUdDlRn89hYM,1701
+numberize/dawgs.py,sha256=w73utnbNxXm8VGIYU-r_ajDMZng98PUDPxt_SuJuwo8,176
+numberize/linguists.py,sha256=HWFKjv6YIPc_6uru7DJ6GFnXynchMhr-VFH_ytjHqVc,1792
+numberize/numberizer.py,sha256=VGaNgYe35EMHoxGccSY8zvYVs_lKRqCQkL6Fp7lXvQY,453
+numberize/replacers.py,sha256=GprzTdAHkIc_-YGXm4qVnz9I2uCWRrYl3VE0XgBWNl8,2162
+numberize/tokenizers.py,sha256=GAKY58Ft6Kq_jttlYxkjbRt0Ibr8q733JcOa9JDKbec,3047
+numberize/dicts/__init__.py,sha256=56FP5sZMLpXCH3nwyz_AwnxqXHO7TciXLIayT7yR_d8,96
+numberize/dicts/en.py,sha256=lOt4-nvBNwsalNGmjAN4KhhLNOimva0ihg14VzLpIH8,590
+numberize/dicts/ru.py,sha256=R_jziqK2iCfKkKPDsoRNkFaRccgx1wpmVAUoiYMEwF8,1115
+numberize/dicts/uk.py,sha256=JRrvnwHq41TQtcPrtyYI0T7xwKSYEphk4PkxLc4GdCE,1099
+numberize-1.0.1.dist-info/LICENSE,sha256=b5RdiVCG59iqfbqwMoj6hCjrMXfdvkj-82HFx_pDybw,1094
+numberize-1.0.1.dist-info/METADATA,sha256=8jFhJgOArXViNujZGpLGN-IGtTT_FxpuGW7-BEFca9k,1327
+numberize-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+numberize-1.0.1.dist-info/top_level.txt,sha256=Mh6tRTmIpPhVt-cMLZRyPyTL-IUwD8po6I7I9qJPwxc,10
+numberize-1.0.1.dist-info/RECORD,,
