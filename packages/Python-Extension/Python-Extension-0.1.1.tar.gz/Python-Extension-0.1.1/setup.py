@@ -1,0 +1,12 @@
+from setuptools import *
+
+setup(
+    name = 'Python-Extension',
+    version = '0.1.1',
+    description = 'Python Extension ( For Python 3.10 or more later )',
+    license = 'GPL',
+    author = 'Yile Wang',
+    packages = find_packages(),
+    python_requires = '>=3.10',
+    include_package_data = True
+    )
