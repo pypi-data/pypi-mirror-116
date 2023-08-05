@@ -1,0 +1,16 @@
+redman/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redman/__main__.py,sha256=pSQhihbHCLZKEXnfawbio8_RbryAcwXSR9fjF9lJyrQ,40
+redman/cli.py,sha256=A1nWHvtRfNy1pcDgkls0FD_X45cc2r_cnH_2CjIW2v4,7759
+redman/config.py,sha256=5WlLknuoTrPDWyDIDT5lG_xWpwNitEVj26BZUzF9WUQ,1272
+redman/history.py,sha256=HGhUSzuemle_0yEgwiecXcXnGIPinUl7lE1Jv-_uhew,948
+redman/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redman/helpers/color.py,sha256=bZew_kQhMc3MN7bFDGGjg8BDODERrjjfhyw870coeB0,783
+redman/helpers/fzf.py,sha256=KX8Ud4uGYr1-drysbfW4Hk2SNf3whjMO1YRT_Pm9Ufs,697
+redman/helpers/redmine_api.py,sha256=4BeVjFfYGFgQAw1mnX1H6EzluPIyTA5EE175Iad3kMY,3919
+redman/helpers/table.py,sha256=cBbglGwX4Jm-0Ig0ICH-W7KSHTjNmlhJlPiPhxt9HCo,592
+redman-0.1.0.dist-info/LICENSE,sha256=nFQ-EAL-JVfm3d0UuJSGtSpAD6whfcLdxVWF5rD5HpE,1064
+redman-0.1.0.dist-info/METADATA,sha256=vm1lgV4M6-dJ_W3dm9M40DFL5_3dXPOs4_CikFxX1uU,5785
+redman-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+redman-0.1.0.dist-info/entry_points.txt,sha256=d71jyvChA1_58WIl34L7MZ6deec_utcJHn277PLHwDw,46
+redman-0.1.0.dist-info/top_level.txt,sha256=jHc5B4FpjYWtUp4cYt8GAHg9ZlqIZT_HwRDy7HHYIkU,7
+redman-0.1.0.dist-info/RECORD,,
