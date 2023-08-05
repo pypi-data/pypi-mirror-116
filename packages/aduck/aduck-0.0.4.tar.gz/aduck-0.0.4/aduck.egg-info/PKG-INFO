@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aduck
+Version: 0.0.4
+Summary: util package
+Home-page: https://g42.ai
+Author: Daqian
+Author-email: daqian.zhang@g42.ai
+License: MIT Licence
+Description: # Aduck
+        
+        adalytyx top most common library
+Keywords: common library,5-layer,wrap layer
+Platform: any
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
