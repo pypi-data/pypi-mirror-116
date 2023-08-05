@@ -1,0 +1,17 @@
+schemdule/__init__.py,sha256=K79JZQIeOTuLCDiJqExiMcOaOMzlH94YjK5nOc4jHFw,145
+schemdule/__main__.py,sha256=hwqXjZuXFUhHZs2kk9jfqRtTTxCpDOi--zzuGPdoC1w,3433
+schemdule/timeutils.py,sha256=MmU1RrDlin5OjY8_AcVxEgYhSCTxJKp6kaoxZ0rl85I,778
+schemdule/extensions/__init__.py,sha256=dQS_8Miu2hC-Tlu0NGmOHK4xSl-Ga1jnZgycVKs_PZE,1532
+schemdule/helpers/__init__.py,sha256=5h0UFzLoxNVjRS--MUL0QTiyRKZq1piHc09y3OnLRds,1648
+schemdule/prompters/__init__.py,sha256=op8e--l3OqOjXYVIzMsnywQaHG7hRSgZ2HUFRSoB6ms,3125
+schemdule/prompters/builder.py,sha256=5C9lfJD-8n8o8ITfN6oziBQf9hzc0j2wsB0gTyJ9skY,1816
+schemdule/prompters/general.py,sha256=oi14r6ehTlJi6zpqfe4EUltF4Pzr1W-9jEy0tZkQVtU,1434
+schemdule/prompters/hubs.py,sha256=gggbQJRyR-Hm_mTytvhtkMyea6mtkF6m0ui6RsnZI3s,2970
+schemdule/schedulers/__init__.py,sha256=WzQSEWnsx29NcOM_lOgEgaLbbWMlKmTo8jWQ4T4ucrc,4887
+schemdule/schemas/__init__.py,sha256=cLI9xXz7-29MGZr9uzY_H7lA22gMfC9vwnHUnBPjdqY,3710
+schemdule/schemas/timetable.py,sha256=BJHIK0sBwPqzGkXm4e0C0j3JTmhjhtkDWN0DEXpPj5c,1974
+schemdule-0.0.8.dist-info/METADATA,sha256=VtgLKWIGyMNE8gVLflJPzvZ5Tthk9B6iwDSm7BC5K7E,7859
+schemdule-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+schemdule-0.0.8.dist-info/entry_points.txt,sha256=JgdYgYhtL9OigSTbld2rlO6bdy4b7Q8Y4UxP7dLn3LY,55
+schemdule-0.0.8.dist-info/top_level.txt,sha256=ldeP8Cwk0a3YraSKV48qB7JGSeKUE-8feUfieMbiprc,10
+schemdule-0.0.8.dist-info/RECORD,,
