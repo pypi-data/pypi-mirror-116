@@ -1,0 +1,9 @@
+setup.py
+randcolor/__init__.py
+randcolor/menu.py
+randcolor.egg-info/PKG-INFO
+randcolor.egg-info/SOURCES.txt
+randcolor.egg-info/dependency_links.txt
+randcolor.egg-info/entry_points.txt
+randcolor.egg-info/requires.txt
+randcolor.egg-info/top_level.txt
