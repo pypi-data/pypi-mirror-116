@@ -1,0 +1,3 @@
+[console_scripts]
+freealchemist = freealchemist.freealchemist:main
+

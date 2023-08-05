@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+FreeAlchemist.egg-info/PKG-INFO
+FreeAlchemist.egg-info/SOURCES.txt
+FreeAlchemist.egg-info/dependency_links.txt
+FreeAlchemist.egg-info/entry_points.txt
+FreeAlchemist.egg-info/requires.txt
+FreeAlchemist.egg-info/top_level.txt
+freealchemist/__init__.py
+freealchemist/freealchemist.py
