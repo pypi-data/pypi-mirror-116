@@ -1,0 +1,8 @@
+click
+requests
+chardet
+dws-repo2docker
+
+[s3]
+boto3
+s3fs
