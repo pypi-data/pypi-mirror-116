@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+log2kusto/__init__.py
+log2kusto/kusto_handler.py
+log2kusto.egg-info/PKG-INFO
+log2kusto.egg-info/SOURCES.txt
+log2kusto.egg-info/dependency_links.txt
+log2kusto.egg-info/top_level.txt
+tests/__init__.py
+tests/test_logger.py
