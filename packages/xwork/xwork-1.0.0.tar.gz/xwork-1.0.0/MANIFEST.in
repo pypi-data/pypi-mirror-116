@@ -1,0 +1,7 @@
+
+include *.md
+include LICENSE.TXT
+include setup.py
+recurisve-include data *
+
+include pyproject.toml

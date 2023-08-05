@@ -1,0 +1,10 @@
+LICENSE.TXT
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+xwork.egg-info/PKG-INFO
+xwork.egg-info/SOURCES.txt
+xwork.egg-info/dependency_links.txt
+xwork.egg-info/top_level.txt
