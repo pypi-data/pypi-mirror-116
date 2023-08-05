@@ -1,0 +1,10 @@
+setup.py
+QSwitchControl/QSwitchControl.py
+QSwitchControl/QSwitchControlplugin.py
+QSwitchControl/__init__.py
+QSwitchControl/__main__.py
+QSwitchControl.egg-info/PKG-INFO
+QSwitchControl.egg-info/SOURCES.txt
+QSwitchControl.egg-info/dependency_links.txt
+QSwitchControl.egg-info/requires.txt
+QSwitchControl.egg-info/top_level.txt
