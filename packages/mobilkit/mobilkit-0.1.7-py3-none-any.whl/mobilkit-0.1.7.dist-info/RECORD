@@ -1,0 +1,14 @@
+mobilkit/__init__.py,sha256=norQduwqJ2c-C1B35JVYDSzfWJw4RnCn1xXF8dn7K7k,412
+mobilkit/dask_schemas.py,sha256=DNtxm-KVwVY9CYlhgNWDGFQ8p0XClWyR_cuFDXJ1Cg0,3377
+mobilkit/displacement.py,sha256=qLldE3KLGsNJApAMvKEZbW5-AantSjVHZltInbe_oU4,6035
+mobilkit/loader.py,sha256=if8a-nC13NwUL5kFK9-YB-1MenSzEtCagAut7vtTY0Q,23822
+mobilkit/spatial.py,sha256=_OXcwLOGcGovMA1WIQeG5jQheu5DvURxoBdR5M3926g,37392
+mobilkit/stats.py,sha256=xfMI9yPVtlr7Lwi-qCcGf3-tVo18N5Nc8wiFI1DBvCI,27255
+mobilkit/temporal.py,sha256=39csB3pXUF6-00_zEi5mi1VtlhLtvmiBmTm96_t9DgY,42835
+mobilkit/tools.py,sha256=Mqo90nF-1SY-1p4O4HFLtuDU9Qc9EIXxoXYI2CiIYmg,9499
+mobilkit/viz.py,sha256=PXprApbcAi89Tu6y7eiFsunR8Gx1wo0E9BW9yaucnqI,6910
+mobilkit-0.1.7.dist-info/LICENSE,sha256=ZYQuNMFr2qSTRdk2mSMNy_6jXHLcWyj3pcKXR5Vtl74,1063
+mobilkit-0.1.7.dist-info/METADATA,sha256=OXcmDyHHYBvl4Ewy23onBjlUigTOrHIM97ootFJHGLw,7691
+mobilkit-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mobilkit-0.1.7.dist-info/top_level.txt,sha256=rvrLwRrd3dJU1YudKsroBO7KQNFYFqojBjwz-qeXeQ0,9
+mobilkit-0.1.7.dist-info/RECORD,,
