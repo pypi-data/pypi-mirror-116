@@ -1,0 +1,94 @@
+pipeline: [nas, fully_train]
+
+nas:
+    pipe_step:
+        type: SearchPipeStep
+    search_algorithm:
+        type: RandomSearch
+        objective_keys: ['accuracy', 'params']
+        policy:
+            num_sample: 1 #32
+    search_space:
+        type: OperatorSearchSpace
+        hyperparameters:
+            -   key: conv
+                type: CATEGORY
+                range: ['Conv2d', 'GhostConv2d']
+
+    model:
+        #pretrained_model_file: "./model_0.pth"
+        model_desc:
+            type: torchvision_resnet50
+    trainer:
+        type: Trainer
+        epochs: 1
+        max_train_steps: 1
+        optimizer:
+            type: SGD
+            params:
+                lr: 0.03 # 0.003
+                momentum: 0.9
+                weight_decay: !!float 1e-4
+        lr_scheduler:
+            type: WarmupScheduler
+            by_epoch: False   #
+            params:
+                warmup_type: linear
+                warmup_iters: 500   #2 #10
+                warmup_ratio: 0.01  #0.001
+                after_scheduler_config:
+                    type: MultiStepLR
+                    by_epoch: True
+                    params:
+                        milestones:  [30, 40] #[30] [10,20]
+                        gamma: 0.1
+        loss:
+            type: CrossEntropyLoss
+            params:
+                sparse: True
+
+    dataset:
+        type: Cifar10
+        common:
+            data_path: /cache/datasets/cifar10/
+            batch_size: 128
+        train:
+            transforms:
+                -   type: Resize
+                    size: [256, 256]
+                -   type: RandomCrop
+                    size: [224, 224]
+                -   type: RandomHorizontalFlip
+                -   type: ToTensor
+                -   type: Normalize
+                    mean: [0.50, 0.5, 0.5]
+                    std: [0.50, 0.5, 0.5]
+        val:
+            transforms:
+                -   type: Resize
+                    size: [224, 224]
+                -   type: ToTensor
+                -   type: Normalize
+                    mean: [0.50, 0.5, 0.5]
+                    std: [0.50, 0.5, 0.5]
+        test:
+            transforms:
+                -   type: Resize
+                    size: [224, 224]
+                -   type: ToTensor
+                -   type: Normalize
+                    mean: [0.50, 0.5, 0.5]
+                    std: [0.50, 0.5, 0.5]
+
+
+fully_train:
+    pipe_step:
+        type: TrainPipeStep
+        load_weights: False
+        models_folder: "{local_base_path}/output/nas/"
+    trainer:
+        ref: nas.trainer
+        callbacks: OperatorReplaceCallback
+        epochs: 40
+    dataset:
+        ref: nas.dataset
