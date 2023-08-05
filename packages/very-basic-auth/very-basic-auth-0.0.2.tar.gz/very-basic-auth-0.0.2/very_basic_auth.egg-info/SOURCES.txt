@@ -1,0 +1,8 @@
+setup.py
+very_basic_auth/__init__.py
+very_basic_auth/user_auth.py
+very_basic_auth.egg-info/PKG-INFO
+very_basic_auth.egg-info/SOURCES.txt
+very_basic_auth.egg-info/dependency_links.txt
+very_basic_auth.egg-info/requires.txt
+very_basic_auth.egg-info/top_level.txt
