@@ -1,0 +1,33 @@
+cryptography
+CloudStackAIO
+PyYAML
+AsyncOpenStackClient
+cobald>=0.12.1
+asyncssh
+aiotelegraf
+elasticsearch
+aioprometheus
+kubernetes_asyncio
+pydantic
+
+[:python_version < "3.7"]
+aiohttp<4.0
+
+[:python_version >= "3.7"]
+aiohttp
+
+[contrib]
+flake8
+flake8-bugbear
+flake8
+
+[contrib:implementation_name == "cpython"]
+black
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-contentui
+
+[test]
+flake8
