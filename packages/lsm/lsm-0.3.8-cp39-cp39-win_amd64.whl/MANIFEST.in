@@ -1,0 +1,9 @@
+
+# Add requirement licenses
+include src/lz4/LICENSE
+include src/zstd/LICENSE
+include src/sqlite/LICENSE.md
+
+# Add library interface
+include lsm/lsm.pyi
+include README.md
