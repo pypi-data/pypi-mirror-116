@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jaxtpu"
+version = "0.1.7"
+readme = "README.md"
+homepage = "https://github.com/shawwn/jaxtpu"
+description = "A helper package to install the latest JAX on TPUs, along with all necessary dependencies (e.g. libtpu-nightly)"
+authors = ["Shawn Presser"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.urls]
+"Shawn's Website" = "https://www.shawwn.com"
+"Support me on Patreon" = "https://www.patreon.com/shawwn"
+"@theshawwn on Twitter" = "https://www.twitter.com/theshawwn"
+"sillysaurusx on Hacker News" = "https://news.ycombinator.com/threads?id=sillysaurusx"
