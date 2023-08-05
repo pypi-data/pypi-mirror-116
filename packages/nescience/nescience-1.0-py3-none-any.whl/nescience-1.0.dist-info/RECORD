@@ -1,0 +1,17 @@
+nescience/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+nescience/anomalies.py,sha256=pVkfm9vBwP8q_mdlYZNCW6134qyQT6UHK9o_MfVLpfY,11466
+nescience/classifier.py,sha256=3kgckA-CU8LHo0qtly6OuSp3dNC3aYBTtkpV1dOGprM,19473
+nescience/inaccuracy.py,sha256=7ArAgV-Upt6VOz8QJTgawEDvFaV1KSHqlMXCk33PIJ8,4020
+nescience/miscoding.py,sha256=E6JlKcFk2a5ImXb71yLBNYX_HdfYwbU3g-RRmx5DoBM,19041
+nescience/nescience.py,sha256=pQQggleM9rf7BRQ7A-3neDEHgGqA_XYwa0P0fEUp-gI,6779
+nescience/regressor.py,sha256=LHS_74k_zclF8IUhWgUEIZNVo0Q-9hXfHetSMK5cgNA,11225
+nescience/surfeit.py,sha256=VfhIaIn487jqNjpgVmnVoj4uIg5G0zZv2zpjBaJb2n0,39007
+nescience/test_fastautoml.py,sha256=lKS6hZJnU4MnekwcftRlgHf0__mc_-A1bltLHMBG1fQ,3677
+nescience/test_inaccuracy.py,sha256=B5fc-B9jYO1M8RzoJL9uIX-4ypSU-wKtpt0u5v4pzWA,1848
+nescience/test_miscoding.py,sha256=cwoWcr1jKexVykvQ8R0iPwT3zqMFqw4IR1rUfzGpuiQ,6588
+nescience/timeseries.py,sha256=r1EEACr_W62iCHhMfvJQlzzJ6QpbM3DylUkzJDAJddI,18044
+nescience/utils.py,sha256=62fDjD_hCTNTRt44D4QbJwXl_upxyuwqcZo1tgmcpA0,5124
+nescience-1.0.dist-info/METADATA,sha256=Uxm5SDjkRVW06OTKd7LPepsCzXw5fXZ1iBDw6eCwVjw,3295
+nescience-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nescience-1.0.dist-info/top_level.txt,sha256=MHCqGFUbQLMIAHm2ZdIdkQ_mF0MTXHdche6a9nMKyVs,10
+nescience-1.0.dist-info/RECORD,,
