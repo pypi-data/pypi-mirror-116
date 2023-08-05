@@ -1,0 +1,2 @@
+exclude README.md
+include jp_cvu_normalizer/resource/*
