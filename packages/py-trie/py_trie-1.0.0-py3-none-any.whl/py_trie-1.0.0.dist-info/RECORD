@@ -1,0 +1,9 @@
+pytrie/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+pytrie/__main__.py,sha256=HANGGiKP-xpUwPMpjD_CpAfnIEnVvru5Duqa8K8dBA4,1956
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=LqgXHA1nnFjm9U-M39l60uE9Yij-yHnCiqHxGfoLfqc,13756
+py_trie-1.0.0.dist-info/METADATA,sha256=cjGxxj-9mUKgR0rklWJH3fosxNh5wkzbkxTOH_lvpnM,1985
+py_trie-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_trie-1.0.0.dist-info/entry_points.txt,sha256=4R4WrQrPPv9L3VnTYk0V0vuRCur-oG1hVbMjNLWwIzw,49
+py_trie-1.0.0.dist-info/top_level.txt,sha256=KooeNi_bRTo04q057NiwFoaziYf-4xd_V0yRWu1vhxM,13
+py_trie-1.0.0.dist-info/RECORD,,
