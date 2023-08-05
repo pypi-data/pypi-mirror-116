@@ -1,0 +1,15 @@
+torch
+torchvision
+pyyaml
+tqdm
+requests
+matplotlib
+Pillow
+pandas
+
+[RemoteMonitor]
+requests
+
+[extra tokenizers]
+spacy
+nltk
