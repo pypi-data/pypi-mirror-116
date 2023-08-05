@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dnn-inference
+Version: 0.11
+Summary: Dnn-Inference is a Python module for hypothesis testing based on deep neural networks.
+Home-page: https://github.com/statmlben/dnn-inference
+Author: Ben Dai
+Author-email: bdai@umn.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
