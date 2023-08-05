@@ -1,0 +1,6 @@
+networkx>=2.6
+pandas>=1.14
+rdkit-pypi>=2021.03
+snakemake>=5.0
+seaborn>=0.11
+toolz>=0.11
