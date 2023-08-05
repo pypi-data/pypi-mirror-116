@@ -1,0 +1,11 @@
+autotoloka_test/__init__.py,sha256=EBRusvfUZPWQdvE4Wk_24Tc95te0pHFRiHhO8h5BM88,365
+autotoloka_test/create_pool.py,sha256=leglV3CxFVTaF6GCcFTF2_bm9wkZ748UhiJ41KOHWRw,2228
+autotoloka_test/create_task.py,sha256=Ue-DexEUiON5iQHxwQvZILrPaSxesNUbyuruK0xis80,623
+autotoloka_test/handler.py,sha256=V69aqLhztdbopr24LsxcJfhS4vNtnycVmbzssHQZXxM,13995
+autotoloka_test/pipeline.py,sha256=ejsjYHVs-IHElqugMgbtYxbUEuG5FU4BNnex6dVTnTo,2219
+autotoloka_test/test.py,sha256=8OG3pvnFpi0lk7TNjelRzfZy_7Kotvsj8qwZwbZXdCU,695
+autotoloka_test/utils.py,sha256=T0Ryctcd5pSXzRQsXBLYbBteCQuQaQiT7koVXnJkHEg,1008
+AutoToloka-0.0.3.dist-info/METADATA,sha256=4dDu9Hy-kXLIR4173vhlIx6eeEGe7imlXI2CiCaGMfA,3849
+AutoToloka-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+AutoToloka-0.0.3.dist-info/top_level.txt,sha256=IOW9t3oaI-A7Jq5WmulGNoV9NZDJjnN2JTbqi1hgXH0,16
+AutoToloka-0.0.3.dist-info/RECORD,,
