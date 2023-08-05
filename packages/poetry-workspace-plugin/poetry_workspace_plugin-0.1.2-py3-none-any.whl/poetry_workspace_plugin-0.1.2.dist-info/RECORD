@@ -1,0 +1,7 @@
+poetry_workspace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_workspace/plugin.py,sha256=GEZ5ymr_eaqXmusHUiHG_IPJ2j6jgQ5qtAknIWLV4aQ,3455
+poetry_workspace/workspace.py,sha256=KRikWzc-qZk8R4y_fSPxa8yjmB06MgMKfTxv9Fgm-B8,2523
+poetry_workspace_plugin-0.1.2.dist-info/entry_points.txt,sha256=T_grsv1pxa3nmMbupEsGJJjKFyqy_UV9rF8PG1dAJh8,93
+poetry_workspace_plugin-0.1.2.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+poetry_workspace_plugin-0.1.2.dist-info/METADATA,sha256=St1ieuEB2Ma6LACDBiru4PgJigAnM5SKRyjJpC53zgA,539
+poetry_workspace_plugin-0.1.2.dist-info/RECORD,,
