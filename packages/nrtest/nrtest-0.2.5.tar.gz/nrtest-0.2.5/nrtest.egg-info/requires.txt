@@ -1,0 +1,3 @@
+six
+psutil>=2.0
+packaging
