@@ -1,0 +1,4 @@
+pyee
+requests
+pyppeteer
+httplib
