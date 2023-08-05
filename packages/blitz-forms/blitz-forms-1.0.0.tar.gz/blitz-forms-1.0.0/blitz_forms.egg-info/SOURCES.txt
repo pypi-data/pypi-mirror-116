@@ -1,0 +1,7 @@
+setup.py
+blitz-forms/__init__.py
+blitz-forms/statics.py
+blitz_forms.egg-info/PKG-INFO
+blitz_forms.egg-info/SOURCES.txt
+blitz_forms.egg-info/dependency_links.txt
+blitz_forms.egg-info/top_level.txt
