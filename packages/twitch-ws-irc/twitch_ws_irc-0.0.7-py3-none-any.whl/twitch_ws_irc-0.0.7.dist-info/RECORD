@@ -1,0 +1,15 @@
+twitch_ws_irc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twitch_ws_irc/client.py,sha256=lzZic3MGkmaf7CdiPy7yKWJFPwbqWQarF75BCQPMacE,2910
+twitch_ws_irc/events.py,sha256=upGF6CYVauahiSHjTm1dAJvUDZIgOEOHem-ny4iq7Ic,2170
+twitch_ws_irc/irc_visitor.py,sha256=cFbfwGCvQrSIYmmGryxzmTe3XzrJ1oGrVhFJ1_g1224,1859
+twitch_ws_irc/antlr/__init__.py,sha256=0jGB3qoJ73mUDoruh0xJQzfJu5o6yPdbQ6pFMbdC-BQ,593
+twitch_ws_irc/antlr/irc/IRCLexer.py,sha256=svn1meSSVFHc6Jg-mMoYlvxzcV22TQYZvPQX4PUR4Cs,7814
+twitch_ws_irc/antlr/irc/IRCListener.py,sha256=xlbhObtsC1ATktT6x-gVZkqFHnlbw7XpsE60eMr5Hzo,5252
+twitch_ws_irc/antlr/irc/IRCParser.py,sha256=oOIVE_qElkBanOt8mVHsXXepEPRoqXGvR1XqTK3Kj4s,49369
+twitch_ws_irc/antlr/irc/IRCVisitor.py,sha256=sto7G5HaCIroL7NBOWpgEQ6vDxBOHzs_30OkSL5EnSQ,3321
+twitch_ws_irc/antlr/irc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twitch_ws_irc-0.0.7.dist-info/LICENSE,sha256=zcmEum7Fv55V1eNqZt4xQr8KKsmI9EJl13_Su4-Zob4,1065
+twitch_ws_irc-0.0.7.dist-info/METADATA,sha256=b9zdqHvFtk7O1XyA1u4jPCmYbZOmAzBHSZks1pYMWR4,1497
+twitch_ws_irc-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+twitch_ws_irc-0.0.7.dist-info/top_level.txt,sha256=FEZIt4j5G1ITWIqCYkLwkvosV5TFvCqfpJ_Zz1eJWfs,14
+twitch_ws_irc-0.0.7.dist-info/RECORD,,
