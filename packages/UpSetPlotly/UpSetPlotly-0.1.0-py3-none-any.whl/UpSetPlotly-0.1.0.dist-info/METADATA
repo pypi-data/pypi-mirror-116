@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: UpSetPlotly
+Version: 0.1.0
+Summary: A Python package for creating UpSet-style plots using the Plotly framework.
+Home-page: https://github.com/kevinkovalchik/UpSetPlotly
+Author: Kevin Kovalchik
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: plotly
+
+UNKNOWN
+
