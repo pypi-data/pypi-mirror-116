@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+weight_converter/__init__.py
+weight_converter/convert.py
+weight_converter/interfaces.py
+weight_converter/utils.py
+weight_converter.egg-info/PKG-INFO
+weight_converter.egg-info/SOURCES.txt
+weight_converter.egg-info/dependency_links.txt
+weight_converter.egg-info/top_level.txt
