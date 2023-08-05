@@ -1,0 +1,13 @@
+pyjwt[crypto]>=2.1.0
+djangorestframework>=3.2.0
+django-waffle
+requests>=2.7.0
+python-dateutil>=2.0
+edx-opaque-keys
+semantic_version
+edx-django-utils>=3.8.0
+Django>=2.2
+rest-condition>=1.0.3
+drf-jwt
+six
+pyjwkest
