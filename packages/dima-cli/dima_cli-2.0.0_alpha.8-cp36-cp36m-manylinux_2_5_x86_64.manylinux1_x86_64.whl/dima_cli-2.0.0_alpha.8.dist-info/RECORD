@@ -1,0 +1,11 @@
+dima_cli-2.0.0_alpha.8.dist-info/METADATA,sha256=USX1TRyWEO9R4oX2eGrI5DjQy2iyLw5HvS9rJggTyn4,168
+dima_cli-2.0.0_alpha.8.dist-info/WHEEL,sha256=KFu1tHcw-_9EtHWYOnUIA-fL1T3Vh4otomTARbN5Jc0,125
+dima_cli-2.0.0_alpha.8.dist-info/entry_points.txt,sha256=N0pK3k20lMM9GZ6K0aXNvnn6T3bUWMs98wd6SrBXb4Y,47
+dima/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dima/bin/_dima.py,sha256=8vOqVPKbEeqVurJSDIyEBOObvXRaYPZamMKoyxlZiGc,2138
+dima/helpers/__init__.py,sha256=3x5bthNuzn20ynnDswLdpu8pLA1OHpmEgYKsa_SIu2s,20
+dima/__init__.py,sha256=tE6MNthMvp9wsT6Tq7XXya96tdeXMn3nji-T9PGi7As,23
+dima/exceptions.py,sha256=7CKIOLraC6u_jjncLWune_WhKwlSAFE6y943l7DDbQs,273
+dima/dima.py,sha256=t70OBDe1ozvBNT0N6pKAOM0FKFl5_sbtGgvv2XExLXU,3877
+dima/helpers/dima.cpython-36m-x86_64-linux-gnu.so,sha256=QHZHXT_8ARPa_nnyaT4ENIVaCtpcc29wdAmZ62MZ5rw,674456
+dima_cli-2.0.0_alpha.8.dist-info/RECORD,,
