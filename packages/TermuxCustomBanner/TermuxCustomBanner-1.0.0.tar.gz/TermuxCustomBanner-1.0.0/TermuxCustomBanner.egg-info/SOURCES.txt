@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+TermuxCustomBanner.egg-info/PKG-INFO
+TermuxCustomBanner.egg-info/SOURCES.txt
+TermuxCustomBanner.egg-info/dependency_links.txt
+TermuxCustomBanner.egg-info/requires.txt
+TermuxCustomBanner.egg-info/top_level.txt
