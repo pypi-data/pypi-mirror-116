@@ -1,0 +1,10 @@
+hexviewer/__init__.py,sha256=wpbcrl0T5A-UKnV2t5bsG9hMSGy_x5P7TRNxYpNruZw,92
+hexviewer/hexviewer,sha256=sY_HRhxNTl0zNBUNuI6utJpO1WtiqvF9D48cnU48kJ4,174
+hexviewer/hexviewer.py,sha256=WtwRgi1F1rfnjx2yyParxxrYsqM4FePmmwJZAKdGrdU,7501
+hexviewer/test.py,sha256=3_LIzK4ambaKgVwQzXdxWqa2qoN8y76aEbczqx6JS_8,1114
+hexviewer-0.1.4.data/scripts/hexviewer,sha256=sY_HRhxNTl0zNBUNuI6utJpO1WtiqvF9D48cnU48kJ4,174
+hexviewer-0.1.4.data/scripts/hexviewer.py,sha256=BUs031vsyE5txqB-GQG1NE0laumo9cObDsXQUCb-9to,7487
+hexviewer-0.1.4.dist-info/METADATA,sha256=3X9EpU3t4DQeWC5gGT3pdjTEPVrLtKKXtl6ZJIVAgt8,1297
+hexviewer-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hexviewer-0.1.4.dist-info/top_level.txt,sha256=YM-IewJPbmB3Gm05u66J4Le-JRd1YNfZxlvgWhf9D-I,10
+hexviewer-0.1.4.dist-info/RECORD,,
