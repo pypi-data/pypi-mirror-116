@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+readyml.egg-info/PKG-INFO
+readyml.egg-info/SOURCES.txt
+readyml.egg-info/dependency_links.txt
+readyml.egg-info/requires.txt
+readyml.egg-info/top_level.txt
+readyml/labels/ImageNetLabels.txt
+readyml/labels/imagenet21k_wordnet_lemmas.txt
+readyml/labels/mscoco_labels.json
+readyml/labels/tfhub_biggan_categories.json
