@@ -1,0 +1,16 @@
+nameko>=3.0.0-rc9
+h2>=3
+grpcio
+protobuf
+googleapis-common-protos
+
+[dev]
+coverage
+pytest
+pytest-timeout
+grpcio-tools
+grpcio-status
+googleapis-common-protos
+objgraph
+wrapt
+zmq
