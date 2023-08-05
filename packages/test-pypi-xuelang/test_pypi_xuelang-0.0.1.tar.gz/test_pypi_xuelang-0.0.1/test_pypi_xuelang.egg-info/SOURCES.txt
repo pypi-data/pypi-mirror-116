@@ -1,0 +1,8 @@
+README.md
+setup.py
+test_pypi/__init__.py
+test_pypi/print_srt.py
+test_pypi_xuelang.egg-info/PKG-INFO
+test_pypi_xuelang.egg-info/SOURCES.txt
+test_pypi_xuelang.egg-info/dependency_links.txt
+test_pypi_xuelang.egg-info/top_level.txt
