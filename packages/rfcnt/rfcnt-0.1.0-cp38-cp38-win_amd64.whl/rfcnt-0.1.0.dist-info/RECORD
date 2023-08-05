@@ -1,0 +1,16 @@
+rfcnt/LICENSE,sha256=89GBtU9l34BSC8LQO7RXOcEn8g3gHebwGu1Gv3suy48,1344
+rfcnt/README.md,sha256=0ooEdteqM1RIUaGuouBQ84EwrUxK0Sx6rHjlZT1ZCKA,2085
+rfcnt/requirements.txt,sha256=fkeYNF4ELJM3-9pcQcQufLVKKdoKLP8QH74vV9oxVTo,66
+rfcnt/rfcnt.cp38-win_amd64.pyd,sha256=znSDGNHGrR8-qw4KoOx1h1ClU5CTENgi5PYCxz2OO6w,65024
+rfcnt/run_examples.py,sha256=zhksJlkg-bnNlzxT1FVoEW4m5XnLjKKx-GDSxoCZ9ew,260
+rfcnt/run_tests.py,sha256=d79HB-I0OcunAmoCDDW6xOVtBEHfmAU_xYVYUPGusAM,442
+rfcnt/utils.py,sha256=LbOcut6medqq8AKpRrMVG9PGZO4_OuAHD3v3RfMgkY0,343
+rfcnt/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rfcnt/tests/examples.py,sha256=N2MOay_l5ZXSCHAZH6nmh3w05Xdc_9W6m5TUcQdWxpI,2379
+rfcnt/tests/long_series.csv,sha256=_L_YqAg1iNt6zduFzLB5Om-jBtdiSbuEEHkGFsejwGM,70007
+rfcnt/tests/test_rfcnt.py,sha256=fWiD8RiYAw7UHLmQ76BlY6JG0ruLW7cUZc8u258wKoA,8594
+rfcnt-0.1.0.dist-info/LICENSE,sha256=89GBtU9l34BSC8LQO7RXOcEn8g3gHebwGu1Gv3suy48,1344
+rfcnt-0.1.0.dist-info/METADATA,sha256=WS03ImeA2rzKXMEKQTuVlELuobHdGmu-kx2fsAwFf8Q,3210
+rfcnt-0.1.0.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+rfcnt-0.1.0.dist-info/top_level.txt,sha256=WsEZ2Ahjvh2ItxiY1Ok4lUyMIMbWOv2Cj9053WsLU6s,6
+rfcnt-0.1.0.dist-info/RECORD,,
