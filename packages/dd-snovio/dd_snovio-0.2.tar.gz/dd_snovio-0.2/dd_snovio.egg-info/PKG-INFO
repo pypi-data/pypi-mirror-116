@@ -1,0 +1,285 @@
+Metadata-Version: 2.1
+Name: dd-snovio
+Version: 0.2
+Summary: A Python library designed to simplify work with the snovio API
+Home-page: UNKNOWN
+Author: DevsData
+Author-email: tpotanski@devsdata.com
+License: MIT
+Keywords: snovio,snovio api,devsdata
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DD-snovio
+A Python library designed to simplify work with the snovio API.
+
+# Installation
+`pip install dd-snovio`
+
+# Usage
+
+## Asynchronous reqests
+To use asynchronous requests user should firstly create an instance of the async loop using:
+
+loop = asyncio.get_event_loop().
+
+Afterwards user can use the async_requests function to handle multiple requests:
+
+responses = loop.run_until_complete(snovioapi_class_instance.async_requests(
+            snovioapi_class_instance.async_function, loop, data))
+
+async_function - asynchronous function to perform
+loop - asyncio.get_event_loop()
+data - data to send, should be a list or list of dicts,
+        it depends on the type of async function.
+
+Note, the API rate is limited to 60 requests per minute.
+
+### Snovio.set_request_delay()
+ Enables user to set request delay time.
+
+    :param requests_delay: delay time between requests
+
+### Snovio.async_requests()
+Function responsible for handling async requests.
+
+    :param function: asynchronous function to perform
+    :param async_loop: loop instance of the async requests
+    :param data: data to send
+
+### Snovio.get_access_token()
+ Returns an access token to snovio API.
+ Price: Free
+ Limits: No
+
+    :return snovio response with access token
+
+### Snovio.get_domain_search()
+ Enter a domain name and Snov.io will return all the email addresses on the domain.
+ If there is any additional information about the email owner available in the database,
+ we will add it as well. Each response returns up to 100 emails. If it does not return
+ at least one email, you will not be charged for the request.
+ Price: 1 credit per 10 emails/prospects
+ Limits: No
+
+    :param domain_name: name of domain to get prospect from
+    :param last_id: id of the last prospect in previous request
+    :return snovio response with prospect
+
+### Snovio.get_email_count()
+ With this API method, you can find out the number of email addresses
+ from a certain domain in our database.
+ Price: Free
+ Limits: No
+
+    :param domain_name: name of domain to get prospect from
+    :return snovio response with dictionary containing the result
+
+### Snovio.async_get_email_finder()
+ Sends async request to get prospect from snovio API.
+ This API method finds email addresses using the person`s
+ first and last name, and a domain name. If we don`t have
+ this email address in our database, we won`t be able to
+ provide the results to you right away. To speed up the
+ process, you can use the Add Names To Find Emails method
+ to push this email address for search. After that, try the
+ Email Finder method again.
+ Price: Free
+ Limits: Yes
+
+    :param loop: loop instance of the async requests
+    :param person: dictionary containing information about the person:
+                  "domain_name", "first_name", "second_name"
+    :return snovio response with the prospect
+
+### Snovio.async_add_names_to_find_emails()
+ Sends async request to check if person is in snovio database.
+ If Snov.io does not have the emails you are looking for in its
+ database and can't provide these email addresses via the Email finder,
+ you can try to push the request for email search using this method.
+ If an email is found, you can collect it by using the free Email finder
+ request again.
+ Price: 1 credit per request
+ Limits: No
+
+    :param loop: loop instance of the async requests
+    :param person: dictionary containing information about the person:
+                    "domain_name", "first_name", "second_name"
+    :return snovio response with information about prospect availability
+
+### Snovio.async_add_url_for_search()
+ Prepares an url to be used in the snovio search engine.
+ Find prospects by social URL. To receive the results, use
+ the Get prospect with URL method.
+ Price: 1 credit per request
+ Limits: No
+
+    :param loop: loop instance of the async requests
+    :param profile_url: url to social profile
+    :return snovio response with information about the prospect
+
+### Snovio.async_get_prospect_from_url()
+ Sends async request to get prospect from snovio API using social URL
+ Price: Free
+ Limits: No
+
+    :param loop: loop instance of the async requests
+    :param profile_url: url to social profile
+    :return snovio response with the prospect
+
+### Snovio.async_get_profile_by_email()
+ Sends async request to get prospect from snovio API using email.
+ Provide an email address and Snov.io will return all the profile
+ information connected to the provided email address owner from
+ the database. If we find no information about the email owner in
+ our database, you will not be charged for the request.
+ Price: 1 credit per request
+ Limits: No
+        
+    :param loop: loop instance of the async requests
+    :param email_address: an email of the selected person
+    :return snovio response with the prospect
+
+### Snovio.get_email_verifier()
+ Check if the provided email addresses are valid and deliverable.
+ API endpoint will return the email verification results. If we
+ haven’t verified a certain email address before, the results
+ will not be returned to you. In this case, the API will return
+ a “not_verified” identifier and you will not be charged credits
+ for this email. You should use the Add emails for verification
+ method to push this email address for verification, after which
+ you will be able to get the email verification results using this
+ endpoint.
+ Price: Free
+ Limits: No
+
+    :param emails: emails to verify
+    :return snovio response with dictionary containing the results
+
+### Snovio.add_emails_for_verification()
+ If you've never verified a certain email address before,
+ you should push it for verification using this API method.
+ After performing this action, you can receive the verification
+ results using the Email verifier.
+ Price: 0.5 credit per email address
+ Limits: No
+
+    :param emails: emails to verify
+    :return snovio response with dictionary containing the results
+
+### Snovio.get_balance()
+ Use this method to check your credit balance.
+ Price: Free
+ Limits: No
+
+    :return snovio response with dictionary containing the results
+
+### Snovio.async_add_prospect_to_list()
+ Sends async request to add prospect to list.
+ Add prospect to a specific list. This method will
+ be useful for those who want to automate adding
+ prospects to lists with active email drip campaigns.
+ This way after a prospect is automatically added to
+ a chosen list, an email drip campaign will be started
+ for them automatically.
+
+ person = {'email':'john.doe@example.com',
+    'fullName': 'John Doe',
+    'firstName':'John',
+    'lastName':'Doe',
+    'country':'United States',
+    'locality':'Woodbridge, New Jersey',
+    'linkedIn':'https://www.linkedin.com/in/johndoe/&social',
+    '[twitter':'https://twitter.com/johndoe&social',
+    'position':'Vice President of Sales',
+    'companyName':'GoldenRule',
+    'companySite':'https://goldenrule.com',
+    'updateContact':1
+    'listId': '323231'
+ }
+
+ Price: Free
+ Limits: No
+
+    :param loop: loop instance of the async requests
+    :param prospect: information about the person
+    :return snovio response with information about the result
+
+### Snovio.async_get_prospect_by_id()
+ Sends async request to get prospect from snovio.
+ Find prospects from your lists by id. Knowing
+ the id of a specific prospect you can get full
+ information on the prospect, including the lists
+ and campaigns they’ve been added to.
+ Price: Free
+ Limits: No
+
+    :param loop: loop instance of async requests
+    :param prospect_id: id of the prospect in snovio
+    :return snovio response with the prospect
+
+
+### Snovio.async_get_prospect_by_email()
+ Sends async request to get prospect from snovio.
+ Find prospect from your lists by email address.
+ When you search by email, you receive a list of
+ all prospects tied to this email address. Every
+ element of the list contains full information on
+ the prospect, including the lists and campaigns
+ they’ve been added to.
+ Price: Free
+ Limits: No
+
+    :param loop: loop instance of the async requests
+    :param email: email of the prospect in snovio
+    :return snovio response with the prospect
+
+### Snovio.custom_fields()
+ This method returns a list of all custom fields created by the
+ user, including the fields’ name, whether the field is optional
+ or required, and the field’s data type.
+ Price: Free
+ Limits: No
+
+    :return snovio response with the information about the custom fields
+
+### Snovio.user_lists()
+ This method returns all lists created by the user. You can
+ use this method to review lists that can be used for an email
+ drip campaign.
+ Price: Free
+ Limits: No
+
+    :return snovio response with information about lists
+
+### Snovio.prospect_in_list()
+ This method returns all the data on prospects in a specific
+ list, including prospect’s data like email addresses and their
+ status.
+ Price: Free
+ Limits: No
+
+    :param stop_page: page of list to start downloading prospects
+    :param start_page: page of list to stop downloading prospects
+    :param list_id: id of the list to get prospects from
+    :return snovio response with prospects in list
+
+### Snovio.add_prospect_list()
+ Use this method to create new prospect lists in your account.
+ Price: Free
+ Limits: No
+
+    :param list_name: name of the list to create
+    :return snovio response with prospects in list  
+
+   
+
+
