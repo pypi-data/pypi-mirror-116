@@ -1,0 +1,9 @@
+README.rst
+setup.py
+src/helloworld-jmg/__init__.py
+src/helloworld_jmg.egg-info/PKG-INFO
+src/helloworld_jmg.egg-info/SOURCES.txt
+src/helloworld_jmg.egg-info/dependency_links.txt
+src/helloworld_jmg.egg-info/not-zip-safe
+src/helloworld_jmg.egg-info/requires.txt
+src/helloworld_jmg.egg-info/top_level.txt

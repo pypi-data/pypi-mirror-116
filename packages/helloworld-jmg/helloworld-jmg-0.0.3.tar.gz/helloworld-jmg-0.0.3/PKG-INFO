@@ -1,0 +1,55 @@
+Metadata-Version: 1.2
+Name: helloworld-jmg
+Version: 0.0.3
+Summary: A test
+Home-page: https://github.com/jose-manuel/helloworld-jmg
+Author: Jose-Manuel Gally
+Author-email: jose.manuel.gally@gmail.com
+Maintainer: Jose-Manuel Gally
+Maintainer-email: jose.manuel.gally@gmail.com
+License: MIT license
+Description: helloworld-jmg
+        ##############
+        
+        A test
+        
+        
+        Quickstart
+        ==========
+        
+        helloworld-jmg is available on PyPI and can be installed with `pip <https://pip.pypa.io>`_.
+        
+        .. code-block:: console
+        
+            $ pip install helloworld-jmg
+        
+        After installing helloworld-jmg you can use it like any other Python module.
+        
+        Here is a simple example:
+        
+        .. code-block:: python
+        
+            import helloworld-jmg
+            # Fill this section in with the common use-case.
+        
+        The `API Reference <http://helloworld-jmg.readthedocs.io>`_ provides API-level documentation.
+        
+        
+        .. _change-log-label:
+        
+        Change Log
+        ==========
+        
+        Version History
+        ---------------
+        
+        0.0.1
+            * Project created.
+        
+Keywords: helloworld-jmg
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
