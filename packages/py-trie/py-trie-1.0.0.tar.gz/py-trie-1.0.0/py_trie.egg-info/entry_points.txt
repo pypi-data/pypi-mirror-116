@@ -1,0 +1,3 @@
+[console_scripts]
+pytrie = pytrie.__main__:main
+
