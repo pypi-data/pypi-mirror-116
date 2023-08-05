@@ -1,0 +1,9 @@
+framework/__init__.py,sha256=PkFk7N4AIEEEme0ZltuRFFGxIV-scw3MbsxPuRwi_4Y,30
+framework/__main__.py,sha256=GsmBEf_T10Uq0Q2XCHSalqS4ND7SjqY-9MADFhZ_MS4,68
+framework/invoke.py,sha256=Pn7YZSaYUYiNBYS-iXMe_lEQdTWDDZinI2InFluxbyY,2239
+framework/locate.py,sha256=7YjSAkKpVa4-CZzB7L3bZ1DV3bdHK7KY-Qz0nE_2Wmw,3333
+http_containerize-0.4.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+http_containerize-0.4.1.dist-info/METADATA,sha256=jCxcLe33jS7ft5_8V2Cgn_tUCRoUxl12hbVD1-o9Vz0,2215
+http_containerize-0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+http_containerize-0.4.1.dist-info/top_level.txt,sha256=hzpv2xEeSkKTVweFn8I8XnG5zJJOIOTB38-_zgJJSUw,10
+http_containerize-0.4.1.dist-info/RECORD,,
