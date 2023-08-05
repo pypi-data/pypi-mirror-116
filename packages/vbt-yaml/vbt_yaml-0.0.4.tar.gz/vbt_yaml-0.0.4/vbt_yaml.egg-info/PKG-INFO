@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: vbt-yaml
+Version: 0.0.4
+Summary: Create yaml file for your vbt components
+Home-page: UNKNOWN
+Author: Pranav Bhatia
+Author-email: <prav10194@gmail.com>
+License: UNKNOWN
+Description: Create yaml file for your vbt components
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
