@@ -1,0 +1,13 @@
+requests>=2.24.0
+inflection>=0.5.0
+pyyaml>=5.4.1
+jsonschema>=3.2.0
+
+[dev]
+pytest>=5.4.3
+pytest-cov>=2.10.0
+requests-mock>=1.8.0
+coverage>=5.2
+pytest-mock>=3.6.1
+
+[docs]
