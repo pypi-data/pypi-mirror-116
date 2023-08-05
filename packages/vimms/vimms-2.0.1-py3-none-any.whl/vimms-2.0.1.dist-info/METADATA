@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: vimms
+Version: 2.0.1
+Summary: ViMMS is an LC-MS/MS simulator.
+Home-page: https://github.com/sdrogers/vimms
+Author: Joe Wandy, Vinny Davies, Justin J.J. van der Hooft, Stefan Weidt, Ronan Daly, Simon Rogers
+Author-email: joe.wandy@glasgow.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: argon2-cffi (==20.1.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: cached-property (==1.5.2)
+Requires-Dist: cerberus (==1.3.4)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cffi (==1.14.6)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: distlib (==0.3.2)
+Requires-Dist: events (==0.4)
+Requires-Dist: flake8 (==3.9.2)
+Requires-Dist: gpy (==1.10.0)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: intervaltree (==3.1.0)
+Requires-Dist: ipyparallel (==6.3.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: json5 (==0.9.6)
+Requires-Dist: jsonpickle (==2.0.0)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: jupyterlab (==3.1.4)
+Requires-Dist: jupyterlab-pygments (==0.1.2)
+Requires-Dist: loguru (==0.5.3)
+Requires-Dist: mass-spec-utils (==0.0.12)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: networkx (==2.6.2)
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: orderedmultidict (==1.0.1)
+Requires-Dist: pandas (==1.3.1)
+Requires-Dist: pandocfilters (==1.4.3)
+Requires-Dist: paramz (==0.9.5)
+Requires-Dist: pathspec (==0.9.0)
+Requires-Dist: patsy (==0.5.1)
+Requires-Dist: pep517 (==0.11.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pipenv-setup (==3.1.1)
+Requires-Dist: pipfile (==0.0.2)
+Requires-Dist: psims (==0.1.43)
+Requires-Dist: pymzml (==2.4.7)
+Requires-Dist: pysmiles (==1.0.1)
+Requires-Dist: pytest (==6.2.4)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pywinpty (==1.1.3)
+Requires-Dist: regex (==2021.8.3)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-unixsocket (==0.2.0)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.7.1)
+Requires-Dist: seaborn (==0.11.1)
+Requires-Dist: send2trash (==1.8.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: statsmodels (==0.12.2)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: tqdm (==4.62.0)
+Requires-Dist: typed-ast (==1.4.3)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: async-generator (==1.10) ; python_full_version >= "3.5.0"
+Requires-Dist: decorator (==5.0.9) ; python_full_version >= "3.5.0"
+Requires-Dist: jupyter-client (==6.1.12) ; python_full_version >= "3.5.0"
+Requires-Dist: matplotlib-inline (==0.1.2) ; python_full_version >= "3.5.0"
+Requires-Dist: nbformat (==5.1.3) ; python_full_version >= "3.5.0"
+Requires-Dist: nest-asyncio (==1.5.1) ; python_full_version >= "3.5.0"
+Requires-Dist: pygments (==2.9.0) ; python_full_version >= "3.5.0"
+Requires-Dist: sniffio (==1.2.0) ; python_full_version >= "3.5.0"
+Requires-Dist: testpath (==0.5.0) ; python_full_version >= "3.5.0"
+Requires-Dist: tornado (==6.1) ; python_full_version >= "3.5.0"
+Requires-Dist: nbclient (==0.5.3) ; python_full_version >= "3.6.1"
+Requires-Dist: prompt-toolkit (==3.0.19) ; python_full_version >= "3.6.1"
+Requires-Dist: anyio (==3.3.0) ; python_full_version >= "3.6.2"
+Requires-Dist: zipp (==3.5.0) ; python_version < "3.8"
+Requires-Dist: importlib-metadata (==3.10.1) ; python_version < "3.8" and python_version < "3.8"
+Requires-Dist: typing-extensions (==3.10.0.0) ; python_version < "3.8" and python_version < "3.8"
+Requires-Dist: pbr (==5.6.0) ; python_version >= "2.6"
+Requires-Dist: cython (==0.29.24) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2"
+Requires-Dist: pyparsing (==2.4.7) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2"
+Requires-Dist: toml (==0.10.2) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2"
+Requires-Dist: plette[validation] (==0.2.3) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: entrypoints (==0.3) ; python_version >= "2.7"
+Requires-Dist: python-dateutil (==2.8.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2"
+Requires-Dist: six (==1.16.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2"
+Requires-Dist: babel (==2.9.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: packaging (==20.9) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: pluggy (==0.13.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: prometheus-client (==0.11.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: py (==1.10.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: pycodestyle (==2.7.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: pycparser (==2.20) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: pyflakes (==2.3.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: vistir (==0.5.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: attrs (==21.2.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: debugpy (==1.4.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: defusedxml (==0.7.1) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: lxml (==4.6.3) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: pip-shims (==0.5.3) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: requirementslib (==1.5.16) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: tomlkit (==0.7.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: wheel (==0.37.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4"
+Requires-Dist: urllib3 (==1.26.6) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4"
+Requires-Dist: sqlalchemy (==1.4.22) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4, 3.5"
+Requires-Dist: charset-normalizer (==2.0.4) ; python_version >= "3"
+Requires-Dist: greenlet (==1.1.1) ; python_version >= "3"
+Requires-Dist: idna (==3.2) ; python_version >= "3"
+Requires-Dist: black (==19.10b0) ; python_version >= "3.6"
+Requires-Dist: bleach (==4.0.0) ; python_version >= "3.6"
+Requires-Dist: click (==8.0.1) ; python_version >= "3.6"
+Requires-Dist: jedi (==0.18.0) ; python_version >= "3.6"
+Requires-Dist: jinja2 (==3.0.1) ; python_version >= "3.6"
+Requires-Dist: jupyter-core (==4.7.1) ; python_version >= "3.6"
+Requires-Dist: jupyter-server (==1.10.2) ; python_version >= "3.6"
+Requires-Dist: jupyterlab-server (==2.6.2) ; python_version >= "3.6"
+Requires-Dist: kiwisolver (==1.3.1) ; python_version >= "3.6"
+Requires-Dist: markupsafe (==2.0.1) ; python_version >= "3.6"
+Requires-Dist: nbclassic (==0.3.1) ; python_version >= "3.6"
+Requires-Dist: notebook (==6.4.3) ; python_version >= "3.6"
+Requires-Dist: parso (==0.8.2) ; python_version >= "3.6"
+Requires-Dist: pillow (==8.3.1) ; python_version >= "3.6"
+Requires-Dist: pyrsistent (==0.18.0) ; python_version >= "3.6"
+Requires-Dist: pyzmq (==22.2.1) ; python_version >= "3.6"
+Requires-Dist: terminado (==0.10.1) ; python_version >= "3.6"
+Requires-Dist: threadpoolctl (==2.2.0) ; python_version >= "3.6"
+Requires-Dist: tomli (==1.2.1) ; python_version >= "3.6"
+Requires-Dist: websocket-client (==1.2.0) ; python_version >= "3.6"
+Requires-Dist: ipykernel (==6.0.3) ; python_version >= "3.7"
+Requires-Dist: ipython (==7.26.0) ; python_version >= "3.7"
+Requires-Dist: molmass (==2021.6.18) ; python_version >= "3.7"
+Requires-Dist: nbconvert (==6.1.0) ; python_version >= "3.7"
+Requires-Dist: traitlets (==5.0.5) ; python_version >= "3.7"
+Requires-Dist: atomicwrites (==1.4.0) ; sys_platform == "win32"
+Requires-Dist: pywin32 (==301) ; sys_platform == "win32"
+Requires-Dist: win32-setctime (==1.0.3) ; sys_platform == "win32"
+Requires-Dist: colorama (==0.4.4) ; sys_platform == "win32" and platform_system == "Windows" and sys_platform == "win32" and sys_platform == "win32" and platform_system == "Windows"
+
+ViMMS is a modular LC-MS/MS simulator framework for metabolomics that allows for real-time scan-level control of the MS2 acquisition process in-silico. ViMMS allows users to simulate and test different fragmentation strategies and obtain fragmentation files in .mzML format as output from the simulation (the entire state of the simulator can also be saved for inspection later).
+
