@@ -1,0 +1,12 @@
+zimports/__init__.py,sha256=bB2HImwQ7On6L6UPAGPOtwZQo1SGIK_geM2cGeRPcww,30
+zimports/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+zimports/cli.py,sha256=5sDdZMtFZQqrxN8aCTizHC8sLGZtcXXFwzTNuKbCnbQ,3443
+zimports/zimports.py,sha256=daXc_laeX0_d2iV5G3YiaGouZaYFQcO8Z8m5OruxplM,28269
+zimports/vendored/__init__.py,sha256=8THzKpMp5tOzXru9bwqug-OCXoJF-U7ZvLKzy8VcQIk,40
+zimports/vendored/flake8.py,sha256=QY-lTKnAIGHoZBILzrokfTyj1B5CrDS7CN8LpPC3Fvo,6536
+zimports-0.4.1.dist-info/LICENSE,sha256=uCcW6N8t23mzvQYbOqmEyOVbxeNWwJtlLzfp5Gf-RoE,1102
+zimports-0.4.1.dist-info/METADATA,sha256=SaOcE08N6FuHLRG82KTiGqPdD4w9DcWY9nfe5L-c--Y,11278
+zimports-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zimports-0.4.1.dist-info/entry_points.txt,sha256=B64omVJ0MMrzIBdLNeekVsVPOxgS9TxRTdCdZsPsqhQ,44
+zimports-0.4.1.dist-info/top_level.txt,sha256=VQJha2pAdtDdZqEfVdKrlGMlhFBJfX0ClREuvSaZaz0,9
+zimports-0.4.1.dist-info/RECORD,,
