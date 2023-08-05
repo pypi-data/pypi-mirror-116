@@ -1,0 +1,14 @@
+pyproject_parser/__init__.py,sha256=yUoYss9ECjI6xFwkTQlsVTYCWhPR0FifMRkvNo5w7NE,10733
+pyproject_parser/__main__.py,sha256=4xiHmjueCu1DYo1j5qJtZ2yH30W324UJfPR1Gzzlr_8,6394
+pyproject_parser/classes.py,sha256=KxJqCuciRv2PpzNH9dZe3lHrtLpUxGm_ZbjqFCiYIk0,10105
+pyproject_parser/cli.py,sha256=33VP7ch5COfDRwvf1b_Nu1L8y2xCIdL7rKbn4Fgnmko,2936
+pyproject_parser/parsers.py,sha256=rog4bBWrtyLUJAQmFoatU1XCDNKhkzZvi2eEhq39PB0,30660
+pyproject_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_parser/type_hints.py,sha256=wcjuL-iprtanrXcTznme3AhOLaG60u6iQvQsZW954jA,3778
+pyproject_parser/utils.py,sha256=rM-wEa6OBi6g-DdeFxwYuSz5m7PID284JgMIG2GzRQE,3784
+pyproject_parser-0.4.2.dist-info/LICENSE,sha256=TXanB-tJYmHhByFsynyh-UGwh2VdTVVjbZeFz1utSWc,1064
+pyproject_parser-0.4.2.dist-info/METADATA,sha256=LXO9D8tNWsIC5YmN0Wzz4B-SSEfh4sOyuOqDPe0JhmI,7961
+pyproject_parser-0.4.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyproject_parser-0.4.2.dist-info/entry_points.txt,sha256=PuV-S7a1JheCnXfDrePlEzsLypi5HqcQRXtgVr3_Ff4,165
+pyproject_parser-0.4.2.dist-info/top_level.txt,sha256=Z7uc9QR3zBgLW9Jrid-Fy-39poYxOmobKr0dglxN9xU,17
+pyproject_parser-0.4.2.dist-info/RECORD,,
