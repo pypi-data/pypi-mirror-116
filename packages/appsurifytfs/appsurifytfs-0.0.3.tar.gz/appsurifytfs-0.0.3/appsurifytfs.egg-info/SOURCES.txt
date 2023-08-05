@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+README.txt
+setup.py
+appsurifytfs/__init__.py
+appsurifytfs/appsurifytfs.py
+appsurifytfs.egg-info/PKG-INFO
+appsurifytfs.egg-info/SOURCES.txt
+appsurifytfs.egg-info/dependency_links.txt
+appsurifytfs.egg-info/entry_points.txt
+appsurifytfs.egg-info/requires.txt
+appsurifytfs.egg-info/top_level.txt
