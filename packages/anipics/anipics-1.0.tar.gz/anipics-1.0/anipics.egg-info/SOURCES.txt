@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+anipics/__init__.py
+anipics/models.py
+anipics/parser.py
+anipics.egg-info/PKG-INFO
+anipics.egg-info/SOURCES.txt
+anipics.egg-info/dependency_links.txt
+anipics.egg-info/not-zip-safe
+anipics.egg-info/top_level.txt
