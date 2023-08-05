@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: helloworld-jmg
+Version: 0.0.6
+Summary: A test
+Home-page: https://github.com/jose-manuel/helloworld-jmg
+Author: Jose-Manuel Gally
+Author-email: jose.manuel.gally@gmail.com
+Maintainer: Jose-Manuel Gally
+Maintainer-email: jose.manuel.gally@gmail.com
+License: MIT license
+Keywords: helloworld-jmg
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: adjustText (>=0.7.3)
+Requires-Dist: networkx (>=2.6)
+Requires-Dist: ipython (>=7.25)
+Requires-Dist: more-itertools (>=8.8)
+Requires-Dist: pandas (>=1.14)
+Requires-Dist: pillow (>=8.3.1)
+Requires-Dist: psycopg2 (>=2.9)
+Requires-Dist: rdkit-pypi (>=2021.03)
+Requires-Dist: snakemake (>=5.0)
+Requires-Dist: seaborn (>=0.11)
+Requires-Dist: toolz (>=0.11)
+Requires-Dist: scipy (>=1.5)
+
+helloworld-jmg
+##############
+
+A test
+
+
+Quickstart
+==========
+
+helloworld-jmg is available on PyPI and can be installed with `pip <https://pip.pypa.io>`_.
+
+.. code-block:: console
+
+    $ pip install helloworld-jmg
+
+After installing helloworld-jmg you can use it like any other Python module.
+
+Here is a simple example:
+
+.. code-block:: python
+
+    import helloworld-jmg
+    # Fill this section in with the common use-case.
+
+The `API Reference <http://helloworld-jmg.readthedocs.io>`_ provides API-level documentation.
+
+
+.. _change-log-label:
+
+Change Log
+==========
+
+Version History
+---------------
+
+0.0.1
+    * Project created.
+
+
