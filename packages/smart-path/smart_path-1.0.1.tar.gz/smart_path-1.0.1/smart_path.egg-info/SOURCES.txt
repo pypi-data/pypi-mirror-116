@@ -1,0 +1,9 @@
+README.md
+setup.py
+smart_path/__init__.py
+smart_path/__version__.py
+smart_path.egg-info/PKG-INFO
+smart_path.egg-info/SOURCES.txt
+smart_path.egg-info/dependency_links.txt
+smart_path.egg-info/requires.txt
+smart_path.egg-info/top_level.txt
