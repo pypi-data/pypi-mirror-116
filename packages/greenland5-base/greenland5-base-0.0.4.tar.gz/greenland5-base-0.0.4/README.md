@@ -1,0 +1,49 @@
+# Greenland5 Base Package
+## About
+
+'greenland5-base' provides foundational features that need to be
+available to every Greenland5 package and interfaces (hooks) into
+installed Greenland5 packages. Currently this is mostly a commandline
+interface - 'greenland' - that allows to execute the built-in self
+tests via 'greenland bist'.
+
+## Future Plans
+
+- Factor out runtime for commandline interfaces (mainly the subcommand
+  registry) and make it available via the (future) 'greenland.cmdline'
+  package. See Stories/cmdline-runtime-exposed.org.
+
+## How to Contribute
+
+- Fork the project on gitlab
+  (https://gitlab.com/m-e-leypold/greenland5-base), then set a merge
+  request. Please clean up your changeset (squashing, rebasing,
+  rewriting the commit messages) before setting the merge request.
+
+- Report bugs at gitlab.
+
+We're currently not providing a way to submit pull-requests per mail
+or requesting merges from repositories outside of gitlab. This might
+come in the future when community contributions become significant.
+
+You can try to send patches to the maintainer e-mail address, but we
+strongly prefer at the moment that you use gitlab.
+
+## LICENSE
+
+	greenland5-base - Foundational features for Greenland5 packages
+	Copyright (C) 2020 M E Leypold
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
