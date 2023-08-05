@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vimms
+Version: 2.0.1
+Summary: ViMMS is an LC-MS/MS simulator.
+Home-page: https://github.com/sdrogers/vimms
+Author: Joe Wandy, Vinny Davies, Justin J.J. van der Hooft, Stefan Weidt, Ronan Daly, Simon Rogers
+Author-email: joe.wandy@glasgow.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ViMMS is a modular LC-MS/MS simulator framework for metabolomics that allows for real-time scan-level control of the MS2 acquisition process in-silico. ViMMS allows users to simulate and test different fragmentation strategies and obtain fragmentation files in .mzML format as output from the simulation (the entire state of the simulator can also be saved for inspection later).
+
