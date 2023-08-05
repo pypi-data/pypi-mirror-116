@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+conbasiccalculator/__init__.py
+conbasiccalculator.egg-info/PKG-INFO
+conbasiccalculator.egg-info/SOURCES.txt
+conbasiccalculator.egg-info/dependency_links.txt
+conbasiccalculator.egg-info/top_level.txt
