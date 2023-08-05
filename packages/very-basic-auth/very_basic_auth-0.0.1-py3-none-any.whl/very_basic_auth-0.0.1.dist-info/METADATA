@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: very-basic-auth
+Version: 0.0.1
+Summary: Very Basic auth for jupiter hub
+Home-page: https://github.com/joe-gasewicz/basic-auth
+Author: Joe Gasewicz
+Author-email: joegasewicz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: jupyterhub
+
+UNKNOWN
+
