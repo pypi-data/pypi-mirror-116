@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pdfannots.py
+setup.py
+pdfannots.egg-info/PKG-INFO
+pdfannots.egg-info/SOURCES.txt
+pdfannots.egg-info/dependency_links.txt
+pdfannots.egg-info/entry_points.txt
+pdfannots.egg-info/not-zip-safe
+pdfannots.egg-info/requires.txt
+pdfannots.egg-info/top_level.txt
