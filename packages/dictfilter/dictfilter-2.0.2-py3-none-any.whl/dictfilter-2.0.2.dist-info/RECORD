@@ -1,0 +1,13 @@
+dictfilter/__init__.py,sha256=MwY6f6xqBlnjrRaC_ZBAlZyeNzpEPA3y6GjIT-IWyP8,42
+dictfilter/core.py,sha256=g_5sZW9GuR8VOMSOL7PeIP32X40XLQQ5RiBWvFe4g_Q,1334
+dictfilter/version.py,sha256=q_c3EFh0iCcKVgJF9ehgl13pFxZpAXCaYnWkwBlYsFg,116
+dictfilter/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dictfilter/django/middleware.py,sha256=lfDQokPRTRpTeEGIM_8QPU2A3SzgO_oVrYeH2eccGIM,821
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_django.py,sha256=VCg50trjyudfxWFAtqaqo2YOuDt3yRxxo9cNo19du5Y,1980
+tests/test_query.py,sha256=qQ6Na5JUHoSukbuBKvAtwzc6MwR-sz2ThVqYXXC6qvY,7179
+dictfilter-2.0.2.dist-info/LICENSE,sha256=sQud--7iW7xP9riCxgh_eqBJJ-07qMNp1KCq6iG07EI,1061
+dictfilter-2.0.2.dist-info/METADATA,sha256=7P779MxqgNFjFW0jxg-uBl36Zgy-02fihH4ygxqeIno,1243
+dictfilter-2.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dictfilter-2.0.2.dist-info/top_level.txt,sha256=cMQydEhSXQJcsbbNtZu4Ee-85GJCkipMylTeoIMvlUE,17
+dictfilter-2.0.2.dist-info/RECORD,,
