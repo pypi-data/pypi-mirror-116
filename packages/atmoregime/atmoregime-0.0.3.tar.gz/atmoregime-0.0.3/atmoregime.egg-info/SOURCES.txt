@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+atmoregime.egg-info/PKG-INFO
+atmoregime.egg-info/SOURCES.txt
+atmoregime.egg-info/dependency_links.txt
+atmoregime.egg-info/top_level.txt
+data/test_data.csv
+src/__init__.py
+src/clustering.py
+src/deseasonaliser.py
+src/example.py
+src/preprocessing.py
+src/util.py
