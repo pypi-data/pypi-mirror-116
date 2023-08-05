@@ -1,0 +1,6 @@
+jaeger_model_proto.c
+setup.py
+jaeger_model_proto.egg-info/PKG-INFO
+jaeger_model_proto.egg-info/SOURCES.txt
+jaeger_model_proto.egg-info/dependency_links.txt
+jaeger_model_proto.egg-info/top_level.txt
