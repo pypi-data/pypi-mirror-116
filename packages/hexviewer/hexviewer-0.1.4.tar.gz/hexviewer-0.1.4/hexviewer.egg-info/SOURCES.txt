@@ -1,0 +1,11 @@
+README.md
+setup.py
+hexviewer/__init__.py
+hexviewer/hexviewer
+hexviewer/hexviewer.py
+hexviewer/test.py
+hexviewer.egg-info/PKG-INFO
+hexviewer.egg-info/SOURCES.txt
+hexviewer.egg-info/dependency_links.txt
+hexviewer.egg-info/requires.txt
+hexviewer.egg-info/top_level.txt
