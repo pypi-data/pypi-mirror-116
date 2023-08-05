@@ -1,0 +1,1 @@
+# This is a bit more complex so just read https://www.digitalocean.com/community/tutorials/how-to-build-a-django-and-gunicorn-application-with-docker
