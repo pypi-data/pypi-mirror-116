@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/chat-client.py
+src/chat-server.py
+src/utils.py
+src/console_chat_dsima.egg-info/PKG-INFO
+src/console_chat_dsima.egg-info/SOURCES.txt
+src/console_chat_dsima.egg-info/dependency_links.txt
+src/console_chat_dsima.egg-info/top_level.txt
