@@ -1,0 +1,6 @@
+hestia_earth.schema>=6.4.0
+hestia_earth.utils>=0.9.1
+hestia_earth.models>=0.12.3
+requests
+python-dateutil
+area
