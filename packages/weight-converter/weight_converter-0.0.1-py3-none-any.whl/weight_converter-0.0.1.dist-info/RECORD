@@ -1,0 +1,9 @@
+weight_converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weight_converter/convert.py,sha256=e5DS3MB5WSc9cSkObRt_iuaPJHoeWYK2INur5QGah04,12132
+weight_converter/interfaces.py,sha256=XpKMU2I1YiJyKIxzJpJYG8kfF6rDXlMk45TA_oFKl1I,1380
+weight_converter/utils.py,sha256=qwi6HXNwABLvc0QsTltJs0BXumNBftDUUrQx24t1egI,267
+weight_converter-0.0.1.dist-info/LICENSE.txt,sha256=fJ7bdkUWSs8oWA2XQGd1_rlL78FWgCrRkhnng4HAQeI,1077
+weight_converter-0.0.1.dist-info/METADATA,sha256=euzZfgEPhTY0jV0QF8YnSbQ48YHFOz3CklPgQCmXsss,805
+weight_converter-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+weight_converter-0.0.1.dist-info/top_level.txt,sha256=8LSjjSsuYs6YmzaYimCHBJ3xJTlD9BITUIn3kFiFMh4,17
+weight_converter-0.0.1.dist-info/RECORD,,
