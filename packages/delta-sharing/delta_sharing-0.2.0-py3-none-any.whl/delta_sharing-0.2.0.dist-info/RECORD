@@ -1,0 +1,11 @@
+delta_sharing/__init__.py,sha256=APdHfjH-149wDCUkLgmJkpKdz5WFkVm2sICcmH9JqC4,930
+delta_sharing/converter.py,sha256=98EO9G1hdGdqMZ8xB0XNQYOVzSWKyUqnzaMVp-eQa80,5066
+delta_sharing/delta_sharing.py,sha256=rTev9fafopUeF2z7R4Bu5O2mCZPF7wFwVvLCVxUhOzQ,5696
+delta_sharing/protocol.py,sha256=lWBB6sievuJIfgN50PrGkILSODRrLDu_TaDtkWrSnUI,5404
+delta_sharing/reader.py,sha256=h-c4pJ_zomNZMG4t47tvcsKQEw5FCS3h4wFmfmJM-LA,3962
+delta_sharing/rest_client.py,sha256=rrlD6UeRW5QeQ6Ut5qnSFf4Qch-LCIwOM5ctwKuKUg0,7938
+delta_sharing/version.py,sha256=6jd0qGPZwYAib3goBbh3I_2iQ0e6iq_u0YF848Ir_qo,626
+delta_sharing-0.2.0.dist-info/METADATA,sha256=m7w_wHgUx7OIcRNjWMv1Y_bD6UattZgMVafAKG0p8Ak,2697
+delta_sharing-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+delta_sharing-0.2.0.dist-info/top_level.txt,sha256=1UkJ9azVN0-m6-ekjsUMMjpF4HNLtR3tRpA6_7ORRHk,14
+delta_sharing-0.2.0.dist-info/RECORD,,
