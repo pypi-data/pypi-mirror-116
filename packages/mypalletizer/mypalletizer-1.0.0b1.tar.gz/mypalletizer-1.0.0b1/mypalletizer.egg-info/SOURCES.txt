@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mypalletizer/__init__.py
+mypalletizer/common.py
+mypalletizer/generate.py
+mypalletizer/log.py
+mypalletizer/main.py
+mypalletizer/utils.py
+mypalletizer.egg-info/PKG-INFO
+mypalletizer.egg-info/SOURCES.txt
+mypalletizer.egg-info/dependency_links.txt
+mypalletizer.egg-info/requires.txt
+mypalletizer.egg-info/top_level.txt
