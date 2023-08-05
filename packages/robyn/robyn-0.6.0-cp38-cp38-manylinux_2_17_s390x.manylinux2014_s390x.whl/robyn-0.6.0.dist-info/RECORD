@@ -1,0 +1,8 @@
+robyn-0.6.0.dist-info/METADATA,sha256=CIa9_8-bSBPIwYB142FTQeDulgMy7LQNQbX1efHJWJQ,1868
+robyn-0.6.0.dist-info/WHEEL,sha256=FHI5iZBArHaPAc4_EWld8NLui2l4Cxd4utjyS08BnHA,126
+robyn/dev_event_handler.py,sha256=EJrOLgWDMx6x0La1gujt3lFjrsoCnIVd6_HrUwLYb10,1137
+robyn/__init__.py,sha256=zyWOMIjxYdQNotXpej80ujskmCr1otjQd7cySY8AjaU,3701
+robyn/responses.py,sha256=KCjt-D3SMr6eadpyhZmARvUUrXTf57I4hOrLWLDiMCs,465
+robyn/log_colors.py,sha256=7gjhc4mBkIy--7PFs4nSZcSyb4ZEEWCf4lUr7qY1qGQ,226
+robyn/robyn.cpython-38-s390x-linux-gnu.so,sha256=iTUzUde6sGmAUsfV3QjbBB_1RGRbDpggl3-dPbfCS1g,12604424
+robyn-0.6.0.dist-info/RECORD,,
