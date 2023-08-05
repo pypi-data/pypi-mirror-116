@@ -1,0 +1,27 @@
+numpy>=1.14
+astropy>=3.2
+astropy-healpix>=0.6
+scipy>=1.1
+
+[docs]
+sphinx-astropy
+pytest
+pyvo
+matplotlib
+
+[test]
+pytest-astropy
+pytest-arraydiff
+pytest-cov
+pytest-doctestplus
+
+[testall]
+asdf
+gwcs
+pyvo
+
+[testall:platform_machine != "i686"]
+sunpy[map]>=2.1
+
+[testall:sys_platform != "win32" and python_version != "3.8"]
+shapely
