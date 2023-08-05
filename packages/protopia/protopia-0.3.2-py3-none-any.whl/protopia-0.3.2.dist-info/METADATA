@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: protopia
+Version: 0.3.2
+Summary: Python agent for protopia
+Home-page: https://github.com/protopia-ai/py-agent
+Author: Alan Synn
+Author-email: alan@protopia.ai
+License: UNKNOWN
+Download-URL: https://github.com/protopia-ai/py-agent/archive/0.2.1.tar.gz
+Keywords: protopia,protopia-agent
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio (>=1.34.1)
+Requires-Dist: grpcio-tools (>=1.34.1)
+Requires-Dist: oauthlib (>=3.1.0)
+Requires-Dist: requests-oauthlib (>=1.3.0)
+Requires-Dist: torch (>=1.0.0)
+
+# Python Protopia Agent
+
+This is a Python implementation of the Protopia Agent.
+
+## Install via Pypi
+
+```shell script
+pip install protopia
+```
+
+## Usage via Pypi
+
+```python
+import protopia
+
+client = protopia.Agent()
+client.get_option()
+# returns will be
+# > PROTOPIA_CLOUD_URL is set to api.stage-01.stage.protopia.ai:443
+# > TOKEN_URL is set to https://protopia-cloud-stage-01.auth.us-east-1.amazoncognito.com/oauth2/token
+# > SCOPES is set to ['https://api.stage-01.protopia.ai/noise:read']
+# > OIDC_CLIENT_ID is set to None
+# > OIDC_CLIENT_SECRET is set to None
+
+client.set_client(client_id, client_secret)
+# returns will be (See below to retrieve client_id and client_secret)
+# > OIDC_CLIENT_ID is set to client_id
+# > OIDC_CLIENT_SECRET is set to client_secret
+
+client.connect()
+# returns will be
+# > successfully connected to staging cloud API
+
+dist = client.get_noise_distribution(nnid)
+# returns will be encrypted noise distribution
+```
+
+## Development
+### Prerequisites
+Install the following programs:
+
+* Python version 3.8+
+* Run `pip3 install -r requirements.txt`
+* `protoc`
+  * In MacOS this can be installed by running `brew install protoc`
+
+### Preconfiguration
+The following environment variables must be exported prior to running the agent:
+
+- `OIDC_CLIENT_ID` the client ID of the agent issued by Cognito.
+- `OIDC_CLIENT_SECRET` the client secret of the agent issued by Cognito.
+
+You will get the predefined agent in [AWS cognito console](https://console.aws.amazon.com/cognito/users/?region=us-east-1#/pool/us-east-1_ajPQjW13a/clients?_k=g9mtiz)
+New user creation is described in the [cloud/example/nose_store/upload](https://github.com/protopia-ai/cloud/tree/main/example/nose_store/upload)
+
+### Installation for local package
+
+Once above is set then you can install the package by following command
+
+```shell script
+pip install .
+```
+
+### Build the package
+
+You can execute the following line to build the package
+
+```shell script
+python setup.py bdist_wheel
+```
+
+### Upload the package to Pypi
+
+You'll need twine to upload the package
+
+```shell script
+pip install twine
+```
+
+Then you'll need ID and Password for Pypi. contact alan@protopia.ai to get it.
+
+```shell script
+twine upload dist/{build location from above}
+# ex twine upload dist/protopia-0.1.0-py3-none-any.whl
+```
+### Generting Python From ProtocolBuffer
+A script is provided to generate Python code from the [ProtocolBuffer defintion of the gRPC protocol](../../api/protos/protopia/api/noise/v1beta1/distribution.proto) exposed by Protopia Cloud. To re-generate Python code from the ProtocolBuffer definition, run:
+
+```shell script
+make protoc
+```
+
+This will be executed in the [cloud repo]([https://](https://github.com/protopia-ai/cloud/))
+
+Then copy `cloud/protos/protopia-api/api` in cloud repo and paste to `py-agent/protopia/api`
+
