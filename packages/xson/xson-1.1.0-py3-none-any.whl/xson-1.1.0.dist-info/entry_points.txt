@@ -1,0 +1,3 @@
+[console_scripts]
+xson-tool = xson.tool:execute
+
