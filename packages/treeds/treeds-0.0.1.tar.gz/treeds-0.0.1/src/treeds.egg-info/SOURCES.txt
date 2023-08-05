@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/treeds.py
+src/treeds.egg-info/PKG-INFO
+src/treeds.egg-info/SOURCES.txt
+src/treeds.egg-info/dependency_links.txt
+src/treeds.egg-info/top_level.txt
