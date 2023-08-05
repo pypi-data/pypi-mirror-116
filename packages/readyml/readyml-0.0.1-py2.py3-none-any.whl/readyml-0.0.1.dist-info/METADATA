@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: readyml
+Version: 0.0.1
+Summary: ReadyML - Easy and Ready Machine Learning.
+Home-page: https://github.com/houseofai/readyml
+Author: Odyssée
+License: LICENSE
+Platform: UNKNOWN
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow-hub (==0.12.0)
+Requires-Dist: tensorflow (==2.5.0)
+
+# ReadyML - Easy and Ready Machine Learning.
+
+ReadyML makes trained Machine Learning models ready to consume with minimum effort.
+
+# Available Models
+
+## Image classification
+
+### NASNetLarge
+
+**Class:** readyml.imageclassification.NASNetLarge
+
+**Reference:** [Learning Transferable Architectures for Scalable Image Recognition (CVPR 2018)](https://arxiv.org/abs/1707.07012)
+
+**Example of use:** `examples/imageclassification/nasnetlarge.py`
+
+
