@@ -1,0 +1,9 @@
+tinykernel/__init__.py,sha256=IpKzKXwDwKSGmJIHbS7Bqy2UFxoT_Hrz9nVqJ9mjZaE,782
+tinykernel/_nbdev.py,sha256=Jzm40mtzjrflxoBWu4mbX66gjOHZW7XBt7BnmzP7p-4,282
+tinykernel/compilerop.py,sha256=ZMCTmLxbvSl2Bpe6N-Sn77I58nyzMawrRZ_nszpsXlI,6729
+tinykernel-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tinykernel-0.0.2.dist-info/METADATA,sha256=DO-ucavkFcJkt5PjQ4N6ygxrX4lyNlkZiGWdMEVVrkQ,3423
+tinykernel-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tinykernel-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+tinykernel-0.0.2.dist-info/top_level.txt,sha256=uF-cDD8CbpLWoWHdEfOfXupgeFLtMU9FT0i31JGoHgY,11
+tinykernel-0.0.2.dist-info/RECORD,,
