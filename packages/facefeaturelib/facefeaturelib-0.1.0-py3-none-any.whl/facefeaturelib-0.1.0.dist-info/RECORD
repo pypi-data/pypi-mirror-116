@@ -1,0 +1,8 @@
+facefeaturelib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+facefeaturelib/face_detector.py,sha256=6KdhypMFkXQb0T5LgCeOK6wsHOQLDEurArbHR107J8o,7857
+facefeaturelib/inference_onnx.py,sha256=QnMWANSrGtLuk803o-yaUFA9CQFUtNXC1_TUeuZHpNs,4334
+facefeaturelib/scrfd.py,sha256=2UFKOjT7FuDXm7I1wxUAtaFiI5_jb_zOdBgapYUJ7iY,6753
+facefeaturelib-0.1.0.dist-info/METADATA,sha256=4yth2A3v6fy6MOqk72rEX6LHjax1sITUpiNC2nQ8xm0,189
+facefeaturelib-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+facefeaturelib-0.1.0.dist-info/top_level.txt,sha256=RMB088Qv5vsw7otjrHloONEy9XD-v6s7jNkEGfh1JHw,15
+facefeaturelib-0.1.0.dist-info/RECORD,,
