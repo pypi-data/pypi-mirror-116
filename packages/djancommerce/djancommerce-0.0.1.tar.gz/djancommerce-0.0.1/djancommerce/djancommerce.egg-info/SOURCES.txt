@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+djancommerce/djancommerce.egg-info/PKG-INFO
+djancommerce/djancommerce.egg-info/SOURCES.txt
+djancommerce/djancommerce.egg-info/dependency_links.txt
+djancommerce/djancommerce.egg-info/requires.txt
+djancommerce/djancommerce.egg-info/top_level.txt
