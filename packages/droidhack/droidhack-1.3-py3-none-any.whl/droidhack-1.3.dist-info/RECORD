@@ -1,0 +1,9 @@
+droidhack/__init__.py,sha256=g5gNshMpMq-UQGyrrsXbiOpeJxPWSc6KF8LtA4Pk_3o,71
+droidhack/_utils.py,sha256=Km_SNLiegjCkZvNIMv8gZpuonqTV4pK0G1I8ni_s0MI,2076
+droidhack/devfs.py,sha256=_xQ4rdCPHvUDwHbjIOgOQbJORRfCTqEDzplheFW3ySk,2340
+droidhack/procfs.py,sha256=meYKKZLWFSK4XhXHN72ALhpyULzHws-TsT6W-6wde18,23568
+droidhack-1.3.dist-info/LICENSE,sha256=woQec94Sc-83t7is8KttxnZ0autT2D0QrfzHs__VtlE,7423
+droidhack-1.3.dist-info/METADATA,sha256=BPMuUYtQ2QHExnoEs2hwRJhtO64KJBR4BLYEAWr9zmA,5468
+droidhack-1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+droidhack-1.3.dist-info/top_level.txt,sha256=FScTTjP0Jf1q4u6XQffwosCuxLuyxXlyivthtms-TvM,10
+droidhack-1.3.dist-info/RECORD,,
