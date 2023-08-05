@@ -1,0 +1,9 @@
+README.md
+setup_batchkit.py
+joshc_repo/__init__.py
+joshc_repo/client.py
+joshc_repo.egg-info/PKG-INFO
+joshc_repo.egg-info/SOURCES.txt
+joshc_repo.egg-info/dependency_links.txt
+joshc_repo.egg-info/requires.txt
+joshc_repo.egg-info/top_level.txt
