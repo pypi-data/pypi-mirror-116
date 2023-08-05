@@ -1,0 +1,11 @@
+sentipy/__init__.py,sha256=oQFNkutk8fH9YuDK24AYT2pZQa1zE5-xOYdBSoY5I5I,270
+sentipy/_typing_imports.py,sha256=12eRq8SvN7Jc-J8XE751ng7oT4PeW7erR1YljoCDDLo,945
+sentipy/py.typed,sha256=CMjEM5kW7s4a1fdevYmfApSRjQLPPUJbJlDXbcCgFfI,54
+sentipy/sentipy.py,sha256=Kb1gNK6ShsDJY_-KBrk3ce5HyNhWMIDKGG2ms4yRLu0,12898
+sentipy/tests/.gitignore,sha256=b_Tfa1Ha2v_83BHNiA9n2nxD318-RVBxET8i7wROqNI,113
+sentipy/tests/sentipy_tests.py,sha256=5ImXBNtITnfolHfb4-P-n9KBzxeEpJ5GCPOlNjLSaBg,5363
+sentipy/ws.py,sha256=eoBIVZSvgmMN4g-u0Pj6fYwkzh-2dpuA23TrgGugAEo,5876
+sentiment_investor-2.1.0.dist-info/LICENSE,sha256=RScrtjEUfDyjfapAW8WoNfNaeR2mZ5zwbH6Z--djUqY,1054
+sentiment_investor-2.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sentiment_investor-2.1.0.dist-info/METADATA,sha256=Rm3BSCUcLwXbGVz9etwbj5zQyz7Pw3u8odxsiftSI5k,2907
+sentiment_investor-2.1.0.dist-info/RECORD,,
