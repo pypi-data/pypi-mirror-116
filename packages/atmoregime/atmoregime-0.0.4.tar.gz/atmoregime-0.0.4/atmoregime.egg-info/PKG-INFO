@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: atmoregime
+Version: 0.0.4
+Summary: An atmospheric regime analysis package
+Home-page: https://github.com/pypa/sampleproject
+Author: Josh Dorrington
+Author-email: jcfdorrington@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Atmoregime
+
+This is a package designed to provide a simple end-to-end workflow for cluster and regime analysis in python.
+So far this is a work in progress and is not yet guaranteed to even slightly work.
+
+If you are interested in contributing to or testing this project please contact Josh Dorrington on joshua.dorrington@physics.ox.ac.uk
+
+
