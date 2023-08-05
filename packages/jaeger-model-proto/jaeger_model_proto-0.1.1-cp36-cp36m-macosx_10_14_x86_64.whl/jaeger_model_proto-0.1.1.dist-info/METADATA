@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: jaeger-model-proto
+Version: 0.1.1
+Summary: Jaeger protobuf model
+Home-page: http://github.com/mosquito/jaeger_model_proto
+Author: Dmitry Orlov
+Author-email: me@mosquito.su
+License: MIT
+Keywords: python,protobuf,cython
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System
+Classifier: Topic :: System :: Operating System
+Provides: jaeger_model
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
