@@ -1,0 +1,5 @@
+catkin_pkg
+catkin_sphinx
+catkin_tools>=0.4.4
+pydoctor>=20.7.0
+sphinx
