@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+tinykernel/__init__.py
+tinykernel/_nbdev.py
+tinykernel/compilerop.py
+tinykernel.egg-info/PKG-INFO
+tinykernel.egg-info/SOURCES.txt
+tinykernel.egg-info/dependency_links.txt
+tinykernel.egg-info/entry_points.txt
+tinykernel.egg-info/not-zip-safe
+tinykernel.egg-info/top_level.txt
