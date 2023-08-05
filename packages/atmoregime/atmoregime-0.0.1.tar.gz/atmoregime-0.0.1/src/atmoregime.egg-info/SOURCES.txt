@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+data/test_data.csv
+src/atmoregime.egg-info/PKG-INFO
+src/atmoregime.egg-info/SOURCES.txt
+src/atmoregime.egg-info/dependency_links.txt
+src/atmoregime.egg-info/top_level.txt
