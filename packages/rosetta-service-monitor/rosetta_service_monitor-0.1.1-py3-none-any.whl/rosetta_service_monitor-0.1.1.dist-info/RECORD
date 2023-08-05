@@ -1,0 +1,13 @@
+rosetta_service_monitor/__init__.py,sha256=zmXPW4TCqEKgN3rsxfP8uDuDdFJ4cewlHzIskKDwSqQ,149
+rosetta_service_monitor/client/__init__.py,sha256=zmXPW4TCqEKgN3rsxfP8uDuDdFJ4cewlHzIskKDwSqQ,149
+rosetta_service_monitor/client/background_task.py,sha256=L0XR6X7Jq_E3PyO9IFblFmIdvteo_9Dh9NI8zN0E9Vw,1056
+rosetta_service_monitor/client/conf.py,sha256=ZN4BlN3K_K7HZqnLslZCgdJ_u0Si4ApwpejOxQx-HJM,589
+rosetta_service_monitor/client/enums.py,sha256=Kh1sjcFWVg62lOVXYe9iQC8x6asxU0ledCD8n7ibdhQ,378
+rosetta_service_monitor/client/fastapi_hook.py,sha256=anBiun3XR1kFvjE4SHjw7t4N3k-8jGs7-6g-M_gyVgs,1528
+rosetta_service_monitor/client/monitor.py,sha256=b5K1bi3eRs2A5mtk4ASRIvqYxAMroxUbhos8-FX3hWU,2466
+rosetta_service_monitor/client/service/__init__.py,sha256=zmXPW4TCqEKgN3rsxfP8uDuDdFJ4cewlHzIskKDwSqQ,149
+rosetta_service_monitor/client/service/mq_service.py,sha256=YLqk9BxLCZtjdlF_jT-o1c5pTjZG6lT_48x3W-bovoc,1852
+rosetta_service_monitor-0.1.1.dist-info/METADATA,sha256=j1s2MR6uh28fSxDbYMC8mvqf-ub32zDr1zysdWyp5w4,892
+rosetta_service_monitor-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rosetta_service_monitor-0.1.1.dist-info/top_level.txt,sha256=kTWqPuCAK0SKSfPwF2_aJyJqbp3bddbNKaN-JSu7J6g,24
+rosetta_service_monitor-0.1.1.dist-info/RECORD,,
