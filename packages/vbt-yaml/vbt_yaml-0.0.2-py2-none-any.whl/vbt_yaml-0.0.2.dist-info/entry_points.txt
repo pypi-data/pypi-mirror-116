@@ -1,0 +1,3 @@
+[console_scripts]
+vbtyaml = vbt_yaml.__main__
+
