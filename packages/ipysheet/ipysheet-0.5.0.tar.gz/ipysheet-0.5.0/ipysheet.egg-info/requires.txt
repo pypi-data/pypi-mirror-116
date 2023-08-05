@@ -1,0 +1,2 @@
+jupyter_server<2,>=1.6
+ipywidgets<8.0,>=7.5.0
