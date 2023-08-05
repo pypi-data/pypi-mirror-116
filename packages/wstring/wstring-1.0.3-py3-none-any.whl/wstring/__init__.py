@@ -1,0 +1,1 @@
+from wstring.wstring import Wstring, EmptyCharacterFoundException, CharacterExpectedGotStringException
