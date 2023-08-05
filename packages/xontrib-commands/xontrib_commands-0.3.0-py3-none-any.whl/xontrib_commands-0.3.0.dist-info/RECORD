@@ -1,0 +1,10 @@
+xontrib/commands/__init__.py,sha256=ALY37Rvcz4kU4SIf5-3pIpxyqdozwaR0thLzn0C2B2Y,90
+xontrib/commands/dev_cmd.py,sha256=NFUhJw3BdITVvGos8mTjCPSW7DFelLa2LhdacdLfSDg,4386
+xontrib/commands/reload.py,sha256=EQtVUoF7civIVltT9V4E9EwKLEfDbOlHkkdedDpAgpw,1417
+xontrib/commands/report_keys.py,sha256=JhvpxVOwBqYd4zw0v9A8ptXXMkoyFU2PbaTdto1E5MQ,2420
+xontrib/commands/utils.py,sha256=gDTi4gVU0mXaQurir3YrjOAPPdcUZulKCGu3CtdzSTE,2697
+xontrib/completers/fish_completer.py,sha256=n1GQTIcuvo68FVCxoL3h6lHaMFoBmRZjkiH4f0ta4Do,1056
+xontrib_commands-0.3.0.dist-info/LICENSE,sha256=LMIbsZ3nD5h5UDv6aoABebWV3GWOYKuFjz-oHMxO0Xs,1075
+xontrib_commands-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+xontrib_commands-0.3.0.dist-info/METADATA,sha256=HwqeXn1z8_cR0AQyNueZs13RevUGC6kS8NpMMwYY50E,2953
+xontrib_commands-0.3.0.dist-info/RECORD,,
