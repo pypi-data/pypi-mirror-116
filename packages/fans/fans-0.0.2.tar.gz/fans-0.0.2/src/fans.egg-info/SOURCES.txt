@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fans/__init__.py
+src/fans.egg-info/PKG-INFO
+src/fans.egg-info/SOURCES.txt
+src/fans.egg-info/dependency_links.txt
+src/fans.egg-info/top_level.txt
