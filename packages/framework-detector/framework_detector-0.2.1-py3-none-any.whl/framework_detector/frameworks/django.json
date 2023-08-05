@@ -1,0 +1,12 @@
+{
+    "id": "django",
+    "name": "Django",
+    "description": "Django makes it easier to build better web apps more quickly and with less code.",
+    "detect":
+    {
+        "manage.py": [
+            "django"
+        ]
+    },
+    "dockerfile": "django.Dockerfile"
+}
