@@ -1,0 +1,12 @@
+louvre_vision/__init__.py,sha256=98cJlBAjJwpYNA4j_iSayq8aevQKuXXvcMQQ3HElKmk,61
+louvre_vision/config.py,sha256=EWQ6eQFeGo0HXgIh_IKuGDGxKthDqlSXRiVW1cWVVk4,296
+louvre_vision/data_models.py,sha256=y1X3mOZdXoQaly6vwzKT3e_Hmkiqj24im24lUgq-9tY,13307
+louvre_vision/dataset.py,sha256=iQqKaKsvSPQqcGGNPRLaiC5-67ZTKsGlD5kgpd7KDW8,7327
+louvre_vision/errors.py,sha256=iJAf8mFNPMoY0NwkCM8ZEAPPwvoXn-CyySFmWWFDhV8,99
+louvre_vision/file_methods.py,sha256=48_vPjB78vcK72JoYsv3Jn7kgMttP4BywOWsq7M9DVg,6116
+louvre_vision/images.py,sha256=FOQf9T6z0hriM5ui8jfwm6MV3bbCVnKAKXNPShzC2ZI,5472
+louvre_vision/methods.py,sha256=tIL-rtP0MtdxrGkzncT1GSRUlveJEJOT3ai2ldLo8uo,6693
+elvia_louvre_vision-0.0.9.dist-info/METADATA,sha256=5njQuOaF-_xjtQ_kpPcRwW-RUbTRU4iDX5BxipHzknc,577
+elvia_louvre_vision-0.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+elvia_louvre_vision-0.0.9.dist-info/top_level.txt,sha256=Pd-AnTMGWtKtCRhc4ehN5spg6knL-Z_0nDfNF1Affw0,14
+elvia_louvre_vision-0.0.9.dist-info/RECORD,,
