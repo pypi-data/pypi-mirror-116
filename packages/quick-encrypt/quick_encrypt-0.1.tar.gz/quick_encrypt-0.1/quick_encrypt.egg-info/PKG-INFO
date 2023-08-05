@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: quick-encrypt
+Version: 0.1
+Summary: 用于快速实现AES加密功能，包含文本加密，数组或者字典类型加密方法
+Home-page: https://github.com/luxp4588/quick_encrypt.git
+Author: python-xp
+Author-email: luxp4588@126.com
+License: MIT
+Keywords: AES ENCRYPT
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+#
+
+

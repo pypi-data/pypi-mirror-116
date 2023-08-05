@@ -1,0 +1,8 @@
+README.md
+setup.py
+quick_encrypt.egg-info/PKG-INFO
+quick_encrypt.egg-info/SOURCES.txt
+quick_encrypt.egg-info/dependency_links.txt
+quick_encrypt.egg-info/not-zip-safe
+quick_encrypt.egg-info/requires.txt
+quick_encrypt.egg-info/top_level.txt
