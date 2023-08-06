@@ -1,0 +1,8 @@
+quaternions/__init__.py,sha256=0p7Q044GfNg4iEpguQiChKyjPdFhPl4OdDHKC_fMK_E,162
+quaternions/qmath.py,sha256=dehnPnBccPg4JjmlE_bmU8lUdGjrprEM4gOaDIQkDT0,5642
+quaternions/quaternions.py,sha256=RKJYgLneu0I_EKf2fxQVN5D5M87Ynvro0txOkv4sffw,24403
+quaternions_for_python-1.0.0.dist-info/LICENSE.md,sha256=W9FMpiSr6Ug5Au5Z7Wda3m_ECJXTj1TASvln99-Exkk,1133
+quaternions_for_python-1.0.0.dist-info/METADATA,sha256=j8EzbkpPBptK9Gln6LlT67otOg5NunzKVd3AwisIsTE,3144
+quaternions_for_python-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+quaternions_for_python-1.0.0.dist-info/top_level.txt,sha256=b5tC_046_9E8Jv6YBzCuAK-y0eBM-KXpAAwr5FgnPWs,12
+quaternions_for_python-1.0.0.dist-info/RECORD,,
