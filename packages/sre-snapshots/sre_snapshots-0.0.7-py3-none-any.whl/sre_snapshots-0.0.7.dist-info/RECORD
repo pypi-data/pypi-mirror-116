@@ -1,0 +1,9 @@
+sre_snapshots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sre_snapshots/download_snapshots.py,sha256=S9Hj59Jz9V0MCy60LHvPQPEvrpM6GEb_5JK_9ty_o0w,5043
+sre_snapshots/upload_snapshots.py,sha256=xy5T3pPOjF4xCuZdjLXfR7dM29slhDMB1FS-iWtKLz4,2417
+sre_snapshots/utils.py,sha256=-oKrQg71iD7UG7kUhw5-KkvkMbcXX1IFxBFaCFzMmoU,4070
+sre_snapshots-0.0.7.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+sre_snapshots-0.0.7.dist-info/METADATA,sha256=TvxJ6KKz1U8sOUXlcUvMhf1TItI_7ss2Vh30FwpOWhY,2286
+sre_snapshots-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sre_snapshots-0.0.7.dist-info/top_level.txt,sha256=eEDb0n636ypQUmpiaOrdB8Z56fzPkv6bUwyZsmYThQM,14
+sre_snapshots-0.0.7.dist-info/RECORD,,
