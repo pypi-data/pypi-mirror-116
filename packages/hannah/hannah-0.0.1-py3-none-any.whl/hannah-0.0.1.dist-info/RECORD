@@ -1,0 +1,12 @@
+hannah/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hannah/exceptions.py,sha256=mybGPl0iaXyT8HFQykDT0dflVljtd3_vGQy9VGcGJ_A,47
+hannah/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hannah/http/mappings.py,sha256=vskNB8CsSWxtviYdgKP0oJw7MOMq6LCEiizL4g0F-mM,2011
+hannah/http/session.py,sha256=nl_VXC0CKAG7QWDBjFWxZSlmKP64uZdE2iU0wog8zh0,1449
+hannah/models.py,sha256=xZKvRjTte2Gu9J73dBC4kwbEq7c5BLTS5Cpk2q147ks,2456
+hannah/parsers.py,sha256=OD_0s4V-ERoVBQdXFBAB6Ctk0faSkVGvHHcVOmMt_iA,1323
+hannah/tests/test_http.py,sha256=Tmv71sNi_AQGCRA9GcKW1ULVqSg79wIzcMeXncvzxwc,1304
+hannah/tests/test_swagger.py,sha256=z-XRfEoiLTBIE6DPcC-6bGoQOf-e_tGExNVKEea5D3g,625
+hannah-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+hannah-0.0.1.dist-info/METADATA,sha256=fkqY9OD5sk1JyxvuHCcnStcmLCA8ikrwzmWUVdOg3xU,434
+hannah-0.0.1.dist-info/RECORD,,
