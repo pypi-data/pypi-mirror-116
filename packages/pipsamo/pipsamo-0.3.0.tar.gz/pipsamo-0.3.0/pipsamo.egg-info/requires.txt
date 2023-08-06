@@ -1,0 +1,6 @@
+requests
+superprocessor
+pypistats
+pyaml
+toml
+pypistats
