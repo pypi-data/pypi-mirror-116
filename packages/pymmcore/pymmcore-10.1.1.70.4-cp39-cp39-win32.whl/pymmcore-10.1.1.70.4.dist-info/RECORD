@@ -1,0 +1,11 @@
+pymmcore/__init__.py,sha256=YuSZggbmkNVFnvsY1fs3JbZ3nOk6jmhK1CLcJsW22c0,65
+pymmcore/__init__.pyi,sha256=6X7O0vlj5Qj1lf6uzZHwYSfbSxm3At2quNkCTcesfmg,53913
+pymmcore/_pymmcore_swig.cp39-win32.pyd,sha256=OBuzrqxH-eVuFksTMNI8wwUJZiL7p6CBrPlMyFsIpiE,1755648
+pymmcore/_version.py,sha256=6hsuE4j9_WrOcyQaGOrmQjV_zITX-5LolJFlLkfDKIY,29
+pymmcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymmcore/pymmcore_swig.py,sha256=uuAIL0HtRpMLqZzOG6HBRilQ5h0tMGbySoDgYZPBxtQ,2246
+pymmcore-10.1.1.70.4.dist-info/LICENSE.txt,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+pymmcore-10.1.1.70.4.dist-info/METADATA,sha256=hZVj51Cs3EIAF6tdYtR0S9vgtnsW_32T5rlwAi2Sjy8,6424
+pymmcore-10.1.1.70.4.dist-info/WHEEL,sha256=xFUNU75GUJjrFouIkwjRY5mfiX90xTqA-0r9dgWcaTg,96
+pymmcore-10.1.1.70.4.dist-info/top_level.txt,sha256=LLsniaDErduTM0iXWVmNp19PlgsFeVo4qI8_Vucc0LM,9
+pymmcore-10.1.1.70.4.dist-info/RECORD,,
