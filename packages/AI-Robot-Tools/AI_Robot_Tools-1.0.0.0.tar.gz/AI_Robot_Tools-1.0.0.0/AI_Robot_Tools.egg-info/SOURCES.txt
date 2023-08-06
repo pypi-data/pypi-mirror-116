@@ -1,0 +1,10 @@
+setup.py
+AI_Robot_Tools/AI_Speak.py
+AI_Robot_Tools/AI_Speech_Recognition.py
+AI_Robot_Tools/AI_Tools.py
+AI_Robot_Tools/__init__.py
+AI_Robot_Tools.egg-info/PKG-INFO
+AI_Robot_Tools.egg-info/SOURCES.txt
+AI_Robot_Tools.egg-info/dependency_links.txt
+AI_Robot_Tools.egg-info/requires.txt
+AI_Robot_Tools.egg-info/top_level.txt
