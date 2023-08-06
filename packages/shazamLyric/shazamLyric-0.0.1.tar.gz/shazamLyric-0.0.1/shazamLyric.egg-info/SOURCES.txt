@@ -1,0 +1,8 @@
+README.md
+setup.py
+shazamLyric/__init__.py
+shazamLyric.egg-info/PKG-INFO
+shazamLyric.egg-info/SOURCES.txt
+shazamLyric.egg-info/dependency_links.txt
+shazamLyric.egg-info/requires.txt
+shazamLyric.egg-info/top_level.txt
