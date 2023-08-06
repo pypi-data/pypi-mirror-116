@@ -1,0 +1,9 @@
+LICENSE-MIT
+README.md
+docopt.py
+docopt_c.py
+setup.py
+docopt_c.egg-info/PKG-INFO
+docopt_c.egg-info/SOURCES.txt
+docopt_c.egg-info/dependency_links.txt
+docopt_c.egg-info/top_level.txt
