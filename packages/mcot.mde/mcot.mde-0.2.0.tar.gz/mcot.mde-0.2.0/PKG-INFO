@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: mcot.mde
+Version: 0.2.0
+Summary: Multiple diffusion encoding support
+Home-page: https://git.fmrib.ox.ac.uk/ndcn0236/mcot
+Author: Michiel Cottaar
+Author-email: Michiel.Cottaar@ndcn.ox.ac.uk
+License: MIT license
+Description: Support for multiple diffusion encoding, i.e., any diffusion sequence sensitive to diffusion along more than one direction.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

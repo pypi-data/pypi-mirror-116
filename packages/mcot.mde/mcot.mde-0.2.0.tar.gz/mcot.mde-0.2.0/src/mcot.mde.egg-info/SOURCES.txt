@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+src/mcot/__init__.py
+src/mcot.mde.egg-info/PKG-INFO
+src/mcot.mde.egg-info/SOURCES.txt
+src/mcot.mde.egg-info/dependency_links.txt
+src/mcot.mde.egg-info/namespace_packages.txt
+src/mcot.mde.egg-info/requires.txt
+src/mcot.mde.egg-info/top_level.txt
+src/mcot/mde/README.rst
+src/mcot/mde/VERSION
+src/mcot/mde/__init__.py
+src/mcot/mde/xps.py
