@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: mthree
+Version: 0.9.0
+Summary: mthree
+Home-page: UNKNOWN
+Author: Paul Nation
+Author-email: paul.nation@ibm.com
+License: For internal IBM Quantum use only.
+Description: Matrix-free measurement mitigation
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: License :: Other/Proprietary License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
