@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rrLovesbb/__init__.py
+rrLovesbb.egg-info/PKG-INFO
+rrLovesbb.egg-info/SOURCES.txt
+rrLovesbb.egg-info/dependency_links.txt
+rrLovesbb.egg-info/top_level.txt
