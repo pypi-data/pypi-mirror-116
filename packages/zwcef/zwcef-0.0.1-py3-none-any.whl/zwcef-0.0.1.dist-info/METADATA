@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zwcef
+Version: 0.0.1
+Summary: Person CEF spider
+Home-page: https://github.com/njzhaowei/zwcef
+Author: Zhao Wei
+Author-email: yewberry@163.com
+License: Apache 2.0
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wxPython
+Requires-Dist: cefpython3
+
+UNKNOWN
+
