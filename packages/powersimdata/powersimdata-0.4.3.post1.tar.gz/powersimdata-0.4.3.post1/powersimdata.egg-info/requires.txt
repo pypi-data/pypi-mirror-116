@@ -1,0 +1,7 @@
+networkx
+numpy
+pandas
+paramiko
+scipy
+tqdm
+requests
