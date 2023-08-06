@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hw-event-ingress
+Version: 0.2.0
+Summary: 
+Author: Skyler Lewis
+Author-email: skyler@hivewire.co
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aio-pika (>=6.8.0,<7.0.0)
+Requires-Dist: mypy (>=0.910,<0.911)
