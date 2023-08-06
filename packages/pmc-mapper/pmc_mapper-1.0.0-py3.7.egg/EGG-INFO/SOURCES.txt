@@ -1,0 +1,9 @@
+README.md
+pmc_mapper.py
+setup.py
+pmc_mapper.egg-info/PKG-INFO
+pmc_mapper.egg-info/SOURCES.txt
+pmc_mapper.egg-info/dependency_links.txt
+pmc_mapper.egg-info/entry_points.txt
+pmc_mapper.egg-info/requires.txt
+pmc_mapper.egg-info/top_level.txt
