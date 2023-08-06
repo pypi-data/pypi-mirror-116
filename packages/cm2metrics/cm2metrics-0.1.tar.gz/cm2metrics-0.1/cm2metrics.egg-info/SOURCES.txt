@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+cm2metrics/__init__.py
+cm2metrics/cm_test.py
+cm2metrics/parse_cm.py
+cm2metrics.egg-info/PKG-INFO
+cm2metrics.egg-info/SOURCES.txt
+cm2metrics.egg-info/dependency_links.txt
+cm2metrics.egg-info/requires.txt
+cm2metrics.egg-info/top_level.txt
