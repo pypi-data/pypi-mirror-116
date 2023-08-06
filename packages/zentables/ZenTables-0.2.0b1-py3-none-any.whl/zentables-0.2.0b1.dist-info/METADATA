@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zentables
+Version: 0.2.0b1
+Summary: Stress-free descriptive tables in Python.
+License: MIT
+Author: Paul Xu
+Author-email: yang_xu@brown.edu
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: pandas (>=1.3.0,<2.0.0)
