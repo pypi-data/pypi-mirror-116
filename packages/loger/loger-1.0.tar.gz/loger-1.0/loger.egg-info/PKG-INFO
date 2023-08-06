@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: loger
+Version: 1.0
+Summary: loger can control your log printing and sveing easily
+Home-page: https://github.com/iridesc/loger
+Author: Irid Zhang
+Author-email: irid.zzy@gmail.com
+License: UNKNOWN
+Description: loger can your log printing and sveing easily
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
