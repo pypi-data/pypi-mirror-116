@@ -1,0 +1,33 @@
+---
+# Python MANIFEST.in is used as a reference:
+# https://docs.python.org/3.6/distutils/sourcedist.html
+#
+manifest:
+  # include the files ./LICENSE and ./README.md
+  - include:
+      - LICENSE
+      - README.md
+  # exclude ./*.orig files
+  - exclude:
+    - "*.orig"
+  # include *.h & *.c files anywhere in the ./include directory and its subdirectories.
+  - include:
+    - include/**/*.h
+    - include/**/*.c
+  # exclude all files and subdirectories in the ./temp directory.
+  - exclude:
+    - temp/**/*
+  # include files called "Makefile" anywhere in the tree.
+  - include:
+    - "**/Makefile"
+  # exclude files matching *.txt, *.tmp, test anywhere in the tree.
+  - exclude:
+    - "**/*.txt"
+    - "**/*.tmp"
+    - "**/test"
+  # remove the ./bin directory and all files and subdirectories.
+  - exclude:
+    - bin/**/*
+  # add the ./src directory and all files and subdirectories.
+  - include:
+    - src/**/*

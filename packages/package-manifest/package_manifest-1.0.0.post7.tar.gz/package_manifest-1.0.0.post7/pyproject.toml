@@ -1,0 +1,70 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+
+
+[tool.flit.metadata]
+author = "Russell Smiley"
+author-email = "im.russell.smiley@gmail.com"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.rst"
+home-page = "https://gitlab.com/ci-cd-devops/package-manifest"
+module = "package_manifest"
+
+requires-python = ">=3.8"
+
+requires = [
+    "aiofiles == 0.7.0",
+    "pydantic == 1.8.2",
+    "ruamel.yaml == 0.17.10",
+
+    # required for `description-file` parameter above (integration of README.rst)
+    "pygments == 2.7.1",
+]
+
+
+[tool.flit.metadata.requires-extra]
+dev = [
+    "build_harness == 0.1.1",
+]
+doc = [
+    "sphinx == 4.1.2",
+    "sphinx_rtd_theme == 0.5.2",
+]
+test = [
+    "pytest == 6.2.4",
+    "pytest-asyncio == 0.15.1",
+    "pytest-cov == 2.12.1",
+    "pytest-mock == 3.6.1",
+]
+
+
+[tool.black]
+# Don't forget to sync this with isort, .flake8
+line-length = 79
+
+
+[tool.isort]
+# Don't forget to sync this with black, .flake8
+line_length = 79
+profile = "black"
+
+
+[tool.coverage.run]
+branch = true
+concurrency = ["multiprocessing"]
+omit = ["build_harness/templates/*"]
+source = ["build_harness"]
+
+
+[tool.coverage.report]
+exclude_lines = [
+    "except ImportError",
+    "raise NotImplementedError",
+    "pass",
+    "ABCmeta",
+    "abstractmethod",
+    "warnings.warn",
+]
+precision = 0
+show_missing = true
