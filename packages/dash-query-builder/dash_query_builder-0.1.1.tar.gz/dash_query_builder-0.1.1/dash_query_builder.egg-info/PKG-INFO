@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-query-builder
+Version: 0.1.1
+Summary: Plotly Dash Component providing react-awesome-query-builder functionality
+Home-page: UNKNOWN
+Author: Tyler Baur <baur.tyler@protonmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

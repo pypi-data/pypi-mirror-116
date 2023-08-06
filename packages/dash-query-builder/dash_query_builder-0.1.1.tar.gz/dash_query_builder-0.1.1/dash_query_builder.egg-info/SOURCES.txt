@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_query_builder/DashQueryBuilder.py
+dash_query_builder/__init__.py
+dash_query_builder/_imports_.py
+dash_query_builder/dash_query_builder.min.js
+dash_query_builder/dash_query_builder.min.js.map
+dash_query_builder/metadata.json
+dash_query_builder/package-info.json
+dash_query_builder.egg-info/PKG-INFO
+dash_query_builder.egg-info/SOURCES.txt
+dash_query_builder.egg-info/dependency_links.txt
+dash_query_builder.egg-info/top_level.txt
