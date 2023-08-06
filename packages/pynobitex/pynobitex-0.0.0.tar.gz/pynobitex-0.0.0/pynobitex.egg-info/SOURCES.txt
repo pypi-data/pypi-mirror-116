@@ -1,0 +1,6 @@
+README.md
+setup.py
+pynobitex.egg-info/PKG-INFO
+pynobitex.egg-info/SOURCES.txt
+pynobitex.egg-info/dependency_links.txt
+pynobitex.egg-info/top_level.txt
