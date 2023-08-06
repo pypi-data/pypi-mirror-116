@@ -1,0 +1,8 @@
+setup.py
+amazon_search_scraper_bc/__init__.py
+amazon_search_scraper_bc/scraper.py
+amazon_search_scraper_bc.egg-info/PKG-INFO
+amazon_search_scraper_bc.egg-info/SOURCES.txt
+amazon_search_scraper_bc.egg-info/dependency_links.txt
+amazon_search_scraper_bc.egg-info/requires.txt
+amazon_search_scraper_bc.egg-info/top_level.txt
