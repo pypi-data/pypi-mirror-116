@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+afm-parser/AFMLexer.py
+afm-parser/AFMParser.py
+afm-parser/__init__.py
+afm-parser/main.py
+afmparser.egg-info/PKG-INFO
+afmparser.egg-info/SOURCES.txt
+afmparser.egg-info/dependency_links.txt
+afmparser.egg-info/requires.txt
+afmparser.egg-info/top_level.txt
+afmparser.egg-info/zip-safe
