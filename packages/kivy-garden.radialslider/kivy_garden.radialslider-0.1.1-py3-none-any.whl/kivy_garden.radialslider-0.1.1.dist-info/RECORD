@@ -1,0 +1,9 @@
+kivy_garden/radialslider/__init__.py,sha256=VVugdRLnZDOfoIYOOnTcVep3cjBbuV1CWezpYVw627Q,8361
+kivy_garden/radialslider/_version.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+kivy_garden/radialslider/tests/test_import.py,sha256=24bc3bnREJSonEKQ0EvT-f1J6dmf3LRax6oV4a-1Fh0,119
+kivy_garden.radialslider-0.1.1.dist-info/AUTHORS.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kivy_garden.radialslider-0.1.1.dist-info/LICENSE.txt,sha256=Dc_ZVl_KnVu9EHlOHFilV1jijdNae4dNoBkkSPKdwzU,1096
+kivy_garden.radialslider-0.1.1.dist-info/METADATA,sha256=GakpfF16495n2EXROO_sqagQG8oQKvdsBynQgwc0VzY,7041
+kivy_garden.radialslider-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+kivy_garden.radialslider-0.1.1.dist-info/top_level.txt,sha256=xkuO-b6JfhaW77yWDB3uzuzsAscEKSLzAg0W7BmeqiI,12
+kivy_garden.radialslider-0.1.1.dist-info/RECORD,,
