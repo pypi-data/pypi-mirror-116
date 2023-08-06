@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: besapi
+Version: 1.0.1
+Summary: Library for working with the BigFix REST API
+Home-page: https://github.com/CLCMacTeam/besapi
+Author: Matt Hansen, James Stewart
+Author-email: hansen.m@psu.edu, james@jgstew.com
+License: BSD
+Keywords: bigfix iem tem rest api
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: cmd2
+
+python-besapi is a Python library designed to interact with the BES (BigFix) REST API.
+
