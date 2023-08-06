@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/data_structures/__init__.py
+src/data_structures/elements.py
+src/data_structures/queues.py
+src/data_structures/stacks.py
+src/data_structures_nicorodc.egg-info/PKG-INFO
+src/data_structures_nicorodc.egg-info/SOURCES.txt
+src/data_structures_nicorodc.egg-info/dependency_links.txt
+src/data_structures_nicorodc.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_elements.py
+src/tests/test_queues.py
+src/tests/test_stacks.py
