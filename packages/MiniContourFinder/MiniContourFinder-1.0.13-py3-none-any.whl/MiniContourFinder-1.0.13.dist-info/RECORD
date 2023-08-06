@@ -1,0 +1,14 @@
+MCF/MCF-GUI.py,sha256=OpF6k7FKHzspzWvKjlXGwHWLgC-woncPGntkkHOn-KQ,34509
+MCF/MCF-parallel.py,sha256=WW62-hfclg-GQnHiWwd9o_cSmqx9samGyC6WcznnGho,10847
+MCF/__init__.py,sha256=pMwCDdHEyo02gtH2i2rko2lkYwarjWJAMXcE-GWRGNA,11
+MCF/helpers.py,sha256=QZpk-zOwd34L3Z0ZZ72ykkzEgJll6leZk9z41cy85u0,2430
+MCF/imagetools.py,sha256=o5EuH-4wexojkgduuRmgO1F2donQe0rjIocbeMhQ-g0,34775
+MCF/mcf.py,sha256=XJf8Sb5InCHSaRomKj7o8ohfNfI7CVHaByu48w_bLAo,6781
+MCF/mcf_gui.py,sha256=OpF6k7FKHzspzWvKjlXGwHWLgC-woncPGntkkHOn-KQ,34509
+MCF/mcf_parallel.py,sha256=k5VBgivv8M3qXc51fqvl40w1kFDfHthtZlyHjTe5uDc,10843
+MiniContourFinder-1.0.13.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+MiniContourFinder-1.0.13.dist-info/METADATA,sha256=M3I4MmON8YFxKMhrBhH8vIYNd7kekFqh5mAHZ6omBI4,1076
+MiniContourFinder-1.0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MiniContourFinder-1.0.13.dist-info/entry_points.txt,sha256=PdBQz6nYbr7JBPSiBqCg1mU2kb2gZtz3CXoKkU2rBvs,102
+MiniContourFinder-1.0.13.dist-info/top_level.txt,sha256=YdTaL_kNzlgQkaCNH3Co1uyf0BvTDYpYRvVugJIG6aM,4
+MiniContourFinder-1.0.13.dist-info/RECORD,,
