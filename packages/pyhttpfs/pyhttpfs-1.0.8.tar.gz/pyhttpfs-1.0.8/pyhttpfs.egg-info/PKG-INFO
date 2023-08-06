@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyhttpfs
+Version: 1.0.8
+Summary: Fast and efficient filesystem browser
+Home-page: https://github.com/ii-Python/pyhttpfs
+Author: iiPython
+Author-email: ben@iipython.cf
+License: MIT
+Project-URL: Source, https://github.com/ii-Python/pyhttpfs/
+Project-URL: Bug Reports, https://github.com/ii-Python/pyhttpfs/issues
+Description: # pyhttpfs
+        ---
+        
+        README coming soon.
+        
+Keywords: http filesystem browser fileserver httpserver
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
