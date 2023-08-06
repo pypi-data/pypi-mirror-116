@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PyBarLoad/__init__.py
+PyBarLoad.egg-info/PKG-INFO
+PyBarLoad.egg-info/SOURCES.txt
+PyBarLoad.egg-info/dependency_links.txt
+PyBarLoad.egg-info/top_level.txt
