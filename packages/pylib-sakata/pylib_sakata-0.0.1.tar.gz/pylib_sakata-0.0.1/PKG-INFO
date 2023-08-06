@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pylib_sakata
+Version: 0.0.1
+Summary: Control system design and analysis package
+Home-page: https://github.com/Koichi-Sakata/pylib_sakata
+Author: Koichi Sakata
+Author-email: 
+License: UNKNOWN
+Description: # pylib_sakata
+        
+        The pylib_sakatal package is a set of python classes and functions that make the python-control package more convenient. This package provide practical level's tools to design controls and  to analysis of performance and stability of SISO LTI systems. These development environments are available on free.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
