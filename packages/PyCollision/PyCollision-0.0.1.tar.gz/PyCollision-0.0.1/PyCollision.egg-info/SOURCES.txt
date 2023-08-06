@@ -1,0 +1,8 @@
+setup.py
+PyCollision.egg-info/PKG-INFO
+PyCollision.egg-info/SOURCES.txt
+PyCollision.egg-info/dependency_links.txt
+PyCollision.egg-info/requires.txt
+PyCollision.egg-info/top_level.txt
+pycollision/__init__.py
+pycollision/pycollision.py
