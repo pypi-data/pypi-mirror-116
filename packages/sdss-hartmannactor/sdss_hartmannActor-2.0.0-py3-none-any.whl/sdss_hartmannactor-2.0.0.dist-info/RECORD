@@ -1,0 +1,11 @@
+hartmannActor/Commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hartmannActor/Commands/hartmannCmd.py,sha256=XuwqO1d8ihSQ18n3iTT6Z0hsInb-8jlPlAtavyXESek,8023
+hartmannActor/__init__.py,sha256=XYOLm5dP9GbZN86NsASG2VX7YFYzBrWp6hIvFEfLTCE,362
+hartmannActor/boss_collimate.py,sha256=flXN8BuaWVcHUhS6cxkK7cyBMInFSTfUvN1NPWWpPls,38885
+hartmannActor/etc/hartmann.yaml,sha256=jW9MO4XAqtQItHSsEhxGtUb9yHDi5WoqpoKsbCaj-0Q,509
+hartmannActor/hartmann.py,sha256=NyO2iIDQeV4UUgydbeAMFm_xnd8m0M6bsy5bR-ssjrU,3554
+hartmannActor/myGlobals.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdss_hartmannactor-2.0.0.dist-info/entry_points.txt,sha256=8P0ude5VEv9kfSBxgke0ajNU2mPY3Uoha8MXSFoq9DY,66
+sdss_hartmannactor-2.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sdss_hartmannactor-2.0.0.dist-info/METADATA,sha256=fnE9T7ldtd9etT-ZwyWdysZP9p6X_7_-8wup9wyJ47Q,1848
+sdss_hartmannactor-2.0.0.dist-info/RECORD,,
