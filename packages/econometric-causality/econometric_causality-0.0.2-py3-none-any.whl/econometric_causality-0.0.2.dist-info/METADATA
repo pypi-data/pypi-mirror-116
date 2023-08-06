@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: econometric-causality
+Version: 0.0.2
+Summary: This repo implements various econommetric and ML approaches to causal inference
+Home-page: https://github.com/muhlbach/econometric_causality
+Author: Nicolaj Søndergaard Mühlbach
+Author-email: n.muhlbach@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: pandas (>=1.2)
+
+# econometric_causality
+This repo implements various econometric and ML approaches to causal inference
+
+
