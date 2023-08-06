@@ -1,0 +1,10 @@
+scholarmail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scholarmail/gen_html.py,sha256=Z7vOGaetXv3G-bQetEOMsUI36wFFMYps82XTCIT45Pc,2362
+scholarmail/get_email.py,sha256=XVqRVe-Xm8d-hIV4McZmFrRuG4ZNlrT-hdFRII2DUKI,3613
+scholarmail/scholarmail.py,sha256=m96tikU6wbCOdzJ75lXPb7mUPXc4KHALHWS3btrEIsg,987
+scholarmail/temperate.html,sha256=snqefcHxd0IHbBtqYHXNkMaRVy1ZN8xBwLlsER4DOIQ,641
+scholarmail-1.0.1.dist-info/METADATA,sha256=LBT-9Sufu94tHO7Nbs89amjusd1PBkcD6vHBcPL76EA,779
+scholarmail-1.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+scholarmail-1.0.1.dist-info/entry_points.txt,sha256=QSc1rCyyD5LFM8OEAWj1YPVhB83GVGXiTsackaMLeAc,62
+scholarmail-1.0.1.dist-info/top_level.txt,sha256=9bJt8pEaQ8TtcPw2VAeIRZD59iqC6GOdCdExrSTMphs,12
+scholarmail-1.0.1.dist-info/RECORD,,
