@@ -1,0 +1,11 @@
+README.md
+setup.py
+atomic_operator/__init__.py
+atomic_operator/__main__.py
+atomic_operator/atomic_operator.py
+atomic_operator.egg-info/PKG-INFO
+atomic_operator.egg-info/SOURCES.txt
+atomic_operator.egg-info/dependency_links.txt
+atomic_operator.egg-info/entry_points.txt
+atomic_operator.egg-info/requires.txt
+atomic_operator.egg-info/top_level.txt
