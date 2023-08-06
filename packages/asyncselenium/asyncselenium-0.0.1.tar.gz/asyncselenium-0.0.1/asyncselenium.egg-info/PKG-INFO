@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: asyncselenium
+Version: 0.0.1
+Summary: A async selenium package to improve performance
+Home-page: https://github.com/Yyonging/asyncselenium.git
+Author: duanyongqiang
+Author-email: sysuduanyongqiang@163.com
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/Yyonging/asyncselenium/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+asyncselenium Package
+=======================
+
+1.This is a tools and libraries enabling web browser automation. 
+2.it makes selenium to be async, and improve the performance! 
+3.the useage is the same to selenium to make it easy to use.
+
+
