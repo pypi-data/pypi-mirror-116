@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/kori.py
+src/kori.egg-info/PKG-INFO
+src/kori.egg-info/SOURCES.txt
+src/kori.egg-info/dependency_links.txt
+src/kori.egg-info/top_level.txt
