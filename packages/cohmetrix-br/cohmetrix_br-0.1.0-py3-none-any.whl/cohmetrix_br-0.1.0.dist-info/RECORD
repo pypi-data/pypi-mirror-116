@@ -1,0 +1,13 @@
+cohmetrix_br/BioBase_LIWC_CM.csv,sha256=X35IWs2phLh28dRWKaOLQXcgMxw1sVUm_R4-YuE9uIM,569742
+cohmetrix_br/TecBase_LIWC.csv,sha256=WtXrAWwfUbQ3dapefXIi2GOnWmbmDwX-QpZunhO9KF4,572054
+cohmetrix_br/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+cohmetrix_br/essay_dataset.csv,sha256=zf6bywjWdGEMeVXHpOU_HD_C6oggk_LpBmJiF0Lo6iY,3547205
+cohmetrix_br/features_LIWC.py,sha256=OaXcrDleGglNfp-S3DUBX3KjU0BtW1_ghqduLyjOZq8,3557
+cohmetrix_br/feedbackPortugueseDataset.csv,sha256=dCyIJ07ra3nbFuSzsNiw-bj1Ij1GaDpROA9vq8DC5vg,196002
+cohmetrix_br/liwc.py,sha256=7wmJXfxRsuvD338rNtGwPbk4rqlhnRrz21oWUJ549_s,2632
+cohmetrix_br/main.py,sha256=swAxhgtfNM3OHTyfqZFC24m8hoPZ0XChIEwNn_CuM1k,8146
+cohmetrix_br/redacao.txt,sha256=tuG_LhgtZtUKbfxD2d9mEY8gB71YFc7m6nHYfAt99FE,1396
+cohmetrix_br/run_cohmetrix_csv.py,sha256=L9aT8q1R5yL9eqJTOqiSU_fTEzawjyiUhqWCqDyvW68,5244
+cohmetrix_br-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cohmetrix_br-0.1.0.dist-info/METADATA,sha256=006WWUb0JhKBtaVe0COnv_2xHFF8Gi2Y2VHu_ASHDwI,908
+cohmetrix_br-0.1.0.dist-info/RECORD,,
