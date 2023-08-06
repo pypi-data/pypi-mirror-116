@@ -1,0 +1,10 @@
+etc/lithopscloud/lithops-defaults.yaml,sha256=NZs9xF5chGuBIIbLP0c3Rk3PL55tVh064e3p4xjfN_4,559
+etc/lithopscloud/ray-defaults.yaml,sha256=Oitwn-e7WaUwv5m7984NBchoXNgaHcss1KDEkRGHpss,6266
+lithopscloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lithopscloud/vpc_config_helper.py,sha256=_-ysigXfr_P_idSaMAem9Be0HTmvVRCctwvGiQnlPRo,34285
+lithopscloud-1.0.0b1.data/scripts/lithopscloud,sha256=kcezZOGG0dH3UmHO4_LNrwqxpCiW4dtR1_BEAwVdvVo,225
+lithopscloud-1.0.0b1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lithopscloud-1.0.0b1.dist-info/METADATA,sha256=NryShsm3OsZ3-dvPk2r1TgMKLOeDNM9QcFkr3PZaUf8,525
+lithopscloud-1.0.0b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+lithopscloud-1.0.0b1.dist-info/top_level.txt,sha256=DfUN2tM4IwnGO8OR7Ma_kkECF2F1gN3UtCETH0n8jvQ,13
+lithopscloud-1.0.0b1.dist-info/RECORD,,
