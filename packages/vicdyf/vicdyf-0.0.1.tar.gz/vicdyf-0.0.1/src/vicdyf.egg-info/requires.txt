@@ -1,0 +1,4 @@
+scanpy==1.7.2
+cudatoolkit==11.1
+pytorch==1.8.1
+scvelo==0.2.3
