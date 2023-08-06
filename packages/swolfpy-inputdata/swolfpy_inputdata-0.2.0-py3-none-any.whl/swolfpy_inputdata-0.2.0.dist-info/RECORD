@@ -1,0 +1,61 @@
+swolfpy_inputdata/AD_Input.py,sha256=ToWZxqPuQBXSxoyCE6Q8-FBlOMlUAqsDEM-rsvT7IjU,1327
+swolfpy_inputdata/CommonData.py,sha256=HswdUMPrxBFEH-GOa31IbQ_H5braxaypB4eXSAeBOGk,3333
+swolfpy_inputdata/Comp_Input.py,sha256=kZUfdJj1i2K18dZ_i7PXypZ75Lvajr0PlaCf7nLr8Ww,1345
+swolfpy_inputdata/HC_Input.py,sha256=QcV9FOeLnulwfO-GTuPnGMfaWockrvjlIteTHZyhEMo,1342
+swolfpy_inputdata/InputData.py,sha256=oV3MTPMFzM93-IgC84rYOzwrHb3ZYk2vzK5MJ4kkhHQ,3436
+swolfpy_inputdata/LF_Input.py,sha256=NmWFzp0NSSv2W3z6YEr2BI8omyqgVaCemqfsv3xR2Bw,1404
+swolfpy_inputdata/MC.py,sha256=XglyepEj-cGA5ctOcFJgByst1Eshe0MUb-7cRAbBRe0,6982
+swolfpy_inputdata/Reproc_Input.py,sha256=4jgUjWaLyxcjX-kGxA2JJYecCbfxjdcDhy1Wj9ivQUM,586
+swolfpy_inputdata/SF_Col_Input.py,sha256=1Z-77NLkTieSlDO7dtOEBHL-Aj3ihum4TCqiVlPy_bo,1770
+swolfpy_inputdata/SS_MRF_Input.py,sha256=ABvQ2kkxfNHLVszaJnp6DMvRzRb6jaDYMQXqoFmCszY,1349
+swolfpy_inputdata/TS_Input.py,sha256=k_Js2NEuNJw9ZB1WIjykNTGrsmBMRKxB1xwNVFM_VtQ,665
+swolfpy_inputdata/Technosphere_Input.py,sha256=bxEzuXsIrwqj1q77eYeTaLavzcMb5sil7iRaGPfPp0Q,1439
+swolfpy_inputdata/WTE_Input.py,sha256=cv6mLMMfRBNl4iRYC9pMLkkwMaKfTM65Zz_JdJOpDRs,1332
+swolfpy_inputdata/__init__.py,sha256=2mPvM_UnrFiW945Tc4eG8N_1oR9oZ-4UkaMRrwqBamw,868
+swolfpy_inputdata/Data/AD_Input.csv,sha256=wpODE73PIycTbNaghjqeI8qrGsVXCOxHFMFsZxw0N9k,13012
+swolfpy_inputdata/Data/AD_Input_MaterialDependent.csv,sha256=rssF2oBWwLjAiHqZ57Y8VPfWftRQg5-EOPm_LVlkr94,3928
+swolfpy_inputdata/Data/CommonData.csv,sha256=2X4x-5LlpVUYzD1M0ZhbEAhcVMVPHs4lOVl2lcZJ2t8,5108
+swolfpy_inputdata/Data/Comp_Input.csv,sha256=3gQevAXbUdQp6lyweXukzla5DMKjm2F5mjGxG1MQNJU,10724
+swolfpy_inputdata/Data/Comp_Input_MaterialDependent.csv,sha256=4NFwwT440cStn8eAjM-WpN_T_5BdvmjhIn47xuJniZ0,3962
+swolfpy_inputdata/Data/Distance.csv,sha256=Nzfb8WKVNE0KVLwQvwFu-baKqKsSrAp1Ax-g7SuY7hY,75
+swolfpy_inputdata/Data/HC_Input.csv,sha256=LGFNZtib9Xp8ZKJlTQs3di_IWzL6-G6AUrBJx8sB7Zw,1678
+swolfpy_inputdata/Data/HC_Input_MaterialDependent.csv,sha256=2ZvYlclKSFkaFqEr5mFYwt9AMalEY1mtSBwI1_eGCEc,1669
+swolfpy_inputdata/Data/LF_Gas_emission_factors.csv,sha256=oXSr_y5DlmhMooTzB2DqPThHQD4o1Hi7SDi5ty7Agcc,8510
+swolfpy_inputdata/Data/LF_Input.csv,sha256=VEa6D2969UeO3_bd0JYC8KLjKl0uuSE243inZ-rzaac,23288
+swolfpy_inputdata/Data/LF_Leachate_Allocation.csv,sha256=kCjyNN0n5OOlpeVyHYmX_rxre2sckqBd9SlZol0ad3Q,9918
+swolfpy_inputdata/Data/LF_Leachate_Coeff.csv,sha256=i2cbOhbuQ1efZU00sLnbEj-_T7PHrnDQa6H_Fo7-7AY,3235
+swolfpy_inputdata/Data/Material properties.csv,sha256=X8MkXI3pWmXiLXlw28WvX7PvL29afTN_v4DgYZOjuE8,13412
+swolfpy_inputdata/Data/References.csv,sha256=NsEnJrTemulM_MWSye_jnWpzyBdkcq7oa0nf9H34iSg,1952
+swolfpy_inputdata/Data/Reprocessing_Input.csv,sha256=ed1sCi03CQaC0yRGWDpWHA5WtS6KlvL710I7xPrXgTc,53452
+swolfpy_inputdata/Data/SF_Col_Input.csv,sha256=Rc3flmJwr_MJO4eRfi7gwXFQdmxyEthRo7legwAhe9U,1031
+swolfpy_inputdata/Data/SF_Col_Input_MaterialDependent.csv,sha256=e9Gchh_QXzxQglgFFSMJLQ_oJ9S2LqcsBLjwOZ-EVC0,2738
+swolfpy_inputdata/Data/SF_Col_Input_process.csv,sha256=GsldODAUmHBWobHXnVJTdtx86ReBuiXMH6MMP4nCce4,7347
+swolfpy_inputdata/Data/SS_MRF_Input.csv,sha256=d4BIIuhFZZx4bXUtAFNG4WtPhs4dQ5QOZIfJkJjxIlU,49228
+swolfpy_inputdata/Data/SS_MRF_Input_MaterialDependent.csv,sha256=r9JR-oCzzkrPMJd0wM9udfAqZOJxO6VcsgNxfRirkuc,3347
+swolfpy_inputdata/Data/TS_Input.csv,sha256=93d-JPMv9Luyp_K5KbamSbUGJoTo-V-9ybclL2pVk8M,3205
+swolfpy_inputdata/Data/Technosphere_LCI.csv,sha256=-F7MiKBiUMbmFLKYDjKU-q0Hpp1kkGrQ74y_--q0p6c,675980
+swolfpy_inputdata/Data/Technosphere_References.csv,sha256=rjPGLrqR9hyoD55LvK5Mf3bWuHUNYDO1dlH7gUonGjA,1870
+swolfpy_inputdata/Data/WTE_Input.csv,sha256=tphbKne_dpv4p1--ju1EKaDd-zuWzs02dkHnN0ZCfdg,10681
+swolfpy_inputdata/Data/WTE_Input_MaterialDependent.csv,sha256=dc7QhGD5Bi8Iz9TiGkoI7qHzcZSvKj0SMtkzhKtCMwE,2529
+swolfpy_inputdata/Data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swolfpy_inputdata/Data/keys.csv,sha256=oXNKhaHp3SzHTBRivKKIoy_WbGV2ydeyn6iD10Yfp-0,230942
+"swolfpy_inputdata/Data/LCIA_Methods/('CML (v4.4) SwolfPy', 'resources', 'depletion of abiotic resources - elements, ultimate reserves').csv",sha256=sv7HmOWV8YxvJn5ID2TilGGCtnEkcfeMLf1K4R1xU_M,13531
+"swolfpy_inputdata/Data/LCIA_Methods/('IPCC 2007, Ecoinvent V3.5', 'climate change', 'GWP 100a, bioCO2=0').csv",sha256=FYS-X0lgc3zdrykspLSwWD2hvw9W7U8fi3KuOATq7Dw,30907
+"swolfpy_inputdata/Data/LCIA_Methods/('IPCC 2007, Ecoinvent V3.5', 'climate change', 'GWP 100a, bioCO2=1').csv",sha256=dJR5b6objgy26VtHZCewhh71Ti7DcEeXhoVwq60p7v0,30899
+"swolfpy_inputdata/Data/LCIA_Methods/('IPCC 2013, Ecoinvent V3.5', 'climate change', 'GWP 100a, bioCO2=0').csv",sha256=cwnYb8F6b5Mux_4tNf66UxaDtq0-2Q9xuMMk6xu3CNs,32831
+"swolfpy_inputdata/Data/LCIA_Methods/('IPCC 2013, Ecoinvent V3.5', 'climate change', 'GWP 100a, bioCO2=0, C1_36').csv",sha256=A4LS29Y3AT75OU2W2TQlhhXWzolhYbjxYX9oDxRbmYc,32831
+"swolfpy_inputdata/Data/LCIA_Methods/('IPCC 2013, Ecoinvent V3.5', 'climate change', 'GWP 100a, bioCO2=1').csv",sha256=QAr3Nnom161hRKiI7ftfW8Au2XqoQgO2GvVOHpIzv3k,32828
+"swolfpy_inputdata/Data/LCIA_Methods/('IPCC 2013, Ecoinvent V3.5', 'climate change', 'GWP 100a, bioCO2=1, C1_36').csv",sha256=3EoPxt6e9MvyukLdr9Kl5XNpbESHIspCOB-aZSzUbfs,32828
+"swolfpy_inputdata/Data/LCIA_Methods/('SwolfPy_Capital_Cost', 'SwolfPy').csv",sha256=huT8dwHzRnDOhbgHaYCjbPrbjI8JRS2sn5Fg_LEpZNU,101
+"swolfpy_inputdata/Data/LCIA_Methods/('SwolfPy_Operational_Cost', 'SwolfPy').csv",sha256=xOm0jlI7Bb3qq6NmDUTilFNK0UvgLvTyKVP6HNfPiTE,472
+"swolfpy_inputdata/Data/LCIA_Methods/('SwolfPy_Total_Cost', 'SwolfPy').csv",sha256=I-k6LZuAMEILXl1CWRCD_H1oLOnzSKjGv-mPpKwDPzg,541
+"swolfpy_inputdata/Data/LCIA_Methods/('TRACI (2.1) SwolfPy', 'environmental impact', 'acidification').csv",sha256=WwSNjSP1ZV7CHk8UVNhUHOCV89DTaYhOZQ9Fi2KKyOY,6074
+"swolfpy_inputdata/Data/LCIA_Methods/('TRACI (2.1) SwolfPy', 'environmental impact', 'eutrophication').csv",sha256=h8Y92MEqOMJ73-3pkf3Kf4NZhzXs5G3Xcn-2Q4StYv4,4598
+swolfpy_inputdata/Data/LCIA_Methods/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swolfpy_inputdata/Ecospold2/__init__.py,sha256=FvoCXsv0nLNS7R9w5jUZeHa_Pbl0Nx8WC6FHrbsZ9-8,90
+swolfpy_inputdata-0.2.0.dist-info/AUTHORS.rst,sha256=3yDXVFm6n9eaS7JV3eONZ756RiKfwN7vcYws9SPPdxU,749
+swolfpy_inputdata-0.2.0.dist-info/LICENSE.txt,sha256=jKt9IvMza33Zfb8Y83YvDRQTLkJez5toOviFdkynglo,15572
+swolfpy_inputdata-0.2.0.dist-info/METADATA,sha256=m6rbediTRDR8yIqOIW4XaA2yOeiFDlOxoL7o1jo3kz0,5511
+swolfpy_inputdata-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+swolfpy_inputdata-0.2.0.dist-info/top_level.txt,sha256=zCv3z6jTvUUVm0RzCdwLI0nLNn0bVZb_BQRpt2GCXew,18
+swolfpy_inputdata-0.2.0.dist-info/RECORD,,
