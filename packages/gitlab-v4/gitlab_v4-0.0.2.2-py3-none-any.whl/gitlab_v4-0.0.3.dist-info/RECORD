@@ -1,0 +1,8 @@
+gitlab_client/__init__.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+gitlab_client/config.py,sha256=5_uwTMlfltF6GGyR1s9lvusb7zc40VlSGhDhrB-ucLY,56
+gitlab_client/exceptions.py,sha256=BytXRY1fW5yeXRsfMV0HOVwJlvIuXRD-gpO1IoxnC3U,1078
+gitlab_client/gitlab_client.py,sha256=0J8XaK_QnUT0AEyhZUQt6cjFjrMr9fDR9-PpH4AAW2E,8946
+gitlab_v4-0.0.3.dist-info/METADATA,sha256=bYPNPkayx7GXdr4ARwthdJLJ9Rc6UFhOmcFZPRbDVgY,3273
+gitlab_v4-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gitlab_v4-0.0.3.dist-info/top_level.txt,sha256=ZX4Y5DIuhLiz4onAL244YGuJjz4Zgq2oy1k5I5RQk-A,14
+gitlab_v4-0.0.3.dist-info/RECORD,,
