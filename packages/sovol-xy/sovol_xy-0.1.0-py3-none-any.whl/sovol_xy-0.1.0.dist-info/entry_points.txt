@@ -1,0 +1,3 @@
+[console_scripts]
+sovol_xy=sovol_xy.cli:main
+
