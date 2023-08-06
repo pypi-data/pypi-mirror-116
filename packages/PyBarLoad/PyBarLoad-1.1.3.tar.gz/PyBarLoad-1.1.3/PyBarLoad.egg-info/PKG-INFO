@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: PyBarLoad
+Version: 1.1.3
+Summary: Le module PyBarLoad est un module, qui permet de faire des barres de chargements ! ( Personalisables ! + Ajout de couleurs ) 
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: <Maxencedu62_@outlook.fr>
+License: MIT
+Description: Le module PyBarLoad est un modules, qui vous permettra de vous faciliter la taches ! Tous simplement en utilisant la doc. 
+        Documentation: https://github.com/Kijusu-Dev/PyBarLoad
+Keywords: python,LoadingBar,loadBar,BarLoad,PyBarLoad
+Platform: UNKNOWN
