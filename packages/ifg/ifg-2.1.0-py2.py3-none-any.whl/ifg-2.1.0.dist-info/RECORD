@@ -1,0 +1,10 @@
+ifg/__init__.py,sha256=2gSf0gLBkXDUgHJO59jsdRg8I47DrEgraXNdXK-kAD4,1099
+ifg/calculator.py,sha256=bLm_9ztmap2Hsvj1CExldaXhHnKs1p3jXpTt8vY95NY,20611
+ifg/examples.py,sha256=1z2PjJ9Usk0EXTwfO_UydZ8CKnjgM3cEbm3hHIYpU08,975
+ifg/metadata.py,sha256=Xybt2skBZamGMNlLuOX1IG-h4uIxqUDGAO8MIGWrJac,22
+ifg/units_converter.py,sha256=jDCwvXD0Uhss60ySOqU0eMG1fUw9k6K492Kb-zIi32g,5237
+ifg/utils.py,sha256=Km8xAiSPqVASLHS3Wl1WpN0c7yC7m_pHkJK_ti4ym1A,525
+ifg-2.1.0.dist-info/LICENSE.txt,sha256=vb8qApryuUu0nTBuzLN9D9T0kSd6acokwSP5lKKiKIY,1077
+ifg-2.1.0.dist-info/WHEEL,sha256=Tf_JTHRUsYmRccQnQfn1tqmNatmXkNB0OFKM-B4YyuA,87
+ifg-2.1.0.dist-info/METADATA,sha256=YpRu_qy3AnOe3WZhNUX7fuQYJEXj_QzlG7WKz417MM0,3185
+ifg-2.1.0.dist-info/RECORD,,
