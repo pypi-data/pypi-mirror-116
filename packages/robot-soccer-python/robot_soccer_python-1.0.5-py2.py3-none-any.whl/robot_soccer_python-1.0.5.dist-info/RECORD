@@ -1,0 +1,13 @@
+robot_soccer_python/__init__.py,sha256=OZDkb0u3zHtKFm2mlbngitY18y9NG3Uhxrw5z5rsJzA,172
+robot_soccer_python/agents.py,sha256=f8G3LSYba2TlPGT4fhwBIoaX8gKLrGk11SkI0j3ywHI,12167
+robot_soccer_python/constants.py,sha256=e7MZ-LdYK30wKszF6eCyuEqcUGXLAzLj82Jmfr8bLuM,820
+robot_soccer_python/simulation.py,sha256=aNOm9DdS79nEe_Y-g_qQTxz_I3R7t-Iko_u9vaKGBrE,14798
+robot_soccer_python/simulation2D.py,sha256=UYlQzaTvbbEvm_mkDUN7SDtYo5DGPZ3zwM1BIrviJRc,2105
+robot_soccer_python/state_machine_ball.py,sha256=QYSY7txXpAnQCsnzvf_SGGwEZdi_dGDIMe7axzYpznk,3372
+robot_soccer_python/test.py,sha256=SIKXrBncZJR5JyIQGxQ2WOfhXzRlXMPyqVnLgUmjioU,469
+robot_soccer_python/utils.py,sha256=M2na4pN4j_e-PrypmGhiwQVi1_PzYZ1YQdJMzSKbpSM,2689
+robot_soccer_python-1.0.5.dist-info/LICENSE.txt,sha256=l0IPmx6d4W8iNPDM6htR-8lCuD1X7i9umGajqAhkMWM,1064
+robot_soccer_python-1.0.5.dist-info/METADATA,sha256=SWQ_CMNJ1e6xEfT8QCKnOKlhMDCp1aHVStHGZHa-eBw,6442
+robot_soccer_python-1.0.5.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+robot_soccer_python-1.0.5.dist-info/top_level.txt,sha256=OeCYEwu1yv-Ss4s12-EPoCgN7E1AMUTcNFKczd2DHxQ,20
+robot_soccer_python-1.0.5.dist-info/RECORD,,
