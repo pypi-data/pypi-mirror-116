@@ -1,0 +1,8 @@
+poverse/__init__.py,sha256=D8TooRkoGeXDDUKIDQKRfvwyOYtz_2Lu-ULc-Hcb0to,1578
+poverse/cli.py,sha256=9PrTslp1ZKSakyv8x8zhaS8I7VAiLLlvjipSPkdKjYY,800
+poverse/exceptions.py,sha256=pNo-StenuP7M4wJTYSkorGf7xXirhvLyHr7w-juO65Y,92
+poverse-0.1.2.dist-info/entry_points.txt,sha256=ELsOVBvG1aB03dIg5cc3YyKSqsXokU6iyDuscYuCTKw,43
+poverse-0.1.2.dist-info/LICENSE,sha256=sQlSm5KX4TnHVlO7kQBi68KMyxdbpI3a8vGArQ3yfDA,1053
+poverse-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+poverse-0.1.2.dist-info/METADATA,sha256=H4z_hE8WyK7l9-5fGY8kOoxLcAqzbxS-JLAMFQ4eMXY,3220
+poverse-0.1.2.dist-info/RECORD,,

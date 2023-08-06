@@ -1,0 +1,3 @@
+[console_scripts]
+poverse=poverse.cli:cli
+
