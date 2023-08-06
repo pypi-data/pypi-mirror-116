@@ -1,0 +1,10 @@
+fastapi_sso/__init__.py,sha256=OLQaf8QN1fSFxbJ1cpCuksHgFZYOHsewJOmJh0-x5BM,1004
+fastapi_sso/sso/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_sso/sso/base.py,sha256=O4gOZHqZ8Sn9U-_h55G0y-oEQ4JuVLjdIqFt-1mxrZw,6666
+fastapi_sso/sso/facebook.py,sha256=NagOAJZVLh4xFSmZsFM-5r2Cw6RLjtR0qPxKAw4WOJU,1232
+fastapi_sso/sso/google.py,sha256=q7Y28XIYRwmc3bcl6bk83Lkz6Bby60yfibPnMnFxGwc,1365
+fastapi_sso/sso/microsoft.py,sha256=iuDmVHCdWpwFw9rUbA4B1IHRp0p_4uTo4T8xbpynZgM,1233
+fastapi_sso/sso/spotify.py,sha256=jDhJBosLm_pH21Pl8CjXLdHf8Ghcfkq5u9ZJ1EWRgHY,1156
+fastapi_sso-0.2.9.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+fastapi_sso-0.2.9.dist-info/METADATA,sha256=K4T0eBz2kfQLbsJoxu5G1V3bvTZzl7NuK777rvToUEM,2253
+fastapi_sso-0.2.9.dist-info/RECORD,,
