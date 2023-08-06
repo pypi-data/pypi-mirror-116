@@ -1,0 +1,8 @@
+README.md
+setup.py
+metacity/project.py
+metacity.egg-info/PKG-INFO
+metacity.egg-info/SOURCES.txt
+metacity.egg-info/dependency_links.txt
+metacity.egg-info/requires.txt
+metacity.egg-info/top_level.txt
