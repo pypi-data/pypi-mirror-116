@@ -1,0 +1,11 @@
+shellous/__init__.py,sha256=IOS2TDQeU9OVNbo5_A0uwKeX-oS1rLrZwoskTlSzjxY,337
+shellous/command.py,sha256=sPs5pohvBnFXUHjB3ZX7a-7iD21eA2GFt-CbHT7iB3E,9760
+shellous/log.py,sha256=pZlvshmzMf-GzC_qdhW1vY5E9sVMoq6aBZfVcX5KAyY,88
+shellous/pipeline.py,sha256=4AOmb7uBQ-nAxQB_yqy1u1M3AEw4KkFsmhwYtZtZZ-s,3581
+shellous/result.py,sha256=-pJlQz6buO5Lf77xOt1OxNtN6Qt-PmravlZyF-3Ax4g,3000
+shellous/runner.py,sha256=dv08jf-Aa-g6Yb8D5aWT5uTG0Sa1PZBnai5VRfRT9lw,19046
+shellous/util.py,sha256=riB_FGnkjgMFofWiei_vbR0qiigdwMlzpyOrZakMwqs,2815
+shellous-0.1.0.dist-info/LICENSE,sha256=DNpdJLtfnMQY4UyX-MhxLAMZi25rDS99OzaVW2B2pgM,11347
+shellous-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+shellous-0.1.0.dist-info/METADATA,sha256=wGxP4lE6mOuuftFBIGmBX-7euQ5EupCerDx4kNxahlI,5785
+shellous-0.1.0.dist-info/RECORD,,
