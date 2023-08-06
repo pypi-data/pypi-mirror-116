@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: health-indices
+Version: 0.0.1
+Summary: a unified collection of health indices and indicators eg bmi,bai,etc
+Home-page: https://github.com/jcharistech/health-indices
+License: MIT
+Keywords: health-indices,health-indicators,bmi,bodymass index,bai,birth-rate,jcharistech
+Author: Jesse E.Agbe(JCharis)
+Author-email: jcharistech@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/jcharistech/health-indices
+Description-Content-Type: text/markdown
+
+# health-indices
+A unified collection of health indices and health indicators eg bmi,bai,corp index,etc
+
+#### Purpose of the Package
++ The purpose of the package is to provide a collection of all health indices in one unified libary
+
+
+### Features
++ Collection of Health Indices
+	- BMI
+	- BAI
+	- Corpulence Index
+	- Piglet Indices
+	- etc 
++ Collection of Health Indicators
+	- Mortality rate
+	- Birth rate
+	- Prevalence Rate
+	- Fertility rate
+
+
+
+
+### Getting Started
+The package can be found on pypi hence you can install it using pip
+
+#### Installation
+```bash
+pip install health_indices
+```
+
+
+### Usage
+Using the short forms or abbreviated forms of indices
+```python
+>>> from health_indices import bmi,bai,
+>>> bmi(54,1.70)
+
+```
+
+Using the long form of indices
+```python
+>>> from health_indices import bodymassindex
+>>> bodymassindex(54,1.70)
+
+```
+
+#### Examples
+```python
+>>> from health_indices import bmi
+>>> bmi(54,1.70)
+Body Mass Index is =>  18.0
+BMI Category => Underweight 
+Body Mass Index is =>  18.0
+18.0
+>>> a = bmi(54,1.70)
+Body Mass Index is =>  18.0
+BMI Category => Underweight 
+Body Mass Index is =>  18.0
+>>> a
+18.0
+>>> 
+
+```
+
+### Contribution
+Contributions are welcome
+Notice a bug let us know. Thanks
+
+
+### Author
++ Main Maintainer: Jesse E.Agbe(JCharis)
++ Jesus Saves @JCharisTech
+
