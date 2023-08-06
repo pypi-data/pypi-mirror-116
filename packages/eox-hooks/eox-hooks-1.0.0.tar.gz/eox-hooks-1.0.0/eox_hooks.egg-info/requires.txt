@@ -1,0 +1,5 @@
+django-crum
+djangorestframework
+Django
+celery
+edx-opaque-keys[django]

@@ -1,0 +1,8 @@
+# Main requirements of your plugin application.
+-c constraints.txt
+
+Django
+djangorestframework
+django-crum
+edx-opaque-keys[django]
+celery
