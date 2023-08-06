@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+corkus/version.py
+corkus.py.egg-info/PKG-INFO
+corkus.py.egg-info/SOURCES.txt
+corkus.py.egg-info/dependency_links.txt
+corkus.py.egg-info/requires.txt
+corkus.py.egg-info/top_level.txt
