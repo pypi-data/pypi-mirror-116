@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/klippiesncola/__init__.py
+src/klippiesncola/switchtel.py
+src/klippiesncola.egg-info/PKG-INFO
+src/klippiesncola.egg-info/SOURCES.txt
+src/klippiesncola.egg-info/dependency_links.txt
+src/klippiesncola.egg-info/requires.txt
+src/klippiesncola.egg-info/top_level.txt
+tests/test_switchtel.py
