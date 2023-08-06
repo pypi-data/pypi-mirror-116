@@ -1,0 +1,7 @@
+README.md
+setup.py
+filecaching/__init__.py
+filecaching.egg-info/PKG-INFO
+filecaching.egg-info/SOURCES.txt
+filecaching.egg-info/dependency_links.txt
+filecaching.egg-info/top_level.txt
