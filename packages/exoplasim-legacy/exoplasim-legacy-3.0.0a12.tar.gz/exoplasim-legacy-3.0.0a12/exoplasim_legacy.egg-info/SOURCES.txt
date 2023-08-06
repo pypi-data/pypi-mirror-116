@@ -1,0 +1,17 @@
+LICENSE.TXT
+MANIFEST.in
+README.md
+README.rst
+setup.py
+exoplasim_legacy.egg-info/PKG-INFO
+exoplasim_legacy.egg-info/SOURCES.txt
+exoplasim_legacy.egg-info/dependency_links.txt
+exoplasim_legacy.egg-info/not-zip-safe
+exoplasim_legacy.egg-info/requires.txt
+exoplasim_legacy.egg-info/top_level.txt
+exoplasimlegacy/__init__.py
+exoplasimlegacy/filesupport.py
+exoplasimlegacy/gcmt.py
+exoplasimlegacy/makestellarspec.py
+exoplasimlegacy/pyburn.py
+exoplasimlegacy/randomcontinents.py
