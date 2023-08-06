@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pysteg
+Version: 0.1.0
+Summary: A python library to create encrypted images using steganography.
+License: MIT
+Author: Lior Pollak
+Author-email: 4294489+liorp@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cryptography (>=3.4.7,<4.0.0)
+Requires-Dist: imageio (>=2.9.0,<3.0.0)
