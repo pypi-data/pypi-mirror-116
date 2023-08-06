@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+MiniContourFinder.egg-info/PKG-INFO
+MiniContourFinder.egg-info/SOURCES.txt
+MiniContourFinder.egg-info/dependency_links.txt
+MiniContourFinder.egg-info/requires.txt
+MiniContourFinder.egg-info/top_level.txt
