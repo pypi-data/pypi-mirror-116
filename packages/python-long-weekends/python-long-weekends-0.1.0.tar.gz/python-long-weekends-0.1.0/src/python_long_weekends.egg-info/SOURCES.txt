@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/long_weekends/__init__.py
+src/long_weekends/long_weekends.py
+src/long_weekends/test/__init__.py
+src/long_weekends/test/unit/__init__.py
+src/long_weekends/test/unit/test_long_weekends.py
+src/python_long_weekends.egg-info/PKG-INFO
+src/python_long_weekends.egg-info/SOURCES.txt
+src/python_long_weekends.egg-info/dependency_links.txt
+src/python_long_weekends.egg-info/requires.txt
+src/python_long_weekends.egg-info/top_level.txt
