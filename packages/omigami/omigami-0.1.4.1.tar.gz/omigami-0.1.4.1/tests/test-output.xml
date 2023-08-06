@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="0.197"><testcase classname="tests.test_endpoint" file="tests/test_endpoint.py" line="37" name="test_format_results" time="0.17328524589538574"></testcase></testsuite>

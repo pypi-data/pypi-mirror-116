@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="0.661"><testcase classname="tests.spec2vec.test_spec2vec_integration" file="tests/spec2vec/test_spec2vec_integration.py" line="37" name="test_match_spectra_from_path_with_huge_payload" time="0.003175973892211914"><failure message="FileNotFoundError: [Errno 2] No such file or directory: &apos;/Users/admin/Datarevenue/omigami/omigami/tests/assets/GNPS-NIST14-MATCHES.mgf&apos;">mgf_huge_path = &apos;/Users/admin/Datarevenue/omigami/omigami/tests/assets/GNPS-NIST14-MATCHES.mgf&apos;
+spec2vec_client = &lt;omigami.spec2vec.Spec2Vec object at 0x7fc9e40ad3d0&gt;
+
+    def test_match_spectra_from_path_with_huge_payload(mgf_huge_path, spec2vec_client):
+&gt;       result = spec2vec_client.match_spectra_from_path(mgf_huge_path, 10)
+
+test_spec2vec_integration.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../omigami/spec2vec.py:85: in match_spectra_from_path
+    for spectrum in spectra_generator:
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/site-packages/matchms/importing/load_from_mgf.py:21: in load_from_mgf
+    for pyteomics_spectrum in MGF(filename, convert_arrays=1):
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/site-packages/pyteomics/mgf.py:366: in __init__
+    read_ions=read_ions, dtype=dtype)
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/site-packages/pyteomics/mgf.py:131: in __init__
+    super(MGFBase, self).__init__(source, **kwargs)
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/site-packages/pyteomics/auxiliary/file_helpers.py:196: in __init__
+    self.reset()
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/site-packages/pyteomics/auxiliary/file_helpers.py:201: in reset
+    self._source = _file_obj(self._source_init, self._mode, self._encoding)
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/site-packages/pyteomics/auxiliary/file_helpers.py:100: in __init__
+    self.file = codecs.open(f, mode, encoding)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+filename = &apos;/Users/admin/Datarevenue/omigami/omigami/tests/assets/GNPS-NIST14-MATCHES.mgf&apos;
+mode = &apos;r&apos;, encoding = None, errors = &apos;strict&apos;, buffering = 1
+
+    def open(filename, mode=&apos;r&apos;, encoding=None, errors=&apos;strict&apos;, buffering=1):
+    
+        &quot;&quot;&quot; Open an encoded file using the given mode and return
+            a wrapped version providing transparent encoding/decoding.
+    
+            Note: The wrapped version will only accept the object format
+            defined by the codecs, i.e. Unicode objects for most builtin
+            codecs. Output is also codec dependent and will usually be
+            Unicode as well.
+    
+            Underlying encoded files are always opened in binary mode.
+            The default file mode is &apos;r&apos;, meaning to open the file in read mode.
+    
+            encoding specifies the encoding which is to be used for the
+            file.
+    
+            errors may be given to define the error handling. It defaults
+            to &apos;strict&apos; which causes ValueErrors to be raised in case an
+            encoding error occurs.
+    
+            buffering has the same meaning as for the builtin open() API.
+            It defaults to line buffered.
+    
+            The returned wrapped file object provides an extra attribute
+            .encoding which allows querying the used encoding. This
+            attribute is only available if an encoding was specified as
+            parameter.
+    
+        &quot;&quot;&quot;
+        if encoding is not None and \
+           &apos;b&apos; not in mode:
+            # Force opening of the file in binary mode
+            mode = mode + &apos;b&apos;
+&gt;       file = builtins.open(filename, mode, buffering)
+E       FileNotFoundError: [Errno 2] No such file or directory: &apos;/Users/admin/Datarevenue/omigami/omigami/tests/assets/GNPS-NIST14-MATCHES.mgf&apos;
+
+/Users/admin/miniconda3/envs/omigami-core/lib/python3.7/codecs.py:904: FileNotFoundError</failure></testcase></testsuite>
