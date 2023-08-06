@@ -1,0 +1,3 @@
+[console_scripts]
+parse-audits=parser_cli.cli:cli
+
