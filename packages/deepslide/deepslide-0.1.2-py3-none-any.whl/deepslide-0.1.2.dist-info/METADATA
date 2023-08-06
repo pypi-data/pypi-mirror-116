@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: deepslide
+Version: 0.1.2
+Summary: A python toolbox to split whole slide image.
+Home-page: https://github.com/xu-kun-cai/deepslide
+Author: Xianrui ZHANG and ...
+Author-email: zhangxianrui89@gmail.com
+License: BSD 3-Clause
+Keywords: open ultils for slide image
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: openslide-python
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+<!--
+ * @Author: ZHANG XIANRUI
+ * @Date: 2021-08-17 12:46:23
+ * @LastEditTime: 2021-08-17 12:46:25
+ * @LastEditors: ZHANG XIANRUI
+ * @Description: 
+-->
+
+# DeepSlide
+
+pip install deepslide
+
+
