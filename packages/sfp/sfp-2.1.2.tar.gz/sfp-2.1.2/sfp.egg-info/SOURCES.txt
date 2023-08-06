@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sfp/__init__.py
+sfp/sfp.py
+sfp.egg-info/PKG-INFO
+sfp.egg-info/SOURCES.txt
+sfp.egg-info/dependency_links.txt
+sfp.egg-info/requires.txt
+sfp.egg-info/top_level.txt
