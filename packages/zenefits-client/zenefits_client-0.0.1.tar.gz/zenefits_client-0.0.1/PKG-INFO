@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: zenefits_client
+Version: 0.0.1
+Summary: Python wrapper for Zenefits API
+Home-page: https://github.com/alazich/zenefits-client
+Author: Alex Lazich
+Author-email: lazich.alexander@gmail.com
+License: MIT
+Download-URL: https://github.com/alazich/zenefits-client/archive/refs/tags/0.0.1.tar.gz
+Description: See GitHub
+Keywords: api,hr,zenefits
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
