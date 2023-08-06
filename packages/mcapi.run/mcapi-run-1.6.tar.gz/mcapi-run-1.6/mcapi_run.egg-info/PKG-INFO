@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: mcapi-run
+Version: 1.6
+Summary: simple minecraft api made for the api.mcapi.run website || by overnice.exe
+Home-page: UNKNOWN
+Author: Overnice.exe
+Author-email: silkepilon2009@gmail.com
+License: MIT
+Description: a simple minecraft api for python!
+        
+        Change Log
+        ==========
+        
+        1.6 (19/04/2020)
+        -------------------
+        - First Release (working)
+        
+Keywords: minecraft
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
