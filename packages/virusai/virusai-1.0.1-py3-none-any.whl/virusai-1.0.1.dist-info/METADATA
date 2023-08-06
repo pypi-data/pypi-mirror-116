@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: virusai
+Version: 1.0.1
+Summary: V.I.R.U.S - I'm the personal assistant of my master abhinand
+Home-page: UNKNOWN
+Author: abhinanddreddrive (Red Drive)
+Author-email: <abhi.at.gaming@gmail.com>
+License: UNKNOWN
+Keywords: python,V.I.R.U.S,Smart
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+
+UNKNOWN
+
