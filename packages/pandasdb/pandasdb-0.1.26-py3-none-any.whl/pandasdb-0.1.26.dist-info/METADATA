@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pandasdb
+Version: 0.1.26
+Summary: A library for doing data analytics on databases in python without loading the data into memory of theclient computer
+Home-page: UNKNOWN
+Author: Mikkel Vilstrup
+Author-email: mikkel@vilstrup.dk
+License: MIT
+Keywords: data science sql pandas analytics databases
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: gspread (==3.4.2)
+Requires-Dist: ipywidgets (==7.5.1)
+Requires-Dist: apache-airflow (==2.1.0)
+Requires-Dist: sqlalchemy (<1.4,>=1.3.18)
+Requires-Dist: pandas (==1.3.2)
+Requires-Dist: psycopg2 (==2.9.1)
+Requires-Dist: pytest (==5.4.3)
+Requires-Dist: sshtunnel (==0.1.5)
+Requires-Dist: sqlparse (==0.3.0)
+Requires-Dist: networkx
+Requires-Dist: pyvis (==0.1.8.2)
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn (==0.10.0)
+Requires-Dist: sqlalchemy-redshift (==0.8.2)
+Requires-Dist: pydot (==1.4.1)
+Requires-Dist: tqdm
+Requires-Dist: google-auth (==1.3.0)
+Requires-Dist: google-auth-oauthlib (==0.4.4)
+Requires-Dist: Sphinx (==2.4.3)
+Requires-Dist: ujson (==4.0.1)
+Requires-Dist: jinja2 (<2.12.0,>=2.10.1)
+Requires-Dist: markupsafe (<2.0,>=1.1.1)
+Requires-Dist: importlib-metadata (~=1.7)
+Requires-Dist: attrs (<21.0,>=20.0)
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+UNKNOWN
+
