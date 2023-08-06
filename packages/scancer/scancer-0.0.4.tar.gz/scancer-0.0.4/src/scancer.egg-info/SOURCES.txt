@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/scancer/__init__.py
+src/scancer/info.py
+src/scancer.egg-info/PKG-INFO
+src/scancer.egg-info/SOURCES.txt
+src/scancer.egg-info/dependency_links.txt
+src/scancer.egg-info/top_level.txt
