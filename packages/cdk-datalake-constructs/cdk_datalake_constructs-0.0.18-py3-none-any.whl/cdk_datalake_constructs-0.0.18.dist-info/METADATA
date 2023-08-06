@@ -1,0 +1,155 @@
+Metadata-Version: 2.1
+Name: cdk-datalake-constructs
+Version: 0.0.18
+Summary: AWS CDK Constructs that can be used to create datalakes/meshes and more
+Home-page: https://github.com/randyridgley/cdk-datalake-constructs.git
+Author: Randy Ridgley<randy.ridgley@gmail.com>
+License: MIT
+Project-URL: Source, https://github.com/randyridgley/cdk-datalake-constructs.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aws-cdk.assets (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-athena (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-cloudformation (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-cloudwatch (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-ec2 (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-eks (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-emr (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-events-targets (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-events (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-glue (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-iam (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-kinesis (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-kinesisanalytics (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-kinesisfirehose (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-kms (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-lakeformation (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-lambda-nodejs (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-lambda-python (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-lambda (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-logs (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-s3-assets (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-s3-deployment (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-s3-notifications (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-s3 (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-sagemaker (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-sam (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-secretsmanager (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-servicecatalog (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-sns-subscriptions (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-sns (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-sqs (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-stepfunctions-tasks (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.aws-stepfunctions (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.core (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.custom-resources (<2.0.0,>=1.118.0)
+Requires-Dist: aws-cdk.region-info (<2.0.0,>=1.118.0)
+Requires-Dist: constructs (<4.0.0,>=3.2.27)
+Requires-Dist: jsii (<2.0.0,>=1.32.0)
+Requires-Dist: publication (>=0.0.3)
+
+# cdk-datalake-constructs  <!-- omit in toc -->
+
+This is my attempt at simplifying deploying various datalake strategies in AWS with the CDK.
+
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![Build](https://github.com/randyridgley/cdk-datalake-constructs/workflows/build/badge.svg)](https://github.com/randyridgley/cdk-datalake-constructs/workflows/build.yml)
+[![Release](https://github.com/randyridgley/cdk-datalake-constructs/workflows/release/badge.svg)](https://github.com/randyridgley/cdk-datalake-constructs/workflows/release.yml)
+[![Python](https://img.shields.io/pypi/pyversions/cdk-datalake-constructs)](https://pypi.org) [![pip](https://img.shields.io/badge/pip%20install-cdk--datalake--constructs-blue)](https://pypi.org/project/cdk-datalake-constructs/)
+[![npm version](https://img.shields.io/npm/v/cdk-datalake-constructs)](https://www.npmjs.com/package/cdk-datalake-constructs) [![pypi version](https://img.shields.io/pypi/v/cdk-datalake-constructs)](https://pypi.org/project/cdk-datalake-constructs/) [![Maven](https://img.shields.io/maven-central/v/io.github.randyridgley/cdk-datalake-constructs)](https://search.maven.org/search?q=a:cdk-datalake-constructs) [![nuget](https://img.shields.io/nuget/v/Cdk.Datalake.Constructs)](https://www.nuget.org/packages/Cdk.Datalake.Constructs/)
+
+**Table of Contents**
+
+* [Features](#features)
+* [Installation](#installation)
+* [Usage](#usage)
+
+  * [Basic](#basic)
+  * [Multi Account](#multi-account)
+  * [Data Mesh](#data-mesh)
+* [Documentation](#documentation)
+
+  * [Construct API Reference](#construct-api-reference)
+* [Supporting this project](#supporting-this-project)
+* [License](#license)
+
+## Features
+
+* Easy to Start - Create a Datalake in a few lines.
+* Easy to Expand - Expand into multiple accounts and into a data mesh.
+* Easy to Admin - Initial governance created on deploy.
+
+## Installation
+
+TypeScript/JavaScript
+
+```sh
+$ npm install @randyridgley/cdk-datalake-constructs
+```
+
+Python
+
+```sh
+$ pip install cdk-datalake-constructs.cdk-datalake-constructs
+```
+
+.Net
+
+```sh
+$ nuget install CDK.Datalake.Constructs
+
+# See more: https://www.nuget.org/packages/CDK.Datalake.Constructs/
+```
+
+## Usage
+
+### Basic
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+from randyridgley.cdk_datalake_constructs import DataLake
+
+DataLake(self, "datalake",
+    name="demo-lake"
+)
+```
+
+### Multi Account
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+```
+
+### Data Mesh
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+```
+
+## Documentation
+
+### Construct API Reference
+
+See [API.md](./API.md).
+
+## Supporting this project
+
+I'm working on this project in my free time, if you like my project, or found it helpful and would like to support me any contributions are much appreciated! ❤️
+
+## License
+
+This project is distributed under the [MIT](./LICENSE).
+
+
