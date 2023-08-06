@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/gimdl.py
+src/gimdl.egg-info/PKG-INFO
+src/gimdl.egg-info/SOURCES.txt
+src/gimdl.egg-info/dependency_links.txt
+src/gimdl.egg-info/requires.txt
+src/gimdl.egg-info/top_level.txt
