@@ -1,0 +1,16 @@
+zfitpy/__init__.py,sha256=C7MA7NSxiLDLIkOW1j6ZhpxJKKgdCmkePUhlZd-C6Yc,460
+zfitpy/bar.py,sha256=ebbLmAtix38kqhydN0HHhHSDFdGHZRh06Jd6QSfwHZ0,521
+zfitpy/foo.py,sha256=2Zlhl1xHvfWZp9n4-53Ws5PTnxeFVYtREUfHM6mU8jU,435
+zfitpy/impedancedata.py,sha256=3ey9IJVo4WlnkrJVCzm101La0vxsKxYNcYNaD9eiyLc,2010
+zfitpy/model.py,sha256=JbqHfoILLjfAsItTrR_YYKfkpo7U4ogAsE24KNpO02k,3039
+zfitpy/models.py,sha256=B47qArAb4QEHdw8u9jx8V2H4fJ3zc3K4a-yb7uHQ_BI,4101
+zfitpy/plotter.py,sha256=bi0ieGZqzPgo55vpHL_N7ZVDraN-M4XtHQVVTuK0gS4,3303
+zfitpy/zfit.py,sha256=zv3y7Ons5z8D13GtXf97qcdBYVEbxtzVeqibBfDZRQs,972
+zfitpy/zfitter.py,sha256=F5xQhC3qvCsYhoRItmTbKaREtywYoilvB3l3GTI8W5k,1391
+zfitpy/scripts/__init__.py,sha256=WZtePewTJXIzcips1Wo5evHQ5FI7ZRvt14OW7KjTe1o,53
+zfitpy/scripts/zfitpy.py,sha256=gHrrKEZdRzjC55dc0_CcqlGTdCFhilq0lTLObW4wJaA,4865
+zfitpy-0.2.dist-info/METADATA,sha256=U4-d4iXn2WSPE_qqolqQa3ZPObDXr4K1r8QdMuy2oRQ,4655
+zfitpy-0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zfitpy-0.2.dist-info/entry_points.txt,sha256=IQcHeNMFL0o9-6jKkspNWrxg0FWUEveXGBSSgqe82yA,55
+zfitpy-0.2.dist-info/top_level.txt,sha256=yme9N_ARpjaG0nNvl4cogkoOfksEqAmNxhz_ek5D7k8,7
+zfitpy-0.2.dist-info/RECORD,,
