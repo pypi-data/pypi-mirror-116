@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neon-mq-connector
+Version: 0.0.5a2
+Summary: MQ Connector for Neon Modules
+Home-page: https://github.com/NeonGeckoCom/neon_mq_connector
+Author: NeonGecko
+Author-email: developers@neon.ai
+License: NeonAI License v1.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pika (==1.2.0)
+Requires-Dist: neon-utils (>=0.5.7)
+
+UNKNOWN
+
+
