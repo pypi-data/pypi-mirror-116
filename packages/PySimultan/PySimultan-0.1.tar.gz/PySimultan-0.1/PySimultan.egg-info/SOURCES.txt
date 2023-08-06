@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+PySimultan.egg-info/PKG-INFO
+PySimultan.egg-info/SOURCES.txt
+PySimultan.egg-info/dependency_links.txt
+PySimultan.egg-info/entry_points.txt
+PySimultan.egg-info/not-zip-safe
+PySimultan.egg-info/requires.txt
+PySimultan.egg-info/top_level.txt
