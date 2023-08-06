@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vasvscrapper
+Version: 0.0.2a5
+Summary: A python package for the-vasv-deets project to extract information from vce.ac.in.
+Author: P. Soumith Reddy
+Author-email: soumithreddypodduturi@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: pre-commit (>=2.14.0,<3.0.0)
