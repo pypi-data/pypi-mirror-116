@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: leginorma
+Version: 0.0.4
+Summary: Python wrapper for Legifrance API
+Home-page: https://github.com/envinorma/leginorma
+Author: Rémi Delbouys
+Author-email: remi.delbouys@laposte.net
+License: MIT license
+Description: # Leginorma
+        
+        [![Build Status](https://github.com/envinorma/leginorma/workflows/Build%20Main/badge.svg)](https://github.com/envinorma/leginorma/actions)
+        [![Documentation](https://github.com/envinorma/leginorma/workflows/Documentation/badge.svg)](https://envinorma.github.io/leginorma/)
+        [![Code Coverage](https://codecov.io/gh/envinorma/leginorma/branch/main/graph/badge.svg)](https://codecov.io/gh/envinorma/leginorma)
+        
+        Python wrapper for Legifrance API
+        
+        ---
+        
+        ## Quick Start
+        
+        ```python
+        from leginorma import LegifranceText, LegifranceClient
+        
+        client = LegifranceClient('client_id', 'client_secret')
+        text = LegifranceText.from_dict(client.consult_law_decree('JORFTEXT000034429274'))
+        ```
+        
+        ## Installation
+        
+        **Stable Release:** `pip install leginorma`<br>
+        **Development Head:** `pip install git+https://github.com/envinorma/leginorma.git`
+        
+        ## Documentation
+        
+        For full package documentation please visit [envinorma.github.io/leginorma](https://envinorma.github.io/leginorma).
+        
+        ## Development
+        
+        See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+        
+        **MIT license**
+        
+Keywords: leginorma
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: setup
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: all
