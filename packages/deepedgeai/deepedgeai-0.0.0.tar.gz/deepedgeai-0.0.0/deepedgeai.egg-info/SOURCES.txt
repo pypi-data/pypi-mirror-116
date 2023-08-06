@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+deepedgeai/__init__.py
+deepedgeai/about.py
+deepedgeai.egg-info/PKG-INFO
+deepedgeai.egg-info/SOURCES.txt
+deepedgeai.egg-info/dependency_links.txt
+deepedgeai.egg-info/not-zip-safe
+deepedgeai.egg-info/top_level.txt
