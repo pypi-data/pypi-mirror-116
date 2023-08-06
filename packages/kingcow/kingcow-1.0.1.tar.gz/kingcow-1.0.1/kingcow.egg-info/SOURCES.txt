@@ -1,0 +1,12 @@
+README.md
+setup.py
+kingcow/__init__.py
+kingcow/api.py
+kingcow/html_handle.py
+kingcow/request.py
+kingcow/spider.py
+kingcow/xml_handle.py
+kingcow.egg-info/PKG-INFO
+kingcow.egg-info/SOURCES.txt
+kingcow.egg-info/dependency_links.txt
+kingcow.egg-info/top_level.txt
