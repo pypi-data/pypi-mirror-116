@@ -1,0 +1,12 @@
+kan_alexandria/__init__.py,sha256=Zjw3Gw27tUl3r4bEMfELYbyWAB_CB94gKIM01tCkctM,572
+kan_alexandria/__main__.py,sha256=HmUN0NRdHAW2Cij0mAAUcEAYtO63OdbT2kQPn6tqil4,5002
+kan_alexandria/__version__.py,sha256=N9L1pIQLomtwc8SKnMuXCUKYMaoqsA7DB98Y7J3HDn4,43
+kan_alexandria/book_api.py,sha256=Bu-K-BHL0TSP3LAoiRxyPqSV5MPsc3rs3JLEYf5gZW8,2916
+kan_alexandria/models.py,sha256=jseoiXJRWDjZTnUS1gyjjo5Q8TEPqPH0nkrSoCxfvOM,671
+kan_alexandria/structures.py,sha256=QxiXPM8d_84kqYfmBWuc-rgKcq_hdzdhiJ3jTg-GAsE,4309
+kan_alexandria-0.0.6.dist-info/LICENSE.md,sha256=ImHYK9CDO7ocAuIF3z_2gbkGYqajaVFjDzCyQJ_RpzI,11338
+kan_alexandria-0.0.6.dist-info/METADATA,sha256=AjN700m3SHDravQiur16s6euRAvh6WFWU1CHoPBv7oo,17318
+kan_alexandria-0.0.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+kan_alexandria-0.0.6.dist-info/entry_points.txt,sha256=DkqFY0pekJdCtK-NvAs1H8iDKvcynxjRe-SG9C25mN0,65
+kan_alexandria-0.0.6.dist-info/top_level.txt,sha256=7YtMvnmS3THSPvVcWbkDhJGllaS8NBlD8mcoyAkomnA,15
+kan_alexandria-0.0.6.dist-info/RECORD,,

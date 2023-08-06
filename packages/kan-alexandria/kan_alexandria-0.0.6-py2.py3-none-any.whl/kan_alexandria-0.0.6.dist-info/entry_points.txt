@@ -1,0 +1,3 @@
+[console_scripts]
+kan_alexandria = kan_alexandria.__main__:main
+
