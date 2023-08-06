@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sqs-poller
+Version: 0.0.1
+Summary: A wrapper class around boto3's SQS resource.
+Home-page: https://github.com/nordhealth/sqs-poller
+Author: Ville Lindroos
+Author-email: ville.lindroos@nordhealth.com
+License: UNKNOWN
+Project-URL: Nordhealth, https://nordhealth.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SQSPoller
+A wrapper class around boto3's SQS resource.
+
+Please see the official documentation for more detailed information:
+
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html
+
+
