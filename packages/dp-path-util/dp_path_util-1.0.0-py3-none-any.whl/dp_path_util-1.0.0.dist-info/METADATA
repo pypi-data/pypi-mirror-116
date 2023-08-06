@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dp-path-util
+Version: 1.0.0
+Summary: Utilities for Path construction
+Home-page: https://github.com/dataPuzzler/dp_path_util
+Author: Lukas Seppelfricke
+Author-email: data.puzzler@gmail.com
+License: UNKNOWN
+Keywords: json,jsonschema
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/x-rst
+
+dp_path_util
+=============
+
+A python package that simplifies the construction of Paths in order to locate project resources.
+
+
