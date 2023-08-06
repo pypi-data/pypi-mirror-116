@@ -1,0 +1,33 @@
+########### MACRO #############
+load "Knee.any"
+classoperation Main.MyModel.PatellaLigament.DriverPos "Set Value" --value="0.0236734693878"
+operation Main.MyStudy.InverseDynamics
+run
+classoperation Main.MyStudy.Output.Abscissa.t "Dump"
+classoperation Main.MyStudy.Output.MaxMuscleActivity "Dump"
+classoperation Main.MyModel.PatellaLigament.DriverPos "Dump"
+
+######### OUTPUT LOG ##########
+
+AnyBody Console Application
+AnyBodyCon.exe version : 7. 3. 4. 8518 (64-bit version) 
+Build : 18813.46800
+Copyright (c) 1999 - 2021 AnyBody Technology A/S
+
+Current path: c:\Users\mel\Documents\AnyBodySource\AnyPyTools\docs\Tutorial
+
+#### Macro command > load "Knee.any"
+Loading  Main  :  "C:\Users\mel\Documents\AnyBodySource\AnyPyTools\docs\Tutorial\Knee.any"
+Scanning...
+Passing...
+Constructing model tree...
+ERROR(SYS1) :   Model load  :  Unknown error (*)
+  
+
+Closing model...
+Deleting loaded model...
+...Model deleted.
+
+#### Macro command > classoperation Main.MyModel.PatellaLigament.DriverPos "Set Value" --value="0.0236734693878"
+
+ERROR: AnyPyTools : anybodycon.exe exited unexpectedly. Return code: -1073740940

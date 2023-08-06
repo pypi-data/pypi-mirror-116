@@ -1,0 +1,228 @@
+########### MACRO #############
+load "Knee.any"
+classoperation Main.MyModel.PatellaLigament.DriverPos "Set Value" --value="{2,3,4,5,6,7,8}"
+operation Main.MyStudy.InverseDynamics
+run
+classoperation Main.MyStudy.Output.Abscissa.t "Dump"
+classoperation Main.MyStudy.Output.MaxMuscleActivity "Dump"
+classoperation Main.MyModel.PatellaLigament "Dump"
+
+######### OUTPUT LOG ##########
+
+AnyBody Console Application
+AnyBodyCon.exe version : 7. 3. 4. 8518 (64-bit version) 
+Build : 18813.46800
+Copyright (c) 1999 - 2021 AnyBody Technology A/S
+
+Current path: c:\Users\mel\Documents\AnyBodySource\AnyPyTools\docs\Tutorial
+
+#### Macro command > load "Knee.any"
+Loading  Main  :  "C:\Users\mel\Documents\AnyBodySource\AnyPyTools\docs\Tutorial\Knee.any"
+Scanning...
+Passing...
+Constructing model tree...
+Linking identifiers...
+Evaluating constants...
+Configuring model...
+Evaluating model...
+Loaded successfully.
+Elapsed Time : 0.170000
+
+#### Macro command > classoperation Main.MyModel.PatellaLigament.DriverPos "Set Value" --value="{2,3,4,5,6,7,8}"
+ERROR(SCR.EXP11) :   C:\Users\mel\Documents\AnyBodySource\AnyPyTools\docs\Tutorial\Knee.any(111)  :   'DriverPos'  :  Incorrectly sized array reinitialization data for 'AnyFloat[1]'
+
+||============================Edit Value==============================
+||  
+||  DriverPos = {0.059999999999999998}
+||  DriverPos =||====================================================================
+||==========================Message Dialog============================
+||  Error : Set value is not allowed for given model running state.
+||  Press : < OK (Any Key) > : OK
+||====================================================================
+
+#### Macro command > operation Main.MyStudy.InverseDynamics
+
+#### Macro command > run
+
+***************************************************************************************
+0) InverseDynamics (Operation: Main.MyStudy.InverseDynamics): 
+0.0) PreOperation (Operation: Main.MyStudy.InverseDynamics.PreOperation): 
+0.0.0) InitialConditions (Operation: Main.MyStudy.InitialConditions): 
+0.0.0) ...Design variables have been updated.
+0.0.1) ...Load-time positions have been re-established.
+0.0.2) ...Kinematic analysis completed.
+0.0.3) ...Dependent variables are fully updated.
+0) Inverse dynamic analysis...
+99) ...Inverse dynamic analysis completed
+Total simulation time: 1.052
+
+***************************************************************************************
+
+#### Macro command > classoperation Main.MyStudy.Output.Abscissa.t "Dump"
+Main.MyStudy.Output.Abscissa.t = {0.0, 0.024242424242424242, 0.048484848484848485, 0.072727272727272724, 0.09696969696969697, 0.1212121212121212, 0.14545454545454545, 0.16969696969696968, 0.19393939393939394, 0.21818181818181817, 0.2424242424242424, 0.26666666666666666, 0.29090909090909089, 0.31515151515151518, 0.33939393939393936, 0.36363636363636365, 0.38787878787878788, 0.41212121212121211, 0.43636363636363634, 0.46060606060606057, 0.48484848484848481, 0.50909090909090904, 0.53333333333333333, 0.5575757575757575, 0.58181818181818179, 0.60606060606060608, 0.63030303030303036, 0.65454545454545443, 0.67878787878787872, 0.70303030303030301, 0.72727272727272729, 0.75151515151515158, 0.77575757575757576, 0.79999999999999993, 0.82424242424242422, 0.84848484848484851, 0.87272727272727268, 0.89696969696969697, 0.92121212121212115, 0.94545454545454533, 0.96969696969696961, 0.9939393939393939, 1.0181818181818181, 1.0424242424242425, 1.0666666666666667, 1.0909090909090908, 1.115151515151515, 1.1393939393939394, 1.1636363636363636, 1.187878787878788, 1.2121212121212122, 1.2363636363636363, 1.2606060606060607, 1.2848484848484849, 1.3090909090909089, 1.3333333333333333, 1.3575757575757574, 1.3818181818181818, 1.406060606060606, 1.4303030303030302, 1.4545454545454546, 1.4787878787878788, 1.5030303030303032, 1.5272727272727271, 1.5515151515151515, 1.5757575757575757, 1.5999999999999999, 1.6242424242424243, 1.6484848484848484, 1.6727272727272728, 1.696969696969697, 1.721212121212121, 1.7454545454545454, 1.7696969696969695, 1.7939393939393939, 1.8181818181818181, 1.8424242424242423, 1.8666666666666667, 1.8909090909090907, 1.915151515151515, 1.9393939393939392, 1.9636363636363636, 1.9878787878787878, 2.0121212121212118, 2.0363636363636362, 2.0606060606060606, 2.084848484848485, 2.1090909090909089, 2.1333333333333333, 2.1575757575757577, 2.1818181818181817, 2.2060606060606061, 2.23030303030303, 2.2545454545454544, 2.2787878787878788, 2.3030303030303028, 2.3272727272727272, 2.3515151515151516, 2.375757575757576, 2.3999999999999999};
+
+#### Macro command > classoperation Main.MyStudy.Output.MaxMuscleActivity "Dump"
+Main.MyStudy.Output.MaxMuscleActivity = {0.0089053768581158592, 0.0092755212408540677, 0.0098651489542327005, 0.010677286343402835, 0.011713740808526458, 0.012975019697189408, 0.014460216788446991, 0.016166904110465678, 0.018091019580816641, 0.020226745727016545, 0.022566374242747086, 0.025100151377512651, 0.027816100436605616, 0.030699820293466386, 0.033734263093336589, 0.036899500519027656, 0.040172496256445235, 0.043526912573988011, 0.04693299082566136, 0.050357558181639589, 0.053764224252923931, 0.057113838726108472, 0.060365280878784795, 0.06347663932640446, 0.06640681096534648, 0.069117498661372859, 0.071575518163489588, 0.073755242303095464, 0.075640928740545996, 0.077228617686792442, 0.078527273100007941, 0.079558895702707577, 0.080357465555930929, 0.080966760350720229, 0.081437304012859646, 0.081822875614756138, 0.082177102151211323, 0.082550645784624621, 0.082984574480532064, 0.083339147695394716, 0.083554672635088797, 0.083659389325437788, 0.083679768311896663, 0.083640228415089404, 0.083562868086650491, 0.08346720946857597, 0.083369957373360698, 0.083284778503374152, 0.083222108695250541, 0.083188997261960176, 0.083188997261959038, 0.083222108700550468, 0.083284778525820419, 0.083369957431740027, 0.083467209586016639, 0.083562868287670469, 0.083640228722124996, 0.083679768741561203, 0.083659389884795057, 0.083554673318257083, 0.083339148480777211, 0.082984575328224106, 0.082550646619801021, 0.082177102843882452, 0.081822875996929834, 0.081437303900262853, 0.080966759569539873, 0.080357463972352869, 0.079558893248349319, 0.078527269786942577, 0.07722861360849255, 0.075640924059459227, 0.073755237227250123, 0.071575512919377623, 0.069117493467526145, 0.066406806011376829, 0.063476634759637246, 0.060365276798717199, 0.057113835185501699, 0.053764221263618947, 0.050357555723046031, 0.046932988854147414, 0.043526911031840698, 0.040172495079571435, 0.036899499642984536, 0.03373426245727907, 0.030699819843817214, 0.027816100127439267, 0.025100151171172983, 0.022566374109442983, 0.020226745643970784, 0.018091019531194168, 0.016166904082245363, 0.014460216773349778, 0.012975019689731448, 0.0117137408052313, 0.010677286342176604, 0.0098651489538955361, 0.0092755154895291774, 0.0089053824046465072};
+
+#### Macro command > classoperation Main.MyModel.PatellaLigament "Dump"
+
+Main.MyModel.PatellaLigament = {...};
+Main.MyModel.PatellaLigament.UpdConfig = 1;
+Main.MyModel.PatellaLigament.UpdDesign = 2;
+Main.MyModel.PatellaLigament.UpdOutput = 102;
+Main.MyModel.PatellaLigament.t = 2.3999999999999999;
+Main.MyModel.PatellaLigament.RefFrames = ;
+Main.MyModel.PatellaLigament.Surfaces = ;
+Main.MyModel.PatellaLigament.KinMeasureArr = {Main.MyModel.PatellaLigament.lin};
+Main.MyModel.PatellaLigament.KinMeasureIndexArr = {0};
+Main.MyModel.PatellaLigament.nDim = 1;
+Main.MyModel.PatellaLigament.RefFrameOutput = {...};
+Main.MyModel.PatellaLigament.RefFrameOutput.RefFrameArr = {Main.MyModel.Patella.Lig, Main.MyModel.Tibia.Patella2};
+Main.MyModel.PatellaLigament.RefFrameOutput.Jacobians = {{{0.60306366980405557, 0.79769305510482236, 0.0, 0.0, 0.0, 0.0}}, {{-0.60306366980405557, -0.79769305510482236, 0.0, 0.0, 0.0, 0.0}}};
+Main.MyModel.PatellaLigament.Pos = {6.7274202375511294e-08};
+Main.MyModel.PatellaLigament.Vel = {-3.1057839909467559e-19};
+Main.MyModel.PatellaLigament.Acc = {1.4609007912415287e-16};
+Main.MyModel.PatellaLigament.viewKinMeasure = {...};
+Main.MyModel.PatellaLigament.viewKinMeasure.UpdConfig = 1;
+Main.MyModel.PatellaLigament.viewKinMeasure.UpdDesign = 2;
+Main.MyModel.PatellaLigament.viewKinMeasure.UpdOutput = 102;
+Main.MyModel.PatellaLigament.viewKinMeasure.Visible = Off;
+Main.MyModel.PatellaLigament.viewKinMeasure.Opacity = 1.0;
+Main.MyModel.PatellaLigament.viewKinMeasure.Pickable = On;
+Main.MyModel.PatellaLigament.viewKinMeasure.PickableZOrdering = 0;
+Main.MyModel.PatellaLigament.viewKinMeasure.RGB1 = {0.80000000000000004, 0.29999999999999999, 0.29999999999999999};
+Main.MyModel.PatellaLigament.viewKinMeasure.RGB2 = {0.29999999999999999, 0.80000000000000004, 0.29999999999999999};
+Main.MyModel.PatellaLigament.viewKinMeasure.RGB3 = {0.29999999999999999, 0.29999999999999999, 0.80000000000000004};
+Main.MyModel.PatellaLigament.viewKinMeasure.RGB4 = {0.80000000000000004, 0.5, 0.20000000000000001};
+Main.MyModel.PatellaLigament.viewKinMeasure.Label = On;
+Main.MyModel.PatellaLigament.viewKinMeasure.Size = 0.02;
+Main.MyModel.PatellaLigament.viewKinMeasure.Line = On;
+Main.MyModel.PatellaLigament.viewKinMeasure.Text = "";
+Main.MyModel.PatellaLigament.viewKinMeasure.TextSize = 30.0;
+Main.MyModel.PatellaLigament.viewKinMeasure.ShowIllustration = On;
+Main.MyModel.PatellaLigament.viewKinMeasure.ShowLabelLines = On;
+Main.MyModel.PatellaLigament.viewKinMeasure.ShowValue = Off;
+Main.MyModel.PatellaLigament.viewKinMeasure.ShowLabelBorder = On;
+Main.MyModel.PatellaLigament.viewKinMeasure.IllustrationPositionOffset = ;
+Main.MyModel.PatellaLigament.viewKinMeasure.IllustrationRotationOffset = ;
+Main.MyModel.PatellaLigament.viewKinMeasure.RefIllustration = -2;
+Main.MyModel.PatellaLigament.viewKinMeasure.RefLabel = -2;
+Main.MyModel.PatellaLigament.viewKinMeasure.LabelPositionOffset = ;
+Main.MyModel.PatellaLigament.viewKinMeasure.ValueScaling = 1.0;
+Main.MyModel.PatellaLigament.viewKinMeasure.ValueStyle = {...};
+Main.MyModel.PatellaLigament.viewKinMeasure.ValueStyle.Digits = 8;
+Main.MyModel.PatellaLigament.viewKinMeasure.ValueStyle.Style = 0;
+Main.MyModel.PatellaLigament.viewKinMeasure.ValueStyle.Scale = Off;
+Main.MyModel.PatellaLigament.viewKinMeasure.ValueStyle.ScaleVal = 1.0;
+Main.MyModel.PatellaLigament.MeasureOrganizer = ;
+Main.MyModel.PatellaLigament.CType = {Hard};
+Main.MyModel.PatellaLigament.WeightFun = ;
+Main.MyModel.PatellaLigament.Reaction = {...};
+Main.MyModel.PatellaLigament.Reaction.UpdConfig = 1;
+Main.MyModel.PatellaLigament.Reaction.UpdDesign = 2;
+Main.MyModel.PatellaLigament.Reaction.UpdOutput = 102;
+Main.MyModel.PatellaLigament.Reaction.t = 2.3999999999999999;
+Main.MyModel.PatellaLigament.Reaction.RefFrames = ;
+Main.MyModel.PatellaLigament.Reaction.Surfaces = ;
+Main.MyModel.PatellaLigament.Reaction.KinMeasureArr = {Main.MyModel.PatellaLigament};
+Main.MyModel.PatellaLigament.Reaction.KinMeasureIndexArr = {0};
+Main.MyModel.PatellaLigament.Reaction.nDim = 1;
+Main.MyModel.PatellaLigament.Reaction.RefFrameOutput = {...};
+Main.MyModel.PatellaLigament.Reaction.RefFrameOutput.RefFrameArr = {Main.MyModel.Patella.Lig, Main.MyModel.Tibia.Patella2};
+Main.MyModel.PatellaLigament.Reaction.RefFrameOutput.Jacobians = {{{0.60306366980405557, 0.79769305510482236, 0.0, 0.0, 0.0, 0.0}}, {{-0.60306366980405557, -0.79769305510482236, 0.0, 0.0, 0.0, 0.0}}};
+Main.MyModel.PatellaLigament.Reaction.RefFrameOutput.F = {{-3.5023326813374025, -4.6326558810568708, 0.0}, {3.5023326813374025, 4.6326558810568708, 0.0}};
+Main.MyModel.PatellaLigament.Reaction.RefFrameOutput.M = {{0.0, 0.0, 0.0}, {0.0, 0.0, 0.0}};
+Main.MyModel.PatellaLigament.Reaction.viewForce = {...};
+Main.MyModel.PatellaLigament.Reaction.viewForce.UpdConfig = 1;
+Main.MyModel.PatellaLigament.Reaction.viewForce.UpdDesign = 2;
+Main.MyModel.PatellaLigament.Reaction.viewForce.UpdOutput = 102;
+Main.MyModel.PatellaLigament.Reaction.viewForce.Visible = Off;
+Main.MyModel.PatellaLigament.Reaction.viewForce.Opacity = 1.0;
+Main.MyModel.PatellaLigament.Reaction.viewForce.Pickable = On;
+Main.MyModel.PatellaLigament.Reaction.viewForce.PickableZOrdering = 0;
+Main.MyModel.PatellaLigament.Reaction.viewForce.ShowTotalForces = On;
+Main.MyModel.PatellaLigament.Reaction.viewForce.ShowComponentForces = Off;
+Main.MyModel.PatellaLigament.Reaction.viewForce.ForceScale = 0.001;
+Main.MyModel.PatellaLigament.Reaction.viewForce.ComponentScale = 0.20000000000000001;
+Main.MyModel.PatellaLigament.Reaction.viewForce.MomentToForceScale = 0.10000000000000001;
+Main.MyModel.PatellaLigament.Reaction.viewForce.MaximumForceLength = 0.25;
+Main.MyModel.PatellaLigament.Reaction.viewForce.MinimumForceLength = 0.20000000000000001;
+Main.MyModel.PatellaLigament.Reaction.viewForce.ReactionForceColor = {0.80000000000000004, 0.29999999999999999, 0.29999999999999999};
+Main.MyModel.PatellaLigament.Reaction.viewForce.AppliedForceColor = {0.29999999999999999, 0.80000000000000004, 0.29999999999999999};
+Main.MyModel.PatellaLigament.Reaction.viewForce.ScaleToView = On;
+Main.MyModel.PatellaLigament.Reaction.Fin = {0.0};
+Main.MyModel.PatellaLigament.Reaction.Fout = {-5.8075670226915888};
+Main.MyModel.PatellaLigament.Reaction.Type = {On};
+Main.MyModel.PatellaLigament.WeightPos = {1.0};
+Main.MyModel.PatellaLigament.WeightVel = {0.0};
+Main.MyModel.PatellaLigament.WeightAcc = {0.0};
+Main.MyModel.PatellaLigament.DriverPos = {0.059999999999999998};
+Main.MyModel.PatellaLigament.DriverVel = {0.0};
+Main.MyModel.PatellaLigament.DriverAcc = {0.0};
+Main.MyModel.PatellaLigament.lin = {...};
+Main.MyModel.PatellaLigament.lin.UpdConfig = 1;
+Main.MyModel.PatellaLigament.lin.UpdDesign = 2;
+Main.MyModel.PatellaLigament.lin.UpdOutput = 102;
+Main.MyModel.PatellaLigament.lin.t = 2.3999999999999999;
+Main.MyModel.PatellaLigament.lin.RefFrames = {Main.MyModel.Patella.Lig, Main.MyModel.Tibia.Patella2};
+Main.MyModel.PatellaLigament.lin.Surfaces = ;
+Main.MyModel.PatellaLigament.lin.KinMeasureArr = ;
+Main.MyModel.PatellaLigament.lin.KinMeasureIndexArr = ;
+Main.MyModel.PatellaLigament.lin.nDim = 1;
+Main.MyModel.PatellaLigament.lin.RefFrameOutput = {...};
+Main.MyModel.PatellaLigament.lin.RefFrameOutput.RefFrameArr = {Main.MyModel.Patella.Lig, Main.MyModel.Tibia.Patella2};
+Main.MyModel.PatellaLigament.lin.RefFrameOutput.Jacobians = {{{0.60306366980405557, 0.79769305510482236, 0.0, 0.0, 0.0, 0.0}}, {{-0.60306366980405557, -0.79769305510482236, 0.0, 0.0, 0.0, 0.0}}};
+Main.MyModel.PatellaLigament.lin.Pos = {0.060000067274202373};
+Main.MyModel.PatellaLigament.lin.Vel = {-3.1057839909467559e-19};
+Main.MyModel.PatellaLigament.lin.Acc = {1.4609007912415287e-16};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure = {...};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.UpdConfig = 1;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.UpdDesign = 2;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.UpdOutput = 102;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Visible = Off;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Opacity = 1.0;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Pickable = On;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.PickableZOrdering = 0;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.RGB1 = {0.80000000000000004, 0.29999999999999999, 0.29999999999999999};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.RGB2 = {0.29999999999999999, 0.80000000000000004, 0.29999999999999999};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.RGB3 = {0.29999999999999999, 0.29999999999999999, 0.80000000000000004};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.RGB4 = {0.80000000000000004, 0.5, 0.20000000000000001};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Label = On;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Size = 0.02;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Line = On;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.Text = "";
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.TextSize = 30.0;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ShowIllustration = On;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ShowLabelLines = On;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ShowValue = Off;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ShowLabelBorder = On;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.IllustrationPositionOffset = ;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.IllustrationRotationOffset = ;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.RefIllustration = -2;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.RefLabel = -2;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.LabelPositionOffset = ;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ValueScaling = 1.0;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ValueStyle = {...};
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ValueStyle.Digits = 8;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ValueStyle.Style = 0;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ValueStyle.Scale = Off;
+Main.MyModel.PatellaLigament.lin.viewKinMeasure.ValueStyle.ScaleVal = 1.0;
+Main.MyModel.PatellaLigament.lin.origin = Main.MyModel.Patella.Lig;
+Main.MyModel.PatellaLigament.lin.insertion = Main.MyModel.Tibia.Patella2;
+Main.MyModel.PatellaLigament.lin.drw = {...};
+Main.MyModel.PatellaLigament.lin.drw.UpdConfig = 1;
+Main.MyModel.PatellaLigament.lin.drw.UpdDesign = 2;
+Main.MyModel.PatellaLigament.lin.drw.UpdOutput = 102;
+Main.MyModel.PatellaLigament.lin.drw.Visible = On;
+Main.MyModel.PatellaLigament.lin.drw.Opacity = 1.0;
+Main.MyModel.PatellaLigament.lin.drw.Pickable = On;
+Main.MyModel.PatellaLigament.lin.drw.PickableZOrdering = 0;
+Main.MyModel.PatellaLigament.lin.drw.Thickness = 0.01;
+Main.MyModel.PatellaLigament.lin.drw.RGB = {1.0, 0.0, 0.0};
+
+#### Macro command > exit
+
+Closing model...
+Saving modified values...
+Deleting loaded model...
+...Model deleted.
