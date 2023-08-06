@@ -1,0 +1,10 @@
+setup.py
+sunny_distributions/Binomialdistribution.py
+sunny_distributions/Gaussiandistribution.py
+sunny_distributions/Generaldistribution.py
+sunny_distributions/__init__.py
+sunny_distributions.egg-info/PKG-INFO
+sunny_distributions.egg-info/SOURCES.txt
+sunny_distributions.egg-info/dependency_links.txt
+sunny_distributions.egg-info/not-zip-safe
+sunny_distributions.egg-info/top_level.txt
