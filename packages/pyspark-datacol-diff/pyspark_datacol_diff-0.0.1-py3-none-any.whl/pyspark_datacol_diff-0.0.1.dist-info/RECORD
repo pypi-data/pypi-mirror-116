@@ -1,0 +1,7 @@
+pysparkdatacoldiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysparkdatacoldiff/find_dataframe_diff.py,sha256=W1PlyUtmL-XGbFMAL93Q-9k8mU05YfdD99DQxsGYGww,1421
+pyspark_datacol_diff-0.0.1.dist-info/LICENSE.txt,sha256=kcMqDuRhWSHUA9v1htzxgNKvJoxslW9XNRnfRe0i-pc,1067
+pyspark_datacol_diff-0.0.1.dist-info/METADATA,sha256=jMda6gkvZTIh4Cm69KjP-g8ovsJgWKwfalFbLBoeN3s,879
+pyspark_datacol_diff-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyspark_datacol_diff-0.0.1.dist-info/top_level.txt,sha256=CWeiGE_a6O7sz72SgHqxhyeG56tSR5ngi8XHb-FtwSg,19
+pyspark_datacol_diff-0.0.1.dist-info/RECORD,,
