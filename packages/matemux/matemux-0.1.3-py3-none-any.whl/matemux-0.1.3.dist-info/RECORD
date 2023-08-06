@@ -1,0 +1,11 @@
+matemux/__main__.py,sha256=4nogochR3YpxtS1cUssD03w8ARZ7ewLEMaJ2TeclhW0,1500
+matemux/cook.py,sha256=xgOJlhK_mhXlAjGJk-Vy93B_9TxmVGPqYxL43W8AUwU,1161
+matemux/help.txt,sha256=WmQLNHVkGmjEYRQ_OmzZ3qrJviKEWaxtlsgSweisKzc,4833
+matemux/parser.py,sha256=xgMJ24MNOR0eUSUpQhKYCq3qJJFFS9yI20sMHoUer8o,743
+matemux/recipe.py,sha256=t3zl-GpG9Jz-aaXOulP3CSCeVnFJRnDcDSOEnSddf0A,4538
+matemux/tmux.py,sha256=ZSUU7C5oS9LauarzC4pPLasEs35VX4ngTgrtRHB73qE,2202
+matemux-0.1.3.dist-info/entry_points.txt,sha256=pBKd7QY37lcLvN4LgN5PrcJ_7QLuqYUCqk3HOhBQuy0,49
+matemux-0.1.3.dist-info/LICENSE,sha256=KW9ohv8lJGGr9FLISnZRaL5-no1JaJEKKeBQwBctHNE,1074
+matemux-0.1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+matemux-0.1.3.dist-info/METADATA,sha256=-bGqdzzdg3eaFrYsQJBL3Smy-wqHjDD-OdIYDHstwXE,5563
+matemux-0.1.3.dist-info/RECORD,,
