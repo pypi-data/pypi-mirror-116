@@ -1,0 +1,3 @@
+[console_scripts]
+cisco-documentation = cisco_documentation.cli:main
+
