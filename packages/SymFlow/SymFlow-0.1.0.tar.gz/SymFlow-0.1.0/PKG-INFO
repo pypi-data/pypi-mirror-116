@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: SymFlow
+Version: 0.1.0
+Summary: Library for using SymPy expressions as Keras layers.
+Home-page: https://SymFlow.readthedocs.io/
+Author: Paul Spiering
+Author-email: paul@spiering.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#SymFlow
+A library to use SymPy expressions to define Keras layers. 
+
+### Installation
+```
+pip install symflow
+```
+
+###Get started
+```python
+import tensorflow as tf
+from symflow import SymLayer,AddLayer
+add=AddLayer()
+
+x=tf.keras.layers.Input(1)
+y=tf.keras.layers.Input(1)
+
+Model=tf.keras.models.Model(inputs=[x,y],outputs=add([x,y]))
+print(Model([[3],[3]]))
+print(add([2,2]))
+```
+
+
