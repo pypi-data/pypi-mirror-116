@@ -1,0 +1,15 @@
+cursedspace/__init__.py,sha256=zrIqJ3y2qThn2zh0Ij81_g1mOYsQ2XUZ6dHtjjPdaaY,144
+cursedspace/application.py,sha256=7h5s4Ouuhfl1DASv6Oqm618jbGpQM8Yca_Ku1gOoR_g,2744
+cursedspace/colors.py,sha256=Jjx3ye_dtAzhCCUeyP0mFcJQHH7bucjYr6dD_EzE8xU,114
+cursedspace/inputline.py,sha256=QQQub1_Y8FreN7rbp9LM5Cd1NSfz09wD52ARDlnCO4Y,2978
+cursedspace/key.py,sha256=DvPyIjYtFBxH0fAmvpY_px8TJw238pChqGCxX1N5po8,5399
+cursedspace/panel.py,sha256=R7E5kxoiZH7LVTdkHo9LTfGK0Gtz0T40fb9MxTyU1r8,4337
+cursedspace/version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+cursedspace/docs/cursedspace.html,sha256=sr7W4rrmJQ7YWwE8VWi3qNlNgjpCG5mNbaYO5nG_yV0,7780
+cursedspace-0.1.0.data/data/share/man/man3/cursedspace.3,sha256=jGDfzlK-kOToq8QN--1Islt9pB17Ac7UWlMYyQcjfAg,776
+cursedspace-0.1.0.dist-info/LICENSE,sha256=z-xg8Jdw8Tw78c2ZAgSWt7B-jxkPEPfmO3f9uIC7VOo,1100
+cursedspace-0.1.0.dist-info/METADATA,sha256=J0UQMXjZnYcRBCSEuH0FSJKYd6wzhmee1DfqosHAw7k,1863
+cursedspace-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cursedspace-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+cursedspace-0.1.0.dist-info/top_level.txt,sha256=DuPckz9p1-3uJ2qmgQhTIhQ-GHbVEaoFPLq5q2aRWUs,12
+cursedspace-0.1.0.dist-info/RECORD,,
