@@ -1,0 +1,10 @@
+attrs
+joblib
+json-tricks
+matplotlib
+mock
+numpy
+pulp
+pytest
+scipy
+tabulate
