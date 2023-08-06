@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/hind
+hind/__init__.py
+hind/__main__.py
+hind/client.py
+hind/configuration.py
+hind.egg-info/PKG-INFO
+hind.egg-info/SOURCES.txt
+hind.egg-info/dependency_links.txt
+hind.egg-info/requires.txt
+hind.egg-info/top_level.txt
