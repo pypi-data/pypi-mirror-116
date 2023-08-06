@@ -1,0 +1,14 @@
+BIpy/__init__.py,sha256=tNucRLBbjTpiVS964zbyoeXpbbYVp6N1p2fySEG1PcQ,732
+BIpy/data_processing.py,sha256=H80uB_0ADAflLToqWqD3RtZQWmD2dVJhQ2B6vjIfPvY,9788
+BIpy/session.py,sha256=6xBfuZdG5HRfR3mp6qqOHeyrlDW5TN2_u0-22BaYPRk,8856
+BIpy/bci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BIpy/bci/classifier_process.py,sha256=mSRQJdysv8siMXvjG35Hu1v8mGh1-3-uH4GuwOM4xKs,3873
+BIpy/bci/inlets.py,sha256=Spg_WGGnN0XymkTJ6Gi5pglePs-xLzJHqa-kOq40ptM,4473
+BIpy/bci/models.py,sha256=W1fCyRsr-TWd3kcMbmBc4ii_dc2Q1I-jOkPL8JnqJFQ,4079
+BIpy/bci/stims.py,sha256=gdeP9LbYe2lzQb-XCwmUykBl-wkpvuFukT7rlUEZtG0,2070
+BIpy/bci/training_session.py,sha256=Ev5G966PXWax5HUh9dEMfYdeEG7m2UX6fydNJ-SA9U0,9492
+BIpy-1.dist-info/LICENSE,sha256=F5gvyw1ReIOWDDs87JWIoj4o06Y950bYlAaJInv87Yo,1516
+BIpy-1.dist-info/METADATA,sha256=oUgiXHozMwUNnnH3ztKHtI6NzqqMnJMEajux69HBdQw,21881
+BIpy-1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+BIpy-1.dist-info/top_level.txt,sha256=LmRZrzl8sUz-R8ikUsyGO5WYN_PO6s1K5IW_tZNviJw,5
+BIpy-1.dist-info/RECORD,,
