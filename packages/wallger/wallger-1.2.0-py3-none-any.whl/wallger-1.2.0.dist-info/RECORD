@@ -1,0 +1,13 @@
+LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+wallger/__init__.py,sha256=Wfnt1L8RPQ5VYjBPrnS4sBpuOAIZZJRTWW8RXQ-l6JU,256
+wallger/__main__.py,sha256=3ulQI9qV3iBIuwrVD3bh6iuI2mN_u1dvvqWb_sFchuM,96
+wallger/constants.py,sha256=CUQRssOFUp8vsoVS1dtXRH0l7F9Xiwp-XWHgvlv2uEQ,206
+wallger/core.py,sha256=O9SYxs1eh6KJANVKD2ToJ_AQYmmbEpcjH8r1R76XzKo,187
+wallger/helpers.py,sha256=0Lrckdjg8TfOtsUAnx23Tc6cDU7uMtwNdaOuQ6scC80,1517
+wallger/ui.py,sha256=X9D_oBBHhRvq6ZZhuIVdiEwVCYH5evYkEY5yGZiS4f8,635
+wallger/wallhaven.py,sha256=ZRO96f48_-rPO4IafgfvNuFv_uFKuEkt8x7ZGepi-b0,733
+wallger-1.2.0.dist-info/entry_points.txt,sha256=m_T4OGgwath1j9QqwGdJaQiLbXII7krSkMvwnITtfZM,40
+wallger-1.2.0.dist-info/LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+wallger-1.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+wallger-1.2.0.dist-info/METADATA,sha256=tu1ixNtqhZwl41lOLcNtO0KAwQPBRUbFFGvSkWopc24,2577
+wallger-1.2.0.dist-info/RECORD,,
