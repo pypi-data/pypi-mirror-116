@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/sas2sqlite3/__init__.py
+src/sas2sqlite3/__main__.py
+src/sas2sqlite3/adapters.py
+src/sas2sqlite3.egg-info/PKG-INFO
+src/sas2sqlite3.egg-info/SOURCES.txt
+src/sas2sqlite3.egg-info/dependency_links.txt
+src/sas2sqlite3.egg-info/entry_points.txt
+src/sas2sqlite3.egg-info/not-zip-safe
+src/sas2sqlite3.egg-info/requires.txt
+src/sas2sqlite3.egg-info/top_level.txt
+test/test_cli.py
