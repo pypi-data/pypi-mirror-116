@@ -1,0 +1,15 @@
+LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+ultiplayground/__init__.py,sha256=_OoLYpqECk8lfC9FG-W_3Wy2c9rtFLe1fYMTQCKXMtQ,273
+ultiplayground/closures/__init__.py,sha256=pzwUJisntJ1pM8faZBiUDVKLUyT0cCFsQtB43FzVsGI,386
+ultiplayground/closures/incrementer.py,sha256=20o6LIRlnTNbaaCXa0z6mjbJaq6lc_e7x9yg8xBV1Gc,294
+ultiplayground/closures/multiplier.py,sha256=vIgruGQfsRcnU8_F_N6ae7BL656Mm0t9DUEQNx3Cfgg,386
+ultiplayground/closures/returner.py,sha256=1cJfHGoj1UOkMTc1DY75xi2BJ2m5J19hhQVdegyeiAs,282
+ultiplayground/oop/animal.py,sha256=rLR57CaymYgwBConKw5hzFnarne-2JxBx5dBYuHhLXk,562
+ultiplayground/oop/rabit.py,sha256=C8_tlsYEVpa9P9cg4syljPWfIkB8gMg4GysjGhEtWUM,316
+ultiplayground/snippets/__init__.py,sha256=NcVqH9aJ75xXaqg4oC5JPTr9l5vs4LJDCb8ADANMEmQ,260
+ultiplayground/snippets/random_pokemon.py,sha256=gf9ER4BeXMGNgYxkfA9kU4u_E_mdMXyGbroatUeGq3g,355
+ultiplayground/snippets/random_quotes.py,sha256=5HAuy5eZg1kfXSsmyrQwWicF8cs_cuyXRulxaplcIek,196
+ultiplayground-0.1.5.dist-info/LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+ultiplayground-0.1.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ultiplayground-0.1.5.dist-info/METADATA,sha256=VuubxqA4zH8jABuBed22mCPIIEdo3F2yUd3yVIk9AW4,4152
+ultiplayground-0.1.5.dist-info/RECORD,,
