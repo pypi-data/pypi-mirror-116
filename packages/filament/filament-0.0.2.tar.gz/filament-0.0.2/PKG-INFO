@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: filament
+Version: 0.0.2
+Summary: Serialization of python objects to/from JSON.
+Home-page: https://github.com/marticongost/filament
+Author: Martí Congost
+Author-email: marticongost@gmail.com
+License: MIT
+Description: Serialization and deserialization of python objects to and from JSON.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9.*
+Description-Content-Type: text/markdown
