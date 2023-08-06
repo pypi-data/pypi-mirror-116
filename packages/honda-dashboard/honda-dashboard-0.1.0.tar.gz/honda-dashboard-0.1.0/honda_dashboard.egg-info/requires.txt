@@ -1,0 +1,3 @@
+qtawesome
+pyqt5
+obd
