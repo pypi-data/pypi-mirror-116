@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: taobao-openapi
+Version: 1.0.2
+Summary: 集合了淘宝开放平台的商铺OPEN API，并适配了Python3
+Home-page: https://github.com/SAMZONG/taobao-sdk-python3
+Author: samzong.lu
+Author-email: samzong.lu@gmail.com
+Maintainer: samzong.lu
+Maintainer-email: samzong.lu@gmail.com
+License: MIT
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+
+UNKNOWN
+
