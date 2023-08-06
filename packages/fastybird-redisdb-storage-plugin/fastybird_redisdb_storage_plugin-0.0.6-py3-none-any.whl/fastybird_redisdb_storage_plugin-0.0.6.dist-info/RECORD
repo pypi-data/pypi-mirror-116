@@ -1,0 +1,13 @@
+redisdb_storage_plugin/__init__.py,sha256=jeJ4r0spvMC334Xo07FwBuBYSBxJqSfgbeAHXCdky4A,676
+redisdb_storage_plugin/exceptions.py,sha256=Iunv1cKh4vyeUfY4efGSLP13HNBvWfE9dS8KZl6Ev_U,934
+redisdb_storage_plugin/models.py,sha256=yaHVpt7eF84MLRsa6Kvhf08TFPgNpG9RFU-wI_Jd6QU,6605
+redisdb_storage_plugin/redis.py,sha256=TF7XXohl9VNIYrvDXhJZP8E0iT07JRJ9lqH4JUfPWNc,2715
+redisdb_storage_plugin/state.py,sha256=MTBsDZyiFwbj2v4HXSNot9Uie-R94UhzJkmhm5nlEow,2171
+tests/__init__.py,sha256=X7Xn4CYowR53IRsDq0sj2onHG2VZwOOZmcwJDH_dHZ8,659
+tests/pytests/__init__.py,sha256=X7Xn4CYowR53IRsDq0sj2onHG2VZwOOZmcwJDH_dHZ8,659
+tests/pytests/tests.py,sha256=MOI54o3b3kPa32ZywBbGosnkz5wMwggPOwlOjgTpWkA,11924
+fastybird_redisdb_storage_plugin-0.0.6.dist-info/LICENSE.md,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+fastybird_redisdb_storage_plugin-0.0.6.dist-info/METADATA,sha256=F3j4lZ3Pav1-KVoh3HpYY-39jEsv6kbA7CCXnf_cf_Y,4027
+fastybird_redisdb_storage_plugin-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastybird_redisdb_storage_plugin-0.0.6.dist-info/top_level.txt,sha256=dO5dMpsqZ2wUXaP6gPbh8YG2JB3ehV4IS7zxC_mWQa8,29
+fastybird_redisdb_storage_plugin-0.0.6.dist-info/RECORD,,
