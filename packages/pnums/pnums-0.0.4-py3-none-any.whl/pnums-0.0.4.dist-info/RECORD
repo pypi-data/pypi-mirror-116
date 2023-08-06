@@ -1,0 +1,11 @@
+pnums/__init__.py,sha256=tacSuO01pcOfy360fJJ7g67BCRj1vSwxjmIkGAG5QLM,156
+pnums/int_to_xcoords.py,sha256=oJFVAqEsTCXIaDZa0yFqCua8I8t8fRqawKGqShYVcec,4670
+pnums/ith_middle.py,sha256=VL9YRU5JA4mxn_Lc8rvF28YoVsj6rKUylyYjzG7Jmao,2886
+pnums/neuralfloat.py,sha256=l3-9OOYpt2UMR9xk0_X9QFmvE-uP68QJMAmfyLbWAI8,6160
+pnums/p_int.py,sha256=udMQsfnB-Giox444j87VXlnsEYb74N4Tr0vdSkqA3QQ,15113
+pnums/xcoords_to_int.py,sha256=Y3l_9wfPrmqDysBysSNPv9hZGECnWpacTh5McR3V5bU,1372
+pnums-0.0.4.dist-info/LICENSE.md,sha256=krKH2Fb36n51QupQ1CHk0Lj7StmuckfAHBdaaZPMKlI,1068
+pnums-0.0.4.dist-info/METADATA,sha256=odopgL3iOEk417Lj_iBCrjn0h3XwXV9r5_Xug0uKLHA,1076
+pnums-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pnums-0.0.4.dist-info/top_level.txt,sha256=tCMpEq8jg0YGVkXBzvmzNJ6_mMCrp2nPTlJ1aL702_0,6
+pnums-0.0.4.dist-info/RECORD,,
