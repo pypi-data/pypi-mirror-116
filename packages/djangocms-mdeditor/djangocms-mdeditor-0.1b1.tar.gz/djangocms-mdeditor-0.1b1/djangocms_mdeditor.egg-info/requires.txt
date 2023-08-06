@@ -1,0 +1,2 @@
+django-cms>=3.9
+martor>=1.6.4
