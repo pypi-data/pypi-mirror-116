@@ -1,0 +1,17 @@
+goodwe/__init__.py,sha256=yoLPyHemfylaoBoqPvZdgpDEBEtLiBHbvNu_Nlv2auY,77
+goodwe/const.py,sha256=ARUfAXcx6ItWdc-S65hj_21mxIhdfvvCu8T54-JsKU4,34
+goodwe/exceptions.py,sha256=9Df8t-2-Q_qneZMX51txq1Wf2XuWMLIaj1qm982Qar0,409
+goodwe/goodwe.py,sha256=zKRN7kfV2gYK3LYgPaZdNk-cE1wcwCtKMMkhUj4LJ0A,1064
+goodwe/processor.py,sha256=ebhiDuvOCuCPolDlbaABYpHqFBu6geiDI6iO-k9J9i4,5899
+goodwe/protocol.py,sha256=CnpXL9SqbJg2s9z78aAFMy59xNdMumJ1E_cP5hpoDyg,2838
+goodwe/utils.py,sha256=JbEtDq7HmUsxSl-bk023gszzCgZQwEY6oTREFYQGZPg,613
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_goodwe.py,sha256=TYHgR8650W-hMWr92PjXoKB2UpsS4Zzp-2KDUxg7Bv8,252
+tests/test_processor.py,sha256=ZUN3XdfPRvydfsy6MAaMJKO3UUGW1uvip98zgbvOz-4,1535
+tests/test_protocol.py,sha256=gd5LYJoYK2hUsZJ_gLfMWs0HSn653w7HXcIa7QAKglE,3747
+tests/test_utils.py,sha256=6RUmdJZGNKifDD3BgRqZ1MPrvdBmXnYA16ORb_b_jdk,934
+goodwe-0.1.1.dist-info/LICENSE,sha256=aZAhk3lRdYT1YZV-IKRHISEcc_KNUmgfuNO3QhRamNM,1073
+goodwe-0.1.1.dist-info/METADATA,sha256=0Cq8fN5AgiQqRsbq-x9QO18rJ0b_4dFr2ftS3cTB9oE,1550
+goodwe-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+goodwe-0.1.1.dist-info/top_level.txt,sha256=UrIU3cgeCg1lrshqwqEM9SAm_mRwrc74STTOPeC-utA,13
+goodwe-0.1.1.dist-info/RECORD,,
