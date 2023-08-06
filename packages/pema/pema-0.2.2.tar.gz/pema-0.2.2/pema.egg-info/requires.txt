@@ -1,0 +1,16 @@
+strax
+utilix>=0.4.1
+straxen>=0.19.3
+wfsim>=0.5.6
+multihist
+numba
+numpy~=1.19.5
+nestpy
+
+[docs]
+sphinx
+sphinx_rtd_theme
+nbsphinx
+recommonmark
+graphviz
+ipython
