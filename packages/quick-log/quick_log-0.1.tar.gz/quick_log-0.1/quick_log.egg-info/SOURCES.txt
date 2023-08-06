@@ -1,0 +1,9 @@
+README.md
+setup.py
+quick_log/__init__.py
+quick_log/watch_logging.py
+quick_log.egg-info/PKG-INFO
+quick_log.egg-info/SOURCES.txt
+quick_log.egg-info/dependency_links.txt
+quick_log.egg-info/not-zip-safe
+quick_log.egg-info/top_level.txt
