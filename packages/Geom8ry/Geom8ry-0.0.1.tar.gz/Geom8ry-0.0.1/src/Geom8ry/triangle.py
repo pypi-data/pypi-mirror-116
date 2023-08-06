@@ -1,0 +1,10 @@
+# from  exceptions  import * 
+# from  point import *
+# from  line  import * 
+# from  ellipse  import * 
+# from  polygon  import * 
+# from  hyperbola  import * 
+# from  triangle  import * 
+# from  rectangle  import * 
+# from  graph  import * 
+# from  delaunay  import * 

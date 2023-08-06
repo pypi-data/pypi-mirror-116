@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Geom8ry
+Version: 0.0.1
+Summary: Geom8ry the python way.
+Home-page: https://github.com/raje-ev/Geom8ry
+Author: Rajeev Kumar
+Author-email: rajeevkumar.nitp@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/raje-ev/Geom8ry/issues
+Description: 
+        # Geom8ry - Python Geom8ry Package
+        
+        ## Development Stage : 2 - Pre-Alpha 
+        ## Warning : Unstable
+        Version: 0.0.1
+        
+        Geom8ry is a python package for performing computational
+        geometry. Geom8ry can handle various 2D - geometrical constructs like Points, Lines, Line Segments,  Polygons, Circles,  Fourier Transforms, Matrices, Graphs, Triangulations, and  Polynomials, etc.
+        
+        It's also a personal exercise in learning how to provide a high
+        quality python package:
+        
+        - support of powerful tools like Delaunay Triangulations, FFTs, Inverse FFTs, Convex Hulls, and Fast Polynomial Multiplications
+        - appropriate use of exceptions and exception handling
+        - designing of useful base classes and methods
+        - high-quality documentation
+        - efficient implementation of algorithms and data structures
+        
+Keywords: Geom8ry point circle line line segment triangle rectangle graph fft dft triangulation
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
