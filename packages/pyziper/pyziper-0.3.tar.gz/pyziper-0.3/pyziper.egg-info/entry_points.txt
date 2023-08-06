@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pyziper= main:pyziper
+    

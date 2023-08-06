@@ -1,0 +1,9 @@
+README.md
+main.py
+setup.py
+pyziper.egg-info/PKG-INFO
+pyziper.egg-info/SOURCES.txt
+pyziper.egg-info/dependency_links.txt
+pyziper.egg-info/entry_points.txt
+pyziper.egg-info/requires.txt
+pyziper.egg-info/top_level.txt
