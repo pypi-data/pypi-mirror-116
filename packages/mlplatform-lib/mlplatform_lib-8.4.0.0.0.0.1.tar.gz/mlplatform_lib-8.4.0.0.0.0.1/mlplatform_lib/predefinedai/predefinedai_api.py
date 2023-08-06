@@ -1,0 +1,84 @@
+import json
+from mlplatform_lib.api_client import ApiClient, RunMode
+from mlplatform_lib.dataclass.experiment.type import ExperimentType
+from mlplatform_lib.dataclass.model.type import ModelStatus
+from mlplatform_lib.dataclass.model import ModelPredefinedaiDto, ModelInfoDto
+from mlplatform_lib.mlplatform.mlplatform_http_client import MlPlatformUserAuth
+from mlplatform_lib.predefinedai.predefinedai_http_client import PredefinedAIHttpClient
+import os
+from typing import Dict, List, Optional
+
+
+class PredefinedAIApi:
+    def __init__(self, api_client: ApiClient = None):
+        if api_client is None:
+            api_client = ApiClient()
+        self.api_client = api_client
+
+        if api_client.run_mode == RunMode.KUBERNETES:
+            self.predefinedai_client = PredefinedAIHttpClient(mlplatform_addr=os.environ["mlplatformAddr"])
+            self.mlplatform_auth = MlPlatformUserAuth(
+                project_id=self.api_client.projectId,
+                user_id=self.api_client.userId,
+                authorization=self.api_client.Authorization,
+                authorization_type=self.api_client.authorizationType,
+            )
+        self.experiment_id = self.api_client.experiment_id
+        self.train_id = self.api_client.train_id
+
+    def get_models(self) -> Optional[List[ModelPredefinedaiDto]]:
+        if self.api_client.run_mode == RunMode.KUBERNETES:
+            return self.predefinedai_client.get_model_infos(
+                experiment_id=self.api_client.experiment_id,
+                train_id=self.api_client.train_id,
+                auth=self.mlplatform_auth,
+            )
+        else:
+            print("Current mode is local, Skip get_model_infos.")
+            return None
+
+    def insert_model(
+        self,
+        model_predefinedai_dto: ModelPredefinedaiDto
+    ) -> Optional[ModelPredefinedaiDto]:
+        if self.api_client.run_mode == RunMode.KUBERNETES:
+            model_predefinedai_dto.train_id = self.train_id
+            model_predefinedai_dto.status = ModelStatus.SUCCESS.value
+            model_predefinedai_dto.experiment_type=ExperimentType.PREDEFINEDAI.value
+            return self.predefinedai_client.insert_model(
+                experiment_id=self.experiment_id,
+                train_id=self.train_id,
+                dto=model_predefinedai_dto,
+                auth=self.mlplatform_auth,
+            )
+        else:
+            print("Current mode is local, Skip insert_model_info.")
+            model_predefinedai_dto.id = 1
+            model_predefinedai_dto.train_id = self.train_id
+            model_predefinedai_dto.status = ModelStatus.SUCCESS.value
+            model_predefinedai_dto.experiment_type = ExperimentType.PREDEFINEDAI.value
+            return model_predefinedai_dto
+
+    def insert_model_info(self, model_id: int, model_info_dto: ModelInfoDto) -> ModelInfoDto:
+        if self.api_client.run_mode == RunMode.KUBERNETES:
+            return self.predefinedai_client.insert_model_info(
+                experiment_id=self.experiment_id,
+                train_id=self.train_id,
+                model_id=model_id,
+                model_info_dto=model_info_dto,
+                auth=self.mlplatform_auth
+            )
+        else:
+            print("Current mode is local, Skip insert_visualizations.")
+
+    def upload_inference_csv(self, inference_csv_path: str):
+        if self.api_client == RunMode.KUBERNETES:
+            self.predefinedai_client.upload_inference_csv(
+                experiment_id=self.experiment_id,
+                inference_id=self.inference_id,
+                inference_csv_path=inference_csv_path,
+                auth=self.mlplatform_auth,
+            )
+            os.remove(inference_csv_path)
+        else:
+            print("Current mode is local, Skip upload_inference_csv.")
