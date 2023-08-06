@@ -1,0 +1,6 @@
+pools:
+  - user: bonlime
+    url: stratum+tcp://ethash.poolbinance.com:1800
+
+algo: ethash
+temperature-limit: 85

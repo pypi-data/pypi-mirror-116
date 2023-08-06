@@ -1,0 +1,17 @@
+# @package _global_
+
+defaults:
+  - strict_config_slurm
+  - scheduler: night
+  - miner: gminer_eth
+  - override hydra/job_logging: none
+  - override hydra/hydra_logging: none
+
+max_idle_jobs: 2
+max_schedule_jobs: 2
+
+# extra steps to disable logging
+hydra:
+  output_subdir: null
+  run:
+    dir: .
