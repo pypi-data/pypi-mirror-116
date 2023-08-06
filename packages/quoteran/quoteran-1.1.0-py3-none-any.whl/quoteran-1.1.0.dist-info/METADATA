@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: quoteran
+Version: 1.1.0
+Summary: Random quotes on Terminal
+Home-page: https://github.com/UltiRequiem/quoteran
+Keywords: commands,utilities,cli,quotes
+Author: Eliaz Bobadilla
+Author-email: eliaz.bobadilladev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/UltiRequiem/quoteran
+Description-Content-Type: text/markdown
+
+# quoteran
+
+Get random quotes in terminal.
+
+This project fetch the [Quotable.io API](https://api.quotable.io/random).
+
+![Screenshot](./assets/screenshot.png)
+
+## Install
+
+You can install [Quoteran](https://pypi.org/project/quteran) from PyPI:
+
+```bash
+pip install quoteran
+```
+
+To get the last version:
+
+```bash
+pip install git+https:/github.com/UltiRequiem/quoteran
+```
+
+If you use Linux, you may need to install this with sudo to
+be able to access the command throughout your system.
+
+## Usage
+
+```bash
+quoteran
+```
+
+### License
+
+This project is Licensed under the [MIT](./LICENSE) License.
+
+### Alternative
+
+I also developed this in Nodejs: [UltiRequiem/ranmess](https://github.com/UltiRequiem/ranmess)
+
+![Benchmark Screenshot](./assets/benchmark.png)
+
+The version written in Nodejs is significantly faster,
+and it was even easier to develop and publish than this.
+
