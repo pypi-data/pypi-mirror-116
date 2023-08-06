@@ -1,0 +1,38 @@
+{
+    "NOTELIST_SECRET_KEY": {
+        "type": "string",
+        "required": true
+    },
+    "NOTELIST_DB_URI": {
+        "type": "string",
+        "required": true
+    },
+    "NOTELIST_REDIS_HOST": {
+        "type": "string",
+        "required": true
+    },
+    "NOTELIST_REDIS_PORT": {
+        "type": "integer",
+        "required": true
+    },
+    "NOTELIST_REDIS_BLOCKLIST_DB": {
+        "type": "integer",
+        "required": true
+    },
+    "NOTELIST_REDIS_REQUESTS_DB": {
+        "type": "integer",
+        "required": true
+    },
+    "NOTELIST_REDIS_PASSWORD": {
+        "type": "string",
+        "required": false
+    },
+    "NOTELIST_ALLOW_ORIGIN": {
+        "type": "string",
+        "required": false
+    },
+    "NOTELIST_ROOT_DOC": {
+        "type": "string",
+        "required": false
+    }
+}
