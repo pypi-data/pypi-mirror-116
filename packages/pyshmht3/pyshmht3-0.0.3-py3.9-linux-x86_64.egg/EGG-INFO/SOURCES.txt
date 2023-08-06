@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+hashtable.c
+hashtable.h
+setup.py
+shmht.c
+pyshmht/Cacher.py
+pyshmht/HashTable.py
+pyshmht/__init__.py
+pyshmht/raw_performance_test.py
+pyshmht3.egg-info/PKG-INFO
+pyshmht3.egg-info/SOURCES.txt
+pyshmht3.egg-info/dependency_links.txt
+pyshmht3.egg-info/top_level.txt
