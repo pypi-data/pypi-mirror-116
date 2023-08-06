@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: args-to-db
+Version: 0.0.3
+Summary: Runs python script in specified argument combinations and produces a pandas dataframe of all results.
+Home-page: https://github.com/schnellerhase/args_to_db
+Author: schnellerhase
+License: GPLv3
+Keywords: arguments,pandas,automatisation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+UNKNOWN
+
+
