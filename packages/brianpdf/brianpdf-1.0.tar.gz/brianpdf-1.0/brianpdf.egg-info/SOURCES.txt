@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+brianpdf/__init__.py
+brianpdf/pdf2image.py
+brianpdf/pdf2text.py
+brianpdf.egg-info/PKG-INFO
+brianpdf.egg-info/SOURCES.txt
+brianpdf.egg-info/dependency_links.txt
+brianpdf.egg-info/top_level.txt
