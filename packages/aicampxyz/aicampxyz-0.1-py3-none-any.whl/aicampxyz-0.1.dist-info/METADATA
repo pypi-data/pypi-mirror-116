@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aicampxyz
+Version: 0.1
+Summary: This library is used to quickly implement aicamp workbooks within the cocalc enviornment.
+Home-page: https://github.com/wendulem/aicampxyz
+Author: Connor Johnson
+Author-email: cmj70@duke.edu
+License: MIT
+Keywords: EDUCATION,INTERNAL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: colorama
+
+UNKNOWN
+
