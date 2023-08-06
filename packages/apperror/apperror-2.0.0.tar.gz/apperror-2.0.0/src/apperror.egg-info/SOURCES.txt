@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/apperror/__init__.py
+src/apperror.egg-info/PKG-INFO
+src/apperror.egg-info/SOURCES.txt
+src/apperror.egg-info/dependency_links.txt
+src/apperror.egg-info/top_level.txt
