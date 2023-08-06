@@ -1,0 +1,13 @@
+mahabharata/__init__.py,sha256=C3CRx4NF-I8j5PlZfcy1TxZFcF3MZwQoP27JK7P--g8,110
+mahabharata/__main__.py,sha256=scDsVynZhXRzKuHAbIW5kIhc_-grT5yYipSrkFhneu0,62
+mahabharata/models/__init__.py,sha256=3dMK-FpxqVjG_GFV1C9RXSFqKfvEyzpFl-vSCWl2voA,67
+mahabharata/models/poem.py,sha256=C6Zf1ODiWI6Vc41mJDQ6BLtC3Mlzue44q7csLeU6dE8,960
+mahabharata/services/__init__.py,sha256=nfJL9pB64xWEOWCZb_Qlendo5rjqlxid1cohtqcOuFw,135
+mahabharata/services/cli_service/__init__.py,sha256=vHpL5cRjuoxFMS_htr_3JHTR6RRjPKjnQci33c3zFao,43
+mahabharata/services/cli_service/_commands.py,sha256=pVU7JCpassaJXJ9dyHcvIzql1Migmup_yFHfyyZBVh8,1408
+mahabharata/services/cli_service/group.py,sha256=gm21-PxD-fahcMBqKuCJt6x5r8Ez6xObZvEn8EVIzM8,147
+mahabharata/services/poet_service/__init__.py,sha256=NzjxA99sZycvFyDM-Awzd8ZgV4NXviYk6E9u1PY91Jo,2845
+mahabharata/services/poet_service/query.py,sha256=QRXcWxqgeV7IRsoTqdE0XW4XTLvyApGA0ZpJR7iDWO0,776
+mahabharata-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mahabharata-0.2.0.dist-info/METADATA,sha256=watrXRfl1J9HQs045ndi2k7oeLn3_8j0EHiI5ixGKQ4,678
+mahabharata-0.2.0.dist-info/RECORD,,
