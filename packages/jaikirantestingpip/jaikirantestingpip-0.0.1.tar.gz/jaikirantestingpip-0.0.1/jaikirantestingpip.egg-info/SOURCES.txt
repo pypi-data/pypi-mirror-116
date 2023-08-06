@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+jaikirantestingpip/__init__.py
+jaikirantestingpip/test1.py
+jaikirantestingpip.egg-info/PKG-INFO
+jaikirantestingpip.egg-info/SOURCES.txt
+jaikirantestingpip.egg-info/dependency_links.txt
+jaikirantestingpip.egg-info/top_level.txt
