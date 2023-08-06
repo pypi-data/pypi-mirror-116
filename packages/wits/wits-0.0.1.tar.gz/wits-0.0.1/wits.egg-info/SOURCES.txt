@@ -1,0 +1,8 @@
+README.md
+setup.py
+wits/__init__.py
+wits.egg-info/PKG-INFO
+wits.egg-info/SOURCES.txt
+wits.egg-info/dependency_links.txt
+wits.egg-info/requires.txt
+wits.egg-info/top_level.txt
