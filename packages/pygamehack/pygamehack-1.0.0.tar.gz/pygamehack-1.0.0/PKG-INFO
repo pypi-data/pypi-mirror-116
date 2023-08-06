@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pygamehack
+Version: 1.0.0
+Summary: Python game hacking interface
+Home-page: https://github.com/sentrip/pygamehack
+Author: Djordje Pepic
+Author-email: djordje.m.pepic@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: test
