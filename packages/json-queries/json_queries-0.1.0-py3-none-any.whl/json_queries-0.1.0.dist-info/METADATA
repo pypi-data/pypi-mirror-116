@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: json-queries
+Version: 0.1.0
+Summary: Translates Django ORM query system to json objects
+Home-page: https://github.com/donielix/jsonutils
+Author: Daniel Diego Horcajuelo
+Author-email: dadiego91@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/donielix/jsonutils/issues
+Project-URL: Source, https://github.com/donielix/jsonutils
+Keywords: json,query,django
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: pytz (>=2021.1)
+
+# json-queries
+Allow us to query json objects
+
+# contribute
+
+Simply do ```bash build.sh```
+
+# executing within docker
+
+```docker build -t json-queries .``` To build the image
+```docker run --name json-queries -it json-queries``` To run a new container instance of the image
+```docker start json-queries``` To run the container, if it is stopped
+```docker exec -it json-queries ipython --profile=template``` Open an Ipython session in a running container
+
+# deleting docker files
+```docker stop $(docker ps -a -q)``` To stop all running containers
+```docker system prune``` To remove all stopped containers and dangling images
+```docker rm json-queries```
+```docker rmi $(docker images -aq)```
+
+# utils
+```docker images -a | tail -n +2 | wc -l``` Count the total number of docker images
+
+
+
+
