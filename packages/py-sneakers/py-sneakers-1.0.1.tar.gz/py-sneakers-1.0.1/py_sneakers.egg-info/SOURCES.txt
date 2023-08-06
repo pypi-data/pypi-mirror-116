@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+py_sneakers/__init__.py
+py_sneakers/__main__.py
+py_sneakers/py_sneakers.py
+py_sneakers.egg-info/PKG-INFO
+py_sneakers.egg-info/SOURCES.txt
+py_sneakers.egg-info/dependency_links.txt
+py_sneakers.egg-info/entry_points.txt
+py_sneakers.egg-info/top_level.txt
