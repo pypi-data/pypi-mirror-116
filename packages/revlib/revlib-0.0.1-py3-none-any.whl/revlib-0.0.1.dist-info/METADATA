@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: revlib
+Version: 0.0.1
+Summary: Simple and efficient RevNet-Library with DeepSpeed support
+Home-page: https://github.com/shaypal5/chocobo
+Author: Lucas Nestler
+Author-email: github.revlib@nestler.sh
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# RevLib
+Simple and efficient RevNet-Library with DeepSpeed support
+## Getting started
+### Installation
+
+```
+python3 -m pip install git+https://github.com/clashluke/revlib
+```
+
+### Examples
+#### a
+```PYTHON
+import revlib
+```
+
