@@ -1,0 +1,4 @@
+include game_hub/data
+include game_hub/data/*.*
+include game_hub/data/schema
+include game_hub/data/schema/*.*

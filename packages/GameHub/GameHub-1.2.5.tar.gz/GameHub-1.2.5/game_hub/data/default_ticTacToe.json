@@ -1,0 +1,26 @@
+{
+  "schema_version": "ticTacToe",
+  "default": null,
+  "tutorial_asked": false,
+  "ai_modes": [
+    {
+      "Name": "Easy",
+      "freq_lose": 10,
+      "freq_draw": 2,
+      "freq_win": 2
+    },
+    {
+      "Name": "Medium",
+      "freq_lose": 2,
+      "freq_draw": 6,
+      "freq_win": 6
+    },
+    {
+      "Name": "Hard",
+      "freq_lose": 1,
+      "freq_draw": 0,
+      "freq_win": 16
+    }
+  ],
+  "picked_slots": []
+}

@@ -1,0 +1,29 @@
+You pick the slot you want to pick using a number. Each number
+on the board corresponds to the number that you have to press
+to pick that slot. The board looks like this:
+
+    1  2  3
+    4  5  6
+    7  8  9
+
+To win get three in a row
+
+Here we'll show an example game so you don't get confused
+
+Player one it's your turn!
+
+Player one: 3
+
+    1  2  X
+    4  5  6
+    7  8  9
+
+Player 2 it's your turn!
+
+Player 2: 6
+
+    1  2  X
+    4  5  O
+    7  8  9
+
+This continues until someone gets three in a row or they tie.

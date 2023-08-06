@@ -1,0 +1,7 @@
+click
+tabulate
+PyInquirer
+prompt-toolkit==1.0.14
+pyfiglet
+jsonschema
+colorama
