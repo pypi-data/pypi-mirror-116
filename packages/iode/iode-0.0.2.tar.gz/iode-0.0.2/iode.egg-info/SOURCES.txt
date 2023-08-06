@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+iode/__init__.py
+iode/iode.py
+iode.egg-info/PKG-INFO
+iode.egg-info/SOURCES.txt
+iode.egg-info/dependency_links.txt
+iode.egg-info/entry_points.txt
+iode.egg-info/not-zip-safe
+iode.egg-info/top_level.txt
