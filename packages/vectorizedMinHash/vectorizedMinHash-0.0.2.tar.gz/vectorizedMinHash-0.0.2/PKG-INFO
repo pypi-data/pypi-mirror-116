@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: vectorizedMinHash
+Version: 0.0.2
+Summary: Vectorized minhashing
+Home-page: https://github.com/bradhackinen/vectorizedMinHash
+Author: Brad Hackinen
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: minhash,cuda,simhash,lsh
+Platform: UNKNOWN

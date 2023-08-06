@@ -1,0 +1,10 @@
+README.md
+setup.py
+vectorizedMinHash/__init__.py
+vectorizedMinHash/bias_coef.npy
+vectorizedMinHash/definitions.py
+vectorizedMinHash.egg-info/PKG-INFO
+vectorizedMinHash.egg-info/SOURCES.txt
+vectorizedMinHash.egg-info/dependency_links.txt
+vectorizedMinHash.egg-info/requires.txt
+vectorizedMinHash.egg-info/top_level.txt
