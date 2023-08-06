@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/kopet_rizoa/__init__.py
+src/kopet_rizoa/example.py
+src/kopet_rizoa.egg-info/PKG-INFO
+src/kopet_rizoa.egg-info/SOURCES.txt
+src/kopet_rizoa.egg-info/dependency_links.txt
+src/kopet_rizoa.egg-info/top_level.txt
