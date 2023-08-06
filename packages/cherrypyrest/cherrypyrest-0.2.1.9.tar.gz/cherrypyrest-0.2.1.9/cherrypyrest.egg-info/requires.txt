@@ -1,0 +1,6 @@
+bson
+cherrypy
+mongomock
+pycryptodome
+pymongo
+pytz
