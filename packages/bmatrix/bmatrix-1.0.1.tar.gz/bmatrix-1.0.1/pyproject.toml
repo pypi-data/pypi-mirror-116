@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "bmatrix"
+version = "1.0.1"
+description = "Package with tools for generating internal coordiantes and the corresponding B matrix for molecules and for periodic systems."
+authors = ["Lukasz Mentel <lmmentel@gmail.com>", "Tomas Bucko"]
+maintainers = ["Lukasz Mentel <lmmentel@gmail.com>"]
+readme = "README.rst"
+license = "GNU"
+homepage = "https://github.com/lmmentel/bmatrix"
+repository = "https://github.com/lmmentel/bmatrix"
+keywords = ["coordinates", "internal", "molecules", "geometry", "solids"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+numpy = "^1.21.1"
+scipy = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+bump2version = "^1.0.0"
+pylint = "^2.5.3"
+pytest = "^3.0"
+pytest-cov = "^2.4"
+pytest-sugar = "^0.9.4"
+ase = "^3.22.0"
+pandas = "^1.3.1"
+
+
+[tool.black]
+line-length = 88
+target_version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
