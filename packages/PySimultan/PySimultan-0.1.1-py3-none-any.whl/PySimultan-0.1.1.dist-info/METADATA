@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PySimultan
+Version: 0.1.1
+Summary: Python Package to import and work with the SIMULTAN Data model
+Home-page: UNKNOWN
+Author: Max Buehler
+License: MIT
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
