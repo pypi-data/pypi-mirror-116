@@ -1,0 +1,7 @@
+fastapi_azure_auth/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+fastapi_azure_auth/auth.py,sha256=rD0MnslpzL0LOCEp51Wq3hajpI2SCcwpTy6w8A3OaT0,5143
+fastapi_azure_auth/provider_config.py,sha256=c5PVqJfbPO8BIK6VSp4ml5U_ZndqcxEExTtzSB-KoPM,4137
+fastapi_azure_auth-1.0.0.dist-info/LICENSE,sha256=O-szkwAbFQXzbLOhur0WzK9ZYeh84E8XOogknpBajKU,1068
+fastapi_azure_auth-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fastapi_azure_auth-1.0.0.dist-info/METADATA,sha256=eKkj_9eKaz7pPDoFISjTOYn_-0C2Omb7oIkJdFExfis,5135
+fastapi_azure_auth-1.0.0.dist-info/RECORD,,
