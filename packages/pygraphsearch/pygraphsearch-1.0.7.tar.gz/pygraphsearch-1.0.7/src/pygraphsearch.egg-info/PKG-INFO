@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pygraphsearch
+Version: 1.0.7
+Summary: A python package to search graphs.
+Home-page: https://github.com/abrahammurciano/pygraphsearch
+Author: Abraham Murciano
+Author-email: abrahammurciano@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/abrahammurciano/pygraphsearch/issues
+Description: # pygraphsearch
+        
+        ### A python package to search graphs.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
