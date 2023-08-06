@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: archiltest
+Version: 0.0.3
+Summary: Simple Addition
+Home-page: UNKNOWN
+Author: Archil Chachanidze
+Author-email: archikochachanidze@gmail.com
+License: MIT
+Description: this is simple calculator for testing purpose
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
