@@ -1,0 +1,11 @@
+mpl_sizes/__init__.py,sha256=eEPpPR_apgXRk2yiDG6P7PLpcCBlQ5Dgn145YeRAhss,393
+mpl_sizes/format.py,sha256=Lv_tSEWSw0FcTzMHmTSnKqHVbsGVhDveTi1NEjeECzI,2097
+mpl_sizes/paper_formats/__init__.py,sha256=NyCZB88x6zsDYIbXhkWBF-NZKtXupQaE0frS4o-D0zc,161
+mpl_sizes/paper_formats/iclr.py,sha256=Ng_QbO-dAWEqxU9cDyK71Xj6WoBthpZev4_GF8aQvpM,391
+mpl_sizes/paper_formats/icml.py,sha256=IRf-1QAuD7Gdogwm1iiIDiw-zNHCZG3JjnQ-FDmXyyA,391
+mpl_sizes/paper_formats/inf_thesis.py,sha256=1-i3W31eBlkefj4Y0cXQq5Lsf4epcej6EYTitDqzTgE,395
+mpl_sizes/paper_formats/neurips.py,sha256=MAcvQeWIyLeM0bNlQhtZ8hH6T_lsjWtpbyDGSdk0OXM,394
+mpl_sizes-0.0.1.dist-info/METADATA,sha256=SpSnC5K-WBb-P9owsrfddDbK2IWSxaSVUf__80Q8lwY,1726
+mpl_sizes-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+mpl_sizes-0.0.1.dist-info/top_level.txt,sha256=5tU2qMxt1FdMZMpc_wlJrlfeuB_izJSGZceJ1c9Xg2M,10
+mpl_sizes-0.0.1.dist-info/RECORD,,
