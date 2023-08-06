@@ -1,0 +1,10 @@
+mars_mcd_helper/__init__.py,sha256=oAvPIsmmduWm6Jcu4VgBGdNrut1qX5iNBsniJ4bC0eo,365
+mars_mcd_helper/__main__.py,sha256=3iTf4mR7pHhooaNTvVoMDQPJL_x-ZGyWHHgMtfhB_hE,356
+mars_mcd_helper/cli.py,sha256=bdXzeh-qMVfDH1QBU8nPv8vKmGW6zh0lENwXyeQ2j2Q,1258
+mars_mcd_helper/get_mars_data.py,sha256=-xt6rWtSzUBjgHDZcMZ8RAkmKWrTYfqe77K7K83LEcg,1729
+mars_mcd_helper/read_mars_data.py,sha256=3HGEHUU5EfDul-FEzNV0CKObNfVZzKsA3ZU8Br-v5K0,3388
+mars_mcd_helper-0.0.2.dist-info/entry_points.txt,sha256=FsLScMIVyQNKDj5NNgmd9oC4t05OW7Pcp2ES2B9WrkQ,60
+mars_mcd_helper-0.0.2.dist-info/LICENSE,sha256=4VSahC2TbCOv7yI-KMEMf1jM5rY0L-ih2_b4mQbdORE,1068
+mars_mcd_helper-0.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mars_mcd_helper-0.0.2.dist-info/METADATA,sha256=IxV948zxzt1tm-w6RQo3AlJykLqbuigb1f6SOIhJIIE,2171
+mars_mcd_helper-0.0.2.dist-info/RECORD,,
