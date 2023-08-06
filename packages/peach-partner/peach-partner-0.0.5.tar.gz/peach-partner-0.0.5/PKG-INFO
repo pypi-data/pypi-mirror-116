@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: peach-partner
+Version: 0.0.5
+Summary: Peach Partner Library is a platform agnostic Python package to help integrating PeachPayments with their partners.
+Home-page: https://gitlab.com/peachpayments/peach-partner-python/
+License: MIT
+Author: Peach Payments
+Author-email: support@peachpayments.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: iso4217 (>=1.6.20180829,<2.0.0)
+Requires-Dist: marshmallow (>=3.12.2,<4.0.0)
+Project-URL: Repository, https://gitlab.com/peachpayments/peach-partner-python/
+Description-Content-Type: text/markdown
+
+# Peach Partner Library
+
+## Overview
+
+**Peach Partner Library** is a platform agnostic Python package to help integrating PeachPayments with their partners.
+
+
+**Documentation**:
+
+**Source Code**: https://gitlab.com/peachpayments/peach-partner-python/
+
+---
+
+## Usage
+Package requires Python 3.9+
+
+### Installation
+```sh
+# pip
+$ pip3 install peach-partner
+```
+```sh
+# poetry
+$ poetry add peach-partner
+```
+### Result codes
+```python
+from peach_partner.result_codes import result_codes
+
+result_codes.TRANSACTION_SUCCEEDED.code == "000.000.000"
+result_codes.get("000.000.000").name == "TRANSACTION_SUCCEEDED"
+result_codes.get("000.000.000").description == "Transaction succeeded"
+```
+### Field validation
+TODO
+### Authentication
+TODO
+
