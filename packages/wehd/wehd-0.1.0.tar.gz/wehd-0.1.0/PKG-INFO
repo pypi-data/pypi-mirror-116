@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: wehd
+Version: 0.1.0
+Summary: WEHD, A Weighted Euclidean-Hamming Distance Metric for Heterogeneous Feature Vectors.
+Home-page: http://github.com/lantunes/wehd
+Author: Luis M. Antunes
+Author-email: lantunes@gmail.com
+License: Apache License 2.0
+Description: WEHD is a heterogeneous distance function for use in scientific Python environments. The weights for an optimal metric for a dataset can be discovered using gradient-free optimizers, such as Evolution Strategies, in unsupervised settings, as demonstrated in this project.
+Keywords: machine learning,distance metric,metric learning,unsupervised metric learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
