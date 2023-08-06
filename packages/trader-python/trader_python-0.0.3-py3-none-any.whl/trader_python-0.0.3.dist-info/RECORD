@@ -1,0 +1,9 @@
+trader/__init__.py,sha256=ijvD2QjUEWCvIdPy_R3vYsRT1g84s3ifbIDqS9f-V0g,97
+trader/start.py,sha256=JfFsDe18OmqkEGM99A0Zg4mPTQL5Mp0k7bD91Qv8w-g,8008
+trader/data/__init__.py,sha256=UWs9cs4BfmyE-NAbt8lHlrAI9tqECYX7s_H3_-ebaPg,153
+trader/data/get_alpha_vantage.py,sha256=wh-kK4PeojjIqGMpKbmwSA_VX7_oyipocedn4VlMTuk,5350
+trader/data/get_yfinance.py,sha256=pFUiEpdBNSUY2e1GT3jiwOPfIM41J4dqE-tGHRS5kUA,6140
+trader_python-0.0.3.dist-info/METADATA,sha256=twXAPPgr2Hk8r1JtzbpUKce6UeWxDorzLPgMZMHLqco,612
+trader_python-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+trader_python-0.0.3.dist-info/top_level.txt,sha256=NpVELjTvagD2mInoebJ2_L2FoEv8ZmukQ_H_vwYEcsI,7
+trader_python-0.0.3.dist-info/RECORD,,
