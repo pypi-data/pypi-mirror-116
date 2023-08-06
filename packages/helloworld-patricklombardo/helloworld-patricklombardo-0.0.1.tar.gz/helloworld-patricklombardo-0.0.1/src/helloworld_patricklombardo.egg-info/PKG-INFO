@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: helloworld-patricklombardo
+Version: 0.0.1
+Summary: Say hello!
+Home-page: http://github.com/patricklombardo
+Author: Patrick Lombardo
+Author-email: patrickjohnlombardo@gmail.com
+License: UNKNOWN
+Description: # Hello World
+        
+        This says hello world
+        
+        ## Installation
+        ```python
+        pip install helloworld
+        ```
+        
+        ## Usage
+        
+        ```python
+        from helloworld import say_hello
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev

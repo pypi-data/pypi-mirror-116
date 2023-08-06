@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/helloworld.py
+src/__pycache__/helloworld.cpython-39.pyc
+src/helloworld_patricklombardo.egg-info/PKG-INFO
+src/helloworld_patricklombardo.egg-info/SOURCES.txt
+src/helloworld_patricklombardo.egg-info/dependency_links.txt
+src/helloworld_patricklombardo.egg-info/requires.txt
+src/helloworld_patricklombardo.egg-info/top_level.txt
