@@ -1,0 +1,11 @@
+pystematic/__init__.py,sha256=yPRtdGvi-clypIQKB8mMXsE_XeUckIokKW5KleXAuqs,190
+pystematic/core.py,sha256=PoEZEgJmCd1TUTA7SGM_VOqqdLzT662AxxCDh3y-mlY,14646
+pystematic/parametric.py,sha256=R3GnPqYWVw59rPtYCimlRVZYUKVg6AgXaqzW_IwjWIc,36563
+pystematic/standard_plugin/__init__.py,sha256=PvIkG-szKsgy8BXpGSyjY4AeJ1OibOaWzFPj1EY3HSs,45
+pystematic/standard_plugin/standard_plugin.py,sha256=PTA2O4ih70jqd0gkN94ukkknn_fMEVM2sICkiBNvqS0,12741
+pystematic/standard_plugin/yaml_wrapper.py,sha256=4QabJVhPI52HCbCOrYujkZgt9KNIDPikQWUSC3ZeBXk,1425
+pystematic-1.0.0.dist-info/entry_points.txt,sha256=G8tfEQc5wjKJ-Hd6NFC5yrQLdpAHAK5mPFniKrynQhA,84
+pystematic-1.0.0.dist-info/LICENSE,sha256=JrOhmQI2UrXY6rAyZChvllvIItuf2ScPgbNyejbJ_Dc,1052
+pystematic-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pystematic-1.0.0.dist-info/METADATA,sha256=z9hklbOEesUI_kw5-GT92VGraP2YsI-yvRCuljUT9fM,3752
+pystematic-1.0.0.dist-info/RECORD,,
