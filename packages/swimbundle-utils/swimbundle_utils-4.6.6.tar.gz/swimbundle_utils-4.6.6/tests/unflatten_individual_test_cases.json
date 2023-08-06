@@ -1,0 +1,43 @@
+[
+  {
+    "inputs": {
+      "flattened_dict": {
+        "a_1_I": "val1",
+        "a_1_II": "val2",
+        "a_2": "val3",
+        "b": 3
+      }
+    },
+    "expected_output": {
+      "a": {
+        "1": {
+          "I": "val1",
+          "II": "val2"
+        },
+        "2": "val3"
+      },
+      "b": 3
+    }
+  },
+  {
+    "inputs": {
+      "flattened_dict": {
+        "a^1^I": "val1",
+        "a^1^II": "val2",
+        "a^2": "val3",
+        "b": 3
+      },
+      "delimiter": "^"
+    },
+    "expected_output": {
+      "a": {
+        "1": {
+          "I": "val1",
+          "II": "val2"
+        },
+        "2": "val3"
+      },
+      "b": 3
+    }
+  }
+]

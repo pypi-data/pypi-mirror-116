@@ -1,0 +1,148 @@
+{
+  "domain": [
+    "walker-todd.com",
+    "nelson-brown.net",
+    "jacobs.net",
+    "bishop.com",
+    "randall.com",
+    "blevins.com",
+    "kline.biz",
+    "glover-kim.net",
+    "murray.com",
+    "benjamin.com",
+    "www.google.com",
+    "thegoogls.com",
+    "REDDIT.COM"
+  ],
+  "ipv4_private": [
+    "192.168.0.1",
+    "255.255.255.0",
+    "10.20.32.123",
+    "10.21.33.255",
+    "172.16.0.0",
+    "172.31.5.255"
+  ],
+  "ssdeep": [
+    "96:s4Ud1Lj96tHHlZDrwciQmA+4uy1I0G4HYuL8N3TzS8QsO/wqWXLcMSx:sF1LjEtHHlZDrJzrhuyZvHYm8tKp/RWO",
+    "384:EWo4X1WaPW9ZWhWzLo+lWpct/fWbkWsWIwW0/S7dZhgG8:EWo4X1WmW9ZWhWH/WpchfWgWsWTWtf8",
+    "6144:3wSQSlrBHFjOvwYAU/Fsgi/2WDg5+YaNk5xcHrYw+Zg+XrZsGEREYRGAFU25ttR/:ctM7E0L4q"
+  ],
+  "ipv4_public": [
+    "192.30.121.11",
+    "192.24.215.204",
+    "198.50.211.246",
+    "192.175.53.163",
+    "198.20.97.253",
+    "192.175.54.190",
+    "192.88.122.50",
+    "192.0.13.96",
+    "192.4.71.236",
+    "192.115.133.36",
+    "11.22.33.44",
+    "123.123.123.123",
+    "45.74.125.0",
+    "172.32.0.0"
+  ],
+  "md5": [
+    "7697561ccbbdd1661c25c86762117613",
+    "cbed16069043a0bf3c92fff9a99cccdc",
+    "82695B2EF724A2E2C3B4C8CD3AF751BC",
+    "7973276E7224C9A012AA19FB3CF276D0",
+    "858E7FB9A83DA9BCE953ACE13CAB9820",
+    "91F7908C1F6B088DC28F67C55C27EE7E",
+    "6E0B67A2080285917B1B8A370F54623E",
+    "83E03CD40BA6FA41F620B967981A4506",
+    "8C787046936A3159E1DE550BC8C7D8E6",
+    "0BF0AB1E4C6FDA536C7540F4960A2492",
+    "5382528CD5CD73AFE7957A78E1F56275",
+    "35B6EE613881E08BDDF45C5BA7A65B2C"
+  ],
+  "sha1": [
+    "68E60FA6602845C431D8CFB7169D886EB6E322D5",
+    "11DCC63A2DD82483519575A5F5CD28E14CA3D8FB",
+    "4E79937255C172E1D2C2CD73E5BA6114A27883ED",
+    "3BF0B4C9978D027971194044D4B785F2D1D0351E",
+    "1241C3676DA79F60D0D05C61FAFB25926CC6CEC0",
+    "CDFD0CDAFD1165641A695836EE22446413FE2CB1",
+    "A035C19D201E4ED7B166C2F6F1BF90568991A60F",
+    "3F265AF04FE223D37EA67A958F695084B3BA639B",
+    "9FAB85CE6EF9E2FB104EEA85EF0618262302684A",
+    "56A0110E571BE8163889C8D8BACCBE90CE9E4E73"
+  ],
+  "ipv6_private": [
+    "::1",
+    "FC00:0000:0000:0000:0000:0000:0000:0000",
+    "FE80:0000:0000:0000:0202:B3FF:FE1E:8329",
+    "FE80::0202:B3FF:FE1E:8329"
+  ],
+  "url": [
+    "http://www.morgan.com/search/login.php",
+    "https://www.bell-woods.biz/app/tags/list/main/",
+    "https://www.juarez-norman.org/post.htm",
+    "https://www.hamilton-lester.biz/privacy.asp",
+    "https://maldonado.info/privacy.php",
+    "http://www.smith.com/search.html",
+    "http://anderson-hernandez.org/register/",
+    "http://www.berry-vasquez.com/category/privacy.html",
+    "https://taylor.biz/search.asp",
+    "http://joseph-dixon.com/search/posts/list/terms/",
+    "https://123.218.144.28/search/searcher.php?searchTerm=Jack%20Nicholson&lang=EN-US",
+    "https://www.google.com/search/searcher.php?searchTerm=Jack%20Nicholson&lang=EN-US",
+    "http://t.info.samsungusa.com/r/?id=hcom2fd4,77c0c34,339a477f&p1=3segdfgsytgbb.azurewebsites.net/1uh0N-L_dzX08-AaNDyDawFQRNEuBHQm8%2f%3fUi3___%3dmweber@nespower.com"
+  ],
+  "unknown": [
+    "adalkfahjsdflksjhr3l",
+    ""
+  ],
+  "filename": [
+    "soon.json",
+    "then.xlsx",
+    "night.wav",
+    "office.doc",
+    "recently.gif",
+    "likely.jpeg",
+    "standard.jpeg",
+    "arrive.jpeg",
+    "base.txt",
+    "too.mp3",
+    "filename.doc",
+    "This is a long filename.docx"
+  ],
+  "ipv6_public": [
+    "ea17:8992:82b5:951:3eec:f166:c7f6:5a29",
+    "8b8:a89e:d3ac:1747:37c5:afe:5af1:a85e",
+    "3665:85a:432e:4505:7594:f0b2:1daa:13ba",
+    "d84f:a13d:1970:ba00:6ce8:2ffb:88c5:8cf2",
+    "7be8:7910:3bcf:6393:8a6a:5f81:300e:5284",
+    "a2b4:859e:fc60:5c3:a930:1cab:4011:d407",
+    "c9ac:6909:3bb2:4bb:3370:c02b:ae6c:2df8",
+    "bfae:405c:f338:1c54:f532:dc9f:f814:897e",
+    "f058:2f5e:4241:90a5:c35:5980:f363:74aa",
+    "5262:ddc4:d99d:c793:14c7:ea7c:7a17:38a2",
+    "ad00::"
+  ],
+  "sha256": [
+    "D583A2A270F50C1014B2748AC2A2EE48CBBD1CCD59C7CEC3A00D3AF0462D2DD1",
+    "5F344883FF5367ACA5FC778956EDC0A1D0FC34DA6D291F7DC5B517CE7B38C144",
+    "65D5D524F5F6450A498EB9E371C0A12F7AB6459A03289B2F03EF4F55242A1059",
+    "5D8F7D4E2EEF35C71B39C473C8330249EA44A064DB488D22C1F11B50AB9F3CC2",
+    "B88267B80B4A604B2600A9727010BA901F09BD5C7535158B057D9A0E01CB63C8",
+    "C1068C30FCFAB6D63D634E4E489EAD836B1A6A8984406B3BADD6453F4B3F0C03",
+    "4A392050D31A43C354B47C90FFF3A6D4E88AB3C93E7DD51E3662397DF99B8758",
+    "91834FAE7C5650181F36AD3BBACAEC997699D3C82C290F1B0782B6A5E08011F7",
+    "375563D01EC69A9FCA95730D834FE4989ADAD44B639655B581D56D39201F1F0F",
+    "8285F905BD948EDCC070D660BD945C6FA272DBA6A2780C79E6DF2CD8D9C754E9"
+  ],
+  "email": [
+    "colonconnie@hotmail.com",
+    "imartin@hotmail.com",
+    "melissasmith@gmail.com",
+    "nicoledelgado@yahoo.com",
+    "leenichole@cole-white.info",
+    "lopezshawn@hotmail.com",
+    "brownlindsay@nguyen-willis.net",
+    "lhernandez@carson-campbell.com",
+    "rachel93@yahoo.com",
+    "nwagner@gmail.com"
+  ]
+}

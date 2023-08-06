@@ -1,0 +1,60 @@
+[
+  {"inputs": {
+    "data": [{"alert": [{"key1": "value1", "key2": "value2"}]}],
+    "shallow_flatten": true},
+  "expected_output":[{"alert_key1": ["value1"], "alert_key2": ["value2"]}]
+  },
+  {"inputs": {
+    "data": [{"alert": [{"key1": "value1"}]}],
+    "shallow_flatten": true,
+    "add_raw_json":  true},
+  "expected_output":[{"alert_key1": ["value1"], "raw_json": {"alert": [{"key1": "value1"}]}}]
+  },
+  {"inputs": {
+    "data": {"alert": [{"key1": "value1"}]},
+    "add_raw_json":  true},
+  "expected_output":{"alert_key1": ["value1"], "raw_json": {"alert": [{"key1": "value1"}]}}
+  },
+  {
+    "inputs": {
+      "data": {
+        "string": "abcde",
+        "listdict": [
+          {
+            "a": 1,
+            "b": 2
+          },
+          {
+            "a": 1,
+            "b": 2
+          }
+        ]
+      },
+      "add_raw_json": true
+    },
+    "expected_output": {
+      "raw_json": {
+        "string": "abcde",
+        "listdict": [
+          {
+            "a": 1,
+            "b": 2
+          },
+          {
+            "a": 1,
+            "b": 2
+          }
+        ]
+      },
+      "string": "abcde",
+      "listdict_a": [
+        1,
+        1
+      ],
+      "listdict_b": [
+        2,
+        2
+      ]
+    }
+  }
+]

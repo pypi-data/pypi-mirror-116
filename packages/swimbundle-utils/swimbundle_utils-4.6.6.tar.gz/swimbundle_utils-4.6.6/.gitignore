@@ -1,0 +1,9 @@
+build/
+dist/
+venv/
+.DS_Store
+.idea/
+swimbundle_utils.egg-info
+MANIFEST
+.python-version
+*.pyc

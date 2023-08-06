@@ -1,0 +1,21 @@
+{
+  "@product": "Web MPS",
+  "ns2:src_ns2:port": "52120",
+  "@vlan": "0",
+  "ns2:explanation_ns2:malware-detected_ns2:malware_@name": "Phish.URL",
+  "ns2:dst_ns2:mac": "e0:cb:bc:14:f2:12",
+  "ns2:dst_ns2:port": "80",
+  "ns2:dst_ns2:ip": "OUTIPADDR",
+  "@ack": "no",
+  "@uuid": "2c659b51-3449-4feb-855e-2107ec511d72",
+  "@id": "78",
+  "@appliance-id": "864076103EAB",
+  "@sc-version": "913.200",
+  "ns2:alert-url": "https://fireeyenx/event_stream/events_for_bot?ev_id=78",
+  "@severity": "minr",
+  "ns2:occurred": "2019-08-28T23:58:31.451Z",
+  "ns2:action": "notified",
+  "@name": "infection-match",
+  "@malicious": "yes",
+  "ns2:src_ns2:ip": "IPADDR"
+}
