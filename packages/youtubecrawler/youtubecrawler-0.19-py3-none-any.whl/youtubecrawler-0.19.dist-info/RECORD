@@ -1,0 +1,11 @@
+youtubecrawler/base.py,sha256=pO2xqLFzI9PYPJsbGTG07GxsRzn5eBmv530hPNHt8Pg,991
+youtubecrawler/channel.py,sha256=vSXJYg1zgS4VZBalN2e8BhSZ2KYD0SDz1ayIEHEijRw,5608
+youtubecrawler/crawl.py,sha256=PubwFm2cWUAeOiaOB6IKeWA1iCS0ldC_PQnO6Aydoo0,5620
+youtubecrawler/synced.py,sha256=XFCLRE6C-j5m1v7JB3dd5yCnjNMIh6P_B27Cauh1n8U,79
+youtubecrawler/Asyncs/__init__.py,sha256=uxHgUbItload8PR5fAr23plWNV7hgqUjAESkoYUzZ-M,384
+youtubecrawler/Asyncs/asynced.py,sha256=JqifI7OxzgzhtnDWBEvipNlIpThlf68t26GmJqqWC2Y,5592
+youtubecrawler/Asyncs/asyncedChannel.py,sha256=uHlTcAKiIoYEZUL0rtIY6OtpSKxVuthRu9_4ewdkie8,5245
+youtubecrawler-0.19.dist-info/METADATA,sha256=siINiHjT9KYDiVjxZ2ELl-V52lQed9ls_U-n5Scn2ms,2946
+youtubecrawler-0.19.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+youtubecrawler-0.19.dist-info/top_level.txt,sha256=6sgGokdWeTc8qWavwkv1G9auaj2c3LTEPIfUuOLnORk,15
+youtubecrawler-0.19.dist-info/RECORD,,
