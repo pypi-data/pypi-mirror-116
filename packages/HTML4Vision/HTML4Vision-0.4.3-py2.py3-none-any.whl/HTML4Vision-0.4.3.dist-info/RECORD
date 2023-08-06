@@ -1,0 +1,14 @@
+html4vision/__init__.py,sha256=3hTtTcoE6vHUAJVJWBBRhr1AYJWl38OGEWzbSTcXfc0,86
+html4vision/common.py,sha256=zQZ1bY87qnSl1Q5NvY-u2Lr6Y9DcU2O5EXB9GEFdP8o,2931
+html4vision/matchCol.js,sha256=Lq25HfF3Gx2jM2m8QvQFP1srZ9AxFbEfgEcoqqRib2s,1629
+html4vision/overlayToggle.js,sha256=EANONS9CMsqht_nuknIdTPoXmnoVe9fT9i0qscvcmjk,482
+html4vision/scaleImg.js,sha256=rKPC_D8_4XCRk6wHk7kCXe6O88281L9j40ehQfF5LtQ,502
+html4vision/server.py,sha256=VtRrb78NZ-zj6Vps0Q8kxE8IQ8ADF0_AF_OFbruwR6w,399
+html4vision/table.py,sha256=PhQ6eu6Hh0VJfxsjzIEycxWIStl4jZP2uZjanr9HyW0,12801
+html4vision/thumbs.py,sha256=M2gXhLeKNyTrXW43OCCl-sCQEAK43VW1YzGIRAyhKAU,1717
+html4vision/tile.py,sha256=X9JY-FSJFmcg-lniWnxyBjmkA-42jrgsUkVeGwSCGRo,3352
+HTML4Vision-0.4.3.dist-info/LICENSE.txt,sha256=kbib9UkMA-6fajZb1F0-pLzkcZXxG6IpU2tNHxDxJZA,1077
+HTML4Vision-0.4.3.dist-info/METADATA,sha256=UlRl9qxUGpsqnkclgW2wLqxfoIysu1Um-UJfiFLmHKo,745
+HTML4Vision-0.4.3.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+HTML4Vision-0.4.3.dist-info/top_level.txt,sha256=iBKycBjI3Tr8dQuIkw3ZG60gRuGT6uBcAVJS3h3caB8,12
+HTML4Vision-0.4.3.dist-info/RECORD,,
