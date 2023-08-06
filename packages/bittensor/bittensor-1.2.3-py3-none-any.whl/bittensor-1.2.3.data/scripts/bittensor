@@ -1,0 +1,5 @@
+#!python
+
+import bittensor 
+if __name__ == '__main__':
+    bittensor.cli().run()
