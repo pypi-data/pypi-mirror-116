@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ld-plot
+Version: 0.0.2.1
+Summary: Plot Linkage Disequilibrium
+Home-page: https://github.com/NikKonst/ld_plot
+Author: Nikita Konstantinovskiy
+Author-email: nikkonst@icloud.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/NikKonst/ld_plot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LD plot
+
+Plot of a Linkage Disequilibrium (LD) matrix in Python
+
+## Installation
+
+### pip
+
+`pip install ld-plot`
+
+## Usage
+
+```python
+from ld_plot.ld_plot import ld_plot
+
+# LD: A symmetric LD matrix
+# labels: A list of position names
+figure = ld_plot(ld=LD, labels=labels)
+figure.savefig('ld_plot.png')
+```
+
+## Example output
+
+![example](imgs/example.png)
+
