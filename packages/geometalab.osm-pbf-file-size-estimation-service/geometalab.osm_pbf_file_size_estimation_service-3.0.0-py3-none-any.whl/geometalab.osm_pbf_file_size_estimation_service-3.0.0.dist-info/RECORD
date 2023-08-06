@@ -1,0 +1,11 @@
+pbf_file_size_estimation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pbf_file_size_estimation/app_settings.py,sha256=ZfrtYFjGbTKw5tuRr0fewqsSsrswVR5D4CdGjcksvlo,320
+pbf_file_size_estimation/apps.py,sha256=MpBLmL80pm92epEulgzITUdSdcGT-0WpEvrbE2_nu1k,224
+pbf_file_size_estimation/estimate_size.py,sha256=zrfet3IHV8IPQhn-2uha-SeqJP1qhdx1wm_4Xd6MI1g,3494
+pbf_file_size_estimation/planet-stats.csv,sha256=VAVjVk35OUjySAckiNxFGbgdsMNkllIg16vx4cRwYAo,1329977
+pbf_file_size_estimation/serializers.py,sha256=yqT8zYXZtaoXPBuX4HvBBq2it9XFp8ReZ-yG36Tt6HU,829
+pbf_file_size_estimation/views.py,sha256=BMO-QMx6eJru2K88HX7SLF-yPlO5PUJBT0stnfyMgJI,803
+geometalab.osm_pbf_file_size_estimation_service-3.0.0.dist-info/LICENSE,sha256=hSvMAzpGxi-Z-1_9Q7MkG6LAxEDGA0qiEUUF8sTwPEo,1067
+geometalab.osm_pbf_file_size_estimation_service-3.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+geometalab.osm_pbf_file_size_estimation_service-3.0.0.dist-info/METADATA,sha256=fxYjYzmcoe_rnVMDAanuRj2W5cX5YswyUa3irFUMD40,705
+geometalab.osm_pbf_file_size_estimation_service-3.0.0.dist-info/RECORD,,
