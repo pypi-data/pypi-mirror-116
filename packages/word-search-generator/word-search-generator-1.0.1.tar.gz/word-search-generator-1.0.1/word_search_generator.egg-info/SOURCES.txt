@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+word_search_generator/__init__.py
+word_search_generator/__main__.py
+word_search_generator/config.py
+word_search_generator/export.py
+word_search_generator/generate.py
+word_search_generator/utils.py
+word_search_generator.egg-info/PKG-INFO
+word_search_generator.egg-info/SOURCES.txt
+word_search_generator.egg-info/dependency_links.txt
+word_search_generator.egg-info/entry_points.txt
+word_search_generator.egg-info/requires.txt
+word_search_generator.egg-info/top_level.txt
