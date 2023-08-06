@@ -1,0 +1,6 @@
+dist
+build
+tracardi.egg-info
+.idea
+venv
+venv3.9
