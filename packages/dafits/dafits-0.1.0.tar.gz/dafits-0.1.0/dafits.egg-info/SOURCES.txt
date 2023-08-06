@@ -1,0 +1,9 @@
+README.md
+setup.py
+dafits/__init__.py
+dafits/core.py
+dafits.egg-info/PKG-INFO
+dafits.egg-info/SOURCES.txt
+dafits.egg-info/dependency_links.txt
+dafits.egg-info/requires.txt
+dafits.egg-info/top_level.txt
