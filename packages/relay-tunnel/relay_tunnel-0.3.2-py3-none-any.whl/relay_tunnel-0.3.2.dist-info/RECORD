@@ -1,0 +1,15 @@
+relay_tunnel/__init__.py,sha256=ZR9elzTSAaBPngwekgSAgWd0QUxHYeBBCWtdrD_xeMc,213
+relay_tunnel/__main__.py,sha256=TqPzmSfeZvEeF2NdPCseV4Rgr5FLfI6sbYtZfoB7rLY,3849
+relay_tunnel/http.py,sha256=l1uTqPXBIC5HqQH4zJhUpUENxaJvulVNldHmuzPLU30,12532
+relay_tunnel/irc.py,sha256=ReaJDVHSvC_oI2EUXHE1xKBDP2wDRab7Ernfjdmemmk,7948
+relay_tunnel/utils.py,sha256=P-40CLtWUX8T4m836SWwS16kAU1nTNPSx3E0uxBQOrg,24768
+relay_tunnel/websocket.py,sha256=mYCB7Xo4YaoWxFiWMfdQFZzLL23VnG412b0H-sfIh7M,8149
+tests/__init__.py,sha256=QGyTj6-w5dzf3oosjHk6OclUxO9MWiuqWc-scQFuJ2I,211
+tests/test_http_relay_tunnel.py,sha256=gi7BTSVGRagVkDQwctRxwtunnSPFTZ4EHCNtbd8Xh70,2031
+tests/test_websocket_relay_tunnel.py,sha256=sz3QFgJmwqOAkF0xxB3zxZAUDH9ki4JiPI9G822XR-M,1271
+tests/util.py,sha256=6VTCqFkgwMJ_osmlI122jbSFRkD4YsPsbP-l32O_h60,1023
+relay_tunnel-0.3.2.dist-info/METADATA,sha256=XwLlPmz4aufCLFCawK9-z_giAjr7QrrEZpPZjKhJTj8,1780
+relay_tunnel-0.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+relay_tunnel-0.3.2.dist-info/entry_points.txt,sha256=syiel--TN2j_huDhBV52wKS-AIMQMvdws9ot4_7OVRQ,61
+relay_tunnel-0.3.2.dist-info/top_level.txt,sha256=C41x-1zWvWdFCCgKqocfA7TdYDEt0_VhT_UnlctvYUQ,19
+relay_tunnel-0.3.2.dist-info/RECORD,,
