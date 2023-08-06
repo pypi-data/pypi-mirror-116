@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: BestClassificationModel
+Version: 0.1.1
+Summary: It helps to find the best classification model with the accuracy based on the given dataset
+Home-page: https://github.com/ronakkkk/best_classification_model
+Author: Ronak Bhagchandani
+Author-email: rishibhagchandani123@gmail.com
+License: Apache License 2.0
+Description: Helps to give best classification model for the given dataset.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
