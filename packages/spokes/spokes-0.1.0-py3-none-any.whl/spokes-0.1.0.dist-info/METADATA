@@ -1,0 +1,198 @@
+Metadata-Version: 2.1
+Name: spokes
+Version: 0.1.0
+Summary: An End-to-End Simulation Facility for Spectroscopic Cosmological Surveys
+Home-page: https://github.com/deepskies/spokes
+Author: Taig Singh
+Author-email: taig.singh@gmail.com
+Maintainer: Taig Singh
+Maintainer-email: taig.singh@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/deepskies/spokes/issues
+Project-URL: Source Code, https://github.com/deepskies/spokes
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: pyyaml
+Provides-Extra: data
+Requires-Dist: dropbox ; extra == 'data'
+
+
+
+# spokes: an end-to-end simulation facility for spectroscopic cosmological surveys
+
+***
+- [What is it?](#what-is-it)
+- [Main Features](#main-features)
+- [Where to Get it](#where-to-get-it)
+- [Dependencies](#dependencies)
+- [The Units](#the-units)
+- [The Databank](#the-databank)
+- [The Experiment Parameters File](#the-experiment-parameters-file)
+- [Usage](#usage)
+- [Discussion and Development](#discussion-and-development)
+***
+
+### What is it?
+**SPOKES** (SPectrOscopic KEn Simulation) provides a simulation tool for wide-field spectroscopic survey instruments to **forecast science performance, define requirement flow-downs, optimize implementation, demonstrate feasibility, and prepare for exploitation.** This facility has the broad goal of aiding the pursuit of some of the most pressing questions in cosmology, including the nature of dark matter, dark energy, and large-scale gravity. The SPOKES framework enables a rigorous process to optimize and exploit spectroscopic survey experiments to derive high-precision cosmological measurements optimally.
+
+### Main Features
+The main features the SPOKES package is built upon:
+* Integrated infrastructure
+* Modular functioning organization
+* Coherent data handling
+* Fast data access
+
+These features allow for the **reproducibility of pipeline runs, enable ease of use, and provide flexibility to update functions within the pipeline.**
+
+### Where to Get it
+The source code is currently hosted on GitHub at:
+https://github.com/deepskies/spokes
+```sh
+# PyPI
+pip install spokes
+```
+
+### Dependencies
+* [NumPy](https://www.numpy.org): Used for fast data manipulation and handling on large n-dimensional arrays
+* [h5py](https://www.h5py.org/): Used Pythonic reading and writing to the central data bank which is in HDF5 format
+* [PyYAML](https://pyyaml.org/): Used for Pythonic reading of the user-created experiment parameters which is written in the YAML programming language
+* *[Dropbox](https://www.dropbox.com/developers/documentation/python): Optional dependency for downloading default databank from Dropbox*
+
+### The Units
+The SPOKES facility implements a 12 unit infrastructure:
+1. **Setup**: Duplicates databank and imports user parameters.
+2. **Select Targets**: Selects targets for spectroscopic observation from the photometric catalog of galaxies in the databank using user-defined parameters for color and magnitude cuts.
+3. **Tile Survey**: Implements the survey strategy by tiling the instrument field of view across a user-specified sky region, while optimizing observations for simulated environmental and sky conditions.
+4. **Allocate Fibers**: Matches fibers to positions in the focal plane of targeted galaxies (see Module 1) for each tile scheduled in the survey.
+5. **Calculate Throughput**: Calculates the total optical transmission efficiency as a function of wavelength for the principal elements in the light path of the instrument.
+6. **Simulate Spectrum**:  constructs models of the intrinsic rest-frame and of the observed-frame spectral energy distributions for each galaxy that has been scheduled for targeting.
+7. **Generate Spectrum Noise**:  the transmission throughput and simulated spectra (generated in Module 4 and Module 5, respectively) are used to produce a complete noise spectrum that also includes photon shot noise, spectrograph CCD read noise, and noise from the atmosphere (extinction and sky background).
+8. **Measure Redshift**: measures the spectroscopic redshift, zspec, of the galaxies from observed spectra.
+9. **Bin Redshift**: distributes the galaxies into bins of spectroscopic redshift (measured in Module 7), according to a user-defined parameter for the number of bins.
+10. **Calculate Selection Function**: calculates the selection function in space (Right Ascension and Declination) and redshift of the observed spectroscopic galaxy catalog.
+11. **Estimate Cosmology Parameters**: forecasts the cosmology-constraining power of a given survey configuration by analyzing the catalog of galaxies observed in this pipeline.
+12. **Report Results**: generates a report that summarizes the run with figures for assessing the computational and science performance.
+
+Each unit takes data and parameters from the central databank and creates new data to be used later in the pipeline. Units access only the data they need from the databank, which simplifies the interfaces between units and makes them highly independent of one another. Note that the only interaction between units occurs via the exchange of data with the databank.
+
+*Functionality for the implementation of user-created units to replace given units is also provided. Function names within these files must match those in the matching default spokes unit. It is highly recommended that the user looks at the source code for the project [here](https://github.com/deepskies/spokes) and edits the physics of the individual unit while keeping the inputs and outputs of the unit constant to keep it compatible with the pipeline.*
+
+### The Databank
+The SPOKES facility adopts a solution based on the Hierarchical Data Format (HDF5) for its data management. This scheme for the central databank allows the data formatting to be able to handle many data types, scale efficiently to handle large amounts of data, and be flexible enough to store all data for a rapidly developed pipeline.
+
+In an HDF5 file, the data are organized in unique paths, like a hard disk filesystem (e.g., */group/subgroup/dataset*): each data set resides in a 'group' and its 'subgroup', which are named descriptively in SPOKES to associate related data and improve code readability. The data sets can be of a variety of data types, including arrays.
+
+The data groups in the databank are partitioned according to both unit usage and related information. These are all of the groups used throughout the pipeline, initialized within the Setup unit.
+* **AnalysisChoices**: contains the information with which to specify the analysis methods
+* **Constants**: holds physical constants and random seeds
+* **Ensemble**: contains data on the galaxies as a collection
+* **Environment**: contains the information regarding the atmosphere (absorption and emission spectra) and location
+* **Fibers**: contains information about the fibers that are assigned to galaxies
+* **Galaxies**: contains all galaxy data, **this is the only data group required in the databank when the pipeline is initialized**
+* **Instrument**: contains several subgroups representing the subsystems of the instrument (optics, fibers, and spectrograph) each of which has several parameters
+* **RuntimeParameters**: contains parameters that determine how the simulation will be run
+* **SpectralTemplates**: contain the eigentemplates used to reconstruct galaxy spectra
+* **SurveyParameters**: holds the data necessary to run the survey, for example, exposure time per tile and region of the sky to be observed
+* **SurveyTiles**: contains a set of tile information (sky position, airmass, time of observation, etc) and is used to link galaxies with the time and observation environment in which they were observed
+* **Throughput**: Contains parameters and information on the throughput of the spectrograph
+
+When the pipeline is initialized, a path to the user's source H5 databank must be given in the experiment parameters file (described below). This databank must *only* have a "Galaxies" data group formatted in the following arrays:
+* *db["Galaxies/central"]* - array - 1 if galaxy is the central galaxy in the halo, 0 if not
+* *db["Galaxies/coeffs"]* - 2D array - list of spectrum coefficients for each galaxy
+* *db["Galaxies/dec_true"]* - array - declination for each galaxy
+* *db["Galaxies/flux"]* - array - flux for each galaxy
+* *db["Galaxies/galaxy_index"]* - array - index for each galaxy
+* *db["Galaxies/m200"]*- array - mass of each galaxy in solar masses
+* *db["Galaxies/magnitude_g"]* - array - apparent astronomical magnitude for each galaxy in the g wavelength bands
+* *db["Galaxies/magnitude_hh"]* - array - apparent astronomical magnitude for each galaxy in the hh wavelength bands
+* *db["Galaxies/magnitude_i"]* - array - apparent astronomical magnitude for each galaxy in the i wavelength bands
+* *db["Galaxies/magnitude_r"]* - array - apparent astronomical magnitude for each galaxy in the r wavelength bands
+* *db["Galaxies/magnitude_u"]* - array - apparent astronomical magnitude for each galaxy in the u wavelength bands
+* *db["Galaxies/magnitude_y"]* - array - apparent astronomical magnitude for each galaxy in the y wavelength bands
+* *db["Galaxies/magnitude_z"]* - array - apparent astronomical magnitude for each galaxy in the z wavelength bands
+* *db["Galaxies/px"]* - array - x position of each galaxy
+* *db["Galaxies/py"]* - array - y position of each galaxy
+* *db["Galaxies/pz"]* - array - z position of each galaxy
+* *db["Galaxies/ra_true"]* - array - right ascension for each galaxy
+* *db["Galaxies/redshift_photometric"]* - array - photometric redshift for each galaxy
+* *db["Galaxies/z_true"]* - array - known true redshift for each galaxy
+
+You may also download the SPOKES default databank using the `download_databank(path to download directory)` , or download it yourself at [this Dropbox link](https://www.dropbox.com/s/ivk3ycbvms3v3jc/data_bank.h5?dl=0).
+
+### The Experiment Parameters File
+The SPOKES facility utilizes a singular YAML file containing all of the user-specific experiment parameters, that are then passed to the `run_simulation(path to experiment parameters file)` function. This allows for clean and reproducible pipeline runs.
+
+Create a file like the one below using your own experiment parameters:
+```yaml
+PrerunParameters:
+  order: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] # array[int] - Which units to run and in what order
+  data_bank: 'DATA/data_bank.h5' # string - Path to data_bank
+  duplicate_data_bank: True # boolean - Duplicate data_bank or not
+  log_dir: 'LOGS/' # string - Directory to put logfile in or 'None' for no log file
+User-createdUnits:
+  # IMPORTANT: All user-created units must be in the same directory as the file where run_simulation is called
+  Setup: "Default" # string - Name of user-created Setup module (does not contain '.py'), 'Default' for default spokes unit
+  SelectTargets: "Default" # string - Name of user-created Select Targets module (does not contain '.py'), 'Default' for default spokes unit
+  TileSurvey: "Default" # string - Name of user-created Tile Survey module (does not contain '.py'), 'Default' for default spokes unit
+  AllocateFibers: "Default" # string - Name of user-created Allocate Fibers module (does not contain '.py'), 'Default' for default spokes unit
+  CalculateThroughput: "Default" # string - Name of user-created Calculate Throughput module (does not contain '.py'), 'Default' for default spokes unit
+  SimulateSpectrum: "Default" # string - Name of user-created Simulate Spectrum module (does not contain '.py'), 'Default' for default spokes unit
+  GenerateSpectrumNoise: "Default" # string - Name of user-created Generate Spectrum Noise module (does not contain '.py'), 'Default' for default spokes unit
+  MeasureRedshift: "Default" # string - Name of user-created Measure Redshift module (does not contain '.py'), 'Default' for default spokes unit
+  BinRedshift: "Default" # string - Name of user-created Bin Redshift module (does not contain '.py'), 'Default' for default spokes unit
+  CalculateSelectionFunction: "Default" # string - Name of user-created Calculate Selection Function module (does not contain '.py'), 'Default' for default spokes unit
+  EstimateCosmologyParameters: "Default" # string - Path to user-created Estimate Cosmology Parameters module (does not contain '.py'), 'Default' for default spokes unit
+  ReportResults: "Default" # string - Path to user-created Report Results module (does not contain '.py'), 'Default' for default spokes unit
+RuntimeParameters:
+  verbose: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] # array[int] - Units with verbose logging
+  generate_plot: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] # array[int] - Units to generate plots for
+  plot_image_file_type: 'png' # string - Plot image type
+TargetSelection:
+  dummy_magcut_range: [0, 90] # array[int] - Dummy magnitude range
+  #                          cst      u     g     r     i     z     y     H     photo-z     2D array[int] - Luminous red galaxies magnitude cutting range
+  lrg_linear_cuts_coeffs: [ [-22,     0,    0,    0,    0,    1,    0,    0,    0], # z < 22
+                            [1.5,     0,    0,    -1,   0,    1,    0,    0,    0]] # r-z > 1.5
+  lrg_linear_cuts_connector: "intersection" # string - Luminous red galaxies cutting connector: "intersection" or "union"
+  #                          cst      u     g     r     i     z     y     H     photo-z     2D array[int] - Emission line galaxies magnitude cutting range
+  elg_linear_cuts_coeffs: [ [-23.4,   0,    0,    1,    0,    0,    0,    0,    0], # r < 23.4
+                            [.1,      0,    0,    -1,   1,    0,    0,    0,    0], # r-i > 0.1
+                            [-1.3,    0,    0,    1,    -1,   0,    0,    0,    0], # r-i < 1.3
+                            [-0.2,    0,    -1,   1,    0,    0,    0,    0,    0], # g-r > -0.2
+                            [-0.3,    0,    1,    -1,   0,    0,    0,    0,    0]] # g-r < 0.3
+  elg_linear_cuts_connector: "intersection" # string - Emission line galaxies cutting connector: "intersection" or "union"
+SurveyParameters:
+  right_ascension_range: [295, 337] # array[int] - Right ascension range in degrees
+  declination_range: [-6, 2] # array[int] - Declination range in degrees
+  field_of_view: 1 # int - Radius of each tile in degrees
+  tile_shape: "hexagonal" # string - shape of the tile: "square" or "hexagonal"
+Fibers:
+  nb_fibers: 4000 # int - Number of fibers
+RedshiftBinning:
+  nb_bins: 5 # int - Number of bins in redshift histogram
+SelectionFunction:
+  ztrue_resolution: 0.0001 # float - True redshift resolution
+  delta_ztrue_resolution: 0.00001 # float - Delta true redshift resolution
+```
+*Full documentation for Experiment Parameters YAML file coming soon...*
+
+### Usage
+This is an example of a pipeline run where the file is in the same directory as the Experiment Parameters file and where the user wants to download the SPOKES default databank into a folder called "DATA"
+```python
+from spokes import run_simulation, download_databank
+download_databank("DATA/") # Only needed if downloading default databank
+run_simulation("experiment_parameters.yml")
+```
+
+### Discussion and Development
+Bugs and issues can be reported [here](https://github.com/deepskies/spokes/issues), or send an email to Taig Singh at taig.singh@gmail.com.
+
+
