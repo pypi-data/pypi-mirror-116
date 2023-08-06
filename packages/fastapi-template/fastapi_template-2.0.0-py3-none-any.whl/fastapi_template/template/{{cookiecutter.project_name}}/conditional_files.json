@@ -1,0 +1,39 @@
+{
+  "Redis": {
+    "enabled": "{{cookiecutter.enable_redis}}",
+    "resources": [
+      "{{cookiecutter.project_name}}/web/api/redis",
+      "{{cookiecutter.project_name}}/services/redis",
+      "deploy/kube/redis.yml"
+    ]
+  },
+  "Kubernetes": {
+    "enabled": "{{cookiecutter.enable_kube}}",
+    "resources": [
+      "deploy/kube"
+    ]
+  },
+  "Database support": {
+    "enabled": "{{cookiecutter.db_info.name != 'none'}}",
+    "resources": [
+      "{{cookiecutter.project_name}}/web/api/dummy",
+      "{{cookiecutter.project_name}}/db",
+      "{{cookiecutter.project_name}}/conftest.py",
+      "deploy/kube/db.yml",
+      "alembic.ini"
+    ]
+  },
+  "Alembic": {
+    "enabled": "{{cookiecutter.enable_alembic}}",
+    "resources": [
+      "alembic.ini",
+      "{{cookiecutter.project_name}}/db/migrations"
+    ]
+  },
+  "CI support": {
+    "enabled": "{{cookiecutter.enable_ci}}",
+    "resources": [
+      ".gitlab-ci.yml"
+    ]
+  }
+}
