@@ -1,0 +1,8 @@
+pandas
+numpy
+seaborn>=0.11.1
+scikit-learn
+statsmodels>=0.12.2
+matplotlib
+seaborn
+tqdm
