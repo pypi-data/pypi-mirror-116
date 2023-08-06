@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-events
+Version: 0.1.0
+Summary: Helper for SQLAlchemy Events
+Home-page: https://github.com/nsiregar/sqlalchemy-events
+License: MIT
+Author: Ngalim Siregar
+Author-email: ngalim.siregar@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: SQLAlchemy (>=1.4.22,<2.0.0)
+Project-URL: Repository, https://github.com/nsiregar/sqlalchemy-events
+Description-Content-Type: text/markdown
+
+# sqlalchemy-events
+Helper for handling sqlalchemy events
+
