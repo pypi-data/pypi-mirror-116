@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+README.md
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/ci.yml
+pytest_playwright_snapshot/__init__.py
+pytest_playwright_snapshot/plugin.py
+pytest_playwright_snapshot.egg-info/PKG-INFO
+pytest_playwright_snapshot.egg-info/SOURCES.txt
+pytest_playwright_snapshot.egg-info/dependency_links.txt
+pytest_playwright_snapshot.egg-info/entry_points.txt
+pytest_playwright_snapshot.egg-info/requires.txt
+pytest_playwright_snapshot.egg-info/top_level.txt
+tests/conftest.py
+tests/test_plugin.py
