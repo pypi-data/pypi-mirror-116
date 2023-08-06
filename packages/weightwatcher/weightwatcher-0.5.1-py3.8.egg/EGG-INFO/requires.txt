@@ -1,0 +1,8 @@
+numpy
+matplotlib
+powerlaw
+tensorflow
+sklearn
+torch
+onnx
+pandas
