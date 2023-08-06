@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: run_elmer
+Version: 0.1.0
+Summary: Run Elmer FEM from Python
+Home-page: https://github.com/kinnala/run-elmer
+Author: Tom Gustafsson
+License: MIT
+Project-URL: Code, https://github.com/kinnala/run-elmer
+Project-URL: Issues, https://github.com/kinnala/run-elmer/issues
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
