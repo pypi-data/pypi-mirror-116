@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/shell_multiprocess/__init__.py
+src/shell_multiprocess/async_file_logger.py
+src/shell_multiprocess/async_processor.py
+src/shell_multiprocess/cleanup.py
+src/shell_multiprocess/main.py
+src/shell_multiprocess.egg-info/PKG-INFO
+src/shell_multiprocess.egg-info/SOURCES.txt
+src/shell_multiprocess.egg-info/dependency_links.txt
+src/shell_multiprocess.egg-info/entry_points.txt
+src/shell_multiprocess.egg-info/requires.txt
+src/shell_multiprocess.egg-info/top_level.txt
+src/shell_multiprocess/cmdline_args/__init__.py
+src/shell_multiprocess/cmdline_args/adjuster.py
+src/shell_multiprocess/cmdline_args/parser.py
