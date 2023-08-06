@@ -1,0 +1,5 @@
+nd2reader
+numpy
+scikit-image
+tifffile
+tqdm
