@@ -1,0 +1,9 @@
+audioperm/__init__.py,sha256=0BglPAm2a8Ze_GLEJw6T84hCAzbbaILN2pcwsX8-Dl8,416
+audioperm/audioperm.py,sha256=syBdpTACr3y7RDpWbplHEYF1j0R3b5FE65Zw4CCShNg,11198
+audioperm/augmentation.py,sha256=5l__bjj0Q0ZbDAHKJd6a9-djesFnyFGQTnJxbqFAd9Y,28
+audioperm/utils.py,sha256=n3GxlrSaA_9dLJNVJLzFr474Ljwytm7Fg_PI2ECu-3w,4319
+audioperm-0.0.4.dist-info/LICENSE,sha256=Cm1OcRttktWFSAiDz8qp1it575155pB3IrWj9QqarMQ,1076
+audioperm-0.0.4.dist-info/METADATA,sha256=SCx86ZCQwVaWVna4nV1zwol8T6jQjsNLXcKgAXqOyFM,4413
+audioperm-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+audioperm-0.0.4.dist-info/top_level.txt,sha256=EofbauPLBMd30TAEkKnAczOG1_7jsSUBOjKvvO3RDzM,10
+audioperm-0.0.4.dist-info/RECORD,,
