@@ -1,0 +1,15 @@
+_kaldifeat.cpython-37m-darwin.so,sha256=n3BkODL5Jfb8ZGywi3a-o4cdah-PTZXnoKkU4JO7HJI,289296
+libkaldifeat_core.dylib,sha256=ZRjmr5otveMZHJyJFo8LPIzg40xMYwag5LoxRHjD_ZI,188080
+kaldifeat/__init__.py,sha256=om8K3kob9h23tK60Xcv99t9u-lA0akXEWn_k7f1l0c4,295
+kaldifeat/fbank.py,sha256=-ALHxLLgndJTyN7dSS1bDtz_3AizTckXb560B-bzUxE,296
+kaldifeat/mfcc.py,sha256=GvDQq_3cze8SG4vdsAo5o_ae5zoQ1f9-Jsdleil8exs,293
+kaldifeat/offline_feature.py,sha256=zfGvUru5uoxG-wBIT8wVreZm9D8cbcqLEoRGyALA2uI,5283
+kaldifeat/plp.py,sha256=Rb5VUR1vDYj4R2spiDUFU_Ctf1WsiE_hl9W-P_egrnY,290
+kaldifeat/spectrogram.py,sha256=hmuiAdv5Dd3vLQPe6a4XL9dycW1NMoQwaJmo6vOpifA,314
+kaldifeat-1.5.dev0.data/data/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+kaldifeat-1.5.dev0.data/data/README.md,sha256=FHfsJu5eUqkLEyYV9ngFqMbuJoG8ypX65XXMlm4XVBE,6623
+kaldifeat-1.5.dev0.dist-info/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+kaldifeat-1.5.dev0.dist-info/METADATA,sha256=wIG9o1N3yOguq_OUsXV7KYH03JyFvvQ0q04mKC-t_zY,7328
+kaldifeat-1.5.dev0.dist-info/WHEEL,sha256=Ypa_oalHk58XzRcKP8fBZnD-bVO0G9bOz80OR8IZTaw,111
+kaldifeat-1.5.dev0.dist-info/top_level.txt,sha256=XnoTU4vd522nBkQS_T0GQvQuP9jOgb4-L8LITbyD2k4,21
+kaldifeat-1.5.dev0.dist-info/RECORD,,
