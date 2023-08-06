@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/kanizsa/__init__.py
+src/kanizsa/kanizsa.py
+src/kanizsa.egg-info/PKG-INFO
+src/kanizsa.egg-info/SOURCES.txt
+src/kanizsa.egg-info/dependency_links.txt
+src/kanizsa.egg-info/requires.txt
+src/kanizsa.egg-info/top_level.txt

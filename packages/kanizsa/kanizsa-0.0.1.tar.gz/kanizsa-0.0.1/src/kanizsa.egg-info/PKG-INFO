@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: kanizsa
+Version: 0.0.1
+Summary: A Python library for simply generating Kanizsa illusion graphics (triangles and rectangles).
+Home-page: UNKNOWN
+Author: Zi Yin
+Author-email: myinzi123@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: kanizsa,illusion
+Platform: any
+Requires-Python: >=3.6, <4
