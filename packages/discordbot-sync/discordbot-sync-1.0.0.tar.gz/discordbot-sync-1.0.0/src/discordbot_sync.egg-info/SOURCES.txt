@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/api/__init__.py
+src/api/opcode.py
+src/api/payload.py
+src/api/status_code.py
+src/api/structure.py
+src/discordbot_sync.egg-info/PKG-INFO
+src/discordbot_sync.egg-info/SOURCES.txt
+src/discordbot_sync.egg-info/dependency_links.txt
+src/discordbot_sync.egg-info/requires.txt
+src/discordbot_sync.egg-info/top_level.txt

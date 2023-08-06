@@ -1,0 +1,7 @@
+websockets
+requests
+asyncio
+traceback
+urllib
+json
+pathlib
