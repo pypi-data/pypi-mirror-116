@@ -1,0 +1,5 @@
+setup.py
+cradl_cli.egg-info/PKG-INFO
+cradl_cli.egg-info/SOURCES.txt
+cradl_cli.egg-info/dependency_links.txt
+cradl_cli.egg-info/top_level.txt
