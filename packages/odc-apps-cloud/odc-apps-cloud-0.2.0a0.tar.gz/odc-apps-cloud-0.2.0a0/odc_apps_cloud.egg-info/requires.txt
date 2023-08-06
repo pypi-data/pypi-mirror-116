@@ -1,0 +1,13 @@
+odc_aws
+odc_io
+odc_aio
+click
+
+[AZURE]
+odc-azure
+
+[GCP]
+google-cloud-storage
+
+[THREDDS]
+odc-thredds
