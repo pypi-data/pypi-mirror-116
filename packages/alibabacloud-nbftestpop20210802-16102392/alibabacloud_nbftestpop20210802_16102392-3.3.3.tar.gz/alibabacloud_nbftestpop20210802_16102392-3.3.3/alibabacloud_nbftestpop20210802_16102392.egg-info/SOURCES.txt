@@ -1,0 +1,15 @@
+ChangeLog.md
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_nbftestpop20210802_16102392/__init__.py
+alibabacloud_nbftestpop20210802_16102392/client.py
+alibabacloud_nbftestpop20210802_16102392/models.py
+alibabacloud_nbftestpop20210802_16102392.egg-info/PKG-INFO
+alibabacloud_nbftestpop20210802_16102392.egg-info/SOURCES.txt
+alibabacloud_nbftestpop20210802_16102392.egg-info/dependency_links.txt
+alibabacloud_nbftestpop20210802_16102392.egg-info/requires.txt
+alibabacloud_nbftestpop20210802_16102392.egg-info/top_level.txt
