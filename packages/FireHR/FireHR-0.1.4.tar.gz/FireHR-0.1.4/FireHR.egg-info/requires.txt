@@ -1,0 +1,4 @@
+earthengine-api
+banet==0.6.5
+fastai<2.2.7,>=2.1.4
+fastprogress
