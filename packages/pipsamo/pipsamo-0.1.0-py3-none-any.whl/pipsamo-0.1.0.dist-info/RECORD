@@ -1,0 +1,13 @@
+pips/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pips/__main__.py,sha256=QkEVfP_mVt8rguEhgG-9Nj2gUCW9-kZkKzJgIZi9di4,191
+pips/cli.py,sha256=pPlWvP3or3knocTI__emmnRd0KDp7M7PhyWTRJWBZ2w,1646
+pips/constants.py,sha256=iDaf6JTm0pRhyq0eyT3MlcV74s-zPUjb2zNzthxXvYA,23
+pips/crawl.py,sha256=xtwP3HCJhRHC-VyIsvKvoXc1vCd8RTGH3dZdAdoyBUU,2981
+pips/pip.py,sha256=7HnmkAxHHldnJ9amH5gcF2LX_GpSKFLhXEI1K01gYzo,1000
+pips/verifier.py,sha256=PRSd72Y-6Pnk-1_6Spuz3sVTjMMBAnzzFojWqMxeIr0,736
+pipsamo-0.1.0.dist-info/LICENSE,sha256=5b4XxmApnmb46OBhgNZ2R0bnGgiYOd4CzPyzw91_gWo,1045
+pipsamo-0.1.0.dist-info/METADATA,sha256=45kfowtH3OH0E-JhL_EBUMeddDJKIH8isEWSEuFQQdk,1510
+pipsamo-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pipsamo-0.1.0.dist-info/entry_points.txt,sha256=HM5etmyiDpmhXVUEGVFIQ1StrDiv4hJprX_Eaz50hKc,44
+pipsamo-0.1.0.dist-info/top_level.txt,sha256=IWrIP0sHiYAGDmyqCpIJAaKH2K3XIeig4koC0IbG840,5
+pipsamo-0.1.0.dist-info/RECORD,,
