@@ -1,0 +1,6 @@
+psycopg2
+cerberus
+obscure_password
+
+[test]
+pytest
