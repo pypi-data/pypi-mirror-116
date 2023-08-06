@@ -1,0 +1,560 @@
+{
+    "graph": {
+        "edge_data": {
+            "edge_count": 20,
+            "edges": [
+                {
+                    "incident_nodes": [
+                        0,
+                        2
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        0,
+                        7
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        1,
+                        7
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        2,
+                        6
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        2,
+                        9
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        3,
+                        9
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        3,
+                        7
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        3,
+                        5
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        4,
+                        8
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        5,
+                        9
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        5,
+                        8
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        6,
+                        9
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "incident_nodes": [
+                        6,
+                        8
+                    ]
+                }
+            ]
+        },
+        "ink": 12.86444654029078,
+        "node_data": {
+            "node_count": 10,
+            "nodes": [
+                {
+                    "coordinates": [
+                        0.8618664556197926,
+                        -0.6791102633171362
+                    ],
+                    "index": 0
+                },
+                {
+                    "coordinates": [
+                        0.3036766146922891,
+                        -1.0
+                    ],
+                    "index": 1
+                },
+                {
+                    "coordinates": [
+                        0.4486822725636347,
+                        -0.26978545183545644
+                    ],
+                    "index": 2
+                },
+                {
+                    "coordinates": [
+                        0.05061781031923615,
+                        0.42479476930384646
+                    ],
+                    "index": 3
+                },
+                {
+                    "coordinates": [
+                        -0.557161203516653,
+                        0.8976307159953161
+                    ],
+                    "index": 4
+                },
+                {
+                    "coordinates": [
+                        -0.34330747662779354,
+                        0.3460517626263829
+                    ],
+                    "index": 5
+                },
+                {
+                    "coordinates": [
+                        -0.28247726694316444,
+                        -0.05725839950305926
+                    ],
+                    "index": 6
+                },
+                {
+                    "coordinates": [
+                        0.09137223481973453,
+                        -0.35905569511240587
+                    ],
+                    "index": 7
+                },
+                {
+                    "coordinates": [
+                        -0.9082478024147488,
+                        0.43117286364622015
+                    ],
+                    "index": 8
+                },
+                {
+                    "coordinates": [
+                        0.334978361487673,
+                        0.26555969819629416
+                    ],
+                    "index": 9
+                }
+            ]
+        }
+    },
+    "intersection": {
+        "delta_count": {
+            "0": 12,
+            "1": 2,
+            "2": 4,
+            "3": 2
+        },
+        "edge_count": 8,
+        "edges": [
+            {
+                "incident_nodes": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "incident_nodes": [
+                    4,
+                    8
+                ]
+            },
+            {
+                "incident_nodes": [
+                    4,
+                    13
+                ]
+            },
+            {
+                "incident_nodes": [
+                    5,
+                    14
+                ]
+            },
+            {
+                "incident_nodes": [
+                    5,
+                    17
+                ]
+            },
+            {
+                "incident_nodes": [
+                    8,
+                    14
+                ]
+            },
+            {
+                "incident_nodes": [
+                    8,
+                    17
+                ]
+            },
+            {
+                "incident_nodes": [
+                    13,
+                    17
+                ]
+            }
+        ],
+        "node_count": 20,
+        "nodes": [
+            {
+                "delta": 0,
+                "index": 0
+            },
+            {
+                "delta": 1,
+                "index": 1
+            },
+            {
+                "delta": 1,
+                "index": 2
+            },
+            {
+                "delta": 0,
+                "index": 3
+            },
+            {
+                "delta": 2,
+                "index": 4
+            },
+            {
+                "delta": 2,
+                "index": 5
+            },
+            {
+                "delta": 0,
+                "index": 6
+            },
+            {
+                "delta": 0,
+                "index": 7
+            },
+            {
+                "delta": 3,
+                "index": 8
+            },
+            {
+                "delta": 0,
+                "index": 9
+            },
+            {
+                "delta": 0,
+                "index": 10
+            },
+            {
+                "delta": 0,
+                "index": 11
+            },
+            {
+                "delta": 0,
+                "index": 12
+            },
+            {
+                "delta": 2,
+                "index": 13
+            },
+            {
+                "delta": 2,
+                "index": 14
+            },
+            {
+                "delta": 0,
+                "index": 15
+            },
+            {
+                "delta": 0,
+                "index": 16
+            },
+            {
+                "delta": 3,
+                "index": 17
+            },
+            {
+                "delta": 0,
+                "index": 18
+            },
+            {
+                "delta": 0,
+                "index": 19
+            }
+        ]
+    },
+    "result": {
+        "edges": [
+            {
+                "incident_nodes": [
+                    5,
+                    7
+                ],
+                "stub": [
+                    0.46667627949175894,
+                    0.5333237205082411
+                ]
+            },
+            {
+                "incident_nodes": [
+                    3,
+                    7
+                ],
+                "stub": [
+                    0.7498330127699678,
+                    0.25016698723003217
+                ]
+            },
+            {
+                "incident_nodes": [
+                    6,
+                    9
+                ],
+                "stub": [
+                    0.5647048420687363,
+                    0.4352951579312637
+                ]
+            },
+            {
+                "incident_nodes": [
+                    0,
+                    2
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    3,
+                    4
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    5,
+                    8
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    4,
+                    8
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    1,
+                    7
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    4,
+                    5
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    3,
+                    5
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    2,
+                    9
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    3,
+                    9
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    5,
+                    6
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    6,
+                    7
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    6,
+                    8
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "incident_nodes": [
+                    2,
+                    6
+                ],
+                "stub": [
+                    0.6870748798127841,
+                    0.31292512018721585
+                ]
+            },
+            {
+                "incident_nodes": [
+                    2,
+                    3
+                ],
+                "stub": [
+                    0.6589058278126394,
+                    0.3410941721873606
+                ]
+            },
+            {
+                "incident_nodes": [
+                    5,
+                    9
+                ],
+                "stub": [
+                    0.5904448019222177,
+                    0.30546712807857745
+                ]
+            },
+            {
+                "incident_nodes": [
+                    1,
+                    2
+                ],
+                "stub": [
+                    0.6992936825484625,
+                    0.30070631745153753
+                ]
+            },
+            {
+                "incident_nodes": [
+                    0,
+                    7
+                ],
+                "stub": [
+                    0.5,
+                    0.5
+                ]
+            }
+        ],
+        "ink": 12.793349690909958,
+        "symmetric": false,
+        "tree_width": 2
+    },
+    "success": true,
+    "time": {
+        "algorithm": 0.2213702999999999,
+        "init_datastructure": 0.004136100000000087,
+        "tree_decomposition": 0.007558300000000018
+    }
+}
