@@ -1,0 +1,6 @@
+dataclasses-json>=0.5.3
+requests>=2.21
+thonny>=3.0
+tkhtmlview>=0.1.0
+typing-extensions>=3.10
+websocket-client>=0.57
