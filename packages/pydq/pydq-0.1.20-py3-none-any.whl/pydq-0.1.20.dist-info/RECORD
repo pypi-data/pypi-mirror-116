@@ -1,0 +1,14 @@
+pydq/__init__.py,sha256=isE0ENX6MMhnQgjiqdg0v50XeunAEhzXH7R5XxqOmdU,1978
+pydq/helpers.py,sha256=kxDujwlixt5PyBLu70ihKB2icSzFfJGagdJ7HE84sNw,1193
+pydq/cloud/__init__.py,sha256=lU_aPsNR1U9Ud6GvPNxDYH8ZBgQ6pLWGfwXN2vPeM60,24
+pydq/cloud/buffered_ddb.py,sha256=adUBFfRRxQEHoinN1_9jl8dZftO4cwCaJ0ar4yY6Ca0,4286
+pydq/cloud/dynamodb.py,sha256=cxW1sd15yIusna4ZJsDdDCjX2sRt5Ng51eDfhRcoOog,4545
+pydq/cloud/kafka.py,sha256=q1WC3XQ64MwDSJH2LPtZeLqcGvDnfUgbZJjY6DZ7utM,3835
+pydq/local/__init__.py,sha256=tU3vHDYU6sBcCJNVhUcxNoE-WI4Lx5SVy-mheC7B9dc,21
+pydq/local/postgres.py,sha256=RhMDZx3XD5-6Ghs9lHqNUNRxpfBH9fE1Y0v9Bh-y8fM,3707
+pydq/local/sqlite.py,sha256=amOTb4ybLmist1BwDlmgxsNWiQ_TrpWFtFK9lOdpOGM,2629
+pydq-0.1.20.dist-info/LICENSE,sha256=_sY5zeLzOh_niqb233K1C2M2TNhfZ_NjM4tdhadIPYo,1054
+pydq-0.1.20.dist-info/METADATA,sha256=lOZho6JOtY7QXk7OYTNQ4k_4L_NQuXdKMjl3u00ONrY,2606
+pydq-0.1.20.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydq-0.1.20.dist-info/top_level.txt,sha256=XQnv_bt1oev5VLQtbhf_CF6RUumL8VDwccd_2280IC4,5
+pydq-0.1.20.dist-info/RECORD,,
