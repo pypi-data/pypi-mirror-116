@@ -1,0 +1,8 @@
+disdat>=0.9.16
+stepfunctions==2.2.0
+
+[dev]
+pytest
+ipython
+twine
+build

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: disdat_step_function
+Version: 0.1.dev15
+Summary: UNKNOWN
+Home-page: https://github.com/kyocum/disdat-step-functions
+Author: Ken Yocum, Zixuan Zhang
+Author-email: kyocum@gmail.com, zz2777@columbia.edu
+License: Apache License, version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
