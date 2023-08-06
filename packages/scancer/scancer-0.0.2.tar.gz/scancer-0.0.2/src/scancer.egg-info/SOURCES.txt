@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/scancer.egg-info/PKG-INFO
+src/scancer.egg-info/SOURCES.txt
+src/scancer.egg-info/dependency_links.txt
+src/scancer.egg-info/top_level.txt
