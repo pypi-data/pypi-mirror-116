@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: boox-annotations-to-anki
+Version: 0.1.0
+Summary: Create cards in Anki from your Onyx Boox annotations.
+Home-page: https://github.com/coddingtonbear/boox-annotations-to-anki
+Author: Adam Coddington
+Author-email: me@adamcoddington.net
+License: MIT
+Project-URL: Changelog, https://github.com/coddingtonbear/boox-annotations-to-anki/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/coddingtonbear/boox-annotations-to-anki/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========
+Overview
+========
+
+
+
+Create cards in Anki from your Onyx Boox annotations.
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install boox-annotations-to-anki
+
+You can also install the in-development version with::
+
+    pip install https://github.com/coddingtonbear/boox-annotations-to-anki/archive/master.zip
+
+
+Documentation
+=============
+
+
+To use the project:
+
+.. code-block:: python
+
+    import boox_annotations_to_anki
+    boox_annotations_to_anki.longest()
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.1.0 (2021-08-19)
+------------------
+
+* First release on PyPI.
+
+
