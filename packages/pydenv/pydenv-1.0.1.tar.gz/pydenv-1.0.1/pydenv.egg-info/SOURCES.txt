@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pydenv/__init__.py
+pydenv/pydenv.py
+pydenv.egg-info/PKG-INFO
+pydenv.egg-info/SOURCES.txt
+pydenv.egg-info/dependency_links.txt
+pydenv.egg-info/top_level.txt
