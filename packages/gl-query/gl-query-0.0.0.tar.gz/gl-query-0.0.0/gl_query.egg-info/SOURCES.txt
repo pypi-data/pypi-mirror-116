@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gl_query/__init__.py
+gl_query/query.py
+gl_query.egg-info/PKG-INFO
+gl_query.egg-info/SOURCES.txt
+gl_query.egg-info/dependency_links.txt
+gl_query.egg-info/entry_points.txt
+gl_query.egg-info/requires.txt
+gl_query.egg-info/top_level.txt
