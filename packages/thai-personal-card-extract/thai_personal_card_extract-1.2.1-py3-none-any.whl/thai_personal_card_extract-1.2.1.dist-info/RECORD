@@ -1,0 +1,12 @@
+ThaiPersonalCardExtract/__init__.py,sha256=Ht-DYhYO0sFDvKH6aBvB-_PDu42yHentvu4nrTGbY6o,198
+ThaiPersonalCardExtract/utils.py,sha256=0g0BQxdAq0GTSuCEWzOjJ1xQPHZdJSN3MS09Rj3E4cA,312
+ThaiPersonalCardExtract/PersonalCard/PersonalCard.py,sha256=QQ2ck2xTnUDVh4LWqBxC9qxU1Bf1zcWUWXhfxl9JLa8,10735
+ThaiPersonalCardExtract/PersonalCard/__init__.py,sha256=p_lvxfhKOssQvYSiJ_zNGunNt4iPTRBDLkAJ650rrEY,199
+ThaiPersonalCardExtract/datasets/driving_license/thai-driving-license-template.jpg,sha256=SJbshlz-kNR_lXYntPMqO24AYZceBhdxXT0i9xHSong,384690
+ThaiPersonalCardExtract/datasets/identity_card/personal-card-back-template.jpg,sha256=jimmx289PZGY-x5ndVDE76VwlQ0g5gdgOdON1JzGHIM,72375
+ThaiPersonalCardExtract/datasets/identity_card/personal-card-template.jpg,sha256=kal_bLjZ4o1AUdyGGEb_7GMos4ApGm5C3hEHsO0-FzY,25452
+thai_personal_card_extract-1.2.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+thai_personal_card_extract-1.2.1.dist-info/METADATA,sha256=6izXOLPtAmd90OowJ2TF-jTUYYS9vhNBWyiEsNjP-0I,9771
+thai_personal_card_extract-1.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+thai_personal_card_extract-1.2.1.dist-info/top_level.txt,sha256=VMu0a-nEWOLcUthaMdcZx5TjY_kIgYLCo51Vl_Ifczk,24
+thai_personal_card_extract-1.2.1.dist-info/RECORD,,
