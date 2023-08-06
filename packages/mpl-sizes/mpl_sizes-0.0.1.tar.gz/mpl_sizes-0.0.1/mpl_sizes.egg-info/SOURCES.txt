@@ -1,0 +1,13 @@
+README.md
+setup.py
+mpl_sizes/__init__.py
+mpl_sizes/format.py
+mpl_sizes.egg-info/PKG-INFO
+mpl_sizes.egg-info/SOURCES.txt
+mpl_sizes.egg-info/dependency_links.txt
+mpl_sizes.egg-info/top_level.txt
+mpl_sizes/paper_formats/__init__.py
+mpl_sizes/paper_formats/iclr.py
+mpl_sizes/paper_formats/icml.py
+mpl_sizes/paper_formats/inf_thesis.py
+mpl_sizes/paper_formats/neurips.py
