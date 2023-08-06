@@ -1,0 +1,15 @@
+deluca
+numpy
+tqdm
+scipy
+sklearn
+matplotlib
+jupyter
+ipython
+pathos
+pigpio
+click
+tensorboard
+pandas
+jax
+flax
