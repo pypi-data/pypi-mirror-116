@@ -1,0 +1,15 @@
+slcpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slcpy/build_label_mask.py,sha256=iXdsgvjHPYRL5SzE-8UYdWEo7nq6r-ZJccSdT8UzNtA,777
+slcpy/cli.py,sha256=1kUS0CFGadpnjRMzLmfinwNIKE-PmUaMjt1pjq0mPmo,3091
+slcpy/import_data.py,sha256=tBe1ruzQx7Hmell4RkBSU0sSU8WEzROihE7a-x2x8bc,6135
+slcpy/interpolation.py,sha256=wJJlMHZeelLT7IfPSiN4vesPOcnLZysLGiN5mFYeBWk,2069
+slcpy/main.py,sha256=QlxNN771pWI8dbpiI_7NnW27eiDpdQF9uxkN28lxsUU,2932
+slcpy/trim.py,sha256=iL0_UWzK5vzISq9G981irpDyaP8QtqMhwMVRTZxP36Q,1771
+slcpy/version.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+slcpy-0.2.0.dist-info/AUTHORS.rst,sha256=sog7EU0EySTJbHldgxlRO6VscWJDyzma0QoVD02cQlc,164
+slcpy-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+slcpy-0.2.0.dist-info/METADATA,sha256=U-NNXJmouDaThAoiQh3pCuX9W-GSRrwf8bUXkwfrYiI,3994
+slcpy-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+slcpy-0.2.0.dist-info/entry_points.txt,sha256=fo9HZYgn5c6D76PYrQKhnJtGdIeck4aGVEJPVXmktt4,42
+slcpy-0.2.0.dist-info/top_level.txt,sha256=4kkAfmOQtGvgCZLRWsP5bLjq6jHlQSAlfUnbKWO7Q0M,6
+slcpy-0.2.0.dist-info/RECORD,,
