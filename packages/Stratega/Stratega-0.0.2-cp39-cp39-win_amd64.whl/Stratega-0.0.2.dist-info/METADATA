@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Stratega
+Version: 0.0.2
+Summary: Stratega python bindings
+Home-page: UNKNOWN
+Author: Diego Perez-Liebana, Alexander Dockhorn, Jorge Hurtado Grueso, Dominik Jeurissen
+License: UNKNOWN
+Project-URL: Github, https://github.com/GAIGResearch/Stratega
+Project-URL: Community-Discord, https://discord.com/invite/VVj8Y32DPK
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# stratega
+
+[![pypi releases](https://img.shields.io/pypi/v/stratega.svg)](https://pypi.org/project/stratega)
+
+Stratega is a python interface to the [Stratega Framework](https://github.com/GAIGResearch/Stratega).
+
+It has been designed to foster research on computational intelligence for strategy games. In contrast to other strategy game frameworks, Stratega allows to create a wide variety of turn-based and real-time strategy games using acommon API for agent development.
+
+It can be installed from [PyPI](https://pypi.org/project/stratega/) using pip:
+
+```
+pip install stratega
+```
+
+Documentation: <https://stratega.readthedocs.io/>
+
