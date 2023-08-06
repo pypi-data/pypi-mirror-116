@@ -1,0 +1,14 @@
+README.md
+setup.py
+architect/__init__.py
+architect/core/__init__.py
+architect/core/logging.py
+architect/core/schemas.py
+architect/providers/__init__.py
+architect/providers/base.py
+canary_io.egg-info/PKG-INFO
+canary_io.egg-info/SOURCES.txt
+canary_io.egg-info/dependency_links.txt
+canary_io.egg-info/not-zip-safe
+canary_io.egg-info/requires.txt
+canary_io.egg-info/top_level.txt
