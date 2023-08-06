@@ -1,0 +1,6 @@
+pillow
+qrcode
+beautifulsoup4==4.8.1
+simpleai
+brackette
+shapely
