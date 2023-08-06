@@ -1,0 +1,16 @@
+request_signer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+request_signer/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+request_signer/core/exceptions.py,sha256=suVBJYf9aV5ThNN3CAdlf1zjcWOEhTdLqHUvtO7plVk,43
+request_signer/core/request.py,sha256=9EFoTbEEdiE4NGyAz6ryi_qOQ_je6oDBZRDZEskLwdM,2102
+request_signer/core/signer.py,sha256=MpMLpz1wvIhlCuNyLa0dB2vK_2fENKBcQUB3BYUfIw4,1089
+request_signer/django_utils/__init__.py,sha256=v6HCIw7S8PDWjPcQ5KFDs9wslCU853U67bTYQgVB5a8,57
+request_signer/django_utils/permissions.py,sha256=RvHC17BEnDTfuOzCycUkj52NZMBozwCndBVxoIo2I9k,1295
+request_signer/django_utils/signed_request.py,sha256=AJCCtlkydZg3-T79BqEQuLWmJEHlVW91rAyFcVoNpY0,486
+request_signer/flask_utils/__init__.py,sha256=v6HCIw7S8PDWjPcQ5KFDs9wslCU853U67bTYQgVB5a8,57
+request_signer/flask_utils/permissions.py,sha256=1y7izz0Zl7WMda88QjX5JLYrATTT4oHOZJnJq4ZUaws,1312
+request_signer/flask_utils/signed_request.py,sha256=bbuoEvXgBXgYOln59wsg71XuETTJrRPX3I36Idx-Pcg,982
+request_signer-0.4.1.dist-info/LICENSE,sha256=KmGww0nF5K502PLBYkLK2DUKl_5YbAeiCPJU28JqEPQ,720
+request_signer-0.4.1.dist-info/METADATA,sha256=GVSWlN6htUTsnc-56qOkPHyhWXiIsKgwUm_DhmOUvYs,3245
+request_signer-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+request_signer-0.4.1.dist-info/top_level.txt,sha256=jah_xiRv8A0x4ZqwdXGqChfVMSHcjQJUXl5TyijdH3Y,15
+request_signer-0.4.1.dist-info/RECORD,,

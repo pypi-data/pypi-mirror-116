@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: request-signer
+Version: 0.4.1
+Summary: Request signing for intersystem communications.
+Home-page: https://github.com/Fitspot/request_signer
+Author: Tenspot Dev
+Author-email: caleb@tenspot.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: simplejson
+
+# Request Signer
+
+Creates and validates signed requests between backend systems.
+
+*Requires a `SIGNED_REQUEST_API_KEY` to be defined in your project's settings.*
+
+## Usage
+
+Request signer uses `requests` to make requests, by appending api calls with a `X-SignedRequest-Signature` header.
+
+There are working examples in the project's `django_example` and `flask_example` directories on how to make requests.
+
+Notes:
+
+- You can pass a company_id and/or user_id to the consuming view which will be available in the view as
+`request.rs_company_id` and `request.rs_user_id`.
+- Views protected by request_signer are assumed to be ADMIN level views and will NOT filter by company
+or user unless specifically provided.  It is up to the requestor to make sure they are not asking
+for data that those viewing the response should not be allowed to see.
+
+### Django
+
+#### Signing a request
+
+```
+from request_signer.django_utils import signed_request
+
+# GET
+signed_request.get('https://localhost:8000')
+
+
+# POST/PATCH
+
+"""
+The request_signer wrapper will jsonify your data object and set the Content-Type to 'application/json'.
+"""
+
+data = {'a': 'b'}
+signed_request.post('https://localhost:8000', data)
+signed_request.patch('https://localhost:8000', data)
+
+```
+
+#### Requiring signatures
+
+```
+from rest_framework.views import APIView
+from request_signer.django_utils.permissions import APISignature
+
+class SigntureRequiredView(APIView):
+
+    permission_classes = [APISignature]
+
+```
+
+### Flask
+
+Due to the pain of managing app and request contexts, you have to pass the signing key into the request in the Flask library.
+`api_key` _must_ be passed as a keyword argument.
+
+#### Signing a request
+
+```
+from request_signer.flask_utils import signed_request
+
+api_key = app.config['SIGNED_REQUEST_API_KEY']
+
+# GET
+signed_request.get('https://localhost:8000', api_key=api_key)
+
+
+# POST/PATCH
+
+"""
+The request_signer wrapper will jsonify your data object and set the Content-Type to 'application/json'.
+"""
+
+data = {'a': 'b'}
+signed_request.post('https://localhost:8000', data, api_key=api_key)
+signed_request.patch('https://localhost:8000', data, api_key=api_key)
+
+```
+
+#### Requiring signatures
+
+Seems to be safest if you place the decorator closest to the method definition.
+
+```
+from request_signer.flask_utils.permissions import signature_required
+
+class SigntureRequiredView(BaseView):
+
+    @signature_required
+    def get(self, request):
+        return 'Good Job'
+
+```
+
+
+## Building
+
+`pip install --upgrade build`
+`python3 -m build`
+
+### Tagging
+
+Update tag whenever semver changes.
+
+`git tag -a v1.4 -m "cool message"`
+
+Tags don't automatically get pushed; push them up like a normal commit.
+
+`git push origin v1.4`
+
+
+
+
