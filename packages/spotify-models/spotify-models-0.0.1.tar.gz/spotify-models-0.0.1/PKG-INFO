@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: spotify-models
+Version: 0.0.1
+Summary: Spotify data models written in Python
+Home-page: https://github.com/evanphilipsmith/spotify-models
+Author: Evan Smith
+Author-email: evanphilipsmith@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/evanphilipsmith/spotify-models/issues
+Keywords: spotify spotipy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# Introduction
+`spotify_models` is a package for using Spotify's data models in your Python projects.
+
+

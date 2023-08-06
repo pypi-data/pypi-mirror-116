@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spotify_models/__init__.py
+spotify_models/models.py
+spotify_models.egg-info/PKG-INFO
+spotify_models.egg-info/SOURCES.txt
+spotify_models.egg-info/dependency_links.txt
+spotify_models.egg-info/requires.txt
+spotify_models.egg-info/top_level.txt
