@@ -1,0 +1,10 @@
+twitchplays_retroarch/__init__.py,sha256=z-uK9rUV6AK_RSZvptI88azuAt6N0koksYQcgNH2B0M,13537
+twitchplays_retroarch/__main__.py,sha256=fUX4IIB3FZhhnrOgcAsZIPKLs4vATVbmNUoTlgnEtjY,123
+twitchplays_retroarch/controls_converter.py,sha256=jUZLBI-KlR64hKyoH1IoL1m_mvOsqIiWIBKogYy2wH0,6868
+twitchplays_retroarch/util.py,sha256=unglI5ZmDPuqc5dkdmFIwEJpd9OF16CSA57jN3gRjZs,1624
+twitchplays_retroarch-0.7.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+twitchplays_retroarch-0.7.0.dist-info/METADATA,sha256=5WK4KGs-j4yZGUKuSENSp60byX3NRVcAHzID8p92F18,3446
+twitchplays_retroarch-0.7.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+twitchplays_retroarch-0.7.0.dist-info/entry_points.txt,sha256=VpsuLNfk2sCrY9zs6HNXOYxUALDWgqXRATsO0j7A2bs,70
+twitchplays_retroarch-0.7.0.dist-info/top_level.txt,sha256=3ktCSgSRWj_pORlsrXxCES_fz8DMtSI6sLHPdm25aKk,22
+twitchplays_retroarch-0.7.0.dist-info/RECORD,,
