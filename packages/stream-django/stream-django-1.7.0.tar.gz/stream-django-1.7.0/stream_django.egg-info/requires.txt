@@ -1,0 +1,11 @@
+django<3.3,>=2.0
+stream-python>=3.0.1
+pytz
+
+[ci]
+black
+flake8
+pytest-cov
+
+[test]
+httpretty==1.1.1
