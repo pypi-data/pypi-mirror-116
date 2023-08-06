@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/klanil.py
+src/klanil.egg-info/PKG-INFO
+src/klanil.egg-info/SOURCES.txt
+src/klanil.egg-info/dependency_links.txt
+src/klanil.egg-info/top_level.txt
