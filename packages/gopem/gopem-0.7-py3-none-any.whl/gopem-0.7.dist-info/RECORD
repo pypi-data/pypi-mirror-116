@@ -1,0 +1,11 @@
+gopem/__init__.py,sha256=Fr-K0okXCrZ3WPuAkFWa8JLme1HiQZEjnTv1WaZcGSA,151
+gopem/__main__.py,sha256=y66wcPbSyRCsD7nnIzxD4KPhXgt8PQqmq-HwLeFn2Ew,978
+gopem/helper.py,sha256=QhiQUrgrHJkmAqu3Gp36JV9ObTySYlrqxIE2273VSYA,3900
+gopem/mainwindow.py,sha256=dLN8BoYc1K2EfFOAd1eBfGKOxYljXIH3tq6MA9_YlW4,25340
+gopem/plotter.py,sha256=VhC2-5WtfPGlTzLFPKE2hFGdo2vR_XKFj7Yz3gL24iA,6320
+gopem-0.7.dist-info/AUTHORS.md,sha256=NOpDjJpWeaVoE5vcnDEAVh7gQuf2eKqHjrTKiKGsZ7I,678
+gopem-0.7.dist-info/LICENSE,sha256=wG0oTq_ZB7SIOQNSd1WxiIRitLfqAnKfn6i5M0ADftU,1062
+gopem-0.7.dist-info/METADATA,sha256=N4Vf3m1wvCF7KsW9-qk3q6O5BDKblrYWbOhyTIJPvgQ,11358
+gopem-0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gopem-0.7.dist-info/top_level.txt,sha256=qDIM3zTPoBgoo9WfSVztmRZ0cm6L-rFBdBaJDz-PIQs,6
+gopem-0.7.dist-info/RECORD,,
