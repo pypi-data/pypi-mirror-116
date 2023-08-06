@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: serifan
+Version: 0.1.0
+Summary: Python wrapper for the Shortboxed API
+License: GPL-3.0-or-later
+Keywords: comics,comic
+Author: Brian Pepple
+Author-email: bdpepple@gmail.com
+Maintainer: Brian Pepple
+Maintainer-email: bdpepple@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: marshmallow (>=3.13.0,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/bpepple/serifan/issues
+Description-Content-Type: text/x-rst
+
+=======
+Serifan
+=======
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+Quick Description
+-----------------
+A python wrapper for the shortboxed.com_ API.
+
+.. _shortboxed.com: https://shortboxed.com/
+
+Bugs/Requests
+-------------
+  
+Please use the `GitHub issue tracker <https://github.com/bpepple/serifan/issues>`_ to submit bugs or request features.
+
+License
+-------
+
+This project is licensed under the `GPLv3 License <LICENSE>`_.
+
