@@ -1,0 +1,17 @@
+[console_scripts]
+precise-lite-add-noise = precise_lite.scripts.add_noise:main
+precise-lite-calc-threshold = precise_lite.scripts.calc_threshold:main
+precise-lite-collect = precise_lite.scripts.collect:main
+precise-lite-convert = precise_lite.scripts.convert:main
+precise-lite-engine = precise_lite.scripts.engine:main
+precise-lite-eval = precise_lite.scripts.eval:main
+precise-lite-graph = precise_lite.scripts.graph:main
+precise-lite-listen = precise_lite.scripts.listen:main
+precise-lite-simulate = precise_lite.scripts.simulate:main
+precise-lite-test = precise_lite.scripts.test:main
+precise-lite-train = precise_lite.scripts.train:main
+precise-lite-train-generated = precise_lite.scripts.train_generated:main
+precise-lite-train-incremental = precise_lite.scripts.train_incremental:main
+precise-lite-train-optimize = precise_lite.scripts.train_optimize:main
+precise-lite-train-sampled = precise_lite.scripts.train_sampled:main
+
