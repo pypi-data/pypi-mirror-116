@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: exowirc
+Version: 0.0.1
+Summary: Image data reduction and calibration tool for the WIRC instrument
+Home-page: https://github.com/astroshrey/exowirc
+Author: Shreyas Vissapragada
+Author-email: svissapr@caltech.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: scipy (>=1.6)
+Requires-Dist: astropy (>=4.2)
+Requires-Dist: matplotlib (>=3.4.0)
+Requires-Dist: opencv-python (>=4.5)
+Requires-Dist: celerite2 (>=0.2.0)
+Requires-Dist: exoplanet (>=0.5.0)
+Requires-Dist: lightkurve (>=2.0.10)
+Requires-Dist: pymc3 (>=3.11)
+Requires-Dist: arviz (>=0.11.0)
+Requires-Dist: photutils (>=1.1)
+Requires-Dist: corner (==2.2.1)
+Requires-Dist: setuptools (>=46)
+Requires-Dist: pymc3-ext (>=0.1.0)
+
+# exowirc
+
+Here, you'll find all things for exoplanet observations on Palomar/WIRC, including data reduction software, observing procedures, exposure time calculators, and the current data inventory.
+
+To use the data reduction package, simply run pip3 install exowirc
+
+This should take care of all package dependencies.
+
+To run the sample scripts, first make sure the paths at the top of the script point to where the raw data are stored and where you want the data products to go. Then, run the script, for example:
+
+`python3 helium_reduction.py`
+
+For more tutorials on running the library or creating a customized sample script, visit https://exowirc.readthedocs.io/en/addsphinxdoc/
+
+
+Change Log
+===========
+
+0.0.1 (Aug. 5, 2021)
+--------------------
+- First release
+
