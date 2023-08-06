@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: userdefaults3
+Version: 1.1.8
+Summary: Python 3 rewrite of userdefaults, a pure-Python interface to NSUserDefaults.
+Home-page: https://github.com/ongyx/tankobon
+Author: Ong Yong Xin
+Author-email: ongyongxin2020+github@gmail.com
