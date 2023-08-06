@@ -1,0 +1,13 @@
+scordt/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+scordt/arc2.py,sha256=XD0QbDY0rUMCyUcgV4Ubj5GtPI3ChLLkXpRvD3xMORE,459
+scordt/func.py,sha256=nUwwpWayLQuKZTL1OCEApKiFie0AqvM51cvvPBM0sJE,570
+scordt/plots.py,sha256=KYDRW7HlV8ndN-rM8Hg9gpN3B0hfTIfT4aOsGp-RhYI,3054
+scordt/reads.py,sha256=wioDH1cLs8Zybwfz3d6WSGNivr7x88rPnxIaAWJIpsw,6486
+scordt/setup_cython.py,sha256=yrIa80h5vha_rGFZN5uZhJM0WS_Aw2jAoVet5NoJ58g,123
+scordt/slicesPlot.py,sha256=NTyOAbMbq_5PuaTO_cfj9OKg0qxvWTZACx669Lg997k,4595
+scordt/test_csv.py,sha256=Eou9hm2nOI1Bjear4mt6ww_YwRnWaafaNqO6OeWt23o,74
+scordt-0.1.1.dist-info/LICENSE,sha256=pfn9QOV6J-cd6fKqfe9ngxz_evbn7YqtgZ7zG2lZiLM,1071
+scordt-0.1.1.dist-info/METADATA,sha256=Udp3RX0EA8f471F0Dc-hakNWWeP7rdOTVx1hlufNX48,558
+scordt-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scordt-0.1.1.dist-info/top_level.txt,sha256=SMme4rufFuEZn6C1AuYWkS53ay20okMuUhy95aI3Wqg,7
+scordt-0.1.1.dist-info/RECORD,,
