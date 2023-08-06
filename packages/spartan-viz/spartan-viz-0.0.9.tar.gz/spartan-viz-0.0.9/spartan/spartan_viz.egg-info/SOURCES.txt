@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+spartan.mplstyle
+spartan/spartan_viz.egg-info/PKG-INFO
+spartan/spartan_viz.egg-info/SOURCES.txt
+spartan/spartan_viz.egg-info/dependency_links.txt
+spartan/spartan_viz.egg-info/top_level.txt
