@@ -1,0 +1,13 @@
+nginx_quickdeploy/__init__.py,sha256=4qOAyDUt48j3tVl8oQXSKDwmhpyaVGnXxyqFDwjcj4o,49
+nginx_quickdeploy/file_operations.py,sha256=kEmdXwhJmyQpaDejnb00Y8JaUghGodICZnVYSyAaBN0,9109
+nginx_quickdeploy/main.py,sha256=rp9ecRJrpqzaSZXjuyCsyv7ttQX8kJ4bO5YK7chKpnA,2039
+nginx_quickdeploy/misc.py,sha256=OP-UYlHshJI78IF39y7NWjJDReyl75Lch37NJTE4koM,1132
+nginx_quickdeploy/system_operations.py,sha256=5O69M3Sl9jeM7wVdGlD1X0QX6rkxhTRbCsAWazhJFbU,1643
+nginx_quickdeploy/validation.py,sha256=vr2DivmKYarUoZ_eS8b4x61G2beXpcGatsrF7elh1j8,287
+nginx_quickdeploy/version.json,sha256=k_VHxRGmRxm4VaHzm7DIaERLuwkDYqHLP5PjSZ5PSps,26
+nginx_quickdeploy-0.3.3.data/data/nginx_quickdeploy/version.json,sha256=k_VHxRGmRxm4VaHzm7DIaERLuwkDYqHLP5PjSZ5PSps,26
+nginx_quickdeploy-0.3.3.dist-info/METADATA,sha256=QnfA94ZHdMzSMW06oJvRE0bakfJsqXXlIqylWbq92_I,3316
+nginx_quickdeploy-0.3.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nginx_quickdeploy-0.3.3.dist-info/entry_points.txt,sha256=NZnYTcfInxfnwmt2dEWHuziGaWi83PpFGDxjRTM05tk,61
+nginx_quickdeploy-0.3.3.dist-info/top_level.txt,sha256=6QOPSUhT21zo33ZAkQZbKNH9u62u563oirp3h-MYZX8,18
+nginx_quickdeploy-0.3.3.dist-info/RECORD,,
