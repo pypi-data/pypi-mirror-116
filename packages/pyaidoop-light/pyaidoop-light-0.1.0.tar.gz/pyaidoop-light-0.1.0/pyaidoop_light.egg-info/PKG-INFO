@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyaidoop-light
+Version: 0.1.0
+Summary: AIdoop web-based platfrom library for robot application platform, AIdoop-R
+Home-page: https://github.com/aidoop/pyaidoop-light.git
+Author: Jinwon Choi
+Author-email: jinwon@ai-doop.com
+License: MIT
+Description: A python library(light version) for AIdoop web-based application platform such as AIdoop-R and AIdoop-P.
+        Supports camera operation, object trakcing using tensorflow-based deep learning models, opecv-based image processing 
+        and graphql and websocket to cooperate with web application server
+Keywords: cooperative robot,web-based application,computer vision
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
