@@ -1,0 +1,3 @@
+[console_scripts]
+pyftp=pyftp_annek.cli:main
+
