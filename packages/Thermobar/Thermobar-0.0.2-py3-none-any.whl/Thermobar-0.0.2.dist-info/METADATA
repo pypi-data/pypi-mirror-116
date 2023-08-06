@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Thermobar
+Version: 0.0.2
+Summary: Thermobar
+Home-page: https://github.com/PennyWieser/Thermobar
+Author: Penny, Maurizio, Jordan, Eric
+Author-email: penny.wieser@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
+A python tool for thermobarometry. Work in progress, but contact Penny Wieser with any questions!
+
+
