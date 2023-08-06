@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: EasyMyWeb
+Version: 0.0.1
+Summary: deploy your website quickly
+Home-page: https://git.ft2.club/fred913/easymyweb
+Author: Sheng Fan
+Author-email: 1175882937@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: gunicorn
+Requires-Dist: requests
+
+# easymyweb
+
