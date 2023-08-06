@@ -1,0 +1,7 @@
+README.md
+TerminalButtons.py
+setup.py
+TerminalButtons.egg-info/PKG-INFO
+TerminalButtons.egg-info/SOURCES.txt
+TerminalButtons.egg-info/dependency_links.txt
+TerminalButtons.egg-info/top_level.txt
