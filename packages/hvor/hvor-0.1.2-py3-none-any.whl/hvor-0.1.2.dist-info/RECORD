@@ -1,0 +1,10 @@
+hvor/__init__.py,sha256=VybkRTO7QUj3y08auMOtgdXFtNkmsisSVR7S5On2BB0,36
+hvor/data.py,sha256=B6D97uS8gYLk1TpPFaXpILF_s9V8t7AfFCA6tjl1ruw,897
+hvor/geolocator.py,sha256=M7MlPAjTqPS52anH57quQI7Dc0BOzPjMhg6WOELcfco,943
+hvor/hvor.py,sha256=82nj-uLr8OyCyGA4pg_CJaCLUge6mukuBLs1sX7KUK0,1501
+hvor/resources/Fylker-2020-large.json.bz2,sha256=hwR4MOt_7bFHUSNaryL6pjpZmEq5GM1K7mPpPJC6rbo,602567
+hvor/resources/Kommuner-2020-large.json.bz2,sha256=SzT8kOteZQ2YMHQ2J89zalbaTcVha6fGlngJqWcsHAI,1103416
+hvor-0.1.2.dist-info/LICENSE,sha256=4wJUa025GUsWAocjtaIA50Eup9NWdXU_CHVASnCTSLI,45
+hvor-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+hvor-0.1.2.dist-info/METADATA,sha256=z9ODjWP5HJ75lfKKSxDFvJqcH60jX6_vaCnaIMMmeis,2125
+hvor-0.1.2.dist-info/RECORD,,
