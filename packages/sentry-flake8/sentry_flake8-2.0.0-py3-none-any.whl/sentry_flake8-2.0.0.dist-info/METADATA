@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sentry-flake8
+Version: 2.0.0
+Summary: Sentry's custom flake8 checker plugin.
+Home-page: https://github.com/getsentry/sentry-flake8
+Author: Sentry
+Author-email: hello@sentry.io
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6, <3.10
+License-File: LICENSE
+Requires-Dist: flake8 (<3.10.0,>=3.8.0)
+Requires-Dist: flake8-bugbear (==21.4.3)
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.4) ; extra == 'tests'
+
+UNKNOWN
+
