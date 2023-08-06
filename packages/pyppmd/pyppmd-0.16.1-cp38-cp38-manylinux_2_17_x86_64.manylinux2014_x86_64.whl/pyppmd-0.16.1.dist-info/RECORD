@@ -1,0 +1,10 @@
+pyppmd-0.16.1.dist-info/top_level.txt,sha256=oI9A6TS272sAHjryEKAiyFJkIMwC7DxWsfF7zlFviFw,7
+pyppmd-0.16.1.dist-info/LICENSE.rst,sha256=YSzNtRsW8yTOyx24LZ5fd9Nfcpx31S9h8zqAeFNZ8Rc,3992
+pyppmd-0.16.1.dist-info/WHEEL,sha256=paN2rHE-sLfyg0Z4YvQnentMRWXxZnkclRDH8E5J6qk,148
+pyppmd-0.16.1.dist-info/METADATA,sha256=pWyjduhdOd0mSsxIaInESqJT1O-KQh_mR0DVguhl3wg,4538
+pyppmd-0.16.1.dist-info/RECORD,,
+pyppmd/__init__.pyi,sha256=ZQR9epVv-tLyp0J8Vtx_DXaALXJrSV39aNPHf-JFOhw,2358
+pyppmd/__init__.py,sha256=xqaChMcrX23wiDOrYvZFWjtT57GUohpA3WrCEBhGUwM,5633
+pyppmd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyppmd/c/c_ppmd.py,sha256=rLgTBHDeaI-e9_O8Y8ThXGheZv5jUWCmvom4ZgRzuqw,436
+pyppmd/c/_ppmd.cpython-38-x86_64-linux-gnu.so,sha256=yPJWUG_WPQ-wd6FMSJ9R06eSGHSLtGi9-HBMmr0n4tk,336488
