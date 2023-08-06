@@ -1,0 +1,17 @@
+CHANGELOG.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+jusTextnext.egg-info/PKG-INFO
+jusTextnext.egg-info/SOURCES.txt
+jusTextnext.egg-info/dependency_links.txt
+jusTextnext.egg-info/requires.txt
+jusTextnext.egg-info/top_level.txt
+justextnext/__init__.py
+justextnext/__main__.py
+justextnext/_compat.py
+justextnext/core.py
+justextnext/paragraph.py
+justextnext/utils.py
