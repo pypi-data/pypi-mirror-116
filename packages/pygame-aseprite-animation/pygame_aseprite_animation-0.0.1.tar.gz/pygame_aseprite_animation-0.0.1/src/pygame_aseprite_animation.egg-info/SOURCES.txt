@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pygame_aseprite_animation/__init__.py
+src/pygame_aseprite_animation/pygame_aseprite_animation.py
+src/pygame_aseprite_animation.egg-info/PKG-INFO
+src/pygame_aseprite_animation.egg-info/SOURCES.txt
+src/pygame_aseprite_animation.egg-info/dependency_links.txt
+src/pygame_aseprite_animation.egg-info/top_level.txt
