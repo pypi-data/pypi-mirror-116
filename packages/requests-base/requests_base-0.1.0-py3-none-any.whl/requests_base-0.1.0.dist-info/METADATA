@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: requests-base
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/michaeltinsley/requests-base/
+License: MIT
+Keywords: Requests,API
+Author: Michael Tinsley
+Author-email: michaeltinsley@outlook.com
+Maintainer: Michael Tinsley
+Maintainer-email: michaeltinsley@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/michaeltinsley/requests-base/
+Description-Content-Type: text/markdown
+
+# Requests Base
+
+[![GitHub Super-Linter](https://github.com/michaeltinsley/requests-base/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
