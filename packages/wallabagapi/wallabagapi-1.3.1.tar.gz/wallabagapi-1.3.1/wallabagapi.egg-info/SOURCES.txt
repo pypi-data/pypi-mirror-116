@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+wallabagapi.egg-info/PKG-INFO
+wallabagapi.egg-info/SOURCES.txt
+wallabagapi.egg-info/dependency_links.txt
+wallabagapi.egg-info/not-zip-safe
+wallabagapi.egg-info/requires.txt
+wallabagapi.egg-info/top_level.txt
