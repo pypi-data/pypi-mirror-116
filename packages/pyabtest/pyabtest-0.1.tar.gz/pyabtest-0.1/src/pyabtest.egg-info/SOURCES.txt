@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyabtest/__init__.py
+src/pyabtest/bootstrap.py
+src/pyabtest/chi_square.py
+src/pyabtest/welch_ttest.py
+src/pyabtest.egg-info/PKG-INFO
+src/pyabtest.egg-info/SOURCES.txt
+src/pyabtest.egg-info/dependency_links.txt
+src/pyabtest.egg-info/requires.txt
+src/pyabtest.egg-info/top_level.txt
