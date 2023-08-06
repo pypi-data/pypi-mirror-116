@@ -1,0 +1,3 @@
+[console_scripts]
+py-sneakers = py_sneakers.__main__:main
+
