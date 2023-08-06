@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lalalang
+Version: 0.3
+Summary: A programming language with a funny name
+Home-page: https://github.com/manoloesparta/lalalang
+Author: Manuel Esparza
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LA LA LANG ♪♪
+
+Another programming language with a silly name 
+
+
+
