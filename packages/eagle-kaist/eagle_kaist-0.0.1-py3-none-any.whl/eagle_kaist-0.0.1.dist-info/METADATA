@@ -1,0 +1,295 @@
+Metadata-Version: 2.1
+Name: eagle-kaist
+Version: 0.0.1
+Summary: Stock Extractor library
+Home-page: UNKNOWN
+Author: Thanh Luong
+Author-email: sputnikav@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.7.4.post0)
+Requires-Dist: alembic (==1.6.5)
+Requires-Dist: amqp (==2.5.2)
+Requires-Dist: apispec (==3.3.2)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: astroid (==2.4.1)
+Requires-Dist: async-timeout (==3.0.1)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: Automat (==20.2.0)
+Requires-Dist: autopep8 (==1.5.2)
+Requires-Dist: Babel (==2.9.1)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: backoff (==1.10.0)
+Requires-Dist: beautifulsoup4 (==4.9.1)
+Requires-Dist: billiard (==3.6.3.0)
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: Brotli (==1.0.9)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: cachelib (==0.1.1)
+Requires-Dist: celery (==4.4.2)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: cffi (==1.14.0)
+Requires-Dist: cfgv (==3.3.0)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: chromedriver-py (==91.0.4472.19)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: constantly (==15.1.0)
+Requires-Dist: contextlib2 (==0.6.0.post1)
+Requires-Dist: convertdate (==2.3.2)
+Requires-Dist: crochet (==1.12.0)
+Requires-Dist: cron-descriptor (==1.2.24)
+Requires-Dist: croniter (==1.0.13)
+Requires-Dist: cryptography (>=3.2.1)
+Requires-Dist: cssselect (==1.1.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: distlib (==0.3.2)
+Requires-Dist: dnspython (==2.1.0)
+Requires-Dist: dryscrape (==1.0)
+Requires-Dist: email-validator (==1.1.2)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: fake-useragent (==0.1.11)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: Flask (==1.1.4)
+Requires-Dist: Flask-AppBuilder (==3.3.0)
+Requires-Dist: Flask-Babel (==1.0.0)
+Requires-Dist: Flask-Caching (==1.10.1)
+Requires-Dist: Flask-Compress (==1.9.0)
+Requires-Dist: Flask-JWT-Extended (==3.25.1)
+Requires-Dist: Flask-Login (==0.4.1)
+Requires-Dist: Flask-Migrate (==3.0.1)
+Requires-Dist: Flask-OpenID (==1.2.5)
+Requires-Dist: Flask-SQLAlchemy (==2.5.1)
+Requires-Dist: flask-talisman (==0.7.0)
+Requires-Dist: Flask-WTF (==0.14.3)
+Requires-Dist: geckodriver-autoinstaller (==0.1.0)
+Requires-Dist: geographiclib (==1.50)
+Requires-Dist: geopy (==2.1.0)
+Requires-Dist: gunicorn (==20.0.4)
+Requires-Dist: h2 (==3.2.0)
+Requires-Dist: holidays (==0.10.3)
+Requires-Dist: hpack (==3.0.0)
+Requires-Dist: humanize (==3.7.1)
+Requires-Dist: hyperframe (==5.2.0)
+Requires-Dist: hyperlink (==19.0.0)
+Requires-Dist: identify (==2.2.10)
+Requires-Dist: idna (==2.9)
+Requires-Dist: importlib-metadata (>=2.1.1)
+Requires-Dist: incremental (==17.5.0)
+Requires-Dist: ipykernel (==5.3.0)
+Requires-Dist: ipython (==7.15.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.5.1)
+Requires-Dist: isodate (==0.6.0)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: itemadapter (==0.2.0)
+Requires-Dist: itemloaders (==1.0.4)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: jedi (==0.17.0)
+Requires-Dist: Jinja2 (==2.11.2)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: jsoncodable (==0.1.7)
+Requires-Dist: jsonpickle (==2.0.0)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: jupyter (==1.0.0)
+Requires-Dist: jupyter-client (==6.1.3)
+Requires-Dist: jupyter-console (==6.1.0)
+Requires-Dist: jupyter-core (==4.6.3)
+Requires-Dist: k-selenium-cookies (==0.0.4)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: kombu (==4.6.8)
+Requires-Dist: korean-lunar-calendar (==0.2.1)
+Requires-Dist: kproxy (==0.0.1)
+Requires-Dist: lazy-object-proxy (==1.4.3)
+Requires-Dist: lxml (==4.5.1)
+Requires-Dist: Mako (==1.1.4)
+Requires-Dist: Markdown (==3.3.4)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: marshmallow (==3.12.1)
+Requires-Dist: marshmallow-enum (==1.5.1)
+Requires-Dist: marshmallow-sqlalchemy (==0.23.1)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: msgpack (==1.0.2)
+Requires-Dist: multidict (==5.1.0)
+Requires-Dist: mypy (==0.770)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: mysqlclient (==2.0.3)
+Requires-Dist: nbconvert (==5.6.1)
+Requires-Dist: nbformat (==5.0.7)
+Requires-Dist: nodeenv (==1.6.0)
+Requires-Dist: noraise (==0.0.16)
+Requires-Dist: notebook (==6.0.3)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pandas (==1.3)
+Requires-Dist: pandocfilters (==1.4.2)
+Requires-Dist: parse (==1.19.0)
+Requires-Dist: parsedatetime (==2.6)
+Requires-Dist: parsel (==1.6.0)
+Requires-Dist: parso (==0.7.0)
+Requires-Dist: pathlib2 (==2.3.5)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pgsanity (==0.2.9)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: polyline (==1.4.0)
+Requires-Dist: pre-commit (==2.13.0)
+Requires-Dist: priority (==1.3.0)
+Requires-Dist: prison (==0.1.3)
+Requires-Dist: prometheus-client (==0.8.0)
+Requires-Dist: prompt-toolkit (==3.0.5)
+Requires-Dist: Protego (==0.1.16)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: pyarrow (==3.0.0)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pycodestyle (==2.6.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: PyDispatcher (==2.0.5)
+Requires-Dist: pyee (==8.1.0)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: PyHamcrest (==2.0.2)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: pylint (==2.5.3)
+Requires-Dist: PyMeeus (==0.5.11)
+Requires-Dist: pyOpenSSL (==19.1.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pyppeteer (==0.2.5)
+Requires-Dist: pyquery (==1.4.3)
+Requires-Dist: pyrsistent (==0.16.0)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-dotenv (==0.13.0)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: python-geohash (==0.8.5)
+Requires-Dist: python3-openid (==3.2.0)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: pyzmq (==19.0.1)
+Requires-Dist: qtconsole (==4.7.4)
+Requires-Dist: QtPy (==1.9.0)
+Requires-Dist: queuelib (==1.5.0)
+Requires-Dist: redis (==3.5.2)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-file (==1.5.1)
+Requires-Dist: requests-html (==0.10.0)
+Requires-Dist: retry (==0.9.2)
+Requires-Dist: scipy (==1.6.3)
+Requires-Dist: scraperapi-sdk (==0.2.2)
+Requires-Dist: Scrapy (==2.1.0)
+Requires-Dist: scrapy-redis (==0.6.8)
+Requires-Dist: scrapy-rotating-proxies (==0.6.2)
+Requires-Dist: seaborn (==0.11.1)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: selenium-browser (==0.0.12)
+Requires-Dist: selenium-firefox (==2.0.7)
+Requires-Dist: Send2Trash (==1.5.0)
+Requires-Dist: service-identity (==18.1.0)
+Requires-Dist: simplejson (==3.17.2)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: slackclient (==2.5.0)
+Requires-Dist: soupsieve (==2.0.1)
+Requires-Dist: SQLAlchemy (==1.3.24)
+Requires-Dist: SQLAlchemy-Utils (==0.36.8)
+Requires-Dist: sqlparse (==0.3.0)
+Requires-Dist: stem (==1.8.0)
+Requires-Dist: terminado (==0.8.3)
+Requires-Dist: testpath (==0.4.4)
+Requires-Dist: tldextract (==3.1.0)
+Requires-Dist: toml (==0.10.1)
+Requires-Dist: tornado (==6.0.4)
+Requires-Dist: tqdm (==4.61.1)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: Twisted (==20.3.0)
+Requires-Dist: typed-ast (==1.4.1)
+Requires-Dist: typing (==3.7.4.1)
+Requires-Dist: typing-extensions (==3.7.4.2)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: vine (==1.3.0)
+Requires-Dist: virtualenv (==20.4.7)
+Requires-Dist: w3lib (==1.22.0)
+Requires-Dist: wcwidth (==0.2.4)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: webkit-server (==1.0)
+Requires-Dist: websockets (==8.1)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: wget (==3.2)
+Requires-Dist: widgetsnbextension (==3.5.1)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: WTForms (==2.3.3)
+Requires-Dist: WTForms-JSON (==0.3.3)
+Requires-Dist: xpath-utils (==0.0.3)
+Requires-Dist: xvfbwrapper (==0.2.9)
+Requires-Dist: yarl (==1.6.3)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: zope.interface (==5.1.0)
+
+## Stock Prediction Pipeline
+
+### Step 1 - Build Stock Database
+
+### Step 2 - Normalize Stock Data
+
+### Step 3 - Build Features and Visualization
+
+### Step 3 - Build Prediction Models
+
+## Metrics
+The metrics of prediction models should be based on profits and loss they give.
+
+1. Profit vs. loss
+
+2. Backtest
+
+
+## Stock data
+
+Collected stock data include following values:
+* Close 
+* Open
+* High
+* Low
+* Volumn
+* Change
+* Percentage Change
+
+Derivative values:
+* Return
+* Alpha
+* Volatility
+* Alpha*
+* Sharpe
+
+## Business Taxonomy
+There is a large number of companies in stock market. It is crucial to take a look over their financial reports and market indices to have a correct view of the companies' business status.
+
+In this section, we want to build several main groups of companies. Each group represents the area of business that the company is taking part in. In addition, we target to give a common credit score for each group, and also the rank of company in that group.
+
+* Input:
+    - Stock indices
+    - Companies financial reports
+
+* Output:
+    - We want to have a comparison between the areas and give the advice on which business we should invest in.
+    - We want to have a table that ranks companies and shows their potential in market.
+
+
+## Installation:
+
+```bash
+conda create --name eagle python=3.7
+conda activate eagle
+pip install -r requirements.txt
+```
+
+
