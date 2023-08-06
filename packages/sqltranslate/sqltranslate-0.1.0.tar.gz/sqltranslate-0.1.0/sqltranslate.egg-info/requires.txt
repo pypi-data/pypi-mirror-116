@@ -1,0 +1,8 @@
+Click>=7.0
+numpy
+re
+itertools
+os
+pickle
+json
+sys
