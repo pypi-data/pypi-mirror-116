@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mcapi-run
+Version: 1.4
+Summary: simple minecraft api made for the api.mcapi.run website || by overnice.exe
+Home-page: https://enchantedsniper.ga/
+Author: Overnice.exe
+Author-email: silkepilon2009@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: colorama
+
+```
+import mcapi # this will import the api package
+
+mcapi.init() # init the api code ( it will show a rocket if there is no error )
+
+mcapi.get() # the main get function
+
+# you can use it as the following:
+
+mcapi.get().player_info("name")
+# you can also do:
+mcapi.get().player_info("name", search="")
+
+# you can get hypixel stats and info useing this line:
+
+mcapi.get().hypixel_stats("name")
+
+# and you can get the droptime of a name useing:
+
+mcapi.get().name_droptime("name")
+```
+
