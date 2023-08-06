@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sisosign
+Version: 0.3.2
+Summary: A command-line tool for those times when you can't decide who should go.
+License: MIT
+Author: Eric Seidler
+Author-email: eric.seidler@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Project-URL: Homepage, https://github.com/etseidler/sisosign
+Description-Content-Type: text/markdown
+
+# sisosign
+
+For those times when you are pair programming and the story is running longer than expected. Someone needs to go but you can't decide who should stay on the story.
+
+Why not have a computer make these tough choices for you? **sisosign** makes it easy.
+
+## Installation
+
+```pip install sisosign```
+
+You might need `sudo` depending on your setup.
+
+## Example usage
+
+`sisosign firstname1 firstname2`
+
+This will print a message informing you of who should stay. Et voila! Problem solved.
+
+## Conclusion
+
+That's it. It doesn't do anything else.
+
