@@ -1,0 +1,5 @@
+PyYAML
+foliant>=1.0.5
+foliantcontrib.plantuml>=1.0.10
+foliantcontrib.utils>=1.0.2
+jinja2
