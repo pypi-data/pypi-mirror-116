@@ -1,0 +1,10 @@
+deatf/__init__.py,sha256=s-6Hblr9CGVRfu9GkZOk1ntRhcq1072hwGSn9JO-SJo,51
+deatf/auxiliary_functions.py,sha256=4nb0jchrg9VVoDiYYOYRvM8-AZqnn0bAEUXBCdTIX-E,6421
+deatf/evolution.py,sha256=3-p3TyBoC4OZUxc4FUU0jmRN_ZPkykTLHVDkZi2lXv8,28693
+deatf/mutation.py,sha256=oXndAGd4rBohiAiDW2DBLDOM1CanpM7YNzLKh0pZzxM,24720
+deatf/network.py,sha256=-OMcIa1vORMFlldIODmfRQHgqXnTb8Yq-DrN5uTrWSo,63277
+deatf-0.3.1.dist-info/LICENSE,sha256=nM8mz-hF4OuLtYBT5HNm56traXrgEPdlCXjUtxt9H8E,7637
+deatf-0.3.1.dist-info/METADATA,sha256=KmbeXIqj24zEN2KSVHf-tfy3X2cB74yT6j2tB72RPdI,6637
+deatf-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deatf-0.3.1.dist-info/top_level.txt,sha256=-c-Arh-Hmi8hMr28Z6R08M9yQJqNvoWztlip575F9Ns,6
+deatf-0.3.1.dist-info/RECORD,,
