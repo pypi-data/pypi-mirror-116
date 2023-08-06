@@ -1,0 +1,16 @@
+v3.0.9
+developers:
+  use its own logger intstead of ScipionLogger for the plugin manager
+
+v3.0.8
+
+users:
+  Skip binaries when installing or uninstalling plugins using the Plugin Manager
+  Plugin manager properly locks context menu when installation is active
+
+developers:
+
+  Remove dataset initialization
+  Plugin manager loads in the same main process (useful for straight debug)
+
+
