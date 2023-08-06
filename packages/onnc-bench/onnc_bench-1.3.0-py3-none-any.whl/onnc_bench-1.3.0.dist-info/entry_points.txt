@@ -1,0 +1,4 @@
+[console_scripts]
+onnc-create = onnc_cli:onnc_create
+onnc-login = onnc_cli:onnc_login
+
