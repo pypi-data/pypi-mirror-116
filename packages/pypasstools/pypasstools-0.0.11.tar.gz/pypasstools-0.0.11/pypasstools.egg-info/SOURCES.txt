@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+passtools/__init__.py
+pypasstools.egg-info/PKG-INFO
+pypasstools.egg-info/SOURCES.txt
+pypasstools.egg-info/dependency_links.txt
+pypasstools.egg-info/top_level.txt
