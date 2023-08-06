@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: metacatalog_corr
+Version: 0.1.8
+Summary: Correlation metric extenstion for Metacatalog
+Home-page: UNKNOWN
+Author: Mirko Mälicke
+Author-email: mirko.maelicke@kit.edu
+License: GPL v3
+Description: # metacatalog_corr
+        Correlation metric extenstion for Metacatalog
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

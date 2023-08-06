@@ -1,0 +1,7 @@
+metacatalog
+sqlalchemy>=1.4
+fire
+numpy
+scipy
+tqdm
+dcor
