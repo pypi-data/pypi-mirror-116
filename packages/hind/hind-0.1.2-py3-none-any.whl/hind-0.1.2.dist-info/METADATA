@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hind
+Version: 0.1.2
+Summary: hind
+Home-page: https://gitlab.com/air64/hind
+Author: air64
+Author-email: air64@mailfence.com
+Maintainer: air64 <air64@mailfence.com>
+Maintainer-email: air64@mailfence.com
+License: MIT
+Project-URL: Gitlab, https://gitlab.com/air64/hind
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: boundless (==0.1.0)
+
+UNKNOWN
+
+
