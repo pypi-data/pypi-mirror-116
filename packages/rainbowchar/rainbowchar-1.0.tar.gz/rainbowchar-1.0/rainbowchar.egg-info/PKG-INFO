@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: rainbowchar
+Version: 1.0
+Summary: RainbowChar is a lib that stylizes text by formatting in ANSI escape code. It only supports true color terminals.
+Home-page: https://github.com/roderiano/rainbow-char-lib
+Author: Gabriel da Rosa Silveira
+Author-email: gabrielsilveirapro@gmail.com
+License: MIT
+Download-URL: https://github.com/roderiano/rainbow-char-lib/archive/refs/tags/v1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN

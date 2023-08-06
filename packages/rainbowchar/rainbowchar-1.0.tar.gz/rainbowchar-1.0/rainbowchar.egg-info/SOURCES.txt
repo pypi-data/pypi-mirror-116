@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+rainbowchar/__init__.py
+rainbowchar/exceptions.py
+rainbowchar/rainbow.py
+rainbowchar/utils.py
+rainbowchar.egg-info/PKG-INFO
+rainbowchar.egg-info/SOURCES.txt
+rainbowchar.egg-info/dependency_links.txt
+rainbowchar.egg-info/top_level.txt
