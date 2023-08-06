@@ -1,0 +1,8 @@
+migration/__init__.py,sha256=vgh0xA0BVtxz5usBezA-d2IYGzz8696F8NfNLE8IRtg,57
+migration/errors.py,sha256=6HEwJCbQXPSpJiKbc2b7UwXDorL5hoRRS_LLAcf-3cU,656
+migration/migrate_mysql.py,sha256=QSJBPOLhA08tdU9x3PK-f3gSe53sZm64EsIO1o5kazg,13809
+migration/migration_table.sql,sha256=UvW0CLve6dsJkaqdk1PBuDUL9Ht1n0slB7T-L0HW_bo,452
+py_migration_Orinnass-1.2.3.dist-info/METADATA,sha256=YTyO2KaJrSR-O84AVjhVCJvNKXlZPc54dms-JDlIdaE,642
+py_migration_Orinnass-1.2.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+py_migration_Orinnass-1.2.3.dist-info/top_level.txt,sha256=QM70LxRkBiaPzpjSpEulmKKMf8q-O0SR9kYbVX7jTX0,10
+py_migration_Orinnass-1.2.3.dist-info/RECORD,,
