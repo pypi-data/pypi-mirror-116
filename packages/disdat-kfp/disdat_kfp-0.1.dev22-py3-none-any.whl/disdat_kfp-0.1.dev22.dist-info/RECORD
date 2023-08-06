@@ -1,0 +1,11 @@
+disdat_kfp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disdat_kfp/cache_check.py,sha256=ez0VASYlK0EwLSjaFsBsftQoD2BYVf1zqhztmheKVb4,3660
+disdat_kfp/cache_push.py,sha256=OI91RLGusJiEHoP-Xkoptzgwmd3y6xk6VG9--E0djYg,4699
+disdat_kfp/caching_wrapper.py,sha256=aNRp0HOdsajm2x4liXAWhjictJoy-7ktGvC4ADKMU6U,16558
+disdat_kfp/gather_data.py,sha256=io6F67-A9o7JA-7rjma7awhOCJZ1wxOW7bOaZEjqb7g,4354
+disdat_kfp/version.py,sha256=IpM1Mp54np4fjoWh5saSPmjgEsfPCXZLBNa_JBvVRHc,25
+disdat_kfp-0.1.dev22.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+disdat_kfp-0.1.dev22.dist-info/METADATA,sha256=RFfU4WtrhKd_mW3Sz7wV-dBxzdecaLSx1Xx_H0z8Zj0,913
+disdat_kfp-0.1.dev22.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+disdat_kfp-0.1.dev22.dist-info/top_level.txt,sha256=1WoV-cZMrN9L2w2eaQSG0Z8uszRDXFsvuQyfFwiWMqU,11
+disdat_kfp-0.1.dev22.dist-info/RECORD,,
