@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: srbogrid
+Version: 0.2.0
+Summary: Package for calculating space-reduced bond-order grids for diatomics
+License: MIT
+Author: Lukasz Mentel
+Author-email: lmmentel@gmail.com
+Requires-Python: >=3.7,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
