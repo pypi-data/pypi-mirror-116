@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+
+# vs code configuration/workspace
+.vscode/
+
+# packaging (via flit)
+dist/
