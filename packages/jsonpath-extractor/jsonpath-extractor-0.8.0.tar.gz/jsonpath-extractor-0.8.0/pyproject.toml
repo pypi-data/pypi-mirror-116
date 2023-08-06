@@ -1,0 +1,43 @@
+[project]
+name = "jsonpath-extractor"
+version = "0.8.0"
+description = "A selector expression for extracting data from JSON."
+readme = "README.rst"
+classifiers = [ "Intended Audience :: Developers", "License :: OSI Approved :: MIT License", "Programming Language :: Python", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Development Status :: 4 - Beta", "Operating System :: POSIX", "Operating System :: MacOS :: MacOS X", "Operating System :: Microsoft :: Windows",]
+keywords = [ "data-extractor", "data-extraction", "jsonpath", "json",]
+dependencies = [ "typing-extensions ~= 3.7",]
+requires-python = ">=3.7"
+dynamic = [ "version",]
+[[project.authors]]
+name = "林玮 (Jade Lin)"
+email = "linw1995@icloud.com"
+
+[build-system]
+requires = [ "intreehooks", "pdm-pep517", "lark-parser ~= 0.11.3",]
+build-backend = "intreehooks:loader"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/linw1995/jsonpath"
+repository = "https://github.com/linw1995/jsonpath"
+documentation = "https://jsonpath.rtfd.io/en/latest/"
+
+[project.optional-dependencies]
+parser = [ "lark-parser ~= 0.11.3",]
+
+[project.scripts]
+jp = "jsonpath.cli:main"
+
+[tool.intreehooks]
+build-backend = "jsonpath_build"
+
+[tool.pdm]
+includes = [ "jsonpath/*.py", "jsonpath_build.py", "jsonpath/lark_parser.py", "jsonpath/py.typed",]
+excludes = [ "**/.mypy_cache",]
+
+[tool.pdm.dev-dependencies]
+docs = [ "sphinx ~= 3.5", "livereload ~= 2.6", "lark-parser ~= 0.11.3",]
+test = [ "pytest-cov ~= 2.11", "pexpect ~= 4.8", "sybil ~= 2.0",]
+build_readme = [ "pygments ~= 2.8", "docutils >= 0.16",]
