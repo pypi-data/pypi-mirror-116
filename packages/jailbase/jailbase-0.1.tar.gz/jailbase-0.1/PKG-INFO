@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jailbase
+Version: 0.1
+Summary: Wrapper to jail base api
+Home-page: https://github.com/adarshmelethil/jailbase
+Author: Adarsh Melethil
+Author-email: adarshmelethil@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: crime,api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9

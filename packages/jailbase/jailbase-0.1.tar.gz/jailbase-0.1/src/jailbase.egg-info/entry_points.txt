@@ -1,0 +1,3 @@
+[console_scripts]
+jailbase = jailbase.cli:main
+
