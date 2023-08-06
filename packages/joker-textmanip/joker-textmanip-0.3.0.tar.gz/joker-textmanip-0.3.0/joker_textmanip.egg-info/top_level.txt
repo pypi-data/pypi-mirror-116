@@ -1,0 +1,3 @@
+docs
+joker
+test_joker_textmanip
