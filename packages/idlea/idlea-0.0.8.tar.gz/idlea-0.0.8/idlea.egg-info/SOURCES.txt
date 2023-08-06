@@ -1,0 +1,8 @@
+README.md
+setup.py
+idlea.egg-info/PKG-INFO
+idlea.egg-info/SOURCES.txt
+idlea.egg-info/dependency_links.txt
+idlea.egg-info/top_level.txt
+idlealib/__init__.py
+idlealib/help.py
