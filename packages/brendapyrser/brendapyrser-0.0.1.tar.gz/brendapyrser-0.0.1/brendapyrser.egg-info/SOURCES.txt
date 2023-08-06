@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+brendapyrser/__init__.py
+brendapyrser/parser.py
+brendapyrser.egg-info/PKG-INFO
+brendapyrser.egg-info/SOURCES.txt
+brendapyrser.egg-info/dependency_links.txt
+brendapyrser.egg-info/requires.txt
+brendapyrser.egg-info/top_level.txt
