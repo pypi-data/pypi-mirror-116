@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: asses-loopt-be
+Version: 0.0.3
+Summary: Métdos uteis usados pela equipe de machine leaning da loopt
+Home-page: https://github.com/Loopt-GitHub-Organization/asses-loopt-be
+Author: João Vitor Biston Nunes
+Author-email: joaobiston@loopt.com.br
+License: MIT License
+Description: # asses-loopt-be
+        - a
+        
+Keywords: asses loopt be analysis utils machine learning booking evolution
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
