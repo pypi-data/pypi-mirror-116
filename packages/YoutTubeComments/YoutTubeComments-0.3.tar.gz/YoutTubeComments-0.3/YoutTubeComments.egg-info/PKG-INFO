@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: YoutTubeComments
+Version: 0.3
+Summary: A wrapper to comment on videos via your account!
+Home-page: UNKNOWN
+Author: KeinShin
+Author-email: <ytcomments@ytcomments.com>
+License: UNKNOWN
+Description: ```yodasdasd
+        asd
+        as
+        d
+        asd
+        as
+        das
+        d
+        ad
+        as
+        d
+        asdsaaaaaaaaaaaaa
+        
+        as
+        sad
+        das
+        ads
+        das
+        as
+        asassa
+        ```
+Keywords: python,youtube,scraper,youtube,comments,commentyoutubevideo
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
