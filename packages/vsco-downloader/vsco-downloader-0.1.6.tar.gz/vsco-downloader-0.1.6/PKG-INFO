@@ -1,0 +1,378 @@
+Metadata-Version: 2.1
+Name: vsco-downloader
+Version: 0.1.6
+Summary: VSCO download manager on pure REST
+Home-page: https://github.com/benhacka/vsco-downloader
+Author: anon
+Author-email: anon@fake-mail.foobar
+License: UNKNOWN
+Keywords: vsco,download,scrape,parse,photo,social-network
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VSCO Downloader 
+[![Python version](https://img.shields.io/pypi/pyversions/vsco-downloader)](#)
+[![Release](https://img.shields.io/github/v/release/benhacka/vsco-downloader)](#)
+[![pypi](https://img.shields.io/pypi/v/vsco-downloader)](#)
+[![GitHub last commit](https://img.shields.io/github/last-commit/benhacka/vsco-downloader)](#)
+[![Issues](https://img.shields.io/github/issues-raw/benhacka/vsco-downloader)](#)
+[![MIT License](https://img.shields.io/github/license/benhacka/vsco-downloader)](https://github.com/benhacka/vsco-downloader/blob/master/LICENSE)
+
+## [![Rus README](https://www.countryflags.io/ru/shiny/24.png) Православная версия README](https://github.com/benhacka/vsco-downloader/blob/master/RU_README.md)
+###### This is a simple console async downloader from [vsco.co](vsco.co) used original web REST requests.
+So there is no fcking CLI/GUI here as befits normal scripts.  
+It works through a call from the terminal 
+(*Sry, win-users, I know that really can be bad for yours...*)  
+Btw sup _2ch⚡_ and _VSCO находок группа_
+
+[CHANGELOG.md](https://github.com/benhacka/vsco-downloader/blob/master/CHANGELOG.md)
+
+## Requirements
+All python requirements in the `requirements.txt`:
+- `aiohttp`
+- `aiofiles`  
+
+To download videos in _m3u8_ format (parted videos with large size), you need compiled `ffmpeg`, see description for a `--ffmpeg-bin` argument
+
+
+## Installation
+### Easy and recommended installation with `PIP`
+- Install:  
+```
+pip install vsco-downloader
+```
+- Upgrade:  
+```
+pip install vsco-downloader --upgrade
+```
+### Install from source
+#### Common step
+```
+git clone https://github.com/benhacka/vsco-downloader
+cd vsco-downloader
+```
+- For Windows users: change `python3` with `python` in all console command   
+- You can call the script from any directory in terminal simply by typing the command `vsco-downloader` after installing the package on the system (installation via **var2** or **var3**)
+
+
+
+#### [var 1]. Usage w/o install dist pkg (_I do not recommend this method_)
+```
+python3 -m pip install -r requirements.txt
+```
+- 1.1 Run main from package:  
+`python3 -m vsco_downloader`
+
+- 1.2 Run a script:  
+`python3 vsco_downloader.py`
+
+#### or [var 2]. Install package with setup.py
+```
+python3 setup.py install --user
+```
+- For Linux users: you can run w/o `--user` but with `sudo` for installing in `/usr/lib/python3.*/site-packages/`. 
+With `--user` it will install in the `~/.local/bin/` 
+_(depends on the distribution... i use arch btw [it's a stupid lie i use the best of arch - manjaro])_
+
+- For Windows users: `--user` is not required (I think so..?)
+#### or [var 3]. Install package with pip from github 
+```
+python3 -m pip install git+https://github.com/benhacka/vsco-downloader.git
+```
+
+
+## Use cases
+All use cases wrote for installed package and calling with `vsco-downloader`  
+I highly recommend you to set `vsco_download_path` environment variable (see _Usage help_). 
+
+1. Download users: *foo*, *bar* and *baz*:  
+`vsco-downloader foo bar baz`
+  
+2. Download users *foo*, *bar* and *baz* consistently:  
+`vsco-downloader foo bar baz -l 1 ` 
+
+3. Download only photos for *bar*, *baz*:  
+`vsco-downloader bar baz -r mini-video video`
+
+4. Only save download links w/o downloading content for *foo*, *bar*:  
+`vsco-downloader foo bar -r all -p`
+
+5. Download from file and args with skipping existing to ~/Download  
+```sh
+# show file with accs
+$ cat accs_to_dl
+
+foo
+
+
+https://vsco.co/baz/gallery
+```
+`vsco-downloader bar -u accs_to_dl -s -d /home/username/Download/`
+6. Download without restoring the names of files that are in the folder without a date as a prefix in the name
+(if the file name matches the name of the direct link)
+`vsco-downloader foo bar baz -nr`  
+
+For more info see Usage help
+
+## Usage help (*help menu*)
+```plaintext
+VSCO downloader
+
+positional arguments:
+  users                 urls/usernames. The script supports multiple download with passing to this argument. Urls can be either
+                        to the gallery or to a separate file (the entire profile will be downloaded). Both short (from the mobile
+                        version) and long urls (desktop browser) format are supported
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u USERS_FILE_LIST, --users-file-list USERS_FILE_LIST
+                        Same as the users but list of targets in file (one per line)
+  --ffmpeg-bin FFMPEG_BIN
+                        Name for ffmpeg binary that can be used for calling from terminal. Default "ffmpeg". If you have
+                        installed ffmpeg from repo it should be in the /usr/bin/ffmpeg"
+  --download-path-variable DOWNLOAD_PATH_VARIABLE
+                        The download path in your environment variable. Default "vsco_download_path" It can be an export in the
+                        shellrc (~/.bashrc for example)for Linux users. For Win users it is something like system environments.
+  -d DOWNLOAD_PATH, --download-path DOWNLOAD_PATH
+                        Force downloading path. If this arg passed possible path from --download-path-variable will be reloaded
+                        (priority arg). By default env path is empty download path is "." (current dir).
+  -r [{photo,mini-video,video} ...], --disabled-content [{photo,mini-video,video} ...]
+                        Disabled of downloading some type of a content.Possible types: photo, mini-video, video
+  -l min 1; max 500, --download-limit min 1; max 500
+                        Limit for all get request at same time. Default 100
+  -f min 1; max 100, --max-fmpeg-threads min 1; max 100
+                        Limit for for ffmpeg concat threads at same time. Default 10
+  -b BLACK_LIST_USER_FILE, --black-list-user-file BLACK_LIST_USER_FILE
+                        File with usernames/full urls — one per line, to skip scraping and downloading
+  -s, --skip-existing   Skip scrapping and downloading steps for existing users from download folder. Pass the param for
+                        skipping, default - False
+  -c {ts,mp4}, --container-for-m3u8 {ts,mp4}
+                        A container for stream (m3u8) videos. Default "mp4", a possible alternative is "ts".
+  -p, --save-parsed-download-urls
+                        Store urls in the file into user dir. Filename has saving datetime so this will not overwrite old links.
+
+  -nr, --no-restore-datetime
+                        The script trying to restore file creation date before
+                        downloading to skip downloading step for the files saved w/o
+                        datetime. Pass the arg for skipping this step.
+  -v, --version         Show the current script version
+
+Console VSCO downloader
+```
+
+# Change Log
+All notable changes to this project will be documented in this file.
+ 
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+  
+## [0.1.6] - 2021-08-13
+### Fixed
+- Fixed setup.py and setup.cfg
+
+## [0.1.4.1] - 2021-08-12
+### Fixed
+- Fixed setup.py
+
+    
+## [0.1.4] - 2021-08-12
+### Added
+- Added a version arg   
+
+### Changed
+- Chnaged `README` and `setup.py` for **pypi** 
+
+  
+## [0.1.3] - 2021-08-07
+   
+### Fixed
+- Added an addition possible path for parsing username.
+- Fixed Window's console encoding error - added `cp1252` encoding.
+- Fixed Window's (with a kludge) issue with a closed loop at finishing of the script.  
+
+
+ ## [0.1.2] - 2021-08-02
+   
+### Added
+- Added new functionality for restoring the datetime of the content 
+from previously downloaded with not this script. 
+Can be disabled by passing `--no-restore-datetime`.
+- Added Russian version of README.
+ 
+
+## [0.1.1] - 2021-08-01
+   
+### Added
+- Added pseudo-type `all` to content types to block downloading (`-r`/`--disabled-content`)
+- Added `CHANGELOG.md`
+- Added a simple script for running `vsco_downloader.__main__.main`
+ 
+### Changed
+- Changed all relative paths from _dot_(.) to __package name dot__ (vsco_downloader.*).
+
+### Fixed
+- Fixed `python_requires` (required 3.7+ python version but not a 3.8+ one) in the _setup.py_
+- Fixed false-positive full-url checking raise
+
+ 
+## [0.1.0] - 2021-07-31
+ 
+### Added
+- Whole project   
+
+# VSCO Downloader
+[![Python version](https://img.shields.io/pypi/pyversions/vsco-downloader)](#)
+[![Release](https://img.shields.io/github/v/release/benhacka/vsco-downloader)](#)
+[![pypi](https://img.shields.io/pypi/v/vsco-downloader)](#)
+[![GitHub last commit](https://img.shields.io/github/last-commit/benhacka/vsco-downloader)](#)
+[![Issues](https://img.shields.io/github/issues-raw/benhacka/vsco-downloader)](#)
+[![MIT License](https://img.shields.io/github/license/benhacka/vsco-downloader)](https://github.com/benhacka/vsco-downloader/blob/master/LICENSE)
+
+## [![Original README](https://www.countryflags.io/us/shiny/24.png) Original README](https://github.com/benhacka/vsco-downloader)
+###### Простенький асинхронный консольный скриптик для скачки с [vsco.co](vsco.co) на оригинальных REST запросах, неотличимых от обычного браузера.
+Скрипт без всяких залупных консольных и гуевых интерфейсов, как и пологается ему быть, если это не скрипт курильщика  
+Работает через вызов из терминала  
+(Соря виндовозы, я знаю, что это может быть плохой новостью)  
+Кста, сап _Харкач⚡_ и _VSCO находок группа_
+
+[CHANGELOG.md - изменения по релизам](https://github.com/benhacka/vsco-downloader/blob/master/CHANGELOG.md)
+
+## Зависимости
+Все питонячьи зависимости в файле `requirements.txt`:
+- `aiohttp`
+- `aiofiles`  
+
+Для скачки видосов _m3u8_ - раздробленные на части куски видео, нужен `ffmpeg`, смотри описание для аргумента запуска `--ffmpeg-bin`
+
+
+## Установка
+### Быстрая и рекомендованная (установка с `PIP`)
+- Установка:
+```
+pip install vsco-downloader
+```
+- Обновление:  
+```
+pip install vsco-downloader --upgrade
+```
+### Установка из исходников
+#### Общий этап
+Склонить реп и зайти в директорию:
+```
+git clone https://github.com/benhacka/vsco-downloader
+cd vsco-downloader
+```
+- Для виндовозов: во всех консольных комндах ниже мб нужно поменять `python3` на `python` 
+- После установки пакета в систему (установка через **вариант 2** или **вариант 3**) можно вызвать скрипт из консоли в любой директории просто набрав команду `vsco-downloader`
+#### [вариант 1]. Использование без установки пакета (_Не рекомендую такой метод_)
+```
+python3 -m pip install -r requirements.txt
+```
+- 1.1 Запустить скрипт через пакет:  
+`python3 -m vsco_downloader`
+
+- 1.2 Запустить скрипт через вырожденный скрипт с вызовом главного в пакете:  
+`python3 vsco_downloader.py`
+
+#### или [вариант 2]. Установка пакета через setup.py
+```
+python3 setup.py install --user
+```
+- Для линуксоидов: можно запустить установку без `--user` но с `sudo` для установки в  `/usr/lib/python3.*/site-packages/`. C `--user` он будет установлен в `~/.local/bin/`, но это может отличать от дистра к дистру (а мб и нет, не ебу, в этом зоопарке всякое можеты быть).
+- Для виндовозов: `--user` не требуется (сокрее всего так, но хз что будет если с ним все же попытаться поставить)
+#### or [var 3]. Установка через pip с гита 
+```
+python3 -m pip install git+https://github.com/benhacka/vsco-downloader.git
+```
+
+## Примеры использования
+Все примеры написаны для установленного в систему пакета с вызовом через `vsco-downloader`  
+Крайне рекомендую установить переменную окружения `vsco_download_path` (см. _Помощь в использовании_). 
+
+1. Скачать пользователей: *foo*, *bar* and *baz*:  
+`vsco-downloader foo bar baz`
+  
+2. Скачать пользователей *foo*, *bar* and *baz* последовательно (по одному):  
+`vsco-downloader foo bar baz -l 1 ` 
+
+3. Скачать только фото пользователей *bar*, *baz*:  
+`vsco-downloader bar baz -r mini-video video`
+
+4. Сохранить только ссылки на контент без скачки для пользователей *foo*, *bar*:  
+`vsco-downloader foo bar -r all -p`
+
+5. Скачать из файла и аргументом, пропустив существующие акки в ~/Download  
+```sh
+# просмотр файл с акками
+$ cat accs_to_dl
+
+foo
+
+https://vsco.co/baz/gallery
+```
+`vsco-downloader bar -u accs_to_dl -s -d /home/username/Download/`
+6. Скачка без восстановления имен файлов, которые лежат в папке без даты в виде префикса в имени 
+(если имя файла соответствует имени по прямой ссылке)
+`vsco-downloader foo bar baz -nr`  
+
+Больше инфы в _помощь в использовании_ 
+
+## Помощь в использовании (*меню help в скрипте*)
+
+```plaintext
+VSCO downloader
+
+позиционные аргументы:
+  users                 ссылка/юзернеймы. Скрипт поддерживает загрузку с нескольких источников через этот аргуемент. 
+                        Ссылка может быть как на галерею, так и на отдельный файл (скачивается весь конент профиля). 
+                        Поддерживаются короткие (то, что шарится с мобилок) и длинные форматы ссылок 
+                        (ссылка в адресной строке десктопного браузера)
+
+именные аргументы:
+  -h, --help            show this help message and exit
+  -u USERS_FILE_LIST, --users-file-list USERS_FILE_LIST
+                        То же самое что и users, но из файла (по одной ссылке или юзернейму на строке)
+  --ffmpeg-bin FFMPEG_BIN
+                        Имя ffmpeg, через которое скрипт сможет денуть его. По умолчанию "ffmpeg". 
+                        Если ffmpeg был установлен с репа, то скорее всего лежит в /usr/bin/ffmpeg 
+                        и доступен через команду ffmpeg в любом месте"
+  --download-path-variable DOWNLOAD_PATH_VARIABLE
+                        Переменная окружения пути скачки. По умолчанию "vsco_download_path" Может быть задана через экспорт 
+                        в shellrc (~/.bashrc for example) для линуксоидов. Для виндовозов устанавливается 
+                        где-то в system environments.
+  -d DOWNLOAD_PATH, --download-path DOWNLOAD_PATH
+                        Форсированный путь для скачки. Если аргумент задан, то перегружает vsco_download_path
+                        (более приоритетная). Без vsco_download_path не задан, то этот аргумент "." 
+                        (текущая папка откуда вызван скрипт).
+  -r [{photo,mini-video,video} ...], --disabled-content [{photo,mini-video,video} ...]
+                        Отключает загрузку выбранного типа контента. Возможные типы: photo, mini-video, video
+  -l min 1; max 500, --download-limit мин 1; макс 500
+                        Лимит на запросы к серверам в один момент. Default 100
+  -f min 1; max 100, --max-fmpeg-threads мин 1; макс 100
+                        Лимит на склейку с ffmpeg в один момент. Default 10
+  -b BLACK_LIST_USER_FILE, --black-list-user-file BLACK_LIST_USER_FILE
+                        Файл с именами или полными ссылками (короткие игнорируются), для пропуска этапов сбора и скачки
+  -s, --skip-existing   Пропустить этапы сбора и скачки для пользователей папки с именами которых уже сущесвуют. 
+                        Для включения опции указать аргумент, по умолчанию выключено
+  -c {ts,mp4}, --container-for-m3u8 {ts,mp4}
+                        Контейнер для стриминговых (m3u8) видео. По умолчанию "mp4", возможная альтернатива - "ts".
+  -p, --save-parsed-download-urls
+                        Сохранить ссылки на контент в файл с пользователем. 
+                        В имени файла текущая дата сохранения, поэтому не происходит перезапись файла.
+ 
+  -nr, --no-restore-datetime
+                        [НЕ - аргумент отрицание] Скрипт попытается восстановить дату загрузки файла перед загрузкой
+                        для пропуска загрузки существующих уже файлов в именах которых нет даты. Для отключения 
+                        опции надо указать этот аргумент  
+  -v, --version         Показать текущую версию скрипта
+Console VSCO downloader
+```
+
+
+
