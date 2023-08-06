@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: obscure-password
+Version: 0.0.1.dev0
+Summary: Self contained obfuscation of hardcoded passwords in Python scripts.
+Home-page: https://github.com/Shapedsundew9/obscure-password
+Author: Shaped Sundew
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Shapedsundew9/obscure-password/issues
+Project-URL: Source, https://github.com/Shapedsundew9/obscure-password
+Description: # obscure-password
+        
+        [![Python package](https://github.com/Shapedsundew9/obscure-password/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/Shapedsundew9/obscure-password/actions/workflows/python-package.yml)
+        [![codecov](https://codecov.io/gh/Shapedsundew9/pypgtable/branch/main/graph/badge.svg?token=Z9C9Z9B3T1)](https://codecov.io/gh/Shapedsundew9/obscure-password)
+        
+        ## Sunburst Code Coverage Chart
+        
+         The inner-most circle is the entire project, moving away from the center are folders then, finally, a single file. The size and color of each slice is representing the number of statements and the coverage, respectively.
+         ![Sunburst](https://codecov.io/gh/Shapedsundew9/obscure-password/branch/main/graphs/sunburst.svg)
+        
+Keywords: password,obfuscation,obscure,development
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
