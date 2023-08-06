@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+revenuecat_sdk/__init__.py
+revenuecat_sdk/client.py
+revenuecat_sdk/enums.py
+revenuecat_sdk/errors.py
+revenuecat_sdk/response.py
+revenuecat_sdk/utils.py
+revenuecat_sdk.egg-info/PKG-INFO
+revenuecat_sdk.egg-info/SOURCES.txt
+revenuecat_sdk.egg-info/dependency_links.txt
+revenuecat_sdk.egg-info/requires.txt
+revenuecat_sdk.egg-info/top_level.txt
