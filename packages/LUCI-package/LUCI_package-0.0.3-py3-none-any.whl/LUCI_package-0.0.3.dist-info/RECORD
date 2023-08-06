@@ -1,0 +1,15 @@
+LUCI/LuciBayesian.py,sha256=idgytH7Xmz5nFv8MvhgxoXWA9qaArdr_qi-tFgzhQvU,2086
+LUCI/LuciErrors.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+LUCI/LuciFit (conflicted).py,sha256=Ke45anHONrjn3nAySueC8Knq_tfQAtTd8XIp7kgUfCw,31068
+LUCI/LuciFit.py,sha256=tZqgwO06Hnx30ZCVnHr6M8zCnfIxywrJdEwvqTXgai8,31010
+LUCI/LuciFunctions.py,sha256=3xuJObdYpyPhyHLQvNz9MveeGxu8BOo06I9uc8XfzR8,781
+LUCI/LuciPlotting.py,sha256=AkoCtIM0SHP9E3h2PAIXGuZNxd55Ri-OgxKiVsq4NVo,3438
+LUCI/LuciSim.py,sha256=T15dKHp1a8SkBTgyjWd4FdWEamGKrfSTi1sxSmG7TCA,7867
+LUCI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LUCI_package-0.0.3.dist-info/AUTHORS.rst,sha256=3DUysc4f7BLXZcpcoFBah7IRn-dfJGjjG4vJmgmOH84,247
+LUCI_package-0.0.3.dist-info/LICENSE,sha256=5aHV0Kcv1n1lAHVvoF24AFQj9x5Q8CFXfzYfEGboRxw,1072
+LUCI_package-0.0.3.dist-info/LICENSE.txt,sha256=NnMG-02xyQzFANAteqlEKqlJbNfKd-uOmsNt4nA2H8Y,1067
+LUCI_package-0.0.3.dist-info/METADATA,sha256=60GuqZmavjIA7E9hPISD-vdKcsDdy4ubYEH4y2ym1U0,5640
+LUCI_package-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+LUCI_package-0.0.3.dist-info/top_level.txt,sha256=VSGy7oG8Qmus_uPq8v_dsK1AM7knIDOM6CdhsQSI0Dk,5
+LUCI_package-0.0.3.dist-info/RECORD,,
