@@ -1,0 +1,14 @@
+yd_addr/__init__.py,sha256=mQuwV3G2_MzxmfSyDDv8khL5PCAIHq3MMXUzqj4k_ho,80
+yd_addr/frozen.py,sha256=d4NH2UlF4EQUYsyfKbi5QCcG96KWo0YW0kepPSxLvFw,219
+yd_addr/resources/addr_dict.json,sha256=nGiyVYfF2r560f1MbcYUEU8B5CwhLC58vS2VMfu1L44,2316990
+yd_addr/resources/addr_dict_20210810_1420.json,sha256=Qqn4hWiW9GL2lNR9o9M5EGSOxzmuL5U4tawcHFV6xGw,2316968
+yd_addr/resources/cutworddict_plus.txt,sha256=1NZL9LxAlKsjl0cvQNSwRc0NEj4DsxNbwXQBv-uMrV4,7043666
+yd_addr/resources/cutworddict_plus20210803_135830.txt,sha256=h34TNPlvFXe7TYjZq135xrUckd-QBJVD7G2u4czLlaA,7042589
+yd_addr/resources/stopwords3_标点符号.txt,sha256=yZogH5cWsfM9cCUGGUMQfUfqZgFNRM4wz9xiAuAJbZI,1754
+yd_addr/resources/商品品类.txt,sha256=YO3gEe1qm0k1QFHczjtzub-KJX6hXlgp4Ry566e_OuM,13294
+yd_addr/src/main/extra_city/address_analysis.py,sha256=kYovJ2GmZsKXu9J8sPSEVlKdn4K_9DtgmmHVHDNLD-o,23422
+yd_addr/src/main/extra_city/load_data.py,sha256=3CO0H0Jtu_jkhtW-Z4ZklgAUrGtvQLevu3dqW8kbxvw,1269
+YundaAddr-1.0.1.dist-info/METADATA,sha256=_Z_GBM41mysGUB2cyJDnslVxRR44apl45mmY9q0cZH8,356
+YundaAddr-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+YundaAddr-1.0.1.dist-info/top_level.txt,sha256=Iw8NRSYQ2QKU8DV_YNEGqpP_1vC2Vnd2h83gIa4PQ-g,8
+YundaAddr-1.0.1.dist-info/RECORD,,

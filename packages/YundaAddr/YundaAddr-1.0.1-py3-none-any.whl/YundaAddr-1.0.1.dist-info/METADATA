@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: YundaAddr
+Version: 1.0.1
+Summary: YUNDA.EXPRESS address resolution system
+Home-page: https://www.yundaex.cn
+Author: changshenghui,jiangxiaotian,yangtianyu
+Author-email: yangtianyu92@126.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: numpy (==1.18.1)
+
+UNKNOWN
+
+
