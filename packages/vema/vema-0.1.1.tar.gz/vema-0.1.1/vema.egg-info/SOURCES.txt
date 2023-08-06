@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+vema/__init__.py
+vema/__main__.py
+vema.egg-info/PKG-INFO
+vema.egg-info/SOURCES.txt
+vema.egg-info/dependency_links.txt
+vema.egg-info/requires.txt
+vema.egg-info/top_level.txt

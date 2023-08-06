@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vema
+Version: 0.1.1
+Summary: Vema is a solution for developing static web pages, from Python + Flask, which has the basic tools and already configured to focus on the design of the pages.
+Home-page: https://github.com/episuarez/vema
+Author: Epifanio Suárez Martínez
+Author-email: episuarez@pm.es
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
