@@ -1,0 +1,8 @@
+pandas
+yfinance
+pyfiglet
+PyYAML
+v20
+bokeh
+plotly
+scipy
