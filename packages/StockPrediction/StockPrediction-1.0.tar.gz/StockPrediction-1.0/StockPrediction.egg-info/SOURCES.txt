@@ -1,0 +1,8 @@
+README.txt
+StockPrediction.py
+__init__.py
+setup.py
+StockPrediction.egg-info/PKG-INFO
+StockPrediction.egg-info/SOURCES.txt
+StockPrediction.egg-info/dependency_links.txt
+StockPrediction.egg-info/top_level.txt
