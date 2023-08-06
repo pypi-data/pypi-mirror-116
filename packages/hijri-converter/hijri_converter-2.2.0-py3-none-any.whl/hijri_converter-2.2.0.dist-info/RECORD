@@ -1,0 +1,10 @@
+hijri_converter/__init__.py,sha256=KFUqo1J-FDoHsei7jiP9Kgp51u9kt4dHLTm1faJYpBw,206
+hijri_converter/convert.py,sha256=wC18AQ_JZG8rUQNg1yhaTF2Tg6wL7OUHqlTEgN1hKr0,11075
+hijri_converter/helpers.py,sha256=FxgCjuFeq3RwCBicYJK8_iXFLgYs_wbNK-Xh_INli8k,591
+hijri_converter/locales.py,sha256=-QGr4I-e9WUsQ0APA08GMEbhkLti0mynwNgI0l4tBtg,4882
+hijri_converter/ummalqura.py,sha256=sEX3CX6LREJhvq72H2CkyfB8mYlnHEUbeLXxhH_6ZQ0,22048
+hijri_converter-2.2.0.dist-info/LICENSE,sha256=uQrs52RyiLFLTaT_mO1avbhBepgkqHRuQ7s6zYwhN8Q,1105
+hijri_converter-2.2.0.dist-info/METADATA,sha256=6YApJoBMIiOeGj_hy3fbAnY6cOJCxN4I_wqSkChw8Gk,4926
+hijri_converter-2.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hijri_converter-2.2.0.dist-info/top_level.txt,sha256=UyJJaJyCeLVc4VOJDgrH2PILGrZIpvbrKBXu5SGgQ0A,16
+hijri_converter-2.2.0.dist-info/RECORD,,
