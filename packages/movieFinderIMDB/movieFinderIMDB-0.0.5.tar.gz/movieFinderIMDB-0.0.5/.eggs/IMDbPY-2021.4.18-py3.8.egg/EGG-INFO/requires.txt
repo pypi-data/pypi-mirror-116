@@ -1,0 +1,16 @@
+SQLAlchemy
+lxml
+
+[dev]
+flake8
+flake8-isort
+readme-renderer
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-cov
+pytest-profiling
