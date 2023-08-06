@@ -1,0 +1,14 @@
+webedge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webedge/cli_output.py,sha256=qhRq4cbo0wx-7w-_kmnwAez4-BjYywhIXyidv1usu-0,6175
+webedge/social_websites.py,sha256=ayjMh5zYhYW2iWDO8SvETXdnJ7zEh5CdU28NopJCCWA,703
+webedge/stop_words.py,sha256=eRo-l6QRaZfVPIdrPUhQeyQ8c3v5lkVv-Rg4qAApyv0,8644
+webedge/warnings.py,sha256=MjM8hDcGBrTpZ3Ihnh4Aud99BwuKJV_tP5Mj-7lCgRI,5307
+webedge/webedge.py,sha256=n52KEyy-fYrxo0NuFDDp58f6lsY3WJSbEIVPzTgsfiw,2502
+webedge/webpage_analysis.py,sha256=ePkEVbDz-vU07vo37VRJQtRd0npIENey2EW0OvldjXM,15938
+webedge/website_analysis.py,sha256=T5QjWDbNxXVxzd6lFB37TjIxkv7MOLqBE-Xya4fRayE,4021
+WebEdge-1.0.2.dist-info/LICENSE,sha256=pwQ4TNOEFDLd9zbvusabKse4UtQq9JqoXGvDprsEhJM,1077
+WebEdge-1.0.2.dist-info/METADATA,sha256=Nu1jMxz4TtkHGsHpGUXSs1K9Jr66yR5AZRKX-upof4Y,6980
+WebEdge-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+WebEdge-1.0.2.dist-info/entry_points.txt,sha256=BEYJtVxrUlAg64TZDB8gOp9nEYKxrKeK9bYhYfmyUuM,50
+WebEdge-1.0.2.dist-info/top_level.txt,sha256=mXUjvaOqY6dFHZmmf81ymivHs1XjcucHkAX-NgVIwXc,8
+WebEdge-1.0.2.dist-info/RECORD,,
