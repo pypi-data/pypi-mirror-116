@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/flask_errors_as_nested_dicts/__init__.py
+src/flask_errors_as_nested_dicts.egg-info/PKG-INFO
+src/flask_errors_as_nested_dicts.egg-info/SOURCES.txt
+src/flask_errors_as_nested_dicts.egg-info/dependency_links.txt
+src/flask_errors_as_nested_dicts.egg-info/top_level.txt
