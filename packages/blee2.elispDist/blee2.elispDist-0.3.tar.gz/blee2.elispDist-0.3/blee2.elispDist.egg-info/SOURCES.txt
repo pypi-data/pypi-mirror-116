@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+blee2/__init__.py
+blee2.elispDist.egg-info/PKG-INFO
+blee2.elispDist.egg-info/SOURCES.txt
+blee2.elispDist.egg-info/dependency_links.txt
+blee2.elispDist.egg-info/namespace_packages.txt
+blee2.elispDist.egg-info/not-zip-safe
+blee2.elispDist.egg-info/requires.txt
+blee2.elispDist.egg-info/top_level.txt
+blee2/elispDist/__init__.py
+blee2/elispDist/thisPkg.py
