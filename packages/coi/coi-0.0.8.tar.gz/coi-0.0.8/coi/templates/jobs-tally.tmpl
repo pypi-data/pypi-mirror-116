@@ -1,0 +1,5 @@
+
+cd $path
+for d in */; do
+  echo $${d%/}: `ls -l $${d}$o |wc -l` / `ls -l $${d}$i |wc -l`
+done

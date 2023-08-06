@@ -1,0 +1,4 @@
+
+for x in `qstat -u dzhou |grep $i |awk '{print $$1}'`; do
+  qdel $$x
+done
