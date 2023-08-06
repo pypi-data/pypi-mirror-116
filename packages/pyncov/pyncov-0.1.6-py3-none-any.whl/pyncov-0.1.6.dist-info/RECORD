@@ -1,0 +1,12 @@
+pyncov/__init__.py,sha256=qvt5hLTaUqDbTRxgTtkwqQdDPp6xwWyD6QQm0xmj5wQ,133
+pyncov/data/__init__.py,sha256=M9j1NuexsmXRO0O_LLRNrLF7fEfPAHWIxm90hC6gV3I,27
+pyncov/data/iso-codes.csv,sha256=50RfyFVnQaOED-ExFUwLJdyxK6CWdLMgmQ6Yoeym9V4,4941
+pyncov/data/population.csv,sha256=sknIltx06XBS6p92rpfMvGew50E6j9ff09uhxml8wes,3566
+pyncov/datasets.py,sha256=OgJun9fYTHmeno22A-6RqwNS5cxLxc6YZ9OxiCTEhNU,2516
+pyncov/io.py,sha256=APp5QebkGsQmqoy-0EYU0FgopfYT_Fcd-ZoGvCTRXMo,1698
+pyncov/plot.py,sha256=s112dpM6dr3JvCcpAAmc9vZCd0WJFMQAwLUQaxoEf10,1076
+pyncov/pyncov.py,sha256=OIjMTjmNSL9yuRgE0CiK4L4AOCFSo_xz-sm4wdCYgqs,12878
+pyncov-0.1.6.dist-info/LICENSE,sha256=HGczQSjI6dtYlERXDhW9tg20twf4uEjTj2xbOxEKKPM,1094
+pyncov-0.1.6.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pyncov-0.1.6.dist-info/METADATA,sha256=KUWmMhVQhG2t0BquromGVLPdocgg-JZGKKKtes8XEtI,4637
+pyncov-0.1.6.dist-info/RECORD,,
