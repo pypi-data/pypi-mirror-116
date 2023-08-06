@@ -1,0 +1,6 @@
+datacube
+odc-index
+zstandard
+lmdb
+click
+toolz
