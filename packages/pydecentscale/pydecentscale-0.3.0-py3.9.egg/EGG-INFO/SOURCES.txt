@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pydecentscale/__init__.py
+pydecentscale.egg-info/PKG-INFO
+pydecentscale.egg-info/SOURCES.txt
+pydecentscale.egg-info/dependency_links.txt
+pydecentscale.egg-info/requires.txt
+pydecentscale.egg-info/top_level.txt
