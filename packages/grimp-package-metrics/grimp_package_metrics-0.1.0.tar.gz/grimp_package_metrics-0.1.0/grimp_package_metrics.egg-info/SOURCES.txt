@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+grimp_package_metrics/__init__.py
+grimp_package_metrics/coupling_metrics.py
+grimp_package_metrics/dependency_cycles.py
+grimp_package_metrics.egg-info/PKG-INFO
+grimp_package_metrics.egg-info/SOURCES.txt
+grimp_package_metrics.egg-info/dependency_links.txt
+grimp_package_metrics.egg-info/namespace_packages.txt
+grimp_package_metrics.egg-info/requires.txt
+grimp_package_metrics.egg-info/top_level.txt
