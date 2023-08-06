@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ML360_Model_Explanation
+Version: 0.1
+Summary: TYPE YOUR DESCRIPTION HERE
+Home-page: https://github.com/karthi12ck/Model_Explaination
+Author: Karthick Nagaraj
+Author-email: karthick12nagaraj@gmail.com
+License: MIT
+Download-URL: https://github.com/karthi12ck/Model_Explaination.git
+Description: UNKNOWN
+Keywords: snape,LIME,model explaination
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
