@@ -1,0 +1,6 @@
+bisos2.core
+bisos2.lcnt
+unisos.x822Msg
+unisos.marme
+bisos2.things
+bisos2.gossonot
