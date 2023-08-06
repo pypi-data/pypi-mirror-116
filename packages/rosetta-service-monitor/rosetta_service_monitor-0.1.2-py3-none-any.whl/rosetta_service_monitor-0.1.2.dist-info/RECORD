@@ -1,0 +1,13 @@
+rosetta_service_monitor/__init__.py,sha256=zmXPW4TCqEKgN3rsxfP8uDuDdFJ4cewlHzIskKDwSqQ,149
+rosetta_service_monitor/client/__init__.py,sha256=zmXPW4TCqEKgN3rsxfP8uDuDdFJ4cewlHzIskKDwSqQ,149
+rosetta_service_monitor/client/background_task.py,sha256=L0XR6X7Jq_E3PyO9IFblFmIdvteo_9Dh9NI8zN0E9Vw,1056
+rosetta_service_monitor/client/conf.py,sha256=UmjpXhbvYcFWDgIuOzu5AUe1J8IiZd_gJkfCJCptorg,746
+rosetta_service_monitor/client/enums.py,sha256=Kh1sjcFWVg62lOVXYe9iQC8x6asxU0ledCD8n7ibdhQ,378
+rosetta_service_monitor/client/fastapi_hook.py,sha256=TM8cTxL5HIkFrl7S3yVFK3lXLzzqEEoVvY7tJC2LDqQ,1482
+rosetta_service_monitor/client/monitor.py,sha256=b5K1bi3eRs2A5mtk4ASRIvqYxAMroxUbhos8-FX3hWU,2466
+rosetta_service_monitor/client/service/__init__.py,sha256=ag9zbAc4Jt1JSFcF8KsjNoSEX_dshTJapxPVhHZMcgU,749
+rosetta_service_monitor/client/service/mq_service.py,sha256=urIszOBnsUtiqrJR2t9_S__Jl932ZK_Ht365ydlxk-Q,2033
+rosetta_service_monitor-0.1.2.dist-info/METADATA,sha256=SHQmFPM_HNLTMlad0PYcqdbp-_cIRGpFm_ShKAaGn1k,892
+rosetta_service_monitor-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rosetta_service_monitor-0.1.2.dist-info/top_level.txt,sha256=kTWqPuCAK0SKSfPwF2_aJyJqbp3bddbNKaN-JSu7J6g,24
+rosetta_service_monitor-0.1.2.dist-info/RECORD,,
