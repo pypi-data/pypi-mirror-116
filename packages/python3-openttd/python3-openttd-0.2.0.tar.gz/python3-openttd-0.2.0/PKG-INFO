@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: python3-openttd
+Version: 0.2.0
+Summary: OpenTTD administration client library
+Home-page: https://github.com/horazont/python3-openttd
+Author: Jonas Schäfer
+Author-email: jonas@zombofant.net
+License: UNKNOWN
+Description: ``python3-openttd``
+        ===================
+        
+        ``python3-openttd`` is a pure-python client library for interfacing with the
+        `admin server port <https://wiki.openttd.org/Server_admin_port>`_ of `OpenTTD
+        <https://www.openttd.org>`_.
+        
+        Requirements
+        ------------
+        
+        * `Python <https://www.python.org>`_ 3.5+
+        
+        Basic usage
+        -----------
+        
+        See the examples directory for examples :).
+        
+        Documentation
+        -------------
+        
+        Run::
+        
+            make docs-html
+        
+        or::
+        
+            cd docs
+            make html
+        
+        to build `sphinx-based <http://sphinx-doc.org/>`_ documentation. View with your
+        favourite web browser from ``docs/sphinx-data/build/html/index.html`` or run
+        ``make docs-view-html``.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment :: Simulation
