@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-sqlite-session
+Version: 0.1.9
+Summary: get sqlite session or engine for sqlalchemy
+Home-page: https://gitee.com/tensorflows/sqlalchemy-sqlite-session
+Author: WangJulong
+Author-email: 496349619@qq.com
+License: UNKNOWN
+Project-URL: project url, https://gitee.com/tensorflows/sqlalchemy-sqlite-session
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sqlalchemy Sqlite Session
+
+This is tools to get session and engine for Sqlalchemy Sqlite. 
+
+
+### install package
+` pip install sqlalchemy-sqlite-session `
+
