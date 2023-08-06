@@ -1,0 +1,3 @@
+[console_scripts]
+ardkit=ardkit.__main__:main
+
