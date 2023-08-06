@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lhorizon
+Version: 1.1.0
+Summary: lhorizon helps you find where things are in the solar system
+Home-page: https://github.com/millionconcepts/lhorizon.git
+Author: Million Concepts
+Author-email: mstclair@millionconcepts.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Provides-Extra: tests
+Provides-Extra: target
+Provides-Extra: examples
+License-File: LICENSE
+
+UNKNOWN
+

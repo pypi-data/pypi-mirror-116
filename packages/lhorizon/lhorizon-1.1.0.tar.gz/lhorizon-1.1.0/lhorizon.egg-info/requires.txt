@@ -1,0 +1,16 @@
+numpy
+more-itertools
+requests
+pandas
+
+[examples]
+jupyter
+
+[target]
+spiceypy
+sympy
+
+[tests]
+pytest
+pytest-mock
+pytest-cov
