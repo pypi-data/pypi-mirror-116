@@ -1,0 +1,11 @@
+README.md
+setup.py
+hannahdistributions/Binomialdistribution.py
+hannahdistributions/Gaussiandistribution.py
+hannahdistributions/Generaldistribution.py
+hannahdistributions/__init__.py
+hannahdistributions.egg-info/PKG-INFO
+hannahdistributions.egg-info/SOURCES.txt
+hannahdistributions.egg-info/dependency_links.txt
+hannahdistributions.egg-info/not-zip-safe
+hannahdistributions.egg-info/top_level.txt
