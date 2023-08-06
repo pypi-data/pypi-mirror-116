@@ -1,0 +1,6 @@
+metaphor/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaphor/models/metadata_change_event.json,sha256=XBZ0WwC5lsTACbMIFJlA6yF9OEVDaECMfobYDK7Jvxw,70189
+metaphor/models/metadata_change_event.py,sha256=3GpJSdrzpeMFfIwBUIJq2jSP9N0e23-8eoM4-dCgSig,94573
+metaphor_models-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+metaphor_models-0.2.1.dist-info/METADATA,sha256=PvDM0lLOqXrCuHiskgxxuSvXbrrWJ7c3Vj7n3SRu0tA,342
+metaphor_models-0.2.1.dist-info/RECORD,,
