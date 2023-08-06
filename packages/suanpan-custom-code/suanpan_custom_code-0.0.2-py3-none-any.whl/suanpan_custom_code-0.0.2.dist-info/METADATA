@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: suanpan-custom-code
+Version: 0.0.2
+Summary: python package for suanpan custom code library
+Home-page: http://github.com/Tony607
+Author: zcw607
+Author-email: zcw607@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# suanpan custom python code
+
