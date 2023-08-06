@@ -1,0 +1,11 @@
+sc_utils/__init__.py,sha256=8ehoUX53UaGIf9y-RnPuCPINHsyT1QdOJx6QToQB5Xw,184
+sc_utils/io.py,sha256=6FwV6SxHaaq-OumXeAJHMUW_g_Hh2VKa9ql2_DsgaLM,1229
+sc_utils/markers.py,sha256=QP4zFJdSD-Yznw3PIW3iUh-Se1LO0GLCVj4QRjh5ENk,2700
+sc_utils/meta.py,sha256=WJtfFhM2hrXVHxj6dAkaZSe2WLhXMylBPTxJrtAN4vs,1772
+sc_utils/plotting.py,sha256=hc7sfCmVNk-t1KpnmHOouepABN6Et3akinsfJwmCMu0,4487
+scanpy_utils-0.1.1.dist-info/AUTHORS.rst,sha256=uutP69iaZVieXpbEn12Kku_jjTwBXUrHpBqc-1Uy7nA,66
+scanpy_utils-0.1.1.dist-info/LICENSE,sha256=zhtHrNBSKqL-Hd8pcNwQIXHAp0YJJ_l4nZwvI-Rl7-M,1102
+scanpy_utils-0.1.1.dist-info/METADATA,sha256=SNUxMl6e_vFH4i3urYpldGqldhaMfWkYdZ1KPgcCMGo,2607
+scanpy_utils-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+scanpy_utils-0.1.1.dist-info/top_level.txt,sha256=vwMuPwGgCFC81V8K_pG58hFTN8j6u-cqXGZbxy8FA40,9
+scanpy_utils-0.1.1.dist-info/RECORD,,
