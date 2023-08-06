@@ -1,0 +1,13 @@
+titanicpackagegna/__init__.py,sha256=tZp21lOxZU1fCpSEjO2vfu33rpCBhrq2o4zqbHFqCyQ,24
+titanicpackagegna/controler.py,sha256=VK-6-yoHehbtKRI8oexO0hNF8IINUkX_kwbupwlyEgE,1162
+titanicpackagegna/get_data.py,sha256=tBHYrtGH-ES9ThhebFpIbX39kjJTX_gndqdRfhYZWec,419
+titanicpackagegna/model.py,sha256=IteRtslEagOJq97fQLn07v_00Z9FLWsDvShhH1SEwK4,1714
+titanicpackagegna/pipeline.py,sha256=rHUY1ki_3z_wO-mAQl-2aCEDU3Drjz84NzyEqHi1Bi0,82
+titanicpackagegna/preprocessing.py,sha256=PFJrbn4Crdk-Hf5hxcAN-fgC5HBOETnd2KoWWyEfJps,613
+titanicpackagegna/response_json.py,sha256=3hihSSDtM_wFPefYwq5gd8tyPh7-Q_WBUWsAEAjRNiI,3898
+titanicpackagegna/tests.py,sha256=eEtlwKAA7ZbphCqyUPHKjgG49NkvTKkOWLHkB44VCAM,35
+titanicpackagegna-0.0.4.dist-info/LICENSE,sha256=xZf2nwjVCWzKqcyHfFi-BUIAbMdnA1d-0ajtRjGhmgw,1067
+titanicpackagegna-0.0.4.dist-info/METADATA,sha256=BG7td4Sop6IEja6jsALinyl8XCR1iTON0Rudg-bzrjo,1433
+titanicpackagegna-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+titanicpackagegna-0.0.4.dist-info/top_level.txt,sha256=M04_R3XC6VTJKVxIWIzSHB1PWgl2PWp8N21F_F5UwPs,18
+titanicpackagegna-0.0.4.dist-info/RECORD,,
