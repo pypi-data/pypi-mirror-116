@@ -1,0 +1,145 @@
+# Data wrangling
+beautifulsoup4
+lxml
+html5lib
+chardet
+csvkit
+isodate
+itables
+json-table-schema
+jsonschema
+messytables
+prettytable
+xlrd
+
+# Tables is in full deployment; errors on Mac without HDF5
+#tables
+
+tabulate
+requests
+webencodings
+normality
+pytimeparse
+pytz
+PyYAML
+pyarrow
+odfpy
+treelib
+
+# Fake Data Generator
+Faker
+pydbgen
+
+# Data analysis
+numexpr
+numpy
+pandas
+networkx
+openpyxl
+pandasql
+parsedatetime
+statsmodels
+patsy
+scipy
+scikit-learn
+
+
+# Geo
+descartes
+fastkml
+Fiona
+folium
+geographiclib
+geopandas
+geopy
+pygeoif
+Shapely
+
+
+# Diagramming
+#graphviz
+ipythonblocks
+matplotlib
+mpld3
+plotly
+seaborn
+pydot3
+
+
+# Databases
+sqlparse
+psycopg2-binary
+pgspecial
+ipython-sql
+pymongo
+SPARQLWrapper
+SQLAlchemy
+rdflib
+
+# Interactive
+ipywidgets
+
+# Streaming data
+streamz
+altair
+
+# Jupyter
+jupyter-contrib-nbextensions
+jupyter-highlight-selected-word
+jupyter-latex-envs
+jupyter-nbextensions-configurator
+jupyter-server-proxy
+jupyter-wysiwyg
+nbconvert
+jupytext
+nbzip
+
+nbdime
+nbformat
+nbgrader
+nbresuse
+nbval
+rise
+tqdm
+
+# Utils
+python-dateutil
+python-editor
+python-magic
+python-slugify
+PyGithub
+#git+https://github.com/innovationOUtside/nb_extension_wordexport.git
+humanize
+inflect
+
+# This is throwing various errors
+#jupyter-docx-bundler
+
+nb2xls
+autopep8
+memory_profiler
+
+# NLP
+nltk
+
+
+# OU Utils
+nb-extension-empinken
+nb_extension_tagstyler
+nb_cell_execution_status
+
+#git+https://github.com/innovationOUtside/nb_cell_dialog.git
+#git+https://github.com/innovationOUtside/nb_extension_odszip.git
+#git+https://github.com/fschulze/sqlalchemy_schemadisplay.git
+#git+https://github.com/innovationOUtside/ipython_magic_sqlalchemy_schemadisplay.git
+#git+https://github.com/innovationOUtside/nb_workflow_tools.git
+#git+https://github.com/innovationOUtside/tm351_utils.git
+
+git+https://github.com/innovationOUtside/nb_extension_odszip.git
+git+https://github.com/fschulze/sqlalchemy_schemadisplay.git
+git+https://github.com/innovationOUtside/ipython_magic_sqlalchemy_schemadisplay.git
+git+https://github.com/innovationOUtside/nb_workflow_tools.git
+git+https://github.com/innovationOUtside/tm351_utils.git
+
+git+https://github.com/innovationOUtside/nb_cell_dialog.git
+git+https://github.com/innovationOUtside/nb_cell_diff.git
