@@ -1,0 +1,17 @@
+-r requirements.txt
+-r requirements-sphinx.txt
+approvaltests
+isort
+mock
+pre-commit
+pytest
+pytest-approvaltests
+pytest-cov
+coverage
+tox
+twine
+wheel
+
+# Pin to match versions in pre-commit hooks
+black==20.8b1
+flake8==3.8.4
