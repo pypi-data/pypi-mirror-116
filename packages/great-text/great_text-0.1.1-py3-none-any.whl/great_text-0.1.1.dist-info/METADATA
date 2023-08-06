@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: great-text
+Version: 0.1.1
+Summary: Add font and color to your Python text.
+Home-page: https://github.com/DeepakDarkiee/great-text.git
+Keywords: text
+Author: Deepak
+Author-email: info.deepakpatidar@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/DeepakDarkiee/great-text.git
+Description-Content-Type: text/markdown
+
+# great-text
