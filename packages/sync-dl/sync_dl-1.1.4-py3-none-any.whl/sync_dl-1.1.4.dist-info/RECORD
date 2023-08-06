@@ -1,0 +1,14 @@
+sync_dl/__init__.py,sha256=_nrLnQP4kLs_cK-EagbEpExZxTbQWiiFYot4_sHFqiE,1102
+sync_dl/cli.py,sha256=qCAcjgWBa9VwqmefP5o_sJJJoW8RfhTvOYboPJXYAys,11001
+sync_dl/commands.py,sha256=lIlM9E79WeowAeYhKVYJyz6FqMNzgsf8HuaDEeMvqEI,17068
+sync_dl/config.py,sha256=KZS5440cb19hFxzI5LkX9nYuYzCzHeLagf5ycKlhiLI,1938
+sync_dl/helpers.py,sha256=vM0rG4YrYojFWtymDe_U7K2ak0jaRSo7CWH_-xeKk4E,6129
+sync_dl/plManagement.py,sha256=KjlzBvsH0IW4VEE7i3hCm91iE0issfn5mxyRdA1Hi6g,7724
+sync_dl/ytdlWrappers.py,sha256=pQFQ7AfvU-pUL54kq_Fr38r6dwig-dzljNL33JE38XM,2899
+sync_dl-1.1.4.data/scripts/sync-dl,sha256=yNRWou5dVV9sWPDy5qBs5PrM5UcFWR7Wm4AMfiHTUVY,76
+sync_dl-1.1.4.dist-info/LICENCE,sha256=PQ26oIz5SuWOaAz9Wqns4Jw_dsMn_-rxqCbelzCE6mA,1072
+sync_dl-1.1.4.dist-info/METADATA,sha256=WzNt5TSLxxVGkZ9EJmEDcWBxNZf7gwCJ3EzZM2gZLJs,4963
+sync_dl-1.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sync_dl-1.1.4.dist-info/entry_points.txt,sha256=iNLHswFCfvh33s5OSxSlxWXQgdSsY2_-LTqvHzlb6cM,42
+sync_dl-1.1.4.dist-info/top_level.txt,sha256=EY1cyIHBLNz4lnpANbUtCC_A8sygjJe3Ih9E-2mBMZU,8
+sync_dl-1.1.4.dist-info/RECORD,,
