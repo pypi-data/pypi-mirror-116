@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pylinecount
+Version: 0.1
+Summary: Count number of .py code lines
+Home-page: https://github.com/se-ok/pylinecount
+Author: Seongmin Ok
+Author-email: seongmin.ok@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/se-ok/pylinecount/archive/refs/heads/main.zip
+Keywords: line count
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+
+UNKNOWN
+
+
