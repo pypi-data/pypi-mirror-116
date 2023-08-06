@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+teng_distributions/Binomialdistribution.py
+teng_distributions/Gaussiandistribution.py
+teng_distributions/Generaldistribution.py
+teng_distributions/__init__.py
+teng_distributions.egg-info/PKG-INFO
+teng_distributions.egg-info/SOURCES.txt
+teng_distributions.egg-info/dependency_links.txt
+teng_distributions.egg-info/not-zip-safe
+teng_distributions.egg-info/top_level.txt
