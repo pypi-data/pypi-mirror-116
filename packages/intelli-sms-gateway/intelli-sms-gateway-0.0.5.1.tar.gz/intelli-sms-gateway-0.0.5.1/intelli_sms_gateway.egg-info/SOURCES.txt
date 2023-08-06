@@ -1,0 +1,10 @@
+README
+setup.cfg
+setup.py
+intelli-sms-gateway/__init__.py
+intelli-sms-gateway/intelli_gateway.py
+intelli_sms_gateway.egg-info/PKG-INFO
+intelli_sms_gateway.egg-info/SOURCES.txt
+intelli_sms_gateway.egg-info/dependency_links.txt
+intelli_sms_gateway.egg-info/requires.txt
+intelli_sms_gateway.egg-info/top_level.txt
