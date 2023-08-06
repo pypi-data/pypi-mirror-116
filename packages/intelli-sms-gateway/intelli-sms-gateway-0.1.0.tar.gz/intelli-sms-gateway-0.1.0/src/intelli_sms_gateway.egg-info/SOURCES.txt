@@ -1,0 +1,10 @@
+LICENSE
+README
+pyproject.toml
+setup.cfg
+src/intelli_sms_gateway/__init__.py
+src/intelli_sms_gateway/intelli_gateway.py
+src/intelli_sms_gateway.egg-info/PKG-INFO
+src/intelli_sms_gateway.egg-info/SOURCES.txt
+src/intelli_sms_gateway.egg-info/dependency_links.txt
+src/intelli_sms_gateway.egg-info/top_level.txt
