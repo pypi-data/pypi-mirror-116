@@ -1,0 +1,10 @@
+README.md
+setup.py
+gitrepup/__init__.py
+gitrepup/gitrepup.py
+gitrepup.egg-info/PKG-INFO
+gitrepup.egg-info/SOURCES.txt
+gitrepup.egg-info/dependency_links.txt
+gitrepup.egg-info/entry_points.txt
+gitrepup.egg-info/requires.txt
+gitrepup.egg-info/top_level.txt
