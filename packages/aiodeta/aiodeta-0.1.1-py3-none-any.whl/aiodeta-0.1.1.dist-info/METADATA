@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: aiodeta
+Version: 0.1.1
+Summary: Unofficial Deta client
+Home-page: https://github.com/leits/aiodeta
+License: MIT
+Author: leits
+Author-email: leits.dev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/leits/aiodeta
+Description-Content-Type: text/markdown
+
+# aiodeta
+
+[![Build](https://github.com/leits/aiodeta/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/leits/aiodeta/actions/workflows/testing.yml)
+[![codecov](https://codecov.io/gh/leits/aiodeta/branch/main/graph/badge.svg?token=2W3AhfHpPT)](https://codecov.io/gh/leits/aiodeta)
+
+Unofficial client for Deta Clound
+
+## Supported functionality
+
+- [x] Deta Base
+- [ ] Deta Drive
+- [ ] Decorator for cron tasks
+
+## Examples
+
+```python
+import asyncio
+import aiobotocore
+
+DETA_PROJECT_KEY = "xxx_yyy"
+
+
+async def go():
+    db_name = "users"
+
+    # Initialize Deta client
+    deta = Deta(DETA_PROJECT_KEY)
+
+    # Initialize Deta Base client
+    base = deta.Base(db_name)
+
+    # Create row in Deta Base
+    user = {"username": "steve", "active": False}
+    resp = await base.insert(user)
+    print(resp)
+    user_key = resp["key"]
+
+    # Update row by key
+    resp = await base.update(user_key, set={"active": True})
+    print(resp)
+
+    # Get row by key
+    resp = await base.get(user_key)
+    print(resp)
+
+    # Delete row by key
+    resp = await base.delete(user_key)
+    print(resp)
+
+    # Create multiple rows in one request
+    users = [
+        {"username": "jeff", "active": True},
+        {"username": "rob", "active": False},
+        {"username": "joe", "active": True}
+    ]
+    resp = await base.put(users)
+    print(resp)
+
+    # Query data
+    query = [{"active": True}, {"username?pfx": "j"}]
+    result = await base.query(query=query, limit=10)
+    print(result)
+
+    # Close connection
+    await deta.close()
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(go())
+```
+
