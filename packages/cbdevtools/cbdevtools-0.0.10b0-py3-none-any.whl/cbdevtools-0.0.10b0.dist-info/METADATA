@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cbdevtools
+Version: 0.0.10b0
+Summary: "Common Box of Dev Tools" proposing small scripts that can be helpful.
+Home-page: https://github.com/projetmbc/tools-for-dev/tree/master/cbdevtools
+License: GNU License Version 3
+Author: Christophe BAL
+Maintainer: Christophe BAL
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: orpyste (>=1.3.2-beta.0,<2.0.0)
+Project-URL: Repository, https://github.com/projetmbc/tools-for-dev/tree/master/cbdevtools
+Description-Content-Type: text/markdown
+
+The `Python` module `cbdevtools`
+================================
+
+
+> **I beg your pardon for my english...**
+>
+> English is not my native language, so be nice if you notice misunderstandings, misspellings, or grammatical errors in my documents and codes.
+
+
+About `cbdevtools`
+-----------------
+
+This project is a "Common Box of Dev Tools" (the name comes also from "Christophe BAL Dev Tools"). `cbdevtools` proposes small scripts that can be helpful..., at least for the author of this package.
+
+
+What can be do and how?
+-----------------------
+
+See directly each small scripts for more informations.
+
+
+<!-- :tutorial-START: -->
+<!-- :tutorial-END: -->
+
+
+<!-- :version-START: -->
+<!-- :version-END: -->
+
