@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/clearkit/__init__.py
+src/clearkit/test.py
+src/clearkit.egg-info/PKG-INFO
+src/clearkit.egg-info/SOURCES.txt
+src/clearkit.egg-info/dependency_links.txt
+src/clearkit.egg-info/top_level.txt
