@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+achikossimplecalc/__init__.py
+achikossimplecalc/simplecalc.py
+archilssimplecalculator.egg-info/PKG-INFO
+archilssimplecalculator.egg-info/SOURCES.txt
+archilssimplecalculator.egg-info/dependency_links.txt
+archilssimplecalculator.egg-info/top_level.txt
