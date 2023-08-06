@@ -1,0 +1,7 @@
+README.md
+setup.py
+clock_timer.egg-info/PKG-INFO
+clock_timer.egg-info/SOURCES.txt
+clock_timer.egg-info/dependency_links.txt
+clock_timer.egg-info/requires.txt
+clock_timer.egg-info/top_level.txt
