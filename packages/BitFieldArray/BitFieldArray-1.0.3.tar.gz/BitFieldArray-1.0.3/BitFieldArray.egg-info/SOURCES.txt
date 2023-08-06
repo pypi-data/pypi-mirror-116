@@ -1,0 +1,8 @@
+README.md
+setup.py
+BitFieldArray/__init__.py
+BitFieldArray/bit_field_array.py
+BitFieldArray.egg-info/PKG-INFO
+BitFieldArray.egg-info/SOURCES.txt
+BitFieldArray.egg-info/dependency_links.txt
+BitFieldArray.egg-info/top_level.txt
