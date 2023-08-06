@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+adibasiccalculator/__init__.py
+adibasiccalculator/area.py
+adibasiccalculator.egg-info/PKG-INFO
+adibasiccalculator.egg-info/SOURCES.txt
+adibasiccalculator.egg-info/dependency_links.txt
+adibasiccalculator.egg-info/top_level.txt
