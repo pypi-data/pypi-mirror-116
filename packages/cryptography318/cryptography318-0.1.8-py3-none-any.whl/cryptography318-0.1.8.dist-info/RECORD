@@ -1,0 +1,14 @@
+cryptography318/__init__.py,sha256=3yafnJKv9q3XTPbFN1X6eXD0wLflh7s7IrPx86183BY,858
+cryptography318/bailliepsw_helper.py,sha256=BV5G4cRIHmYMjc4ISWYmv6A1VkSgEHe4mEA825hMaXI,3040
+cryptography318/crypto_functions.py,sha256=NEPEIjtRWM7P5eyPqN43ogFPsVX8JITlz78_DVWGMEE,20211
+cryptography318/linear_algebra.py,sha256=tqnlYebniz46_8HrrRaxImfddhTiDZOEj_XmbSlNgms,71485
+cryptography318/linear_algebra_deprecated.py,sha256=ZvHJC_c610wz2zGMWTwljbjNu8H774x2423U3FaLSiU,18563
+cryptography318/matrix.py,sha256=0-dF3XfSDRNN-qORQQNURfP7hN17lLZaRZ0T7euv6Qs,7777
+cryptography318/matrix_deprecated.py,sha256=xUD9sy33u8R3n-wur0pNmOCddL1YHj3dnL55n8Rfaw4,4425
+cryptography318/prime.py,sha256=Nc3DzZV0PmMpT9hvCJkbsui0fHXhAEl0Q1TNkeaEwmY,8822
+cryptography318/quadratic_sieve.py,sha256=etYQJM1wdkGf44SLGpLttrTyCfD1gbRnZc5Bp3OQ8fA,16047
+cryptography318/tools.py,sha256=_zy_qq-1KDzl57EBhbfHxc3wlbY1rKPgtKIQjgQ9Ym8,3385
+cryptography318-0.1.8.dist-info/METADATA,sha256=bJP8sMiNeuUWXxeN0ducN5j38gxYKl0Tm5mxTAzoqjg,1840
+cryptography318-0.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cryptography318-0.1.8.dist-info/top_level.txt,sha256=g4sl4brMg2Jj_4Dj-_QVZvUb4GHGMrMjhB0CgYxfXgw,16
+cryptography318-0.1.8.dist-info/RECORD,,
