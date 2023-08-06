@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/xcrypt.egg-info/PKG-INFO
+src/xcrypt.egg-info/SOURCES.txt
+src/xcrypt.egg-info/dependency_links.txt
+src/xcrypt.egg-info/top_level.txt
