@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: linearwinvolume
+Version: 1.0.0
+Summary: A Python implementation of pycaw that doesn't function on a logarithmic scale
+Home-page: https://github.com/That-CC/linearWinVolume
+Author: Adrian Ornelas
+Author-email: afornelas@outlook.com
+License: UNKNOWN
+Description: # linearWinVolume
+         A Python implementation of pycaw that doesn't function on a logarithmic scale
+        
+Keywords: python,pycaw,volume,windows volume,windows volume control
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
