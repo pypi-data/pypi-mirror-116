@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_hcs_mgw20171024/__init__.py
+alibabacloud_hcs_mgw20171024/client.py
+alibabacloud_hcs_mgw20171024/models.py
+alibabacloud_hcs_mgw20171024.egg-info/PKG-INFO
+alibabacloud_hcs_mgw20171024.egg-info/SOURCES.txt
+alibabacloud_hcs_mgw20171024.egg-info/dependency_links.txt
+alibabacloud_hcs_mgw20171024.egg-info/requires.txt
+alibabacloud_hcs_mgw20171024.egg-info/top_level.txt
