@@ -1,0 +1,14 @@
+README.md
+setup.py
+architect/__init__.py
+architect/core/__init__.py
+architect/core/logging.py
+architect/core/schemas.py
+architect/providers/__init__.py
+architect/providers/base.py
+kite_io.egg-info/PKG-INFO
+kite_io.egg-info/SOURCES.txt
+kite_io.egg-info/dependency_links.txt
+kite_io.egg-info/not-zip-safe
+kite_io.egg-info/requires.txt
+kite_io.egg-info/top_level.txt
