@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: graphql_builder
+Version: 1.0.0a1
+Summary: Easy solution for dynamic generation of GraphQL operations.
+Author: Jakub Kuczys (jack1142)
+Requires-Python: >=3.8,<3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: simplejson~=3.10
+Requires-Dist: black==21.7b0 ; extra == "dev"
+Requires-Dist: flake8==3.9.2 ; extra == "dev"
+Requires-Dist: isort==5.9.3 ; extra == "dev"
+Requires-Dist: mypy==0.910 ; extra == "dev"
+Requires-Dist: types-simplejson==0.1.5 ; extra == "dev"
+Project-URL: Documentation, https://graphql-builder.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/jack1142/graphql-builder/issues
+Project-URL: Source Code, https://github.com/jack1142/graphql-builder
+Project-URL: Sponsor on GitHub, https://github.com/sponsors/jack1142
+Provides-Extra: dev
+
+# graphql-builder
+> Easy solution for dynamic generation of GraphQL operations.
+
+[![Sponsor on GitHub](https://img.shields.io/github/sponsors/jack1142?logo=github)](https://github.com/sponsors/jack1142)
+[![Documentation Status](https://readthedocs.org/projects/graphql-builder/badge/)](https://graphql-builder.readthedocs.io)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://user-images.githubusercontent.com/6032823/111363465-600fe880-8690-11eb-8377-ec1d4d5ff981.png)](https://github.com/PyCQA/isort)
+[![We use pre-commit!](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## Installation
+
+**Python 3.8 or higher is required**
+
+To install the library, you can just run the following command:
+
+```sh
+# Linux/OS X
+python3.9 -m pip install -U graphql-builder
+
+# Windows
+py -3.9 -m pip install -U graphql-builder
+```
+
+## Documentation
+
+Read [graphql-builder's documentation](https://graphql-builder.readthedocs.io)
+
+## License
+
+Distributed under the Apache License 2.0. See ``LICENSE`` for more information.
+
+---
+
+> Jakub Kuczys &nbsp;&middot;&nbsp;
+> GitHub [@jack1142](https://github.com/jack1142)
+
