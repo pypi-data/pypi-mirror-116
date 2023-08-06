@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/easy_tfrecord.egg-info/PKG-INFO
+src/easy_tfrecord.egg-info/SOURCES.txt
+src/easy_tfrecord.egg-info/dependency_links.txt
+src/easy_tfrecord.egg-info/top_level.txt
+src/tfrecord/TFRecordClass.py
+src/tfrecord/__init__.py
