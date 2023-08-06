@@ -1,0 +1,11 @@
+numpy>=1.20.2
+astropy>=4.2
+lmfit>=1.0.2
+sunpy>=3.0.1
+scipy>=1.7.1
+pyyaml>=5.4.1
+dkist-header-validator>=2.0.5
+asdf>=2.8.1
+
+[test]
+pytest
