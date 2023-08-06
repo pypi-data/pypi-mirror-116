@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pysome.egg-info/PKG-INFO
+pysome.egg-info/SOURCES.txt
+pysome.egg-info/dependency_links.txt
+pysome.egg-info/top_level.txt
