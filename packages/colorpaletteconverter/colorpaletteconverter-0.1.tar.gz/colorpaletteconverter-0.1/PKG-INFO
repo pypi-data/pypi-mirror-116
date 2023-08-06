@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: colorpaletteconverter
+Version: 0.1
+Summary: Make a MacOS Color palette from Python
+Home-page: https://github.com/Rutger0000/colorpalette-converter
+Author: Rutger Berns
+Author-email: rutgerb0000@gmail.com
+License: UNKNOWN
+Description: ## Usage
+        
+        ```python
+        import colorpalettegenerator as cg
+        
+        # Create the palette, named "MyPythonPalette"
+        mypalette = cg.Palette("MyPythonPalette")
+        
+        # Add a color using a key e.g. "White" and color described by (r, g, b, a)
+        mypalette.add_color((1,1,1,1), "White")
+        mypalette.add_color((1,0,0,1), "Red")
+        mypalette.add_color((0,1,0,1), "Green")
+        mypalette.add_color((0,0,1,1), "Blue")
+        mypalette.add_color((0,0,1,0.5), "Translucent blue")
+        
+        # Save it to the default location. This will make it visible in the MacOS color palette.
+        mypalette.save()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: MacOS X
+Classifier: Environment :: MacOS X :: Cocoa
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Multimedia
+Description-Content-Type: text/markdown
+Provides-Extra: dev

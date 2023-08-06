@@ -1,0 +1,4 @@
+pyobjc~=7.3
+
+[dev]
+pytest>=5.2
