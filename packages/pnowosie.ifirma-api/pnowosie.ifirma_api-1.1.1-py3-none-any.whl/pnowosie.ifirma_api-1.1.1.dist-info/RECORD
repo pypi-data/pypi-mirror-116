@@ -1,0 +1,12 @@
+ifirma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ifirma/api.py,sha256=aRuPJZvSrsdr6Mj4TGFYVjtQHBKwd-7KZcbO_ZWgvT0,1426
+ifirma/config.py,sha256=iWPOlwjSTQCeszujgwJIs0VLTu0t8OHD8NQiMtp1R0c,1111
+ifirma/invoice.py,sha256=mv9Sucj_R0gHCbyWVg-dLNgcAFx5cXVYBkGllel9c5U,2105
+ifirma/request.py,sha256=j4OabBOUzoBl0l4BevvS7_bgD3Sc0j29kwzUSdWRPlM,3479
+ifirma/serializer.py,sha256=p_WW9BUkuv7FpG1moovqbmj4qgKffC4LuNIEgtJKT4g,3632
+ifirma/yaml_parser.py,sha256=te35Mahn44r8Q11vATMbmjjfh1icjoiDFwuNmIdnYOk,1039
+pnowosie.ifirma_api-1.1.1.dist-info/LICENSE,sha256=JwirN73vQ7ypVvuCRQxE0va51lcsSkM3JhrhSftEQvs,1074
+pnowosie.ifirma_api-1.1.1.dist-info/METADATA,sha256=v8ssX89ZRzqH9CDIS2YHBwOrU-XDlqNuebvfgf8ZYVw,3421
+pnowosie.ifirma_api-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pnowosie.ifirma_api-1.1.1.dist-info/top_level.txt,sha256=QtW9IqrRRHwzBBWgWVlh4D8H2vGIQSczvIIuIJZgUAI,7
+pnowosie.ifirma_api-1.1.1.dist-info/RECORD,,
