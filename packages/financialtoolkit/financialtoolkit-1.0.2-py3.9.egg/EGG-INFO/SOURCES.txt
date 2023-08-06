@@ -1,0 +1,9 @@
+README.md
+setup.py
+financialtoolkit/__init__.py
+financialtoolkit.egg-info/PKG-INFO
+financialtoolkit.egg-info/SOURCES.txt
+financialtoolkit.egg-info/dependency_links.txt
+financialtoolkit.egg-info/entry_points.txt
+financialtoolkit.egg-info/requires.txt
+financialtoolkit.egg-info/top_level.txt
