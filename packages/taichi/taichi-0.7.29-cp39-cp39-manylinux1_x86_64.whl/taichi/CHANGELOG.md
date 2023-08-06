@@ -1,0 +1,33 @@
+Highlights:
+   - **Bug fixes**
+      - Fix osx release workflow. (#2633) (by **Ailing**)
+   - **Language and syntax**
+      - Add Field classes for ti.field/ti.Vector.field/ti.Matrix.field (#2638) (by **Yi Xu**)
+   - **Refactor**
+      - Split transformer.py into StmtBuilder and ExprBuilder (Stage 2) (#2635) (by **xumingkuan**)
+
+Full changelog:
+   - [ir] Improve ExternalTensorShapeAlongAxisStmt IR print result (#2665) (by **Yu Chang**)
+   - [ci] Refined release procedures (#2663) (by **Jiasheng Zhang**)
+   - [vulkan] More capabilities detection and enabling (#2660) (by **Bob Cao**)
+   - [ci] Change build method of ci tests (#2661) (by **Jiasheng Zhang**)
+   - [gui] GGUI 3/n: Add dependencies, interfaces, and backend-independent code (#2650) (by **Dunfan Lu**)
+   - [lang] [refactor] Add a ExtArray class for external arrays (#2651) (by **Yi Xu**)
+   - [ci] Enable torch tests during CI (#2656) (by **Yi Xu**)
+   - [ci] Add cuda bin folder to PATH (#2655) (by **Dunfan Lu**)
+   - [gui] GGUI 2/n: Add optional graphics queue, compute queue, and surface to EmbeddedVulkanDevice (#2648) (by **Dunfan Lu**)
+   - [vulkan] Build and test Vulkan backend in CI (#2647) (by **Ye Kuang**)
+   - [ci] Added changelog.py that does not depend on taichi (#2649) (by **Jiasheng Zhang**)
+   - [gui] GGUI 1/n: Add necessary cuda structs/enums/functions (#2645) (by **Dunfan Lu**)
+   - [vulkan] Use VulkanMemoryAllocator for memory allocation (#2644) (by **Bob Cao**)
+   - Improved SPIRV-Tools library search on Linux (#2643) (by **masahi**)
+   - [Lang] [refactor] Add Field classes for ti.field/ti.Vector.field/ti.Matrix.field (#2638) (by **Yi Xu**)
+   - [ci] Fix mac release and integrate windows release into github (#2641) (by **Jiasheng Zhang**)
+   - [misc] [doc] Rename some profiler APIs and add docstring, mark old names as deprecated (#2640) (by **rocket**)
+   - [doc] Better CUDA out of memory messages (#2172) (by **彭于斌**)
+   - [Refactor] Split transformer.py into StmtBuilder and ExprBuilder (Stage 2) (#2635) (by **xumingkuan**)
+   - [bug] Fix missing ti.template() in rand_vector(n) in examples (#2636) (by **xumingkuan**)
+   - [doc] meta: s/alone/along/ (#2616) (by **Eric Cousineau**)
+   - [Bug] Fix osx release workflow. (#2633) (by **Ailing**)
+   - [vulkan] Rename ManagedVulkanDevice to EmbeddedVulkanDevice (#2578) (by **Ye Kuang**)
+   - [ci] Add slash benchmark command for performance monitoring (#2632) (by **rocket**)
