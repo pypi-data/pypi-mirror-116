@@ -1,0 +1,9 @@
+ginja/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ginja/__main__.py,sha256=Huz0dExiaH0XTMLhfe3skkFD9-VH7ZUiWMbDR_J8TIY,28
+ginja/cli.py,sha256=oGEQy-XjT1Lgn4y2E7ECI7jki_FdtQyqILXGswyjxiU,5420
+ginja/version.py,sha256=EptYWB4vmy2J8e2vmqb4NqLJhNPAiPzUcbQU_V76sXE,22
+ginja-0.3.6.dist-info/METADATA,sha256=NSl9ceCT6CkzUgDHoWzEPhsUjrQ7UiZrMEbPtduX86g,922
+ginja-0.3.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ginja-0.3.6.dist-info/entry_points.txt,sha256=8HPbKQ_7odz6ZfV8C4eo0SHEeDzzYSfSoJaPDLBSt04,41
+ginja-0.3.6.dist-info/top_level.txt,sha256=p3HmSu4QPmwpM9tva_KtGgAqdx_4vA02UTjYVbkcFrU,6
+ginja-0.3.6.dist-info/RECORD,,
