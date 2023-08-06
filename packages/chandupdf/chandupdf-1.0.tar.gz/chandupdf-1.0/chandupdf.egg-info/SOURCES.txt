@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+chandupdf.egg-info/PKG-INFO
+chandupdf.egg-info/SOURCES.txt
+chandupdf.egg-info/dependency_links.txt
+chandupdf.egg-info/top_level.txt
