@@ -1,0 +1,23 @@
+name: intake-esm-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - cftime
+  - jupyterlab
+  - matplotlib
+  - myst-nb
+  - pip
+  - python=3.8
+  - sphinx-book-theme >= 0.0.38
+  - sphinx-copybutton
+  - sqlalchemy==1.3.12
+  - watermark
+  - zarr
+  - pip:
+      - gcsfs
+      - s3fs
+      - sphinxext-opengraph
+      - sphinx-comments
+      - -r ../requirements.txt
+      - -e ..
