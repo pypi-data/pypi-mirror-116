@@ -1,0 +1,5 @@
+numpy
+Pandas
+Pillow
+XlsxWriter
+h5py
