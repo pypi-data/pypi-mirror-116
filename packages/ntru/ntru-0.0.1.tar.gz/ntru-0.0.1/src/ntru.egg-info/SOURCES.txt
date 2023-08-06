@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/ntru.egg-info/PKG-INFO
+src/ntru.egg-info/SOURCES.txt
+src/ntru.egg-info/dependency_links.txt
+src/ntru.egg-info/entry_points.txt
+src/ntru.egg-info/requires.txt
+src/ntru.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
