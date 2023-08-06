@@ -1,0 +1,3 @@
+[console_scripts]
+smb-net-ads-join = smbjoin.cli:net_ads_join
+
