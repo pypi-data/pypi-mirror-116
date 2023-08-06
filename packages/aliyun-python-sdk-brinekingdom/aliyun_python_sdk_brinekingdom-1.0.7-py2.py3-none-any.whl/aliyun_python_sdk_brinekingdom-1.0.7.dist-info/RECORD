@@ -1,0 +1,11 @@
+aliyunsdkbrinekingdom/__init__.py,sha256=GIukrVnl8Ykjex2rUbxdz2Ov1PRc_MomFmxwSzRJH9w,21
+aliyunsdkbrinekingdom/endpoint.py,sha256=weDQx6lAfSc6KZ5ONKS0JUMUWYAc_myHzGG-tVKoO4A,2260
+aliyunsdkbrinekingdom/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkbrinekingdom/request/v20190627/QueryQuotaPlanScheduleRequest.py,sha256=a2CRUw1CXYiq86s67y-MKEW_V2jOXfNPkyqZiFreORw,1600
+aliyunsdkbrinekingdom/request/v20190627/SubmitPlanningResultRequest.py,sha256=rgl7m0nobhi3Pb-pl1nF2ENl91ZcEM6XP8VaJSt6X2g,7031
+aliyunsdkbrinekingdom/request/v20190627/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_brinekingdom-1.0.7.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_brinekingdom-1.0.7.dist-info/METADATA,sha256=Fu7LK1ebtgYlftbBSGBiFd1F3IFm9Th3S0VZWpqr5lQ,1500
+aliyun_python_sdk_brinekingdom-1.0.7.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aliyun_python_sdk_brinekingdom-1.0.7.dist-info/top_level.txt,sha256=HSYrIKI6QrgjkO1cq3MYSd2kh3wZhLxJso0z9Lm8EAg,22
+aliyun_python_sdk_brinekingdom-1.0.7.dist-info/RECORD,,
