@@ -1,0 +1,10 @@
+numpy>=1.20
+astropy>=4.2
+scipy>=1.6
+reproject>=0.7
+PyNeb>=1.1
+
+[all_dep]
+matplotlib>=3.3
+photutils>=1.1
+emcee>=3.0
