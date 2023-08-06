@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: shazamLyric
+Version: 0.0.1
+Summary: Library to extract music data
+Home-page: https://github.com/claudiotorresarbe/shazamLyric
+Author: Cláudio Torres Arbe
+Author-email: claudiotarbe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.26.0)
+
+# shazamLyric
+
+## Install
+```
+pip install shazamLyric
+```
+
+## Import library 
+```
+import shazamLyric
+```
+###### or
+```
+from shazamLyric import key,title,subtitle,lyrics,youtube
+```
+
+## All code
+```
+from shazamLyric import *
+app = shazamLyric('la belle',3,0,'BR')
+print(len(app.key()))
+print(app.title())
+print(app.subtitle())
+print(app.lyrics())
+print(app.youtube())
+```
+
+## Functions
+### Use below code to call functions
+```
+app = shazamLyric('la belle',3,0,'BR')
+```
+###### *shazamLyric([text music],[number results],[number offset],[text country])
+
+### Use the code below to get the number of songs
+```
+print(len(app.key()))
+```
+### Use the code below to get music code
+```
+print(app.key())
+```
+### Use the code below to get music title
+```
+print(app.title())
+```
+###### or choose index of list
+```
+print(app.title()[0])
+```
+### Use the code below to get music subtitle
+```
+print(app.subtitle())
+```
+###### or choose index of list
+```
+print(app.subtitle()[0])
+```
+### Use the code below to get music lyrics
+```
+print(app.lyrics())
+```
+###### or choose index of list
+```
+print(app.lyrics()[0])
+```
+### Use the code below to get youtube link
+```
+print(app.youtube())
+```
+###### or choose index of list
+```
+print(app.youtube()[0])
+```
+
+## Links
+See my [GitHub](https://github.com/claudiotorresarbe).
+
+
+
