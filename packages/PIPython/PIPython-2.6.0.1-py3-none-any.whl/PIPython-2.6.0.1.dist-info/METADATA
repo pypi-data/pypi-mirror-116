@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PIPython
+Version: 2.6.0.1
+Summary: Collection of libraries to use PI devices and process GCS data.
+Home-page: http://www.physikinstrumente.com
+Author: Physik Instrumente (PI) GmbH & Co. KG
+Author-email: service@pi.de
+License: See the included eula.md file.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.6
+
+PIPython is a collection of Python modules to access a PI device and process GCS data. It can be used with Python 3.6+ on Windows, Linux and OS X and without the GCS DLL also on any other platform.
+
