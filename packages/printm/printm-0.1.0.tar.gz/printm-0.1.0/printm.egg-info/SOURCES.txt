@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+printm/__init__.py
+printm/_printm.py
+printm/more.py
+printm/placeholder.py
+printm.egg-info/PKG-INFO
+printm.egg-info/SOURCES.txt
+printm.egg-info/dependency_links.txt
+printm.egg-info/not-zip-safe
+printm.egg-info/requires.txt
+printm.egg-info/top_level.txt
