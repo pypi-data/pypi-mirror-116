@@ -1,0 +1,6 @@
+feedparser
+html2text
+numpy
+librosa
+pydub
+PySoundFile
