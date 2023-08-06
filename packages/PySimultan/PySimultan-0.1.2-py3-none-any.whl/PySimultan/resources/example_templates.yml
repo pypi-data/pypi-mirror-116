@@ -1,0 +1,32 @@
+- !Template
+  template_name: Material
+  template_id: '1'
+  inherits_from:
+  content: [c, w20, w80, lambda, mu, rho]
+  documentation: 'c: specific heat capacity in J/kg*K; '
+  units: {c: J/kg K, w20: g/m³, w80: g/m³, lambda: W/mK, mu: '-', rho: kg/m³}
+  types: {c: float, w20: float, w80: float, lambda: float, mu: float, rho: float}
+- &id001 !Template
+  template_name: Layer
+  template_id: '2'
+  inherits_from:
+  content: [d, Material]
+  documentation: "d: thickness of the layer in m, Material: see Template 'Material'"
+  units: {d: m, Material: '-'}
+  types: {d: float}
+- !Template
+  template_name: Layer2
+  template_id: '2.1'
+  inherits_from: *id001
+  content: [d, Material]
+  documentation: "d: thickness of the layer in m, Material: see Template 'Material'"
+  units: {d: m, Material: '-'}
+  types: {d: int}
+- !Template
+  template_name: Construction
+  template_id: '3'
+  inherits_from:
+  content: [layers]
+  documentation: "layers: list of items with type 'Layer'"
+  units: {layers: '-'}
+  types:
