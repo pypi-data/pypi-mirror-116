@@ -1,0 +1,9 @@
+numpy
+scipy
+astlib
+astropy
+astro_tigger_lsm<=1.6.0
+configparser
+
+[venv]
+vext.pyqt4
