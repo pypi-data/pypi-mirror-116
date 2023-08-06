@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: conn-diag
+Version: 0.0.2
+Summary: ConnDiag is a tool that can parse connections and check connectivity.
+Home-page: UNKNOWN
+Author: Muhannad Alghamdi
+Author-email: muhannadengineer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: netrange (==0.0.19)
+Requires-Dist: paramiko (==2.7.2)
+
+UNKNOWN
+
+

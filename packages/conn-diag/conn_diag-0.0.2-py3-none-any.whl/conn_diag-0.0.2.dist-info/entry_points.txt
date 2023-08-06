@@ -1,0 +1,3 @@
+[console_scripts]
+conn-diag = conn_diag.__main__:main
+
