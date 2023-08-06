@@ -1,0 +1,15 @@
+
+[checking]
+black
+flake8
+isort
+mdformat
+mypy
+pylint
+pylintfileheader
+
+[optional]
+
+[testing]
+pytest
+packaging
