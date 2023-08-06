@@ -1,0 +1,7 @@
+notion_backup/backup_service.py,sha256=BPix42uLSRzVFUc3rDJaYCC7rYb4ilWRSLWpb0snzJU,4584
+notion_backup/configuration_service.py,sha256=UUe880jdTrbvL2oIo4LV8Qujd6HE4sR27fBxrcZ1USM,1234
+notion_backup/notion_client.py,sha256=y2xu8oQCHVEjLfApelu-a_aYZOIhHWD99jgZVPAHdXM,2520
+notion_backup-0.3.0.dist-info/entry_points.txt,sha256=uzW02zEMabbMeKF416YVMJabVa8ERw5y9G9DmRE6TsY,67
+notion_backup-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+notion_backup-0.3.0.dist-info/METADATA,sha256=--nw-gyvXhSucdQCd8m50e5JLWalkKpPAZZ3ye8xZlE,1023
+notion_backup-0.3.0.dist-info/RECORD,,
