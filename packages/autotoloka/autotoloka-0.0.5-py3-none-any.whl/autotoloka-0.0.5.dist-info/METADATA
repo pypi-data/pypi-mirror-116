@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: autotoloka
+Version: 0.0.5
+Summary: Python library for hosting and controlling tasks of the Yandex.Toloka service.
+Home-page: UNKNOWN
+Author: eftblack
+Author-email: <justlittlemin@gmail.com>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: Pillow (>=8.2.0)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: yadisk (>=1.2.14)
+
+UNKNOWN
+
