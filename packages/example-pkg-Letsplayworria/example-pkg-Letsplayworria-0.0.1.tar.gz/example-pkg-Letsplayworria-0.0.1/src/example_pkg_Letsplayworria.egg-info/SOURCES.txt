@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/MultiTool/Thread.py
+src/MultiTool/__init__.py
+src/MultiTool/time.py
+src/example_pkg_Letsplayworria.egg-info/PKG-INFO
+src/example_pkg_Letsplayworria.egg-info/SOURCES.txt
+src/example_pkg_Letsplayworria.egg-info/dependency_links.txt
+src/example_pkg_Letsplayworria.egg-info/top_level.txt
