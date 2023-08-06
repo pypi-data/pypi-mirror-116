@@ -1,0 +1,11 @@
+LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+chuy/__init__.py,sha256=baOEkpPLwDv_4hzvQpkiKHVeGJadNGeGnPr65G3CeSE,306
+chuy/__main__.py,sha256=ubt6XyZvcHwdjCQ90B_U4MeP-3YJduz5GWUC9yOgkrg,27
+chuy/core.py,sha256=h_bAR0yWVq3AFfd2V5XFZoKmme8fUlkQxNaBYjr2Fdw,919
+chuy/helpers.py,sha256=hDFIIugpZGtUf05zkDmZU-x_Y9mhgPhwNK4esoF6KXw,1011
+chuy/ui.py,sha256=dBfoclrrtTy0lHXmDc-n1Hl6ZR1V1IMyYdRRG1YAeIw,727
+chuy-0.1.7.dist-info/entry_points.txt,sha256=-GCYGh-VT4u8eDpioB5CowipqG3HvvBuGCK1g_xS5R0,34
+chuy-0.1.7.dist-info/LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+chuy-0.1.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+chuy-0.1.7.dist-info/METADATA,sha256=Ta708sFmGTk85MrV02F96Fo_GLIHVyakKpxsXnw8IDw,2118
+chuy-0.1.7.dist-info/RECORD,,
