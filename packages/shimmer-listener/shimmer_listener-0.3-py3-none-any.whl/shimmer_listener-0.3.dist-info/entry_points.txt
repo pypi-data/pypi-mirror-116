@@ -1,0 +1,5 @@
+[console_scripts]
+shimmer-btslave = shimmer_listener._console_scripts:btmastertest_app
+shimmer-printer = shimmer_listener._console_scripts:printer_app
+shimmer-to-nodered = shimmer_listener._console_scripts:nodered_app
+
