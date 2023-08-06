@@ -1,0 +1,7 @@
+setup.py
+PySCli.egg-info/PKG-INFO
+PySCli.egg-info/SOURCES.txt
+PySCli.egg-info/dependency_links.txt
+PySCli.egg-info/top_level.txt
+pyscli/__init__.py
+pyscli/__main__.py
