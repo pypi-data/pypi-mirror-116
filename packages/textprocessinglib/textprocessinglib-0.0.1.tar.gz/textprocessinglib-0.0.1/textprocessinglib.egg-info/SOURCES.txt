@@ -1,0 +1,7 @@
+README.md
+setup.py
+textprocessinglib.egg-info/PKG-INFO
+textprocessinglib.egg-info/SOURCES.txt
+textprocessinglib.egg-info/dependency_links.txt
+textprocessinglib.egg-info/requires.txt
+textprocessinglib.egg-info/top_level.txt
