@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: voidgame
+Version: 1.0
+Summary: A simple interface for a unique game
+Home-page: https://github.com/jpblavatt/voidgame
+Author: Joshua Blavatt
+Author-email: josh@joshuablavatt.dev
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
