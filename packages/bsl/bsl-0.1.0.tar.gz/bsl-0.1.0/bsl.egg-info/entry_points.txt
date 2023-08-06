@@ -1,0 +1,6 @@
+[console_scripts]
+bsl = bsl.commands.main:main
+bsl_stream_player = bsl.commands.bsl_stream_player:main
+bsl_stream_recorder = bsl.commands.bsl_stream_recorder:main
+bsl_stream_viewer = bsl.commands.bsl_stream_viewer:main
+
