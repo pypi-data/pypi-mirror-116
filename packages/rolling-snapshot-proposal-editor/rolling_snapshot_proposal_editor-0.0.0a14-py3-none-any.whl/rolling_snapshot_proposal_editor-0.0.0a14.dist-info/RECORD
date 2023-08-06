@@ -1,0 +1,9 @@
+rolling_snapshot_proposal_editor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rolling_snapshot_proposal_editor/editfixedtarget.py,sha256=WlaKhzANrcZojFg6OSL8WEx15nqa1X2Ap6S-BjR2R9E,7279
+rolling_snapshot_proposal_editor/googlesheetreader.py,sha256=JXo8yq8qeiwl-nXdFFDIZVrOZJBtoypMaJ7AfjZfxzk,2840
+rolling_snapshot_proposal_editor/template/fixed_target.json,sha256=Fi7WsXCtVyvCG2i986s6fyUtKEDC-Vwi4FwbVtprN9s,621
+rolling_snapshot_proposal_editor-0.0.0a14.dist-info/LICENSE,sha256=Ee_Si1nbcKixpGz_X6Psfb3jD-xKens7PKcz8ezG-LE,1077
+rolling_snapshot_proposal_editor-0.0.0a14.dist-info/METADATA,sha256=79LhG-RK_n6S8oyDwP6sDGk3l9k8TPSebcMDxaXrO8Y,525
+rolling_snapshot_proposal_editor-0.0.0a14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rolling_snapshot_proposal_editor-0.0.0a14.dist-info/top_level.txt,sha256=n01mC5muwOQWT1qOhRrZ_afkKjvitQ7WXzlYLrU3YP4,33
+rolling_snapshot_proposal_editor-0.0.0a14.dist-info/RECORD,,
