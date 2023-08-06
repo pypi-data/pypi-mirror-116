@@ -1,0 +1,2 @@
+echo `date +%s` > /tmp/idlem_handle
+echo "$1" >> /tmp/idlem_handle
