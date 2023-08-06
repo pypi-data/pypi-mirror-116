@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pipsamo
+Version: 0.1.0
+Summary: Pips Installs Packages Securely
+Home-page: https://github.com/samocorp/pips
+Author: samo
+Author-email: thesamogroup@gmail.com
+License: MIT
+Description: 
+        # pips
+        
+        > PIPS = Pips Installs Packages Securely
+        >
+        > The last package you'll install with pip.
+        
+        
+        ### Bless the Authors
+        
+        All rights reserved.
+        
+        SAMO: 2020 - present
+        
+        ## Table of Contents
+        
+        
+        ## Installation
+        
+        This will the last package you install with pip.
+        
+        From this point on, there will be no reason to install packages dangerously and unsecurely.
+        
+        Most tend to find themselves using pips forever immediately after installation. User Beware.
+        
+            $ pip install pips
+        
+        
+        ## Usage
+        
+        ADD AN S TO EVERY COMMAND.
+        
+        Every `pip` will now become `pips`.
+        
+        Simple, right?
+        
+        For example:
+        
+            $ pips install pygame
+            $ pips uninstall requests
+Keywords: python,pip,pips,security
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

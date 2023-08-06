@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pips/__init__.py
+pips/__main__.py
+pips/cli.py
+pips/constants.py
+pips/crawl.py
+pips/pip.py
+pips/verifier.py
+pipsamo.egg-info/PKG-INFO
+pipsamo.egg-info/SOURCES.txt
+pipsamo.egg-info/dependency_links.txt
+pipsamo.egg-info/entry_points.txt
+pipsamo.egg-info/requires.txt
+pipsamo.egg-info/top_level.txt
