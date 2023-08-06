@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: great-text
+Version: 0.1.4
+Summary: Add font and color to your Python text.
+Home-page: https://github.com/DeepakDarkiee/great-text.git
+Keywords: text
+Author: Deepak Patidar
+Author-email: info.deepakpatidar@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/DeepakDarkiee/great-text.git
+Description-Content-Type: text/markdown
+
+# Great Text 
+
+This package enables you to print great text like below
+![image](https://github.com/DeepakDarkiee/great-text/blob/master/great.png?raw=True).
+
+
+
+great-text requires [Python](https://www.python.org/downloads/release/python-395/) v8+ to run.
+
+
+To install this package, use 
+
+```bash
+pip install great-text
+```
+
+
+
+## RUN
+
+Want to contribute? Great!
+
+Open your favorite Terminal and run these commands.
+
+First Tab:
+
+```sh
+touch example.py
+```
+
+Open your favorite text editor and write 
+
+```sh
+from great_text import great_text
+```
+
+call the function great-text with arguments given bellow 
+```sh
+great_text("Hello", "isometric2", "red")
+```
+the code will look like this
+
+```sh
+from great_text import great_text
+
+great_text("Hello", "isometric2", "red")
+
+```
+
+
+> Note: `You can change text ,color and fonts` 
+
+Now RUN
+
+```sh
+python example.py
+```
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+## Author 
+[Deepak Patidar](https://github.com/DeepakDarkiee/great-text)
+
+
+
