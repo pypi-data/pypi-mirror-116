@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fuckitpy/fuckitpy.py
+src/FuckItPy.egg-info/PKG-INFO
+src/FuckItPy.egg-info/SOURCES.txt
+src/FuckItPy.egg-info/dependency_links.txt
+src/FuckItPy.egg-info/entry_points.txt
+src/FuckItPy.egg-info/top_level.txt
+src/fuckitpy/__init__.py
+src/fuckitpy/fuckitpy.py
