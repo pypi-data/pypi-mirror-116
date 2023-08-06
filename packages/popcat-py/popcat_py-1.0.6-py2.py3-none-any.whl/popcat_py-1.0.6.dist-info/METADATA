@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: popcat-py
+Version: 1.0.6
+Summary: Clicks like crazy
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Doru Irimescu
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: selenium
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+
+# popcat-py
+
+Doru's popcat clicker.
+
+Clicks like crazy.
+
+Go Romania!
+
+# How to use
+Download this [geckodriver](https://github.com/mozilla/geckodriver/releases) for your OS
+
+Extract and add the executable to your PATH env variable.
+
+Run `popcat`
+
+
