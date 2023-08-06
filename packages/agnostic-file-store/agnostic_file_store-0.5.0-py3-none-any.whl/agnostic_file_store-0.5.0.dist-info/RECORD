@@ -1,0 +1,14 @@
+afs/__init__.py,sha256=mw1NoKWIgnv0hYthySVQwLPA4hK0sapPEQVLB0cZypY,1834
+afs/afs_local.py,sha256=wX1HuL-BSdp3yx45GSTZaRTv2wI0EPO49ean2PyBelc,3481
+afs/afs_memory.py,sha256=l3dMDZsqcUqvNxraf2oDgSwMM38C4Amf0b3O9XjZmCU,3027
+afs/afs_sftp.py,sha256=-t-EWt3uvdi-y5yS0pCzGHa0hFchCSgfsgw_GyZ5mQw,2522
+afs/afs_smb.py,sha256=D820iCxdfj4Nb9ntZN-y8Xcc6QQZuXTN2uU0VueIHQw,6433
+afs/core.py,sha256=zxGlo_a_ZVWOcVzgCyXYjjliu8Ev3rd3XT2uVT0a2rw,2803
+afs/errors.py,sha256=XjY3iLtHhQXYWRVe-gx943orCQZXSJw9VRJoeFNyjSs,1948
+afs/exceptions.py,sha256=ZIQQ440n1L-5I-mZJrtojfJiZrUboWfEkxI3aIUNaqI,1874
+afs/log.py,sha256=yKQwGrTiOTdg3zW8DVFGgeVeV5EnHe-FbvdLytjXaYA,1191
+agnostic_file_store-0.5.0.dist-info/LICENSE.txt,sha256=fWi1mPpgHbqFdZAo5kwV0zsmldD54IWdlnaf0Wa6J6Q,1097
+agnostic_file_store-0.5.0.dist-info/METADATA,sha256=Uwouvz9E8Uvy-AoJcrN28Bx3Qb_h0xPhYiolncqp3aA,3490
+agnostic_file_store-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+agnostic_file_store-0.5.0.dist-info/top_level.txt,sha256=1TvbG32Z1wz67VG0STAzfnrPWZ1vGL5kApz-EItiO9o,4
+agnostic_file_store-0.5.0.dist-info/RECORD,,
