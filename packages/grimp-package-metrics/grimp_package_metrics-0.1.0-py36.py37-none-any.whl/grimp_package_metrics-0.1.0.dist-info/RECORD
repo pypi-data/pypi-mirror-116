@@ -1,0 +1,8 @@
+grimp_package_metrics/__init__.py,sha256=g7VD6bytI7cHIU5VrgXuDimG4Rjsx1qMiYfzy_WAb3U,252
+grimp_package_metrics/coupling_metrics.py,sha256=fVhxArU3INLvaAINCuf1zGQGqJHkf7kPFrDde_TtiNc,3231
+grimp_package_metrics/dependency_cycles.py,sha256=ExRBAcrpumJ6jhrUHTY82BCcNKzn5lzL99qo856aDtk,378
+grimp_package_metrics-0.1.0.dist-info/METADATA,sha256=zCU1slOvdHwC5dBwb48mTYYFe1YLJzTMgTV5IC42fzU,329
+grimp_package_metrics-0.1.0.dist-info/WHEEL,sha256=biEIB7aIuLyfXT-d-WFEY48z5RrH3Gdfv6YXCz5BF3g,112
+grimp_package_metrics-0.1.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+grimp_package_metrics-0.1.0.dist-info/top_level.txt,sha256=nx3TQVfPEs4Cb6HR4o_gFwK8zisELr1FwzZYnynQ5Ag,22
+grimp_package_metrics-0.1.0.dist-info/RECORD,,
