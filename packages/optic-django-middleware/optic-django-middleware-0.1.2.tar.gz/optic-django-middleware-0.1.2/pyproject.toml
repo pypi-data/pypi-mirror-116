@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "optic-django-middleware"
+version = "0.1.2"
+description = "Django Middleware for optic"
+authors = ["Mukesh <mmukesh95@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/silentninja/optic-python"
+repository = "https://github.com/silentninja/optic-python/frameworks/django/optic_django_middleware"
+keywords = ["swagger", "optic", "sdk", "api", "django", "middleware"]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Environment :: Web Environment',
+    'Framework :: Django',
+    'Framework :: Django :: 3.2',
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    'Topic :: Internet :: WWW/HTTP',
+    'License :: OSI Approved :: MIT License'
+]
+include = [
+    "LICENSE",
+]
+
+packages = [
+    { include = "optic_django_middleware" },
+]
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+secondary = true
+
+[tool.poetry.dependencies]
+python = "^3.7 || ^3.8 || ^3.9"
+optic-sdk = "^0.1.0"
+Django = "^3.2.4"
+kubi-ecs-logger = "^0.1.0"
+freezegun = { version = "^1.1.0", optional = true }
+
+
+[tool.poetry.dev-dependencies]
+optic-sdk = { path = "../../../sdk", develop = true }
+tox = "^3.23.1"
+codecov = "^2.1.11"
+flake8 = "^3.9.2"
+pre-commit = "^2.13.0"
+
+[tool.poetry.extras]
+test = ["freezegun"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.isort]
+profile = "black"
+multi_line_output = 3
