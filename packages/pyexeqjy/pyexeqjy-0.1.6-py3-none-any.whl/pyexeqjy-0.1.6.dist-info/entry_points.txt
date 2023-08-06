@@ -1,0 +1,3 @@
+[console_scripts]
+pyexeqjy=pyexeqjy:entry.main
+
