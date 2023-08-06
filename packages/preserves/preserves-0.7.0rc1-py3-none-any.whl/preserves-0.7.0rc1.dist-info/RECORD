@@ -1,0 +1,13 @@
+preserves/__init__.py,sha256=qJVQ1LZeb_xhWE70Y552iBjpmHdeXHWTAoJCFGdPZEk,398
+preserves/binary.py,sha256=Rjxw9kGUlE9EgaioxQZuV2kvj2F5b7-sRcVY3STfRho,6916
+preserves/compat.py,sha256=jddHG5KMpNF7OTdUS2Fj60TIAuC6U9I11bRybKRbIQg,214
+preserves/error.py,sha256=1a018tblp3gw9qyEh-33Kl6YaDmt_LAlm9FcbUEwW-U,109
+preserves/path.py,sha256=zAb2daQ6UbaS1Ej595eUqAvVFxVaVvKroLavYVn-9tY,11779
+preserves/schema.py,sha256=ajRC27gEKCTswQarG3fPmKe-0Qf2fz6_f2ntOOYc0KE,14308
+preserves/test_preserves.py,sha256=X7VEp9mqgo2Rc-_8IDbrUdqbVEqzqxYNt35MUJDxAfM,13489
+preserves/text.py,sha256=Lz-L1gegRjnSfK-NjlOXO5ScvYY46w6uKAcal9pE9vk,13187
+preserves/values.py,sha256=a0OvtClb9pGRIzbEF8jH-_63cpouE1sVDfUzDNyI0Ns,9228
+preserves-0.7.0rc1.dist-info/METADATA,sha256=LU-_m6nNBoTl-JWlX3kPUBLfDB3BEBSQX7ByP9JVELM,582
+preserves-0.7.0rc1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+preserves-0.7.0rc1.dist-info/top_level.txt,sha256=xgFjfvm2n7THVOaqXYIGVBxLxFMtzoMH2R34ZLbZVzs,10
+preserves-0.7.0rc1.dist-info/RECORD,,
