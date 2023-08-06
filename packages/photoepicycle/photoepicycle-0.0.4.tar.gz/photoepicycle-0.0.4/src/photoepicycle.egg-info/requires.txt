@@ -1,0 +1,7 @@
+matplotlib
+numpy
+scikit-image
+opencv-python
+pycopy-copy
+networkx
+scikit-learn
