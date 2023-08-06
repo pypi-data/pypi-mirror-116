@@ -1,0 +1,13 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tg_bw_helper/__init__.py
+tg_bw_helper/__main__.py
+tg_bw_helper/bw_client.py
+tg_bw_helper.egg-info/PKG-INFO
+tg_bw_helper.egg-info/SOURCES.txt
+tg_bw_helper.egg-info/dependency_links.txt
+tg_bw_helper.egg-info/top_level.txt
