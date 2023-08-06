@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Athene/__init__.py
+src/Athene.egg-info/PKG-INFO
+src/Athene.egg-info/SOURCES.txt
+src/Athene.egg-info/dependency_links.txt
+src/Athene.egg-info/top_level.txt
