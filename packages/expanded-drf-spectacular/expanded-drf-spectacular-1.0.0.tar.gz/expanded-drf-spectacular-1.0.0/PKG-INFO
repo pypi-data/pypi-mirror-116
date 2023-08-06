@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: expanded-drf-spectacular
+Version: 1.0.0
+Summary: This library helps to create endpoints schema with OpenAPI V.3 with difference in request and response serializers.
+Home-page: UNKNOWN
+Author: Amin Payamfar
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
