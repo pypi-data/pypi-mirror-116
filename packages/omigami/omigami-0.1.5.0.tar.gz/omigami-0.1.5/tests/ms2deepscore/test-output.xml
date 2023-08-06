@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="3.982"><testcase classname="omigami.tests.ms2deepscore.test_ms2deepscore_integration" file="omigami/tests/ms2deepscore/test_ms2deepscore_integration.py" line="3" name="test_match_spectra_from_path_with_2_spectra" time="3.9538164138793945"></testcase></testsuite>
