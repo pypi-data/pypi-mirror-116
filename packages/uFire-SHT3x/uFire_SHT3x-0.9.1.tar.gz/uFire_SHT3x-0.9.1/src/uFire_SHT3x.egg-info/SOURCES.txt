@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+src/uFire_SHT3x/__init__.py
+src/uFire_SHT3x/shell.py
+src/uFire_SHT3x/uFire_SHT3x.py
+src/uFire_SHT3x.egg-info/PKG-INFO
+src/uFire_SHT3x.egg-info/SOURCES.txt
+src/uFire_SHT3x.egg-info/dependency_links.txt
+src/uFire_SHT3x.egg-info/top_level.txt

@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: uFire-SHT3x
+Version: 0.9.1
+Summary: Measure temperature and humidity with the Sensiron SHT30 sensor.
+Home-page: https://ufire.dev
+Author: Microfire LLC
+Author-email: contact@ufire.co
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/u-fire/uFire_SHT30/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+SHT30 Temperature and Humidity Sensor
+===
+
+Measure temperature and humidity with the Sensiron SHT30 sensor.
+
+#### Summary ℹ️
+
+- Temperature range of -0 to 65 C
+- Humidity range of 0 to 100 % RH
+- Temperature accuracy ± 0.3% C
+- Humidity accuracy ± 3% RH
+- I²C interface
+- 2.4 - 5.5 V voltage range
+ 
+### Use
+
+
+```cpp
+#include "uFire_SHT30.h"
+uFire::SHT30 sht30;
+
+Wire.begin();
+sht30.begin();
+float tempC = sht30.tempC;
+float tempF = sht30.tempF;
+float RH = sht30.RH;
+float vpd = sht30.vpd_kPa;
+float dew_pointC = sht30.dew_pointC;
+float dew_pointF = sht30.dew_pointF;
+```
+* * * 
+#### Ask a question 🤙
+
+*   [Discord](https://discord.gg/rAnZPdW)
+
+* * *
+### Buy One
+* [SHT30](https://ufire.co/buy/)
+
