@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "confluent-kafka==1.7.0"
+]
+install_requires = [
+   "confluent-kafka"
+]
+build-backend = "setuptools.build_meta"
