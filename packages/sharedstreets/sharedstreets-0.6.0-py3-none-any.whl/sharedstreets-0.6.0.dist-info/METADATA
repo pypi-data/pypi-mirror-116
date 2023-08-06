@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sharedstreets
+Version: 0.6.0
+Summary: Python implementation of SharedStreets Reference System
+Home-page: https://github.com/sharedstreets/sharedstreets-python
+Author: Kevin Webb, Denis Carriere, Danny Whalen, Michal Migurski
+License: MIT
+Keywords: sharedstreets nacto openstreetmap map graph street
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: protobuf
+Requires-Dist: ModestMaps
+Requires-Dist: uritemplate
+Requires-Dist: requests
+Requires-Dist: httmock
+Requires-Dist: mock
+Provides-Extra: dataframe
+Requires-Dist: geopandas ; extra == 'dataframe'
+Requires-Dist: mercantile ; extra == 'dataframe'
+Requires-Dist: Rtree ; extra == 'dataframe'
+Requires-Dist: Shapely ; extra == 'dataframe'
+Requires-Dist: pandas ; extra == 'dataframe'
+Requires-Dist: pyproj ; extra == 'dataframe'
+Requires-Dist: Fiona ; extra == 'dataframe'
+Requires-Dist: pytz ; extra == 'dataframe'
+Requires-Dist: numpy ; extra == 'dataframe'
+Requires-Dist: click-plugins ; extra == 'dataframe'
+Requires-Dist: cligj ; extra == 'dataframe'
+Requires-Dist: munch ; extra == 'dataframe'
+Requires-Dist: python-dateutil ; extra == 'dataframe'
+Provides-Extra: webserver
+Requires-Dist: flask ; extra == 'webserver'
+Requires-Dist: Flask-Cors ; extra == 'webserver'
+Requires-Dist: gunicorn ; extra == 'webserver'
+
+UNKNOWN
+
