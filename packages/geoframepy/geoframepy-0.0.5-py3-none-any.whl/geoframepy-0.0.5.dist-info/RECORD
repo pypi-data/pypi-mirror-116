@@ -1,0 +1,10 @@
+geoframepy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geoframepy/timeseries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geoframepy/timeseries/io_csv.py,sha256=5z8EEsZuSTcMAq0pFW-aNMy1uI5uMpyMe2h7vOn0yHs,5073
+geoframepy/whetgeo1d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geoframepy/whetgeo1d/grid_creator.py,sha256=-Gb1HggRUusvQCFYxHcLRduyswxZRgC_1wzRc1-caok,35655
+geoframepy/whetgeo1d/grid_to_netcdf.py,sha256=Qlw9puSG7XwD1DjMIYUFYRsuenZXvLIw2-tksOm6lIE,33993
+geoframepy-0.0.5.dist-info/METADATA,sha256=zeW_TcyHRR9wqV7FmH3xXfla7s8z7OlpF1Ayx5MYF90,941
+geoframepy-0.0.5.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+geoframepy-0.0.5.dist-info/top_level.txt,sha256=vrkrI0zX0fpWYNdAxbKZQJLDp50TpIbpcGa2Jh7JNHY,11
+geoframepy-0.0.5.dist-info/RECORD,,
