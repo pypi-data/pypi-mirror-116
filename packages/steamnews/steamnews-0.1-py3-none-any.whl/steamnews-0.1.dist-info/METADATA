@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: steamnews
+Version: 0.1
+Summary: Wrapper for the SteamNews Webapi
+Home-page: https://github.com/Kamigiri/steamnews
+Author: Mert Demirbilek
+Author-email: MertDemirbilek@outlook.de
+License: MIT
+Download-URL: https://pypi.org/project/steamnews/
+Keywords: steam,steamnews,Steam News
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+Wrapper for SteamNews from the SteamWebAPI
+
+# Description
+    
+This packages validates the input of either (or both) a steam appid or the name of the game and outputs a dict with the query result
+
+This package is still a work in progess and'll be updated in regular intervals.
+
+# Installation
+ 
+## Normal installation
+
+```bash
+pip install steamnews
+```
+
+## Development installation
+
+```bash
+git clone https://github.com/Kamigiri/steamnews
+cd steamnews
+pip install --editable 
+```
+
+# Change log
+
+## [0.1] - 15-08-2021
+
+### Added
+- `Steam.validate_input()`
+- `Steam.get_news()`
+
+### Changed
+
+
