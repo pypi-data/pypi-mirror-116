@@ -1,0 +1,10 @@
+anarchy/__init__.py,sha256=qULsrS433vxZHt37-zIkZmprx0OlYQ_egItyNCEPImA,448
+anarchy/_version.py,sha256=uXQC0HAlIgMlugUkeBCMyHqRXYQP03mrllcz5yfTur0,66
+anarchy/cohort.py,sha256=KhiygBLx7ZBGNbq5SK35ThR1VocItndwfp0iyu19pAw,20187
+anarchy/rng.py,sha256=hn4bWWjcFMq2O2cvl-aXzZxBJg6BAFK4xTkqhozpgug,9889
+anarchy/test.py,sha256=LwwvhR9CS3_8BVex44v8XqHTfGPxAFuh4sWesHSgiwg,29800
+anarchy/viz.py,sha256=jm4hfO0N62l6FD-kcfFt84l6SbRhBKSEessbI98FF8M,11308
+anarchy-1.1.dist-info/METADATA,sha256=NfQWyusjb6EdDIwPYeqIvK8rN8wjQbke1RAXmTjQUwI,4419
+anarchy-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+anarchy-1.1.dist-info/top_level.txt,sha256=aCoJ-_r5R6ejhceZvx6ynrscW6SIDN8XopGmFHQPzPc,8
+anarchy-1.1.dist-info/RECORD,,
