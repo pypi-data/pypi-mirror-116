@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: yakh
+Version: 0.0.5
+Summary: Yet Another Kafka log Handler.
+Home-page: https://github.com/jmcdon03/yakh
+Author: Jonathan McDonough
+Author-email: jonathan.mcdonough@tufts.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jmcdon03/yakh/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Yet Another Kafka log Handler
+
+This project is currently in BETA and not finished!
+
+## Building a new pip package
+
+First we will build the next version for pypi test and if that works without problems, then it will be built for pypi production
+
+1. Open setup.cfg and increment the version
+2. Build the pypi wheel and source package: 
+
+```
+$ python3 -m build
+```
+
+3. Upload to pypi test:
+
+```
+$ python3 -m twine upload --skip-existing --repository testpypi dist/*
+```
+
+4. If the upload to test works, then upload to pypi production
+
+```
+$ python3 -m twine upload --skip-existing dist/*
+```
+
+
+
+
+

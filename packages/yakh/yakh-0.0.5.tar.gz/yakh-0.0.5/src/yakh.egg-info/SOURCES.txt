@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yakh/__init__.py
+src/yakh/kafka_handler.py
+src/yakh/kafka_producers.py
+src/yakh.egg-info/PKG-INFO
+src/yakh.egg-info/SOURCES.txt
+src/yakh.egg-info/dependency_links.txt
+src/yakh.egg-info/requires.txt
+src/yakh.egg-info/top_level.txt
