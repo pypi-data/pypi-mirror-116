@@ -1,0 +1,3 @@
+[console_scripts]
+arginfer = arginfer.__main__:main
+

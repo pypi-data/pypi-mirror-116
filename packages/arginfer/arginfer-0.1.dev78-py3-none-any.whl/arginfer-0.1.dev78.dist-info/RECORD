@@ -1,0 +1,16 @@
+arginfer/__init__.py,sha256=qUFxQ4ih4pN0fjULXn9nqPPvo4MiNokdnp6F94x80gg,363
+arginfer/__main__.py,sha256=U_HzgzuGypb4kFFlQDlR236A8Tz4sgoyVwgQYdtrWdA,904
+arginfer/_version.py,sha256=2Rhetj8LSmjvMAscjjlJ-XfrJORv8B-t5ozEBhiU9Gk,152
+arginfer/argbook.py,sha256=Oapj4pbEi8ypXmppIFUGSNmmyfixhZ04vBh6mKR0YjE,41587
+arginfer/cli.py,sha256=uU04oevS7uq6_j4R2kNCyunap1SRZ7UTeGFGa0HZdRg,5375
+arginfer/initialARG.py,sha256=1q62k6HeMS5PYSbLc1pq-9i2sNUOPYuDMuZMNdpjYAw,14850
+arginfer/mcmc.py,sha256=1_b_ntMu07koCpXX0bmeBHLqGGjPB9bLBKcC_KUU1zs,158679
+arginfer/plots.py,sha256=_ueoE68FOBhDggGbHZBgbpx1GcOnD6k6cPZRvpCJ4l4,4797
+arginfer/provenance.py,sha256=W1kBkQ7iRXzTNTKZI2bBGb1XHUdiwC6_JxgFUxrrk6c,324
+arginfer/treeSequence.py,sha256=rgFeTO_NuCPrI5R3HCpBCZL28VPkNZxDBwiRG4zAjzg,13868
+arginfer-0.1.dev78.dist-info/LICENSE,sha256=vG0r0Iuc_egmfFWMFEjTPQ-X0u9YbqCWAhMTtbQBkjw,1069
+arginfer-0.1.dev78.dist-info/METADATA,sha256=VjQS7TffEO32SIlf_uM-Vkfx81RS-TE8cbIe26QOgPQ,2146
+arginfer-0.1.dev78.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+arginfer-0.1.dev78.dist-info/entry_points.txt,sha256=ODTAw2RiNH0RkEYaQ9Qlm6B-TcDAEw2GZlnOmKx7_j4,53
+arginfer-0.1.dev78.dist-info/top_level.txt,sha256=vcXbl7zqfxw9davSHWLlc1pbFPhj7Z5ySuvsJ153Gts,9
+arginfer-0.1.dev78.dist-info/RECORD,,
