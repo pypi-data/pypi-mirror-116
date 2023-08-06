@@ -1,0 +1,3 @@
+pymodaq>=2.0
+pyserial
+pyvisa
