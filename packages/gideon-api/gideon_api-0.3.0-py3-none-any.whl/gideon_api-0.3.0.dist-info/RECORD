@@ -1,0 +1,15 @@
+gideon_api/__init__.py,sha256=F5DQL44maSGdJduCJkQVYj5T62LVTbcucTwCE2N7308,2711
+gideon_api/lookup_id_code.py,sha256=S9PkyIHve4-2RICVjz9Yv7CeVxG_SB0dXWEGVrLjU3k,3249
+gideon_api/diseases/__init__.py,sha256=sLizAUAnmPxLtayJ73Wnt3DyBCta4YsCNPmjw78az1M,469
+gideon_api/diseases/filter.py,sha256=8_ZQ-SXsz69UKO5rswMpHE7tzASk6wLI5ZuR5yaceZ4,2399
+gideon_api/diseases/outbreaks.py,sha256=xmFSTlxMkz5IjZGmox0T_ghSTOUQQxPMd0NQ8PKotOQ,3032
+gideon_api/query/__init__.py,sha256=11xSLl9vLDB8ySXe95m_B2-wcGPEW3mO3RqqArT7Ge0,47
+gideon_api/query/api_wrapper.py,sha256=hxeFeh9e8yYUlvJfaCHri97qtRZchWxuw0syvT30M6s,5150
+gideon_api/query/cache.py,sha256=7lJGYxQbBs17GltamFDxG4M0IIMdin8_6_NSFq94Vj8,6156
+gideon_api/utilities/__init__.py,sha256=zabxPm93vGc0nBxPWHkC--JBP5eErwhTItt7YI_xHFg,45
+gideon_api/utilities/geospatial.py,sha256=NzHJEbtbnX56vFcyZBrllaRXmUOir8p7JES3W-hkABQ,1600
+gideon_api-0.3.0.dist-info/LICENSE,sha256=H4cl-OK-jHIDwudOw4TtUyFZAVU_W2ZheCYTm81OpuY,16987
+gideon_api-0.3.0.dist-info/METADATA,sha256=-hQHMU3i3x0dcQ5jCUuvPt0v7yoazCo7blEPWCMqgyI,5019
+gideon_api-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gideon_api-0.3.0.dist-info/top_level.txt,sha256=LouYBWDMI62SuJ6sUoa5cFlxtiPY7OZI0dSd9zYVgp0,11
+gideon_api-0.3.0.dist-info/RECORD,,
