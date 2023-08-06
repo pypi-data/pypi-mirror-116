@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: emojins
+Version: 0.0.2
+Summary: this is a package that addes emoji to text.
+Home-page: UNKNOWN
+Author: Ibuki Yoshida
+Author-email: ibuki042004@gmail.com
+License: MIT
+Description: this is a package that addes emoji to text.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (17/08/2020)
+        -------------------
+        - First Release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
