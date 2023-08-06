@@ -1,0 +1,9 @@
+README.md
+setup.py
+beunique/__init__.py
+beunique/first.py
+beunique.egg-info/PKG-INFO
+beunique.egg-info/SOURCES.txt
+beunique.egg-info/dependency_links.txt
+beunique.egg-info/requires.txt
+beunique.egg-info/top_level.txt
