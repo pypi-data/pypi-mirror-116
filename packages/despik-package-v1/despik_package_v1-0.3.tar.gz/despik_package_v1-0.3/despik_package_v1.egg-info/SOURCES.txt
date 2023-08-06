@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+despik_package_v1/despik_package_v1.py
+despik_package_v1/test_package.py
+despik_package_v1.egg-info/PKG-INFO
+despik_package_v1.egg-info/SOURCES.txt
+despik_package_v1.egg-info/dependency_links.txt
+despik_package_v1.egg-info/requires.txt
+despik_package_v1.egg-info/top_level.txt
