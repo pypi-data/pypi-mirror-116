@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+cwt_demo.ipynb
+demo_signal.csv
+setup.py
+CWT_MP/__init__.py
+CWT_MP/cwt.py
+CWT_MP.egg-info/PKG-INFO
+CWT_MP.egg-info/SOURCES.txt
+CWT_MP.egg-info/dependency_links.txt
+CWT_MP.egg-info/requires.txt
+CWT_MP.egg-info/top_level.txt
