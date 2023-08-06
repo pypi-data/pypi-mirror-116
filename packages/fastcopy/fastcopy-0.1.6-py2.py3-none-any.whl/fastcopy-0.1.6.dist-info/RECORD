@@ -1,0 +1,12 @@
+fastcopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcopy/client.py,sha256=GcYA4DFF2KN1ZYelB7cxx5ukUsATe4w06iwx4ic1bhU,14881
+fastcopy/config.py,sha256=pGgVeuUtTezhqwNiRSKMK0qV_dcwtDs0h3GpwP1uO6c,162
+fastcopy/network.py,sha256=oSVPorULY7HI3vsaHdkoMG7lTL-DQl_nju54w3Bt0_4,8854
+fastcopy/server.py,sha256=8fPTX4irJMCXRONy2AVMSM07RnPlAbTxjri_tYAfrNc,6789
+fastcopy/transfer.py,sha256=S4ske-xZvVDS-SgygX07KCiVcSWk_hqogwYl6iVBlFU,19675
+fastcopy-0.1.6.dist-info/LICENSE,sha256=4Bh5YCBc9ZOqME_6rqbrWdzzgJnwEC1Ehvbn_nRGe1w,1064
+fastcopy-0.1.6.dist-info/METADATA,sha256=5SCmJEn29bhRQQfdKyFA-MVoPRtx_cP5Efb1cxcHiSs,5500
+fastcopy-0.1.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+fastcopy-0.1.6.dist-info/entry_points.txt,sha256=VpTjPMA9GVpbljIt6xVy_OvesK29DCj98lbYLsE6WMA,74
+fastcopy-0.1.6.dist-info/top_level.txt,sha256=_vWrUUN4hbEAreaUii9yHHGzisHyTJx3Wz7ZjMZExtg,9
+fastcopy-0.1.6.dist-info/RECORD,,
