@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+tensor_type/__init__.py
+tensor_type/tensor_type.py
+tensor_type.egg-info/PKG-INFO
+tensor_type.egg-info/SOURCES.txt
+tensor_type.egg-info/dependency_links.txt
+tensor_type.egg-info/requires.txt
+tensor_type.egg-info/top_level.txt
