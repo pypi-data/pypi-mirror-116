@@ -1,0 +1,9 @@
+pydantic_mongo/__init__.py,sha256=NY6fMwdHBbhsSgT1QL7z53hN5J46JqZH3Zqjg_X2hl4,100
+pydantic_mongo/abstract_repository.py,sha256=cawTvXMx-0X6QtcbQmwWG7-1ZLBMamNqB_d0QwJKSvo,2578
+pydantic_mongo/fields.py,sha256=uL88638gg6D0ch1AkxgjF9hFIlkP78muDHtOaSvEbmU,399
+pydantic_mongo-0.0.1.dist-info/LICENSE.md,sha256=E4D3lTqLwguC2-khhhCC2BSraZiTHoBep63zvEpWpfY,1118
+pydantic_mongo-0.0.1.dist-info/METADATA,sha256=kMuubmwy-vZdAL-NgjiSzJnpyvJk1FZp7t_vI22GLRg,2089
+pydantic_mongo-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pydantic_mongo-0.0.1.dist-info/entry_points.txt,sha256=vtaohVzgjHcHHOyGw2JobdpJQTcOZCtcMvUS4K4VIzg,69
+pydantic_mongo-0.0.1.dist-info/top_level.txt,sha256=K4KFxGaw7UGpLEBDD6I5OXZ4P0ROjM7fOienqHVA-OI,15
+pydantic_mongo-0.0.1.dist-info/RECORD,,
