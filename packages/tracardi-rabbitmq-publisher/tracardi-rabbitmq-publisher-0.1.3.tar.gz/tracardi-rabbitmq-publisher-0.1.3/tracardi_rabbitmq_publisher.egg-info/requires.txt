@@ -1,0 +1,3 @@
+tracardi_plugin_sdk
+kombu~=5.1.0
+pydantic~=1.8.2
