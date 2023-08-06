@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: great-text
+Version: 0.1.3
+Summary: Add font and color to your Python text.
+Home-page: https://github.com/DeepakDarkiee/great-text.git
+Keywords: text
+Author: Deepak Patidar
+Author-email: info.deepakpatidar@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/DeepakDarkiee/great-text.git
+Description-Content-Type: text/markdown
+
+# Great Text 
+
+This package enables you to print great text like below
+![image](https://github.com/DeepakDarkiee/great-text/blob/master/great.png?raw=True).
+
+To install this package, use 
+
+```bash
+pip install great-text
+```
+
