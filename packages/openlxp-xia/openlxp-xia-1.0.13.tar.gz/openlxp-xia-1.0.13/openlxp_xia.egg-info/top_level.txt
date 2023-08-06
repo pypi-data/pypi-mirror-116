@@ -1,0 +1,5 @@
+build
+dist
+openlxp_django_xia
+openlxp_xia
+openlxp_xia_project
