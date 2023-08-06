@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+easy_tfrecord.egg-info/PKG-INFO
+easy_tfrecord.egg-info/SOURCES.txt
+easy_tfrecord.egg-info/dependency_links.txt
+easy_tfrecord.egg-info/top_level.txt
