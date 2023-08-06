@@ -1,0 +1,8 @@
+README.md
+setup.py
+str_analysis.egg-info/PKG-INFO
+str_analysis.egg-info/SOURCES.txt
+str_analysis.egg-info/dependency_links.txt
+str_analysis.egg-info/entry_points.txt
+str_analysis.egg-info/requires.txt
+str_analysis.egg-info/top_level.txt
