@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: evaluationRecall
+Version: 0.3
+Summary: evaluationRecall
+Home-page: https://github.com/jzhang-0/Quantization-Evaluation
+Author: jzhang
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jzhang-0/Quantization-Evaluation/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+```
+pip install evaluationRecall
+```
+
+see [demo](examples/demo.ipynb)
+
+
