@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+WHPython.egg-info/PKG-INFO
+WHPython.egg-info/SOURCES.txt
+WHPython.egg-info/dependency_links.txt
+WHPython.egg-info/top_level.txt
+example_pkg/__init__.py
