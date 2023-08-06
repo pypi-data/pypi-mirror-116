@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyexeqjy
+Version: 0.1.0
+Summary: This is a cli for developer of remote vehicle side
+Author: qiujingyu
+Author-email: qiujingyu@momenta.ai
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
