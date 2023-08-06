@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "pfzy"
+version = "0.1.0"
+description = "Python port of the fzy fuzzy string matching algorithm"
+authors = ["Kevin Zhuang <kevin7441@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Sphinx = {version = "^4.1.2", optional = true}
+furo = {version = "^2021.8.17-beta.43", optional = true}
+myst-parser = {version = "^0.15.1", optional = true}
+sphinx-autobuild = {version = "^2021.3.14", optional = true}
+sphinx-copybutton = {version = "^0.4.0", optional = true}
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.14.0"
+pydocstyle = "^6.1.1"
+isort = "^5.9.3"
+black = "^21.7b0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pytest-asyncio = "^0.15.1"
+coveralls = "^3.2.0"
+
+[tool.poetry.extras]
+docs = ["Sphinx", "furo", "myst-parser", "sphinx-autobuild", "sphinx-copybutton"]
+
+[tool.isort]
+profile = "black"
+
+[tool.pydocstyle]
+convention = "pep257"
+add_ignore = "D104"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

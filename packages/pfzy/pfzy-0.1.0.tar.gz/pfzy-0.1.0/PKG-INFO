@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pfzy
+Version: 0.1.0
+Summary: Python port of the fzy fuzzy string matching algorithm
+Author: Kevin Zhuang
+Author-email: kevin7441@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=4.1.2,<5.0.0); extra == "docs"
+Requires-Dist: furo (>=2021.8.17-beta.43,<2022.0.0); extra == "docs"
+Requires-Dist: myst-parser (>=0.15.1,<0.16.0); extra == "docs"
+Requires-Dist: sphinx-autobuild (>=2021.3.14,<2022.0.0); extra == "docs"
+Requires-Dist: sphinx-copybutton (>=0.4.0,<0.5.0); extra == "docs"
