@@ -1,0 +1,15 @@
+zh_rasa/__init__.py,sha256=1BWY6wMK80ah8Dn3Z57Vqwfcbzbl6XXpnQ3VZGSpSzQ,184
+zh_rasa/version.txt,sha256=hcDSfRF1sxNWvmVoH2Xj9Owc7hIOAcpFg-NlArrDJ_w,6
+zh_rasa/classifiers/__init__.py,sha256=LXXtP8odpwws2AvJarmQkkRV4BoyBBtZ7iYiX6j1cu4,77
+zh_rasa/classifiers/tfnlu_classifier.py,sha256=Tdl4jdriCFmp8go8hGNrkQTUhHEAELvq5MHEpH6-pXo,3180
+zh_rasa/extractors/__init__.py,sha256=pzJCNqkDSS8rcVVCWndN2FGZZ85Kl8MUlJCmOurKJN0,74
+zh_rasa/extractors/tfnlu_extractor.py,sha256=hog1zj3npkSsXW3nkJ1vwhvsocI5k-9VY0S5p7ZvOa0,3834
+zh_rasa/tokenizers/__init__.py,sha256=HOps9CwgLhXC9I47310uxzVvGfdyqPep_Rx1w0uTxYU,70
+zh_rasa/tokenizers/bert_tokenizer.py,sha256=hoBAdFYIofjWutdi02WUX1z-y1M6QEC6iKK16cFppnU,1297
+zh_rasa/tokenizers/test.py,sha256=_4YMl0-6l5ofhgLxf_Tx2JetQ45630AiXkgLnG7xJCU,218
+zh_rasa/tokenizers/vocab.txt,sha256=RbusazQcMZrcmKUyUyiC6Rqc78AymqV7rJrnYcJ7KRw,109540
+zh_rasa-0.0.10.dist-info/LICENSE,sha256=1H_0zU8bSTSmb5dD5N0yzIxRfbLTgW-t34WJ1dSOKpg,1066
+zh_rasa-0.0.10.dist-info/METADATA,sha256=XQMCKgerZNxBM2HwYV71-qNa12gNDC8yte5Li0A9KfI,370
+zh_rasa-0.0.10.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+zh_rasa-0.0.10.dist-info/top_level.txt,sha256=UGe_8gRu4y0hVbXvtVXAHqa1CYy5G1Sn1fPQ_e7RZJY,8
+zh_rasa-0.0.10.dist-info/RECORD,,
