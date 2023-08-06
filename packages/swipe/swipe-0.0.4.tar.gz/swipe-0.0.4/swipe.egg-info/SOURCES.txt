@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+swipe/__init__.py
+swipe.egg-info/PKG-INFO
+swipe.egg-info/SOURCES.txt
+swipe.egg-info/dependency_links.txt
+swipe.egg-info/not-zip-safe
+swipe.egg-info/requires.txt
+swipe.egg-info/top_level.txt
