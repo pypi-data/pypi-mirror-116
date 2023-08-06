@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas
+celluloid
+importlib_resources
+py2store
+lined
+argh
+graze
