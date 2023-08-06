@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+conflictwatch/__init__.py
+conflictwatch/__main__.py
+conflictwatch/__version__.py
+conflictwatch/cli.py
+conflictwatch.egg-info/PKG-INFO
+conflictwatch.egg-info/SOURCES.txt
+conflictwatch.egg-info/dependency_links.txt
+conflictwatch.egg-info/entry_points.txt
+conflictwatch.egg-info/top_level.txt

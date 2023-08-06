@@ -1,0 +1,3 @@
+[console_scripts]
+conflictwatch = conflictwatch.cli:main
+
