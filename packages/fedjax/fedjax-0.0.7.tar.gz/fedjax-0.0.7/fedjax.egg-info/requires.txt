@@ -1,0 +1,9 @@
+absl-py
+dm-haiku
+immutabledict
+jax
+jaxlib
+msgpack
+optax
+requests
+tensorflow-federated
