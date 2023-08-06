@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cfelpyutils
+Version: 1.0.1
+Summary: Utility functions and classes for CFEL software projects
+Home-page: https://github.com/ondateam/cfelpyutils
+Author: OnDA Team
+Author-email: valerio.mariani@desy.de
+License: GNU General Public License v3.0
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: future
+Requires-Dist: numpy
+
+
+CfelPyUtils is a library of several utility functions and
+classes used by several software projects developed at the
+Center For Free Electron Laser Science (CFEL) in Hamburg.
+
+

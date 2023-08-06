@@ -1,0 +1,9 @@
+cfelpyutils/__init__.py,sha256=edQTHxZIZEXTMktwtO62gqYXsArx2_pYZBqTXvdA96M,861
+cfelpyutils/crystfel_utils.py,sha256=w700VReIviHbUOfxC9qRNAo8riihnb94awUkMDC0gw8,23403
+cfelpyutils/geometry_utils.py,sha256=_ITPanDSiHO1rDkaqt_ULA6UJQ43WK5sRpqASULt7ns,8635
+cfelpyutils/named_tuples.py,sha256=vI_5NFuT5tENhgnBx5tTpKnjJeJD6rzcYubzuhGkARk,1493
+cfelpyutils-1.0.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cfelpyutils-1.0.1.dist-info/METADATA,sha256=LvTPixJCGBw_tpqwPnenOSqbgGPhRZwBw56x3VKUHmU,941
+cfelpyutils-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cfelpyutils-1.0.1.dist-info/top_level.txt,sha256=aULh1be5Ffe8a_hNEUyyBNielULuCloYmW4-Xscq30M,12
+cfelpyutils-1.0.1.dist-info/RECORD,,
