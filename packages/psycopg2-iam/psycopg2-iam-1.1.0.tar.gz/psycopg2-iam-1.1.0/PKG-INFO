@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: psycopg2-iam
+Version: 1.1.0
+Summary: Custom Connection Factory class (RDS, Redshift) with build-in IAM authentication and SSL bundle downloader support.
+Home-page: https://github.com/epsyhealth/psycopg2-iam
+License: MIT
+Keywords: aws,rds,redshift
+Author: Epsy Engineering
+Author-email: engineering@epsyhealth.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Requires-Dist: boto3 (>=1.14,<2.0)
+Requires-Dist: psycopg2-binary (>=2.8,<3.0)
+Project-URL: Repository, https://github.com/epsyhealth/psycopg2-iam
+Description-Content-Type: text/markdown
+
+# psycopg2-iam
+
+Custom Connection Factory class (RDS, Redshift) with build-in IAM authentication and SSL bundle downloader support.
+
+## Installation
+
+Install package
+
+```
+poetry add psycopg2-iam
+```
+
+## Usage
+
+### Create connection directly from secret
+```python
+from psycopg2_iam import connect
+
+conn = connect(secret="secretId")
+```
+
+### Using connect function 
+
+```python
+from psycopg2_iam import connect
+connect(dsn="...")
+```
+
+### Pass connection factory class to psycopg2.connect()
+
+```python
+import psycopg2 
+from psycopg2_iam import IAMConnection
+
+psycopg2.connect(dsn="...", connection_factory=IAMConnection)
+```
+
+### Create DSN from AWS generated RDS secret
+
+```python
+import boto3
+import json
+import psycopg2 
+from psycopg2_iam import IAMConnection, dsn_from_rds_secret
+
+secrets = boto3.client("secretsmanager")
+db_secret = json.loads(secrets.get_secret_value(SecretId="/dynks/rds/readonly").get("SecretString"))
+
+psycopg2.connect(dsn=dsn_from_rds_secret(db_secret), connection_factory=IAMConnection)
+```
+
