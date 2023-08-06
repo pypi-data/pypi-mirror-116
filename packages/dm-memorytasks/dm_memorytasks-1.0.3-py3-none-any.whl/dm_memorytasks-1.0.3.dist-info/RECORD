@@ -1,0 +1,10 @@
+dm_memorytasks/__init__.py,sha256=ksCyC4ypkeRNG6iuMXS4Cvca8o3KpMiyMJ7lLE-xPeo,1074
+dm_memorytasks/_load_environment.py,sha256=iECi0y756g_bqHDn5QJho4mPe3FHrvPX_KS8yZg7dQc,13997
+dm_memorytasks/_version.py,sha256=gYgfJnl2S_3im8MkYgQk_EDNDh4vzfHYqlM2-Yr4fnE,867
+dm_memorytasks/load_from_disk_test.py,sha256=P_fHopUGy_Xnz8PTen5IxF9ed8dUrvGPJAXbRSHkb7w,1710
+dm_memorytasks/load_from_docker_test.py,sha256=2x53WqxzEyrXpNEs9eUW4JhJCoxeaRjgvi5HuXTSRqs,1815
+dm_memorytasks-1.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+dm_memorytasks-1.0.3.dist-info/METADATA,sha256=Qm-6OXJk4vBx3Kk5Hrb-ka1069_7nGHrwl7fXUf2Mxo,1040
+dm_memorytasks-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dm_memorytasks-1.0.3.dist-info/top_level.txt,sha256=3iZ5TJYCfAFiYR-UcXTD7aeGVMWn-qqIYBs4UfeZt98,15
+dm_memorytasks-1.0.3.dist-info/RECORD,,
