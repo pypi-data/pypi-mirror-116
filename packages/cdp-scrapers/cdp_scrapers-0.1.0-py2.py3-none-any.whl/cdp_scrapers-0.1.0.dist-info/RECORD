@@ -1,0 +1,11 @@
+cdp_scrapers/__init__.py,sha256=USJPtSFKMf8bde0gs0ok_TXsbwDdy3y3f5KMqUE23Js,306
+cdp_scrapers/legistar_utils.py,sha256=UbAmvNd4YmevVdOt9AV_ORZ_ngpLz6yEKR2wSTYD2ao,36980
+cdp_scrapers/instances/__init__.py,sha256=BZCYsDPi55_qjwigYxTFyQrQkz3-xOClbv-Eftar-5o,99
+cdp_scrapers/instances/empty.py,sha256=YfRGX3jSm2L24W-G3WOND3j_JQgHwHTFBcEIPD3sCbM,983
+cdp_scrapers/instances/seattle.py,sha256=98MoLsCKW8LHr5p9iNP-kCLO7muhBALSKbKW6h1RyEI,5942
+cdp_scrapers-0.1.0.dist-info/LICENSE,sha256=I7Qg69n-ion9W5NQjcsvz_oX5UsNDYM4HIx-Yu8i-8Q,1092
+cdp_scrapers-0.1.0.dist-info/METADATA,sha256=s6ySjlKESBZEVIrn8ZLzN7qrqCDkkQZ3L2eIqw1uixo,5536
+cdp_scrapers-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+cdp_scrapers-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+cdp_scrapers-0.1.0.dist-info/top_level.txt,sha256=vn1j1n6ziDDSSaIVSUwNGtbifdfgPhb8H32otg7Y0rU,13
+cdp_scrapers-0.1.0.dist-info/RECORD,,
