@@ -1,0 +1,17 @@
+aiocouch/__init__.py,sha256=eeB7GSNOx9qd0kNXBeos-pgJXp6ZpzSYEyS4gT8zkVE,2226
+aiocouch/attachment.py,sha256=hZYkfpt4NmgnhQAooqgFRPPtILPpsp1bcba3auNWuGA,3578
+aiocouch/bulk.py,sha256=SMPVgfY2LLS0HHqDNaxftqamV_viOEsnG9L2bPpwqjU,8455
+aiocouch/couchdb.py,sha256=Yt8WHyj4WL-xi3Er5S89C6XZRPy0B7X13vZnW1LJXOo,4730
+aiocouch/database.py,sha256=w6VL6B4aNkPL4vcgWOr0XC9_efAc2tSF_xcGRc4W1q8,10917
+aiocouch/design_document.py,sha256=dbZZEsYf9paltzsVkjomz758AVTMP2VE79LUcq9TdWw,3147
+aiocouch/document.py,sha256=JXsAGXE_fh0-S3o51bQCgPtAR_qIJTT4TN66Vu0ZBMU,13322
+aiocouch/exception.py,sha256=ZfoHwhF9peptsDCZLFjcmMXWHufhP78PDAhz_FoTYjg,5414
+aiocouch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocouch/remote.py,sha256=nXM_WHWdQqJHAgTRJNHiyKpzN7nnm5-LbpMl5H2PGao,17270
+aiocouch/request.py,sha256=ngVpNpTM-bwgoLm4Iwz2deEibXfEBZd3GSU0wILL3lw,3328
+aiocouch/view.py,sha256=Qfpv2n_atBO4yp6zWXCtYdnbbqVFd9LvJfn44iznbo4,5367
+aiocouch-2.1.0.dist-info/LICENSE,sha256=s8AdnLMudgvcW2Q3IuBtmwThs0UvQ34kXVMEf3UM_uo,1515
+aiocouch-2.1.0.dist-info/METADATA,sha256=vJBOFrH0V4cVLT_wdvgdbk3FtLzsfspl57oG1rkvYJ8,4641
+aiocouch-2.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aiocouch-2.1.0.dist-info/top_level.txt,sha256=MQ7yAh_Q-dv7Dd5-4Q4igoKwZz5tkheSdBWIT2tUFGQ,9
+aiocouch-2.1.0.dist-info/RECORD,,
