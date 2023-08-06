@@ -1,0 +1,12 @@
+numpy
+nbsphinx
+tensorflow
+sklearn
+sphinx_rtd_theme
+sphinx-copybutton
+matplotlib
+tqdm
+IPython
+pandoc
+numpydoc
+pre-commit
