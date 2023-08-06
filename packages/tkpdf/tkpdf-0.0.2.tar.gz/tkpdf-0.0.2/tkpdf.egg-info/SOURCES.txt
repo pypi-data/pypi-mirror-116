@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tkpdf/__init__.py
+tkpdf/pdfview.py
+tkpdf.egg-info/PKG-INFO
+tkpdf.egg-info/SOURCES.txt
+tkpdf.egg-info/dependency_links.txt
+tkpdf.egg-info/requires.txt
+tkpdf.egg-info/top_level.txt
