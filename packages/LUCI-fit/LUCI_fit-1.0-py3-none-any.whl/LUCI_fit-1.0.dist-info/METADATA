@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: LUCI-fit
+Version: 1.0
+Summary: A data analysis pipeline for SITELLE data cubes
+Home-page: https://github.com/crhea93/LUCI
+Author: Carter Rhea
+Author-email: carter.rhea@umontreal.ca
+License: MIT
+Project-URL: Documentation, https://crhea93.github.io/LUCI/index.html
+Project-URL: Tracker, https://github.com/crhea93/LUCI/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+UNKNOWN
+
