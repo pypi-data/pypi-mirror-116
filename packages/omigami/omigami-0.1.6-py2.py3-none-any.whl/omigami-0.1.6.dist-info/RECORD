@@ -1,0 +1,14 @@
+omigami/__init__.py,sha256=71kprJt4thFFxY0C5WH6fwwQ1WET4zKlXyCdI-vA3LI,449
+omigami/_version.py,sha256=0kmRDXkXpZzBzqLNsYmgxAK4h8j0hykXihOme8yoN8o,497
+omigami/config.py,sha256=K7gV-WI3fHJVxGpFKjleqABSMI3JnF5kJI5QjSlIrNo,188
+omigami/config_default.yaml,sha256=TKkagjJH80OvuMaDOPeAeOKNMiFEwqNihkyCrlezpSs,153
+omigami/endpoint.py,sha256=HHe0HlIlCcosIq6RfAgb02N4_KHCgAjLfLd8TpgBg5o,7066
+omigami/ms2deepscore.py,sha256=UQGMvAj8YmDlBLY0R6l1JOooDlTPnhE_PE0MTKod-U4,2089
+omigami/plotting.py,sha256=2_VgXKAb9QYL7Gi3Dlk2w1Ixek0CqIwl3cqUXd_vIIo,7978
+omigami/spec2vec.py,sha256=1Wdo8tiuWJUDOTSbOmHHMukz1qGCeRzpsPlT89DMZ-w,2039
+omigami-0.1.6.dist-info/LICENSE,sha256=iMPQ66bTmXeKwFYMtMQeJx9Xund3OGWcZxIqZF-A5jE,1076
+omigami-0.1.6.dist-info/METADATA,sha256=DR9PW1tjmaOOeqyDNbiDb63Ljs07KKSbJKhtsa5l9Aw,982
+omigami-0.1.6.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+omigami-0.1.6.dist-info/entry_points.txt,sha256=z-Mr0Hx1LqSzUVUTlbbkUvSrUCg4lyX1gF9Mc8c25X8,46
+omigami-0.1.6.dist-info/top_level.txt,sha256=taaiQXChcuFFMHllVw9j8pFq2QMjKvfFYn8931ierXI,8
+omigami-0.1.6.dist-info/RECORD,,
