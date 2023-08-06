@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hy-tools-lite
+Version: 1.0
+Summary: HyTools: Hyperspectral image processing library
+Home-page: https://github.com/EnSpec/hytools-lite
+Author: Adam Chlus
+Author-email: UNKNOWN
+License: GNUv3
+Platform: UNKNOWN
+Requires-Dist: h5py
+Requires-Dist: numpy
+
+UNKNOWN
+
+
