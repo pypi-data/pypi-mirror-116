@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyqif/__init__.py
+pyqif/hyper_calc.py
+pyqif/latex_converter.py
+pyqif.egg-info/PKG-INFO
+pyqif.egg-info/SOURCES.txt
+pyqif.egg-info/dependency_links.txt
+pyqif.egg-info/entry_points.txt
+pyqif.egg-info/requires.txt
+pyqif.egg-info/top_level.txt
