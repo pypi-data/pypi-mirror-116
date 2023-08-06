@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+stelspec/__init__.py
+stelspec/columns.py
+stelspec/core.py
+stelspec.egg-info/PKG-INFO
+stelspec.egg-info/SOURCES.txt
+stelspec.egg-info/dependency_links.txt
+stelspec.egg-info/requires.txt
+stelspec.egg-info/top_level.txt
