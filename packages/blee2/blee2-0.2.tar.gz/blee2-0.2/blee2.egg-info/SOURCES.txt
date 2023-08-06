@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+blee2/__init__.py
+blee2.egg-info/PKG-INFO
+blee2.egg-info/SOURCES.txt
+blee2.egg-info/dependency_links.txt
+blee2.egg-info/not-zip-safe
+blee2.egg-info/top_level.txt
