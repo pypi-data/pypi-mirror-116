@@ -1,0 +1,93 @@
+# Include File
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+* While using Gitbook, I faced some challenges below
+
+1. Some information (ex: setting up git command) might come up in multiple documentation
+    * Try [Global Include](test/global)
+1. Organize include contents more intuitively
+    * Try [Stem Include](test/stem)
+1. Need table of contents page of entire gitbook
+    * Try [Global Include](test/toc)
+
+## Github CI
+
+* This pipeline will push to deploy branch
+
+```yml
+# .github/workflows/main.yml
+name: Deploy to deploy branch with include_file
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install include_file
+      - name: Include File
+        run: |
+          python -m include_file -u $GITHUB_ACTOR -y SUMMARY.md -d deploy -t README.md --stem
+
+      # For deployment add following lines
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: "Committed by seanhwangg/include_file"
+          pull_strategy: NO-PULL
+          branch: deploy
+          push: origin deploy --force -u
+```
+
+## Flags
+
+* user
+  * -u: github user id used for [link](#link) ([ex] seanhwangg)
+
+* glob
+  * -g: Which glob files to include ([ex] **"\*\*/\*"**, **/*.md)
+
+* path
+  * -p: Where to look for include file ([ex] **./.include-file/**)
+
+* stem
+  * -s: Use stem of markdown to overwrite path ([ex] **False**)
+  * includes for `REAMD.md` are stored in `README/include.txt`
+
+* validate
+  * -v: Whether to fail CI in case of include error ([ex] **True**)
+
+## Gitbook Only Flags
+
+> Note: These are completely optional for [Gitbook](https://gitbook.com/) users
+
+* deploy_branch
+  * -d: Change deploy_branch of gitbook ([ex] **"deploy"**)
+
+* url_path
+  * -url: Change url of includes ([ex] **<https://seanhwangg.gitbook.io/>**)
+
+* table_of_contents
+  * -toc: Create table of contents with URL ([ex] **""**, "table_of_contents.md")
+
+* images_overwrite
+  * -images: Overwrite default `images` ([ex] **images**)
+
+* include_overwrite
+  * -include: Overwrite default `include` ([ex] **include**)
+
+* link_overwrite
+  * -link: Overwrite default `link` ([ex] **link**)
+
+* repo_overwrite
+  * -repo: Overwrite default `repo` ([ex] **repo**)
