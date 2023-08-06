@@ -1,0 +1,86 @@
+
+##########
+
+
+# Base environment
+myst-nb
+jupytext
+jupyter-server-proxy
+nbzip
+
+# Utilities
+nbresuse
+nbgitpuller
+tqdm
+
+# Notebook extensions
+jupyter_contrib_nbextensions
+jupyter-wysiwyg
+jupyterthemes
+
+
+#Supported learning
+nbtutor
+RISE
+nb-extension-tagstyler
+nb-extension-empinken
+nb-cell-execution-status
+
+# Updates
+ipywidgets>=7.5.0
+nbconvert>=5.5.0
+#jupyter-archive
+#git+https://github.com/NII-cloud-operation/Jupyter-multi_outputs
+
+# Drawing
+drawSvg
+blockdiag
+blockdiagMagic
+
+noisify
+
+
+#### Python Specific
+
+# Python linting
+#Linting
+flake8
+pycodestyle
+pycodestyle_magic
+
+## Autorepair
+autopep8
+
+## Install additional style convention rules
+pep8-naming
+flake8-bugbear
+flake8-docstrings
+flake8-builtins
+
+## Provide additional conventions for pandas code
+pandas-vet
+
+#### MODULE SPECIFIC
+
+# Generic
+numpy
+pandas
+matplotlib
+plotly
+seaborn
+cufflinks #plotly support for pandas dataframes
+
+# Rule based systems
+durable_rules
+#git+https://github.com/innovationOUtside/durable_rules_magic.git
+#chatterbot==1.0.4
+noisify
+
+#Simulator
+#git+https://github.com/innovationOUtside/nbev3devsim.git
+nbev3devsim>=0.0.9
+
+# NN
+sklearn
+palettable
+
