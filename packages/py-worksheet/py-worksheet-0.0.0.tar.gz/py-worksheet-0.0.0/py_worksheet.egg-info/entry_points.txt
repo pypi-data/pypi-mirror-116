@@ -1,0 +1,6 @@
+[console_scripts]
+gk-arithmetic = pysheet.arithmetic:main
+gk-equation-1 = pysheet.equation_1:main
+gk-equation-2 = pysheet.equation_2:main
+gk-equation-3 = pysheet.equation_3:main
+
