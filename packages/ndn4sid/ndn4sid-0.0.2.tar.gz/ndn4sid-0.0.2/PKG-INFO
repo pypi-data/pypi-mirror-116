@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ndn4sid
+Version: 0.0.2
+Summary: A package to perform n4sid on nD systems
+Home-page: https://example.com
+Author: Bob Vergauwen
+Author-email: bob.vergauwen@gmail.com
+License: UNKNOWN
+Description: # ndn4sid
+        
+        A first implementation of ndn4sid.
+        
+        
+        
+        ## Installation
+        
+        Run the following command to install:
+        
+        ```
+        pip install ndn4sid
+        ```
+        
+        ## Usage
+        
+        ```
+        TODO
+        ```
+        
+        ## Installing the development requirements
+        
+        ```
+        pip install -e ".[dev]"
+        ```
+        To test the your installation run the test by using
+        ```
+        pytest
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
