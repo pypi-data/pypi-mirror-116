@@ -1,0 +1,12 @@
+README.md
+setup.py
+zero_shot_re/__init__.py
+zero_shot_re/extractor.py
+zero_shot_re/model.py
+zero_shot_re/test_pretrained.py
+zero_shot_re.egg-info/PKG-INFO
+zero_shot_re.egg-info/SOURCES.txt
+zero_shot_re.egg-info/dependency_links.txt
+zero_shot_re.egg-info/not-zip-safe
+zero_shot_re.egg-info/requires.txt
+zero_shot_re.egg-info/top_level.txt
