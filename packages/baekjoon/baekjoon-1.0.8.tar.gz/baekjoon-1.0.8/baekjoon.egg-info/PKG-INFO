@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: baekjoon
+Version: 1.0.8
+Summary: unofficial boj api
+Home-page: https://github.com/smartwe/baekjoon-api
+Author: smartwe
+Author-email: sparklingwee@naver.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
