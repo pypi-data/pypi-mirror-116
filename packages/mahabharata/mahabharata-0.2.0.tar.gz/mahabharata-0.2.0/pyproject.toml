@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "mahabharata"
+version = "0.2.0"
+description = ""
+authors = ["Sharlon Regales <sharlon.regales@tno.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.1"
+pydantic = {version = "^1.8.2", python = "^3.7"}
+gunicorn = {version = "^20.1.0", optional = true}
+uvicorn = {version = "^0.15.0", optional = true}
+fastapi = {version = "^0.68.0", optional = true}
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.2.0"
+black = {version = "^21.7b0", allow-prereleases = true}
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39']
+include = '\.pyi?$'
+exclude = '''
+(
+  ┊ /(
+  ┊ ┊ ┊ \.git
+  ┊ ┊ | \.hg
+  ┊ ┊ | \.mypy_cache
+  ┊ ┊ | \.tox
+  ┊ ┊ | \.venv
+  ┊ ┊ | _build
+  ┊ ┊ | buck-out
+  ┊ ┊ | build
+  ┊ ┊ | dist
+  ┊ )/
+)
+'''
+
+[tool.poetry.extras]
+api = ["gunicorn", "uvicorn", "fastapi"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
