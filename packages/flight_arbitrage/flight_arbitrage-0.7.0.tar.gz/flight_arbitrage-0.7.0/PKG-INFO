@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: flight_arbitrage
+Version: 0.7.0
+Summary: Finds arbitrage in plane ticket prices
+Home-page: https://github.com/jrinder42/Flight_Arbitrage
+Author: Jordan Rinder
+Author-email: jordan.rinder@gmail.com
