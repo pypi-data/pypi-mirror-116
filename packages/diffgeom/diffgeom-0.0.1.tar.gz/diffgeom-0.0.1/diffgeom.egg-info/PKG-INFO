@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: diffgeom
+Version: 0.0.1
+Summary: A Python package for symbolic differential geometry
+Home-page: https://github.com/maroba/diffgeom
+Author: Matthias Baer
+Author-email: matthias.r.baer@googlemail.com
+License: MIT
+Description: UNKNOWN
+Platform: ALL
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

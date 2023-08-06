@@ -1,0 +1,8 @@
+setup.py
+diffgeom/__init__.py
+diffgeom/diffgeom.py
+diffgeom.egg-info/PKG-INFO
+diffgeom.egg-info/SOURCES.txt
+diffgeom.egg-info/dependency_links.txt
+diffgeom.egg-info/requires.txt
+diffgeom.egg-info/top_level.txt
