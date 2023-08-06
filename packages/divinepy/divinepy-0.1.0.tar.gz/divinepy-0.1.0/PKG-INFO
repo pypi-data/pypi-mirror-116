@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: divinepy
+Version: 0.1.0
+Summary: Diviner data tools
+Home-page: https://github.com/michaelaye/divinepy/tree/master/
+Author: Michael Aye
+Author-email: kmichael.aye@gmail.com
+License: Apache Software License 2.0
+Description: # Divinepy
+        > A collection of tools to work with LRO Diviner data.
+        
+        
+        ## Install
+        
+        `pip install divinepy`
+        
+        ## How to use
+        
+        The provided tools are based primarily on publicly available LRO Diviner and related support data (like lunar digital elevation data).
+        
+Keywords: Moon,Data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
