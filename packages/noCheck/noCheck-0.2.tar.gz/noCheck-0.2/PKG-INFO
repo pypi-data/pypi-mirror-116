@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: noCheck
+Version: 0.2
+Summary: Find highest of two numbers
+Home-page: UNKNOWN
+Author: Zubair Mushtaq
+Author-email: zubair.mushtaq000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#How to install:
+Copy the command from pypi.org and instal the package
+
+#How to use 
+
+1: This package will help you to find highest number between two numbers.
+2: To get the highest number from two numbers provided.
+3: Provide valid details, then use checkNum() to check which is highest number
+4: When number is checked, get detailed summary about the number by using conc() function
+
+
