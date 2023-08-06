@@ -1,0 +1,15 @@
+serial_dashboard/__init__.py,sha256=LTBdIh1n_eE5nLU9qONVcgUAZh7vndT3DpJhBj46oSc,181
+serial_dashboard/boards.py,sha256=IFZt37Cq5yT-4DQXvdEx0QMZUzBz4ofgsBlOmiNbGBs,10956
+serial_dashboard/callbacks.py,sha256=fcyMssLYu_Y3El-xBDLJLki2SoOqrEBbTUSco01z-M4,16721
+serial_dashboard/comms.py,sha256=YKqw7yEd1ezH6ad9WnuBKhvimQxeiHEe4TvxcUpFc6o,4419
+serial_dashboard/dashboard.py,sha256=2hwttKjDNGjq_-VQT05_FNLQb463xdMZRnoS1u_isnM,21522
+serial_dashboard/parsers.py,sha256=crbCOd5rodAy_NDvkfa1PPmo4AMWd_wDJ6QQJSFjY6I,5133
+serial_dashboard/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serial_dashboard/scripts/launchscript.py,sha256=Ro2LmC-9BT5RWZZL1Cn3RjC5Kp8pbZkWWPyrng9wh-8,470
+serial_dashboard/scripts/serialdashboard.py,sha256=ZiPKCwVnHKd5wPsvPveOe4Xe2vvdjjb87rvVALlHxVI,485
+serial_dashboard-0.0.1.dist-info/LICENSE,sha256=d5JRQ2vDP81ZY2iVEEcLmVJ3ofc2n5LAyf2afnh5x2c,1068
+serial_dashboard-0.0.1.dist-info/METADATA,sha256=ooNVhEXlpGJPXKOu-yIS1TbntWh1nyZi6BMDWfpZxBY,598
+serial_dashboard-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+serial_dashboard-0.0.1.dist-info/entry_points.txt,sha256=mPa9HRMMv5Zl9HBUJDTNOlGjDbW8QRWy45pnA5zamBQ,82
+serial_dashboard-0.0.1.dist-info/top_level.txt,sha256=ptx4ee0aGs7TWWYbstZPEbV2JeJGd2MF9n2_T8QW2ew,17
+serial_dashboard-0.0.1.dist-info/RECORD,,
