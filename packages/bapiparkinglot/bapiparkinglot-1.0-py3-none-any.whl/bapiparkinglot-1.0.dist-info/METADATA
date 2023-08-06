@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: bapiparkinglot
+Version: 1.0
+Summary: Parking Lot API dibuat untuk memenuhi syarat dalam pengerjaan soal DTO Kemenkes - Backend Engineer.
+Home-page: https://github.com/bearaujus/api_parking_lot
+Author: Bear Au Jus - ジュースとくま
+Author-email: haryobagasasyafah6@gmail.com
+License: MIT
+Keywords: bapiparkinglot,DTO,Kemenkes,DTO Kemenkes,Backend Engineer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: flask-restful
+Requires-Dist: requests
+
+# Parking Lot API
+Parking Lot API dibuat untuk memenuhi syarat dalam pengerjaan soal DTO Kemenkes - Backend Engineer.
+
+Latest Version : 
+> + Dockerhub - [v1.0](https://hub.docker.com/layers/162650245/bearaujus/parking-lot/1.0/images/sha256-73a6241464447fe02b83145d51b8e3f1c9aaacda6425b500686cd13e60c83cb5)
+> + Github - [v1.0](https://github.com/bearaujus/api_parking_lot/releases/tag/v1.0)
+
+# API Documentation
+> Documented via Postman, can accessed through this [link](https://documenter.getpostman.com/view/17068457/Tzz7Mx1T)
+
+# Application Work Flow
+> + From Client Perspective
+![image](https://i.ibb.co/163JjCV/client.png)
+
+> + From Admin Perspective
+![image](https://i.ibb.co/k6nJ4g4/admin.png)
+
+# Installation
+> + Using Github (pip/.git)
+```
+pip install bapiparkinglot 
+```
+
+> + Using Docker
+```
+docker pull bearaujus/parking-lot:1.0
+```
+```
+docker container create --name api-parking-lot -p 25565:25565 bearaujus/parking-lot:1.0
+```
+
+> + Using [script.sh](https://github.com/bearaujus/api_parking_lot/blob/main/v1.0/script.sh) (Docker)
+```
+sh script.sh
+```
+
+# How To Use
+> + Using Docker
+```
+docker start api-parking-lot
+```
+
+> + Using Python
+```.py
+import bapiparkinglot
+
+bapiparkinglot.run()
+```
+
+# Example Request
+> Parking Lot API example request was wroted well at Jupyter Notebook, can accessed through this [link](https://github.com/bearaujus/api_parking_lot/blob/main/v1.0/example_request/example_request_parking_lot.ipynb)
+
+# Test Unit
+> Parking Lot API test unit, can accessed through this [link](https://github.com/bearaujus/api_parking_lot/blob/main/v1.0/test/test_parking_lot.py)
+
+# Latest Changelog
+Publication Date : 08/14/2021 `v1.0`
+
+> + Initial Commit
+
+# Credit
++ Main Github Page : [https://github.com/bearaujus/](https://github.com/bearaujus/)
++ Linkedin : [Haryo Bagas Assyafah](https://www.linkedin.com/in/bearaujus/)
+
+**Bear Au Jus - ジュースとくま** @2021
+
+
