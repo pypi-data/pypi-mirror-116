@@ -1,0 +1,9 @@
+README.md
+setup.py
+stcache/__init__.py
+stcache/client.py
+stcache.egg-info/PKG-INFO
+stcache.egg-info/SOURCES.txt
+stcache.egg-info/dependency_links.txt
+stcache.egg-info/requires.txt
+stcache.egg-info/top_level.txt
