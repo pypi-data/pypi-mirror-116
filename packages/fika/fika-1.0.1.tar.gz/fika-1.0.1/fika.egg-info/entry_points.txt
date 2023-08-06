@@ -1,0 +1,3 @@
+[console_scripts]
+fika = fika.__main__:main
+
