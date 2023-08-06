@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hydrogen-proton-api
+Version: 1.9.2
+Summary: Hydrogen Proton API
+Home-page: https://www.hydrogenplatform.com
+Author-email: info@hydrogenplatform.com
+License: UNKNOWN
+Keywords: Swagger,Hydrogen Proton API
+Platform: UNKNOWN
+
+    Financial engineering module of Hydrogen Atom  # noqa: E501
+    
+
