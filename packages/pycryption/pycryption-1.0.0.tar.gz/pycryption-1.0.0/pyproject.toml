@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pycryption"
+version = "1.0.0"
+description = "Simple Library to encrypt, dycrypt in-memory bytes or text"
+authors = ["xcodz-dot <71920621+xcodz-dot@users.noreply.github.com>"]
+license = "MIT License"
+packages = [
+	{ include = "pycryption.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pycryptodomex = "^3.10.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
