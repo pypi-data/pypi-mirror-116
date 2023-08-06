@@ -1,0 +1,5 @@
+networkx>=2
+treedecomp>=1
+pygeos
+matplotlib>=3
+scipy>=1
