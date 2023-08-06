@@ -1,0 +1,13 @@
+winmem/__init__.py,sha256=Ve1dPTBXuTSPXWGbBjMcUrhn9Uv45ycgHl3ffZ2meeM,641
+winmem/exceptions.py,sha256=g1w7xiyWDEYfU__4HtjWl-ueAvleEhUgC0_BGXZsv6U,686
+winmem/flags.py,sha256=jjpIhOCzbIpD3V7Ti5EhZNe5Dt06Q0OPSCG97ajXJEg,16857
+winmem/imports.py,sha256=Gugy6IJtylXQUXjVHTfGdGxbipcX4sAPWJv5mpJa9mA,453
+winmem/kernel_utils.py,sha256=ouRlh3UYGOI1A14wYUL3IYTwnYYYfgoMgAR20UNS8uo,6186
+winmem/memory.py,sha256=xQF5ziVzNoRQ8qbnKl71P2ixu63U5kOOKA7mk9vAdGY,18024
+winmem/memory_classes.py,sha256=BdJdtqFDEkeJL-6OmcoY0Z4Frrpq_lgIni-DoBFnHKc,2791
+winmem/types.py,sha256=P7iv_usGKer74gDYdbBdQjZtxda7fIAU9vqC1f3_kP0,9256
+winmem-0.0.7.dist-info/LICENSE,sha256=rX6ND8SpWwhvws-mmKJerf-xEX0-mVFmXbrwVT1pf98,1085
+winmem-0.0.7.dist-info/METADATA,sha256=pfy8SYu_tcjyQoWxG828s8IFyw9qsuGDLwnwCp5s_KU,1149
+winmem-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+winmem-0.0.7.dist-info/top_level.txt,sha256=tDjwqdtJSiZ8w1gLGfEX8Jo09lDo7sbY5IDwAkA-cY8,7
+winmem-0.0.7.dist-info/RECORD,,
