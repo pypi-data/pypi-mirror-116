@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fahim/__init__.py
+src/fahim/fahim.py
+src/fahim.egg-info/PKG-INFO
+src/fahim.egg-info/SOURCES.txt
+src/fahim.egg-info/dependency_links.txt
+src/fahim.egg-info/top_level.txt
