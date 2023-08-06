@@ -1,0 +1,11 @@
+package_manifest/VERSION,sha256=hyKAKKSj5LH3gzCvEbofgs_pS-at84MwoWabECV-ZFQ,11
+package_manifest/__init__.py,sha256=V1qDmfmTiMpRJdc-FVQV9eYkPnalRkCMDPebR2xYDsw,433
+package_manifest/_default_values.py,sha256=EUzEtoQ7pq2bBiUEP_tJck2u8HMbXZ_jUJ4FT26TOec,280
+package_manifest/_path.py,sha256=OhpwOCU49CtjiEST2U5MfWkx6jAJyWg13Zy8wqqtvjM,288
+package_manifest/_schema.py,sha256=OcyQE_xmwUBKoFA39WmWR4vmg4S1FZrwVDbraL-MxgE,4477
+package_manifest/_version.py,sha256=D5TC3PRQYQhYHXEimsnsEA80RpbpI5Hg-vCFjtrf2UQ,959
+package_manifest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_manifest-1.0.0.post7.dist-info/LICENSE,sha256=TPnISTkSg-F7Zysj1u5yMyviXW6USobJOlIfjDKrAFU,1103
+package_manifest-1.0.0.post7.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+package_manifest-1.0.0.post7.dist-info/METADATA,sha256=HsUxYvU6uOyzJZhVdqvpa8BL012BfmGqTkdfzbPfGhA,4744
+package_manifest-1.0.0.post7.dist-info/RECORD,,
