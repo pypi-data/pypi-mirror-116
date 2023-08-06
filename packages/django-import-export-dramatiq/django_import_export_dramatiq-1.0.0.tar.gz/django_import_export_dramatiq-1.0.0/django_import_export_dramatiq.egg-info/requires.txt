@@ -1,0 +1,4 @@
+django
+django-author
+django-dramatiq
+django-import-export

@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: django-import-export-dramatiq
+Version: 1.0.0
+Summary: Process long running django imports and exports in dramatiq
+Home-page: https://github.com/q0w/django-import-export-dramatiq
+Author: q0w
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-import-export-dramatiq
+Fork of [django-import-export-celery] for [dramatiq]
+
+
+## Requirements
+* [django]
+* [django-import-export]
+* [django-author]
+* [django-dramatiq]
+
+
+## Installation
+    pip install django-import-export-dramatiq
+For further installation check [django-import-export-celery] and [django-dramatiq]
+
+[django-import-export-celery]: https://github.com/auto-mat/django-import-export-celery
+[dramatiq]: https://dramatiq.io
+[django]: http://djangoproject.com/
+[django-import-export]: https://github.com/django-import-export/django-import-export
+[django-author]: https://github.com/lambdalisue/django-author
+[django-dramatiq]: https://github.com/bogdanp/django_dramatiq
+
+
