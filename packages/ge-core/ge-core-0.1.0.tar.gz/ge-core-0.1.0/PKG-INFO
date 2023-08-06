@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ge-core
+Version: 0.1.0
+Summary: A library for performing all sorts of operations involved in modding for Giants Engine games
+Home-page: https://github.com/StjerneIdioten/GE-Core
+Author: StjerneIdioten
+Author-email: stjerneidioten@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/StjerneIdioten/GE-Core/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GE-Core
+This project has been launched as a rework of the [Blender I3D Addon](https://github.com/StjerneIdioten/I3D-Blender-Addon) into a separate standalone python package for working with modding of Giants Engine games, which can then be incorporated into specific projects such as an addon integration for Blender or any other tool. 
+
+To begin with it will focus on interactions with I3D files, both importing and exporting, through an interface which can be implemented to work with anything that runs python
+
+_This project is still in early development!_
+
+
