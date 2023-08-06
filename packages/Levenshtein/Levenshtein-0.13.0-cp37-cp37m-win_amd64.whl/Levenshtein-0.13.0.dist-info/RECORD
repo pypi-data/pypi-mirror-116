@@ -1,0 +1,9 @@
+Levenshtein/StringMatcher.py,sha256=KwhleGSBgsPk3kJR2rCN8u1zk-9SD8ibGZZYeAKvsdU,2267
+Levenshtein/__init__.py,sha256=nBZTDgvKL01IQfmDKQVQHXbisVRN8vfNZVSF52JAsBI,998
+Levenshtein/_levenshtein.cp37-win_amd64.pyd,sha256=6hK_5WXLfcanOLQohB9EATOsZ14c9UbCGSF8JBdSY1U,76800
+Levenshtein/cpp_levenshtein.cp37-win_amd64.pyd,sha256=wGODC5w57RNTJ9GUI26s-tcPfyRctBfNTzFmcnzdGtM,130048
+Levenshtein-0.13.0.dist-info/COPYING,sha256=oTBE_kFlYxGbXqQA9BdslhI58eCidV_FwujWDhOT0u8,18425
+Levenshtein-0.13.0.dist-info/METADATA,sha256=C9isBHxTNzZYq-5UE-_AL2F9vzKif38ttrUIXn0YsqM,6426
+Levenshtein-0.13.0.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+Levenshtein-0.13.0.dist-info/top_level.txt,sha256=RvPuPevm_7j5S0VBmjD7AQr8RlHYl2CTA_4GqFW-gfA,12
+Levenshtein-0.13.0.dist-info/RECORD,,
