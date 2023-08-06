@@ -1,0 +1,18 @@
+parameters:
+  dqtoolbundle:
+    db_store_connection_string:
+    db_store_connection:
+      drivername:
+      host:
+      port:
+      database:
+      username:
+      password:
+services:
+  dqtoolbundle.DQToolFactory:
+    arguments:
+      spark: '@pyspark.sql.session.SparkSession'
+      db_store_connection_string: '%dqtoolbundle.db_store_connection_string%'
+      db_store_connection: '%dqtoolbundle.db_store_connection%'
+  dq_tool.dq_tool.DQTool:
+    factory: ['@dqtoolbundle.DQToolFactory', 'create']

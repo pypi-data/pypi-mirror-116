@@ -1,0 +1,12 @@
+dqtoolbundle/DQToolBundle.py,sha256=hQ71u-qlVcwgNY2zmcT6JRqQm0OEXa9iF8aSabYzTFI,79
+dqtoolbundle/DQToolBundleTest.py,sha256=uKLcmWTwEkDmxU8kf_xFpjWMZfrDGMfBVOTyEcz-MQw,339
+dqtoolbundle/DQToolFactory.py,sha256=EqN5-YZHD_lYbVbpBqLz8zoj3RnlstwMg_0ks5GxreU,2277
+dqtoolbundle/_config/.gitignore,sha256=xgIpI3ruu9PFPkyAmPZj1LrVDbDBtBdGk-wWyvTpC5I,15
+dqtoolbundle/_config/config.yaml,sha256=k_G59FEnWFcqocpw1US9jNC4bapH-MyZtDvCEiga0Ck,502
+dqtoolbundle/_config/config_test.yaml,sha256=d_C9RkG8qHwctpW___Ipx9qnlYXEWwA-SpfVZNnlGBY,324
+dqtoolbundle/test/DummySparkFactory.py,sha256=s73KyO9MtJXuP_nrJs_qYCr2gAbX4GTxIfPvBdj-ZpE,229
+dq_tool_bundle-0.0.4.dist-info/entry_points.txt,sha256=YmVtSS1Dj_BAvva4UsGsK7jU3WcpB-vCNoS760_AUwE,63
+dq_tool_bundle-0.0.4.dist-info/LICENSE,sha256=2em0ctizO1Em27H9si_65iu6qC9q2ZHCVXG61-g4iBw,1060
+dq_tool_bundle-0.0.4.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+dq_tool_bundle-0.0.4.dist-info/METADATA,sha256=l_DVr8W57m8pJmHxux1Dal5hi2K7gxC5Mxl-d00oM50,745
+dq_tool_bundle-0.0.4.dist-info/RECORD,,
