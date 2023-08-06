@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: modrs
+Version: 0.1.0_beta
+Summary: A Python module wirtten in Rust
+Keywords: python
+Home-Page: https://github.com/nv2k3/modrs
+Author: Nagendra_2k3 <71603665+nv2k3@users.noreply.github.com>
+Author-Email: Nagendra_2k3 <71603665+nv2k3@users.noreply.github.com>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+
