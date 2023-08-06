@@ -1,0 +1,3 @@
+[console_scripts]
+speaking-eye = speaking_eye.__main__:main
+
