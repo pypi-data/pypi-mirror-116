@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyckett/__init__.py
+src/pyckett.egg-info/PKG-INFO
+src/pyckett.egg-info/SOURCES.txt
+src/pyckett.egg-info/dependency_links.txt
+src/pyckett.egg-info/top_level.txt
