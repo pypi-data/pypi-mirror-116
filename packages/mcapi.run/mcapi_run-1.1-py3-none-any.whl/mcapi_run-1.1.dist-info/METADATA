@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mcapi-run
+Version: 1.1
+Summary: simple minecraft api made for the api.mcapi.run website || by overnice.exe
+Home-page: https://enchantedsniper.ga/
+Author: Overnice.exe
+Author-email: silkepilon2009@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: colorama
+
+soon!
+
+
