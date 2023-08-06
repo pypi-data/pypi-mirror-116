@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: asgutils
+Version: 0.0.1
+Summary: ASG Utils contains my main standard Python Librairies + some extra helpers functions
+Home-page: UNKNOWN
+Author: Alexandre Suire
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: python,utils,helpers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: arrow
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: SQLAlchemy
+Requires-Dist: psycopg2
+Requires-Dist: pymsteams
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+
+This lib contains rudimentary packages + some extra custom helpers functions.
+
+
