@@ -1,0 +1,11 @@
+boox_annotations_to_anki/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+boox_annotations_to_anki/__main__.py,sha256=3gAiiWIHrOgWr4qGfrHSUFfmnRHsh3x7gPckF-JbbJo,417
+boox_annotations_to_anki/api.py,sha256=WCmj97L-XeQCNWHsqP-dcgwbnkhvy74XFcqhvQSlr6Q,1753
+boox_annotations_to_anki/cli.py,sha256=xrrRUEBh42KmHDYb2Rm-cJjkXe8i0rt5GmnjPONEO6k,2958
+boox_annotations_to_anki-0.1.0.dist-info/AUTHORS.rst,sha256=DtwScT5KpezDtkZEBc79yMSZ02rhk-uF29clrMjJjO0,66
+boox_annotations_to_anki-0.1.0.dist-info/LICENSE,sha256=DEUtBgRKAbBCECJDJRb87nOJh22tzKBG1RIw1H-KoTg,1103
+boox_annotations_to_anki-0.1.0.dist-info/METADATA,sha256=rVabg3hPsgXu30MiftED0BBZcvp6tAgYmQsX-N-9b1s,2423
+boox_annotations_to_anki-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+boox_annotations_to_anki-0.1.0.dist-info/entry_points.txt,sha256=FRv5bUUbGt_lykprns0LclI2uJkytAJbQY4N_nKKWe4,80
+boox_annotations_to_anki-0.1.0.dist-info/top_level.txt,sha256=HtQ0nb_72ijQor-JJ6Bt55uykQi5Sszc8xaN9SGoujA,25
+boox_annotations_to_anki-0.1.0.dist-info/RECORD,,
