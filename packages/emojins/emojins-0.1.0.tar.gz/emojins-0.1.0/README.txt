@@ -1,0 +1,1 @@
+this is a package that addes emoji to text.
