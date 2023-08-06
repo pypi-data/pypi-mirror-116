@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pytest-log
+Version: 1.0
+Summary: print log
+Home-page: https://gitee.com/niu-runpeng/PytestWork.git
+Author: Niu RunPeng
+Author-email: 1733808462@qq.com
+License: proprietary
+Platform: UNKNOWN
+
+for pytest print log
+
