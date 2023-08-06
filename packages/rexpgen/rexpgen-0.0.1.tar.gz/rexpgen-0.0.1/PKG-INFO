@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rexpgen
+Version: 0.0.1
+Summary: Regurlar Expression predictor
+Home-page: UNKNOWN
+Author: Codelocked (Rahul Kumeriya)
+Author-email: <rahul.kumeriya@outlook.com>
+License: UNKNOWN
+Keywords: python,re,rexpgen
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Regular Expression Predictor/Generator
+
+### Utility to predict or Generate the regular expression for intended string
+
+
+
