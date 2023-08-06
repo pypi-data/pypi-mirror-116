@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: covid_data
+Version: 0.1.1
+Summary: Data loader part of the mid-project for the Data Science bootcamp from Core Code School
+Home-page: https://github.com/alesanmed-educational-projects/core-data-covid-project
+Author: alesanchez
+Author-email: hi@alesanchez.es
+License: The Unlicense
+Download-URL: https://github.com/alesanmed-educational-projects/covid-data/archive/refs/tags/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: covid,core
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3.9
