@@ -1,0 +1,8 @@
+specable/__init__.py,sha256=-ZeN4sNNeK3MeaGsmRwWPbA9ziautXqHs9dseVunOH8,105
+specable/dicts.py,sha256=5D3_zHMWsRhk5PRqT2s_B_Ub1P8RWt2PeTk41nA-DJw,881
+specable/inout.py,sha256=SwdjP9CR_ckTjTjInIk3mumgfT5gU-3LMOK0DX-o5GE,768
+specable/interface.py,sha256=2PII8Lh3qPl8JIDEWYEheuRu03lxyNCQxqdlSXmLToU,2162
+specable/specable.py,sha256=POURyDWPy_-LjtyD3IINHThdlrhTLmFuyvh-IxSGX38,1078
+specable-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+specable-0.1.0.dist-info/METADATA,sha256=Squw8jySfNwUN_oOJmd5KVshiNMm3xjUPJ_KY88BJpc,484
+specable-0.1.0.dist-info/RECORD,,
