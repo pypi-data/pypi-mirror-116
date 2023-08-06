@@ -1,0 +1,14 @@
+AUTHORS.md,sha256=frwXBfZsyQZ8-khR_hKY9LSogglUndPy94fVFl4A_9g,294
+HISTORY.md,sha256=D-QSwdrfhlYTCVvjCEghK7M-IRkkA7Eg5gyfnG_jJOY,302
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/api_gateway/rest/__init__.py,sha256=eqRw2hgSoQC9DVLZ4xlClCHryu8k52KNcAN_KM51p90,307
+minos/api_gateway/rest/__main__.py,sha256=CG3d2w6D0YqIkq5zwgwwBUa7sXIShdz8xttQGwB0blI,251
+minos/api_gateway/rest/cli.py,sha256=FVT7TIMR53W-PTcXC80qbhHkUlStIEEMI5-CMOcntJU,1587
+minos/api_gateway/rest/handler.py,sha256=frU4udeomb-h402Mok7CJfmj_3jQqgfu4ajohjGyuOU,3038
+minos/api_gateway/rest/launchers.py,sha256=aHHDnIVEdOZzfCBk6C-MGFo0N8uurT-7Upm031RlWHk,1237
+minos/api_gateway/rest/service.py,sha256=iXM0cTK2VC5QXC-Bwdte4x_pYSYDDquCT0cio6LZZA4,712
+minos_apigateway-0.0.3.dist-info/entry_points.txt,sha256=PlHMbPW9pmri7bJP6RjxrNNLmT6DVB4cGxkk_NlPFbU,63
+minos_apigateway-0.0.3.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_apigateway-0.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+minos_apigateway-0.0.3.dist-info/METADATA,sha256=wmUVFEnQIuRRjLpB9iZQbABuZXhsAR-mHenYyPiCw3Q,3385
+minos_apigateway-0.0.3.dist-info/RECORD,,
