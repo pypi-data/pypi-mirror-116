@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ShareImage/__init__.py
+ShareImage.egg-info/PKG-INFO
+ShareImage.egg-info/SOURCES.txt
+ShareImage.egg-info/dependency_links.txt
+ShareImage.egg-info/top_level.txt
