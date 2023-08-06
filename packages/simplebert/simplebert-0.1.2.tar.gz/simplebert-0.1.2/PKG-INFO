@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: simplebert
+Version: 0.1.2
+Summary: A package for various transformer based NLP models.
+Home-page: https://github.com/gaolichen/simplebert
+Author: gaolichen
+Author-email: galic.chen@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gaolichen/simplebert/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simplebert
+A simple implementation of BERT model
+
+
