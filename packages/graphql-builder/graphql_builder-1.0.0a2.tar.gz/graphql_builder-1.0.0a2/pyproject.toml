@@ -1,0 +1,48 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "graphql_builder"
+readme = "README.md"
+authors = [
+    {name = "Jakub Kuczys (jack1142)"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+requires-python = ">=3.8,<3.10"
+dynamic = ["description", "version"]
+dependencies = [
+    "simplejson~=3.10",
+]
+
+[project.urls]
+"Documentation" = "https://graphql-builder.readthedocs.io"
+"Sponsor on GitHub" = "https://github.com/sponsors/jack1142"
+"Issue Tracker" = "https://github.com/jack1142/graphql-builder/issues"
+"Source Code" = "https://github.com/jack1142/graphql-builder"
+
+[project.optional-dependencies]
+dev = [
+    "black==21.7b0",
+    "flake8==3.9.2",
+    "isort==5.9.3",
+    "mypy==0.910",
+    "types-simplejson==0.1.5",
+]
+
+[tool.black]
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+combine_as_imports = true
+filter_files = true
