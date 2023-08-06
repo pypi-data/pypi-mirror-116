@@ -1,0 +1,12 @@
+README.md
+setup.py
+telega/__init__.py
+telega/client.py
+telega/errors.py
+telega/tdjson.py
+telega/td_lib/linux/libtdjson.so
+telega/td_lib/linux/libtdjson.so.1.4.0
+telegaden.egg-info/PKG-INFO
+telegaden.egg-info/SOURCES.txt
+telegaden.egg-info/dependency_links.txt
+telegaden.egg-info/top_level.txt
