@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+configuration/keyvault/__init__.py
+configuration/keyvault/py.typed
+essentials_configuration_keyvault.egg-info/PKG-INFO
+essentials_configuration_keyvault.egg-info/SOURCES.txt
+essentials_configuration_keyvault.egg-info/dependency_links.txt
+essentials_configuration_keyvault.egg-info/not-zip-safe
+essentials_configuration_keyvault.egg-info/requires.txt
+essentials_configuration_keyvault.egg-info/top_level.txt
