@@ -1,0 +1,3 @@
+[console_scripts]
+vsco-downloader = vsco_downloader.__main__:main
+
