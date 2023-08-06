@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: p3k
+Version: 0.1.6
+Summary: p3k - yet another P300 offline classification tool
+Home-page: https://github.com/lokinou/p300_analysis_from_openvibe_and_bci2000
+Author: Loic Botrel
+Author-email: <loic.botrel@uni-wuerzburg.de>
+License: MIT
+Keywords: python,bci2000,p300,speller,bci,bmi,eeg,openvibe,lda,mne
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >3.8.1
+Requires-Dist: scikit-learn (>=0.22)
+Requires-Dist: pandas (>=1.1)
+Requires-Dist: seaborn
+Requires-Dist: numpy (>=1.20.2)
+Requires-Dist: mne
+Requires-Dist: matplotlib
+Requires-Dist: BCI2kReader
+
+P300 offline classification from BCI2000 P3Speller and OpenVibe P300 scenario
+
+
