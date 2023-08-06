@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/kidash
+kidash/__init__.py
+kidash/_version.py
+kidash/kidash.py
+kidash.egg-info/PKG-INFO
+kidash.egg-info/SOURCES.txt
+kidash.egg-info/dependency_links.txt
+kidash.egg-info/not-zip-safe
+kidash.egg-info/requires.txt
+kidash.egg-info/top_level.txt
+tests/run_tests.py
+tests/test_export.py
+tests/data/overview-with-index-patterns.json
