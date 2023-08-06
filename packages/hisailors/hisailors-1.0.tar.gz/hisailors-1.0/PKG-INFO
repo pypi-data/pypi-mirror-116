@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hisailors
+Version: 1.0
+Summary: A group of tools for http
+Home-page: https://github.com/skiloop/hisailors
+Author: skiloop
+Author-email: skiloop@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

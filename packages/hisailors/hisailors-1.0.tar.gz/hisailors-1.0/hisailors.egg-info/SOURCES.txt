@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hisailors/__init__.py
+hisailors/encoders.py
+hisailors.egg-info/PKG-INFO
+hisailors.egg-info/SOURCES.txt
+hisailors.egg-info/dependency_links.txt
+hisailors.egg-info/not-zip-safe
+hisailors.egg-info/top_level.txt
