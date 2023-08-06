@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+airflow_file_to_bq.egg-info/PKG-INFO
+airflow_file_to_bq.egg-info/SOURCES.txt
+airflow_file_to_bq.egg-info/dependency_links.txt
+airflow_file_to_bq.egg-info/requires.txt
+airflow_file_to_bq.egg-info/top_level.txt
+corefunctions/__init__.py
+corefunctions/file_to_lz.py
+corefunctions/file_to_pz.py
+corefunctions/lz_to_sz.py
+corefunctions/operators.py
+corefunctions/sharedmethods.py
+corefunctions/sz_to_pz_scd1.py
+corefunctions/sz_to_pz_scd2.py
