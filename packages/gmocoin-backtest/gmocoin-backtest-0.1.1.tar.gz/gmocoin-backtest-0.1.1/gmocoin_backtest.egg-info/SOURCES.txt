@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+gmocoin_backtest.egg-info/PKG-INFO
+gmocoin_backtest.egg-info/SOURCES.txt
+gmocoin_backtest.egg-info/dependency_links.txt
+gmocoin_backtest.egg-info/requires.txt
+gmocoin_backtest.egg-info/top_level.txt
