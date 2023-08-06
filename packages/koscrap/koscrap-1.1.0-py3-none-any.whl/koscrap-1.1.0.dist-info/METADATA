@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: koscrap
+Version: 1.1.0
+Summary: Korean web scraper
+Home-page: https://github.com/hojp7874/koscrap
+Author: hongjinpyo
+Author-email: hojp7874@gmail.com
+License: hongjinpyo
+Platform: UNKNOWN
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: requests (==2.26.0)
+
+UNKNOWN
+
+
