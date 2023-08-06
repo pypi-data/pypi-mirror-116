@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: brian-dash
+Version: 0.1
+Summary: Dashboard for neuron simulator Brian2
+Home-page: https://github.com/Ziaeemehr/brian_dash
+Author: Abolfazl Ziaeemehr
+Author-email: a.ziaeemehr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: brian2
+Requires-Dist: cython
+Requires-Dist: dash
+Requires-Dist: dash-bootstrap-components
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# Brian Dashboard
+
+
+
+![Cover](https://github.com/Ziaeemehr/brian_dash/blob/master/brian_dash/apps/data/HH.jpg)
+<p align="center">
+
+
+
