@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: spatial_image_ngff
+Version: 0.1.0
+Summary: spatial-image-ngff
+Home-page: https://github.com/spatial-image/spatial-image-ngff
+Author: Matt McCormick
+Author-email: matt.mccormick@kitware.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: spatial_image_multiscale
+Requires-Dist: zarr
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: fsspec ; extra == "test"
+Requires-Dist: ipfsspec ; extra == "test"
+Provides-Extra: test
+
+# spatial-image-ngff
+
+Serialize and deserialize a multiscale spatial image to the
+OME-Zarr Next Generation File Format (NGFF).
+
