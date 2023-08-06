@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ititer
+Version: 0.1.0
+Summary: Infer inflection and endpoint titers from serial dilution assays using Bayesian hierarchical modelling.
+Home-page: https://github.com/IRI-UW-Bioinformatics/ititer
+Author: David J. Pattinson
+Author-email: david.pattinson@wisc.edu
+Maintainer: David J. Pattinson
+Maintainer-email: david.pattinson@wisc.edu
+License: MIT
+Download-URL: https://github.com/IRI-UW-Bioinformatics/ititer/archive/refs/tags/0.1.0.tar.gz
+Keywords: bayesian,dose response,dose,response,virology,elisa,sigmoid
+Platform: Linux
+Platform: MacOS
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# ititer
+Infer inflection and endpoint titers from serial dilution assays using Bayesian hierarchical modelling.
+
+## Install
+
+It can be installed from command-line using [pip](https://pypi.python.org/pypi/pip):
+
+```bash
+pip install ititer
+```
+
+## Usage
+
+
+## Authors
+
+* David J. Pattinson
+
+## License
+This project is licensed under the MIT license.
+
+
