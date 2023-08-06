@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+aiocse/__init__.py
+aiocse/client.py
+aiocse/errors.py
+aiocse/result.py
+aiocse.egg-info/PKG-INFO
+aiocse.egg-info/SOURCES.txt
+aiocse.egg-info/dependency_links.txt
+aiocse.egg-info/requires.txt
+aiocse.egg-info/top_level.txt
