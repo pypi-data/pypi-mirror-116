@@ -1,0 +1,16 @@
+video_dl/__init__.py,sha256=scVKzc_hrmwp_jPGqlIpYwU1Dwzsrtx6HZ7c5yFYlj8,23
+video_dl/args.py,sha256=wKPgCdkUbAZgjyfclMfROfJ4Y3p28U0FW3M9DuhU9pw,3632
+video_dl/entry.py,sha256=PTNJC-NvVEBj0O0ElcllD0fvaM96jmBqrkbma0tY_UI,506
+video_dl/spider.py,sha256=UFizGqlZ-_I86G5nlhaxOq4Tu2a-cDOngfuj1erK40c,2327
+video_dl/toolbox.py,sha256=kp-nB0aq49cil6tuGKEMDKqSZVGdnAylb4K3fMEt1bY,1960
+video_dl/video.py,sha256=JD-1ejWhdS6HNZfYyAhJXBY0h6-Ts-gYhaSiVGZOcBA,12728
+video_dl/resource/config.json,sha256=WaetgfLdg5dX1egKu-DPdX9Bya1sA2wiM-Z0fn1_ucY,106
+video_dl/resource/user_agents.txt,sha256=DDcgkLvUzF3K6rFQPb_Cvxf9Aim_RgSvmQf49wCyR0A,98064
+video_dl/sites/__init__.py,sha256=Cw2dRG0BONcFqdbXkAYJ3F-GV3xCM7RPDj3fD7d8zu8,37
+video_dl/sites/bilibili.py,sha256=dt7hBsarTwyW8e9OUkdq-GlI7VI4jsGXDWP7H8MFUzY,2322
+video_dl-0.0.1b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+video_dl-0.0.1b0.dist-info/METADATA,sha256=EmnSM54-bDSjCNnea7rUyS6nEmOo_rSd0ytO0H5zNWQ,2799
+video_dl-0.0.1b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+video_dl-0.0.1b0.dist-info/entry_points.txt,sha256=-DdNVnggo8AahS0_theHKl6vhgUT5PALgl3XS7DIE_Y,50
+video_dl-0.0.1b0.dist-info/top_level.txt,sha256=20jheTDy9B3GEDX2af4ky0LvTzjqg5kSph5qFmNMhsU,9
+video_dl-0.0.1b0.dist-info/RECORD,,
