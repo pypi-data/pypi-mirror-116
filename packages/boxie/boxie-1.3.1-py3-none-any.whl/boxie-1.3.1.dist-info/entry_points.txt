@@ -1,0 +1,3 @@
+[console_scripts]
+boxie=boxie:main
+
