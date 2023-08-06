@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: arginfer
+Version: 0.0.1
+Summary: Infer the Ancestral Recombination Graph
+Home-page: http://pypi.python.org/pypi/arginfer
+Author: Ali Mahmoudi
+Author-email: alimahmoodi29@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/alimahmoudi29/arginfer
+Project-URL: Bug Reports, https://github.com/alimahmoudi29/arginfer/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ARGinfer
+
+[![Documentation Status](https://readthedocs.org/projects/arginfer/badge/?version=latest)](https://arginfer.readthedocs.io/en/latest/?badge=latest)
+
+``arginfer`` is a probabilistic method for inferring the
+Ancestral Recombination Graph (ARG). The method uses a Markov chain
+Monte Carlo (MCMC) and samples from the posterior distribution of ARGs
+under the coalescent with recombination prior and infinite sites model of mutations.
+
+Please refer to the [documentation](https://arginfer.readthedocs.io/en/latest/) 
+for information on installing and using the software.
+<!--
+# Quick Run
+The following command can be used to run 1000 MCMC iterations with
+burn-in 200 and retaining every 20 samples (`thining = 20`).
+ Also `n` is the number of sequences each `L = 1e5` in length
+ evolving in a population of effective size `Ne = 5000`, with
+ mutation rate 1e-8 mutations/generation/site and recombination rate
+ 1e-8 recombinations/generation/site.
+
+```
+python3 main.py \
+    -I 1000 --thin 20 -b 200 \
+    -n 5 -L 1e5 --Ne 5000 \
+    -r 1e-8 -mu 1e-8 \
+    -O output/out1 \
+    --random-seed 1 \
+    --plot
+```
+ The output will be stored in the given path "output/out1". If "--plot"
+ is given, the trace plot will be stored in the output path in a "pdf"
+ format.
+-->
+
+
