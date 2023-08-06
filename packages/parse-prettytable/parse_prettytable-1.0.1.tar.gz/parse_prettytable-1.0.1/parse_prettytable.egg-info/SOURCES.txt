@@ -1,0 +1,5 @@
+setup.py
+parse_prettytable.egg-info/PKG-INFO
+parse_prettytable.egg-info/SOURCES.txt
+parse_prettytable.egg-info/dependency_links.txt
+parse_prettytable.egg-info/top_level.txt
