@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: masspy
+Version: 0.1.2
+Summary: MASSpy is a package for kinetic modeling and simulation of biological networks
+Home-page: https://github.com/SBRG/masspy
+Author: Zachary B. Haiman
+Author-email: zhaiman@eng.ucsd.edu
+Maintainer: Zachary B. Haiman
+Maintainer-email: zhaiman@eng.ucsd.edu
+License: MIT
+Download-URL: https://pypi.python.org/pypi/masspy
+Keywords: metabolism biology kinetic modeling simulation programmingcobra
+Platform: GNU/Linux
+Platform: Mac OS X >= 10.7
+Platform: Microsoft Windows >= 7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: cobra
+Requires-Dist: depinfo
+Requires-Dist: libroadrunner
+Requires-Dist: matplotlib (==3.2)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: sympy
+Requires-Dist: tabulate (~=0.8)
+Provides-Extra: all
+Requires-Dist: escher ; extra == 'all'
+Requires-Dist: simplejson ; extra == 'all'
+Provides-Extra: escher
+Requires-Dist: escher ; extra == 'escher'
+Provides-Extra: json
+Requires-Dist: simplejson ; extra == 'json'
+
+UNKNOWN
+
