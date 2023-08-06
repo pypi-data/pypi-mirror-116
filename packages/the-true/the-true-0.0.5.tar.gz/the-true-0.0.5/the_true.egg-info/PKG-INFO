@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: the-true
+Version: 0.0.5
+Summary: The True
+Home-page: https://github.com/h4n1virus/the-true
+Author: Chisa Yomoda
+Author-email: mengele@schutzstaffel.agency
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The one and the only real True value generator.
+
+# Example:
+```python
+from the_true import THE_TRUE
+from sys import setrecursionlimit
+
+setrecursionlimit(100000)
+
+while THE_TRUE():
+    print("Hello world")
+```
+
