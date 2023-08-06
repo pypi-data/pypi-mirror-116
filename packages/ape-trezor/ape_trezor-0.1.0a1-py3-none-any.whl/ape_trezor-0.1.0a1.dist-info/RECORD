@@ -1,0 +1,11 @@
+ape_trezor/__init__.py,sha256=e1c3vEN_rHfQCU_X5t0z9WrqgmY_mMz3bejjGarz6M0,186
+ape_trezor/_cli.py,sha256=KfHU4Fuhq-ZkcjhTkVBozPb-bRYVYE88RsrWQPBvDCQ,4050
+ape_trezor/accounts.py,sha256=Cqx_lnC4i2Uzd1eSbDACJp9BdiqI2q9TTSCifJ4RLtY,2487
+ape_trezor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ape_trezor/version.py,sha256=60DAOZyxvE289tVglu-ELvDKGEIxpz7urplw_v9QqMY,148
+ape_trezor-0.1.0a1.dist-info/LICENSE,sha256=wKVouzimXmZeaCj3f48Vua0vk91U4vjrrt2Ax0u3qBs,11342
+ape_trezor-0.1.0a1.dist-info/METADATA,sha256=kCS97ekertr-DbLu8uIgCzCh44E4lbg7CIyCXXE6ZAk,4127
+ape_trezor-0.1.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ape_trezor-0.1.0a1.dist-info/entry_points.txt,sha256=b7KwHAB9hjH9Mb5DJIA8PA70GAsaWdKB1JrmoTQ325A,56
+ape_trezor-0.1.0a1.dist-info/top_level.txt,sha256=aznUWoN820VfF8LyV8g-I3161m96do6lnuCq5Sok41Y,11
+ape_trezor-0.1.0a1.dist-info/RECORD,,
