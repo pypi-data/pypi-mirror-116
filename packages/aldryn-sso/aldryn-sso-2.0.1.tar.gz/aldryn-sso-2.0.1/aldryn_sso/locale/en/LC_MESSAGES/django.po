@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-24 15:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: aldryn_sso/admin.py:49 aldryn_sso/models.py:24
+msgid "User"
+msgstr ""
+
+#: aldryn_sso/apps.py:8
+msgid "Aldryn SSO"
+msgstr ""
+
+#: aldryn_sso/forms.py:71
+#, python-format
+msgid "Unable to login as %(username)s"
+msgstr ""
+
+#: aldryn_sso/forms.py:81
+msgid ""
+"Your Divio Account credentials will not work here, press the \"Sign in with "
+"Divio Account\" button instead."
+msgstr ""
+
+#: aldryn_sso/models.py:19
+msgid "Cloud ID"
+msgstr ""
+
+#: aldryn_sso/models.py:35
+msgid "Aldryn SSO user"
+msgstr ""
+
+#: aldryn_sso/models.py:36
+msgid "Aldryn SSO users"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/admin_non_staff.html:4
+msgid "Home"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/admin_non_staff.html:8
+msgid "Only staff users can access the admin area."
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/admin_non_staff.html:9
+msgid "You are logged in as:"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/admin_non_staff.html:10
+msgid "Log out"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/admin_non_staff.html:11
+msgid "View site"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/basicauth_auth_required.html:4
+#: aldryn_sso/templates/aldryn_sso/includes/localdev_login_form.html:27
+#: aldryn_sso/templates/aldryn_sso/includes/login_form.html:52
+#: aldryn_sso/templates/aldryn_sso/login_screen.html:4
+#: aldryn_sso/templates/cms/toolbar/items/login.html:13
+msgid "Log in"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/basicauth_auth_required.html:4
+#: aldryn_sso/templates/aldryn_sso/login_screen.html:4
+msgid " to "
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/create_user.html:4
+msgid "Create user"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/create_user.html:4
+msgid "for "
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/create_user.html:8
+msgid "Add local user"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/create_user.html:39
+msgid "Add"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/includes/localdev_login_form.html:7
+msgid "Local development login"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/includes/localdev_login_form.html:29
+msgid "Add user"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/includes/login_form.html:7
+msgid "Standard login"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/includes/sso_login_button.html:5
+msgid "Log in with Divio"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/login_screen.html:29
+msgid "or"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/login_screen.html:46
+msgid "Improperly Configured"
+msgstr ""
+
+#: aldryn_sso/templates/aldryn_sso/login_screen.html:47
+msgid "No login methods configured. Please configure at least one method."
+msgstr ""
