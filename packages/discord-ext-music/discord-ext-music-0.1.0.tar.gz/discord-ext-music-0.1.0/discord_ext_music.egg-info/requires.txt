@@ -1,0 +1,17 @@
+discord.py[voice]
+
+[all]
+pydub
+scipy
+miniaudio
+av
+
+[equalizer]
+pydub
+scipy
+
+[miniaudio]
+miniaudio
+
+[pyav]
+av
