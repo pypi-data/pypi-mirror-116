@@ -1,0 +1,14 @@
+scordt/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+scordt/arc2.py,sha256=XD0QbDY0rUMCyUcgV4Ubj5GtPI3ChLLkXpRvD3xMORE,459
+scordt/func.py,sha256=nUwwpWayLQuKZTL1OCEApKiFie0AqvM51cvvPBM0sJE,570
+scordt/plots.py,sha256=KYDRW7HlV8ndN-rM8Hg9gpN3B0hfTIfT4aOsGp-RhYI,3054
+scordt/reads.py,sha256=wioDH1cLs8Zybwfz3d6WSGNivr7x88rPnxIaAWJIpsw,6486
+scordt/setup_cython.py,sha256=yrIa80h5vha_rGFZN5uZhJM0WS_Aw2jAoVet5NoJ58g,123
+scordt/slicesPlot.py,sha256=NTyOAbMbq_5PuaTO_cfj9OKg0qxvWTZACx669Lg997k,4595
+scordt/test_csv.py,sha256=Eou9hm2nOI1Bjear4mt6ww_YwRnWaafaNqO6OeWt23o,74
+scordt-0.1.0.dist-info/DESCRIPTION.rst,sha256=V1rMhCvpY0j-HALQmLXIYKwVZAKoz0MtjuSol2MrFis,9
+scordt-0.1.0.dist-info/METADATA,sha256=aQzVQzoGWgXgwSv5IAc72GOuXX4w8R-1yT817n8bVIM,537
+scordt-0.1.0.dist-info/RECORD,,
+scordt-0.1.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+scordt-0.1.0.dist-info/metadata.json,sha256=B7nxeMBc5Ox1Y4IpWErAvDx3YIptwFEk8YU3eLaPOZc,687
+scordt-0.1.0.dist-info/top_level.txt,sha256=SMme4rufFuEZn6C1AuYWkS53ay20okMuUhy95aI3Wqg,7
