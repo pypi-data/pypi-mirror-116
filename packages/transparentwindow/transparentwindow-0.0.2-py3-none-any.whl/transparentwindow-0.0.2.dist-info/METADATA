@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: transparentwindow
+Version: 0.0.2
+Summary: A small python library for creating a transparent window.
+Home-page: https://github.com/m-m-git/transparentwindow
+License: BSD Zero Clause License
+Keywords: windows,transparentwindow
+Platform: windows
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: screencapture
+Requires-Dist: numpy ; extra == 'screencapture'
+Requires-Dist: opencv-python ; extra == 'screencapture'
+Requires-Dist: pillow ; extra == 'screencapture'
+
+# transparentwindow
+
+This package is a small python library for windows.
+It provides functions for creating a transparent window.
+
+## Installation
+
+```
+pip install transparentwindow
+```
+
+## Example
+
+```python
+import transparentwindow as tw
+
+tw.show_tpwin()
+```
+
+![sample.png](https://github.com/m-m-git/transparentwindow/blob/main/sample.png)
+
+## License
+
+BSD Zero Clause License
+
+see LICENSE.txt.
+
+
