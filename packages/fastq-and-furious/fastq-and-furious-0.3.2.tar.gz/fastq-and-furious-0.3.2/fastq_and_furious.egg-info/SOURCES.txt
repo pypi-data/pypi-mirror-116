@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fastq_and_furious.egg-info/PKG-INFO
+fastq_and_furious.egg-info/SOURCES.txt
+fastq_and_furious.egg-info/dependency_links.txt
+fastq_and_furious.egg-info/requires.txt
+fastq_and_furious.egg-info/top_level.txt
+src/_fastqandfurious.c
+src/fastqandfurious.py
+src/demo/benchmark.py

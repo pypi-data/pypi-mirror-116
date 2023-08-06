@@ -1,0 +1,8 @@
+
+[demo]
+biopython
+ngs_plumbing
+screed
+
+[test]
+pytest
