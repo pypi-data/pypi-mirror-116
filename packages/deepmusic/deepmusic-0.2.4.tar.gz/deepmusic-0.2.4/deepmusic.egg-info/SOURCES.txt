@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+deepmusic/__init__.py
+deepmusic/const.py
+deepmusic/metrics.py
+deepmusic/modules.py
+deepmusic/repr.py
+deepmusic/scale.py
+deepmusic/utils.py
+deepmusic.egg-info/PKG-INFO
+deepmusic.egg-info/SOURCES.txt
+deepmusic.egg-info/dependency_links.txt
+deepmusic.egg-info/requires.txt
+deepmusic.egg-info/top_level.txt
