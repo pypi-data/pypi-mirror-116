@@ -1,0 +1,16 @@
+docopt_c/__init__.py,sha256=1QLL2KT6jxyF6O4ZCjv4ouxaH0OUx1zEMrzXNQcJFvU,168
+docopt_c/__main__.py,sha256=U26cMKLke__xRSTzatWNU-olgRDVpCOAg8Gyf-vD-w0,8616
+docopt_c/docopt.py,sha256=QSMeLh-7nSB45u998p2CN8o5rJX8_zc-4MgM4vK6HRg,20044
+docopt_c/docopt_c.py,sha256=Yaf13kQDvYL6omX0npGg1eeTxS-n3bQfmpnJjIEMo0c,12303
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/docopt.c,sha256=EZVXldPxpfV6eaOYrdEvqFkneXZpkgdXDO_gadnbMXY,10153
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/example.c,sha256=fjjA1OdzBrNNfictcva-QTyXWHeK4MLQK8gB0lm6JGc,1130
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/example.docopt,sha256=47UbqxZdPSjGIv3xf_O5m4CrwZgsF9f77b_Vlp8zWhc,436
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/log.h,sha256=ideZv2ARDKAN9M8XptzSqKkhfNSw5QKGCfNwUycua2Q,2761
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/template.c,sha256=okfrXnpk22pnHBAKVrhpapMZ8luJq09NscNg9akOYKQ,7643
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/template.h,sha256=QIjjmK5ELWmuS2s1UniRS9pnLeaNs5WyJF6q8oAsv7A,1493
+docopt_c-0.0.1.data/data/lib/python3.8/site-packages/docopt_c/_data/test_docopt.c,sha256=l4_glRhyyqiwziBa-tmPIqLyIUpA2OFGqSolPLrdhAg,9051
+docopt_c-0.0.1.dist-info/LICENSE-MIT,sha256=PV33j1kv8kM8PGzkmECRt_SXBZ3bjGsIoGG6SON7Z_I,1097
+docopt_c-0.0.1.dist-info/METADATA,sha256=D8z72FdJwqiw2Bq4vmvitdz1BOTPX_kPN1q_fEgdENw,4233
+docopt_c-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+docopt_c-0.0.1.dist-info/top_level.txt,sha256=VvcaWC8ZE4_m0CqRN3CxgsAbDkXqOhbtQdpv4kob70c,9
+docopt_c-0.0.1.dist-info/RECORD,,
