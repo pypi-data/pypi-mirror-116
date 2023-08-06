@@ -1,0 +1,54 @@
+#!python
+#--------------------PYTHON PROGRAM----------------------#
+#                                                        #
+#    --Program to Implement Numerical Integration        #
+#               For a Specific Function--                #
+#             Composed By Midhun K Madhu                 #
+#                Place: IISERR BHOPAL                    #
+#            Date of creation: 16/08/2017                #
+#             Last Modified: 17/08/2017                  #
+
+#Export Libraries
+import numpy as np
+import sys
+import multiprocessing as mp
+from optparse import OptionParser
+
+# keyboard inputs
+def parse():
+    parser = OptionParser()
+    usage = "usage: %prog [options] arg1 arg2"
+
+    parser.add_option("-s", "--addition", type="str",
+                      help="give number first numner to add",
+                      dest="s", default='+')
+
+    options, arguments = parser.parse_args()
+    return options
+
+def main():
+    options = parse()
+    sign = str(options.s)
+    a = float(input("give 1st number:"))
+    b = float(input("give 1st number:"))
+
+    if sign == '+':
+        result = a+b
+
+    if sign == '-':
+        result = a-b
+
+    if sign == '*':
+        result = a*b
+
+    if sign == '/':
+        result = a/b
+
+    if sign == '%':
+        result = a%b
+
+    print("Result =", result)
+
+if __name__ == '__main__':
+    main()
+
