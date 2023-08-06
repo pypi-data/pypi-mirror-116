@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": ["null", "integer"]
+    },
+    "city": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  }
+}
