@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vsml
+Version: 0.1
+Summary: a very simple markup language.
+Home-page: https://github.com/GalaxiaTeam/vsml
+Author-email: satyrn@tutanota.com
+License: MIT
+Download-URL: https://pypi.org/project/vsml/
+Keywords: vsml,markup
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# vsml
+
+### a very simple markup language, written in python.
+
+
