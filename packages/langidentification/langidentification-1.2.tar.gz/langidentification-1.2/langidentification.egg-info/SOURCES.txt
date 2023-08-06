@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+langidentification/__init__.py
+langidentification/langidentification.py
+langidentification.egg-info/PKG-INFO
+langidentification.egg-info/SOURCES.txt
+langidentification.egg-info/dependency_links.txt
+langidentification.egg-info/requires.txt
+langidentification.egg-info/top_level.txt
