@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qft
+Version: 0.0.1
+Summary: 
+Author: Scott Lawrence
+Author-email: scott.lawrence-1@colorado.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
