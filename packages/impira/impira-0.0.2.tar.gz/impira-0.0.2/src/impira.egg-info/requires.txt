@@ -1,0 +1,5 @@
+json
+pydantic
+requests
+typing
+urllib
