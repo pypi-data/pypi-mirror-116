@@ -1,0 +1,13 @@
+Django>=2.2
+requests>=2
+scrubadub~=1.2.2
+django-ipware~=3.0.7
+
+[dev]
+black
+pre-commit
+pytest
+pytest-django
+pytest-pythonpath
+requests_mock
+tox
