@@ -1,0 +1,5 @@
+requests_iam_session/__init__.py,sha256=z2W_BOZNdXBLaB7aDrYQJfNMEextAXJmkdx0aRAnaDY,1049
+requests_iam_session-0.2.0.dist-info/LICENSE,sha256=Xxa7Q4EKjuQarq-8asmyjDqavA0UCIFyAAWVf8kjnuw,1067
+requests_iam_session-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+requests_iam_session-0.2.0.dist-info/METADATA,sha256=qM_cKWChykWMHfrCGNkPrpvxMm2j6cjXnglh32_bl5o,1472
+requests_iam_session-0.2.0.dist-info/RECORD,,
