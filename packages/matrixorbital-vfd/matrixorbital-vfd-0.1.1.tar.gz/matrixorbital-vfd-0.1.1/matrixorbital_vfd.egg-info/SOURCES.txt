@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+matrixorbital_vfd/__init__.py
+matrixorbital_vfd/__version__.py
+matrixorbital_vfd/vfd.py
+matrixorbital_vfd.egg-info/PKG-INFO
+matrixorbital_vfd.egg-info/SOURCES.txt
+matrixorbital_vfd.egg-info/dependency_links.txt
+matrixorbital_vfd.egg-info/requires.txt
+matrixorbital_vfd.egg-info/top_level.txt
