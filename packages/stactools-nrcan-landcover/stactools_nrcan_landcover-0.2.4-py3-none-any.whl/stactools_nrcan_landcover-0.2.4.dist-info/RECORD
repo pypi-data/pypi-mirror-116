@@ -1,0 +1,11 @@
+stactools/nrcan_landcover/__init__.py,sha256=ngzIoDkAYr1oZdECKBfvXhCywV9RxQ4eXBMpo2X-hnk,502
+stactools/nrcan_landcover/cog.py,sha256=BmIQSjV9nKqxI24BT2KlwSEGh-anp_2NeQWK24XdtWM,3194
+stactools/nrcan_landcover/commands.py,sha256=24UL1_WB4jUQQvPaNU5TiacYEVhr2jk7VNQu5xicUxQ,3847
+stactools/nrcan_landcover/constants.py,sha256=he-uoDrYfLXnNRoaWV1S_yZnrzg_GoIX_u-7ikRZR0o,2314
+stactools/nrcan_landcover/stac.py,sha256=svhYsma1XPM267FGplJHP-F7KAvEDlP3sPeKTD3LxcA,5792
+stactools/nrcan_landcover/utils.py,sha256=3hwMpC45MsMkO462D7Dl-zKrw3-gV-_miVZ-48xzVt0,2465
+stactools_nrcan_landcover-0.2.4.dist-info/LICENSE,sha256=kWJaWA0_vM1j3L58hxAUk0SJfTHICwX1-bAn3gnJt6k,658
+stactools_nrcan_landcover-0.2.4.dist-info/METADATA,sha256=bn0HzFFZs7UvbW6eNemY22ke3MvUvrnfg1stcolDteE,3099
+stactools_nrcan_landcover-0.2.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stactools_nrcan_landcover-0.2.4.dist-info/top_level.txt,sha256=0eoUA-AbTfjFtxXr3W-vQdRyNmpGnA0wlTL3ppTPCG8,10
+stactools_nrcan_landcover-0.2.4.dist-info/RECORD,,
