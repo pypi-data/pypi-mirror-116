@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: movieFinderIMDB
+Version: 0.0.1
+Summary: A moviefinder based on IMDB rating
+Home-page: UNKNOWN
+Author: Nicolai Thomassen
+Author-email: Thomassen.nicolai@gmail.com
+License: MIT
+Description: Simple moviefinder based on IMDB's ratings
+        
+        Change Log
+        ==========
+        
+        0.0.1 (13/08/2021)
+        -------------------
+        - First Release
+Keywords: movie,imdb
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
