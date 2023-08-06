@@ -1,0 +1,14 @@
+README.md
+setup.py
+architect/__init__.py
+architect/core/__init__.py
+architect/core/logging.py
+architect/core/schemas.py
+architect/providers/__init__.py
+architect/providers/base.py
+sentry_io.egg-info/PKG-INFO
+sentry_io.egg-info/SOURCES.txt
+sentry_io.egg-info/dependency_links.txt
+sentry_io.egg-info/not-zip-safe
+sentry_io.egg-info/requires.txt
+sentry_io.egg-info/top_level.txt
