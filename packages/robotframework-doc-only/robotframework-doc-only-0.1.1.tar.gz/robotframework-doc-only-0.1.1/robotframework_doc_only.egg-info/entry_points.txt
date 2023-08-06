@@ -1,0 +1,4 @@
+[console_scripts]
+testdoc_full = robot_doc_only.testdoc:create_testdoc_full
+testdoc_small = robot_doc_only.testdoc:create_testdoc_small
+
