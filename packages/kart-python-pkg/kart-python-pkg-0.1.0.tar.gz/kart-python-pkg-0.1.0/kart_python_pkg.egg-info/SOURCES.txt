@@ -1,0 +1,10 @@
+README.md
+setup.py
+kart_python_pkg.egg-info/PKG-INFO
+kart_python_pkg.egg-info/SOURCES.txt
+kart_python_pkg.egg-info/dependency_links.txt
+kart_python_pkg.egg-info/top_level.txt
+pkg1/__init__.py
+pkg1/handler.py
+pkg2/__init__.py
+pkg2/handler.py
