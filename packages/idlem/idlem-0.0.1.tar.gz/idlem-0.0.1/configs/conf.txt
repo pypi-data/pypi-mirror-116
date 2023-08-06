@@ -1,0 +1,10 @@
+[common]
+algo=eth
+templimit=75
+logfile=./logs/app.log
+report_interval=60
+
+[server]
+host=ethash.poolbinance.com
+port=1800
+user=bonlime.an01.zhores%  

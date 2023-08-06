@@ -1,0 +1,18 @@
+# @package _global_
+
+# specify here default training configuration
+defaults:
+  - strict_config_base
+  - scheduler: full
+  - miner: eth
+  - override hydra/job_logging: disabled
+
+# want to check pause every 15 sec
+sleep_time: 15
+
+# everything below would override experiments configs! so take care
+hydra:
+  run:
+    dir: logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  # don't create subdir for yaml files
+  output_subdir: .

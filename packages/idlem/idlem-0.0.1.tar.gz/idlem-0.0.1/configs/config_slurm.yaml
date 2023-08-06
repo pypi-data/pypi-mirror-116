@@ -1,0 +1,17 @@
+# @package _global_
+
+defaults:
+  - strict_config_slurm
+  - scheduler: night
+  - miner: eth
+  - override hydra/job_logging: disabled
+
+max_idle_jobs: 2
+max_schedule_jobs: 2
+
+# everything below would override experiments configs! so take care
+hydra:
+  run:
+    dir: logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  # don't create subdir for yaml files
+  output_subdir: .
