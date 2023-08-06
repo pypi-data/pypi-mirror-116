@@ -1,0 +1,3 @@
+[console_scripts]
+MyCryptoKeys = MyCryptoKeys.__main__:main
+
