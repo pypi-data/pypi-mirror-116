@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyinterview
+Version: 0.1.0
+Summary: This library contains useful data structures and algorithms that are commonly used in coding interviews.
+Home-page: https://github.com/marwanhawari/pyinterview
+Author: Marwan Hawari
+Author-email: marwan.hawari@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/marwanhawari/pyinterview/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Description
+This library contains useful data structures and algorithms that are commonly used in coding interviews.
+
+# Installation
+```
+pip install pyinterview
+```
+
