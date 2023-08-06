@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: package-ml
+Version: 0.1.0
+Summary: Notre premier package de machine learning
+Home-page: UNKNOWN
+Author: Nouha, Adrien, Gwendélina
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Dist: Seaborn
+
+UNKNOWN
+
+
