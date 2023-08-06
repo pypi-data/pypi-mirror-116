@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+yolox_backbone/__init__.py
+yolox_backbone.egg-info/PKG-INFO
+yolox_backbone.egg-info/SOURCES.txt
+yolox_backbone.egg-info/dependency_links.txt
+yolox_backbone.egg-info/top_level.txt
