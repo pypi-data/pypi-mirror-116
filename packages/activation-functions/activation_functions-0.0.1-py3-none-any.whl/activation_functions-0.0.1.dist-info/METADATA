@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: activation-functions
+Version: 0.0.1
+Summary: Basic activation functions
+Home-page: UNKNOWN
+Author: BoywithMask (Nicolas Bachleitner)
+Author-email: <nicolas.bachleitner@gmail.com>
+License: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+
+# activation_functions
+
