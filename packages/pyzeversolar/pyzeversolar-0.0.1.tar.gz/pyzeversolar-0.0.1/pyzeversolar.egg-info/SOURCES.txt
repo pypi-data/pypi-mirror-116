@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pyzeversolar.egg-info/PKG-INFO
+pyzeversolar.egg-info/SOURCES.txt
+pyzeversolar.egg-info/dependency_links.txt
+pyzeversolar.egg-info/top_level.txt
