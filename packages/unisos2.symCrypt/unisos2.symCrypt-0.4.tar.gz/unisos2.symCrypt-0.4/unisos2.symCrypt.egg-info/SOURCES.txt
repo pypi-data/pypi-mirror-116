@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+./bin/ucrypt.py
+unisos2/__init__.py
+unisos2.symCrypt.egg-info/PKG-INFO
+unisos2.symCrypt.egg-info/SOURCES.txt
+unisos2.symCrypt.egg-info/dependency_links.txt
+unisos2.symCrypt.egg-info/namespace_packages.txt
+unisos2.symCrypt.egg-info/not-zip-safe
+unisos2.symCrypt.egg-info/requires.txt
+unisos2.symCrypt.egg-info/top_level.txt
+unisos2/symCrypt/__init__.py
+unisos2/symCrypt/symCrypt.py
