@@ -1,0 +1,17 @@
+MetaLogo/__init__.py,sha256=8zLGg-DfQhnDl2Ky0n-zXpN-8e-g7iR0AcaI4l4Vvpk,32
+MetaLogo/character.py,sha256=0DWrXHF7j_G5fUmUrAMSwbA5VCN-l0ansJJ87OE4VzY,4273
+MetaLogo/colors.py,sha256=fPLe9qs70JkKP2MRUr1q9-_lkfG0TP5Dmaa0ofpBqtQ,1094
+MetaLogo/column.py,sha256=EauZdXRl2B7CoNPjhTs1ihBcnGymAtNoPiZtRHTB4NY,4945
+MetaLogo/connect.py,sha256=wvIla3WYAQTW1bqZF9wcafnal31wWKuBgjXHcAbh3VI,9571
+MetaLogo/entry.py,sha256=pl22rJQ8ovvkQH6xAQVdvaCRoJLmpc4ZgXWnST8gprg,7779
+MetaLogo/item.py,sha256=jm0n9qrgGjNnE2G-FYr5kw0NFyat0f0VAI3NHIhCK1E,921
+MetaLogo/logo.py,sha256=5MEJaTx8e5rUFmeUEzCtq9e5XkS0JF_JBoUExOLMyJE,28799
+MetaLogo/logobits.py,sha256=qq9xm_zQ1lJY2wrsaDbpnJChC4YiDsYKvFO0DB8azss,1586
+MetaLogo/utils.py,sha256=oQxQzaEHzyeGmfG_uYKWxSu05TA0A_qgU-22ReWRUfU,7160
+MetaLogo/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+MetaLogo-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+MetaLogo-1.0.0.dist-info/METADATA,sha256=jHawh6rJcuQlczCgBSiXfk2mXLLu0OmFHmzVDd8ApcM,959
+MetaLogo-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MetaLogo-1.0.0.dist-info/entry_points.txt,sha256=2kQzhBQyVwHkKYTCFsf6au1FsB9R3OwYEvudQHa6p9s,50
+MetaLogo-1.0.0.dist-info/top_level.txt,sha256=0fJP-WNXO-kQHpywHD3niP4qvc07pUrVfxhVot6mkF4,9
+MetaLogo-1.0.0.dist-info/RECORD,,
