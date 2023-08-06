@@ -1,0 +1,12 @@
+buildpan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildpan/buildpan.py,sha256=qMrPDBj_EkmF3aICKCHpJSwOYihGSG8mQSD8Y0nt_YM,421
+cli_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_commands/init.py,sha256=rDHY0YC0AHyWNMPGaF451BwdAH8ngpsbkGYo3BR2w1w,9078
+cli_commands/tempCodeRunnerFile.py,sha256=sRJ5VHvElRCoGnZKWdwuq6jNAE2Vh446KE_SdCcEJVM,6
+cli_commands/time.py,sha256=cD3rabH9-_Fxt1DVCtIPrHjJeSNTlnT0qYtIoTl-P6k,138
+cli_commands/version.py,sha256=TFxnGVx9aOzLHsi0Io2QxeNNy4eyQrjo4wzwPG8s9_c,952
+gitcidi-0.0.51.dist-info/METADATA,sha256=hCEKca2peXwklmmS1MdZwEF69pw284lYSoPoaSq9_5M,976
+gitcidi-0.0.51.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitcidi-0.0.51.dist-info/entry_points.txt,sha256=RLU6op304LfQlYxucw_ERg7M65eMVKuAp9UiEUqXMss,57
+gitcidi-0.0.51.dist-info/top_level.txt,sha256=3WRy8RjPOh4mHBYJiokpw6LHKqgDsedeZJOoRpgo6-k,22
+gitcidi-0.0.51.dist-info/RECORD,,
