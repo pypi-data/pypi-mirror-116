@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+./bin/icmp
+blee2/__init__.py
+blee2.icmPlayer.egg-info/PKG-INFO
+blee2.icmPlayer.egg-info/SOURCES.txt
+blee2.icmPlayer.egg-info/dependency_links.txt
+blee2.icmPlayer.egg-info/namespace_packages.txt
+blee2.icmPlayer.egg-info/not-zip-safe
+blee2.icmPlayer.egg-info/requires.txt
+blee2.icmPlayer.egg-info/top_level.txt
+blee2/icmPlayer/__init__.py
+blee2/icmPlayer/bleep.py
