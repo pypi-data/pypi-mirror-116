@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ordinor
+Version: 0.1.0rc14
+Summary: Python toolkit for organizational model mining
+Home-page: https://github.com/roy-jingyang/OrdinoR
+Author: Jing (Roy) Yang
+Author-email: roy.j.yang@qut.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
