@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sagemaker-devcloud-rp
+Version: 0.1
+Summary: The Sagemaker client to run outside the AWS environment.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: For test now
+Keywords: sagemaker
+Platform: UNKNOWN
