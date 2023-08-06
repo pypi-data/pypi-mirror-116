@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tracardi-sending-mail
+Version: 0.2.1
+Summary: The purpose of this plugin is sending mail with tracardi system.
+Home-page: UNKNOWN
+Author: Patryk Migaj
+Author-email: patromi123@gmail.com
+License: UNKNOWN
+Description: # Tracardi plugin
+        
+        This code can be run within Tracardi workflow.
+        
+        # Sending mail with tracarti
+        
+        The purpose of this plugin is send emails using tracardi system.
+        The plugin supports sending HTML message.
+        
+        
+        # Configuration
+        
+        This node require configuration. In order to read timezone 
+        you must define path to time zone. Use dot notation to do that.
+        
+        # Input payload
+        
+        This node does not process input payload.
+        
+        # Output
+        
+        This is one output Mail send.
+        
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,2 @@
+recursive-include tracardi_sending_mail/plugin *
+recursive-include tracardi_sending_mail/manual *
