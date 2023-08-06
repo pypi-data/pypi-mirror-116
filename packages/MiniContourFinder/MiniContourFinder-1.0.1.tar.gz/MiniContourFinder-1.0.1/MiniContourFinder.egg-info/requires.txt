@@ -1,0 +1,6 @@
+opencv>=4.5.2
+py-opencv>=4.5.2
+pyperclip
+PyQt5
+pytesseract
+tqdm

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: MiniContourFinder
+Version: 1.0.1
+Summary: Lightweight image segmentation software for biological images
+Home-page: https://github.com/wino6687/conda-demo
+Author: Ian S Gilman
+Author-email: ian.gilman@yale.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MiniContourFinder
+### Lightweight image segmentation software for biological images
+
+
