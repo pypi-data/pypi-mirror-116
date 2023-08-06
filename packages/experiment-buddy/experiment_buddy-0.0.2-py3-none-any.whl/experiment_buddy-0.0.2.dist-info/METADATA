@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: experiment-buddy
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/ministry-of-silly-code/experiment_buddy/
+Author: Manuel Del Verme, Ionelia Buzatu
+Author-email: 
+Maintainer: Ionelia Buzatu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: GitPython
+Requires-Dist: PyYaml
+Requires-Dist: aiohttp
+Requires-Dist: cloudpickle
+Requires-Dist: fabric
+Requires-Dist: funcy
+Requires-Dist: matplotlib
+Requires-Dist: paramiko
+Requires-Dist: tensorboardX
+Requires-Dist: tqdm
+Requires-Dist: wandb
+
+UNKNOWN
+
+
