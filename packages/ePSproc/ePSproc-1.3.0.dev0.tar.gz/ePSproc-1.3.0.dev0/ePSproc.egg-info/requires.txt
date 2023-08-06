@@ -1,0 +1,13 @@
+numpy_quaternion
+numpy
+scipy
+xarray==0.15.0
+pandas
+matplotlib
+seaborn==0.9.0
+spherical_functions
+numba
+pyvista
+cclib
+holoviews
+plotly
