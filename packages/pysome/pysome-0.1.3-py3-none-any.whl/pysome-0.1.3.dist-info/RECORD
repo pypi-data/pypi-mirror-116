@@ -1,0 +1,17 @@
+pysome/Same.py,sha256=kdjFyC3nW_eqwQLOFk-KsW6tVf9lS0RqyN5XzKLcs0A,1366
+pysome/SameState.py,sha256=-6AUFgErjWT2J1QXw70uJ8Rwg6oKavsHrpZMu9kS8mk,547
+pysome/Some.py,sha256=uLA1mD8XmuNSSDyjs6iP-enzRETxYMSttrCkclD6dL8,9418
+pysome/__init__.py,sha256=4MD864oIsq181TS8Bdz7Kipa15vSF9WNFthYTC_YyIM,86
+pysome/exceptions.py,sha256=VXTCrzTm54b1q1SyZDQTNzCcDH1rRcnlOaerYf4hs-M,248
+pysome/expect.py,sha256=3MUWa0leDKuqQckMzIjYH4ceqpxnc9w8_ncBFb_NMWw,438
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/pysome/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/pysome/test_Same.py,sha256=IK5mydZHy7shlLj84WrGj52VJ-1T3Y4aSMxY8LEHk6s,5471
+tests/pysome/test_SameState.py,sha256=MbfCc6ykdNlbE50pPld78iK7zypvPkJekrZC-DfTFYo,1002
+tests/pysome/test_Some.py,sha256=QvC8MB2Y3muR-ymHECqEaQqBBSLKgQY0apowpFI9t80,11549
+tests/pysome/test_expect.py,sha256=roYKD9QWchdmKRTbktCR3ns5Gd0q5TBbqaWGrAeH70g,5638
+pysome-0.1.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+pysome-0.1.3.dist-info/METADATA,sha256=g0EA0HEAVVFaA63o4AN0e-kbdY1xTVc3lZ4ABiQ0fp4,10755
+pysome-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pysome-0.1.3.dist-info/top_level.txt,sha256=Iddp7LjVQWVnBxUEzBlCrSwLmvjFgfmINF0aaOFAC1A,13
+pysome-0.1.3.dist-info/RECORD,,
