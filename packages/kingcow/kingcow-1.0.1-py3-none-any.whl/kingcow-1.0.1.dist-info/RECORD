@@ -1,0 +1,11 @@
+kingcow/__init__.py,sha256=lCz5reWcNd1g7o22A3dUNjVF2aZQcIJ0hglWY6KEbKA,664
+kingcow/api.py,sha256=_8C4j13U02pM74PCFC2AFCSBrIZ7sKoRyuKmzVWjIOo,202
+kingcow/html_handle.py,sha256=KjhLq1IgGTb1OH82miasqOqwxPXPiE8TnCuxH3HAJBo,2007
+kingcow/request.py,sha256=-cMxWEG2I3GBGkR5iYjze399rwdAqVC_N3PR3pq7SFA,2732
+kingcow/spider.py,sha256=roplmZ8rtjwmeoFGiNPjYfKPSGTWPR82D2wpPkx6p4c,4019
+kingcow/xml_handle.py,sha256=Gn8RinNQzEvi55nsZMQ28q7k56tNnY1E7kv0Gnh0jF4,914
+kingcow-1.0.1.dist-info/LICENSE,sha256=lDDcp5m5B20uA-bkqDP6ttAhIq7C2MeADO5SglQDvIs,1088
+kingcow-1.0.1.dist-info/METADATA,sha256=tp05Zi5dKRq4ps8sbnyn5BukUhk08Bnj2gRz3Cakn8c,2414
+kingcow-1.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+kingcow-1.0.1.dist-info/top_level.txt,sha256=vvqSM8I-3aVQUnHjmNPxdQrGcIv81Fx85WP7RbTnXYg,8
+kingcow-1.0.1.dist-info/RECORD,,
