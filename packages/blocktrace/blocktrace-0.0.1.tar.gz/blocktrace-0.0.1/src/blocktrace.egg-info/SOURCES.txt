@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/blocktrace.egg-info/PKG-INFO
+src/blocktrace.egg-info/SOURCES.txt
+src/blocktrace.egg-info/dependency_links.txt
+src/blocktrace.egg-info/top_level.txt
