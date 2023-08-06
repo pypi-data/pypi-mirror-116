@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: worldtools
+Version: 1.0.1
+Summary: A python module for reading and writing Minecraft Worlds
+Home-page: https://github.com/xImAnton/WorldTools
+Author: xImAnton_
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/xImAnton/WorldTools/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WorldTools
+A python module for modifying minecraft worlds
+
+## Features
+* Region File Parsing
+* NBT Implementation
+
+
