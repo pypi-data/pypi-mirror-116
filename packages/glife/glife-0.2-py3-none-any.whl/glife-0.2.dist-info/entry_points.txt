@@ -1,0 +1,3 @@
+[console_scripts]
+glife = glife.cli.cli:run
+
