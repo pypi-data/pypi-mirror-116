@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "executor-exporter"
+version = "0.1.2"
+description = "A Prometheus exporter for Python concurrent.futures executors"
+license = "Apache-2.0"
+authors = ["Ygor Mutti <ygormutti@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/ygormutti/executor-exporter"
+keywords = [
+    "ThreadPoolExecutor",
+    "ProcessPoolExecutor",
+    "prometheus",
+    "metrics",
+    "exporter",
+]
+exclude = ["docs/**"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+prometheus-client = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+rope = "^0.19.0"
+isort = "^5.9.3"
+black = "^21.7b0"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
