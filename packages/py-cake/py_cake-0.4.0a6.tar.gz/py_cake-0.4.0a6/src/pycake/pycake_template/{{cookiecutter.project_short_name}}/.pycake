@@ -1,0 +1,20 @@
+
+# your application/service name to expose as
+app.title = "{{cookiecutter.project_name}}"
+app.name = "{{cookiecutter.project_short_name}}"
+app.version = "{{cookiecutter.version}}"
+
+# ********************************************************
+#                Release Configuation
+# ********************************************************
+openapi.enabled = True
+# all ymls should be under .app dir
+openapi.ymls = ['{{cookiecutter.project_short_name}}']
+
+# is model service
+openapi.model = True
+# whether to sample the api request and response
+model.sample = False
+# api sample percent
+model.sample.percent = 50
+
