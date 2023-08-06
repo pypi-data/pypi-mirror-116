@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version.py
+dask_remote_jobqueue/__init__.py
+dask_remote_jobqueue/dask_remote_jobqueue.py
+dask_remote_jobqueue.egg-info/PKG-INFO
+dask_remote_jobqueue.egg-info/SOURCES.txt
+dask_remote_jobqueue.egg-info/dependency_links.txt
+dask_remote_jobqueue.egg-info/requires.txt
+dask_remote_jobqueue.egg-info/top_level.txt
