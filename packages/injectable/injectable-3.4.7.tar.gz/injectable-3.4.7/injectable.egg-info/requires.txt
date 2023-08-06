@@ -1,0 +1,8 @@
+lazy-object-proxy~=1.6
+pycollect~=0.2
+parameters-validation~=1.2
+cached-property~=1.5
+typing-inspect~=0.7
+
+[:python_version >= "3.6" and python_version < "3.7"]
+dataclasses~=0.8
