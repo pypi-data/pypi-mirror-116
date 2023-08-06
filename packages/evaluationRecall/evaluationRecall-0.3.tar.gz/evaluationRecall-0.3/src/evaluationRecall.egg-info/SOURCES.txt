@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/evaluationRecall/__init__.py
+src/evaluationRecall/recall.py
+src/evaluationRecall/recall_ivf.py
+src/evaluationRecall.egg-info/PKG-INFO
+src/evaluationRecall.egg-info/SOURCES.txt
+src/evaluationRecall.egg-info/dependency_links.txt
+src/evaluationRecall.egg-info/top_level.txt
