@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nebula2-python-fork
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/linzhiming0826/nebula-python
+Author: vesoft-inc
+Author-email: info@vesoft.com
+License: Apache 2.0 + Common Clause 1.0
+Platform: 3.5, 3.7
+Requires-Dist: httplib2
+Requires-Dist: future
+Requires-Dist: six
+Requires-Dist: pytz
+
+Python client for Nebula Graph V2.0
+
+
