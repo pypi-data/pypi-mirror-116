@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+ipython-sql
+pydot
+graphviz
+
+# Now included in package src
+#git+https://github.com/fschulze/sqlalchemy_schemadisplay.git
