@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: idlea
+Version: 0.0.1
+Summary: IDLE-Advance
+Home-page: https://github.com/znsoooo/IDLE-Advance
+Author: Lishixian(znsoooo)
+Author-email: lsx7@sina.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.6
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# IDLE-Advance
+
+Github: https://github.com/znsoooo/IDLE-Advance
+
+
