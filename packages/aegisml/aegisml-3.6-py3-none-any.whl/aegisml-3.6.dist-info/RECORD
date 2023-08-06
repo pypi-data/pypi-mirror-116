@@ -1,0 +1,8 @@
+aegisml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aegisml/dataset.py,sha256=8qLKMiWgOf2rvoWdWuZHKTlUT9ud1o5sEBsJOkU7WyY,2279
+aegisml/downloader.py,sha256=GFP0fKh-Nq4FYHEQGmczoSrBb8GL_USqd11Mpf9i3Xo,440
+aegisml/manager.py,sha256=3RMqppLvOM-yW1oTXMPeWyVRjnlZWnNIkJW5SLs6VpI,3218
+aegisml-3.6.dist-info/METADATA,sha256=SeUfw-ocqI9lg-ZSiHNpYjX1cbkcMCScMOW5gvDKGoc,748
+aegisml-3.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aegisml-3.6.dist-info/top_level.txt,sha256=eAX7Y7Nd5j_FTAslhoJ-iizAfOjcGpjTwltkvOJc36U,8
+aegisml-3.6.dist-info/RECORD,,
