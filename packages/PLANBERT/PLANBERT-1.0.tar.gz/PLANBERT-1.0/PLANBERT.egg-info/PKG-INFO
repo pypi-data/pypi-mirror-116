@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PLANBERT
+Version: 1.0
+Summary: A Bi-directional Transformer based sequential baskets recommender which incorporates future items
+Home-page: https://github.com/CAHLR/PLAN-BERT
+Author: Erzhuo Shao, Zachary A. Pardos
+Author-email: shaoerzhuo@gmail.com, zp@berkeley.edu
+License: MIT
+Description: A Bi-directional Transformer based sequential baskets recommender which incorporates future items
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
