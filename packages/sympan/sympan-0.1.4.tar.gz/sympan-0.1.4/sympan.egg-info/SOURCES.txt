@@ -1,0 +1,10 @@
+README.md
+setup.py
+sympan/__init__.py
+sympan/handlers.py
+sympan.egg-info/PKG-INFO
+sympan.egg-info/SOURCES.txt
+sympan.egg-info/dependency_links.txt
+sympan.egg-info/not-zip-safe
+sympan.egg-info/requires.txt
+sympan.egg-info/top_level.txt
