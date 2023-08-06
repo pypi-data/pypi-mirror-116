@@ -1,0 +1,10 @@
+[distutils.commands]
+batch = mlbaklava.commands:Batch
+deploy = mlbaklava.commands:Deploy
+process = mlbaklava.commands:Process
+train = mlbaklava.commands:Train
+
+[distutils.setup_keywords]
+dockerlines = mlbaklava.commands:passthrough
+python_version = mlbaklava.commands:passthrough
+
