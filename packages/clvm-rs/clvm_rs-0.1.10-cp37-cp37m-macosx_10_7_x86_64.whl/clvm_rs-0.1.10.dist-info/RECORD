@@ -1,0 +1,5 @@
+clvm_rs-0.1.10.dist-info/METADATA,sha256=OYulI4IgXU-5TieofDYnqgswh9NNdzYsgH_SBdlDhP8,1016
+clvm_rs-0.1.10.dist-info/WHEEL,sha256=l7KTertXD_5IiBXiWqAnouBD9socPY7pXVqcE7jgFVs,105
+clvm_rs/__init__.py,sha256=33t7Lb_ZIvGIT3HVbgZ9snVbWNZg7o6fYF06pt45HCg,23
+clvm_rs/clvm_rs.cpython-37m-darwin.so,sha256=tRZQC1Md3ixdOIYNeZo8itxQPKKGsRsMOptYvYyP3eY,971480
+clvm_rs-0.1.10.dist-info/RECORD,,
