@@ -1,0 +1,9 @@
+pandas>=0.19.2
+requests
+tqdm
+
+[dev]
+check-manifest
+
+[test]
+coverage
