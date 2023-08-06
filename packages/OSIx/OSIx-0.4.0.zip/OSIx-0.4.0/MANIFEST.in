@@ -1,0 +1,2 @@
+include OSIx.py
+recursive-include resources *
