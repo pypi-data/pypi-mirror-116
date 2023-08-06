@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+KNMIdata/KNMI.py
+KNMIdata/KNMI_data_fetch.py
+KNMIdata/__init__.py
+KNMIdata/loading_screen.py
+KNMIdata.egg-info/PKG-INFO
+KNMIdata.egg-info/SOURCES.txt
+KNMIdata.egg-info/dependency_links.txt
+KNMIdata.egg-info/top_level.txt
