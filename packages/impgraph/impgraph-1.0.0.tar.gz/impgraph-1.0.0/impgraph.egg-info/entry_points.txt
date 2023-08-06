@@ -1,0 +1,3 @@
+[console_scripts]
+impgraph = impgraph.__main__:main
+

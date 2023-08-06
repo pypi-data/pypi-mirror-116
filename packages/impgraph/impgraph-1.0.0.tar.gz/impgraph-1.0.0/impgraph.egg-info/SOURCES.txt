@@ -1,0 +1,12 @@
+README.md
+setup.py
+impgraph/__init__.py
+impgraph/__main__.py
+impgraph/grapher.py
+impgraph/walker.py
+impgraph.egg-info/PKG-INFO
+impgraph.egg-info/SOURCES.txt
+impgraph.egg-info/dependency_links.txt
+impgraph.egg-info/entry_points.txt
+impgraph.egg-info/requires.txt
+impgraph.egg-info/top_level.txt
