@@ -1,0 +1,7 @@
+requests==2.22.0
+pandas==1.2.4
+pyyaml
+packaging
+deepdiff
+boto3
+botocore
