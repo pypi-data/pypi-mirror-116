@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>kalepy.utils &mdash; kalepy 0.4 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> kalepy
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">kalepy API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kalepy.html">Full Package Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">kalepy</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>kalepy.utils</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/kalepy_utils.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<section id="module-kalepy.utils">
+<span id="kalepy-utils"></span><h1>kalepy.utils<a class="headerlink" href="#module-kalepy.utils" title="Permalink to this headline">¶</a></h1>
+<p>kalepy’s internal, utility functions.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.add_cov">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">add_cov</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cov</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.add_cov" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.allclose">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">allclose</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">yy</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.allclose" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.alltrue">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">alltrue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.alltrue" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.array_str">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">array_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">':.2e'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.array_str" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.bins">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">bins</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.bins" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate <cite>np.linspace(*args)</cite> and return also centers and widths.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><ul class="simple">
+<li><p><strong>xe</strong> (<em>(N,) bin edges</em>)</p></li>
+<li><p><strong>xc</strong> (<em>(N-1,) bin centers</em>)</p></li>
+<li><p><strong>dx</strong> (<em>(N-1,) bin widths</em>)</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.bound_indices">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">bound_indices</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bounds</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outside</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.bound_indices" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find the indices of the <cite>data</cite> array that are bounded by the given <cite>bounds</cite>.</p>
+<p>If <cite>outside</cite> is True, then indices for values <em>outside</em> of the bounds are returned.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.cov_keep_vars">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">cov_keep_vars</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">matrix</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">keep</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reflect</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.cov_keep_vars" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.cumsum">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">cumsum</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vals</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.cumsum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform a cumulative sum without flattening the input array.</p>
+<p>See: <a class="reference external" href="https://stackoverflow.com/a/60647166/230468">https://stackoverflow.com/a/60647166/230468</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vals</strong> (<em>array_like of scalar</em>) – Input values to sum over.</p></li>
+<li><p><strong>axis</strong> (<em>None</em><em> or </em><em>int</em>) – Axis over which to perform the cumulative sum.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>res</strong> – Same shape as input <cite>vals</cite></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ndarray of scalar</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.cumtrapz">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">cumtrapz</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pdf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prepend</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.cumtrapz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform a cumulative integration using the trapezoid rule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pdf</strong> (<em>array_like of scalar</em>) – Input values (e.g. a PDF) to be integrated.</p></li>
+<li><p><strong>edges</strong> (<em>[</em><em>D</em><em>,</em><em>] </em><em>list of</em><em> (</em><em>array_like of scalar</em><em>)</em>) – Edges defining bins along each dimension.
+This should be an array/list of edges for each of <cite>D</cite> dimensions.</p></li>
+<li><p><strong>prepend</strong> (<em>bool</em>) – Whether or not to prepend zero values along the integrated dimensions.</p></li>
+<li><p><strong>axis</strong> (<em>None</em><em> or </em><em>int</em>) – Axis/Dimension over which to integrate.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>cdf</strong> – Values integrated over the desired axes.
+Shape:
+* If <cite>prepend</cite> is False, the shape of <cite>cdf</cite> will be one smaller than the input <cite>pdf</cite>
+* in all dimensions integrated over.
+* If <cite>prepend</cite> is True, the shape of <cite>cdf</cite> will match that of the input <cite>pdf</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ndarray of scalar</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.flatlen">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">flatlen</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.flatlen" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.flatten">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">flatten</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.flatten" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flatten a ND array, whether jagged or not, into a 1D array.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.histogram">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">histogram</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bins</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">density</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">probability</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.histogram" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.iqrange">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">iqrange</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.iqrange" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate inter-quartile range of the given data.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.isjagged">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">isjagged</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.isjagged" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test if the given array is jagged.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.jshape">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">jshape</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">printout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prepend</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'</span>&#160; <span class="pre">'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.jshape" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print the complete shape (even if jagged) of the given array.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.matrix_invert">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">matrix_invert</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">matrix</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">helper</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.matrix_invert" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.meshgrid">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">meshgrid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indexing</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'ij'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.meshgrid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.midpoints">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">midpoints</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frac</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">squeeze</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.midpoints" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the midpoints between values in the given array.</p>
+<p>If the given array is N-dimensional, midpoints are calculated from the last dimension.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>arr</strong> (<em>ndarray of scalars</em><em>,</em>) – Input array.</p></li>
+<li><p><strong>log</strong> (<em>bool</em><em> or </em><em>None</em><em>,</em>) – Find midpoints in log-space</p></li>
+<li><p><strong>frac</strong> (<em>float</em><em>,</em>) – Fraction of the way between intervals (e.g. <cite>0.5</cite> for half-way midpoints).</p></li>
+<li><p><strong>axis</strong> (int, sequence, or <cite>None</cite>,) – The axis about which to find the midpoints.  If <cite>None</cite>, find the midpoints along all axes.
+If a sequence (tuple, list, or array), take the midpoints along each specified axis.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>mids</strong> – The midpoints of the input array.
+The resulting shape will be the same as the input array <cite>arr</cite>, except that
+<cite>mids.shape[axis] == arr.shape[axis]-1</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ndarray of floats,</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.minmax">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">minmax</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">positive</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prev</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stretch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_stretch</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.minmax" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.parse_edges">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">parse_edges</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">extrema</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nmin</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nmax</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pad</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">refine</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bw</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.parse_edges" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.quantiles">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">quantiles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">percs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigmas</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">values_sorted</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.quantiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute weighted quartiles.</p>
+<p>Taken from <cite>zcode.math.statistics</cite>
+Based on &#64;Alleo answer: <a class="reference external" href="http://stackoverflow.com/a/29677616/230468">http://stackoverflow.com/a/29677616/230468</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>values</strong> (<em>(</em><em>N</em><em>,</em><em>)</em>) – input data</p></li>
+<li><p><strong>percs</strong> (<em>(</em><em>M</em><em>,</em><em>) </em><em>scalar</em><em> [</em><em>0.0</em><em>, </em><em>1.0</em><em>]</em>) – Desired percentiles of the data.</p></li>
+<li><p><strong>weights</strong> ((N,) or <cite>None</cite>) – Weighted for each input data point in <cite>values</cite>.</p></li>
+<li><p><strong>values_sorted</strong> (<em>bool</em>) – If True, then input values are assumed to already be sorted.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>percs</strong> – Array of percentiles of the weighted input data.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>(M,) float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.really1d">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">really1d</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.really1d" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test whether an array_like is really 1D (i.e. not a jagged ND array).</p>
+<p>Test whether the input array is uniformly one-dimensional, as apposed to (e.g.) a <code class="docutils literal notranslate"><span class="pre">ndim</span> <span class="pre">==</span> <span class="pre">1</span></code>
+list or array of irregularly shaped sub-lists/sub-arrays.  True for an empty list <cite>[]</cite>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>arr</strong> (<em>array_like</em>) – Array to be tested.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Whether <cite>arr</cite> is purely 1D.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.rem_cov">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">rem_cov</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cov</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.rem_cov" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.run_if">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">run_if</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">otherwise</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.run_if" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.run_if_notebook">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">run_if_notebook</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">otherwise</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.run_if_notebook" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.run_if_script">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">run_if_script</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">otherwise</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.run_if_script" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.spacing">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">spacing</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'log'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dex</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.spacing" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.stats">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">stats</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shape</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stats</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.stats" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.stats_str">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">stats_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">percs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.0,</span> <span class="pre">0.16,</span> <span class="pre">0.5,</span> <span class="pre">0.84,</span> <span class="pre">1.0]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ave</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">std</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">weights</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_log</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.stats_str" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a string with the statistics of the given array.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>ndarray of scalar</em>) – Input data from which to calculate statistics.</p></li>
+<li><p><strong>percs</strong> (<em>array_like of scalars in {0</em><em>, </em><em>100}</em>) – Which percentiles to calculate.</p></li>
+<li><p><strong>ave</strong> (<em>bool</em>) – Include average value in output.</p></li>
+<li><p><strong>std</strong> (<em>bool</em>) – Include standard-deviation in output.</p></li>
+<li><p><strong>format</strong> (<em>str</em>) – Formatting for all numerical output, (e.g. <cite>“:.2f”</cite>).</p></li>
+<li><p><strong>log</strong> (<em>bool</em>) – Convert values to log10 before printing.</p></li>
+<li><p><strong>Output</strong> – </p></li>
+<li><p><strong>------</strong> – </p></li>
+<li><p><strong>out</strong> (<em>str</em>) – Single-line string of the desired statistics.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.trapz_dens_to_mass">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">trapz_dens_to_mass</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pdf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.trapz_dens_to_mass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert from density to mass, for values on the corner of a grid, using the trapezoid rule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pdf</strong> (<em>array_like</em>) – Density values, computed at the grid edges specified by the <cite>edges</cite> list-of-lists.</p></li>
+<li><p><strong>edges</strong> (<em>array_like of array_like</em>) – List of edge-locations along each dimension specifying the grid of values at which <cite>pdf</cite>
+are located.
+e.g. <cite>[[x0, x1, … xn], [y0, y1, … ym], …]</cite>
+The length of each sub-list in <cite>edges</cite>, must match the shape of <cite>pdf</cite>.
+e.g. if <cite>edges</cite> is a (3,) list, composed of sub-lists with lengths: <cite>[N, M, L,]</cite> then
+the shape of <cite>pdf</cite> must be <cite>(N, M, L,)</cite>.</p></li>
+<li><p><strong>axis</strong> (<em>int</em><em>, </em><em>array_like int</em><em>, or </em><em>None</em>) – Along which axes to convert from density to mass.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>mass</strong> – The <cite>mass</cite> array has as many dimensions as <cite>pdf</cite>, with each dimension one element shorter.
+e.g. if the shape of <cite>pdf</cite> is (N, M, …), then the shape of <cite>mass</cite> is (N-1, M-1, …).</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>array_like</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="kalepy.utils.trapz_nd">
+<span class="sig-prename descclassname"><span class="pre">kalepy.utils.</span></span><span class="sig-name descname"><span class="pre">trapz_nd</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edges</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#kalepy.utils.trapz_nd" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Luke Zoltan Kelley and Contributors.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
