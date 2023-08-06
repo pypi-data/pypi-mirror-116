@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pyalphabetica
+Version: 1.0
+Summary: pyalphabetica has tools useful to format and edit strings, lists, and dictionaries quickly
+Home-page: https://github.com/MontyPythoneer/pyalphabetica
+Author: Habeb Rizmi
+Author-email: onlyforpython123@gmail.com
+License: MIT
+Download-URL: https://github.com/MontyPythoneer/pyalphabetica/archive/refs/tags/1.0.tar.gz
+Description: pyalphabetica is a module to make editing and tweaking strings, lists, and dictionaries, easier. This module has many useful function and more will be coming.
+Keywords: dictionaries,strings,lists
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8

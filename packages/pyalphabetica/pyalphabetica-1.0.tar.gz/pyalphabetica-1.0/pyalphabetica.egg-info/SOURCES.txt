@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyalphabetica/__init__.py
+pyalphabetica.egg-info/PKG-INFO
+pyalphabetica.egg-info/SOURCES.txt
+pyalphabetica.egg-info/dependency_links.txt
+pyalphabetica.egg-info/top_level.txt
