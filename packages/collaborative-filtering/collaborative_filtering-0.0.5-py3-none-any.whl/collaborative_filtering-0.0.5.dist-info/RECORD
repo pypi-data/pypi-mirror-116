@@ -1,0 +1,17 @@
+collaborative_filtering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+collaborative_filtering/dataset.py,sha256=gHz4DMGQykSiewjikvnyBUiA8FfxNKbAy7jJklOJBHo,3261
+collaborative_filtering/early_stop.py,sha256=AIuKYM3C8P6qI4fffZ9uES-La1bHhRMmqYQNfq37WC4,776
+collaborative_filtering/evaluate.py,sha256=1dH73LPuXuQ06NDGHbXqHpgy041xdB0xGPfWboGW1Gk,3294
+collaborative_filtering/loss.py,sha256=XmrMtf2C9zbNHKpcFtAU1uUapYL_kEzkbwHX8vS0PmY,1061
+collaborative_filtering/metrics.py,sha256=EUR7A7Vk6NbWQJ5p6ZYuOCna1jgpcgDIBGHGVjbsnwI,1504
+collaborative_filtering/parameters.py,sha256=S0MDjSmqj2w1rtUG0MsjbwlJa9YtACrBcOc4tmW-0Hw,2204
+collaborative_filtering/train.py,sha256=GkyzddmbMRHQMfcNoZNX1MsWpy4ja-QXIhZvOPSBemQ,7909
+collaborative_filtering/utils.py,sha256=k-bkUaMn7ecp-cA50nYfvlBOFsY-lOqj95yOlgT0VOY,2770
+collaborative_filtering/model/__init__.py,sha256=fmAjvnA7lFhHKejMUdbHj_CzfnRjYV0SszoixOg9mxo,40
+collaborative_filtering/model/mf.py,sha256=aTzZJwR8MlFFD4tCOLN1_99RbuNYZwjXVd38NpYZE6U,794
+collaborative_filtering/model/mlp.py,sha256=rpzdL1oKagfBAdzgWEzlzh2GeARnLoUDl3v3-AZBckQ,886
+collaborative_filtering-0.0.5.dist-info/LICENSE,sha256=pd3VdxLnwxnZfxnzr2uTtWkyVfM1wWe5Gh_XyEKn0DQ,1065
+collaborative_filtering-0.0.5.dist-info/METADATA,sha256=h9pcsvXV3w2mtMiYu6YY0vZtdCLm40l4MRgBMFAsTN0,1224
+collaborative_filtering-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+collaborative_filtering-0.0.5.dist-info/top_level.txt,sha256=G_wVHa2QaNtA2s5JoPRiR6wOJEdlnTW_d_xQCPmX3Mo,24
+collaborative_filtering-0.0.5.dist-info/RECORD,,
