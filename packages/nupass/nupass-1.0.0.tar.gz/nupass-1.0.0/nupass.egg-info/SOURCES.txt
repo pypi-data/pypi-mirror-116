@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nupass/__init__.py
+nupass/nupass.py
+nupass/script.py
+nupass/wordlist.txt
+nupass.egg-info/PKG-INFO
+nupass.egg-info/SOURCES.txt
+nupass.egg-info/dependency_links.txt
+nupass.egg-info/entry_points.txt
+nupass.egg-info/not-zip-safe
+nupass.egg-info/top_level.txt

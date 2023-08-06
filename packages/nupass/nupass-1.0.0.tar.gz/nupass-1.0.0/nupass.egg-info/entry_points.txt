@@ -1,0 +1,3 @@
+[console_scripts]
+nupass = nupass.script:main
+
