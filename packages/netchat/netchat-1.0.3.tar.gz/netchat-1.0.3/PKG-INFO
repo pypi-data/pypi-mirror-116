@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: netchat
+Version: 1.0.3
+Summary: netchat connects to a listening tcp port, waits for text and sends responses
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# netchat
+
+netcat(socat) + chat
+
+------
+
+## Requirements
+
+### python modules
+  - `click`
+  - `pexpect`
+
+### command line tools
+  - `socat`
+
+------
+
+## Usage:
+```
+Usage: netchat [OPTIONS] ADDRESS PORT [SCRIPT]
+
+Options:
+  -f, --file FILENAME
+  -t, --timeout INTEGER
+  -v, --verbose
+  -e, --echo
+  -d, --debug
+  --help                 Show this message and exit.
+```
+
+
