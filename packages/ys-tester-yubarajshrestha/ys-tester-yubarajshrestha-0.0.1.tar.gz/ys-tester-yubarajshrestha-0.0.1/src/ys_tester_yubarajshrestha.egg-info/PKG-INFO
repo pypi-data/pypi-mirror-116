@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ys-tester-yubarajshrestha
+Version: 0.0.1
+Summary: A combination of command-line tools to help you run test on your application
+Home-page: https://github.com/yubarajshrestha/ys-tester
+Author: Yubaraj Shrestha
+Author-email: companion.krish@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/yubarajshrestha/ys-tester/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YS Tester
+
+A collection of command line testing tools.
+
