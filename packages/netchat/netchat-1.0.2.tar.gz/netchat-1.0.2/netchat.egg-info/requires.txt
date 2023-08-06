@@ -1,0 +1,16 @@
+click
+pexpect
+
+[dev]
+bumpversion
+twine
+yapf
+python-dotenv
+
+[docs]
+sphinx
+
+[test]
+pytest
+pytest-click
+tox

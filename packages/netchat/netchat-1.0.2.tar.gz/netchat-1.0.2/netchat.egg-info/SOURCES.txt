@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+netchat/__init__.py
+netchat/netchat.py
+netchat.egg-info/PKG-INFO
+netchat.egg-info/SOURCES.txt
+netchat.egg-info/dependency_links.txt
+netchat.egg-info/entry_points.txt
+netchat.egg-info/not-zip-safe
+netchat.egg-info/requires.txt
+netchat.egg-info/top_level.txt
