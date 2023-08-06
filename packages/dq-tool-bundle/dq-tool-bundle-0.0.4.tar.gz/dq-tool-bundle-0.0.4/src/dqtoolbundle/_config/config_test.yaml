@@ -1,0 +1,14 @@
+parameters:
+  dqtoolbundle:
+    db_store_connection_string:
+    db_store_connection:
+      drivername:
+      host:
+      port:
+      database:
+      username:
+      password:
+services:
+  dqtoolbundle.test.DummySparkFactory:
+  pyspark.sql.session.SparkSession:
+    factory: ['@dqtoolbundle.test.DummySparkFactory', 'create']

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dq-tool-bundle
+Version: 0.0.4
+Summary: DQ Tool for the Daipe AI Platform
+Home-page: https://github.com/daipe-ai/dq-tool-bundle
+License: MIT
+Author: DataSentics
+Author-email: info@datasentics.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: dq-tool (>=0.0.4,<0.1.0)
+Requires-Dist: ipython (==7.12.0)
+Requires-Dist: pyfony-bundles (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/daipe-ai/dq-tool-bundle
+Description-Content-Type: text/markdown
+
+# DQ Tool bundle
+
