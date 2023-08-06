@@ -1,0 +1,12 @@
+Twisted[http2,tls]
+cffi
+channels
+daphne
+django-pwa
+django-webpush
+fs.sshfs
+hypercorn
+numpy
+pytigon
+wasmer
+xonsh
