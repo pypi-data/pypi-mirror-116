@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+bisos2/__init__.py
+bisos2.things.egg-info/PKG-INFO
+bisos2.things.egg-info/SOURCES.txt
+bisos2.things.egg-info/dependency_links.txt
+bisos2.things.egg-info/namespace_packages.txt
+bisos2.things.egg-info/not-zip-safe
+bisos2.things.egg-info/top_level.txt
+bisos2/things/__init__.py
+bisos2/things/new-toIcm.py
+bisos2/things/toIcm.py
