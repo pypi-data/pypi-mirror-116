@@ -1,0 +1,3 @@
+include LICENSE.txt
+include __init__.py
+include __main__.py

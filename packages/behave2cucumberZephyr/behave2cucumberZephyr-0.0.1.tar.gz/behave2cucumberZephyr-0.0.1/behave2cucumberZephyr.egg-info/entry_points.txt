@@ -1,0 +1,3 @@
+[console_scripts]
+behave2cucumberZephyr = behave2cucumberZephyr.behave2cucumberZephyr.__main__:main
+

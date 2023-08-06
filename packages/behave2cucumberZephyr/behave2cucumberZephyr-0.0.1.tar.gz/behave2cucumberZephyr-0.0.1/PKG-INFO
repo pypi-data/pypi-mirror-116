@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: behave2cucumberZephyr
+Version: 0.0.1
+Summary: Behave to Cucumber json converter, modified to used with Zephyr
+Home-page: https://github.com/KotieSmit/behave2cucumberZephyr
+Author: (original) Andrey Goldgamer, Zvika Messing, (adapted for Zephyr) Kotie Smit
+Author-email: 
+License: MIT
+Keywords: behave2cucumberZephyr setuptools development cucumber behave automation json Zephyr
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+This project converts the behave json reports to a cucumber(like) json file, that can be used with Zephyr Scale. The original work can be found here: https://github.com/behalf-oss/behave2cucumber
+
