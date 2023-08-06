@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "piicatcher"
+version = "0.15.0"
+description = "Find PII data in databases"
+authors = ["Tokern <info@tokern.io>"]
+license = "Apache 2.0"
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Topic :: Database",
+        "Topic :: Software Development",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords=["pii","postgres","snowflake","redshift","glue"]
+readme="README.md"
+homepage="https://tokern.io/"
+repository="https://github.com/tokern/piicatcher/"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pypi-publisher = "*"
+spacy = "*"
+tableprint = "*"
+pymysql = "*"
+cx_Oracle = "*"
+psycopg2-binary = "*"
+cryptography = "*"
+pyyaml = "*"
+python-magic = "*"
+pyathena = {extras = ["sqlalchemy"], version = "*"}
+boto3 = "*"
+botocore = "*"
+click = "*"
+click-config-file = "*"
+snowflake-connector-python = "*"
+python-json-logger = "^2.0.2"
+commonregex = "^1.5.3"
+dbcat = "~0.7.0"
+
+[tool.poetry.dev-dependencies]
+black = "==19.10b0"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+codecov = "*"
+pytest-pylint = "*"
+twine = "*"
+pytest-mock = "*"
+pipenv-setup = "*"
+types-PyMySQL = "^1.0.2"
+types-python-dateutil = "^0.1.6"
+pytest-lazy-fixture = "^0.6.3"
+types-PyYAML = "^5.4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+piicatcher = "piicatcher.command_line:cli"
