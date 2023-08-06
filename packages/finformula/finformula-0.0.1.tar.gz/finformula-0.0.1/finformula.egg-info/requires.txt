@@ -1,0 +1,7 @@
+numpy==1.16.6
+pandas==1.1.5
+scipy==1.5.4
+pymssql==2.1.4
+sqlalchemy==1.3.18
+datetime
+dateutil

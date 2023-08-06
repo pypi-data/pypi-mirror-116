@@ -1,0 +1,8 @@
+setup.py
+finformula/__init__.py
+finformula/formulas.py
+finformula.egg-info/PKG-INFO
+finformula.egg-info/SOURCES.txt
+finformula.egg-info/dependency_links.txt
+finformula.egg-info/requires.txt
+finformula.egg-info/top_level.txt
