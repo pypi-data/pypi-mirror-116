@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: stravalib
+Version: 0.10.3
+Summary: Python library for interacting with Strava v3 REST API
+Home-page: http://github.com/hozn/stravalib
+Author: Hans Lellelid
+Author-email: hans@xmpl.org
+License: Apache
+Description: 
+        stravalib is a Python 2.7 and 3.x library that provides a simple API for interacting
+        with the Strava activity tracking website.
+        
+        Changes in 0.10.3
+        -----------------
+        * Fixes IndexErrors when deserializing empty lists as GPS locations (#216)
+        * Fix a few fields in Activity model (#201, #214, #207)
+        * deal with tzname without offset and timedelta in string format (#195)
+        * Update to docs and repr (#200, #205, #206)
+        * Now webhooks use the same domain as the rest of API. (#204)
+        * Setting rate_limit_requests=False in Client causes error (#157)
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
