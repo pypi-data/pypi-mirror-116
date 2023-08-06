@@ -1,0 +1,6 @@
+SPARQLWrapper
+cssselect
+lxml
+markdown
+rdflib
+requests
