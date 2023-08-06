@@ -1,0 +1,6 @@
+[invenio_jsonschemas.schemas]
+nr_common_metadata=nr_common_metadata.jsonschemas
+
+[oarepo_mapping_includes]
+nr_common_metadata=nr_common_metadata.mapping_includes
+
