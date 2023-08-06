@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: deep_security_api
+Version: 20.0.463
+Summary: Trend Micro Deep Security API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     Copyright 2018 - 2021 Trend Micro Incorporated.&lt;br/&gt;Get protected, stay secured, and keep informed with Trend Micro Deep Security&#39;s new RESTful API. Access system data and manage security configurations to automate your security workflows and integrate Deep Security into your CI/CD pipeline.  # noqa: E501
+            
+Keywords: Swagger,Trend Micro Deep Security API
+Platform: UNKNOWN
