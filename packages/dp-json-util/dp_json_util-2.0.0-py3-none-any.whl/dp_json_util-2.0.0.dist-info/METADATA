@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dp-json-util
+Version: 2.0.0
+Summary: Utilities to retrieve general .json files and more specifically jsonschema files
+Home-page: https://github.com/dataPuzzler/dp_json_util
+Author: Lukas Seppelfricke
+Author-email: data.puzzler@gmail.com
+License: UNKNOWN
+Keywords: json,jsonschema
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/x-rst
+
+.. image:: https://github.com/dataPuzzler/dp_json_util/actions/workflows/test.yml/badge.svg?branch=master&event=workflow_dispatch
+	:target: https://github.com/dataPuzzler/dp_json_util/actions/workflows/test.yml/badge.svg?branch=master&event=workflow_dispatch
+	:alt: Unit-tests Badge
+
+dp_json_util
+=============
+
+A tiny module to simplify the retrieval of local json files.
+
+
