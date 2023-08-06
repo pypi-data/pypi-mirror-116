@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cuhk_seis
+Version: 0.0.1
+Summary: package for earthquake location purpose
+Home-page: UNKNOWN
+Author: Hardy ZI
+Author-email: zijinping@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+This is a package for seismic data processing for earthquake location purpose. Developed by the CUHK Seismology Lab.
+
+
