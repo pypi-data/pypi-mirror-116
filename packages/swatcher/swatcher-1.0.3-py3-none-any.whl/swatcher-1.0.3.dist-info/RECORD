@@ -1,0 +1,10 @@
+swatcher/__init__.py,sha256=SPWUy3WCuvOXC40qLMYMifdDYQUUDU08nCPLY1N0nyo,6949
+swatcher/color.py,sha256=3XCXW5DxAgSLCymJR7O6gK1ZNjWBHqI5H2cvGhzTIfA,3561
+swatcher/export.py,sha256=lOj6nplGP6TLK3morsdLJsMEWEUkcZv2H1r9YkzDilM,4006
+swatcher/image.py,sha256=i8yOXr06F7Zt5GaOQpw80C-au9163mlvmIeRJtarba0,2258
+swatcher/palette.py,sha256=0Y_YekL31nudOTPRF4nmWJCryZReRFhBQ29PGHXVM3U,4823
+swatcher-1.0.3.dist-info/LICENSE,sha256=C2CvwcvE_7wwfYhNS0lq3RGanvkrMqKw_qZGBkgYloI,1077
+swatcher-1.0.3.dist-info/METADATA,sha256=ZQCODCYKBwGJQl8ISxhDh-7Bbb-kDnim2WRdQ3vwPO8,3586
+swatcher-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swatcher-1.0.3.dist-info/top_level.txt,sha256=uSM5he_-q6mNb_6_KYx0nEVGIxq26YnowCdvxJbDgrE,9
+swatcher-1.0.3.dist-info/RECORD,,
