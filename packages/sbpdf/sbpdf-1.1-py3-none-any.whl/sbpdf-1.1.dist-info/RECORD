@@ -1,0 +1,7 @@
+qinpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qinpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qinpdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+sbpdf-1.1.dist-info/METADATA,sha256=-gskcn-8LbfuWKqdpovkhtdeY1ENwACJVre_8cl2wRk,222
+sbpdf-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sbpdf-1.1.dist-info/top_level.txt,sha256=knMfS6rDKV1AZF7n5-Pw9beq5iB6ugGawWNDGB0D0g8,7
+sbpdf-1.1.dist-info/RECORD,,
