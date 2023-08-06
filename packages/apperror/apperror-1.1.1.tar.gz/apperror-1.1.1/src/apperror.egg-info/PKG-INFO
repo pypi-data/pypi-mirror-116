@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: apperror
+Version: 1.1.1
+Summary: Make logging and reporting of errors easier, more informative, and more "standard."
+Home-page: https://github.com/CheggEng/apperror
+Author: jric
+Author-email: joshuarbox-junk1@yahoo.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CheggEng/apperror/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+app_error.py
+============
+
+The purpose of this module is to make logging and reporting of errors easier, more informative, and more
+"standard."
+
+Please see demo.py in this distribution for usage.
+
+===
+
+CHANGELOG:
+
+1.1.1:  Declare dependency on six; refactor to add (missing?) code
+1.1.0:  Initial version.
+
+
+
