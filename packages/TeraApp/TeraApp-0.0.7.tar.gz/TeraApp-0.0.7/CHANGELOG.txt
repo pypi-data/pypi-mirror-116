@@ -1,0 +1,28 @@
+Change Log
+==========
+
+
+0.0.1 (8/13/2021)
+0.0.2 (8/13/2021)
+0.0.3 (8/13/2021)
+0.0.4 (8/13/2021)
+0.0.5 (8/14/2021)
+0.0.6 (8/14/2021)
+0.0.7 (8/16/2021)
+
+========================
+
+# app = TeraApp('title', x, y 'color')
+# app = TeraAppWIcon('title', x, y 'logo', 'color')
+
+app.txt
+app.icon
+app.img
+app.input
+app.button
+app.buttonf - button with function
+app.inputr - input with resize
+app.buttonfr - button with function and resize
+app.txtc - text with color
+app.app.exec()
+

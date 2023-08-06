@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: TeraApp
+Version: 0.0.7
+Summary: A very simple app creator
+Home-page: UNKNOWN
+Author: oren
+Author-email: orennadle@gmail.com
+License: MIT
+Description: This package is for creating simple applications.
+        
+        Change Log
+        ==========
+        
+        
+        0.0.1 (8/13/2021)
+        0.0.2 (8/13/2021)
+        0.0.3 (8/13/2021)
+        0.0.4 (8/13/2021)
+        0.0.5 (8/14/2021)
+        0.0.6 (8/14/2021)
+        0.0.7 (8/16/2021)
+        
+        ========================
+        
+        # app = TeraApp('title', x, y 'color')
+        # app = TeraAppWIcon('title', x, y 'logo', 'color')
+        
+        app.txt
+        app.icon
+        app.img
+        app.input
+        app.button
+        app.buttonf - button with function
+        app.inputr - input with resize
+        app.buttonfr - button with function and resize
+        app.txtc - text with color
+        app.app.exec()
+        
+        
+Keywords: appcreator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
