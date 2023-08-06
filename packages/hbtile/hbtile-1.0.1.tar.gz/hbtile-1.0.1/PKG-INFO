@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: hbtile
+Version: 1.0.1
+Summary: A library for simulating tile based games with separate attacking and directional movement
+Home-page: https://github.com/NicholasCG/HBTile
+Author: Nicholas Gray
+Author-email: nicholascgray@knights.ucf.edu
+License: MIT
+Download-URL: https://github.com/NicholasCG/HBTile/archive/1.0.1.tar.gz
+Description: UNKNOWN
+Keywords: python,hexagon,game,hbtile,hexy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
