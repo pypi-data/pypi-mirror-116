@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Zero-ILumi-Calculadora-Package
+Version: 0.0.1
+Summary: Uma Calculadora Desenvolvida por Zero_ILumi
+Home-page: https://github.com/ZeroILumi
+Author: Zero ILumi
+Author-email: zeroilumi666@gmail.com
+License: UNKNOWN
+Description: # Zero_ILumi_Calculadora_Package
+        
+        Description. 
+        The package Zero_ILumi_Calculadora_Package is used to:
+        
+        â€‹		Calculadora_Completa:
+        
+        â€‹			- Perform all arithmetic calculations 
+        
+        â€‹		Arithmetic_Operations:
+        
+        â€‹			- Isolated arithmetic operations to be performed
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Zero_ILumi_Calculadora_Package
+        
+        ```bash
+        pip install Zero_ILumi_Calculadora_Package
+        ```
+        
+        ## Usage
+        
+        ```python
+        from Zero_ILumi_Calculadora_Package.Calculadora.Calculadora_Completa.Calcular import Calculadora
+        Calculadora()
+        ```
+        
+        ## Author
+        
+        Zero ILumi
+        
+        ## License
+        
+        [MIT](https://choosealicense.com/licenses/mit/)
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
