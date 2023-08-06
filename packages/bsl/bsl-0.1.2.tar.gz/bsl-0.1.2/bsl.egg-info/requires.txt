@@ -1,0 +1,16 @@
+mne
+numpy
+pylsl
+pyqt5
+pyqtgraph
+scipy
+
+[all]
+pyserial
+vispy
+
+[trigger_arduino2lpt]
+pyserial
+
+[vispy_backend]
+vispy
