@@ -1,0 +1,74 @@
+{
+    "metadata": {
+        "title": "CMAQ Universal Kriging Configuration",
+        "author": "Barron H. Henderson",
+        "contact": "<lastname>.<firstname>@epa.gov",
+        "Revision": "v0.4",
+        "Note1": "Each configuration variable has a corresponding note with the same name but prefixed with an underscore.",
+        "Note2": "Testing has only been done for a single day of PM25 (20160115) and a single day of O3 MDA8 (20160715)."
+    },
+    "_output_template": "Uses strftime and key substituation for datasubsets and production or validation suffixes",
+    "output_template": "output/UK.%Y%m%d.{querykey}.{suffix}.nc",
+    "_thin_krig_dataset": "Useful for testing regression methods becuase kriging is usually the slowest part.",
+    "thin_krig_dataset": 2,
+    "krig_opts": {
+        "_variogram_model": "pykrige variogram model (exponential or gaussian)",
+        "variogram_model": "exponential",
+        "_variogram_parameters": "range is set by other parameters, but psill and nuggest can be set here",
+        "pseudo_inv": true
+    },
+    "_griddesc_path": "Path to IOAPI formated GRIDDESC file",
+    "griddesc_path": "input/GRIDDESC",
+    "_domain": "Domain key (e.g., 12US1, 12US2, 36US3, 108US2), which must be defined in griddesc_path",
+    "domain": "108US2",
+    "obs": {
+        "_thin_dataset": "Useful for testing",
+        "thin_dataset": 1,
+        "_obs_format": "Options are: aqs, more to come.",
+        "obs_format": "aqs",
+        "_obs_path": "Path where observations can be found.",
+        "obs_path": "input/daily_44201_20160715.zip",
+        "_obs_defn": "For Ozone, use first_max_value * 1000. For PM, use arithmetic_mean",
+        "obs_defn": "first_max_value * 1000.",
+        "_obs_key": "short name for observations.",
+        "obs_key": "O"
+    },
+    "model": {
+        "_model_template": "strftime with for using date to construct file path",
+        "model_template": "input/O3_8HRMAX.LST.Y_24.2016fh.v531.108US2.5-9.nc",
+        "_model_inkey": "Modeling variable name: O3_8HRMAX or PM25_FRM",
+        "model_inkey": "O3_8HRMAX"
+    },
+    "_gridded_meta": "Each item must have a path_template (strftime), a list of var_keys, and optionally a slice.",
+    "gridded_meta": [
+       {
+           "path_template": "input/gpw_v4_une_atotpopbt_densy_108US2.IOAPI.nc",
+           "var_keys": ["DENS"],
+           "slice": {"TSTEP": 3}
+       },
+       {
+           "path_template": "input/GRIDCRO2D.108US2.35L.160101.nc",
+           "var_keys": ["HT"]
+       }
+    ],
+    "regression_options": {
+        "_model": "sklearn_RandomForestRegressor or sklearn_LinearRegression or scipy_linregress or cmaqml_evna or cmaqml_vna",
+        "model": "sklearn_LinearRegression",
+        "_model_options": {
+            "_note": "Model options are specific to the model you've choosen (see sklearn for more details)",   
+            "scmaqml_evna": {"fastsort": false, "k": 20, "verbose": 1},
+            "sklearn_RandomForestRegressor": {"n_estimators": 1000, "max_depth": 4, "random_state": 1}
+        },
+        "model_options": {},
+        "_transform": "Choose: none, log, or sqrt; these transform CMAQ and obs before regression/kriging",
+        "transform": "sqrt",
+        "_xkeys": "independent variables (predictors) currently has access to X, Y, latitude, longitude, any gridded_meta, and xQ (x indicating transformed)",
+        "xkeys": ["X", "Y", "DENS", "HT", "xO3_8HRMAX"],
+        "_ykey": "dependent variable (predicted) usually transformed observation (i.e., xO)",
+        "ykey": "xO"
+    },
+    "_query_definitions": "definitions used to filter AQS sites/observations can rely on any standard AQS field or fields from metafiles. These can also reference arbitrary variables added to configuration file (see below).",
+    "query_definitions": {
+        "ALL": "longitude == longitude"
+    }
+}
