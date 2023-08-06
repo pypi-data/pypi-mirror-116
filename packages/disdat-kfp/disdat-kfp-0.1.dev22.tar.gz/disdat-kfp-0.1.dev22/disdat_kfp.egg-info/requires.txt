@@ -1,0 +1,9 @@
+disdat>=0.9.16
+kfp==1.6.5
+
+[dev]
+pytest
+ipython
+pytest-xdist
+twine
+build
