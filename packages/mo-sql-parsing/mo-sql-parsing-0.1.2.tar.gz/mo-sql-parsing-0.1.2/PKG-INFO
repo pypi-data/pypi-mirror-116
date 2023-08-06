@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mo-sql-parsing
+Version: 0.1.2
+Summary: Extract Parse Tree from SQL
+Home-page: https://github.com/doraproject/mo-sql-parsing
+License: MPL 2.0
+Author: DataLabs
+Author-email: time.dataanalytics.datalabs@compasso.com.br
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: mo-dots (==4.22.21108)
+Requires-Dist: mo-future (==3.147.20327)
+Requires-Dist: mo-imports (==3.149.20327)
+Requires-Dist: mo-kwargs (==4.22.21108)
+Requires-Dist: mo-logs (==4.23.21108)
+Description-Content-Type: text/markdown
+
+# mo-sql-parser
+
+Forked from [klahnakoski/mo-sql-parsing](https://github.com/klahnakoski/mo-sql-parsing).
+
