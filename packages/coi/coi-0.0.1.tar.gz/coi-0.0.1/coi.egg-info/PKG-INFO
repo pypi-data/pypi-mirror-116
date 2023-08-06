@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: coi
+Version: 0.0.1
+Summary: See output/input status of all sub-folders
+Home-page: https://github.com/nosarthur/coi
+Author: Dong Zhou
+Author-email: zhou.dong@gmail.com
+License: MIT
+Description: # coi: see output/input status of all sub-folders
+        
+        This tool batch run 2 shell commands on all sub-folders and display the outputs
+        succinctly.
+        
+        ## example
+        
+        Suppose the folder structure
+        ```
+        jobs-folder
+        ├── sub1
+        │   ├── 1.input
+        │   ├── 1.output
+        │   └── 2.input
+        ├── sub2
+        │   ├── 1.input
+        │   └── 2.input
+        ├── sub3
+        │   ├── 1.input
+        │   ├── 1.output
+        │   ├── 2.input
+        │   └── 2.output
+        └── sub4
+            ├── 1.input
+            └── 1.output
+        ```
+        
+        ```bash
+        coi -o ll *.output
+        coi -i ll *.input
+        coi jobs-folder
+        ```
+        
+        ```bash
+        sub1 (1 / 2)
+        sub2 (0 / 2)
+        sub3 (2 / 2)
+        sub4 (1 / 1)
+        ```
+        
+Keywords: bash
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
