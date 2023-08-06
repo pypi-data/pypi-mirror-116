@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>../source/add.svg</file>
+    <file>../source/collect.svg</file>
+    <file>../source/comment.svg</file>
+    <file>../source/descending.svg</file>
+    <file>../source/down.svg</file>
+    <file>../source/history.svg</file>
+    <file>../source/left(1).svg</file>
+    <file>../source/left.svg</file>
+    <file>../source/like(1).svg</file>
+    <file>../source/like.svg</file>
+    <file>../source/offline.svg</file>
+    <file>../source/print.svg</file>
+    <file>../source/reduce.svg</file>
+    <file>../source/replace.svg</file>
+    <file>../source/right(1).svg</file>
+    <file>../source/right.svg</file>
+    <file>../source/up.svg</file>
+    <file>../source/user.svg</file>
+    <file>../source/view.svg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,25 @@
+{
+    "name":"pm_modelling",
+    "display_name":"模型",
+    "version":"0.1.0",
+    "description":"内置模型",
+    "icon":"ipython_console.jpg",
+    "interface":{
+        "file":"main.py",
+        "interface":"ModellingInterface"
+    },
+    "widgets":[
+        {
+            "file":"main.py",
+            "widget":"PMModellingToolBar",
+            "position":"new_toolbar",
+            "config":{
+                "message": "no",
+                "name": "pm_modelling",
+                "text": "模型"
+            }
+        }
+    ],
+    "requirements":["workspace_inspector"
+    ]
+}

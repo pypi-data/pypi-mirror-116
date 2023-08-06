@@ -1,0 +1,3 @@
+[console_scripts]
+pyminer = pyminer:execute_from_command_line
+
