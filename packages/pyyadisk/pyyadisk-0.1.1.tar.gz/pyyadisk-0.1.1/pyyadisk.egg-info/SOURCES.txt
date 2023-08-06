@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyyadisk/__init__.py
+pyyadisk/config.py
+pyyadisk/helpers.py
+pyyadisk/yandexdisk.py
+pyyadisk.egg-info/PKG-INFO
+pyyadisk.egg-info/SOURCES.txt
+pyyadisk.egg-info/dependency_links.txt
+pyyadisk.egg-info/requires.txt
+pyyadisk.egg-info/top_level.txt
