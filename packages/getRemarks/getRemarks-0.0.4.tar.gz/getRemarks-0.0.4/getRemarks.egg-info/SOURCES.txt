@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+getRemarks/__init__.py
+getRemarks/getRemarks.py
+getRemarks.egg-info/PKG-INFO
+getRemarks.egg-info/SOURCES.txt
+getRemarks.egg-info/dependency_links.txt
+getRemarks.egg-info/not-zip-safe
+getRemarks.egg-info/top_level.txt
