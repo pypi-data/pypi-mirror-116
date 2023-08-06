@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: caddiepy
+Version: 0.1.0
+Summary: The python package to the Cancer Driver Drug Interaction Explorer (CADDIE)
+Home-page: http://pypi.python.org/pypi/caddiepy/
+Author: Maiykol
+Author-email: michael.hartung@uni-hamburg.de
+License: LICENSE
+Description: # caddiepy
+        The python package to the Cancer Driver Drug Interaction Explorer (CADDIE)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.9
