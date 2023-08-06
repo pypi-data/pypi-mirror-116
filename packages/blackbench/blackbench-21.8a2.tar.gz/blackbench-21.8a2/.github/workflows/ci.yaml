@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pre-commit:
+    name: pre-commit
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: pre-commit/action@v2.0.3
+        with:
+          extra_args: --all-files
+
+  tests:
+    name: tests / ${{ matrix.python }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}-latest
+    needs: [pre-commit]
+
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ubuntu, macos, windows]
+        python: [3.8, 3.9]
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python ${{ matrix.python }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install base requirements
+        run: |
+          python -m pip install pip wheel --upgrade
+          python -m pip install nox
+
+      - name: Setup tests-cov session environment
+        run: nox --force-color --verbose -s tests-cov-${{ matrix.python }} --install-only
+
+      - name: Run nox-based tests-cov session
+        run: nox --force-color --verbose -s tests-cov-${{ matrix.python }} -R -- --color yes -v --ci
+
+      - name: Upload coverage to Codecov
+        if: >-
+          (github.event_name == 'push' && github.repository == 'ichard26/blackbench')
+              || (github.event.pull_request.base.repo.full_name == 'ichard26/blackbench')
+        uses: codecov/codecov-action@v2.0.2
+        env:
+          OS: ${{ matrix.os }}
+          PYTHON: ${{ matrix.python }}
+        with:
+          env_vars: OS,PYTHON
+          files: coverage.xml
