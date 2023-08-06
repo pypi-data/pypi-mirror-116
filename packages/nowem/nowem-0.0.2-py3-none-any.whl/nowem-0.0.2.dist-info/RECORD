@@ -1,0 +1,11 @@
+nowem/__init__.py,sha256=p63efbpBnW33FfHQDauqO5u99pxOQD5Ge4fMXjc6v4w,130
+nowem/aiorequests.py,sha256=gVxA8QMQcLbmiFmimU6J9fTMVwz-Jtfh_3_alqil-Fw,2833
+nowem/client.py,sha256=az4zau9qDGPPZxdvT1WuA2V3u_Oec6iIo8_WOSy8ErA,7626
+nowem/exception.py,sha256=Wtm5UGeljhKLigrqF8482UdJbLo5GKRyT4RspfRSBDI,227
+nowem/logger.py,sha256=hHFP_lN-eMjyogEEk8gPcovk5BY82Afo3kE4CnE9Luo,660
+nowem/playerprefs.py,sha256=q5KmcRvLnV8oMscVy6jkAxIBqqYoIsXQWqLUR2jcwwk,1103
+nowem/secret.py,sha256=ppOwC-ZfMeV5mniGyYTh7nSWgPRDHEOiZPMCChDxSUg,4795
+nowem-0.0.2.dist-info/METADATA,sha256=_8moUyQQvB3wEsT0t5ejdu5nEkLNLkBT5TRxG4hAE5U,716
+nowem-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nowem-0.0.2.dist-info/top_level.txt,sha256=c_SADF5yFbM6W-iHpUCKcmVnZeePnI3lFN9FrkYya_g,6
+nowem-0.0.2.dist-info/RECORD,,
