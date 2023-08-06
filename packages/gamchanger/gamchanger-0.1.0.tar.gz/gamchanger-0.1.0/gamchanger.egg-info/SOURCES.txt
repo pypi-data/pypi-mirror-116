@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gamchanger/__init__.py
+gamchanger/gamchanger.py
+gamchanger.egg-info/PKG-INFO
+gamchanger.egg-info/SOURCES.txt
+gamchanger.egg-info/dependency_links.txt
+gamchanger.egg-info/not-zip-safe
+gamchanger.egg-info/top_level.txt
+tests/__init__.py
+tests/test_gamchanger.py
