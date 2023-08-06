@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: podcast-scraper
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: python-version (>="3.6")
+Requires-Dist: selenium (~=3.141.0)
+Requires-Dist: pytest (~=6.2.3)
+Requires-Dist: testcontainers (~=3.4.0)
+Requires-Dist: click (~=8.0.1)
+
+UNKNOWN
+
+
