@@ -1,0 +1,12 @@
+assets/model.h5,sha256=QtFs6XxnWxgttFGgzrqWfktwZLD2OewwwhuYTgLJo94,51902696
+deutschland/__init__.py,sha256=QbVNWv7vfWk0iwUuTBRABZbE3FWUUtJvG1Qa3V8ORZo,140
+deutschland/bundesanzeiger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deutschland/bundesanzeiger/bundesanzeiger.py,sha256=2jFR53g8Ge8ialzw7tjZxEN8hIDQ6QASDZZG-mDKspo,6102
+deutschland/bundesanzeiger/model.py,sha256=GxKXfeP1StEvjZuQXCS_aBZsh8_j29m5C77QhMv86mk,914
+deutschland/geo.py,sha256=PEyfANSP3QDnCQv6Mf_EISjkAcjnDy9Z5HoMZLSoDiw,6127
+deutschland/handelsregister/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deutschland/handelsregister/handelsregister.py,sha256=ptm1mzQIv33FIPabSvxivVwFGSfYspWOEdh2auv2FlA,9940
+deutschland/handelsregister/params.md,sha256=OZNMATt2ZJbyniWBpIFUAYl70riDrSzEMbMqHkBR_OE,1360
+deutschland-0.1.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+deutschland-0.1.7.dist-info/METADATA,sha256=ZS0QS4r_LWQBMvKJgIdf0hPHNAXE3yWW_3wkLtLOWEk,3226
+deutschland-0.1.7.dist-info/RECORD,,
