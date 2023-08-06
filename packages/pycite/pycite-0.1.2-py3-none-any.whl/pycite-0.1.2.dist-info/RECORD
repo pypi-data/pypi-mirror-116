@@ -1,0 +1,14 @@
+pycite/__init__.py,sha256=laEG8JZ3Fmm_mMEglKbDGK-sCm3aINAbCBvU-UaVj54,408
+pycite/__main__.py,sha256=1GrIf0PDqqnDeRn9AzTcZn2mvJLxp6JWS0jreNNXtqE,1262
+pycite/helpers.py,sha256=0IOi1gTgQBdg1lPB_legSfxdL2DV213X8DPQwbcV48s,1182
+pycite/jstor.py,sha256=KmFgLzkQulejSqPgLy-eUN-EcE2f74DM9IIxn1J9rvA,1643
+pycite/ncbi.py,sha256=RJNdRUXZObXkbXtv27Z4tEb-pBlpAY8Qq05FhA9Z_Xk,2688
+pycite/pubmed.py,sha256=y4z24SSQ860BzpY0ebdt_-HDL9jEb8w8iShyvjNaqgE,3925
+pycite/pycite.py,sha256=Wg9AJ7_LJYHtX6-I1BE5hJe5MZRvSAXVledBEVdE2eU,4327
+pycite/sciencedirect.py,sha256=afDTS90K5qnfzHRxS-7U6u7umF5qaXk7jEubnLaecQ4,3777
+pycite/version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+pycite-0.1.2.dist-info/LICENSE,sha256=U1eSs641zKCNsWeiMxcB_vgKbTDjY9msHRN-FHy8RA4,1073
+pycite-0.1.2.dist-info/METADATA,sha256=BcDkAd_wSz4UKA9DNZaonjs1kuYZ8E2TwNsVFW1pCvU,4839
+pycite-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pycite-0.1.2.dist-info/top_level.txt,sha256=upKVpjOjwIKDYEaViw1VNRHf5gF1OEXWRjENVQObkNY,7
+pycite-0.1.2.dist-info/RECORD,,
