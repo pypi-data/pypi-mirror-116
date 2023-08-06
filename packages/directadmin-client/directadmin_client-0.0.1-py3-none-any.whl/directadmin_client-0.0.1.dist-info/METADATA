@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: directadmin-client
+Version: 0.0.1
+Summary: A Python interface to the DirectAdmin API
+Home-page: https://github.com/sensson/python-directadmin
+Author: Sensson
+Author-email: info@sensson.net
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: requests
+Requires-Dist: simplejson
+
+UNKNOWN
+
