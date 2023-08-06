@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyidw
+Version: 0.0.4
+Summary: IDW interpolation library for python
+Home-page: https://medium-multiply.readthedocs.io/
+Author: Md. Yahya Tamim
+Author-email: yahyatamim0@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This python package is intended to be a standalone python tool for idw interpolation
+
