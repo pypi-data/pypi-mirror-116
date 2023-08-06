@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+pwndbglib.egg-info/PKG-INFO
+pwndbglib.egg-info/SOURCES.txt
+pwndbglib.egg-info/dependency_links.txt
+pwndbglib.egg-info/top_level.txt
