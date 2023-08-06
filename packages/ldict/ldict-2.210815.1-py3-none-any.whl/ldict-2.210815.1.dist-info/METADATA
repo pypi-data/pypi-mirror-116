@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ldict
+Version: 2.210815.1
+Summary: Lazy dict with universaly unique identified values
+License: GPL
+Author: davips
+Author-email: dpsabc@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: garoupa (>=2.210811.7,<3.0.0)
+Requires-Dist: orjson (>=3.5.0,<4.0.0)
+Requires-Dist: uncompyle6 (>=3.7.4,<4.0.0)
