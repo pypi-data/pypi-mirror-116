@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "pybitflyer2"
+version = "0.0.2"
+description = "pybitflyer2 is a wrapper interface of Bitflyer lightning API"
+readme = "README.md"
+authors = ["Shoma FUKUDA <fkshom+pypi@gmail.com>"]
+homepage = "https://github.com/fkshom/pybitflyer2"
+repository = "https://github.com/fkshom/pybitflyer2"
+documentation = "https://github.com/fkshom/pybitflyer2"
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    'Programming Language :: Python :: 3',
+    "Programming Language :: Python :: 3.6",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.26.0"
+websocket-client = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-watch = "^4.2.0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
