@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-jwt-persistency
+Version: 0.0.1
+Summary: Changes standard flask and jwt errors format
+Home-page: https://github.com/rabizao/flask-jwt-persistency
+Author: Rafael A. Bizao
+Author-email: rabizao@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rabizao/flask-jwt-persistency/issues
+Description: # flask-jwt-persistency
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
