@@ -1,0 +1,18 @@
+[tool.poetry]
+name         = "cbdevtools"
+version      = "0.0.0-beta"
+description  = '???'
+readme       = "README.md"
+authors      = ["Christophe BAL"]
+maintainers  = ["Christophe BAL"]
+license      = "GNU License Version 3"
+repository   = "https://github.com/projetmbc/tools-for-dev/tree/master/cbdevtools"
+
+[tool.poetry.dependencies]
+python  = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
