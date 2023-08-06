@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: utils-lib
+Version: 0.1.0.dev2021081500
+Summary: Collection of general utilies
+Home-page: https://github.com/jason40418/utils-lib-python
+Author: Jason Lin
+Author-email: jason40418@gmail.com
+License: BSD 2-Clause License
+Keywords: utils-lib,utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+UNKNOWN
+
