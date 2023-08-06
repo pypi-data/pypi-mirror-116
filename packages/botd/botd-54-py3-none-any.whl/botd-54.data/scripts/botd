@@ -1,0 +1,43 @@
+#!python
+# This file is placed in the Public Domain.
+
+__version__ = 52
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+
+import ob
+import os
+import sys
+import termios
+
+
+ob.wd = "/var/lib/botd"
+
+
+class Kernel(ob.krn.Runtime):
+
+    def error(self, txt):
+        cprint(txt)
+
+    def log(self, txt):
+        if self.opts("v"):
+            cprint(txt)
+
+
+k = Kernel()
+
+
+import bot.all
+import botd.all
+
+
+def main():
+    k.boot()
+    k.cfg.m = "bot.irc,bot.rss"
+    k.scan("bot,botd")
+    k.start()
+    k.init(k.cfg.m)
+    k.wait()
+
+
+main()
