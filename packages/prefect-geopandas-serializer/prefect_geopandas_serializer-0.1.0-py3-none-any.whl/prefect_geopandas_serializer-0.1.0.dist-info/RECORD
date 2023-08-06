@@ -1,0 +1,6 @@
+prefect_geopandas_serializer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_geopandas_serializer/serializers.py,sha256=2SD6Rw6_mFgpksp3exZ8Zr-szgr7KpfcDEHhLq9Rb6Y,4240
+prefect_geopandas_serializer-0.1.0.dist-info/LICENSE,sha256=IpHavPx0Dxm27nuo20-gmhae_qOIi7bLpT9D_BBzv4U,1090
+prefect_geopandas_serializer-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+prefect_geopandas_serializer-0.1.0.dist-info/METADATA,sha256=Ay4PhxIljRW6kdLW8GPLIzmaVkNiaJCk6v6zJSKddSs,593
+prefect_geopandas_serializer-0.1.0.dist-info/RECORD,,
