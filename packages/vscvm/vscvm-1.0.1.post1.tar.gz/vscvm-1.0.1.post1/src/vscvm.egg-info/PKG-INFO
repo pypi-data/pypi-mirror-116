@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: vscvm
+Version: 1.0.1.post1
+Summary: A VSCode version manager.
+Home-page: https://github.com/tusharsadhwani/vscvm
+Author: Tushar Sadhwani
+Author-email: tushar.sadhwani000@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# vscvm
+
+A VSCode version manager.
+
+## Install
+
+Install `vsc` via pip:
+
+```console
+pip install vscvm
+```
+
+Add the following to your `.bashrc` file:
+
+```bash
+export PATH=$HOME/.vscvm:$PATH
+```
+
+and that's it!
+
+## Usage
+
+```console
+$ vsc list
+v1.59 - July 2021
+v1.58 - June 2021
+v1.57 - May 2021
+v1.56 - April 2021
+v1.55 - March 2021
+
+$ vsc list -n 3
+v1.59 - July 2021
+v1.58 - June 2021
+v1.57 - May 2021
+
+$ vsc install latest
+Downloading 1.59...
+Successfully installed 1.59!
+
+$ code --version
+1.59.0
+```
+
+
