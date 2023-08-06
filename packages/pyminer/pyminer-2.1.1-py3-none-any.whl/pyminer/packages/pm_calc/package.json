@@ -1,0 +1,27 @@
+{
+    "name": "pm_calc",
+    "display_name": "计算",
+    "version": "0.1.0",
+    "description": "内置计算的菜单",
+    "icon": "ipython_console.jpg",
+    "interface": {
+        "file": "main.py",
+        "interface": "CalcInterface"
+    },
+    "widgets": [
+        {
+            "file": "main.py",
+            "widget": "PMCalcToolBar",
+            "position": "new_toolbar",
+            "config": {
+                "message": "no",
+                "name": "pm_calc",
+                "text": "数据"
+            }
+        }
+    ],
+    "requirements": [
+        "workspace_inspector",
+        "applications_toolbar"
+    ]
+}
