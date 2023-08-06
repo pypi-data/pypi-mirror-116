@@ -1,0 +1,3 @@
+[console_scripts]
+pbtoyrobot = pbtoyrobot.__main__:main
+
