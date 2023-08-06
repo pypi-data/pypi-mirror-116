@@ -1,0 +1,8 @@
+zbar.cp38-win_amd64.pyd,sha256=m6yQeLX-XUV4AGWKcJhIfYVLmcLEJvwhyGYXzSTKlI4,1166336
+zbar_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zbar_helper/utils.py,sha256=IBuFVpIAleNCvy0Rf8w7tV1L7VrFe1E5398nJpkKIKk,3758
+zbar_lite-0.23.92.dist-info/LICENSE,sha256=P5TL6ldUsdqxdxOwy7z9CV0QarNXQCTyfJpFxCVtOek,1090
+zbar_lite-0.23.92.dist-info/METADATA,sha256=0MY90F_EYGtFplaexpK2zqUtB0SY3Oq6LLPLuJtNp2g,3767
+zbar_lite-0.23.92.dist-info/WHEEL,sha256=-ODc2a2AO_YJ5T46NOquHfWjRM7bQvlt-f3zRaLBjL4,105
+zbar_lite-0.23.92.dist-info/top_level.txt,sha256=3Uyr0CcsLxFyS3p5LiYUJlDqKWN9FfkjLnncbNXHALk,17
+zbar_lite-0.23.92.dist-info/RECORD,,
