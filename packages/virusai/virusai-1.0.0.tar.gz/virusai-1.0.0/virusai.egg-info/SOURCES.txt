@@ -1,0 +1,8 @@
+setup.py
+virusai/__init__.py
+virusai/virus.py
+virusai.egg-info/PKG-INFO
+virusai.egg-info/SOURCES.txt
+virusai.egg-info/dependency_links.txt
+virusai.egg-info/requires.txt
+virusai.egg-info/top_level.txt
