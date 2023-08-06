@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytorch-light
+Version: 0.1.5
+Summary: Light.
+Author: Yevgnen Koh
+Author-email: wherejoystarts@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pycarton
+Requires-Dist: pytorch-ignite
+Requires-Dist: torch
+Requires-Dist: transformers
