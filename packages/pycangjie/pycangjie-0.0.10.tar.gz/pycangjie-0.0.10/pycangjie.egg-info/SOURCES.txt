@@ -1,0 +1,10 @@
+README.md
+setup.py
+pycangjie/__init__.py
+pycangjie/core.py
+pycangjie/pkg_data.json
+pycangjie.egg-info/PKG-INFO
+pycangjie.egg-info/SOURCES.txt
+pycangjie.egg-info/dependency_links.txt
+pycangjie.egg-info/requires.txt
+pycangjie.egg-info/top_level.txt
