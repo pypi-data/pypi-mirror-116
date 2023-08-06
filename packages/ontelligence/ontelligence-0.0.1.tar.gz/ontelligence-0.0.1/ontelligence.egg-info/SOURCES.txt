@@ -1,0 +1,14 @@
+README.md
+setup.py
+architect/__init__.py
+architect/core/__init__.py
+architect/core/logging.py
+architect/core/schemas.py
+architect/providers/__init__.py
+architect/providers/base.py
+ontelligence.egg-info/PKG-INFO
+ontelligence.egg-info/SOURCES.txt
+ontelligence.egg-info/dependency_links.txt
+ontelligence.egg-info/not-zip-safe
+ontelligence.egg-info/requires.txt
+ontelligence.egg-info/top_level.txt
