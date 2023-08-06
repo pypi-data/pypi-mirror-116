@@ -1,0 +1,15 @@
+hugsvision/__init__.py,sha256=vDq1lbsOoVpYh6QzB6F-inDGXLJXzdT_b_JTWbAB2H4,231
+hugsvision/version.txt,sha256=Us6-ekrSteRiwlfY-S3rQlmDLCZyBEVABgGI-6YEsGQ,5
+hugsvision/dataio/ImageClassificationCollator.py,sha256=CJuDmIzt9bWSUt8Za2EZLKfylPMpQWdLAiDcURn1_S0,429
+hugsvision/dataio/VisionDataset.py,sha256=-pe4cj5bQMamUfrB2kPhQOKXK5shxuHyPlibcQiScIA,400
+hugsvision/dataio/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+hugsvision/inference/VisionClassifierInference.py,sha256=054exRGY3YXLtv4rVltGxUnI8SjaljuNrllZ9WKb84U,1202
+hugsvision/inference/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+hugsvision/nnet/VisionClassifierTrainer.py,sha256=6jzKx0kmqd4E_d51SLGn5Fi_lHyzX_9zXh-38p3nh4s,11346
+hugsvision/nnet/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+hugsvision/utils/__init__.py,sha256=A3OuciIqjHuzgt1SmDtbPTha5-Pjy7pzsiDsVPdD_9I,341
+hugsvision-0.1.6.dist-info/LICENSE,sha256=wU_-MKmSBzo5bUgSSdMiQd7JqVXVyZsjIi4phsvKD90,1069
+hugsvision-0.1.6.dist-info/METADATA,sha256=hkyBdPPXrBlWJPEU2uTomXNzJ6ZqGAjHug6ACgib1gM,5883
+hugsvision-0.1.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hugsvision-0.1.6.dist-info/top_level.txt,sha256=ICd0IxdluMHAD0ZBFXKFFjeE_YrncTKcXjhH7-1JGHM,11
+hugsvision-0.1.6.dist-info/RECORD,,
