@@ -1,0 +1,5 @@
+#!/Users/liutos/Projects/fledgling/venv/bin/python
+
+from fledgling.cli.main import cli
+
+cli()

@@ -1,0 +1,9 @@
+PyInquirer
+click
+colored
+cryptography
+python-daemon
+requests
+tabulate
+wcwidth
+xdg
