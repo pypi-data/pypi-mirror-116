@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+deeperlearning.egg-info/PKG-INFO
+deeperlearning.egg-info/SOURCES.txt
+deeperlearning.egg-info/dependency_links.txt
+deeperlearning.egg-info/entry_points.txt
+deeperlearning.egg-info/requires.txt
+deeperlearning.egg-info/top_level.txt
