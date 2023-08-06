@@ -1,0 +1,16 @@
+.coveragerc
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+tox.ini
+.github/workflows/tests.yml
+src/unflatten.py
+src/unflatten.egg-info/PKG-INFO
+src/unflatten.egg-info/SOURCES.txt
+src/unflatten.egg-info/dependency_links.txt
+src/unflatten.egg-info/top_level.txt
+tests/test_unflatten.py
