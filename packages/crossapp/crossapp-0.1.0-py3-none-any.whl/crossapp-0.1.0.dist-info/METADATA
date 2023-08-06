@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: crossapp
+Version: 0.1.0
+Summary: A zipapp based app packaging and distribution utility for Python.
+Author: aerocyber
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
