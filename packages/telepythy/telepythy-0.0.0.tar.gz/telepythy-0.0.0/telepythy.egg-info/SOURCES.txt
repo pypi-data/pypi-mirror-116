@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+telepythy.egg-info/PKG-INFO
+telepythy.egg-info/SOURCES.txt
+telepythy.egg-info/dependency_links.txt
+telepythy.egg-info/top_level.txt
