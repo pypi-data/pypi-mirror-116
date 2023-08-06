@@ -1,0 +1,4 @@
+pushbullet.py
+pyodbc
+requests
+pyautogui
