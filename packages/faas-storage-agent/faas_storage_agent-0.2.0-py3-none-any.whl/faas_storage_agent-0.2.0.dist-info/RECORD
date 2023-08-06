@@ -1,0 +1,9 @@
+faas-storage-agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faas-storage-agent/api.py,sha256=M_75KombnxNJP3wGHJe6_A6E2jzxydIy76H5uvBp9jQ,3785
+faas-storage-agent/faas_storage_agent_pb2.py,sha256=Oop4uDTlZjocc0C_7JI-aHNgFsqAU0Vqd3yDG7xdj5Y,12333
+faas-storage-agent/faas_storage_agent_pb2_grpc.py,sha256=VYiUkvuZgYpHfMh5sK3WCS3KaPh-lz20AjNokIppgxY,11635
+faas-storage-agent/test_server.py,sha256=MaKkJadlpCGY9rOXuTo39UEaQj0w93oSdpFEnL4zJpQ,2514
+faas_storage_agent-0.2.0.dist-info/METADATA,sha256=ChVz4NVXD2zbTizjcrB6hUgmDUUDSQUWomnh_I-LX_0,190
+faas_storage_agent-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+faas_storage_agent-0.2.0.dist-info/top_level.txt,sha256=2K8E7IxKxZOqkkU6WasuPepG_0J8gdYOBcsE9yRDUpE,19
+faas_storage_agent-0.2.0.dist-info/RECORD,,
