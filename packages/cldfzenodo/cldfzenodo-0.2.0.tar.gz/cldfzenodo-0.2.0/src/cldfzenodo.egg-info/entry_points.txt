@@ -1,0 +1,3 @@
+[cldfbench.commands]
+zenodo = cldfzenodo.commands
+
