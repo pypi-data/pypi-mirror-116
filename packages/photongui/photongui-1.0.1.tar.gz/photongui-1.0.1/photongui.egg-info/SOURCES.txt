@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+photongui/__init__.py
+photongui/window.py
+photongui/windowBlueprint.py
+photongui.egg-info/PKG-INFO
+photongui.egg-info/SOURCES.txt
+photongui.egg-info/dependency_links.txt
+photongui.egg-info/requires.txt
+photongui.egg-info/top_level.txt
+photongui/api/__init__.py
+photongui/api/css.py
+photongui/api/drag.py
+photongui/api/loadSnippet.py
+photongui/api/py_js_bridge.py
+photongui/gui/images/icon.png
