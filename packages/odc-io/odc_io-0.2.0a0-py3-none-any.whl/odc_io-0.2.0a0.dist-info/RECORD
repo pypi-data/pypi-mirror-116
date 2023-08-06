@@ -1,0 +1,11 @@
+odc/io/__init__.py,sha256=NKRnXdNKJqVknmt7qFyMO2bWgo0YZ01vdOyiWSp32Fo,481
+odc/io/_version.py,sha256=XjyJiDibDV_Z51ez3mi17tJbHaMxh3JTg26NJv2NY80,23
+odc/io/cgroups.py,sha256=ZoDiHSUWsmqmHs_UzaNraZF_mL3iLE0j6LqgfWNM_Wc,842
+odc/io/path.py,sha256=16D3RlZ1mFgh99Dj6hxWM23P8C9mNREQL0TlHvfnNsM,1509
+odc/io/tar.py,sha256=sJjGg4Ks84aiJ1ltED2NI47Deni_YtA0uTv5Vg73PUA,2463
+odc/io/text.py,sha256=T0hzcXH5nnzvejjf9RA7s0WgzKf_Njk9UUSKqjHinPA,6320
+odc/io/timer.py,sha256=Z3UFNkXXU0fdZIjavJwTYw26FJ8Y8dWOpKlLYC0DrOc,812
+odc_io-0.2.0a0.dist-info/METADATA,sha256=g9SXgxrbOfX_N56bStxkb00X6M5kZLAa8NdfoyYuul8,507
+odc_io-0.2.0a0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odc_io-0.2.0a0.dist-info/top_level.txt,sha256=agQvn12dGbaJZ4cQCqKfiCHBYi8LD3P4v9B2ynmsugQ,4
+odc_io-0.2.0a0.dist-info/RECORD,,
