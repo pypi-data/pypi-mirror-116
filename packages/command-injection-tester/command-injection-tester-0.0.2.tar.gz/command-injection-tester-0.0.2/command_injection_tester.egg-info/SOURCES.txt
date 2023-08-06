@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+command-injection-tester
+setup.py
+command_injection_tester.egg-info/PKG-INFO
+command_injection_tester.egg-info/SOURCES.txt
+command_injection_tester.egg-info/dependency_links.txt
+command_injection_tester.egg-info/top_level.txt
+command_injection_tester.egg-info/zip-safe
