@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pyforbes
+Version: 1.0.2
+Summary: Python package to collect data from Forbes.
+Home-page: https://github.com/laxmena/PyForbes
+Author: laxmena
+Author-email: ConnectWith@laxmena.com
+License: MIT
+Download-URL: https://github.com/laxmena/PyForbes
+Project-URL: Bug Tracker, https://github.com/laxmena/PyForbes/issues
+Keywords: forbes,forbes400,forbes list,forbes api,pyforbes
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+License-File: LICENSE
+
+# PyForbes - Python wrapper for Forbes API
+
+Welcome to the GitHub repository of **PyForbes**
+
+[PyForbes](http://www.github.com/laxmena/PyForbes) is an unofficial Python wrapper for Forbes API.
+
+PyForbes allows developers to analyze Forbes data or build web application with Forbes data.
+
+PyForbes provides ease of access to developers and data scientists by providing python interface to directly get the Forbes data as a [Pandas.DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) or JSON Dictionary.
+
+A Simple PyForbes application typically looks like this
+
+```py
+from pyforbes import ForbesList
+   
+   flist = ForbesList()
+
+   # Get ForbesList data as a JSON
+   billionaires_json = flist.get_json('billionaires', year=2020) 
+
+   # Get ForbesList data as a DataFrame
+   billionaires_df = flist.get_df('billionaires', year=2020)
+```
+
+In order to make the most out of PyForbes, you should start
+with the [PyForbes Documentation: Examples](https://pyforbes.readthedocs.io/en/latest/examples.html) that will lead you through the most common aspects of the package. 
+
+## Documentation
+Refer the documentation, examples and other instructions here: [PyForbes Documentation](https://pyforbes.readthedocs.io/)
+
+## Contributing
+Please refer the [Contribution Guidelines](https://pyforbes.readthedocs.io/en/latest/contribute.html).
+
+
