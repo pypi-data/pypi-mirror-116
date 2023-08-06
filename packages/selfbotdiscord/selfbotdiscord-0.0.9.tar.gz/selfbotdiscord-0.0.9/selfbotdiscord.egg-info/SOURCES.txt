@@ -1,0 +1,8 @@
+README.md
+setup.py
+selfbotdiscord/__init__.py
+selfbotdiscord.egg-info/PKG-INFO
+selfbotdiscord.egg-info/SOURCES.txt
+selfbotdiscord.egg-info/dependency_links.txt
+selfbotdiscord.egg-info/requires.txt
+selfbotdiscord.egg-info/top_level.txt
