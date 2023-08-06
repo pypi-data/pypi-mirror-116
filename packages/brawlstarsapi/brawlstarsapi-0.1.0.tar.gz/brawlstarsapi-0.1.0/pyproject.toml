@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "brawlstarsapi"
+version = "0.1.0"
+description = "Client for Brawl Stars API (https://developer.brawlstars.com/#/)"
+authors = ["Gopher Ubunotouch <gopherubunotouch@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"

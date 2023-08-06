@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: brawlstarsapi
+Version: 0.1.0
+Summary: Client for Brawl Stars API (https://developer.brawlstars.com/#/)
+Author: Gopher Ubunotouch
+Author-email: gopherubunotouch@gmail.com
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
