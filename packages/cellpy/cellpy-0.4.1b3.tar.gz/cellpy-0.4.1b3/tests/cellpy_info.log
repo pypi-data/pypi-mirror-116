@@ -1,0 +1,1007 @@
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - customdir, default: testing logger (info)
+(cellpy) - customdir, default: testing logger (error)
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmp1bnk8q_u\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp1bnk8q_u\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp1bnk8q_u\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp1bnk8q_u\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmp1bnk8q_u\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpc3qbxj5z\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\testdata\data\pec.csv
+(cellpy) - Setting mass: 50000
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\testdata\hdf5\20160805_test001_45_cc.h5
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Ready to help you to get some data to play with.
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\cellpy\utils\data\raw\20160805_test001_45_cc_01.res
+(cellpy) - Setting mass: 0.704
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\cellpy\utils\data\20160805_test001_45_cc.h5
+(cellpy) - cycle mode not found
+(cellpy) - Created CellpyData object
+(cellpy) - no steps found (c:18 s:0 type:charge)
+(cellpy) - 18 is empty
+(cellpy) - STEP 0: Using first point as ref voltage
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp2l25vh1b\pec_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp2l25vh1b\pec_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp2l25vh1b\pec_stats.csv OK
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - customdir, default: testing logger (info)
+(cellpy) - customdir, default: testing logger (error)
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpj8kz8jn0\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpj8kz8jn0\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpj8kz8jn0\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpj8kz8jn0\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpj8kz8jn0\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmp9vs6qjry\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\testdata\data\pec.csv
+(cellpy) - Setting mass: 50000
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\testdata\hdf5\20160805_test001_45_cc.h5
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Created CellpyData object
+(cellpy) - Ready to help you to get some data to play with.
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\cellpy\utils\data\raw\20160805_test001_45_cc_01.res
+(cellpy) - Setting mass: 0.704
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\cellpy\utils\data\20160805_test001_45_cc.h5
+(cellpy) - cycle mode not found
+(cellpy) - Created CellpyData object
+(cellpy) - no steps found (c:18 s:0 type:charge)
+(cellpy) - 18 is empty
+(cellpy) - STEP 0: Using first point as ref voltage
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmptl9wr7g9\pec_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmptl9wr7g9\pec_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmptl9wr7g9\pec_stats.csv OK
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - customdir, default: testing logger (info)
+(cellpy) - customdir, default: testing logger (error)
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmp_yryxbr1\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp_yryxbr1\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp_yryxbr1\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp_yryxbr1\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmp_yryxbr1\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmped50_xz9\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\testdata\data\pec.csv
+(cellpy) - Setting mass: 50000
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\testdata\hdf5\20160805_test001_45_cc.h5
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Created CellpyData object
+(cellpy) - Ready to help you to get some data to play with.
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\cellpy\utils\data\raw\20160805_test001_45_cc_01.res
+(cellpy) - Setting mass: 0.704
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\cellpy\utils\data\20160805_test001_45_cc.h5
+(cellpy) - cycle mode not found
+(cellpy) - Created CellpyData object
+(cellpy) - no steps found (c:18 s:0 type:charge)
+(cellpy) - 18 is empty
+(cellpy) - STEP 0: Using first point as ref voltage
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp_424r2ax\pec_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp_424r2ax\pec_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp_424r2ax\pec_stats.csv OK
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - default: testing logger (info)
+(cellpy) - default: testing logger (error)
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - customdir, default: testing logger (info)
+(cellpy) - customdir, default: testing logger (error)
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpiyysq6zd\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpiyysq6zd\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpiyysq6zd\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpiyysq6zd\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpiyysq6zd\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) -  -> C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01.h5
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_stats.csv OK
+(cellpy) - The file C:\Users\jepe\AppData\Local\Temp\tmpg9r2fdhn\20160805_test001_45_cc_01_cycles.csv was created
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\testdata\data\pec.csv
+(cellpy) - Setting mass: 50000
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\testdata\hdf5\20160805_test001_45_cc.h5
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Created CellpyData object
+(cellpy) - Ready to help you to get some data to play with.
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading raw-file: C:\scripts\cellpy\cellpy\utils\data\raw\20160805_test001_45_cc_01.res
+(cellpy) - Setting mass: 0.704
+(cellpy) - Creating step table
+(cellpy) - Creating summary data
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - Created CellpyData object
+(cellpy) - 
+Could not set custom log-dir - non-existing directory
+Dir: C:\scripts\cellpy\testdata\log
+Using current directory instead: C:\scripts\cellpy\tests
+(cellpy) - Loading cellpy-file: C:\scripts\cellpy\cellpy\utils\data\20160805_test001_45_cc.h5
+(cellpy) - cycle mode not found
+(cellpy) - Created CellpyData object
+(cellpy) - no steps found (c:18 s:0 type:charge)
+(cellpy) - 18 is empty
+(cellpy) - STEP 0: Using first point as ref voltage
+(cellpy) - Assuming cycling in anode half-cell (discharge before charge) mode
+(cellpy) - could not extract low-high levels (ref cycle number does not exist)
+(cellpy) - Using the following nominal capacity: 3579
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp1jv0rh2i\pec_normal.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp1jv0rh2i\pec_steps.csv OK
+(cellpy) - C:\Users\jepe\AppData\Local\Temp\tmp1jv0rh2i\pec_stats.csv OK
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
+(cellpy) - - not a dict
