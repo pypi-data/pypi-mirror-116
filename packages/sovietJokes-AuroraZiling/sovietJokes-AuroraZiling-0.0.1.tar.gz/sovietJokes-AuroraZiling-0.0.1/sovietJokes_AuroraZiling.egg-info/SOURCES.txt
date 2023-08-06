@@ -1,0 +1,8 @@
+README.md
+setup.py
+sovietJokes/__init__.py
+sovietJokes/generate.py
+sovietJokes_AuroraZiling.egg-info/PKG-INFO
+sovietJokes_AuroraZiling.egg-info/SOURCES.txt
+sovietJokes_AuroraZiling.egg-info/dependency_links.txt
+sovietJokes_AuroraZiling.egg-info/top_level.txt
