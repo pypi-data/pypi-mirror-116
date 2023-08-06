@@ -1,0 +1,6 @@
+numpy
+tensorflow
+deap
+tensorflow-datasets
+scikit-learn
+pandas
