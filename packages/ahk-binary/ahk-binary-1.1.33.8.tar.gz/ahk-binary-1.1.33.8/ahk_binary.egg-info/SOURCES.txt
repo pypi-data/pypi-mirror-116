@@ -1,0 +1,7 @@
+AutoHotkey.exe
+setup.py
+ahk_binary/__init__.py
+ahk_binary.egg-info/PKG-INFO
+ahk_binary.egg-info/SOURCES.txt
+ahk_binary.egg-info/dependency_links.txt
+ahk_binary.egg-info/top_level.txt
