@@ -1,0 +1,7 @@
+README.rst
+setup.py
+jf_debug/__init__.py
+jf_debug.egg-info/PKG-INFO
+jf_debug.egg-info/SOURCES.txt
+jf_debug.egg-info/dependency_links.txt
+jf_debug.egg-info/top_level.txt
