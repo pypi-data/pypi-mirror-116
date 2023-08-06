@@ -1,0 +1,8 @@
+README.md
+setup.py
+EasyMyWeb.egg-info/PKG-INFO
+EasyMyWeb.egg-info/SOURCES.txt
+EasyMyWeb.egg-info/dependency_links.txt
+EasyMyWeb.egg-info/requires.txt
+EasyMyWeb.egg-info/top_level.txt
+easymyweb/__init__.py
