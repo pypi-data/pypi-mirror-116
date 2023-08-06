@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+steamnews/__init__.py
+steamnews/steamnews.py
+steamnews.egg-info/PKG-INFO
+steamnews.egg-info/SOURCES.txt
+steamnews.egg-info/dependency_links.txt
+steamnews.egg-info/requires.txt
+steamnews.egg-info/top_level.txt
