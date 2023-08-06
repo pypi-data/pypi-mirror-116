@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hannah
+Version: 0.0.1
+Summary: 
+Author: suganthsundar
+Author-email: suganthsundar@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: httpx (>=0.18.2,<0.19.0)
