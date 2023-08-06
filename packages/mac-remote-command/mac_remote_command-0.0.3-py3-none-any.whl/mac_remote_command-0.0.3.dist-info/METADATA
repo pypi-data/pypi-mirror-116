@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mac-remote-command
+Version: 0.0.3
+Summary: Client for embedded systems to facilitate remote configuration.
+Home-page: https://github.com/FlantasticDan/mac-remote-command
+Author: Daniel Flanagan
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/FlantasticDan/mac-remote-command/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: getmac
+
+# mac-remote-command
+Client for embedded systems to facilitate remote configuration.
+
+
