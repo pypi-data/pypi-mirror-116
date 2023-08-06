@@ -1,0 +1,3 @@
+[datasette]
+x_forwarded_host = datasette_x_forwarded_host
+
