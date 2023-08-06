@@ -1,0 +1,3 @@
+[console_scripts]
+vfio-isolate = vfio_isolate:run_cli
+
