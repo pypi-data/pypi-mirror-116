@@ -1,0 +1,3 @@
+python-pulseaudio-profiles>=0.0.3
+pycairo
+PyGObject

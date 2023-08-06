@@ -1,0 +1,3 @@
+[console_scripts]
+ppp-tray = pypulseprofilestray.tray:sys_main
+

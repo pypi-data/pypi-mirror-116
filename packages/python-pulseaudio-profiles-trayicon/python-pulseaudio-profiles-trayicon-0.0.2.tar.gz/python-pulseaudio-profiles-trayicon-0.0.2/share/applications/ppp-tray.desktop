@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pulseaudio Profiles Tray Icon
+Exec=ppp-tray
+Icon=ppp-tray
+Categories=Audio;AudioVideo;Utility;
+Terminal=false
