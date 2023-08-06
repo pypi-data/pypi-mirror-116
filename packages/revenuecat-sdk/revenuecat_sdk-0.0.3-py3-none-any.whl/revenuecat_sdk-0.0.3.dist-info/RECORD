@@ -1,0 +1,11 @@
+revenuecat_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revenuecat_sdk/client.py,sha256=EP9n3TbriSNIeuwoEwdjPHrqstkC8FJQef0Fv5CGlNI,8512
+revenuecat_sdk/enums.py,sha256=NLdk51xfkRx1VWg13OR3j_W15KbPR06Gu5tAWwvNKQI,960
+revenuecat_sdk/errors.py,sha256=ZMQ6pl310Op7Q5Hm7XNiUioYJJQ7707eOkp9VMtB_6Y,90
+revenuecat_sdk/response.py,sha256=sl_Na7lA8luNp3Tn9cTPnays74q1W7urQ_LY-yyziZE,1415
+revenuecat_sdk/utils.py,sha256=wIJnoPzCls6FlwniEiZdCAmNInnt5ecu5g1ex8EWLUM,198
+revenuecat_sdk-0.0.3.dist-info/LICENSE,sha256=rlCv7P9NEooS6VCeKCmnUvh47f3TVx7S0oEkb6nIinI,1072
+revenuecat_sdk-0.0.3.dist-info/METADATA,sha256=wo55CRWsK0CgiFvlfUDL0abT2XxmGw9gd8Z_q3cslOM,1011
+revenuecat_sdk-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+revenuecat_sdk-0.0.3.dist-info/top_level.txt,sha256=uqMqnYBlVGy-uDYHynHNmiOmJJqctgOOS5zRepVmTHw,15
+revenuecat_sdk-0.0.3.dist-info/RECORD,,
