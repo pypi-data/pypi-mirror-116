@@ -1,0 +1,10 @@
+unpackai/__init__.py,sha256=71Tw8stu19MsLPyF1q_DF5mb_BefzOTPYggLlSLvCms,23
+unpackai/_nbdev.py,sha256=ZlEuCVLdpbU_1TfyVgfPnSJ6CM7X230wCM153kbJI70,460
+unpackai/turk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unpackai/turk/image.py,sha256=ZtF1Ib7EkFo-nPbUB4bFF4dq72IN08Wv95Pp2seYpJs,12404
+unpackai-0.0.14.dist-info/LICENSE,sha256=tcbsJiQuuGJD5xsrIAwt1Nyless-4YmKdBIcmLeo5GE,1085
+unpackai-0.0.14.dist-info/METADATA,sha256=al_QmbjhyX0DfB5mZY9SUJFSv2ddcA8XIZ0DMrST2h8,1079
+unpackai-0.0.14.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+unpackai-0.0.14.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+unpackai-0.0.14.dist-info/top_level.txt,sha256=pVDXybZ5T6O2ojEjMgvOZVIZ-_epea3YJp3EI8fuvGc,9
+unpackai-0.0.14.dist-info/RECORD,,
