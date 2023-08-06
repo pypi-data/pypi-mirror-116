@@ -1,0 +1,3 @@
+[console_scripts]
+fuckitpy = fuckitpy.fuckitpy:main
+
