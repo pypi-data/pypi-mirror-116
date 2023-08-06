@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: easy-tfrecord
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Wangsherpa/easy_tfrecord
+Author: Wang Sherpa
+Author-email: wangdoje@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+**It provides**:
+- an easy way to convert images to TFRecords with it's labels.
+- conversion from TFRecords to tf.data.
+
+**How to Use**:
+
+Here is the [link](https://www.kaggle.com/wangdorjeesherpa/tfrecords-vs-tfdata "Open Kaggle Notebook") to kaggle notebook which show's its usage.
+
+
