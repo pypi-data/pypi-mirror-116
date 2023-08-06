@@ -1,0 +1,3 @@
+recursive-include changedetectionio/templates *
+recursive-include changedetectionio/static *
+global-exclude *.pyc
