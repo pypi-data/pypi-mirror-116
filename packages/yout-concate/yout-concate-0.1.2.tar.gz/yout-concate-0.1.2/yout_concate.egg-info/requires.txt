@@ -1,0 +1,6 @@
+moviepy
+pytube
+requests
+python-dotenv
+urllib3
+youtube_transcript_api
