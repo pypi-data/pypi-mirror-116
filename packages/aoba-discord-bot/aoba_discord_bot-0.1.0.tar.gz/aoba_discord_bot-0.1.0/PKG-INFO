@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: aoba_discord_bot
+Version: 0.1.0
+Summary: Aoba, the cutest Python Discord bot in all of GitHub.
+Home-page: https://github.com/douglascdev/aoba_discord_bot
+Author: Douglas Carvalho
+Author-email: douglasc.dev@gmail.com
+License: MIT license
+Keywords: aoba_discord_bot
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+================
+Aoba Discord Bot
+================
+
+.. image:: https://github.com/douglascdev/aoba_discord_bot/raw/main/aoba.png
+    :align: center
+
+
+.. image:: https://img.shields.io/pypi/v/aoba_discord_bot.svg
+        :target: https://pypi.python.org/pypi/aoba_discord_bot
+
+.. image:: https://img.shields.io/travis/douglascdev/aoba_discord_bot.svg
+        :target: https://travis-ci.com/douglascdev/aoba_discord_bot
+
+.. image:: https://readthedocs.org/projects/aoba-discord-bot/badge/?version=latest
+        :target: https://aoba-discord-bot.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/douglascdev/aoba_discord_bot/shield.svg
+     :target: https://pyup.io/repos/github/douglascdev/aoba_discord_bot/
+     :alt: Updates
+
+|
+
+.. image:: https://github.com/douglascdev/aoba_discord_bot/raw/main/aoba.gif
+    :align: center
+
+|
+
+
+Aoba, the cutest Python Discord bot in all of GitHub! Click `here <https://discord.com/api/oauth2/authorize?client_id=525711332591271948&permissions=8&scope=bot>`__ to add her to your server.
+
+* Free software: MIT license
+* Documentation: https://aoba-discord-bot.readthedocs.io.
+
+Please be aware that until version 1.0.0 is released the bot should not be considered stable.
+It's still very early in development and could have bugs that would cause problems to your server.
+
+
+Features
+--------
+
+Here's the full list of commands:
+
+.. code-block::
+
+    Admin:
+     !custom_cmd      Manage custom commands
+     !prefix          Set the default command prefix
+     !purge           Deletes 100 or a specified number of messages from this channel
+
+    BotAdmin:
+     !announce        Make an announcement in every server
+     !guilds          List of servers running Aoba
+     !shutdown        Shutdown the bot
+     !status          Change Aoba's status text
+
+    Osu:
+     !score_pp
+
+    User:
+     !escape_markdown Escapes all Markdown in the message
+     !help            Shows this message
+
+
+    Type !help command for more info on a command.
+    You can also type !help category for more info on a category.
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2021-08-06)
+------------------
+
+* First release on PyPI.
+
+
