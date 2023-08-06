@@ -1,0 +1,12 @@
+clip_retrieval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clip_retrieval/cli.py,sha256=LV1CTchOo7XnHWe-xtcSWeq1aqrycx6zDME7-RNtV3Q,353
+clip_retrieval/clip_back.py,sha256=xLOW56d4kUPVZnlClpJ2J_kHY47mresyVLYV6k3HruM,4261
+clip_retrieval/clip_batch.py,sha256=JxwWjZqxakkbjmExy7oqVpPymXSquCSVSxObaoZQIJc,5253
+clip_retrieval/clip_filter.py,sha256=znttdmgGJ2WQWvKpq40GIwfcklEebCIAYUrBqVlMuWs,1811
+clip_retrieval-1.0.1.data/data/README.md,sha256=LUXnJpR0G6qODECgMFfjAslWVIaZ0jIn-7pSqhBkn94,3541
+clip_retrieval-1.0.1.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+clip_retrieval-1.0.1.dist-info/METADATA,sha256=K2KhCkl1kz4OTJk80Hr5gD3V1eqASpNbC3R1-ttDjx8,4439
+clip_retrieval-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+clip_retrieval-1.0.1.dist-info/entry_points.txt,sha256=QLdSX6d901D-Fhs1Ip9Jl3A0VGL1irga4byT2fQI89Q,60
+clip_retrieval-1.0.1.dist-info/top_level.txt,sha256=oWxIHF0uIAgmgQlwjoXpecacJEQDlAzV8nSO9FdCo4U,15
+clip_retrieval-1.0.1.dist-info/RECORD,,
