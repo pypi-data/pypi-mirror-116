@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pydenv
+Version: 1.0.1
+Summary: Provisionador de ambiente de desenvolvimento
+Home-page: https://github.com/felipe-almeida-costa-leite/pydenv
+Author: Felipe Leite
+Author-email: felipecostasilvaleite@hotmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/felipe-almeida-costa-leite/pydenv
+Project-URL: Download, https://github.com/felipe-almeida-costa-leite/pydenv/1.0.0.zip
+Keywords: Ambiente de desenvolvimento
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+
+Pacote que visa realizar o provisionamento de um ambiente de desenvolvimento utiliando diversos pacotes, como pylint, pydocstyle e afins...
+
+
