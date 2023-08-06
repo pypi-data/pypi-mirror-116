@@ -1,0 +1,3 @@
+[console_scripts]
+jx = journalx.cli:cli
+
