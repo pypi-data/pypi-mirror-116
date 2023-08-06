@@ -1,0 +1,31 @@
+{domain}/login {
+   reverse_proxy 127.0.0.1:4566/login
+}
+
+{domain}/logout {
+   reverse_proxy 127.0.0.1:4566/logout
+}
+
+{domain}/add_user {
+   reverse_proxy 127.0.0.1:4566/add_user
+}
+
+{domain}/remove_user {
+   reverse_proxy 127.0.0.1:4566/remove_user
+}
+
+{domain}/test {
+   reverse_proxy 127.0.0.1:4566/test
+}
+
+{domain}/uif {
+   reverse_proxy 127.0.0.1:10000
+}
+
+{domain}/uif_free {
+   reverse_proxy 127.0.0.1:10001
+}
+
+{domain} {
+   respond "Hello world!"
+}
