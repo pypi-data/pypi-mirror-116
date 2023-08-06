@@ -1,0 +1,14 @@
+licensecheck/__init__.py,sha256=qTLc9-mLUeccnv5GpQ2kbNst9xLkqaPSoItIJVza3oA,1697
+licensecheck/__main__.py,sha256=sLaF2ZlSVKR2tZOqw7J56Np60PH9BbCqNxzVtGmtqtc,75
+licensecheck/formatter.py,sha256=vt1kohEOAwUu9UFq3QtgyOS4B57sqOJbMR8sAMPdzw8,6138
+licensecheck/get_deps.py,sha256=Ovdt_Li88GJ1eGzjgwyTmG6eqLUaunspTBKunJWM714,2486
+licensecheck/license_matrix.py,sha256=vh1k8_ezdWP6yA_F1Zj8w4ckjVhIDuipMjs8Thdb4-Y,5717
+licensecheck/packageinfo.py,sha256=N1Mb9nQJ04RHytxI5JCP4MQNsDOin7O6N5ImzCtdEZI,6449
+licensecheck/pypi_licenses/osi_approved.txt,sha256=ipcGtjpsmb1EHSIUd64zVwDQuOAdcWVH6ukf9f9tQCw,2521
+licensecheck/pypi_licenses/other.txt,sha256=sjo4ZqW6HXeeI0it_lyc_pMTF9oA4PHh8FDrheP6SWI,671
+licensecheck/types.py,sha256=m-RT7uk7CW3O5mDlVPn2B5K5rE-_EF_plUMmUvaR3rs,844
+licensecheck-2021.2.dist-info/entry_points.txt,sha256=qyl9ndLV7PpClEqSj0FYcvx_xWrR_THFN3QGz-bix20,49
+licensecheck-2021.2.dist-info/LICENSE.md,sha256=lGO6M75mU76sNMossy9lWH15u3cMpzo3I4IfMUH-ITA,1100
+licensecheck-2021.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+licensecheck-2021.2.dist-info/METADATA,sha256=L1usBuXSM6hQh1Xs7JoRndsIcbvxteY14LzeQhAzwl0,8608
+licensecheck-2021.2.dist-info/RECORD,,
