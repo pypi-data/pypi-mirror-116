@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/LeagueLibrary/__init__.py
+src/LeagueLibrary.egg-info/PKG-INFO
+src/LeagueLibrary.egg-info/SOURCES.txt
+src/LeagueLibrary.egg-info/dependency_links.txt
+src/LeagueLibrary.egg-info/requires.txt
+src/LeagueLibrary.egg-info/top_level.txt
+src/LeagueLibrary/host/__init__.py
+src/LeagueLibrary/host/host.py
+src/LeagueLibrary/summoner/__init__.py
+src/LeagueLibrary/summoner/summoner.py
