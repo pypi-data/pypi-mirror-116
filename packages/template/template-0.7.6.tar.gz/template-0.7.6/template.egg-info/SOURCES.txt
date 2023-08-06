@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+template/__init__.py
+template/filters.py
+template/functions.py
+template.egg-info/PKG-INFO
+template.egg-info/SOURCES.txt
+template.egg-info/dependency_links.txt
+template.egg-info/entry_points.txt
+template.egg-info/requires.txt
+template.egg-info/top_level.txt
