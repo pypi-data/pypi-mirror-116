@@ -1,0 +1,17 @@
+rgbw_colorspace_converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbw_colorspace_converter/randomcolor.py,sha256=quhL-YeI99HmZ0lT4xxTEk0WFotmaVd3He0fBpvZbzM,6572
+rgbw_colorspace_converter/colors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbw_colorspace_converter/colors/converters.py,sha256=jW2groytdrnwWnE4kNjdYZiAS5PzubkOdpbg-5WIL50,13979
+rgbw_colorspace_converter/colors/util/__init__.py,sha256=8JmvOo_0mgqBkJ0KzkOvko2Xo9YPd7yJ2Izb8QCVQVc,700
+rgbw_colorspace_converter/colors/util/morph.py,sha256=XgUUvHFKHa02KHdoaQflgossWzl3hi0Aue2qNCFrIpY,4196
+rgbw_colorspace_converter/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbw_colorspace_converter/tools/color_printer.py,sha256=OmutlF8IahWtx-4OQ2mjIP_l7DVygwo_grP73fhAKCg,3693
+rgbw_colorspace_converter-0.1.3.data/scripts/path_between_2_colors.py,sha256=t5x3sDWcAkvqwH7mvOuJUNPQqzV9rs9qyeyCvKHerZI,836
+rgbw_colorspace_converter-0.1.3.data/scripts/print_colored_txt.py,sha256=LyEcECKgOKaOHiaIZHPqhDN3lleo_x-Bkt7zS9v8JE0,2601
+rgbw_colorspace_converter-0.1.3.data/scripts/run_color_module_RGB_HSV_HEX_demo.py,sha256=WWHDKpnHNJnVAzrsJdhzJTNoX2d56fOjmCu1UVHxxA8,17571
+rgbw_colorspace_converter-0.1.3.data/scripts/run_spectrum_saturation_cycler.py,sha256=Y81XZ-1RHnK7HVhXm-AmdU6m3Df-a7sqkzjk5bn-660,8179
+rgbw_colorspace_converter-0.1.3.dist-info/LICENSE,sha256=IhOPKM4l1FCQtI1AjQ6F9r8ZGLiTtzkfYuhjKh9RGrQ,1067
+rgbw_colorspace_converter-0.1.3.dist-info/METADATA,sha256=3i0vC3A4CN7RaGDzSUk0TzgjnLh2D2RCMOclAxA4cqM,745
+rgbw_colorspace_converter-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rgbw_colorspace_converter-0.1.3.dist-info/top_level.txt,sha256=BfMHBTLYKgGGJe4sNrqtnD_3i6JdldmSmlh28OhAXdE,26
+rgbw_colorspace_converter-0.1.3.dist-info/RECORD,,
