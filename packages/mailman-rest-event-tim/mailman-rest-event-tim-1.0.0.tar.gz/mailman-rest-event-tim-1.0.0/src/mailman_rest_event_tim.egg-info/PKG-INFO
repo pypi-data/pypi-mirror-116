@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mailman-rest-event-tim
+Version: 1.0.0
+Summary: Sends mailman events to a REST endpoint
+Home-page: https://github.com/dezhidki/mailman-rest-events
+Author: Denis Zhidkikh
+Author-email: dezhidki@jyu.fi
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dezhidki/mailman-rest-events/issues
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Communications :: Email
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+UNKNOWN
+

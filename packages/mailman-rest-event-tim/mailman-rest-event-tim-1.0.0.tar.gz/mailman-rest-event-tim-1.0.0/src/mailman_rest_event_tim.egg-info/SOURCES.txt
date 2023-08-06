@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+src/mailman_rest_event/__init__.py
+src/mailman_rest_event/plugin.py
+src/mailman_rest_event/handlers/__init__.py
+src/mailman_rest_event/handlers/to_event.py
+src/mailman_rest_event/pipelines/__init__.py
+src/mailman_rest_event/pipelines/notify_pipeline.py
+src/mailman_rest_event_tim.egg-info/PKG-INFO
+src/mailman_rest_event_tim.egg-info/SOURCES.txt
+src/mailman_rest_event_tim.egg-info/dependency_links.txt
+src/mailman_rest_event_tim.egg-info/requires.txt
+src/mailman_rest_event_tim.egg-info/top_level.txt
