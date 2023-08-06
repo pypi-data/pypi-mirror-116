@@ -1,0 +1,16 @@
+ferris/__init__.py,sha256=X5xGEZnWy5uhtRu22pSDMhLfeVBKvb8iNNKDidWa23Q,321
+ferris/base.py,sha256=PgL7jcQlzMU3V1yYlTqSvwsju6pMweCjBJwes2vp84U,2018
+ferris/channel.py,sha256=9YTTvFqAjDamnBWL9Z0UkFG-W1EeScCk99AnErsNa-4,494
+ferris/client.py,sha256=ui4Jkf6lrsuhuVJ-Zng9NyB8HTRyDM8j8_lcwjGoYbY,542
+ferris/errors.py,sha256=NIrgYgQDeH5GX3hoURUoQOJ5hfLhOVe7__moNFbD3qE,1092
+ferris/guild.py,sha256=lfKZa8t7x0Ec7ILmItpia71XGRq6ks1YlQUSgUWm1ow,1363
+ferris/http.py,sha256=-Y8AKo8wyuhOkyiG-1Dl1ErSZvq2P3L6lcjojuB4slM,3887
+ferris/member.py,sha256=4EwV8ZK_UZK4EVQnd7QPY34_kuYfgIKuz8vh51Ky5nM,985
+ferris/message.py,sha256=o6NRT0K8luDO8jP1q9jY6oTEioEMLZGFH0hbfk5USdA,742
+ferris/user.py,sha256=l4JwRNAEn35XBNBw716lLum3hVxqC9_93FPjKkFlW7w,934
+ferris/utils.py,sha256=ZQqghISP0xGOgkkr16ax55fTq1tG3Eeu8H6oYQmgG9I,704
+ferriswheel-0.0a1.dev0.dist-info/LICENSE,sha256=EP2W-UqDITkSNb_ybm_ZeFtaUUqA38rRr9N01ytGbDM,1086
+ferriswheel-0.0a1.dev0.dist-info/METADATA,sha256=FhPXx7izrRK_IHfs824uLa10e_fMm7kDAd8QgRlGRwg,1258
+ferriswheel-0.0a1.dev0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ferriswheel-0.0a1.dev0.dist-info/top_level.txt,sha256=DGIFCAgY2MR0-qMqCbGgW8d_4_5XJcnos6rfaZ-_XPY,7
+ferriswheel-0.0a1.dev0.dist-info/RECORD,,
