@@ -1,0 +1,16 @@
+kwork/__init__.py,sha256=LrcjUZ9pQJzHJD0iFjy3HRulOiIC22vgu_I8Svrsv0k,59
+kwork/exceptions.py,sha256=M3trYN8fRpS5kRvIgP9mpToiXnralZvL6qBDPO4LOso,95
+kwork/kwork.py,sha256=Uhiyzerh8QJAn4b6IKehPHj3FeqRCwVlVR-GMrpktds,13258
+kwork/types/__init__.py,sha256=H9C7DVLM_a-zM-mhw-eo9x_23Eyw_e-M0MCCT6HETk0,316
+kwork/types/achievement.py,sha256=by0QXmS3jzuDCZaZgR5Sr11a3Ee-v4v2sMF-0plwBtQ,165
+kwork/types/actor.py,sha256=nPljfVfX5Ug2v_y1_-TFhq99bd4rsxhuglW5eUbW4vo,2012
+kwork/types/category.py,sha256=-Q3aTMjUxaQkttgGbccD2hC7bQ_wODRtMBSmNQ6AB6M,641
+kwork/types/connects.py,sha256=b8AZyLBILhlY4LZlvlmBoJZk8zDesXkfnN2ZAEVN-tA,156
+kwork/types/dialog.py,sha256=BUz3zbyqYgdFazssqx-mYwVKRTgUQK5VWoaqKB2hgg4,700
+kwork/types/event.py,sha256=IL9t5BCRvHNsg5j5Bv2u5CxiaaAoX146IXOYkDtZvuI,439
+kwork/types/message.py,sha256=lxvlTu91ek0iDMtfY24Ed2BXkp-_rpACpGiZ6KXcfec,1530
+kwork/types/project.py,sha256=t1TlXk1-zMRNofd6qIfIxUaDYHdVsq-GT15S9sqsjBY,758
+kwork/types/user.py,sha256=1FRLNnBd1Vz39Tcr9I_H90fFPmTBpAFb1PunxBZ2qAM,817
+kwork-0.0.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kwork-0.0.5.dist-info/METADATA,sha256=W2UtlYNyYUjj__Rr1jYduvfxmjUh6BjDtTl8IFZta-k,452
+kwork-0.0.5.dist-info/RECORD,,
