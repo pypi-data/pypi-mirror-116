@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+paam/__init__.py
+paam/__version__.py
+python_attribute_access_modifiers.egg-info/PKG-INFO
+python_attribute_access_modifiers.egg-info/SOURCES.txt
+python_attribute_access_modifiers.egg-info/dependency_links.txt
+python_attribute_access_modifiers.egg-info/requires.txt
+python_attribute_access_modifiers.egg-info/top_level.txt
