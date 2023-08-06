@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: panthera
+Version: 0.5.2
+Summary: Package for calculating thermochemistry with anharmonic corrections
+Home-page: https://github.com/lmmentel/panthera
+License: MIT
+Keywords: vibrations,anharmonic,thermochemistry,chemistry,physics
+Author: Lukasz Mentel
+Author-email: lmmentel@gmail.com
+Maintainer: Lukasz Mentel
+Maintainer-email: lmmentel@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ase (>=3.22.0,<4.0.0)
+Requires-Dist: bmatrix (>=1.0.1,<2.0.0)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: numpydoc (>=1.1.0,<2.0.0)
+Requires-Dist: pandas (>=1.3.1,<2.0.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
+Project-URL: Repository, https://github.com/lmmentel/panthera
+Description-Content-Type: text/markdown
+
+
+# panthera - program for anharmonic thermochemistry
+
+## Installation
+
+The recommended installation method is with [pip]. The latest version
+can be installed directly from [bitbucket repository]:
+
+```bash
+pip install https://github.com/lmmentel/panthera.git
+```
+or cloned first
+```bash
+git clone https://github.com/lmmentel/panthera.git
+```
+and installed via
+```bash
+pip install -U [--user] ./panthera
+```
+
+[pip]: https://pip.pypa.io/en/stable/
+
+## Documentation
+
+The documentatioan can be at [panthera.rtfd.io](http://panthera.rtfd.io).
+
+## Citing
+
+If you use *panthera* in a scientific publication, please cite the software as
+
+|    L. M. Mentel, *panthera* - Package for Anharmonic Thermochemistry, 2016. Available at: [https://github.com/lmmentel/panthera](https://github.com/lmmentel/panthera)
+
+
+## Funding
+
+This project is supported by the RCN (The Research Council of Norway) project
+number 239193.
+
+
