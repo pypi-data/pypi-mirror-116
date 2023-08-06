@@ -1,0 +1,17 @@
+metaverse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaverse/__main__.py,sha256=tZ_964hpgR4lOoe5eumR5U9kAOnCU92TY40x0OBzUuI,522
+metaverse/hooking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaverse/hooking/ante_build_hook.py,sha256=xHHJNXnxb9watd2y7WjAJtYrYatQ5l-nIIue1G0R4gs,457
+metaverse/hooking/ante_release_hook.py,sha256=0zUaDxzt0xCA-CXaHGYtngfHXqgCVI-LIDorQtLP5sY,4687
+metaverse/hooking/post_build_hook.py,sha256=OORfwRWkgH7ibBj8g5TQ5qzRu2cUKbl1qzQhFtvdaB8,457
+metaverse/hooking/post_release_hook.py,sha256=BA0iuoN4Pvur4rRcmEOW6w1U5gy3Cagtf45BG_LmIeM,2183
+metaverse/pyrustic_data/hooking.json,sha256=-EPKMvb-idVQ4bMxOwwrA-R4WEo7oIiqitwey-bDy4g,294
+metaverse/pyrustic_data/hubstore.json,sha256=PYmFHCMCYZJ3_QeuTvBJVDIChqxxv6HuCg09hsXm6vU,166
+metaverse/pyrustic_data/release_info.json,sha256=Wp-2tVBcom2zIW8-Hw7TcEHx5d2y8SpVufi8Ygjt6Yo,273
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaverse-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaverse-0.0.1.dist-info/METADATA,sha256=tz8cCj8vaxXwJ1waFNigdJTG7jNiZ0bA6zEi874YjQA,1175
+metaverse-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+metaverse-0.0.1.dist-info/entry_points.txt,sha256=_VJsWansPCrOY6U838SdIbRjyYZikZXSjdZi1BSUhOg,55
+metaverse-0.0.1.dist-info/top_level.txt,sha256=ZGn79DfiekvhliC5XYoEJJTYrancs_8ZgAMbugSbRBg,16
+metaverse-0.0.1.dist-info/RECORD,,
