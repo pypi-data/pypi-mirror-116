@@ -1,0 +1,10 @@
+cli_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_commands/build.py,sha256=ZPVVpPoVlEhQG346xlEHCRoP19pBE7MYpY4XELSYuGI,307
+cli_commands/deploy.py,sha256=1cuZJCsmOSer2ClUdZstAdtfQ_1PJqWQN9t7wnmUaMs,493
+cli_commands/init.py,sha256=GrchYyPA9A9ZgxRkq6IodnUPv070Dsyp0OXQHv6V_h8,4562
+cli_commands/version.py,sha256=LOrYAaXSf82mv-zAUYGQvISsag0L1nSdxsPjSoAu9eg,399
+gitcidi-0.0.28.dist-info/METADATA,sha256=pf42Fs2HiYn6MX-0OUArlBJiW9ezzgoMGBh4zH12giM,877
+gitcidi-0.0.28.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitcidi-0.0.28.dist-info/entry_points.txt,sha256=RLU6op304LfQlYxucw_ERg7M65eMVKuAp9UiEUqXMss,57
+gitcidi-0.0.28.dist-info/top_level.txt,sha256=ZpwcncridFC9K8FTWTPclF2dL6L0wiaPiAlRB-OqDM8,13
+gitcidi-0.0.28.dist-info/RECORD,,
