@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: azul
+Version: 0.1.0
+Summary: 
+Author: Cauê Baasch de Souza
+Author-email: cauebs@pm.me
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
