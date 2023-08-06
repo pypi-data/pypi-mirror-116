@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+bisos2/__init__.py
+bisos2.egg-info/PKG-INFO
+bisos2.egg-info/SOURCES.txt
+bisos2.egg-info/dependency_links.txt
+bisos2.egg-info/not-zip-safe
+bisos2.egg-info/top_level.txt
