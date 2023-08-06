@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ComputMath/__init__.py
+ComputMath.egg-info/PKG-INFO
+ComputMath.egg-info/SOURCES.txt
+ComputMath.egg-info/dependency_links.txt
+ComputMath.egg-info/top_level.txt

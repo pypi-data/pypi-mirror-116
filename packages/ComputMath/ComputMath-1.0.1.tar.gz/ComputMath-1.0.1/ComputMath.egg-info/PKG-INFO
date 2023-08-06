@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ComputMath
+Version: 1.0.1
+Summary: Computational Mathematics Package
+Home-page: https://github.com/PopckovS/Computational_Mathematics
+Author: Popckov Sergio
+Author-email: popckovM10@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Computational_Mathematics
+---
+---
+Модуль содержит методы решения различных задач по 
+вычислительной математике. Рассчитан на 2-3 курс
+по предмету "Вычислительная математика"
+
+1. Численные методы решения нелинейных уравнений ( нахождения корней уравнения )
+   
+   - [Метод половинного деления](root/half_division.py)
+   - [Метод простой итерации](root/simple_iteration.py)
+
+2. Численные методы решения дифференциальных уравнений.
+   
+   - [Метод Эйлера](differential/euler.py)
+   - [Рунге-Кутта 4-го порядка](differential/runge_kutt.py)
+   
+3. Численные методы вычисления определенных интегралов.
+   
+   - [Методом Симпсона](integral/simpson.py)
+   - [Методом левых прямоугольников]()
+
+---
+
+Как это использовать, импортируем пакет по его имени `ComputMath`
+создайте свою функцию, которую вам нужно подсчитать, и передайте 
+ее в нужный вам численный метод:
+
+```python
+import ComputMath
+
+def function(x):
+    """Функция для вычислений"""
+    return (2 * math.cos(x)) / 7
+
+ComputMath.simple_iteration(function)
+```
+---
+
+Вводим параметры:
+
+![Вводим нужные значения](img/1.png "Рабочая БД")
+
+Получаем результат:
+
+![Результат подсчета](img/2.png "Рабочая БД")
+
+
