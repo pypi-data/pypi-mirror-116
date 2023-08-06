@@ -1,0 +1,4 @@
+kubernetes==17.17.0
+requests==2.24.0
+python-dotenv==0.18.0
+sentry-sdk
