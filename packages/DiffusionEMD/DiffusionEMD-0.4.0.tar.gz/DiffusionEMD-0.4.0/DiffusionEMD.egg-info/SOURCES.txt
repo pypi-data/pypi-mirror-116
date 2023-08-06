@@ -1,0 +1,28 @@
+.gitignore
+LICENSE
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+tox.ini
+.github/workflows/pre-commit.yml
+DiffusionEMD/Spherical_MNIST_Comparisons.py
+DiffusionEMD/__init__.py
+DiffusionEMD/convolutional_sinkhorn.py
+DiffusionEMD/dataset.py
+DiffusionEMD/diffusion_emd.py
+DiffusionEMD/diffusion_emd_gpu_flex.py
+DiffusionEMD/emd.py
+DiffusionEMD/estimate_utils.py
+DiffusionEMD/fixed_graph_gpu.py
+DiffusionEMD/metric_tree.py
+DiffusionEMD/version.py
+DiffusionEMD.egg-info/PKG-INFO
+DiffusionEMD.egg-info/SOURCES.txt
+DiffusionEMD.egg-info/dependency_links.txt
+DiffusionEMD.egg-info/requires.txt
+DiffusionEMD.egg-info/top_level.txt
+notebooks/Line Example.ipynb
+notebooks/Swissroll Example.ipynb
+test/test_diffusion_emd.py
+test/test_utils.py
