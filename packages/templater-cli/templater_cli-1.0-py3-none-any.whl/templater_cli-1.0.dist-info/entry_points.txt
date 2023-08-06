@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tmt=templater.main:main
+    

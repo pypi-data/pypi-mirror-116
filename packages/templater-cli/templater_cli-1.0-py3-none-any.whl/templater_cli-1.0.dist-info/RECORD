@@ -1,0 +1,8 @@
+templater/__init__.py,sha256=BPlzAbNsE6iy_md_g-WCJ1DngWy7FA8BBVWkJFwy0TE,205
+templater/main.py,sha256=aagVKEqRFNBYT9zM-mhtqGIIrxFXiCIGolDVWDzW_Mk,3523
+templater/templates.py,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+templater_cli-1.0.dist-info/METADATA,sha256=7JxXMXKKm_VoFB6AORqMbZzWUi4pE9LYQ5i3Pc0tlsQ,1489
+templater_cli-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+templater_cli-1.0.dist-info/entry_points.txt,sha256=1bLhB7OBCwwQXqG_1fVlvsWOgFOBXdMC1Cz1zysTDUI,63
+templater_cli-1.0.dist-info/top_level.txt,sha256=EjY6-ENw9Anv1f6K0xTLPbxb2m_hsCB4aXee9UCYEMM,10
+templater_cli-1.0.dist-info/RECORD,,
