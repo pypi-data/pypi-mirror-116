@@ -1,0 +1,10 @@
+setup.py
+pkg-nyakubava/Binomialdistribution.py
+pkg-nyakubava/Gaussiandistribution.py
+pkg-nyakubava/Generaldistribution.py
+pkg-nyakubava/__init__.py
+pkg_nyakubava.egg-info/PKG-INFO
+pkg_nyakubava.egg-info/SOURCES.txt
+pkg_nyakubava.egg-info/dependency_links.txt
+pkg_nyakubava.egg-info/not-zip-safe
+pkg_nyakubava.egg-info/top_level.txt
