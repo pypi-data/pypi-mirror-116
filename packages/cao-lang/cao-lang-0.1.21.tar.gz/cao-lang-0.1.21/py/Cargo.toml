@@ -1,0 +1,22 @@
+[dependencies]
+serde_json = "*"
+serde_yaml = "*"
+
+[dependencies.cao-lang]
+default-features = false
+features = ["serde"]
+path = "../cao-lang"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.14"
+
+[lib]
+crate-type = ["cdylib"]
+name = "cao_lang_py"
+
+[package]
+authors = ["Daniel Kiss <littlesnorrboy@gmail.com>"]
+edition = "2018"
+name = "cao-lang-py"
+version = "0.1.21"
