@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+aws_iot/__init__.py
+aws_iot/thing.py
+aws_iot.egg-info/PKG-INFO
+aws_iot.egg-info/SOURCES.txt
+aws_iot.egg-info/dependency_links.txt
+aws_iot.egg-info/not-zip-safe
+aws_iot.egg-info/requires.txt
+aws_iot.egg-info/top_level.txt
+aws_iot/shadow/__init__.py
+aws_iot/shadow/_base_shadow.py
+aws_iot/shadow/shadow_handler.py
+aws_iot/shadow/shadow_resource.py
+aws_iot/testing/__init__.py
