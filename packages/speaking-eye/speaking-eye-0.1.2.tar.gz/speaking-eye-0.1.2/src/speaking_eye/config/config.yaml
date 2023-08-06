@@ -1,0 +1,50 @@
+# white eye for 'dark' theme and black eye for 'light' theme
+theme: dark
+
+# language for notifications: [en - english (default), ru - russian, ua - ukrainian]
+language: en
+
+# run application automatically after login. set false if install for dev
+autostart: true
+
+# speaking-eye analyzes activity only for detailed_apps and distracting_apps
+# wm_name/tab are looked up with a regular expression so you can specify only part of the name
+# speaking-eye takes first match for app info so write more specific apps higher
+
+apps:
+  detailed:
+    # please fill in
+    - Internet:
+        wm_name: Chromium|Firefox|Opera
+
+  # if you want to track distracting apps then add distracting section like in examples below
+
+time_limits:
+  work_time_hours: 9
+  breaks_interval_hours: 3
+  distracting_apps_mins: 5
+
+# examples:
+
+# apps:
+#   detailed:
+#     - Serious working projects:                       # name that will be used in the report
+#         wm_name: jetbrains-pycharm|jetbrains-idea     # real apps name or parts of name
+#                                                       # '|' means OR
+#         tab: working.sh|projects.py                   # separate tabs if needed
+#
+#   distracting:
+#     - Viewing pictures:
+#         wm_name: Nautilus
+#         tab: dir-with-cute-corgi-dogs-photos
+
+# service with reports about your working days
+# will be run on http://{host}:{port}/ after speaking-eye starting
+report_server:
+  host: localhost
+  port: 3838
+  # supported browsers: [firefox, opera, epiphany, chrome, chromium, chromium-browser]
+  # if empty, then will be used default browser
+  browser:
+  # if selected, weekends files will be ignored even if there was work activity on that day
+  ignore_weekends: true
