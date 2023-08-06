@@ -1,0 +1,4 @@
+memory_profiler
+more_itertools
+numpy>=1.18
+tensorflow~=2.4.0
