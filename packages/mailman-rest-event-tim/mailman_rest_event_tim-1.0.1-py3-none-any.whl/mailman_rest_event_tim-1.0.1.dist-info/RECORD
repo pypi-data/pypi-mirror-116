@@ -1,0 +1,11 @@
+mailman_rest_event/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mailman_rest_event/plugin.py,sha256=TqL6B4pGlNZEuIskLAGj73PjswtJEsBsUqUhPlwrgwU,2919
+mailman_rest_event/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mailman_rest_event/handlers/to_event.py,sha256=Vz9HXJESMpdL_Ys_cnf8R67lNq0kAAbCiNVz7-gd5Wk,617
+mailman_rest_event/pipelines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mailman_rest_event/pipelines/notify_pipeline.py,sha256=20vrBl-cbMdHiVi8YUk_DRwdsqLx6tspUS3jbmqIwk0,957
+mailman_rest_event_tim-1.0.1.dist-info/LICENSE,sha256=slf8rj1x09Eav7hpFfIa0nslhcrNCRvEN0LEVEbbe0w,1071
+mailman_rest_event_tim-1.0.1.dist-info/METADATA,sha256=nK4_sy8VOi4xOojcPp7Ygbv3Fb5_TX5Uh-1NIPE8ieI,1473
+mailman_rest_event_tim-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mailman_rest_event_tim-1.0.1.dist-info/top_level.txt,sha256=JDHVOqbNWT78dCgiNQi7JgtbYTwnaHFj0WhfqDFNH44,19
+mailman_rest_event_tim-1.0.1.dist-info/RECORD,,
