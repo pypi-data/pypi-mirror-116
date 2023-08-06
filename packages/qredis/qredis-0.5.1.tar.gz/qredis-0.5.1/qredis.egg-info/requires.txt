@@ -1,0 +1,4 @@
+redis
+PyQt5
+msgpack
+msgpack-numpy
