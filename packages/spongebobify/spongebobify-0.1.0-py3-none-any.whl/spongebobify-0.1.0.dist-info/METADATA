@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: spongebobify
+Version: 0.1.0
+Summary: Are ya ready kids? aYE AyE! You can now make your text...sARcaStiC!
+License: MIT
+Author: Michael Gray
+Author-email: mike@graywind.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Spongebobify
+
+Make some text sarcastic!
+mAkE soMe TExT sARcAsTIC!
+
