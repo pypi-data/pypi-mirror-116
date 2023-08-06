@@ -1,0 +1,3 @@
+[console_scripts]
+ipynb2catsoop = ipynb2catsoop.ipynb2catsoop:I2C_CommandLine
+

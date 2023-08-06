@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ipynb2catsoop
+Version: 0.0.1
+Summary: Converter from ipython / jupyter notebook to catsoop
+Home-page: https://github.com/ichuang/ipynb2catsoop
+Author: I. Chuang
+Author-email: ichuang@mit.edu
+License: LICENSE
+Description: # ipynb2catsoop
+        
+        convert ipython / jupyter notebooks to catsoop page
+        
+        ```
+        usage: ipynb2catsoop [-h] [-v] [-u UNIT_NAME] [-d DIRECTORY] ifn
+        
+        usage: %prog [args...] notebook.ipynb
+        
+        positional arguments:
+          ifn                   input ipython / jupyter notebook file
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -v, --verbose         verbose output
+          -u UNIT_NAME, --unit-name UNIT_NAME
+                                catsoop unit name (subdir where content.md is to be stored
+          -d DIRECTORY, --directory DIRECTORY
+                                directory where course content is located
+        ```
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

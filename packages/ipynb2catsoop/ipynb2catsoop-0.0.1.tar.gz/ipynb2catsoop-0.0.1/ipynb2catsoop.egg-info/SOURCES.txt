@@ -1,0 +1,10 @@
+README.md
+setup.py
+ipynb2catsoop/__init__.py
+ipynb2catsoop/ipynb2catsoop.py
+ipynb2catsoop.egg-info/PKG-INFO
+ipynb2catsoop.egg-info/SOURCES.txt
+ipynb2catsoop.egg-info/dependency_links.txt
+ipynb2catsoop.egg-info/entry_points.txt
+ipynb2catsoop.egg-info/requires.txt
+ipynb2catsoop.egg-info/top_level.txt
