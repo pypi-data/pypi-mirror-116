@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+lgl_get_ena_metafile/__init__.py
+lgl_get_ena_metafile.egg-info/PKG-INFO
+lgl_get_ena_metafile.egg-info/SOURCES.txt
+lgl_get_ena_metafile.egg-info/dependency_links.txt
+lgl_get_ena_metafile.egg-info/top_level.txt
