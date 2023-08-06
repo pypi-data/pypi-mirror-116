@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: django-yamlfield
+Version: 1.1.0
+Summary: A Django database field for storing YAML data
+Home-page: http://django-yamlfield.readthedocs.io/
+Author: The Los Angeles Times Data Desk
+Author-email: datadesk@latimes.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.1
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: PyYAML (>=3.10)
+
+UNKNOWN
+
