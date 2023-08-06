@@ -1,0 +1,7 @@
+pyrsistent
+numpy
+cython<3,>0.28
+pyparsing
+mypy
+pytest
+future
