@@ -1,0 +1,5 @@
+test-JaqalPaq==0.0.1.1.0.0rc2
+numpy
+
+[tests]
+pytest
