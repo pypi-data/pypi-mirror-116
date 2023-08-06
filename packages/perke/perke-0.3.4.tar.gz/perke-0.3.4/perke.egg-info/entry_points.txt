@@ -1,0 +1,3 @@
+[console_scripts]
+perke = perke.cli:setup_cli
+
