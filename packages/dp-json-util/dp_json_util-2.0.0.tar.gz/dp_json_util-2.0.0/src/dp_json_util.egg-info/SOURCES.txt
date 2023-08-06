@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+setup.py
+src/dp_json_util/__init__.py
+src/dp_json_util/retriever.py
+src/dp_json_util.egg-info/PKG-INFO
+src/dp_json_util.egg-info/SOURCES.txt
+src/dp_json_util.egg-info/dependency_links.txt
+src/dp_json_util.egg-info/top_level.txt
