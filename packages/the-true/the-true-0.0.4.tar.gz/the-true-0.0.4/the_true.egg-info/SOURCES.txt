@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+the_true/__init__.py
+the_true/the_true.py
+the_true.egg-info/PKG-INFO
+the_true.egg-info/SOURCES.txt
+the_true.egg-info/dependency_links.txt
+the_true.egg-info/top_level.txt
