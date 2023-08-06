@@ -1,0 +1,7 @@
+bs4
+tqdm
+flask
+jinja2
+requests
+ansicolors
+cefpython3
