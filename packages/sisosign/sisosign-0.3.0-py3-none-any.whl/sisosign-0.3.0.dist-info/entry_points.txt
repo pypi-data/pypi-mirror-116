@@ -1,0 +1,3 @@
+[console_scripts]
+sisosign=sisosign.sisosign:sisosign
+
