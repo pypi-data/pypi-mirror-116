@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: syneto-clio
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Alexandra Veres
+Author-email: alexandra.veres@syneto.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# Clio
+An easy to use CLI tool for running faster kubernetes and docker commands.
+
+<h2>Installation </h2>
+
+Go to src directory and run:
+
+**$ sudo pip3 install --editable .**
+
+<h2>Usage example</h2>
+
+For seeing the logs of a kube container:
+
+**$ syneto_cli logs <container_name>**
+
+For entering a kube container:
+
+**$ syneto_cli enter <container_name>**
+
+For restarting a docker container:
+
+**$ syneto_cli restart <container_name>**
+
+If you want to add more commands, feel free to do so :)
+
+
+
+
+
