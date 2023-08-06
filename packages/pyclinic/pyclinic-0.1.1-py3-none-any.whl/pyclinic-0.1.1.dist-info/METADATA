@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pyclinic
+Version: 0.1.1
+Summary: A python library to test services like RESTful APIs
+Home-page: https://github.com/ElSnoMan/pyclinic
+License: MIT
+Keywords: restful,api,testing,postman
+Author: Carlos Kidman
+Author-email: carlos@qap.dev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Faker (>=8.10.3,<9.0.0)
+Requires-Dist: datamodel-code-generator (>=0.11.8,<0.12.0)
+Requires-Dist: jsonpath-ng (>=1.5.3,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: pytest (>=6.2.4,<7.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/ElSnoMan/pyclinic
+Description-Content-Type: text/markdown
+
+# Welcome to the PyClinic
+
+A library to test services in Python
+
+## Setup and Contribute
+
+💡 Use `Poetry` as the package manager to take advantage of the `pyproject.toml` at the Workspace Root
+
+> ⚠️ Python version 3.9 or higher is required
+
+1. Clone/Fork this repo and open it in your favorite editor (VS Code, Pycharm, etc)
+
+2. Open the Integrated Terminal and use Poetry to install all dependencies
+
+   ```bash
+   # this also creates the virtual environment automatically
+   poetry install
+   ```
+
+3. Configure your IDE
+
+   - Select Interpreter - Gives you autocomplete, intellisense, etc
+   - Configure Tests - We use `pytest` instead of the default `unittest` library
+   - Any other settings. This project uses a Formatter (`black`) and Linter (`flake8`)
+
+4. That's it! Run the tests to see it all work
+
+   ```bash
+   poetry run poe test
+   ```
+
+5. Make your changes, then submit a Pull Request (PR) for review. This automatically triggers a pipeline that lints and runs tests. Once the pipeline is green, a **Maintainer** will review your PR! 😄
+
+> Shoutout to @sudomaze from Twitch 💪🏽🐍
+
