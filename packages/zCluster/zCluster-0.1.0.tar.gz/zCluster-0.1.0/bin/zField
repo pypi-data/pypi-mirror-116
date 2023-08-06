@@ -1,0 +1,157 @@
+#!/usr/bin/env python
+
+"""
+
+Fetch photometry for galaxy fields from photometric databases at given position and radius.
+
+"""
+
+import os
+import sys
+import argparse
+import numpy as np
+import astropy.table as atpy
+import astropy.io.fits as pyfits
+import astropy.stats as apyStats
+from astLib import *
+from zCluster import retrievers
+from zCluster import PhotoRedshiftEngine
+from zCluster import clusters
+from zCluster import catalogs
+import urllib
+import time
+import IPython
+
+
+start=time.time()
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser("zField")
+    parser.add_argument("RADeg", type = float, help="""RADeg for the field to fetch.""")
+    parser.add_argument("decDeg", type = float, help="""decDeg for the field to fetch.""")
+    parser.add_argument("-r", "--max-radius-deg", dest="maxRDeg", help="""Maximum radius in degrees of the
+                        galaxy field to fetch. Default = 0.2""", type = float, default = 0.2)
+    parser.add_argument("-D", "--database", help="""The photometric database to use. Options are 'SDSSDR12', 'S82' 
+                        (for SDSS DR7 Stripe 82 co-add); 'CFHTLenS'; 'DESDR1' [experimental], 
+                        'DESY3' [experimental; requires access to proprietary DES data]; 'PS1' [experimental]; 
+                        'DECaLS' (DR8) [experimental]; or the path to a .fits table with columns in the 
+                        appropriate format ('ID', 'RADeg', 'decDeg', and magnitude column names in the form 
+                        'u_MAG_AUTO', 'u_MAGERR_AUTO' etc.).""", default = 'DECaLS')
+    parser.add_argument("-c", "--cachedir", dest="cacheDir",help="""Cache directory location
+                        (default: $HOME/.zCluster/cache). Downloaded photometric catalogs will be stored
+                        here.""")
+    parser.add_argument("-o", "--output-directory", dest="outDir", help="""Label to use for the preferred output
+                        directory.""", default = "zFieldOutput")
+    parser.add_argument("-t", "--templates-directory", dest="templatesDir", help="""Specify a directory containing
+                        a custom set of spectral templates.""",
+                        default = None)
+    parser.add_argument("-e", "--max-mag-error", dest="maxMagError", help="""Maximum acceptable 
+                        photometric error (in magnitudes; default: 0.25).""", default = 0.25)
+    parser.add_argument("-E", "--photometric-zero-point-error", dest="ZPError", type = float,
+                        help="""Global photometric zero point uncertainty in magnitudes, applied to all bands
+                        (default: 0). Added in quadrature to the photometric uncertainties in the catalog.""",
+                        default = 0.02)
+    parser.add_argument("-f", "--fit-for-zero-point-offsets", dest="fitZPOffsets", 
+                        help="""If the input catalog contains a z_spec column, use those galaxies to fit
+                        for magnitude zero point offsets. These will then be applied when estimating galaxy
+                        photometric redshifts.""", 
+                        default = False, action = "store_true")
+    parser.add_argument("-b", "--brighter-absmag-cut", dest="absMagCut", help="""Set bright absolute magnitude cut.""", 
+                        default = -24.)
+    parser.add_argument("-d", "--write-density-maps", dest="writeDensityMaps", action="store_true", 
+                        help="""Write out a .fits image projected density map (within delta z = +/- 0.1 of the best 
+                        fit redshift) for each cluster.""",
+                        default = False)
+    parser.add_argument("-z", "--redshift", dest="z", help="""Galaxy redshift at which to make a density map""", type = float,
+                        default = None)
+    parser.add_argument("-delta_z", "--delta-z", dest="dz", help="""Make a projected density map within +/- dz of the
+                        given redshift.""", type = float, default = None)
+    parser.add_argument("-DS9", "--write-ds9-regions", dest="writeDS9regions", action="store_true", 
+                        help="""Write out a DS9 .reg file for the fetched photometric catalog.""", default = False)
+
+    args = parser.parse_args()
+
+    RADeg=args.RADeg
+    decDeg=args.decDeg
+    maxRDeg=args.maxRDeg
+    ZPError=args.ZPError
+    templatesDir=args.templatesDir
+    absMagCut=args.absMagCut
+    database=args.database
+    maxMagError=args.maxMagError
+    fitZPOffsets=args.fitZPOffsets
+    cacheDir=args.cacheDir
+    writeDensityMaps=args.writeDensityMaps
+    z=args.z
+    dz=args.dz
+
+    # Set-up cache
+    if cacheDir is not None:
+        if os.path.exists(cacheDir) == False:
+            os.makedirs(cacheDir, exist_ok=True)
+    else:
+        if os.path.exists(retrievers.CACHE_DIR) == False:
+                os.makedirs(retrievers.CACHE_DIR, exist_ok = True)
+
+    # Set-up where we will write output
+    os.makedirs(args.outDir, exist_ok = True)
+    outFileName=args.outDir+os.path.sep+"zField_catalog_%.3f_%.3f.fits" % (RADeg, decDeg)
+    
+    # Method for fetching catalogs
+    retriever, retrieverOptions, passbandSet=retrievers.getRetriever(database, maxMagError = 0.2)
+
+    ZPOffsets=None
+    if database == 'DECaLS':
+        # Zero point offsets remove bias from galaxy max likelihood photo-zs when testing on SDSS
+        ZPOffsets=np.array([0.02271222, -0.05051711, -0.02465597, -0.00406835, 0.05406105])
+        
+    if cacheDir is not None:
+        retrieverOptions['altCacheDir']=cacheDir
+
+    galaxyCatalog=retriever(RADeg, decDeg, halfBoxSizeDeg = maxRDeg, optionsDict = retrieverOptions)
+
+    if galaxyCatalog is None:
+        print("No galaxies found at the given position.")
+        sys.exit()
+    
+    photoRedshiftEngine=PhotoRedshiftEngine.PhotoRedshiftEngine(absMagCut, ZPError = ZPError, passbandSet = passbandSet,
+                                                                templatesDir = templatesDir, ZPOffsets = ZPOffsets)
+    bands=photoRedshiftEngine.bands
+    bandErrs=[]
+    for b in bands:
+        bandErrs.append(b+"Err")
+    bands=bands+bandErrs
+
+    if fitZPOffsets == True:
+        photoRedshiftEngine.calcZeroPointOffsets(galaxyCatalog)
+    photoRedshiftEngine.calcPhotoRedshifts(galaxyCatalog, calcMLRedshiftAndOdds = True)
+    
+    wantedKeys=['id', 'RADeg', 'decDeg', 'zPhot', 'odds']
+    wantedKeys=np.concatenate((wantedKeys,bands))
+    tab=atpy.Table()
+    for key in wantedKeys:
+        arr=[]
+        for gobj in galaxyCatalog:
+            try:
+                arr.append(gobj[key])
+            except:
+                arr.append(99)
+        tab.add_column(atpy.Column(np.array(arr), key))
+    tab.write(outFileName, overwrite = True)
+    
+    if args.writeDS9regions == True:
+        catalogs.catalog2DS9(galaxyCatalog, args.outDir+os.path.sep+"{0:}_{1:.3f}_{2:.3f}.reg".format(database, RADeg, decDeg),
+                                 idKeyToUse = 'id', addInfo = [{'key': 'r', 'fmt': '%.3f'}, {'key': 'zPhot', 'fmt': '%.2f'}])
+        
+    if writeDensityMaps == True:
+        if z == None and dz == None:
+            raise Exception("-z and -delta_z need to be given when using the -d option")
+        else:
+            dMapDict = clusters.makeDensityMap(RADeg, decDeg, galaxyCatalog, z, dz, rMaxMpc = 1.5)
+            astImages.saveFITS(args.outDir+os.path.sep+"densityMap_z%s_%.3f_%.3f.fits" % (z, RADeg, decDeg),
+                               dMapDict['map'], dMapDict['wcs'])
+    
+    # We may as well print some stats
+    print(">>> Summary:")
+    print("    N = %d" %  (len(tab['zPhot'])))
+    print(">>> Total time: {:.1g} minutes".format((time.time()-start)/60.))
