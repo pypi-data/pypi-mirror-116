@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+hisyamcalc/__init__.py
+hisyamcalc.egg-info/PKG-INFO
+hisyamcalc.egg-info/SOURCES.txt
+hisyamcalc.egg-info/dependency_links.txt
+hisyamcalc.egg-info/top_level.txt
