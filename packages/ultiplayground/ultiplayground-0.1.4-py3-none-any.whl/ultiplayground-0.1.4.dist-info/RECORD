@@ -1,0 +1,12 @@
+LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+ultiplayground/__init__.py,sha256=_OoLYpqECk8lfC9FG-W_3Wy2c9rtFLe1fYMTQCKXMtQ,273
+ultiplayground/closures/__init__.py,sha256=pzwUJisntJ1pM8faZBiUDVKLUyT0cCFsQtB43FzVsGI,386
+ultiplayground/closures/incrementer.py,sha256=20o6LIRlnTNbaaCXa0z6mjbJaq6lc_e7x9yg8xBV1Gc,294
+ultiplayground/closures/multiplier.py,sha256=vIgruGQfsRcnU8_F_N6ae7BL656Mm0t9DUEQNx3Cfgg,386
+ultiplayground/closures/returner.py,sha256=1cJfHGoj1UOkMTc1DY75xi2BJ2m5J19hhQVdegyeiAs,282
+ultiplayground/snippets/__init__.py,sha256=66Ti457VPqTaYCX09HryFMzogFSvoU-zMnfeJh1liZI,160
+ultiplayground/snippets/random_pokemon.py,sha256=Ih92kY8w5Iunv0TMNYjbdQJ95r_fM0GhbsqRmw_ajjc,380
+ultiplayground-0.1.4.dist-info/LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+ultiplayground-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ultiplayground-0.1.4.dist-info/METADATA,sha256=BcZzIdMM-oPPkHZxZljxdqyRMEzexXyME-neGWafrIk,3495
+ultiplayground-0.1.4.dist-info/RECORD,,
