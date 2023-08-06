@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/AsyncOsu/__init__.py
+src/AsyncOsu/osu_api.py
+src/AsyncOsu.egg-info/PKG-INFO
+src/AsyncOsu.egg-info/SOURCES.txt
+src/AsyncOsu.egg-info/dependency_links.txt
+src/AsyncOsu.egg-info/requires.txt
+src/AsyncOsu.egg-info/top_level.txt
