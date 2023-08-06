@@ -1,0 +1,11 @@
+conteneurs/__init__.py,sha256=E5APahdoid1VWtQsFFGT2o1arCvur73TrgL-m8MH16E,102
+conteneurs/dictionnaire_ordonné.py,sha256=u_rQmdMFXayS8K58l9p3-8PwqPygOgaAcTauF3Hlrlw,8853
+conteneurs/tableau.py,sha256=d8ZBeFCRfcvO3L4H5D3YpV_WKaBwIKjqhwQHqETTEYk,57821
+conteneurs-2.1.0.data/data/Documentation technique conteneurs.pdf,sha256=-QrytKjREVeoiEGyvm_MxOOCYPU8ZEZ5BrogsaFbPUA,95535
+tests/__init__.py,sha256=E5APahdoid1VWtQsFFGT2o1arCvur73TrgL-m8MH16E,102
+tests/tests_dictionnaire_ordonné.py,sha256=fxjYC9aslm2FzdStgwVH7xrekHc3UXXVqDT-SPB5PeU,16168
+tests/tests_tableau.py,sha256=63WIhfegEWm1MC4OLNu9ci3PR8R_Q77MpiQ8DzC4tcI,47850
+conteneurs-2.1.0.dist-info/METADATA,sha256=C4jYx5-fcBOJMToRINyWlu-1i7tCswx07M-n-GgTEOE,2025
+conteneurs-2.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+conteneurs-2.1.0.dist-info/top_level.txt,sha256=D7mHd-oF3rwuA80GmcbBAcNj3dvlhbAH6VPDLwgzMgI,17
+conteneurs-2.1.0.dist-info/RECORD,,
