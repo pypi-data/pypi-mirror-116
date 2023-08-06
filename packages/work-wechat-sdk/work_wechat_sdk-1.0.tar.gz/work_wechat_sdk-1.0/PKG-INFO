@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: work_wechat_sdk
+Version: 1.0
+Summary: for work wechat API
+Home-page: https://gitee.com/zouxingshun/work_wechat_sdk
+Author: zouxingshun
+Author-email: 1424798946@qq.com
+License: MIT Licence
+Keywords: workwechat
+Platform: any
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+work_wechat Module
+
