@@ -1,0 +1,10 @@
+bassg/Generator.py,sha256=n9xO2M2XAkD5VHEJji4-7p19X1KhR4O3sF7Knr3fv5s,5981
+bassg/__init__.py,sha256=khR33L6N3lIAf6RluVXTVNsOdLTMnnUPRIEk4NGQIqw,19
+bassg/__main__.py,sha256=NNu1Bfw-Ft51dqIgCnhy0yZ-CP_YrIimPbVKjXDh2fs,644
+bassg/bassg.py,sha256=3CUme53kjdKIIWLTI57-jOIqs2DvlZ-hK6-x1LS22xk,635
+bassg/cli.py,sha256=FO692alcabrewXgRkOgxSsPEnXYftcgI9o7cGaSesmE,628
+bassg-1.1.1.dist-info/LICENSE,sha256=1nvaeb0OF2JPl92SB15uSZTXtSo8jKyOusSys-Hlm3M,1089
+bassg-1.1.1.dist-info/METADATA,sha256=OBXlcc3lzRZgdWA2gEcdEEbLMEHi5RVbkMmri6tEE4g,615
+bassg-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bassg-1.1.1.dist-info/top_level.txt,sha256=FGhFRtGvc9I35Y8DovjpUrFDJb0jRsbUxiRLf9om0VI,6
+bassg-1.1.1.dist-info/RECORD,,
