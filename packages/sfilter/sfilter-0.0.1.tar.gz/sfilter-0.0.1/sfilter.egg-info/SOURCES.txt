@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sfilter.egg-info/PKG-INFO
+sfilter.egg-info/SOURCES.txt
+sfilter.egg-info/dependency_links.txt
+sfilter.egg-info/requires.txt
+sfilter.egg-info/top_level.txt
+src/__init__.py
+src/sfilter/__init__.py
+src/sfilter/main.py
