@@ -1,0 +1,11 @@
+mandaw/__init__.py,sha256=uCaBnsGpKYUSKs-zJe0CIPUpa4HqksiG5mTP51k0NHo,164
+mandaw/color.py,sha256=541R9ggmsHrI1ybTz5cemqub4kL3eK9kpe5lN4GmKag,1433
+mandaw/gameobject.py,sha256=TC9lBO7G9YUxeA9X2LhRMlCoC1r93MSU9mQEBcj-Hys,851
+mandaw/line.py,sha256=tF7rih0ENIC48SiOFOIgS3Ufzkb9CbhaVTJ3AoZxUgQ,280
+mandaw/main.py,sha256=iUoEygu4fH0nn4lk3jZLnO7PFiIQM51zRB09xLuCGV8,1168
+mandaw/sprite.py,sha256=kAldnCZkGZYwIl17mogVuLHzU852E08sGYo6PPGDkKs,400
+mandaw-1.0.3.dist-info/LICENSE,sha256=sj2ms0HoVdF90kBPzePlE1G-ubeK3OfHl4ryn2By7To,1063
+mandaw-1.0.3.dist-info/METADATA,sha256=lsafmV-oled2jltl052Cd81a2Qs7aesFVf0tSxycv1E,1312
+mandaw-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mandaw-1.0.3.dist-info/top_level.txt,sha256=1P9kEm_qs2CosW5-FGZpoxU1zLBVT8SSs9TlcL937rI,7
+mandaw-1.0.3.dist-info/RECORD,,
