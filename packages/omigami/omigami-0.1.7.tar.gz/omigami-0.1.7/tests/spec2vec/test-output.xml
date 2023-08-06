@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="5.084"><testcase classname="omigami.tests.spec2vec.test_spec2vec_integration" file="omigami/tests/spec2vec/test_spec2vec_integration.py" line="3" name="test_match_spectra_from_path_small" time="5.0052649974823"></testcase></testsuite>
