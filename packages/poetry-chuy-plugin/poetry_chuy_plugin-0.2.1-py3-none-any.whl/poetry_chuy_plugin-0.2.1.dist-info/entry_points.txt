@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+chuy=poetry_chuy_plugin.plugin:ChuyPlugin
+
