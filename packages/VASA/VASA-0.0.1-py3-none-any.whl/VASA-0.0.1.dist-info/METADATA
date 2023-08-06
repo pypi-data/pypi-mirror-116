@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: VASA
+Version: 0.0.1
+Summary: Spatial Structure Visualization
+Home-page: https://github.com/move-ucsb/vasa
+Author: Alex Rudolph, Evgeny Noi
+Author-email: arudolph@ucsb.edu, evgeny.noi@geog.ucsb.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VASA
+
