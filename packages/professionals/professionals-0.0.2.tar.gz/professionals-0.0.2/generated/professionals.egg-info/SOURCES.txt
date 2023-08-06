@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+generated/professionals.egg-info/PKG-INFO
+generated/professionals.egg-info/SOURCES.txt
+generated/professionals.egg-info/dependency_links.txt
+generated/professionals.egg-info/requires.txt
+generated/professionals.egg-info/top_level.txt
+generated/sdk/__init__.py
+generated/sdk/sdk.py
