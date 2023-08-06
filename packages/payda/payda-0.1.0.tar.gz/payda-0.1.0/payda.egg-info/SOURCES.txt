@@ -1,0 +1,7 @@
+README.md
+setup.py
+payda/__init__.py
+payda.egg-info/PKG-INFO
+payda.egg-info/SOURCES.txt
+payda.egg-info/dependency_links.txt
+payda.egg-info/top_level.txt
