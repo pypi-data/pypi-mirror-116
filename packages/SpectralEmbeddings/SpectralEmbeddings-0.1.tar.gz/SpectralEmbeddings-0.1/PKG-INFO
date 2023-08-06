@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: SpectralEmbeddings
+Version: 0.1
+Summary: A Spectral Embedding library made of Graph Convolution Networks and AutoEncoders
+Home-page: https://github.com/abhilash1910/SpectralEmbeddings
+Author: ABHILASH MAJUMDER
+Author-email: debabhi1396@gmail.com
+License: MIT
+Download-URL: https://github.com/abhilash1910/SpectralEmbeddings/archive/v_01.tar.gz
+Description: This is a library used for generating semantic embeddings from Graph Convolution variants such as Chebscev polynomials and AutoEncoders. The embeddings generated are based on deep geaph networks which use spectral convolution kernel made with Tensorflow. This package implements AutoEncoder based embeddings as well as GCN variants
+Keywords: Semantic Embeddings,Graph Convolution Network,Chebyshev networks,Higher order Graph embeddings,Graph Autoencoder networks,SDNE embeddings,Tensorflow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
