@@ -1,0 +1,13 @@
+parkinglot/__init__.py,sha256=KOTpbPnYhN9FuKz6t-riwrZPah4qTvBeymHQF5TTIsE,45
+parkinglot/config.py,sha256=8hq4d79-8LtbzzGMZa1MgiqoR6iU4rfKIwpjvRdYdLc,29
+parkinglot/db.py,sha256=2r-Ze3jRMsNGsAGG01X3TN8QZ7zpM0I_MO3K4ah7bbU,3952
+parkinglot/is_allowed.py,sha256=mmKb7bUkbARNBny1dRqFVzSGD9Y7w51pbhO0hEoiTDU,1568
+parkinglot/is_allowed_test.py,sha256=B9tjdNW7wfqz1LNt_SWgdTkMSPB0YeFNRQdW7Q8yWqQ,1391
+parkinglot/ocr_api.py,sha256=Wrib8uaGSLJK8t_W0__gFllnR6_SDDrd95B5vQEQJt0,683
+parkinglot/ocr_validator.py,sha256=I39a4Y8BnOUueNPZmh_RRK75PUmSKEs3CjSvGAdpss8,2633
+parkinglot/parkinglot_interface.py,sha256=glXo-Oo9PSn71LY5ZtkyqEcBU-IZ3Iku01vgBj03RHA,596
+parkinglot/utils.py,sha256=QNBkSYdRipLU3U9q8TP468BR74mGQI7uGFbe7WwemvM,375
+parkinglot-0.0.5.dist-info/METADATA,sha256=New2iRNH4FE3uiFLkrWzzxclnQWowZSK_F4UE9ww-n0,755
+parkinglot-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parkinglot-0.0.5.dist-info/top_level.txt,sha256=7lskNWmDewMo4lFDqfC2tzPvwSmPPmb2A37YfE0v7co,11
+parkinglot-0.0.5.dist-info/RECORD,,
