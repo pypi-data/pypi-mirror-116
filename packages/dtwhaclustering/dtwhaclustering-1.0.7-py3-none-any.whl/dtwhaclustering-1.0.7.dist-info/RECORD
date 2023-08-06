@@ -1,0 +1,12 @@
+dtwhaclustering/__init__.py,sha256=4FlFBUkRABPURbvSaj7WpXi7fglDtwHzlcT3iISA6cM,418
+dtwhaclustering/__main__.py,sha256=m-0jZF1MwMxZ23pB3Y2Z_J72PBTseYr7woDFwKWL5Tk,1433
+dtwhaclustering/analysis_support.py,sha256=1AODJPebQ75k18oyDoXYe10Vzlz_NBmimhYfCK60CgI,1830
+dtwhaclustering/dtw_analysis.py,sha256=WfnGhlTD2lmeOCCiuz5Ya0vFlGe36f6jLGjHsjAm4MU,28888
+dtwhaclustering/leastSquareModeling.py,sha256=5tKNggPYj7LtNWfEtD1PNVWBUmgDGG6TnXd3TbZAxx8,15054
+dtwhaclustering/plot_linear_trend.py,sha256=LDLc2o0o-FXEsjNWL8BxNtPOuMKJWv6hoV_AiQWh9ac,3860
+dtwhaclustering/plot_stations.py,sha256=6M8pgnU7ckd67KpEqd_8EwFMzDzJrEXEQqVKxiXOwds,3123
+dtwhaclustering-1.0.7.dist-info/LICENSE,sha256=NDt_fBBFtiEf_cttJtAb753oNehVO9BurCorNRF_Ujg,11341
+dtwhaclustering-1.0.7.dist-info/METADATA,sha256=SAIMuCFNIVRHS35zvSYgfoLDqsrV1m3z0_gJtU35uN8,2856
+dtwhaclustering-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dtwhaclustering-1.0.7.dist-info/top_level.txt,sha256=9c7n-jBrJi7-Di8jGvjCrs483AW2FsE9_rmOTZivo80,16
+dtwhaclustering-1.0.7.dist-info/RECORD,,
