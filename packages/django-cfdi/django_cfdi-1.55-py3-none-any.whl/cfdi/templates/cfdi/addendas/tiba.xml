@@ -1,0 +1,6 @@
+{% load cfdi_tags %}
+<cfdi:Addenda>
+    <bfa2:AddendaBuzonFiscal version="2.0">
+        <bfa2:referencia="{{ referencia }}" observacion="{{ observacion }}"/>
+    </bfa2:AddendaBuzonFiscal>
+</cfdi:Addenda>
