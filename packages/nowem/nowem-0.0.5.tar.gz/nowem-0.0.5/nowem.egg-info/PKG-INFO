@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nowem
+Version: 0.0.5
+Summary: API wrapper for princess connect re:dive(tw server)
+Home-page: https://github.com/TWT233/nowem
+Author: TWT233
+Author-email: TWT2333@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+API wrapper for [princess connect re:dive(tw server)](http://www.princessconnect.so-net.tw/)
+
+originated from [cc004/pcrjjc2](https://github.com/cc004/pcrjjc2)
+
+
