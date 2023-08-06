@@ -1,0 +1,9 @@
+README.md
+setup.py
+wmpaws.py
+wmpaws.egg-info/PKG-INFO
+wmpaws.egg-info/SOURCES.txt
+wmpaws.egg-info/dependency_links.txt
+wmpaws.egg-info/not-zip-safe
+wmpaws.egg-info/requires.txt
+wmpaws.egg-info/top_level.txt
