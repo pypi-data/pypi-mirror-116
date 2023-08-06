@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: colorchef
+Version: 0.0.6
+Summary: Paint your terminal with beautifull colors.
+Home-page: UNKNOWN
+Author: Mithilesh Pradhan
+Author-email: knowmit@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+## Colorchef v0.0.5
+**This package lets you print colored text on the terminal.**        
+Author : Mithilesh Pradhan
+
+### Usage   
+
+```
+import colorchef        
+print(colorchef.COLORCHEF.Blue,"Hello from colorchef",colorchef.COLORCHEF.ResetAll)
+```
+
+- Alternative way    
+```
+from colorchef import COLORCHEF    
+(COLORCHEF.Blue,"Hello from colorchef",COLORCHEF.ResetAll)
+```
+
+
+***
+#### List of attributes available:   
+
+BackgroundBlack 
+BackgroundBlue
+BackgroundCyan 
+BackgroundDarkGray 
+BackgroundDefault 
+BackgroundGreen 
+BackgroundLightBlue 
+BackgroundLightCyan 
+BackgroundLightGray 
+BackgroundLightGreen
+BackgroundLightMagenta 
+BackgroundLightRed 
+BackgroundLightYellow 
+BackgroundMagenta 
+BackgroundRed 
+BackgroundWhite 
+BackgroundYellow 
+Black 
+Blink 
+Blue 
+Bold 
+Cyan 
+DarkGray 
+Default 
+Dim 
+Green 
+Hidden
+LightBlue 
+LightCyan 
+LightGray
+LightGreen
+LightMagenta
+LightRed 
+LightYellow
+Magenta
+Red
+ResetAll
+ResetBlink
+ResetBold
+ResetDim
+ResetHidden
+ResetReverse
+ResetUnderlined
+Reverse
+Underlined
+White
+Yellow       
+
+
+
+
+
+
+
+
+***Thanks for the support!!***
+Follow me on LinkedIn below  
+[Mithilesh Pradhan - Linkedin](https://linkedin.com/in/mithileshpradhan/ "Mithilesh Pradhan - Linkedin")   
+
+
+
+
+
