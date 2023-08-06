@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: logstop
+Version: 0.1.0
+Summary: Keep personal data out of your logs
+Home-page: https://github.com/ankane/logstop.py
+Author: Andrew Kane
+Author-email: andrew@ankane.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
