@@ -1,0 +1,36 @@
+=====
+dnoticias_auth
+=====
+
+dnoticias_auth is a Django app to make the authentication in the DNOTICIAS PLATFORMS.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "dnoticias_auth" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'dnoticias_auth',
+    ]
+
+2. Include the polls URLconf in your project urls.py like this::
+
+    path('auth/', include('dnoticias_auth.urls')),
+
+3. Run ``python manage.py migrate`` to create the polls models.
+
+4. Add the necessary settings variables
+
+## Settings variables
+
+| Setting  | Default value | Description |
+| ------------- | ------------- | ------------- |
+| OIDC_STORE_ACCESS_TOKEN  | True | OIDC store access token in session (TRUE ONLY) |
+| OIDC_STORE_ID_TOKEN  | True | OIDC store id token in session (TRUE ONLY) |
+| AUTH_COOKIE_EXPIRATION_MINUTES  | 15 | Cookie expiration time |
+| AUTH_COOKIE_DOMAIN  | dnoticias.pt | Cookie domain |
+| AUTH_COOKIE_SECURE  | True | Secure cookie in HTTPS only |
+| AUTH_COOKIE_HTTPONLY  | True | Prevents changes from JS |
