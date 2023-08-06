@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cxs_logging_cxstoolbox.egg-info/PKG-INFO
+src/cxs_logging_cxstoolbox.egg-info/SOURCES.txt
+src/cxs_logging_cxstoolbox.egg-info/dependency_links.txt
+src/cxs_logging_cxstoolbox.egg-info/top_level.txt
+src/cxslogging/__init__.py
+src/cxslogging/cxslog.py
