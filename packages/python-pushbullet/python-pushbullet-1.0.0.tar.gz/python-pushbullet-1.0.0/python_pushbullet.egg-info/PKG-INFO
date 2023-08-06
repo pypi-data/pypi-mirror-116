@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: python-pushbullet
+Version: 1.0.0
+Summary: A python module for interacting with the v2 Pushbullet API.
+Home-page: https://github.com/dylan-robins/python-pushbullet
+Author: Dylan Robins
+Author-email: dylan.robins@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# python-pushbullet
+
+A python module for interacting with the v2 Pushbullet API.
+
+## Setup
+
+This tool supposes that your Pushbullet API key is located in an environment variable or a `.env` file. To create a `.env` file, type the following:
+
+```sh
+➜ echo PUSHBULLET_API_KEY=<your-api-key-here> > .env
+```
+
+Make sure that you don't commit this file to Git: it contains your private API key.
+
+
+## Usage:
+
+```sh
+➜ ./pushbullet_cli.py post \
+>    --title "Hello World" \
+>    --body "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+➜ ./pushbullet_cli.py devices
+Chrome               | chrome
+Google Pixel 3a      | android
+Firefox              | firefox
+
+➜ ./pushbullet_cli.py post \
+>    --title "Hello World" \
+>    --body "Lorem ipsum dolor sit amet, consectetur adipiscing elit." \
+>    --device "Google Pixel 3a"
+```
+
+
+
