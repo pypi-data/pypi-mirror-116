@@ -1,0 +1,10 @@
+README.rst
+setup.py
+django_spread.egg-info/PKG-INFO
+django_spread.egg-info/SOURCES.txt
+django_spread.egg-info/dependency_links.txt
+django_spread.egg-info/requires.txt
+django_spread.egg-info/top_level.txt
+spread/connector.py
+spread/handler.py
+spread/settings.py
