@@ -1,0 +1,14 @@
+cisco_documentation/VERSION,sha256=C4j3pj86QPw4Cq8hq8csyN7ZzSjX7pAbxzJ0l7toMRY,5
+cisco_documentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cisco_documentation/arguments.yaml,sha256=122xkQFtwhp6BCf-_p2b_TZNfA6jS7cIsjwyVAjUC_Y,1177
+cisco_documentation/cli.py,sha256=y2Gi7-OeHNxdCvdHKUktSrYxfKjNSUTQMRn7sMJIX6Q,16187
+"cisco_documentation/templates/Customer City, ST - IP Address Listing.xlsx",sha256=3NuwASKsqK607w7TT4xfEO1XjfmtV211-G9GkJbQH9U,110596
+cisco_documentation/templates/creds.txt,sha256=VM6aX8F3LOpdARn7zNEtHxoqD6Es4hnbaCipyeLcMfc,27
+cisco_documentation/templates/switch-list.txt,sha256=hVkJvsiD3It6Rb85FkMePhcGmIBDxVh-l5ja7wYO75Q,46
+cisco_documentation/templates/wireshark_oui.txt,sha256=uXsQqpA6fo4RTuO0zIvIaablnhyk5lYTZgtQQxIoWvk,1886463
+cisco_documentation-0.0.5.dist-info/LICENSE,sha256=hjFNQoRuQcHQjSNv2c_vyFaXLfGytP-KMG_uRy5Ev1Q,1066
+cisco_documentation-0.0.5.dist-info/METADATA,sha256=atkq4eq01Qhp9zf9dBuaBeKQ3dqYg6t4wU06ah6fhLM,4384
+cisco_documentation-0.0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+cisco_documentation-0.0.5.dist-info/entry_points.txt,sha256=b8c766jh1c178FNr_s6xqLqy9oml6MBJqKd2YTnzEk0,70
+cisco_documentation-0.0.5.dist-info/top_level.txt,sha256=h2BFszazEh5rcyrEXLloA-n1KKpNx8KCxf8tiiYxNEc,20
+cisco_documentation-0.0.5.dist-info/RECORD,,
