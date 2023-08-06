@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: allauth-tim
+Version: 1.0.1
+Summary: TIM social login support for django-allauth
+Home-page: https://github.com/dezhidki/allauth_tim
+Author: Denis Zhidkikh
+Author-email: dezhidki@jyu.fi
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dezhidki/allauth_tim/issues
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django-allauth
+
+# TIM social login for django-allauth
+
+This package adds TIM login support for django-allauth library.
+

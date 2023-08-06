@@ -1,0 +1,9 @@
+allauth_tim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allauth_tim/provider.py,sha256=72LXjtNsaSirHEfYNLbilNjqDkvHHOsFv3wcRtmT7wI,1124
+allauth_tim/urls.py,sha256=r5g6gZBdMOsyGX7tWWhYqSwUCt1ug3vh3iKnuYMRtg0,159
+allauth_tim/views.py,sha256=EgftYkWEKezjXugNFrRq6hQFljowB55NhUIpFztkBsI,1198
+allauth_tim-1.0.1.dist-info/LICENSE,sha256=slf8rj1x09Eav7hpFfIa0nslhcrNCRvEN0LEVEbbe0w,1071
+allauth_tim-1.0.1.dist-info/METADATA,sha256=2JpVGzr8ivkmxbUyYTIhwndT-he_j89q1dqaEoF-CJ8,721
+allauth_tim-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+allauth_tim-1.0.1.dist-info/top_level.txt,sha256=E3Q36sou6joxih0Q_PfcaQqY7bp24BdVDhXwhQ2Ck5o,12
+allauth_tim-1.0.1.dist-info/RECORD,,
