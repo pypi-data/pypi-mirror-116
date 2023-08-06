@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: financialanalysis
+Version: 1.1.3
+Summary: All-in-one tools for financial analysis
+Home-page: https://github.com/YoshioYamauchi/financialtoolkit
+Author: Yoshio Yamauchi == SPARKLE
+Author-email: sparkle.official.01@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: pandas,finance,pandas datareader
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
