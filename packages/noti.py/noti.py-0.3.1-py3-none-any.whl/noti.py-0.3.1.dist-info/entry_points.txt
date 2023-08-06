@@ -1,0 +1,3 @@
+[console_scripts]
+notipy=noti_py.noti:main
+
