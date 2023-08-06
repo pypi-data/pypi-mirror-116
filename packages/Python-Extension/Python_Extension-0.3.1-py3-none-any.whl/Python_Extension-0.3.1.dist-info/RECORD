@@ -1,0 +1,11 @@
+pyextension/__init__.py,sha256=dNd6EMA3Wgpbl-Xpcat64j-1DKJN0-dTd1Wi8vS7zJ8,7103
+pyextension/about.py,sha256=3MBs_-A0U6RqwPLHdp93ZzCQ1erwSeCrwlpY7XhAzfg,786
+pyextension/math.py,sha256=7jLx31WmSD8j7Zpn6h3TSZsMHpDwMcX1i1U8gY8H_Vw,11169
+pyextension/system.py,sha256=xJnFvll9YNOLT5huDR_5UObEzofdoY0TO8dkmp-0Ffg,684
+pyextension/word.py,sha256=viT2Pvo0CD-KMdFpuEZNAwFIuOzute1LMlisLAkRDBg,4147
+pyextension/word_bank.py,sha256=VONYIbJVqbMGGyB_otHZ4ZeJebkPXPQjJDLuAzfXBPc,4934
+Python_Extension-0.3.1.dist-info/LICENSE,sha256=jgqnTMc7p2EIeHEjPPJ3Ml3EwWwtpTiLiVNvm2V0NNM,662
+Python_Extension-0.3.1.dist-info/METADATA,sha256=ejbSemBKbYdoC4c3I7p38SBkyjvLA_qRn-_CYNSwT8o,219
+Python_Extension-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Python_Extension-0.3.1.dist-info/top_level.txt,sha256=kj0q2CXdwwH5QxYW653MKP1J8NFdMoPhwAYps-aYRUY,12
+Python_Extension-0.3.1.dist-info/RECORD,,
