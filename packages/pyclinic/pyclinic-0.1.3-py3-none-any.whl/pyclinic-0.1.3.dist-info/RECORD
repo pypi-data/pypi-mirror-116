@@ -1,0 +1,13 @@
+LICENSE,sha256=WAxXFe6gD2BKFlpBDD4GiLz2U3KVfbqLEsLA4sifO8w,1070
+pyclinic/__init__.py,sha256=iYHAXcODMx8VacY6QadV2qAJVjj4GF6UDe6D0fdb4a4,24
+pyclinic/cli.py,sha256=bjofpYQ03eMNmghRe0mL0-c_r3fyh3tebQ380gFMDzk,1167
+pyclinic/model_parser.py,sha256=2STqavBy0vKP320X9CP7TTum2tyxj6KZ0wT9Q6F7kLo,1273
+pyclinic/models/postman_collection_model.py,sha256=OH3j6uh1Vym_QrvtMrtV0vZvGfSPK31C8YwSRfikJLM,1184
+pyclinic/models/postman_variables_model.py,sha256=OH8n6iQ8SoqlNdbp5FjBXYX2dEOrHlDaZrOu-4TTGyc,460
+pyclinic/normalize.py,sha256=0unxGTuDNfyUXdL3KcuwNeYRVCYMEISEEHZ5punVcVE,538
+pyclinic/postman.py,sha256=hho_86Cv1hsfo29EM0dy9I3vFK5pjJccaI7y9SOM5sA,14133
+pyclinic-0.1.3.dist-info/entry_points.txt,sha256=39mxUjURA2xZ8SVAOVuaNWANE6IENqcrFeTrnaj6ozM,45
+pyclinic-0.1.3.dist-info/LICENSE,sha256=WAxXFe6gD2BKFlpBDD4GiLz2U3KVfbqLEsLA4sifO8w,1070
+pyclinic-0.1.3.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pyclinic-0.1.3.dist-info/METADATA,sha256=5wFgx1E1FurhPijPux8Lbr0QeBVPS1gKHzfYVTXS9BM,5084
+pyclinic-0.1.3.dist-info/RECORD,,
