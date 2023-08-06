@@ -1,0 +1,10 @@
+coconerd/__init__.py,sha256=gZC9aiDgsBhGRlz_jFl1-7O4eA84JcolhIGwG3p6QPA,28
+coconerd/main.py,sha256=h-99anvinFiwArgXv6hec3VdqGozyk8iiybCIV73Aik,5578
+coconerd-0.3.data/scripts/coconerd,sha256=2nCLla_GU3O-F2UhQJPQO7cUStpG7FrfheHIfTb6TWs,248
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=Vwik72LQbKHOFXtUTywtmCvf2_GLuq4xACVegWYqTJE,3399
+coconerd-0.3.dist-info/LICENSE,sha256=Aa4vTnkmDdEweGWKsQfFkGEX7bC0DlxX0XFoZrV0WjM,1064
+coconerd-0.3.dist-info/METADATA,sha256=jP-oJX4ruPK2lv4jYx_TQFzTfgbxAoRQ1j4koqjfEK8,2516
+coconerd-0.3.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+coconerd-0.3.dist-info/top_level.txt,sha256=zBjzNJbZYPNRNRG2tOIm_IDeN6R2hLY-cE4q0KKMEzk,15
+coconerd-0.3.dist-info/RECORD,,
