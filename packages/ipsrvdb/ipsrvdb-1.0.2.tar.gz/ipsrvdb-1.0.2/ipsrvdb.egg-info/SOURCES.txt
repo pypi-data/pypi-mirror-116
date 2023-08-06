@@ -1,0 +1,8 @@
+README.md
+setup.py
+ipsrvdb/__init__.py
+ipsrvdb/ipsrvdb.py
+ipsrvdb.egg-info/PKG-INFO
+ipsrvdb.egg-info/SOURCES.txt
+ipsrvdb.egg-info/dependency_links.txt
+ipsrvdb.egg-info/top_level.txt
