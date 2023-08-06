@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "partypy"
+version = "0.2.0"
+description = "Simulate attendance at your party!"
+authors = ["Tomas Beuzen"]
+license = "MIT"
+readme = "README.md"
+documentation = "https://partypy.readthedocs.io/en/latest/"
+homepage = "https://github.com/TomasBeuzen/partypy"
+repository = "https://github.com/TomasBeuzen/partypy"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.21.1"
+pandas = "^1.3.1"
+altair = "^4.1.0"
+altair-viewer = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+myst-nb = "^0.12.3"
+sphinx-autoapi = "^1.8.3"
+sphinx-rtd-theme = "^0.5.2"
+sphinx-copybutton = "^0.4.0"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
