@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+emojins/__init__.py
+emojins.egg-info/PKG-INFO
+emojins.egg-info/SOURCES.txt
+emojins.egg-info/dependency_links.txt
+emojins.egg-info/requires.txt
+emojins.egg-info/top_level.txt
