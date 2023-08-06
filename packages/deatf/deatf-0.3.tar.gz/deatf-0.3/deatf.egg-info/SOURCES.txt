@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+deatf/__init__.py
+deatf/auxiliary_functions.py
+deatf/evolution.py
+deatf/mutation.py
+deatf/network.py
+deatf.egg-info/PKG-INFO
+deatf.egg-info/SOURCES.txt
+deatf.egg-info/dependency_links.txt
+deatf.egg-info/requires.txt
+deatf.egg-info/top_level.txt
