@@ -1,0 +1,6 @@
+opencv>=4.5.2
+pillow>=6.2.1
+pyperclip>=1.7.0
+PyQt5>=5.12.3
+pytesseract>=0.3.0
+tqdm>=4.36.1
