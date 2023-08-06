@@ -1,0 +1,7 @@
+retry
+geopandas
+vaderSentiment
+schedule
+pandas
+shapley
+requests
