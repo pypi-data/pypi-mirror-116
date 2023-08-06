@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: groover
+Version: 0.2.2
+Summary: A rhythm feature extractor and classifier for MIDI files
+Home-page: UNKNOWN
+Author: Joshua Chang
+Author-email: chchang6@illinois.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# groover 0.2.2
+
+## Installation
+
+`groover` is a beat-by-beat rhythm feature clustering and token generation tool for `.mid` files. You can download `groover` using pip:
+
+```shell
+pip install groover
+```
+
+To check if `groover` is successfully installed, type `python` in the terminal, and do the following:
+
+```
+>>> from groover import RhythmClassifier
+>>> type(RhythmClassifier())
+<class 'groover.classifier.RhythmClassifier'>
+```
+
+## `RhythmClassifier`
+### `RhythmClassifier.__init__`
+#### Returns: `None`
+#### Parameters (all optional)
+- `bins_per_beat`: `int`
+   - the number of quantized time units within a beat
+   - is set to 24 by default
+- `n_beats_pitched`: `int`
+   - the number of beats that consist a rhythmic pattern for pitched instruments
+   - is set to 1 by default
+- `n_beats_drums`: `int`
+   - the number of beats that consist a rhythmic pattern for drum instruments
+   - is set to 4 by default
+- `drums`: `list`
+   - a list of `str` that specifies which types of drums to consider
+   - complete mapping from drum names to MIDI pitches can be found in `groover.drum_names_to_pitches`
+- `notes_weight`: callable
+   - a function that takes a list of `miditoolkit.midi.containers.Note` as input, and outputs an `numpy.ndarray` with shape `(len(notes),)`
+- `similarity`: callable
+   - a function that takes two `numpy.ndarray` and output the similarity score between the two arrays
+
+### `RhythmClassifier.get_pitched_dataset(self, midi_objs, pitches=None, in_four=False)`
+#### Returns: `numpy.ndarray`
+- a dataset that contains rhythmic patterns extracted from pitched instruments of the MIDI objects
+- has shape `(n, m)`, where `n` is the number of patterns and `m` is the number of quantized time units within a pattern
+#### Parameters
+- `midi_objs`: `list`
+   - a list of `miditoolkit.midi.parser.MidiFile` to extract rhythmic patterns from
+- `pitches`: iterable
+   - an iterable that contains the pitches to be considered
+   - is set to `range(128)` by default
+- `in_four`: `bool`
+   - will only consider MIDI files that has time signatures in power of two if set to `True`
+
+### `RhythmClassifier.get_drum_dataset(self, midi_objs, in_four=False)`
+#### Returns: `numpy.ndarray`
+- a dataset that contains rhythmic patterns extracted from drum instruments of the MIDI objects
+- has shape `(n, len(self.drums), m)`, where `n` is the number of patterns and `m` is the number of quantized time units within a pattern
+#### Parameters
+- `midi_objs`: `list`
+   - a list of `miditoolkit.midi.parser.MidiFile` to extract rhythmic patterns from
+- `in_four`: `bool`
+   - will only consider MIDI files that has time signatures in power of two if set to `True`
+
+### `RhythmClassifier.def fit_from_midi(self, midi_objs, k_pitched=200, k_all_drums=100, k_single_drum=20, quantize=True):`
+#### Returns: `None`
+The `RhythmClassifier` instance itself will be modified with updated rhythmic pattern clusters.
+#### Parameters
+- `midi_objs`: `list`
+   - a list of `miditoolkit.midi.parser.MidiFile` to classify rhythmic patterns from
+- `k_pitched`: `int`
+   - the number of rhythmic pattern classes from pitched instruments
+- `k_all_drums`: `int`
+   - the number of rhythmic pattern classes from drum instruments
+- `k_single_drum`: `int`
+   - the number of rhythmic pattern classes from each drum
+- `quantize`: `bool`
+   - quantize drum patterns further down to 16th notes if set to `True`
+
+### `RhythmClassifier.add_pitched_markers(self, midi_obj, pitches=None)`
+#### Returns: `None`
+`midi_obj` will be modified with rhythmic pattern markers from pitched instruments in `midi_obj.markers`
+#### Parameters
+- `midi_obj`: `miditoolkit.midi.parser.MidiFile`
+   - the MIDI file to add rhythmic pattern markers from pitched instruments to
+- `pitches`: iterable
+   - an iterable that contains the pitches to be considered
+   - is set to `range(128)` by default
+
+### `RhythmClassifier.add_composite_drum_markers(self, midi_obj, rid_empty=True)`
+#### Returns: `None`
+`midi_obj` will be modified with rhythmic pattern markers from drum instruments in `midi_obj.markers`
+#### Parameters
+- `midi_obj`: `miditoolkit.midi.parser.MidiFile`
+   - the MIDI file to add rhythmic pattern markers from drum instruments to
+- `rid_empty`: `bool`
+   - sections with no drums will not add markers to the MIDI files if set to `True`
+
+### `RhythmClassifier.add_separate_drum_markers(self, midi_obj, rid_empty=True)`
+#### Returns: `None`
+`midi_obj` will be modified with rhythmic pattern markers from each drum instruments in `midi_obj.markers`
+#### Parameters
+- `midi_obj`: `miditoolkit.midi.parser.MidiFile`
+   - the MIDI file to add rhythmic pattern markers from each drum instruments to
+- `rid_empty`: `bool`
+   - sections with no drums will not add markers to the MIDI files if set to `True`
+
