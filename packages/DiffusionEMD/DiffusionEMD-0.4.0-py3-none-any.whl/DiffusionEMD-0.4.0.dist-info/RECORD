@@ -1,0 +1,16 @@
+DiffusionEMD/Spherical_MNIST_Comparisons.py,sha256=1P85xDIK-AX1AO8n_A0NdEwr7K4iJUvbTkULKUOqiBQ,6782
+DiffusionEMD/__init__.py,sha256=Ec6pEfDU1qu1KgE8zcmznOQe5YO6kTqOahk4ZdA84IQ,149
+DiffusionEMD/convolutional_sinkhorn.py,sha256=enkQpN5fP63D7Iafb2VH2HT-LdNxAGsJWlLBMtAY5vA,1518
+DiffusionEMD/dataset.py,sha256=3OBGXhX7QnZAoEzS2pXCi2cM46HXhX_KQ7gzXmA6vaw,4918
+DiffusionEMD/diffusion_emd.py,sha256=qHL0USd-6RRYYNcOED-jXSbZ852JoQDIwFduRBYB6LM,12269
+DiffusionEMD/diffusion_emd_gpu_flex.py,sha256=txXUX8mMQM94Dnb67MWeL_BYxm4_AN5XLpgIbx8MkEA,16413
+DiffusionEMD/emd.py,sha256=-ES3jH4wWyTjUkZ8-VIjNHZIOBZqJywXiZDi3Ay2hh0,5266
+DiffusionEMD/estimate_utils.py,sha256=q73JsOZQGT5akbJYqWXMQ2obJx7sspanXhb68JvZcFw,9404
+DiffusionEMD/fixed_graph_gpu.py,sha256=ZxpldeodpTlY9gDEhri00GNd_7SoICmf2NcEUtQiZjQ,15417
+DiffusionEMD/metric_tree.py,sha256=k5-oEP7uYtuWX27Q-1rWtT9T-VD76GkyshQtBF9K-Iw,11667
+DiffusionEMD/version.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+DiffusionEMD-0.4.0.dist-info/LICENSE,sha256=uo_P-2zUxow9T3jmeNVyPf7Bp1o4EXQ0LWjag5qhXh0,1073
+DiffusionEMD-0.4.0.dist-info/METADATA,sha256=Qx04X052NP7Mlvbz6nLSkcfmyFMJTYT4Qt1YYDL6J8c,3571
+DiffusionEMD-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+DiffusionEMD-0.4.0.dist-info/top_level.txt,sha256=ZweMt1Zlr6HmDZctFOtiQKvm6vR5zJeK85vI0sHnhqc,13
+DiffusionEMD-0.4.0.dist-info/RECORD,,
