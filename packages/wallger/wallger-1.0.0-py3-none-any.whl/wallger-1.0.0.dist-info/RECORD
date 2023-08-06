@@ -1,0 +1,13 @@
+LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+wallger/__init__.py,sha256=U85mrjwlIkaVfOMScQh8ZpQEWEqVZa2pFdql4fVPNNE,257
+wallger/__main__.py,sha256=3ulQI9qV3iBIuwrVD3bh6iuI2mN_u1dvvqWb_sFchuM,96
+wallger/constants.py,sha256=CUQRssOFUp8vsoVS1dtXRH0l7F9Xiwp-XWHgvlv2uEQ,206
+wallger/core.py,sha256=O9SYxs1eh6KJANVKD2ToJ_AQYmmbEpcjH8r1R76XzKo,187
+wallger/helpers.py,sha256=pn8eICGVNxDdAZB-a1BpiUP0VK2m8DpNcF1NOPIxeTA,999
+wallger/ui.py,sha256=qa6m7zW6UaNC9Q_AfvnaTwWV4jnnzxaVgnw7ohUX4LU,635
+wallger/wallhaven.py,sha256=3PqTeR7sh9vrAgNTY97Q4jHASe7DtOebZLXWVJCEm8k,627
+wallger-1.0.0.dist-info/entry_points.txt,sha256=m_T4OGgwath1j9QqwGdJaQiLbXII7krSkMvwnITtfZM,40
+wallger-1.0.0.dist-info/LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+wallger-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+wallger-1.0.0.dist-info/METADATA,sha256=_1c6bGibWxmSXJ7uOwAc8EnutmUOWCA4knj--rvIdmg,2137
+wallger-1.0.0.dist-info/RECORD,,
