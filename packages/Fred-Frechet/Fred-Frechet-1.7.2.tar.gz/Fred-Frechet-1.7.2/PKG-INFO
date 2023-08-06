@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Fred-Frechet
+Version: 1.7.2
+Summary: Frechet Distance and Clustering Library
+Home-page: http://fred.dennisrohde.work
+Author: Dennis Rohde
+Author-email: dennis.rohde@tu-dortmund.de
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+A fast, scalable and light-weight C++ Fréchet distance library, exposed to python and focused on (k,l)-clustering of polygonal curves.
+
