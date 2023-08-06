@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ojichat/go.mod
+ojichat/go.sum
+ojichat/ojichat.c
+ojichat/ojichat.go
+ojichat.egg-info/PKG-INFO
+ojichat.egg-info/SOURCES.txt
+ojichat.egg-info/dependency_links.txt
+ojichat.egg-info/top_level.txt

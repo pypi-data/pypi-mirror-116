@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ojichat
+Version: 1.0.0
+Summary: ojichatのPythonラッパーです
+Home-page: https://github.com/Lapis256/ojichat-python
+Author: Lapis256
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.1
