@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pnums
+Version: 0.0.4
+Summary: A library that encodes coordinates so neural networks can use them better.
+Home-page: UNKNOWN
+Author: SimLeek
+Author-email: simulator.leek@gmail.com
+License: MIT
+Project-URL: repository, https://github.com/simleek/pnums
+Description: PCoords
+        =======
+        Neural Coordinates
+        
+        Installation
+        ------------
+        Will be pip installable on first release.
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.6.0
+Provides-Extra: dev
