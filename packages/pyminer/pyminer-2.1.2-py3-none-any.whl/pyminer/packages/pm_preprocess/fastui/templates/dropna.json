@@ -1,0 +1,18 @@
+{"file_name": "dropna.py",
+  "operation_name": "Drop NA",
+  "class_name": "DropNA",
+  "params": [
+     ["combo_ctrl", "axis", "Position", 0, [0, 1], ["行", "列"]],
+     ["combo_ctrl", "how", "How to drop", "any", ["all", "any"], ["All", "Any"]],
+     ["numberspin_ctrl", "thresh", "保留非空值多于等于此的行/列", 1, "", [0, 1000], 1],
+     ["check_ctrl", "use_subset", "Drop by subset", true],
+     ["list_ctrl", "subset", "Subset", [[], [] ], null],
+     ["check_ctrl", "inplace", "In Place", false]
+  ],
+  "rules": [
+    ["use_subset",["subset"],true,"enable"],
+    ["how",["thresh"],"any","enable"]
+  ],
+  "rule_widgets":
+          ["use_subset","number"]
+}
