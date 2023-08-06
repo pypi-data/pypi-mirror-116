@@ -1,0 +1,6 @@
+setup.py
+confluent_release_tools.egg-info/PKG-INFO
+confluent_release_tools.egg-info/SOURCES.txt
+confluent_release_tools.egg-info/dependency_links.txt
+confluent_release_tools.egg-info/top_level.txt
+package_name/__init__.py
