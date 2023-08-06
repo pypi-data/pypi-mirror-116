@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pyrthomas"
+version = "0.0.10"
+description = "Python implementation for René Thomas's Framework"
+keywords = ["biological regulatory networks", "systems biology", "qualitative modelling"]
+authors = ["Talha Junaid <talhajunaidd@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/talhajunaidd/pyrthomas"
+repository = "https://github.com/talhajunaidd/pyrthomas"
+include = [
+    "LICENSE",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+networkx = ">=2.0"
+pydot = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
