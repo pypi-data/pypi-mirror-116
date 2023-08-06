@@ -1,0 +1,10 @@
+OWNd/__init__.py,sha256=K-euE9KgwHP0RLTzVte7jA20lT9O_el50oQ51oDnGkg,22
+OWNd/__main__.py,sha256=ryvjEZrXg6WUlKdk0l5bwkvUjmEGiZJhdHqrR1GGmU0,3442
+OWNd/connection.py,sha256=aW7FWU2Or6hh3OhVTg3XB6mBkrZLdZeB3NWW-k2Ab-o,24111
+OWNd/discovery.py,sha256=FtQ2IGyUyVPMX9MNjNEQH8QK75ovpLajnNIqVqFYXik,10304
+OWNd/message.py,sha256=T7OmAWVccMKlhq_QzgFUB_Q-44RFef9oqtUQ1o6S7SQ,72788
+OWNd-0.7.33.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+OWNd-0.7.33.dist-info/METADATA,sha256=DJsjgmYb4QIkl7NUAudhuRyism8QncYCkps3gPN6ykM,927
+OWNd-0.7.33.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+OWNd-0.7.33.dist-info/top_level.txt,sha256=D92FFLTdbtC4i0MpYlggWGn3Eh7A3vrgBajWbJzlJc0,5
+OWNd-0.7.33.dist-info/RECORD,,
