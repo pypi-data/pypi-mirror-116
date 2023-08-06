@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+json_inline.egg-info/PKG-INFO
+json_inline.egg-info/SOURCES.txt
+json_inline.egg-info/dependency_links.txt
+json_inline.egg-info/not-zip-safe
+json_inline.egg-info/top_level.txt
+src/json_inline/__init__.py
+src/json_inline/recursive.py
+src/json_inline/search.py
