@@ -1,0 +1,8 @@
+AUTHORS.rst
+README.md
+pyproject.toml
+setup.py
+py15rock/py15rock.egg-info/PKG-INFO
+py15rock/py15rock.egg-info/SOURCES.txt
+py15rock/py15rock.egg-info/dependency_links.txt
+py15rock/py15rock.egg-info/top_level.txt
