@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nafigator"
+version = "0.1.30"
+description = "Python package to convert spaCy and Stanza documents to NLP Annotation Format (NAF)"
+authors = ["Willem Jan Willemse <w.j.willemse@xs4all.nl>"]
+license = "MIT license"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = ">=7.0"
+"pdfminer.six" = "^20201018"
+lxml = "^4.6.3"
+python-docx = "^0.8.11"
+FoLiA = "^2.5.5"
+
+[tool.poetry.dev-dependencies]
+stanza = "^1.2.3"
+spacy = "^3.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
