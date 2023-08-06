@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "wpymigrator"
+version = "0.1.1"
+description = "A program designed to aide in WordPress development site creation, and integration back into production."
+license = "GPL-3.0-only"
+homepage = "https://github.com/Jonxslays/wpymigrator"
+repository = "https://github.com/Jonxslays/wpymigrator"
+authors = ["Jonxslays <jon@jonxslays.com>"]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX",
+    "Operating System :: Unix"
+]
+
+[tool.poetry.scripts]
+wpym = "wpymigrator.__main__:main"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+mypy = "^0.910"
+poetry = "^1.1.7"
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
