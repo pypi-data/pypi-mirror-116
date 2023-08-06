@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: iode
+Version: 0.0.2
+Summary: Isolate your vscode environment and keep it simple!
+Home-page: https://github.com/jugangdae/iode
+Author: Gangdae Ju
+Author-email: jugangdae@gamil.com
+License: MIT
+Keywords: iode,manage,isolated,vscode,envoronment,simple
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# iode
+![](./resources/screenshot.png)
+
+![](./resources/iode1.png)
+
+iode is a command-line tool for simple maintenance and management of isolated vscode environments written in Python.
+
+
+## Installation
+Install from pypi
+```
+pip install iode --user
+```
+Install from soruce
+```
+git clone https://github.com/jugangdae/iode
+cd iode
+pyhton -m build
+pip install iode-0.0.1-py3-none-any.whl
+```
+
+## Configuration
+Using the default setting, does not require a config file
+```
+iode_run = code
+iode_dir = ~/.iode
+```
+If you want to change the settings, create `~/.iode.config`
+```
+[default]
+iode_run = [code or code-insiders]
+iode_dir = [absolute path]
+```
+
+## usage
+
+Add new iode env
+```
+$ iode add [iode_env]
+```
+```
+$ iode a [iode_env]
+```
+Delete iode env
+```
+$ iode del [iode_env]
+```
+```
+$ iode d [iode_env]
+```
+Show iode env list
+```
+$ iode list
+```
+```
+$ iode l
+```
+Run iode
+```
+$ iode run [iode_env] [path]
+```
+```
+$ iode r [iode_env] [path]
+```
+
+Show help
+```
+iode -h
+```
+```
+iode [command] -h
+```
+
+
