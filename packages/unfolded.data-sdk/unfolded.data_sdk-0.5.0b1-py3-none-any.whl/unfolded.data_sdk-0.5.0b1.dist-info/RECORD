@@ -1,0 +1,11 @@
+unfolded/data_sdk/__init__.py,sha256=tCwYxAhMQVlFIc5PL2AqKpAE6ZAfRVXO5Bh-m7ADeYE,90
+unfolded/data_sdk/cli.py,sha256=NVpSUwbKl9FrB3WxfLerz5KW5rhVcsAaO4chME00Wdk,9294
+unfolded/data_sdk/data_sdk.py,sha256=yZeY2dN9kMgs-YtjTLuytCkvNq8it15Xba0xQDu_6jM,29446
+unfolded/data_sdk/errors.py,sha256=YkQ2eeYedo5UHVIJyYWRrkiffKuablGI189_P0kKy-4,369
+unfolded/data_sdk/models.py,sha256=R8o_PDRBaeo47dAyvBgJlobDzVHjGww7G7dVRrMhrb4,2665
+unfolded/data_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unfolded/data_sdk/utils.py,sha256=VfmO0ucOo_xcGZicaau7p3kUsVmvMqN6Kc8pvvgo46o,1852
+unfolded.data_sdk-0.5.0b1.dist-info/entry_points.txt,sha256=KOsl-sdcGJjV5aAZqtrX3D4D0r570EvaDomz5tf6vaE,58
+unfolded.data_sdk-0.5.0b1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+unfolded.data_sdk-0.5.0b1.dist-info/METADATA,sha256=AoP5ankXQZtWpJ1gxwf4cgwWZVlleWxc3D5746UpWAA,1152
+unfolded.data_sdk-0.5.0b1.dist-info/RECORD,,
