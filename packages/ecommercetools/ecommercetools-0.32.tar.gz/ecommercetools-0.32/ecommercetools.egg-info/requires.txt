@@ -1,0 +1,10 @@
+gapandas
+httplib2>=0.15.0
+lifetimes
+pandas
+pycausalimpact
+requests
+requests_html
+sklearn
+torch
+transformers
