@@ -1,0 +1,10 @@
+setup.py
+hectordistributions/Binomialdistribution.py
+hectordistributions/Gaussiandistribution.py
+hectordistributions/Generaldistribution.py
+hectordistributions/__init__.py
+hectordistributions.egg-info/PKG-INFO
+hectordistributions.egg-info/SOURCES.txt
+hectordistributions.egg-info/dependency_links.txt
+hectordistributions.egg-info/not-zip-safe
+hectordistributions.egg-info/top_level.txt
