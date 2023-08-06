@@ -1,0 +1,16 @@
+mypythontools/__init__.py,sha256=2vmtJFokXe6rz4a3SEw2KOHgX3zFYEFyNhZI55VudDs,8449
+mypythontools/build.py,sha256=OT3PPynXIxV1d3CjDCJOfLwA22ANm0TdaCbL9BDa7To,8862
+mypythontools/config.py,sha256=eVnqtAHPRpUTo-xvXtoe3ORJf88GvHbZ_1OpA4sBofY,12106
+mypythontools/deploy.py,sha256=ai-czi0cpf1jEut861WteDFE4-BD62DX02OLj-TLaFw,2449
+mypythontools/misc.py,sha256=fprzpzP2FURLoYpBUObFYwRwl6m5DwPBleX3KJEXljo,3185
+mypythontools/paths.py,sha256=DgwplPJpJeBVIHkcpnZ0X1-8i-tgxypoVb2p5uE_oqo,3549
+mypythontools/plots.py,sha256=GsXkj3CtD_uQK1p3tjXfMxlUp2T1ztFJTWtpRjCY5Xk,7279
+mypythontools/property.py,sha256=uSa5Y2kWHAJSem8LkwD2uRCqEq5XvfbGKFjUMLrOS50,3733
+mypythontools/pyvueeel.py,sha256=NhxwtUych9UrJL6R7rXwejZZLXZLXwZvpO9tuXmEre8,9105
+mypythontools/tests.py,sha256=L2lA--Q35EY4mLtT_TvyMOe5Y_zk58yUGe8DyirsTjE,5004
+mypythontools/utils.py,sha256=yFHkytYD4ZMD9teQIEYbKws5tLK5pWgne4zjA53iPXE,17210
+mypythontools-0.0.63.dist-info/LICENSE,sha256=BM9DpN9cuZHAL1849vy5DyKFaQejXV1jfa9STrQkl-8,1093
+mypythontools-0.0.63.dist-info/METADATA,sha256=NlQ3cRiEctQYE7p7ppcPG62hlO_pd57lDDyUrO8Dfzo,10232
+mypythontools-0.0.63.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypythontools-0.0.63.dist-info/top_level.txt,sha256=CPn6PNkUc8WWGPzOpW76m9GEddlkn2obN84_XsXKfDA,14
+mypythontools-0.0.63.dist-info/RECORD,,
