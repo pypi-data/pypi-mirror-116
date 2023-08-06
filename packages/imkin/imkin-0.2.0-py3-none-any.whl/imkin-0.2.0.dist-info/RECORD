@@ -1,0 +1,9 @@
+imkin/__init__.py,sha256=5Za2M0yndq1DnOkTEe7f31IN7Q8-OTGrdeRFO1BqAhY,64
+imkin/main.py,sha256=tkqFDCQGBZAgPL7HSjSG1lzEFeIc1GTF-bOW2v4apDI,2958
+imkin/parsers.py,sha256=BlEVND3LMgqiuCSOMB75vXC9R-uSVo7Jc99xjxHUrwA,11667
+imkin/utils.py,sha256=EssBbuwb6iUrzByZSE5H-zMUFIAHuVuHQHeTiHKUghQ,899
+imkin-0.2.0.dist-info/LICENSE,sha256=MDKscm-yAMgzh6vHaNOWNTovg2eeuYcg7wklD7y3qp8,1076
+imkin-0.2.0.dist-info/METADATA,sha256=M77LLy29GiRJLFZDGLe17Fgjv3IivfsM2MT9vA8rk3c,1340
+imkin-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+imkin-0.2.0.dist-info/top_level.txt,sha256=Iy7CurApeAqR_3gFzqZ6cDcSK4wpzkD4uKNRkgoswGs,6
+imkin-0.2.0.dist-info/RECORD,,
