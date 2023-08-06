@@ -1,0 +1,12 @@
+
+[dev]
+pytest
+flake8==3.9.2
+tox
+konch
+
+[lint]
+flake8==3.9.2
+
+[tests]
+pytest
