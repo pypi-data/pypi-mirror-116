@@ -1,0 +1,1 @@
+This is a simple program that helps you calculate the lowest common multiple of two numbers.

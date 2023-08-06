@@ -1,0 +1,6 @@
+README.md
+setup.py
+MyCustomPackage.egg-info/PKG-INFO
+MyCustomPackage.egg-info/SOURCES.txt
+MyCustomPackage.egg-info/dependency_links.txt
+MyCustomPackage.egg-info/top_level.txt
