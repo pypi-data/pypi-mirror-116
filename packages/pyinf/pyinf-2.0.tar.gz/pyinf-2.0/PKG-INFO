@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyinf
+Version: 2.0
+Summary: Python infrastructure code for logging and config management
+Home-page: UNKNOWN
+Author: Alex xi
+Author-email: alexxi0213@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
