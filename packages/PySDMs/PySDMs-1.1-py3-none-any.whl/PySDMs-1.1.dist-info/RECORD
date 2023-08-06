@@ -1,0 +1,14 @@
+PySDMs/__init__.py,sha256=KRg6z3ZeW47ITu7Ow_RjvnLYKU-5pKeRayT00RHCNkE,74
+PySDMs/_main.py,sha256=ZzmL8mGGqnKOJiwzFl-H-8un6q4oPJGp6Ugki5OqZ64,5317
+PySDMs/internal/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+PySDMs/internal/fit.py,sha256=mAnoCTQBUhhjeirpEfEm4dnJChzDMjwjS0liHVwV47Y,8308
+PySDMs/internal/interpolate.py,sha256=lsr0n44FdR69KERZPeuUopx1Q95HR5EOBJ_cgLv28Nk,2875
+PySDMs/internal/validation_visuals.py,sha256=FCK2VzgJ2AQR48rWTyxl2lMnaMZebJw6xHYOLUY9Mug,4648
+PySDMs/internal/test/data/env_train/env_train_cr_192.csv,sha256=dPZqPsEVZEBAEw52MjhfwGoL3YHsgf4yQXeBcZv2kas,367745
+PySDMs/internal/test/data/env_train/env_train_cr_192_metadata.csv,sha256=z_UNLE7V6VaT8EbuOuqXVSa4pEZcbynYEhoixOSheLQ,555079
+PySDMs/internal/test/outputs/holdout_192.csv,sha256=MfMMPBVvbPEWg2LzvWIlk1VD1wxZMlV8NsXBac_TLkA,15
+PySDMs-1.1.dist-info/LICENSE,sha256=h9bKngQYHn6gxUrP-WB4cXMf-GEf2HebJDOTni7tZCs,1070
+PySDMs-1.1.dist-info/METADATA,sha256=vFUV45J7WUQxUJCJkTZmdyzCwUAPJTs7EU6MBIoCuPU,848
+PySDMs-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PySDMs-1.1.dist-info/top_level.txt,sha256=BNBsckj4a544dpmQB-l-TxbLLHgLkzldxZAuGMFwRfw,7
+PySDMs-1.1.dist-info/RECORD,,
