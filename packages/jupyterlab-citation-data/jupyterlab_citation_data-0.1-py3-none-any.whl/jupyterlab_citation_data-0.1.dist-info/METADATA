@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: jupyterlab-citation-data
+Version: 0.1
+Summary: CSL styles for jupyterlab-citation-manager
+Home-page: https://github.com/krassowski/jupyterlab-citation-manager
+Author: Michał Krassowski
+License: Other/Proprietary License
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jupyterlab-citation-data
+
+This packages provides CSL files for [jupyterlab-citation-manager](https://github.com/krassowski/jupyterlab-citation-manager)
+
