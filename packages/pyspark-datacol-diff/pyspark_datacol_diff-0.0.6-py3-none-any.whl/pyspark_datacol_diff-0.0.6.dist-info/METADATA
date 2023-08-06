@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyspark-datacol-diff
+Version: 0.0.6
+Summary: PySpark utility created to quickly provide details regarding which attributes differ between 2 dataframes with same schema and primary key.
+Home-page: https://github.com/jasjyotsinghjaswal/pyspark-datacol-diff
+Author: Jasjyot Singh Jaswal
+Author-email: <jasjyot_singh_jaswal@yahoo.com>
+License: MIT
+Keywords: data diff,data analysis,record comparison,data difference,row comparison,compare records
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+Requires-Dist: pyspark (>=3.0.2)
+Requires-Dist: tabulate (>=0.8.9)
+Requires-Dist: pandas (>=1.0.0)
+
+UNKNOWN
+
