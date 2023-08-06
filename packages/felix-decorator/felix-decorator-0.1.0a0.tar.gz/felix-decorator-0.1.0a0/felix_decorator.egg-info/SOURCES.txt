@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+felix/__init__.py
+felix_decorator.egg-info/PKG-INFO
+felix_decorator.egg-info/SOURCES.txt
+felix_decorator.egg-info/dependency_links.txt
+felix_decorator.egg-info/requires.txt
+felix_decorator.egg-info/top_level.txt
