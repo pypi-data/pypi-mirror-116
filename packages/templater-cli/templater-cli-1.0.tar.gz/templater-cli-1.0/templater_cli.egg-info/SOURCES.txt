@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+templater/__init__.py
+templater/main.py
+templater/templates.py
+templater_cli.egg-info/PKG-INFO
+templater_cli.egg-info/SOURCES.txt
+templater_cli.egg-info/dependency_links.txt
+templater_cli.egg-info/entry_points.txt
+templater_cli.egg-info/requires.txt
+templater_cli.egg-info/top_level.txt
