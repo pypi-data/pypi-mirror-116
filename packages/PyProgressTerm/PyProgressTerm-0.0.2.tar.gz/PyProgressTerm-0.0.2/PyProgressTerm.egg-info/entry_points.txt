@@ -1,0 +1,3 @@
+[console_scripts]
+ProgressTerm = PyProgressTerm:main
+
