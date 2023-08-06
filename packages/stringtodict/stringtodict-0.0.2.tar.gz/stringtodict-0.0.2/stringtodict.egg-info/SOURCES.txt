@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+stringtodict/__init__.py
+stringtodict/stringtodict.py
+stringtodict/test_stringtodict.py
+stringtodict.egg-info/PKG-INFO
+stringtodict.egg-info/SOURCES.txt
+stringtodict.egg-info/dependency_links.txt
+stringtodict.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: stringtodict
+Version: 0.0.2
+Summary: Um simples conversor de texto em dicionário e de dicionário em texto
+Home-page: https://github.com/GleytonLima/stringtodict
+Author: Gleyton Lima
+Author-email: gleytonclima@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/GleytonLima/stringtodict
+Keywords: conversor string dicionário json parser
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+Um conversor de texto que serializa uma string para dicionário e dicionário para texto
+
