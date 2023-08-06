@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+injectivesdk.egg-info/PKG-INFO
+injectivesdk.egg-info/SOURCES.txt
+injectivesdk.egg-info/dependency_links.txt
+injectivesdk.egg-info/requires.txt
+injectivesdk.egg-info/top_level.txt
