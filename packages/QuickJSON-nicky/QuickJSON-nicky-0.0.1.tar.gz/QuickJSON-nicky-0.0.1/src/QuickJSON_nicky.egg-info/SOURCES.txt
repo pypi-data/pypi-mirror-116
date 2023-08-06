@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/QuickJSON/__init__.py
+src/QuickJSON_nicky.egg-info/PKG-INFO
+src/QuickJSON_nicky.egg-info/SOURCES.txt
+src/QuickJSON_nicky.egg-info/dependency_links.txt
+src/QuickJSON_nicky.egg-info/top_level.txt
