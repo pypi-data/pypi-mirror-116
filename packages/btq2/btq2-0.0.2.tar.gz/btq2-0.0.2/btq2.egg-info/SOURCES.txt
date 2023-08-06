@@ -1,0 +1,6 @@
+setup.py
+btq2/__init__.py
+btq2.egg-info/PKG-INFO
+btq2.egg-info/SOURCES.txt
+btq2.egg-info/dependency_links.txt
+btq2.egg-info/top_level.txt
