@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: dotpath
+Version: 0.1.0
+Summary: A module to access Python props using dotpath.
+Home-page: https://github.com/silasvasconcelos/dotpath
+License: MIT
+Keywords: doc2pdf,doc,pdf
+Author: Silas Vasconcelos
+Author-email: silasvasconcelos@hotmail.com.br
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/silasvasconcelos/dotpath
+Description-Content-Type: text/markdown
+
+# dotpath
+A simple module to access Python props using dotpath.
+
+## Example
+```python
+from dotpath import dotpath
+
+# A object
+pets_dic = {
+    'pets': {
+        'dog': {
+            'name': 'Billy',
+            'age': 5,
+            'friends': ['Joe', 'Jack'],
+        },
+        'cat': {
+            'name': 'Joe',
+            'age': 6,
+            'friends': ['Billy', 'Pop'],
+        },
+    },
+}
+
+dog_name = getpath(pets_dic, 'pets.dog.name') # Returns Billy
+cat_name = getpath(pets_dic, 'pets.cat.name') # Returns Joe
+```

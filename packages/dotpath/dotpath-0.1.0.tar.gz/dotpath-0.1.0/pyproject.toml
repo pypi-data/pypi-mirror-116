@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dotpath"
+version = "0.1.0"
+description = "A module to access Python props using dotpath."
+authors = ["Silas Vasconcelos <silasvasconcelos@hotmail.com.br>"]
+license = "MIT"
+keywords = ["doc2pdf", "doc", "pdf"]
+readme = "./README.md"
+repository = "https://github.com/silasvasconcelos/dotpath"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^7.26.0"
+pep8 = "^1.7.1"
+pylint = "^2.9.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
