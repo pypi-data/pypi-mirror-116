@@ -1,0 +1,17 @@
+COPYING
+EventGeometry.hh
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+EventGeometry.egg-info/PKG-INFO
+EventGeometry.egg-info/SOURCES.txt
+EventGeometry.egg-info/dependency_links.txt
+EventGeometry.egg-info/not-zip-safe
+EventGeometry.egg-info/requires.txt
+EventGeometry.egg-info/top_level.txt
+eventgeometry/__init__.py
+eventgeometry/eventgeometry.cpp
+eventgeometry/eventgeometry.py
+eventgeometry/swig/eventgeometry.i
