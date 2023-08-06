@@ -1,0 +1,13 @@
+describer_ml/__init__.py,sha256=roLAufy7LeiDA81Z9q4BmeqsWiq6BGY2GGSbNUlqBQA,164
+describer_ml/matching/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+describer_ml/matching/match.py,sha256=anKsRvsgL8ekQfYEaKzvb3EpQML7b8nYCnM3MvB-lpw,10882
+describer_ml/numeric/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+describer_ml/numeric/num_stats.py,sha256=rgPqXw1kwiVu18rIsbM9VI9FwPbKkc5tny5OVUYkyko,9376
+describer_ml/timeseries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+describer_ml/timeseries/timeseries.py,sha256=xEeJG8zZ9pjtjXlGyE47kuVladrxLgXZNSElbT60X0Y,9335
+describer_ml/timeseries/timeseries_visualization.py,sha256=_0XFHWTJ5kRpBL_KtI2KRAumrGPeTLZA-ouIVnNRN6o,5982
+describer_ml-0.20.dist-info/LICENSE,sha256=4V3mT07P5EmD0RZnSWLI_DcP9_BP8F0BUstsONXkYQM,1068
+describer_ml-0.20.dist-info/METADATA,sha256=2Nj8Z9uASjbpQ9HeHXP1T76aLf9Np0H-vE9697LMd54,2343
+describer_ml-0.20.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+describer_ml-0.20.dist-info/top_level.txt,sha256=mqvKeH_of47cY7CcunbySlTcYKKQKbqlMgSRDMXgU7M,13
+describer_ml-0.20.dist-info/RECORD,,
