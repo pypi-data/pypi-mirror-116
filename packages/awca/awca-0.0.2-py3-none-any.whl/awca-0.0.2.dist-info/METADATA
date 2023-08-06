@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: awca
+Version: 0.0.2
+Summary: A toolkit for making art with machine learning, including an API for popular deep learning models, recipes for combining them, and a suite of educational examples
+Home-page: https://github.com/UmbraVenus/awca-tools
+Author: Sage Ren (Umbra Venus)
+Author-email: sage.shijie.ren@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers (==3.1.0)
+
+# awca-tools
+ tools and functions for AWCA
+
+
