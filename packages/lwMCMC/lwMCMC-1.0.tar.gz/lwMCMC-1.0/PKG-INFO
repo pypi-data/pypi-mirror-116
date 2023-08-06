@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: lwMCMC
+Version: 1.0
+Summary: A parameter space sampling class for lightweight Bayesian inference. Running on a NumPy-based implementation of the Metropolis-Hastings algorithm.
+Home-page: https://github.com/daniel-furman/lwMCMC
+Author: Daniel Ryan Furman
+Author-email: dryanfurman@gmail.com
+License: MIT
+Description: See documentation at https://github.com/daniel-furman/lwMCMC
+Keywords: bayesian-inference machine-learning statistical-modeling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
