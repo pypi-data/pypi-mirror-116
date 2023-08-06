@@ -1,0 +1,8 @@
+django>=2.0
+
+[development]
+psycopg2-binary
+
+[testing]
+tox
+watchdog
