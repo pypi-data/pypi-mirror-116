@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: ysr
+Version: 2.3
+Summary: See 'help(ysr)'
+Home-page: https://www.kinnerfisch.cn/
+Author: KinnerFisch
+Author-email: kinnerfisch@tial.club
+Classifier: Programming Language :: C++
+Requires-Python: >=3.7.
