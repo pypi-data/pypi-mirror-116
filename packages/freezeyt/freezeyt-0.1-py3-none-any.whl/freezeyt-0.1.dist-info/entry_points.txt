@@ -1,0 +1,3 @@
+[console_scripts]
+freezeyt = freezeyt.cli:main
+
