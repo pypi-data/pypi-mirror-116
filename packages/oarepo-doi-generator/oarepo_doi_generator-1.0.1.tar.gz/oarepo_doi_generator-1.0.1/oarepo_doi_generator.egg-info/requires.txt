@@ -1,0 +1,11 @@
+
+[tests]
+oarepo[tests]~=3.3.0
+coverage
+oarepo-actions
+marshmallow-utils
+responses
+oarepo-invenio-model
+oarepo_mapping_includes
+oarepo_validate
+oarepo_communities
