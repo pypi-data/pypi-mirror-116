@@ -1,0 +1,17 @@
+AuDoLab/AuDoLab.py,sha256=UqfeT3TWxJV4_ImgwSuxWcIWmVccEkpbBbRATVc3Ahg,16328
+AuDoLab/__init__.py,sha256=UdEJu3sU9vixoCK5uYS5O0iLOLfcL1bYTxmRhlA2edw,156
+AuDoLab/subclasses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AuDoLab/subclasses/abstractscraper.py,sha256=qsS7Bm1CJYn4jw0JGpL5PPa6USf2-4rgNkdoUYB9FaE,12792
+AuDoLab/subclasses/abstractscraper_arxiv.py,sha256=_Dp2ni0TaIWwtnmrJ625P-f_LA8U9TPrOfdqz-HopP8,4559
+AuDoLab/subclasses/abstractscraper_pubmed.py,sha256=wb1oML7hI0O1mes4QOCnH8BB0kD-dKYZR6TLNi2paEg,4385
+AuDoLab/subclasses/lda.py,sha256=s0mnTBZ41rC3omWsdCnW-a1qVH0siltcWNjPaoiKVJA,8229
+AuDoLab/subclasses/one_class_svm.py,sha256=pQKkzbpcxbBdTFnrVcy3oQmBW1MfePnVZbEBWnhFd2M,3366
+AuDoLab/subclasses/preprocessing.py,sha256=Lz29j67KuoqHBFLYpFl9tsCo4G0MT9rbjUQJ7BT_R_c,5619
+AuDoLab/subclasses/tf_idf.py,sha256=cM0TOZd59EtouurNIZUW1RCfGZ3N2fuQSXH6ITw5sLg,2082
+AuDoLab-1.0.1.dist-info/AUTHORS.rst,sha256=sZBnE8p9hXVr25so_Pbujet5UMIvnXt7aqQplkfw0J8,704
+AuDoLab-1.0.1.dist-info/LICENSE,sha256=ZsbM_guinVcJL7HgzmTc2vHPbujJ2tJ79ZSbvSDJhgU,1604
+AuDoLab-1.0.1.dist-info/METADATA,sha256=lfq3CNIJe-UIp6O-BGmmPdnvhPWfZrlTlQDgV7qyrCo,5083
+AuDoLab-1.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+AuDoLab-1.0.1.dist-info/entry_points.txt,sha256=C9keuS5RdwsaOD-jqapHPqCa9sC80PekcCOvIPO8otM,46
+AuDoLab-1.0.1.dist-info/top_level.txt,sha256=FxF3gc8zUn2WbcqgL6yvgJ7egB9a-42zV0IjEL3pbSY,8
+AuDoLab-1.0.1.dist-info/RECORD,,
