@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+console_gui.egg-info/PKG-INFO
+console_gui.egg-info/SOURCES.txt
+console_gui.egg-info/dependency_links.txt
+console_gui.egg-info/requires.txt
+console_gui.egg-info/top_level.txt
+gui/__init__.py
+gui/components.py
+gui/reader.py
