@@ -1,0 +1,10 @@
+README.md
+setup.py
+file_operations/__init__.py
+file_operations/file_operations.py
+file_operations.egg-info/PKG-INFO
+file_operations.egg-info/SOURCES.txt
+file_operations.egg-info/dependency_links.txt
+file_operations.egg-info/top_level.txt
+tests/__init__.py
+tests/test_file_operations.py
