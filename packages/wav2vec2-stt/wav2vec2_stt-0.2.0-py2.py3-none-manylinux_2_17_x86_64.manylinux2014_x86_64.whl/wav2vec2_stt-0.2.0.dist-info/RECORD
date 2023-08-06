@@ -1,0 +1,15 @@
+wav2vec2_stt/wrapper.py,sha256=HwVTn6kTOfpcOObPIPtwkjDo3dcATVMkjbVTvSOYM_s,3518
+wav2vec2_stt/__init__.py,sha256=VzW-ZKv5tYjEZ75CKHgM28G82F-KJRN740sg7JsYXdg,258
+wav2vec2_stt/libwav2vec2_stt_lib.so,sha256=kQAZrle44ecIxlFYWHXXUZ-kuideDtXIchxBNV8pSk4,104760
+wav2vec2_stt/__main__.py,sha256=-Nt7VKQhHG6KLvDqTJ-5oJmwimpbkYo7_qX5xeB0SAQ,1007
+wav2vec2_stt-0.2.0.dist-info/top_level.txt,sha256=dKj-vns2Z71BYiF3-DekweyTk2MYhEJPGiVi0lnjWts,13
+wav2vec2_stt-0.2.0.dist-info/WHEEL,sha256=2jZsoiJiSW5CFvt3_4wXR3CXGYfyd1NxcLTlCxgUobc,217
+wav2vec2_stt-0.2.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+wav2vec2_stt-0.2.0.dist-info/METADATA,sha256=nnsAc2jDLHZb80jCqWNOlJbbDR74of_4bLp9Rp5odc4,4449
+wav2vec2_stt-0.2.0.dist-info/RECORD,,
+wav2vec2_stt-0.2.0.data/data/libctcdecode.so,sha256=ayp4HCRBROxvzeqI3aFQOPVO8d4yZQuVxKSjNt0P_WE,592880
+wav2vec2_stt.libs/libtorch_cpu-e3f740aa.so,sha256=HYWeS7O0b5ouqRwrih10-Nlx6ZrR3NKLvPuxZHrEe5Q,377659400
+wav2vec2_stt.libs/libc10-0601aca4.so,sha256=mXdj3cTRPFui-Vrgnk4SrX40sAb5WnlGcoU44HTgmq4,1064912
+wav2vec2_stt.libs/libctcdecode-98a23a56.so,sha256=TKErjauYCDrnKSDQPng_UZSRf2zCNqF0konQTTI7HcE,620952
+wav2vec2_stt.libs/libgomp-a34b3233-7923ba20.so.1,sha256=xobJWBCkyOyg8vS7gkhm3MWIuJjKUvZL5r0GlecmljI,188808
+wav2vec2_stt.libs/libtorch-002bc629.so,sha256=3xZZN6KpRuCvgOE0pNmJFTgBCCYXuEt89L7p9ZUgtWo,16624
