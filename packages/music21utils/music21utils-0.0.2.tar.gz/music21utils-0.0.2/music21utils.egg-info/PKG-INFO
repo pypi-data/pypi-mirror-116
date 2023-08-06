@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: music21utils
+Version: 0.0.2
+Summary: Making music21 work the way I wish it worked
+Home-page: https://github.com/openmusickit/music21utils/tree/master/
+Author: Adam Michael Wood
+Author-email: adam.michael.wood@gmail.com
+License: Apache Software License 2.0
+Keywords: music
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Utils for music21
+> To make it work the way I wish it did.
+
+
+## Install
+
+`pip install music21utils`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+
