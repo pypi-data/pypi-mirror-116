@@ -1,0 +1,14 @@
+Toolkit/Crypto.py,sha256=wuJrcfNMeuTjs_X_f-nA3ikgqg62cBf4_dHaklO_L_Y,1346
+Toolkit/SpeechRecongition.py,sha256=-7h2xUC4grBMdD5rYrN2xp_xMartQTphvYt-el9tHAQ,1601
+Toolkit/TTA.py,sha256=9A432YXLeuC7ELnXav7yytJ58laafiIC1Lyo-jPWgv4,1622
+Toolkit/__init__.py,sha256=ENhWdnVg0nezttNGEJNpXcjNZ8nIf4dcn0uQuyrgT9E,5556
+Toolkit/errors.py,sha256=Pu-p3piLNB3Hj0G1GqRo895oInZFApyZBa5UjMN8HN8,667
+Toolkit/parse.py,sha256=VdSqr_7i7zooVUon5kQfTPFy0jrL77SUfRT6tvkCXX8,6999
+Toolkit/texttospeech.py,sha256=JdPgb4dKso9qA0qe_t5U04X5EcQR8W_mi9p0bPMgjJs,253
+Toolkit/tracking.py,sha256=a46jkaP6Xjp8jRfX90SyHdXCKtzvW-bzmmAWr59FDr8,19014
+Toolkit/translator.py,sha256=TJdySyNL0Dq5lMdaw4uyIG9Xm4ZtLLQYipE-iEYQPBc,298
+tkt_Toolkit-1.8.2.dist-info/METADATA,sha256=NWv39nRMLdqWlVjXP_SJ75yIce9FIGcyX0h-p3H826g,1937
+tkt_Toolkit-1.8.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tkt_Toolkit-1.8.2.dist-info/license,sha256=JEWX2fk3eXRmqfC6dwobNqfPaTVyKiDS9rz3HFIFr3E,1501
+tkt_Toolkit-1.8.2.dist-info/top_level.txt,sha256=cKjviaBLRETsMROe5HlwWTQ8XtrBd5T9-c_g8j_Hz7w,8
+tkt_Toolkit-1.8.2.dist-info/RECORD,,
