@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: authsrv
+Version: 0.0.3
+Summary: wrapper for authsrv utilities
+Home-page: https://github.com/unixtools/authsrv-python
+Author: Nathan Neulinger
+Author-email: nneul@neulinger.org
+License: MIT
+Keywords: authsrv
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+authsrv
+=======
+
+AuthSrv is a library for python that wraps the authsrv utility for password storage and retrieval.
+
+Quick Example
+=============
+
+
+
+
