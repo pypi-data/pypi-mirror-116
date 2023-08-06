@@ -1,0 +1,8 @@
+pycaw
+comtypes
+psutil
+sounddevice
+scipy
+
+[:python_version < "3.4"]
+enum34
