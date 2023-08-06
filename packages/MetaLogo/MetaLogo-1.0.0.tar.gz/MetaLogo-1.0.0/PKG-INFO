@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MetaLogo
+Version: 1.0.0
+Summary: MetaLogo is a tool for making aligned sequence logos with multiple groups of sequences of different lengths or other characteristics
+Home-page: https://github.com/labomics/MetaLogo
+Author: Yaowen Chen
+Author-email: achenge07@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: webserver
+License-File: LICENSE
+
+UNKNOWN
+
