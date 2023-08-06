@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/distributions/Binomialdistribution.py
+src/distributions/Gaussiandistribution.py
+src/distributions/Generaldistribution.py
+src/distributions/__init__.py
+src/minimal_stats.egg-info/PKG-INFO
+src/minimal_stats.egg-info/SOURCES.txt
+src/minimal_stats.egg-info/dependency_links.txt
+src/minimal_stats.egg-info/requires.txt
+src/minimal_stats.egg-info/top_level.txt
