@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vicdyf-tissaishima
+Version: 0.0.1
+Summary: Estimate cell state dynamics with fluctuation
+Home-page: https://github.com/kojikoji/vicdyf
+Author: Kojima Yasuhiro
+Author-email: kojima.yasuhiro@med.nagoya-u.ac.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kojikoji/vicdyf/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vicdyf: Variational Inference of Cell state Dynamics with fluctuation
+vicdyf is intended to estimated cell state dynamics with fluctuation from spliced and unspliced transcript abundance.
+Under construction.
+
+
+
