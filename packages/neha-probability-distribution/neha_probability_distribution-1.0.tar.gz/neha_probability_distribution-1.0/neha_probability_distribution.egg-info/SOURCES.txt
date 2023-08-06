@@ -1,0 +1,10 @@
+setup.py
+neha_probability_distribution/Binomialdistribution.py
+neha_probability_distribution/Gaussiandistribution.py
+neha_probability_distribution/Generaldistribution.py
+neha_probability_distribution/__init__.py
+neha_probability_distribution.egg-info/PKG-INFO
+neha_probability_distribution.egg-info/SOURCES.txt
+neha_probability_distribution.egg-info/dependency_links.txt
+neha_probability_distribution.egg-info/not-zip-safe
+neha_probability_distribution.egg-info/top_level.txt
