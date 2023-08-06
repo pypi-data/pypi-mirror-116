@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+simplegraphicslibrary/__init__.py
+simplegraphicslibrary/main.py
+simplegraphicslibrary.egg-info/PKG-INFO
+simplegraphicslibrary.egg-info/SOURCES.txt
+simplegraphicslibrary.egg-info/dependency_links.txt
+simplegraphicslibrary.egg-info/requires.txt
+simplegraphicslibrary.egg-info/top_level.txt

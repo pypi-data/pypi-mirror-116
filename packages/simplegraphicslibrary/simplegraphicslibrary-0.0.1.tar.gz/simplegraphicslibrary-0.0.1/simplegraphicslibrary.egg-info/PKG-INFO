@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: simplegraphicslibrary
+Version: 0.0.1
+Summary: Making some stuff simpler...
+Home-page: UNKNOWN
+Author: FoctasticCode
+Author-email: youdont.have@to.know
+License: UNKNOWN
+Keywords: python,pygame,graphics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Did you EVER wanted a BETTER pygame?. Wellp, you will not find it!
+
