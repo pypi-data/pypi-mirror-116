@@ -1,0 +1,8 @@
+pspca/__init__.py,sha256=laEuX0yPKhrUehpILqC7kCWxevnQUkmjyeo1ZxHCNcg,115
+pspca/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pspca/utils.py,sha256=UAbYwnkcawYjdef9giHELtORSohEhwBiSF83HWg8sl8,2606
+pspca/wrapper.py,sha256=vpcf41nbG1yqvHFKVdD2aT-KcL01E-8x2UKuGJIhYOY,929
+pspca-0.0.1a0.dist-info/LICENSE.rst,sha256=lfBIRjEG9AS3bw8IVoQVF7XI21ksZEzCKwoLfNt2k7Q,1085
+pspca-0.0.1a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pspca-0.0.1a0.dist-info/METADATA,sha256=rodVrTKWvk0dzNqfoG35_juuWD9an1LXqn72yWV-8Ic,3586
+pspca-0.0.1a0.dist-info/RECORD,,
