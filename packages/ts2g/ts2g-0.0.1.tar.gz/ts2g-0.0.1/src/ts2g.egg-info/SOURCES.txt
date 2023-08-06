@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/t2sg/__init__.py
+src/t2sg/calculate.py
+src/t2sg/read.py
+src/t2sg/save.py
+src/ts2g.egg-info/PKG-INFO
+src/ts2g.egg-info/SOURCES.txt
+src/ts2g.egg-info/dependency_links.txt
+src/ts2g.egg-info/top_level.txt
