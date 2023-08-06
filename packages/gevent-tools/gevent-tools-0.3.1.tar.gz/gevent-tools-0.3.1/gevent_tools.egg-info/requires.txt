@@ -1,0 +1,4 @@
+six>=1.10
+gevent>=1.0
+treelib>=1.0
+geventhttpclient>=1.4
