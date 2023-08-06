@@ -1,0 +1,2 @@
+apns@git+git://github.com/djacobs/PyAPNs.git#egg=apns
+simplescheduler@git+https://github.com/StreamlineData/sdscheduler.git#egg=simplescheduler
