@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/calculator.py
+src/calculator_tobade.egg-info/PKG-INFO
+src/calculator_tobade.egg-info/SOURCES.txt
+src/calculator_tobade.egg-info/dependency_links.txt
+src/calculator_tobade.egg-info/top_level.txt
