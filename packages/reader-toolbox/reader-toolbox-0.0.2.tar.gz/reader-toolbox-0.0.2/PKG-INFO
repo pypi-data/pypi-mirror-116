@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: reader-toolbox
+Version: 0.0.2
+Summary: Distant Reader Toolbox, a command-line tool for using and understanding Distant Reader study carrels
+Home-page: https://github.com/ericleasemorgan/reader-toolbox
+Author: Eric Lease Morgan
+Author-email: emorgan@nd.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ericleasemorgan/reader-toolbox/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Distant Reader Toolbox
+
+The Distant Reader Toolbox is a command-line interface for interacting with Distant Reader study carrels.
+
+The [Distant Reader](https:/distantreader.org) takes an almost arbitrary amount of unstructured data (text) as input, does text mining and natural language processing against it, and outputs sets of structured data affectionatly called "study carrels". This tool -- run from the command line as 'rdr' -- enables the student, researcher, or scholar to quickly and easily digest the content of study carrels to address questions from the mundane to the sublime.
+
+## Links
+
+   * Download: [https://pypi.org/project/reader-toolbox](https://pypi.org/project/reader-toolbox)
+   * Source code: [https://github.com/ericleasemorgan/reader-toolbox](https://github.com/ericleasemorgan/reader-toolbox)
+   * Bug Tracker: [https://github.com/ericleasemorgan/reader-toolbox/issues](https://github.com/ericleasemorgan/reader-toolbox/issues)\
+
+
+---
+Eric Lease Morgan &lt;emorgan@nd.edu&gt;  
+August 15, 2021
+
+
