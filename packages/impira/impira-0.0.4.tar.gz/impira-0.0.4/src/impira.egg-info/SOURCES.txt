@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/impira/__init__.py
+src/impira/api_v2.py
+src/impira/version.py
+src/impira.egg-info/PKG-INFO
+src/impira.egg-info/SOURCES.txt
+src/impira.egg-info/dependency_links.txt
+src/impira.egg-info/requires.txt
+src/impira.egg-info/top_level.txt
