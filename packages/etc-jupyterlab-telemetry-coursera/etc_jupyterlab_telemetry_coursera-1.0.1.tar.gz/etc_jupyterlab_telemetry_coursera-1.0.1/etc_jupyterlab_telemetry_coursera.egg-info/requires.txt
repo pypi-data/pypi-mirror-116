@@ -1,0 +1,4 @@
+jupyter_server<2,>=1.6
+etc_jupyterlab_telemetry_extension==2.0.2
+etc_jupyterlab_telemetry_validate_button==0.1.5
+etc_jupyterlab_nbgrader_validate==0.1.4
