@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+brawlstarsapi/brawlstarsapi.egg-info/PKG-INFO
+brawlstarsapi/brawlstarsapi.egg-info/SOURCES.txt
+brawlstarsapi/brawlstarsapi.egg-info/dependency_links.txt
+brawlstarsapi/brawlstarsapi.egg-info/top_level.txt
