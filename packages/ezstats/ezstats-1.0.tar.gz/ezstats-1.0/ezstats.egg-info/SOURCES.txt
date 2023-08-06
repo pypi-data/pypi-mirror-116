@@ -1,0 +1,11 @@
+setup.py
+ezstats/Binomialdistribution.py
+ezstats/Gaussiandistribution.py
+ezstats/Generaldistribution.py
+ezstats/Uniformdistribution.py
+ezstats/__init__.py
+ezstats.egg-info/PKG-INFO
+ezstats.egg-info/SOURCES.txt
+ezstats.egg-info/dependency_links.txt
+ezstats.egg-info/not-zip-safe
+ezstats.egg-info/top_level.txt
