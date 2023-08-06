@@ -1,0 +1,17 @@
+automic_rest/__init__.py,sha256=dvkSIhWcOMIRr1_VSoXC37FXeiOzq75gSZX6JEiylB4,495
+automic_rest/connection.py,sha256=NLx30lhxfUYpCnfZywcOVPq03dj0qDH8aLjAcNtyfXI,1313
+automic_rest/executions.py,sha256=ZB1rwdShnd8_0-oG4eXkH0grkU0pgVPzRSmTZqEgjTQ,5451
+automic_rest/forecasts.py,sha256=5_S3OzQaDEtZ2hDvFhdh3YIu71f-04t0113HK4zSwjs,3081
+automic_rest/help.py,sha256=cXnzl1YoDxKBu5L6H8lZ36jOZxj5nr1uGo96yTf_Gx0,52019
+automic_rest/objects.py,sha256=eZrOZrrX_cL9MH9AshR71f0TG94Cghi9fBt2LNjQDkU,3289
+automic_rest/ping.py,sha256=cdBLYDZaisBvqiOi79fkqGtcNHl0wmpqaPhapd072ps,786
+automic_rest/repositories.py,sha256=yrpnEBVm2xF1JH9sbh_HHQtgDOVmzrOapHlsBwcLV_Q,6361
+automic_rest/scripts.py,sha256=H1MGDvG9ViCKRcDUW1xY2dz6UqZWLdEfJNfswsnZlNU,1003
+automic_rest/search.py,sha256=eJq_KyzmR228HJte6fMR480Hgo5BnwfmPrBH6C3dq9M,1005
+automic_rest/system.py,sha256=NZ3LjgtbVnPhONO8bP6ddKTKDBGJ_g3Ai-KdVnbKUnM,3413
+automic_rest/telemetry.py,sha256=Meee-5Qz87aZj-1KdSbjJmYCvFwKNKrFMtPMbmlenIA,1259
+automic_rest-0.0.3.dist-info/LICENSE,sha256=bRIQKE_WRrnCpdBAsmFaOdHnyhBdsAfmgNOlvbQFrgY,1065
+automic_rest-0.0.3.dist-info/METADATA,sha256=94W2N6o_ZfAcaOn58N9kQQexm6T8A5hj_n1i9vthi0s,15525
+automic_rest-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+automic_rest-0.0.3.dist-info/top_level.txt,sha256=u8V_P2kTeEHYuyqZKss20I4T2Y_WfDvKi0yJ7v9Dd34,13
+automic_rest-0.0.3.dist-info/RECORD,,
