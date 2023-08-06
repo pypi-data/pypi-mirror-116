@@ -1,0 +1,16 @@
+slumba/__init__.py,sha256=U1ZOQkvD-uIlZVr3sSguniZ797B9w7QsIu-BmI4H7X0,4108
+slumba/aggregate.py,sha256=Wcp2ssLT6OLrN3SmVsbO25ERh89m5wlNP8723YwTeqE,3943
+slumba/numbaext.py,sha256=UI5CQltVcqhR3NLqHT5-LTYNoEkxCvm4OFwpUMCxUvE,7220
+slumba/scalar.py,sha256=GI3gR_dh0UKOmAZLfLXmpZbckSH66OFXX_zHlQARdks,1307
+slumba/sqlite.py,sha256=vAmBTTYad3-sC8xQdnVqyg257KFy9CDPZyMKjI6JJDw,3558
+slumba/aggregate.py,sha256=Wcp2ssLT6OLrN3SmVsbO25ERh89m5wlNP8723YwTeqE,3943
+slumba/cslumba.cc,sha256=-1T9nHcUKVze2nJDT4tu4oKeAQEmRka4kteLYUCEboM,811
+slumba/cslumba.cp38-win_amd64.pyd,sha256=J8RSKbStR75IrRwSbLi5wgN64M8UV6mAOcMgW12_xpg,102400
+slumba/numbaext.py,sha256=UI5CQltVcqhR3NLqHT5-LTYNoEkxCvm4OFwpUMCxUvE,7220
+slumba/scalar.py,sha256=GI3gR_dh0UKOmAZLfLXmpZbckSH66OFXX_zHlQARdks,1307
+slumba/sqlite.py,sha256=vAmBTTYad3-sC8xQdnVqyg257KFy9CDPZyMKjI6JJDw,3558
+slumba/__init__.py,sha256=U1ZOQkvD-uIlZVr3sSguniZ797B9w7QsIu-BmI4H7X0,4108
+slumba-1.1.13.dist-info/LICENSE,sha256=wpeRq_jdjysEHC9qbyHt4UOdTt2tCUKlBzKvqT94ouE,11554
+slumba-1.1.13.dist-info/WHEEL,sha256=SXHaeGlkQoshrMzjdNMpiYK2g4zs-g03114_BXgsgys,91
+slumba-1.1.13.dist-info/METADATA,sha256=TS_jVeX78jrEuivCJUkoydVw4z5iQ0Q1BUkNJiS0bx8,3277
+slumba-1.1.13.dist-info/RECORD,,
