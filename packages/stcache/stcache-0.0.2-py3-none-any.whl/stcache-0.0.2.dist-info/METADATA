@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stcache
+Version: 0.0.2
+Summary: Space-Track Pull through TLE cache
+Home-page: UNKNOWN
+Author: TheExclosure
+Author-email: <matt@exclosure.io>
+License: UNKNOWN
+Keywords: satellite,TLE,orbit,astronomy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: spacetrack (==0.16.0)
+Requires-Dist: requests (==2.23.0)
+
+This is a utility to cache and index TLE files from space-track.org
+
+
