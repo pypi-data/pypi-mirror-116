@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pelican-po4a
+Version: 0.1.0
+Summary: Pelican plugin for managing l10n with po4a
+Home-page: https://edugit.org/Teckids/team-pr/pelican-po4a
+License: Apache-2.0
+Keywords: pelican,plugin,po4a,localisation,translation
+Author: Dominik George
+Author-email: dominik.george@teckids.org
+Requires-Python: >=3.6.2,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Pelican
+Classifier: Framework :: Pelican :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pelican (>=4.5)
+Project-URL: Documentation, https://docs.getpelican.com
+Project-URL: Funding, https://donate.getpelican.com/
+Project-URL: Issue Tracker, https://edugit.org/Teckids/team-pr/pelican-po4a/-/issues
+Project-URL: Repository, https://edugit.org/Teckids/team-pr/pelican-po4a
+Description-Content-Type: text/markdown
+
+pelican-po4a: Pelican plugin for managing l10n with po4a
+========================================================
+
+<!-- [![Build Status](https://img.shields.io/github/workflow/status/pelican-plugins/po4a/build)](https://github.com/pelican-plugins/po4a/actions) -->
+[![PyPI Version](https://img.shields.io/pypi/v/pelican-po4a)](https://pypi.org/project/pelican-po4a/)
+![License](https://img.shields.io/pypi/l/pelican-po4a?color=blue)
+
+Pelican plugin for managing l10n with po4a
+
+Installation
+------------
+
+This plugin can be installed via:
+
+    python -m pip install pelican-po4a
+
+Usage
+-----
+
+<<Add plugin details here>>
+
+Contributing
+------------
+
+Contributions are welcome and much appreciated. Every little bit helps. You can contribute by improving the documentation, adding missing features, and fixing bugs. You can also help out by reviewing and commenting on [existing issues][].
+
+To start contributing to this plugin, review the [Contributing to Pelican][] documentation, beginning with the **Contributing Code** section.
+
+[existing issues]: https://edugit.org/Teckids/team-pr/pelican-po4a/-/issues
+[Contributing to Pelican]: https://docs.getpelican.com/en/latest/contribute.html
+
+License
+-------
+
+This project is licensed under the Apache-2.0 license.
+
