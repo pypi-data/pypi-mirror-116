@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gitrepup
+Version: 1.0
+Summary: A simple python utility script to update all github repositories in a location giving the user a good UI using the python rich module
+Home-page: https://github.com/ruthvikvegunta/gitrepup
+Author: Ruthvik Vegunta
+Author-email: ruthvikv@icloud.com, ruthvikvegunta2@gmail.com
+License: MIT
+Description: # gitrepup
+        - A simple python utility script to update all github repositories in a location giving the user a good UI using the python rich module
+Keywords: Python,Script,Github,Update
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
