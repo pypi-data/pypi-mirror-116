@@ -1,0 +1,13 @@
+tracardi_maxmind_geolite2/plugin.py,sha256=_PhDQny0sp3uBqxSEfsVzt47kZ6UlUtAvjrh-hiJ3WI,2882
+tracardi_maxmind_geolite2/test.py,sha256=b8mCYEUH--dYnA5tpEyAn93I4ixBpGWYRiooM-yh2TI,348
+tracardi_maxmind_geolite2/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracardi_maxmind_geolite2/model/maxmind_geolite2_client.py,sha256=L-G4yUnut0btDvvEdagShNn-SEKs77bmzFNjWgKmCNc,1981
+tracardi_maxmind_geolite2/model/__pycache__/__init__.cpython-37.pyc,sha256=YgEfEl0ZPQ2bxYh5v1g5Obbds4WnLiM6gPs184w2KSQ,183
+tracardi_maxmind_geolite2/model/__pycache__/__init__.cpython-38.pyc,sha256=5mSGelQz8Hd9cxdC28RlxhS7IUlVPok6QXzMNAisrLg,187
+tracardi_maxmind_geolite2/model/__pycache__/maxmind_geolite2_client.cpython-37.pyc,sha256=mVygu-uWrqQGCLyFRh-mMpLh2fpeSdu7BwKN7j37zuY,3540
+tracardi_maxmind_geolite2/model/__pycache__/maxmind_geolite2_client.cpython-38.pyc,sha256=nOchFcp8ZRlSIyq3EL8ZQekhyNl_30N6fRlWRTlkriE,3612
+tracardi_maxmind_geolite2-0.1.4.dist-info/LICENSE.md,sha256=l3ZUNaXLxnJvPaG7GYQk8VW6uUE0meUyDOrd7QXXu28,1072
+tracardi_maxmind_geolite2-0.1.4.dist-info/METADATA,sha256=cIg5_Azc_yDXUvx9MPOjmud4cSCsmnxdtn3T_WMYMEU,1491
+tracardi_maxmind_geolite2-0.1.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tracardi_maxmind_geolite2-0.1.4.dist-info/top_level.txt,sha256=XWNSpQUTqmQ2rzBYS3oiY68ckncWZJKSaIZ1xnuOm7I,26
+tracardi_maxmind_geolite2-0.1.4.dist-info/RECORD,,
