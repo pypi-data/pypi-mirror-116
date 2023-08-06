@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "datareadingrequests"
+version = "1.0.0"
+description = "A client for Energize Andover's Building Energy API, with a focus on clarity and usability."
+authors = ["fisher <fisher521.fs@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+coverage = "^5.5"
+pandas = "^1.3.2"
+numpy = "^1.21.2"
+coveralls = "^3.2.0"
+pep257 = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

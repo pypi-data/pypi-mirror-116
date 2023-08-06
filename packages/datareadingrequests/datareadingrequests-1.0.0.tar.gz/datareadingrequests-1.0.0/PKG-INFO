@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: datareadingrequests
+Version: 1.0.0
+Summary: A client for Energize Andover's Building Energy API, with a focus on clarity and usability.
+License: MIT
+Author: fisher
+Author-email: fisher521.fs@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
