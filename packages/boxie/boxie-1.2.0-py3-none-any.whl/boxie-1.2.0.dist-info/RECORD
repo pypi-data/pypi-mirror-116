@@ -1,0 +1,9 @@
+LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+boxie/__init__.py,sha256=3q0SznrVKek388lxRY3GsjqDEb817x3WZSwKInZCyDA,298
+boxie/__main__.py,sha256=d1DM3SpW9SpGwBjZ7WZ8GwzVg3mwS1Wt6Y0ps-PeifA,121
+boxie/core.py,sha256=v-RDfkDYouguwDzL6J1YqgpL8yl5uCD8I9--2X3JXG0,807
+boxie-1.2.0.dist-info/entry_points.txt,sha256=0b2SmvPgDLN1mtqq8_rTuFOEtUbO22uFUcFSBk9XKZU,36
+boxie-1.2.0.dist-info/LICENSE,sha256=Nbq7yYTTspSY7zH5jjmRRUD0yoaMsryaYtolXTCP4d0,1072
+boxie-1.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+boxie-1.2.0.dist-info/METADATA,sha256=CRDNBCWXRw-tEyBQITPQM6A49vvwirZDoev2ZHoAc00,1963
+boxie-1.2.0.dist-info/RECORD,,
