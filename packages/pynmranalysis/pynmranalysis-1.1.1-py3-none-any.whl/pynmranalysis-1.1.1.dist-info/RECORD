@@ -1,0 +1,10 @@
+pynmranalysis/__init__.py,sha256=F_ApzGv4wM8fOzMNFNB70iaBLYujYalbDxBm3-W69k0,789
+pynmranalysis/analysis.py,sha256=lfJIWfL6wYaFPQpQWylNSFwyaeac_GUylLlvp7Rhjic,76771
+pynmranalysis/nmrfunctions.py,sha256=5L70fSd-MRRpSuAkbB6z4XgqelREH_cDWpBf8WzvFSA,5051
+pynmranalysis/normalization.py,sha256=iMmvAPpZrWV8_aRIltvd42wqfVb903sKBnR4ozY35-8,6384
+pynmranalysis/preprocessing.py,sha256=s3Fk28ab7k8fi_IE8w_KiYzqn4oRLTOXbH98SOpXdTY,5788
+pynmranalysis-1.1.1.dist-info/METADATA,sha256=Mk1ifFowV4Z1sv77NP7aRdCQZ7AWr5tMh5RWHrTvy8g,12083
+pynmranalysis-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pynmranalysis-1.1.1.dist-info/license.txt,sha256=nAgvbJd8di0hWlJ4hMf7PlOfpIrksc8T4V7iXFRNZoo,1095
+pynmranalysis-1.1.1.dist-info/top_level.txt,sha256=ulRXdTRfCwTHKXju-7kJvEtq3LnD9MhDLzSZW0BL-4c,14
+pynmranalysis-1.1.1.dist-info/RECORD,,
