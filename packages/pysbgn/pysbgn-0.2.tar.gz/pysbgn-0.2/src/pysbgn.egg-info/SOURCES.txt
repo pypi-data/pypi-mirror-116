@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pysbgn/__init__.py
+src/pysbgn/sbgn_core.py
+src/pysbgn/sbgn_types.py
+src/pysbgn.egg-info/PKG-INFO
+src/pysbgn.egg-info/SOURCES.txt
+src/pysbgn.egg-info/dependency_links.txt
+src/pysbgn.egg-info/top_level.txt
