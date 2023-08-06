@@ -1,0 +1,10 @@
+README.md
+setup.py
+YoutTubeComments.egg-info/PKG-INFO
+YoutTubeComments.egg-info/SOURCES.txt
+YoutTubeComments.egg-info/dependency_links.txt
+YoutTubeComments.egg-info/requires.txt
+YoutTubeComments.egg-info/top_level.txt
+ytcomment/auth.py
+ytcomment/comment.py
+ytcomment/uploads.py
