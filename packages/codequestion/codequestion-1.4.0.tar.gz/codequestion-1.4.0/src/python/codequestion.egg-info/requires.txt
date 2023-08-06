@@ -1,0 +1,4 @@
+html2markdown>=0.1.7
+mdv>=1.7.4
+tqdm==4.48.0
+txtai[similarity]>=3.2.0
