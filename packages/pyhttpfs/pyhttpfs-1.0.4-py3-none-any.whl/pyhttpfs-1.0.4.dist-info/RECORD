@@ -1,0 +1,14 @@
+pyhttpfs/__init__.py,sha256=rpNFnQEcNTc8-yM1Tgyr_j3R_3yuyAHiwrQ14T-tOzI,585
+pyhttpfs/__main__.py,sha256=syA3xbEN3Rye6dBmYhy83Yz80WlOiPN2t0zo_MGiXoI,325
+pyhttpfs/routing.py,sha256=hx0V9CChMDzx6fmlgXdfI_N1UlG32UZJKZGRhDscZ-Q,2977
+pyhttpfs/assets/icons.json,sha256=PupMf2vbWpjbWPoXcpz-PHxyHH0T7OqLckd79JYCdrE,195
+pyhttpfs/core/args.py,sha256=agqZaKjzWWmsXmPB--Uqg3OQHBtmYJZHJph3l7FPwXI,1078
+pyhttpfs/core/config.py,sha256=4Zg1YuGRM4k_HlGI3s2cc1rvsIh2wo_A087Ymvta5Zw,827
+pyhttpfs/core/icons.py,sha256=f-CxiuJYq-LYsY48H5gGWOMTDUma-uXOCxB26Ks_0NY,1295
+pyhttpfs/templates/explorer.html,sha256=cBbjRB_trEzgLuNplCfHDM89QWG3B0AT9Whd4qQ8yEs,1146
+pyhttpfs-1.0.4.dist-info/LICENSE.txt,sha256=dTEuhWVzlcHDQsbLZA60PgCDEW1N0ioFydVmn8otjhA,1065
+pyhttpfs-1.0.4.dist-info/METADATA,sha256=rnfHr-9Udm8L-LfQnpiucZza_1hHqafEg8i4YKZqA-c,469
+pyhttpfs-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyhttpfs-1.0.4.dist-info/entry_points.txt,sha256=iQRogaHxTzaDOQjA42yfTzJ9Q6qCiQImp4u8swLhi0Y,71
+pyhttpfs-1.0.4.dist-info/top_level.txt,sha256=YgUcoeyWTjF5AREdQ8UpJ_qgi9HKA5srtZEMqpOGboA,9
+pyhttpfs-1.0.4.dist-info/RECORD,,
