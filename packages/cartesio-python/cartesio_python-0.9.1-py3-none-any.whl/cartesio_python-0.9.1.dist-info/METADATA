@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cartesio-python
+Version: 0.9.1
+Summary: Cartesio is a simple Cartesian Genetic Programming python package to solve Image Segmentation problems.
+Home-page: https://github.com/MicroMedIAn/cartesio
+Author: Kevin Cortacero
+Author-email: kevin.cortacero@inserm.fr
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: micromind
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python-headless
+Requires-Dist: scikit-image
+Requires-Dist: simplejson
+
+UNKNOWN
+
+
