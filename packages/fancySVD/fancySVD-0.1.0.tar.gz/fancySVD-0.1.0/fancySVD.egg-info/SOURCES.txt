@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fancySVD/__init__.py
+fancySVD/common.py
+fancySVD/iterative_svd.py
+fancySVD/solver.py
+fancySVD.egg-info/PKG-INFO
+fancySVD.egg-info/SOURCES.txt
+fancySVD.egg-info/dependency_links.txt
+fancySVD.egg-info/requires.txt
+fancySVD.egg-info/top_level.txt
+test/test_iterative_svd.py
+test/test_solver.py
