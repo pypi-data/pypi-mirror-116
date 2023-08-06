@@ -1,0 +1,12 @@
+.gitignore
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+easy_exchange_rates/__init__.py
+easy_exchange_rates/eer.py
+easy_exchange_rates.egg-info/PKG-INFO
+easy_exchange_rates.egg-info/SOURCES.txt
+easy_exchange_rates.egg-info/dependency_links.txt
+easy_exchange_rates.egg-info/requires.txt
+easy_exchange_rates.egg-info/top_level.txt
