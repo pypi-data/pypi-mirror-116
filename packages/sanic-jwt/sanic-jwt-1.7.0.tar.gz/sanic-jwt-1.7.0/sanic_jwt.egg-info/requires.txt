@@ -1,0 +1,8 @@
+pyjwt~=2.1.0
+
+[all]
+Sphinx
+Sphinx
+
+[docs]
+Sphinx
