@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: odd_ge
+Version: 0.0.1
+Summary: ODD adapter to Great Expectations
+Home-page: UNKNOWN
+Author: Provectus ODD team
+License: UNKNOWN
+Description: # odd-ge-adapter
+Keywords: odd-ge-adapter
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
