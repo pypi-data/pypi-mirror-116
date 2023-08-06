@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: dle-encoder
+Version: 0.1.0
+Summary: DLE ASCII Encoder
+Home-page: https://github.com/robamu-org/py-dle-encoder
+Author: Robin Mueller
+Author-email: robin.mueller.m@gmail.com
+License: Apache-2.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+
+# DLE Encoder for Python
+
+This encoder provides a simple ASCII transport layer for serial data.
+A give data stream is encoded by adding a STX (0x02) char at the beginning and an ETX (0x03) char at the end.
+All STX and ETX occurrences in the packet are encoded as well so the receiver can simply look for STX and ETX
+occurrences to identify packets.
+
+You can find a C++ implementation
+[here](https://egit.irs.uni-stuttgart.de/fsfw/fsfw/src/branch/master/globalfunctions/DleEncoder.cpp).
+
+## License
+
+Copyright 2019-2021 Robin Mueller, KSat e.V. Stuttgart
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
