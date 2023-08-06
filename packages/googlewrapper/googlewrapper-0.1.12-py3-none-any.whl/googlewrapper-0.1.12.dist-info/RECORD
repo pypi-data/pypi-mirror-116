@@ -1,0 +1,15 @@
+googlewrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googlewrapper/cal.py,sha256=qFjIjuk2qO4Jfo7buYwfaxkMOBy59mhKnS-HRF74wDU,3031
+googlewrapper/connect.py,sha256=YH-gOstsblBc77CXt03PXZkUEKuBrz3lSeCYkCD9Rcw,4078
+googlewrapper/ga.py,sha256=Gla6kXYJyTjFoZvGFR3YbWZisLu8emxSu7TkgNP_QRs,10064
+googlewrapper/gbq.py,sha256=s9smA0RzBTYMa4rJeaCqtIg3AKSIRVHUF0vxlmH9xoU,2568
+googlewrapper/gmail.py,sha256=xLTibBOe7DdZhybAnbwW4mVcu7G2WY_b3v9WenhJB8E,3013
+googlewrapper/gmail1.py,sha256=pA6pKzaMRSu2FhzYfHUY-0r4CLT8On076CTaSmY6TJk,622
+googlewrapper/gsc.py,sha256=UedX8r3wbPSqal0nGLKoVz9K5e-vf9pUoDwcZml3l8Q,11991
+googlewrapper/pagespeed.py,sha256=gzGfwK-n17KaBkmH4rcpf6Io_3JpaM1b6f8RKg-u_9I,4174
+googlewrapper/sheets.py,sha256=8V7pzVuIQCO4uUVqrrSciSHwsLtPoYnMi_Cg-clHYeE,2074
+googlewrapper-0.1.12.dist-info/LICENSE,sha256=ptFdxpnv0Dme320b0Zg1N3Oc0EF8pLxu87enlvxAl88,1079
+googlewrapper-0.1.12.dist-info/METADATA,sha256=BJldNge_iCCqIVCtltK6fn4LLgx8dYPm8d1tqwlKP1U,19704
+googlewrapper-0.1.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+googlewrapper-0.1.12.dist-info/top_level.txt,sha256=cK21KDCQgHNLIBZ00OgoTWMO7BlhcDGLWKqmrySumdc,14
+googlewrapper-0.1.12.dist-info/RECORD,,
