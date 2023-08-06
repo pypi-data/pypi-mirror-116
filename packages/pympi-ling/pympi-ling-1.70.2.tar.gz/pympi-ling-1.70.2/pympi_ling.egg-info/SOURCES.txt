@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pympi/Elan.py
+pympi/Praat.py
+pympi/__init__.py
+pympi_ling.egg-info/PKG-INFO
+pympi_ling.egg-info/SOURCES.txt
+pympi_ling.egg-info/dependency_links.txt
+pympi_ling.egg-info/requires.txt
+pympi_ling.egg-info/top_level.txt
+test/test_elan.py
+test/test_praat.py
