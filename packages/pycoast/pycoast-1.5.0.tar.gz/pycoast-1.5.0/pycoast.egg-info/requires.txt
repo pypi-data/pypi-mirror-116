@@ -1,0 +1,17 @@
+aggdraw
+numpy
+pillow
+pyproj
+pyshp
+
+[docs]
+pyresample
+pytest
+sphinx
+
+[tests]
+coverage
+coveralls
+pyresample
+pytest
+pytest-cov
