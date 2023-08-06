@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ordinor
+Version: 0.1.0rc11
+Summary: Python toolkit for organizational model mining
+Home-page: https://github.com/roy-jingyang/OrdinoR
+Author: Jing (Roy) Yang
+Author-email: roy.j.yang@qut.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7, <=3.8
+License-File: LICENSE
+Provides-Extra: default
+Requires-Dist: networkx (>=2.4) ; extra == 'default'
+Requires-Dist: flask-bootstrap ; extra == 'default'
+Requires-Dist: pandas (>=0.25.3) ; extra == 'default'
+Requires-Dist: Flask ; extra == 'default'
+Requires-Dist: flask-session ; extra == 'default'
+Requires-Dist: scipy (>=1.3.1) ; extra == 'default'
+Requires-Dist: scikit-fuzzy (>=0.4.1) ; extra == 'default'
+Requires-Dist: numpy (>=1.17.2) ; extra == 'default'
+Requires-Dist: flask-wtf ; extra == 'default'
+Requires-Dist: scikit-learn (>=0.21.3) ; extra == 'default'
+Requires-Dist: pm4py (>=1.2.4) ; extra == 'default'
+Requires-Dist: flask-cors ; extra == 'default'
+
+UNKNOWN
+
