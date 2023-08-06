@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/payslip_br/__init__.py
+src/payslip_br/payslip.py
+src/payslip_br.egg-info/PKG-INFO
+src/payslip_br.egg-info/SOURCES.txt
+src/payslip_br.egg-info/dependency_links.txt
+src/payslip_br.egg-info/top_level.txt
