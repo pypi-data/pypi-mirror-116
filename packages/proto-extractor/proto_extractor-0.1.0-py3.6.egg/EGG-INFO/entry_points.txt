@@ -1,0 +1,3 @@
+[console_scripts]
+proto_extractor = proto_extractor:extract_cli
+

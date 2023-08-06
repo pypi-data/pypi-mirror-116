@@ -1,0 +1,9 @@
+README.md
+proto_extractor.py
+setup.py
+proto_extractor.egg-info/PKG-INFO
+proto_extractor.egg-info/SOURCES.txt
+proto_extractor.egg-info/dependency_links.txt
+proto_extractor.egg-info/entry_points.txt
+proto_extractor.egg-info/requires.txt
+proto_extractor.egg-info/top_level.txt
