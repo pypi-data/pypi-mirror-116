@@ -1,0 +1,3 @@
+setuptools
+oasys-barc4ro>=1.0.3
+pandas
