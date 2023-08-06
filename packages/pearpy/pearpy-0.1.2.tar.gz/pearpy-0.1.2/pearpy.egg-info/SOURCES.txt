@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pearpy/__init__.py
+pearpy/pear.py
+pearpy/pear_thread.py
+pearpy.egg-info/PKG-INFO
+pearpy.egg-info/SOURCES.txt
+pearpy.egg-info/dependency_links.txt
+pearpy.egg-info/top_level.txt
