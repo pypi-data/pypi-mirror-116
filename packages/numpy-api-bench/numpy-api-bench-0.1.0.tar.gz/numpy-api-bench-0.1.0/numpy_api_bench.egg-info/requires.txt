@@ -1,0 +1,4 @@
+numpy>=1.19
+
+[tests]
+pytest>=6.0.1
