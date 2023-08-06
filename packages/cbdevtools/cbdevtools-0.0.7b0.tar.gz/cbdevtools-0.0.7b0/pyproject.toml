@@ -1,0 +1,19 @@
+[tool.poetry]
+name         = "cbdevtools"
+version      = "0.0.7-beta"
+description  = '"Common Box of Dev Tools" proposing small scripts that can be helpful.'
+readme       = "README.md"
+authors      = ["Christophe BAL"]
+maintainers  = ["Christophe BAL"]
+license      = "GNU License Version 3"
+repository   = "https://github.com/projetmbc/tools-for-dev/tree/master/cbdevtools"
+
+[tool.poetry.dependencies]
+python  = "^3.8"
+orpyste = "^1.3.2-beta.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
