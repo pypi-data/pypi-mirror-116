@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: giantstar
+Version: 1.0.0
+Summary: There is a toolbox for autotest
+Home-page: https://gitee.com/yixunT/giantstar
+Author: Ze Hua
+Author-email: 1737985326@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: har2case
+Requires-Dist: openpyxl
+Requires-Dist: pyyaml
+Requires-Dist: selenium
+Requires-Dist: pytest
+Requires-Dist: allure-pytest
+Requires-Dist: pymysql
+Requires-Dist: faker
+Requires-Dist: jmespath
+Requires-Dist: Appium-Python-Client
+Requires-Dist: lxml
+Requires-Dist: paramiko
+Requires-Dist: pytest-rerunfailures
+Requires-Dist: parsel
+Requires-Dist: locust
+Requires-Dist: loguru
+Requires-Dist: pandas
+
+UNKNOWN
+
+
