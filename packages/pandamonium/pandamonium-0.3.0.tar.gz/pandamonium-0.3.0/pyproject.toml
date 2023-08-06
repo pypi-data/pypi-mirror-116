@@ -1,0 +1,36 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["wheel", "setuptools>=30.3.0", "attrs>=17.1", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
+target-version = ['py36', 'py37', 'py38']
+skip-string-normalization = true
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | .eggs
+  | build
+)/
+'''
+
+[tool.check-manifest]
+ignore = [
+    '.*',
+    'pyproject.toml',
+    'CODE_OF_CONDUCT.md',
+    'pandamon',
+    'panda-kill-taskid',
+    'panda-resub-taskid',
+    'panda-shortname'
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+force_single_line = true
+ignore_comments = true
+float_to_top = true
+skip = ["src/pandamonium/version.py"]
