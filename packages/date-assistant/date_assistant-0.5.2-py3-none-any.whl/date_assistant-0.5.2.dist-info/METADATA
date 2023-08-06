@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: date-assistant
+Version: 0.5.2
+Summary: 
+Home-page: https://github.com/jalvaradosegura/date_assistant
+License: MIT
+Author: Jorge Alvarado
+Author-email: alvaradosegurajorge@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Project-URL: Repository, https://github.com/jalvaradosegura/date_assistant
+Description-Content-Type: text/markdown
+
+# Date Assistant
+
