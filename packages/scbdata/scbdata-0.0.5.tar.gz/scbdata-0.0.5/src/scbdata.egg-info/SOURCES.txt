@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/scbdata/__init__.py
+src/scbdata/scbdata.py
+src/scbdata.egg-info/PKG-INFO
+src/scbdata.egg-info/SOURCES.txt
+src/scbdata.egg-info/dependency_links.txt
+src/scbdata.egg-info/entry_points.txt
+src/scbdata.egg-info/requires.txt
+src/scbdata.egg-info/top_level.txt

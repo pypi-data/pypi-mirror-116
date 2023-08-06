@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: scbdata
+Version: 0.0.5
+Summary: Package supporting data management in SOCIB filesystem
+Home-page: UNKNOWN
+Author: SOCIB Data Center
+Author-email: data.center@socib.es
+License: SOCIB - SOFTWARE LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
