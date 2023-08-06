@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cog-worker
+Version: 0.1.0
+Summary: Scalable geospatial analysis on Cloud Optimized GeoTIFFs.
+Home-page: https://github.com/vizzuality/cog_worker
+Author: Francis Gassert
+Author-email: francis.gassert@vizzuality.com
+License: MIT
+Keywords: cog geotiff raster gdal rasterio dask
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: distributed
+Provides-Extra: docs
+License-File: LICENSE.md
+
+# Cog-worker
+
+Scalable geospatial analysis on Cloud Optimized GeoTIFFs. 
+
+ - **Documentation**: https://vizzuality.github.io/cog_worker
+ - **PyPI**: https://pypi.org/cog_worker
+
+## Installation
+
+```
+pip install cog_worker
+```
+
+## Examples
+
+See `docs/source/examples` for Jupyter notebook examples
+
+
+
