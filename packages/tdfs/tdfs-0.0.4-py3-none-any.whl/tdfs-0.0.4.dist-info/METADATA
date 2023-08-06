@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: tdfs
+Version: 0.0.4
+Summary: Feature Store client using Teradata Dataframes
+Home-page: UNKNOWN
+Author: Teradata
+Author-email: teradata.corporation@teradatacorporation.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: teradataml (>=16.20.0.3)
+
+# Teradata Feature Store Client
+
+- [Installation](#installation)
+- [Usage](#usage)
+
+
+## Installation
+
+You can install via pip. The minimum python version required is 3.6+
+
+```shell
+pip install tdfs
+```
+
+## Usage
+
+First, you'll need `teradataml` context:
+```python
+from teradataml.context.context import *
+import getpass
+create_context('mycluster.teradata.com', 'my_user', getpass.getpass())
+```
+
+Next, use this context to get connection and instantiate Feature Store client:
+```python
+from tdfs import FeatureStore
+fs = FeatureStore(get_connection(), metadata_table = 'my_database.fs_metadata')
+```
+It will create metadata table if it doesn't exist.
+
+### Register feature groups
+
+```python
+fs.register_feature_group(entity = 'patient', table = 'dm.cust_profile', entity_key_column = 'cust_id', features = {'Age':'Age'}, date_column = 'snapshot_dt')
+```
+
+### Discover registered features
+
+```python
+fs.list_entities()
+
+fs.list_features('patient')
+
+fs.get_feature_details('patient', 'Age')
+```
+
+### Get feature set for training/evaluation/scoring
+
+```python
+train_df = fs.get_featureset_df('patient','2021-07-12',['Age','DiPedFunc', 'TwoHourSerIns'])
+
+train_pdf = train_df.to_pandas()
+```
+
