@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cleanapi/__init__.py
+cleanapi/server.py
+cleanapi.egg-info/PKG-INFO
+cleanapi.egg-info/SOURCES.txt
+cleanapi.egg-info/dependency_links.txt
+cleanapi.egg-info/requires.txt
+cleanapi.egg-info/top_level.txt
