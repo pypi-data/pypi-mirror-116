@@ -1,0 +1,15 @@
+2021-06-25 Version: 1.0.4
+- Support DescribeSuspEventDetail API.
+
+2021-06-18 Version: 1.0.3
+- Generated python2 2018-12-03 for Sas.
+
+2021-05-17 Version: 1.0.2
+- Generated python2 2018-12-03 for Sas.
+
+2021-05-17 Version: 1.0.1
+- Generated python2 2018-12-03 for Sas.
+
+2021-05-14 Version: 1.0.0
+- Generated python2 2018-12-03 for Sas.
+
