@@ -1,0 +1,8 @@
+PyYAML
+progressbar2
+pymisp
+ruamel.yaml
+
+[test]
+coverage
+yamllint
