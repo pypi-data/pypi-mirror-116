@@ -1,0 +1,70 @@
+# aiodeta
+
+[![Build](https://github.com/leits/aiodeta/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/leits/aiodeta/actions/workflows/testing.yml)
+[![codecov](https://codecov.io/gh/leits/aiodeta/branch/main/graph/badge.svg?token=2W3AhfHpPT)](https://codecov.io/gh/leits/aiodeta)
+[![PyPI version](https://badge.fury.io/py/aiodeta.svg)](https://badge.fury.io/py/aiodeta)
+
+Unofficial client for Deta Clound
+
+## Supported functionality
+
+- [x] Deta Base
+- [ ] Deta Drive
+- [ ] Decorator for cron tasks
+
+## Examples
+
+```python
+import asyncio
+from aiodeta import Deta
+
+DETA_PROJECT_KEY = "xxx_yyy"
+
+
+async def go():
+    db_name = "users"
+
+    # Initialize Deta client
+    deta = Deta(DETA_PROJECT_KEY)
+
+    # Initialize Deta Base client
+    base = deta.Base(db_name)
+
+    # Create row in Deta Base
+    user = {"username": "steve", "active": False}
+    resp = await base.insert(user)
+    print(resp)
+    user_key = resp["key"]
+
+    # Update row by key
+    resp = await base.update(user_key, set={"active": True})
+    print(resp)
+
+    # Get row by key
+    resp = await base.get(user_key)
+    print(resp)
+
+    # Delete row by key
+    resp = await base.delete(user_key)
+    print(resp)
+
+    # Create multiple rows in one request
+    users = [
+        {"username": "jeff", "active": True},
+        {"username": "rob", "active": False},
+        {"username": "joe", "active": True}
+    ]
+    resp = await base.put(users)
+    print(resp)
+
+    # Query data
+    query = [{"active": True}, {"username?pfx": "j"}]
+    result = await base.query(query=query, limit=10)
+    print(result)
+
+    # Close connection
+    await deta.close()
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(go())
+```
