@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "DJ003"
+version = "0.1.2"
+description = "This is a django project"
+authors = ["xiaodeng <xiaodengteacher@qq.com>"]
+license = "Apache 2.0"
+
+# 当前项目的依赖包
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = "^3.2.6"
+
+selenium = {version = "~3", optional = true}
+# 仅开发阶段的依赖包
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
+
+pywinauto = "~0.6"
+# 安装额外的包
+[tool.poetry.extras]
+pyopenxl = ["selenium"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# 定义pypi国内源
+[[tool.poetry.source]]
+name = "kylin"
+url = "https://mirrors.proxy.kylinsec.net/pypi/web/simple"
+default = true
+
+# 定义要运行的脚本路径
+[tool.poetry.scripts]
+# 脚本名称 = "模块名:函数名"
+one-script = "DJ003.run:main"
