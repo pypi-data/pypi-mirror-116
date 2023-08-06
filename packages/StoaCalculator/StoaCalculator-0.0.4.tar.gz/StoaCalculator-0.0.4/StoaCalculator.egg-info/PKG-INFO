@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: StoaCalculator
+Version: 0.0.4
+Summary: A powerful stoa calculator
+Home-page: UNKNOWN
+Author: Jorge Eldis Gonzalez
+Author-email: jorgeeldisg30@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+A stoa calculator that comes with a lot of functions!
+
+Change Log
+==========
+
+0.0.1 (27/03/21)
+----------------
+- First Release (Addition, Substraction, Multiplication, Division)
+
+0.0.2 (27/03/21)
+----------------
+- Second Release (Powers/Exponents)
+
+0.0.3 (12/08/21)
+----------------
+- Third Release (Square Root)
+
+0.0.4 (13/08/21)
+----------------
+- Fourth Release (Trigonometric Functions)
+
