@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: essencia.deta
+Version: 0.1.3
+Summary: Deta base for essencia enterprise.
+License: MIT
+Author: arantesdv
+Author-email: arantesdv@me.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: deta (>=1.0.0,<2.0.0)
