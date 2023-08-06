@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: yakh
+Version: 0.0.2
+Summary: Yet Another Kafka log Handler.
+Home-page: https://github.com/jmcdon03/yakh
+Author: Jonathan McDonough
+Author-email: jonathan.mcdonough@tufts.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jmcdon03/yakh/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Yet Another Kafka log Handler
+
+This project is currently in BETA and not finished!
+
+
