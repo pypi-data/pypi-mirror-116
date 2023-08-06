@@ -1,0 +1,17 @@
+bookfolder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bookfolder/formatter.py,sha256=7XqOioK47oxuUxld5A-NA9-UloTVVTUaXXNHiXbwTB0,1407
+bookfolder/pattern_creator.py,sha256=aH8JsAKE2BtQ65bWaOUWc2_7iS2xSDLAB_BIEeguIVQ,3114
+bookfolder/pdf.py,sha256=u_ggMbSq464pqCR5DzFVYTAnWqmwJYOCX0Bn5Aatn-s,6991
+bookfolder/sheet.py,sha256=IqvzDAHsXXQC2kySOC43d0rqnJg0rCkWjiI1oc3ZDKI,1643
+bookfolder/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bookfolder/gui/gui.py,sha256=bY_wp9_8RfSBoW02KjWDIP_o3Fi525VoJKJm96fdiL0,1913
+bookfolder/gui/widgets.py,sha256=Hmp1NlC8pvCF8gXRMJq5ZkJuAFzHSc7tUu0uHspC_ik,6980
+bookfolder/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bookfolder/scripts/cli.py,sha256=LWMDhwym2pZw3Tqi2J2edA2QqucD-t7zqq_DTqdRtXg,1863
+bookfolder/scripts/gui.py,sha256=HkqUKZBlbEl7stkX0Qu1SLJcrZUeR1YuVYRKqXNMrw8,227
+bookfolder-0.4.dist-info/LICENSE.md,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+bookfolder-0.4.dist-info/METADATA,sha256=PZP6j9HeUSehPgvT5aBKJvfdSVYIIkcgYq61W1i0mjk,3862
+bookfolder-0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bookfolder-0.4.dist-info/entry_points.txt,sha256=8gMazu1KL4mgjnCmYo0A_unv0R8_U-odLKsE6n5OhWk,105
+bookfolder-0.4.dist-info/top_level.txt,sha256=pM5axbYgNc7_pvMatCx3f124W0STwsmmu4i07e-Y0W8,11
+bookfolder-0.4.dist-info/RECORD,,
