@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cvefinder
+Version: 1.0.2
+Summary: A simple commandline app for searching and looking up opensource vulnerabilities
+Home-page: UNKNOWN
+Author: Vipin Kumar
+Author-email: vpnkumar.kumar1@gmail.com
+License: MIT
+Description: # Cvefinder
+        A simple commandline app for searching and looking up opensource vulnerabilities
+        
+        # Installation
+        
+        ## Using Pip
+        ```bash
+          $ pip install cvefinder
+        ```
+        
+        # Usage
+        ```bash
+        $ cvefinder
+        ```
+        ## Search
+        `search <keyword>`
+        ```bash
+        $ cvefinder search python
+        ```
+        ## Lookup
+        `search <name>`
+        ```bash
+        $ cvefinder look-up CVE-2020-2121
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
