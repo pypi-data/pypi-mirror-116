@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: partypy
+Version: 0.3.0
+Summary: Simulate attendance at your party!
+Home-page: https://github.com/TomasBeuzen/partypy
+License: MIT
+Author: Tomas Beuzen
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: altair (>=4.1.0,<5.0.0)
+Requires-Dist: altair-viewer (>=0.3.0,<0.4.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: pandas (>=1.3.1,<2.0.0)
+Project-URL: Documentation, https://partypy.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/TomasBeuzen/partypy
+Description-Content-Type: text/markdown
+
+# partypy 
+
+[![Python](https://img.shields.io/badge/python-3.9-blue)]()
+[![codecov](https://codecov.io/gh/TomasBeuzen/partypy/branch/main/graph/badge.svg)](https://codecov.io/gh/TomasBeuzen/partypy)
+[![Documentation Status](https://readthedocs.org/projects/partypy/badge/?version=latest)](https://partypy.readthedocs.io/en/latest/?badge=latest)
+
+
+## Installation
+
+```bash
+$ pip install -i https://test.pypi.org/simple/ partypy
+```
+
+## Features
+
+- TODO
+
+## Dependencies
+
+- TODO
+
+## Usage
+
+- TODO
+
+## Documentation
+
+The official documentation is hosted on Read the Docs: https://partypy.readthedocs.io/en/latest/
+
+## Contributors
+
+We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/TomasBeuzen/partypy/graphs/contributors).
+
+### Credits
+
+This package was created with Cookiecutter and the UBC-MDS/cookiecutter-ubc-mds project template, modified from the [pyOpenSci/cookiecutter-pyopensci](https://github.com/pyOpenSci/cookiecutter-pyopensci) project template and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage).
+
