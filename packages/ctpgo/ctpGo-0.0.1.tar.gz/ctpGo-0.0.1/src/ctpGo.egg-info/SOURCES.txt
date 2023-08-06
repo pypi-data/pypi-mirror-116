@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ctpGo.egg-info/PKG-INFO
+src/ctpGo.egg-info/SOURCES.txt
+src/ctpGo.egg-info/dependency_links.txt
+src/ctpGo.egg-info/top_level.txt
+src/example_package/__init__.py
+src/example_package/example.py
