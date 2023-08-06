@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyrthomas
+Version: 0.0.10
+Summary: Python implementation for René Thomas's Framework
+Home-page: https://github.com/talhajunaidd/pyrthomas
+License: MIT
+Keywords: biological regulatory networks,systems biology,qualitative modelling
+Author: Talha Junaid
+Author-email: talhajunaidd@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: networkx (>=2.0)
+Requires-Dist: pydot (>=1.4.2,<2.0.0)
+Project-URL: Repository, https://github.com/talhajunaidd/pyrthomas
+Description-Content-Type: text/markdown
+
+Python implementation for Rene` Thomas's Framework
+
+For installation execute
+
+`pip install pyrthomas`
+
+To learn how to use this package please check examples directory.
+
+
