@@ -1,0 +1,11 @@
+torch
+numpy
+argparse
+more-itertools
+scipy
+sklearn
+matplotlib
+seaborn
+pandas
+GPy<=1.9.9
+GPyOpt
