@@ -1,0 +1,5 @@
+sly
+
+[testing]
+pytest
+pytest-cov

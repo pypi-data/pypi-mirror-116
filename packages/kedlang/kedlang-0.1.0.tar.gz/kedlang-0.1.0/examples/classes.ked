@@ -1,0 +1,64 @@
+remember €pi = 3.14159 like
+
+class Shape {
+    €x = 0 like
+    €y = 0 like
+
+    constructor() {
+        saysI 'Shape.constructor' like
+    }
+
+    area() {}
+    perimeter() {}
+
+    static €answer = 42 like
+    static getAnswer() {
+        return youKnowYourself::€answer like
+    }
+}
+
+class Circle isTheBulbOff Shape {
+    €radius like
+
+    constructor() {
+        youKnowYourDa.constructor() like
+        €radius = 0 like
+        saysI 'Circle.constructor' like
+    }
+
+    getRadius() {
+        return youKnowYourself.€radius like
+    }
+
+    area() {
+        return €pi times youKnowYourself.getRadius() times youKnowYourself.getRadius() like
+    }
+
+    perimeter() {
+        return 2 times €pi times youKnowYourself.€radius like
+    }
+
+    inheritedArea() {
+        return youKnowYourDa.area() like
+    }
+
+    inheritedPerimeter() {
+        return youKnowYourMa.area() like
+    }
+
+    getAnswer() {
+        return youKnowYourself::getAnswer() plus 3 like
+    }
+}
+
+remember €radius = 10 like
+remember €circle = new Circle() like
+remember €otherCircle = new Circle() like
+€circle.€radius = 1 like
+saysI 'Area: ' em €circle.area() em ', Perimeter: ' em €circle.perimeter() like
+saysI 'X: ' em €circle.€x em ', Y: ' em €circle.€y like
+saysI 'Inherited Area: ' em €circle.inheritedArea() em ', Inherited Perimeter: ' em €circle.inheritedPerimeter() like
+saysI 'Static Answer: ' em Circle::getAnswer() like
+saysI 'Static-on-instance Answer: ' em €circle::getAnswer() like
+saysI 'Method Answer: ' em €circle.getAnswer() like
+saysI 'Object: ' em €circle like
