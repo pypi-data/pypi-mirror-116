@@ -1,0 +1,13 @@
+daeclipse_cli/cli.py,sha256=NlQ-Djr_IJMkBAHwr2BvrdDjLJoDcZyqC4TT-wv7bLk,368
+daeclipse_cli/commands/__init__.py,sha256=nOaftY2aQT9IzL2zPjUk_YEw0MqtoHtTEZ-MzHFuiVE,249
+daeclipse_cli/commands/add_art_to_groups.py,sha256=RNnYlBsrQSAKWcHVO-YgM1blBFjuuEFoQh89HGfnwtw,4522
+daeclipse_cli/commands/hot_tags.py,sha256=jfIoHVspZQ4uoeHX03hVh8t0iMr1VeBmY6tHlkWO-9U,2828
+daeclipse_cli/commands/post_status.py,sha256=YAYpOEjlS-zrzCO1DfP3ARffbk3xJdjqU1T5gC3KrkU,582
+daeclipse_cli/commands/show_tags.py,sha256=nFWjdBSd9AgKD5ObkhnB1KajYabaDIvROhQuJ1tBVN0,615
+daeclipse_cli/commands/spammer.py,sha256=TgA11zy5oouu6MQ8MOQ2LbZSDIeVxIUV6EOJ1Op7u6w,8554
+daeclipse_cli/commands/user_comments.py,sha256=tDAZmEbVefe7TBN5TWyYjFd0nSXvbvooLZUQCHrv-BM,2986
+daeclipse_cli-0.0.1.dist-info/entry_points.txt,sha256=Zkp-Y_b73hs7dKCSCw1hDse7QWu6g-3nWUo8r7dp5vI,51
+daeclipse_cli-0.0.1.dist-info/LICENSE,sha256=SIyRP8MBRGw0xG4Rx27_ihA0cpiJPHUnMjF6cDpCAtc,1072
+daeclipse_cli-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+daeclipse_cli-0.0.1.dist-info/METADATA,sha256=yRY3LjUpfuAkgr2bgUqnInPgiTkWJFAwJ9a61AsZOrM,6050
+daeclipse_cli-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+daeclipse=daeclipse_cli.cli:app
+
