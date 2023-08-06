@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: coimbra
+Version: 0.1.0
+Summary: Resources store
+Home-page: https://github.com/tpvasconcelos/coimbra
+Author: Tomas Pereira de Vasconcelos
+Author-email: tomasvasconcelos1@gmail.com
+License: Apache Software License 2.0
+Project-URL: Documentation, https://github.com/tpvasconcelos/coimbra
+Project-URL: Source, https://github.com/tpvasconcelos/coimbra
+Project-URL: Tracker, https://github.com/tpvasconcelos/coimbra/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: all
+Requires-Dist: pre-commit (==2.13.0) ; extra == 'all'
+Requires-Dist: pytest (==6.2.4) ; extra == 'all'
+Requires-Dist: pytest-cov (==2.12.1) ; extra == 'all'
+Requires-Dist: tox (==3.23.1) ; extra == 'all'
+Requires-Dist: bumpversion (==0.6.0) ; extra == 'all'
+Requires-Dist: sphinx (==4.0.2) ; extra == 'all'
+Requires-Dist: twine (==3.4.1) ; extra == 'all'
+Requires-Dist: ipython (==7.24.1) ; extra == 'all'
+Requires-Dist: ipykernel (==5.5.5) ; extra == 'all'
+Requires-Dist: jupyterlab (==3.0.16) ; extra == 'all'
+Provides-Extra: cd
+Requires-Dist: bumpversion (==0.6.0) ; extra == 'cd'
+Requires-Dist: sphinx (==4.0.2) ; extra == 'cd'
+Requires-Dist: twine (==3.4.1) ; extra == 'cd'
+Provides-Extra: ci
+Requires-Dist: tox (==3.23.1) ; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: pre-commit (==2.13.0) ; extra == 'dev'
+Requires-Dist: pytest (==6.2.4) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.12.1) ; extra == 'dev'
+Requires-Dist: tox (==3.23.1) ; extra == 'dev'
+Requires-Dist: bumpversion (==0.6.0) ; extra == 'dev'
+Requires-Dist: sphinx (==4.0.2) ; extra == 'dev'
+Requires-Dist: twine (==3.4.1) ; extra == 'dev'
+Requires-Dist: ipython (==7.24.1) ; extra == 'dev'
+Provides-Extra: linting
+Requires-Dist: pre-commit (==2.13.0) ; extra == 'linting'
+Provides-Extra: notebook
+Requires-Dist: ipykernel (==5.5.5) ; extra == 'notebook'
+Requires-Dist: jupyterlab (==3.0.16) ; extra == 'notebook'
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.4) ; extra == 'tests'
+Requires-Dist: pytest-cov (==2.12.1) ; extra == 'tests'
+
+<p align="center">
+    <img src="assets/images/header.png" alt="coimbra">
+</p>
+
+<h1 id="coimbra" align="center">
+    coimbra
+</h1>
+
+<p align="center">
+  <!-- TODO: https://bestpractices.coreinfrastructure.org/en -->
+  <!-- TODO: https://www.gitpod.io/docs/getting-started -->
+  <a href="https://pypi.org/project/coimbra/"><img src="https://img.shields.io/pypi/v/coimbra" alt="PyPI - Latest Release"></a>
+  <a href="https://github.com/tpvasconcelos/coimbra/"><img src="https://img.shields.io/pypi/pyversions/coimbra" alt="PyPI - Python Versions"></a>
+  <a href="https://pypi.org/project/coimbra/"><img src="https://img.shields.io/pypi/status/coimbra.svg" alt="PyPI - Package Status"></a>
+  <a href="https://github.com/tpvasconcelos/coimbra/blob/master/LICENSE"><img src="https://img.shields.io/pypi/l/coimbra" alt="PyPI - License"></a>
+  <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
+  <br>
+  <a href="https://github.com/tpvasconcelos/coimbra/actions/workflows/test.yaml/"><img src="https://github.com/tpvasconcelos/coimbra/actions/workflows/test.yaml/badge.svg" alt="CI"></a>
+  <a href="https://codecov.io/gh/tpvasconcelos/coimbra"><img src="https://codecov.io/gh/tpvasconcelos/coimbra/branch/master/graph/badge.svg" alt="codecov"></a>
+  <a href="https://www.codefactor.io/repository/github/tpvasconcelos/coimbra"><img src="https://www.codefactor.io/repository/github/tpvasconcelos/coimbra/badge" alt="CodeFactor"></a>
+  <a href="https://www.codacy.com/gh/tpvasconcelos/coimbra/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tpvasconcelos/coimbra&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/24e94a244a504de8a345b70f41c34445" alt="Codacy code quality"></a>
+</p>
+
+<p align="center"><i>Resources store</i></p>
+
+---
+
+
+# How to get it?
+
+The source code is currently hosted on GitHub at: <https://github.com/tpvasconcelos/coimbra>
+
+Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+
+```bash
+pip install coimbra
+```
+
+
