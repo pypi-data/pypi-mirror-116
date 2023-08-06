@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/LoggingToolKit/LoggingToolKit.py
+src/LoggingToolKit/__init__.py
+src/LoggingToolKit2.egg-info/PKG-INFO
+src/LoggingToolKit2.egg-info/SOURCES.txt
+src/LoggingToolKit2.egg-info/dependency_links.txt
+src/LoggingToolKit2.egg-info/top_level.txt
