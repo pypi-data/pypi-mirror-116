@@ -1,0 +1,5 @@
+include *.md
+include config.ini
+include LICENSE
+include eagle/eagle_datastore/data_refs/group_tickers.json
+include eagle/eagle_datastore/vnd_datastore/info/vn_by_symbol.json

@@ -1,0 +1,57 @@
+## Stock Prediction Pipeline
+
+### Step 1 - Build Stock Database
+
+### Step 2 - Normalize Stock Data
+
+### Step 3 - Build Features and Visualization
+
+### Step 3 - Build Prediction Models
+
+## Metrics
+The metrics of prediction models should be based on profits and loss they give.
+
+1. Profit vs. loss
+
+2. Backtest
+
+
+## Stock data
+
+Collected stock data include following values:
+* Close 
+* Open
+* High
+* Low
+* Volumn
+* Change
+* Percentage Change
+
+Derivative values:
+* Return
+* Alpha
+* Volatility
+* Alpha*
+* Sharpe
+
+## Business Taxonomy
+There is a large number of companies in stock market. It is crucial to take a look over their financial reports and market indices to have a correct view of the companies' business status.
+
+In this section, we want to build several main groups of companies. Each group represents the area of business that the company is taking part in. In addition, we target to give a common credit score for each group, and also the rank of company in that group.
+
+* Input:
+    - Stock indices
+    - Companies financial reports
+
+* Output:
+    - We want to have a comparison between the areas and give the advice on which business we should invest in.
+    - We want to have a table that ranks companies and shows their potential in market.
+
+
+## Installation:
+
+```bash
+conda create --name eagle python=3.7
+conda activate eagle
+pip install -r requirements.txt
+```
