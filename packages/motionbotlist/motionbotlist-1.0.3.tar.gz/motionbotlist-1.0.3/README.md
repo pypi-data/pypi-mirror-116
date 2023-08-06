@@ -1,0 +1,112 @@
+# MotionBotList
+Interact with Motion Botlist with python scripts.
+
+# Examples on host to use
+Here is a quick example on how you can update your bots status.
+```py
+import MotionBotList
+
+bot_list = MotionBotList.connect("your_api_key")
+
+bot_list.update(bot_id, server_count) # Add your bots data here
+```
+Run the script and your bots status should be updated. If there was a error there will be a exception. To handle exceptions, you could do the following:
+```py
+import MotionBotList
+from MotionBotList import Exceptions
+
+bot_list = MotionBotList.connect("your_api_key")
+
+try:
+  bot_list.update(bot_id, server_count)
+except Exceptions.Forbidden:
+  print("You don't have access to update the status, invalid token or wrong bot")
+except Exceptions.BotNotFound:
+  print("The bot ID was invalid")
+except Exception as error:
+  print(error)
+```
+## Get a bots info
+With this function you can get all data from a bot
+```py
+import MotionBotList
+
+bot_list = MotionBotList.connect("your_api_key")
+
+bot = bot_list.get_bot(bot_id)
+print(bot.name)
+print(bot.owner_id)
+```
+This function will return a bot object, or None if you don't have a API key. This function will raise the `BotNotFound` exception if not bot was found
+## Get bot votes
+Get all users who voted for the bot
+```py
+import MotionBotList
+
+bot_list = MotionBotList.connect("your_api_key")
+
+votes = bot_list.get_votes(bot_id)
+
+for user in votes:
+    print(user.user_name)
+    print(user.vote_time)
+```
+Will return a list with a `voteuser` object.
+
+
+# Objects
+* botobj - Return when you get a bot
+  
+    - id
+        * Returns the bot_id as str
+    - name
+        * Returns the bot name
+    - avatar
+        * Returns the bots avatar code (not the url just the code)
+    - avatar_url
+        * Returns the bots avatar url (Raw image link to discord cdn)
+    - status
+        * Returns the last bots status report to our site (Might be inacruate)
+    - co_owners
+        * Returns a list with co-owners
+    - discord
+        * Returns the invite code to the support server
+    - invite
+        * Returns the invite url for the bot
+    - lib
+        * Returns the bots lib selected on the site
+    - list_date
+        * Returns the date that the bot was listed (YYYY-MM-DD format)
+    - owner_id
+        * Returns the bots onwer ID
+    - owner_name
+        * Returns the bots owners' name (User#0000)
+    - prefix
+        * Returns the bots prefix
+    - servers
+        * Returns the number of servers posted to our site (None if no server count was posted)
+    - website
+        * Returns the bots website (None if no website was provided)
+    - tops
+        * Returns a list of top features selected
+    - vanity_url  
+        * Returns the vanity url of the bot (None if bot doesn't have a vanity url)
+ 
+* voteobj - The object to return when getting bot votes
+    - vote_time
+        * Returns the time the user has voted (YYYY-DD-MM HH:MM:SS)
+    - is_user
+        * If it is a user, or just a vote holder (See more info in our vote docs about this)
+    - user_id
+        * Returns the users id
+    - user_name
+        * Returns the users name (User#0000)
+
+
+## Voting system
+A short description on how our voting system works.
+
+Every beginning of a month we reset all votes, if user vote on that day their vote will stay on the bots page until the beggining of the next month. A user can vote once every 12 hours, their vote will be removed from the list and will be replaced with a place holder. This is when we set the `is_user` to `false`.
+
+# Creadits
+This package has been fully developed by [TechnicePepijn#0995](https://github.com/technicpepijn) for more support visit our [discord server](https://discord.com/invite/6vuGsPM) 
