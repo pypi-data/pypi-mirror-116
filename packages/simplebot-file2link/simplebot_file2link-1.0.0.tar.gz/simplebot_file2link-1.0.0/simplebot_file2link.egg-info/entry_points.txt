@@ -1,0 +1,3 @@
+[simplebot.plugins]
+simplebot_file2link = simplebot_file2link
+
