@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/card_game_analysis/__init__.py
+src/card_game_analysis/card.py
+src/card_game_analysis/daifugo.py
+src/card_game_analysis/deck.py
+src/card_game_analysis/game.py
+src/card_game_analysis/player.py
+src/card_game_analysis/players.py
+src/card_game_analysis/stack.py
+src/card_game_analysis.egg-info/PKG-INFO
+src/card_game_analysis.egg-info/SOURCES.txt
+src/card_game_analysis.egg-info/dependency_links.txt
+src/card_game_analysis.egg-info/top_level.txt
