@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gcloud-aio-run
+Version: 1.0.0a4
+Summary: Python Client for Google Cloud Run
+Home-page: https://github.com/cbuschka/gcloud-aio-run
+Author: Cornelius Buschka
+Author-email: cbuschka@gmail.com
+License: MIT License
+Description: # asyncio Python Client for Google Cloud Run
+        
+        [![Sources](https://img.shields.io/badge/sources-github-blue)](https://github.com/cbuschka/gcloud-aio-run) ![Written in Python](https://img.shields.io/badge/python-3.6,%203.7,%203.8,%203.9-blue.svg) [![PyPI](https://img.shields.io/pypi/v/gcloud-aio-run)](https://pypi.org/project/gcloud-aio-run/) [![Build](https://github.com/cbuschka/gcloud-aio-run/workflows/build/badge.svg)](https://github.com/cbuschka/gcloud-aio-run/actions) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/cbuschka/gcloud-aio-run/blob/master/license.txt)
+        
+        ## Installation
+        
+        ```
+        pip install gcloud-aio-run
+        ```
+        
+        ## License
+        
+        Copyright (c) 2021 by [Cornelius Buschka](https://github.com/cbuschka).
+        
+        [Apache License, Version 2.0](https://github.com/cbuschka/gcloud-aio-run/blob/1.0.0.alpha4/license.txt)
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
