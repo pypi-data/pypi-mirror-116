@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: degree72-simple
+Version: 0.0.69
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: degree72-requests
+Requires-Dist: SQLAlchemy
+Requires-Dist: pymysql
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: tabulate
+
+UNKNOWN
+
+
