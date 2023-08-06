@@ -1,0 +1,2 @@
+hdx-data-freshness>=1.6.7
+gspread
