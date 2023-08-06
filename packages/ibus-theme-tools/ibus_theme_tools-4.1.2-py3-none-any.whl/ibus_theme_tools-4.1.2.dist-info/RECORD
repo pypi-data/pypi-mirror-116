@@ -1,0 +1,9 @@
+ibus_theme_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibus_theme_tools/ibus_theme_tools.py,sha256=HjYqLQ2RpMn6NDQg18gMvEmz8kac2EBMapODHCMMGLE,28778
+ibus_theme_tools/locale/zh_CN/LC_MESSAGES/IBus-Theme.mo,sha256=41jQNLh7XCY6ltcPQAdouxUb-FOdvxvRUuCd3bRrmw4,5759
+ibus_theme_tools-4.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ibus_theme_tools-4.1.2.dist-info/METADATA,sha256=kSRC3hWy4lFfdsxtUQJKUoFRRhlTn7B5hABLBsGfZpk,5899
+ibus_theme_tools-4.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ibus_theme_tools-4.1.2.dist-info/entry_points.txt,sha256=dtKN7WAlP4uOX4o9db5ZZR9iBziw_RakaSInZ_7UKzU,77
+ibus_theme_tools-4.1.2.dist-info/top_level.txt,sha256=usBq0cKOvFphm5pIDHah3PdfXU2raByYza8iErj8LHI,17
+ibus_theme_tools-4.1.2.dist-info/RECORD,,
