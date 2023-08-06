@@ -1,0 +1,8 @@
+gpsdclient/__init__.py,sha256=TTTf-y1KlC8qPB0vGTfe27HG75eIEMdsB1orbYmg8PI,31
+gpsdclient/__main__.py,sha256=vCuFfg2rsbEuj7_7T74VTFvw5Dn8MPMz27O0Va4IAd0,87
+gpsdclient/cli.py,sha256=YRpSV50Y3beiYs9DmFvG3CwjGfRE7PZzGrdBE4pK-vE,2689
+gpsdclient/client.py,sha256=-newHqc6sPCen8prpvbCLGK7M8Fi3FpREAF8zke6oUc,1679
+gpsdclient-0.1.0.dist-info/entry_points.txt,sha256=h0kou9Jp7jw9MjhrcP6T0ypx8vhiU7kW4VdXXSUNSc8,50
+gpsdclient-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gpsdclient-0.1.0.dist-info/METADATA,sha256=koVLoEFc-Q3So4Re4tdYU3uDmAmuRwLEbfXbiKHxoPY,2899
+gpsdclient-0.1.0.dist-info/RECORD,,
