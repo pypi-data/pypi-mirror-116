@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: MyCryptoKeys
+Version: 0.1.0
+Summary: A Python MyCryptoKeys
+Home-page: UNKNOWN
+Author: alvaroperis
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+MyCryptoKeys
+============
+
+A Python MyCryptoKeys
+
+Usage
+'''''
+
+::
+
+    python -m MyCryptoKeys
+
+Testing
+'''''''
+
+::
+
+    python -m unittest discover tests
+
+
