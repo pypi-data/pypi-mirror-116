@@ -1,0 +1,26 @@
+Example(setup).py
+MANIFEST.in
+README
+README.md
+README.rst
+__init__.py
+core.py
+pyproject.toml
+requirements.txt
+run.py
+e/__init__.py
+e/time test.py
+p/__init__.py
+p/beginnings.py
+p/log.py
+p/wf.py
+p/y.py
+p/yh.py
+p/yz.py
+ycc_test.egg-info/PKG-INFO
+ycc_test.egg-info/SOURCES.txt
+ycc_test.egg-info/dependency_links.txt
+ycc_test.egg-info/entry_points.txt
+ycc_test.egg-info/not-zip-safe
+ycc_test.egg-info/requires.txt
+ycc_test.egg-info/top_level.txt
