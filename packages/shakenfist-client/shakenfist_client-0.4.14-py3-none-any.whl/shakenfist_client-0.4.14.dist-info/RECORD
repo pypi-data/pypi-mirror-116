@@ -1,0 +1,15 @@
+shakenfist_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shakenfist_client/apiclient.py,sha256=CM-DkmFIKrIvHeXMR2XezxU88zKIv8zAsuHjV4rNbBc,21169
+shakenfist_client/main.py,sha256=UL1R-YEEBqcEiekd0oxcw0irR5i25urUMbGWlLNUd1s,46796
+shakenfist_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shakenfist_client/tests/test_client_apiclient.py,sha256=GugOmMpqPq0sjRp3lem8gnGYQlOiaxuLYNkLgw65tqE,14254
+shakenfist_client-0.4.14.data/data/share/shakenfist/ansible/sf_instance.py,sha256=kQgCLyXVBLdyoKhTWb5bNWV7WYNvfxrTDefsn6WaN5E,6645
+shakenfist_client-0.4.14.data/data/share/shakenfist/ansible/sf_network.py,sha256=G9PrrumkiAyzzDkAyudkZeGGaZM6s7jaOEsp1DprMfo,2932
+shakenfist_client-0.4.14.dist-info/AUTHORS,sha256=cWYwes1I4ursdKtbz2Y1XzBRugufgZVZEAwVlX6GP2A,67
+shakenfist_client-0.4.14.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+shakenfist_client-0.4.14.dist-info/METADATA,sha256=m4qlA-nx-7J79WT21WPCO4Ua8uMC5Lae_i_he6IeL40,1083
+shakenfist_client-0.4.14.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shakenfist_client-0.4.14.dist-info/entry_points.txt,sha256=RETIJIMz8bYLgxtwqVK49vWf4SyoEGJGWdHlRPrqcsg,58
+shakenfist_client-0.4.14.dist-info/pbr.json,sha256=YnRZcrPsn2bPU7jgDcjyu6_O2Tgv-3DuvaYXT-Nx9u0,46
+shakenfist_client-0.4.14.dist-info/top_level.txt,sha256=5hE8XNe2EpyKzNx95s16WwI5vfFHRdRraroXJT59uuo,18
+shakenfist_client-0.4.14.dist-info/RECORD,,
