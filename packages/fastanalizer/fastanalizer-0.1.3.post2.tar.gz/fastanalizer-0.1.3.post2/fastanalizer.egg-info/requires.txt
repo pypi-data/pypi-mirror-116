@@ -1,0 +1,8 @@
+biopython>=1.78
+kaleido
+numpy>=1
+pandas>=1
+plotly<5,>=4.9
+python-igraph
+requests>=2.21
+scikit-learn

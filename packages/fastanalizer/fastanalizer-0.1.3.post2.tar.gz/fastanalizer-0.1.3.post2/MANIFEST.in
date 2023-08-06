@@ -1,0 +1,4 @@
+include fastanalizer/fastanalizer.sqlite3
+graft fastanalizer/pyfasta/mafftdir*
+
+global-exclude *.py[cod]
