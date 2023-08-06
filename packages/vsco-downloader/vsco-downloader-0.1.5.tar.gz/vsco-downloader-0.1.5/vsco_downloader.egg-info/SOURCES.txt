@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vsco_downloader/__init__.py
+vsco_downloader/__main__.py
+vsco_downloader/argparser.py
+vsco_downloader/container.py
+vsco_downloader/downloader.py
+vsco_downloader/user.py
+vsco_downloader.egg-info/PKG-INFO
+vsco_downloader.egg-info/SOURCES.txt
+vsco_downloader.egg-info/dependency_links.txt
+vsco_downloader.egg-info/entry_points.txt
+vsco_downloader.egg-info/not-zip-safe
+vsco_downloader.egg-info/requires.txt
+vsco_downloader.egg-info/top_level.txt
