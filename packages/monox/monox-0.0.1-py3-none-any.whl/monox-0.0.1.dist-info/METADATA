@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: monox
+Version: 0.0.1
+Summary: Monobank API Wrapper
+Home-page: UNKNOWN
+Author: Arwichok
+Author-email: arwichok@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (~=1.8.2)
+Requires-Dist: pytest (~=6.2.4)
+Requires-Dist: httpx (~=0.18.2)
+Requires-Dist: respx (~=0.17.1)
+
+# MonoX - monobank api wrapper
+
+
+### Install
+
+```commandline
+pip install monox
+```
+
+### Guide
+
+```python
+from monox import MonoX
+
+async with MonoX() as mono:
+    currency_info = await mono.currency()
+    print(currency_info) # [Currency(a=980, b=860, date=29292929, buy=99.22, sell=89.4, cross=22.4)]
+```
+
+
