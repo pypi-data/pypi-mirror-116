@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: parse-prettytable
+Version: 1.0.0
+Summary: A python package for parsing prettytable strings
+Home-page: UNKNOWN
+Author: Haoran Zhang
+Author-email: hr.zhang@gatech.edu
+License: UNKNOWN
+Keywords: python,prettytable,parse
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A python package for parsing prettytable strings. Parse the string into dictionary.
+
+
