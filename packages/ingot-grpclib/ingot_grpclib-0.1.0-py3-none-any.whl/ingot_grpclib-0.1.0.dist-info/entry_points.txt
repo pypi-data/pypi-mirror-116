@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-grpclib-cli = ingot_grpclib.scripts.ingot_grpclib:main
+
