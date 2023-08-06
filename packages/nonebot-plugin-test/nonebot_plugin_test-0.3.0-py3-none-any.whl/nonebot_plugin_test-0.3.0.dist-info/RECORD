@@ -1,0 +1,16 @@
+nonebot_plugin_test/__init__.py,sha256=4CnqiRylHnt4redXIhShCM5REvZQZsu0_IK5-oy7Leo,3014
+nonebot_plugin_test/dist/favicon.ico,sha256=ZSlFNCC0oILxvc1DFqAk7gjPXCN1j5A5yjJKZJgj2sM,4286
+nonebot_plugin_test/dist/index.html,sha256=NkvaW68dms7IHNcFn0gmDpYkze9cPWoTXj2jNOuESTU,2427
+nonebot_plugin_test/dist/static/css/app.d0815a94.css,sha256=OnKp5bDlSYYhaHxo31Nc3dVOAKBAeqYogCzfSGbFfYs,1798
+nonebot_plugin_test/dist/static/css/chunk-vendors.c3c2c5a6.css,sha256=EsSKsfglMHu7oEAxHWU_h5Osq43ea_hQqH0MKYNrCew,425305
+nonebot_plugin_test/dist/static/img/logo.2a63bac0.png,sha256=M7ZVk_5skM3UqzjEyumsJXqUK2w3E6TiLz-2Zav-J7E,9454
+nonebot_plugin_test/dist/static/js/app.f38d620b.js,sha256=UnFZU-RL2ZY87ExKFS8littNNPrrfHP1NjsNaatWLuM,64729
+nonebot_plugin_test/dist/static/js/chunk-vendors.b5804d3c.js,sha256=GaGHOO5bpMDyxE6ft4z-lX61Y-sW62rvvGDtSdnUiTo,1498249
+nonebot_plugin_test/drivers/fastapi.py,sha256=8oVXKCgEA8WjYk0V8Rt7KhrztciFjJHBbzOQeN4lh3s,1064
+nonebot_plugin_test/exception.py,sha256=EUSLOBF619Ov7QtJfz8s3vTmh-7D0iv2Vy4jpewXxNg,172
+nonebot_plugin_test/utils.py,sha256=Bmhf9Yo1gPWMsLyTU5h0MRqOuJu0DojLqXxZe8c9ooY,277
+nonebot_plugin_test/view.py,sha256=ecCCTRMhtlCHrpx_IQAXlsuDOhc4ezpmO917-YrzvTk,3828
+nonebot_plugin_test-0.3.0.dist-info/LICENSE,sha256=tP8EXB_QWeUquaAKDFGDLW9iZV6TWWUd6QE68tl5FJo,1064
+nonebot_plugin_test-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+nonebot_plugin_test-0.3.0.dist-info/METADATA,sha256=vGMUCkZyrg-3MbicK6iGfpjkiIXD3_eWwDZnTtJCQyY,3549
+nonebot_plugin_test-0.3.0.dist-info/RECORD,,
