@@ -1,0 +1,12 @@
+*.pyc
+.idea
+__pycache__/*
+dist
+/build
+*.egg-info
+Icon
+/tests
+.vscode
+.DS_Store
+venv/
+test.py
