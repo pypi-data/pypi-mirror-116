@@ -1,0 +1,76 @@
+# Robotframework-excelutil library
+
+This Robotframework Excel Util library provides Robot keywords to Open, Read, Write and Save XLSX files. 
+This library uses python to read and write datas in xlsx files.
+
+## Pre-requisities
+- Python - 3.x (Not tested with Python 2.x)
+- Robotframework - 4.x (Not tested with other versions)
+- Openpyxl
+
+## Installation
+```pip install robotframework-excelutil```
+
+## Settings
+| Library    ExcelUtil |
+
+## To open Excel
+| Open Excel |  C:\\Data\\ExcelTest.xlsx  |
+
+## To open Excel using relative path. I.e., relative to project folder
+| Open Excel From Relative Path     |  ../../Data/data.xlsx  |
+
+## To open Excel sitting in project folder
+| Open Excel From Project Directory     |  data.xlsx  |
+
+## To get sheet names of the workbook
+- | Open Excel      |  C:\\Data\\ExcelTest.xlsx  |
+- | Get sheet names      |
+
+## To get the column count of the given sheet
+- | Open Excel      |  C:\\Data\\ExcelTest.xlsx  |
+- | Get Column count     |  Sheet1 |
+
+## To get the row count of the given sheet
+- | Open Excel      |  C:\\Data\\ExcelTest.xlsx  |
+- | Get Row count     |  Sheet1 |
+
+## To get the sheet count of the given sheet
+- | Open Excel      |  C:\\Data\\ExcelTest.xlsx  |
+- | Get Sheet count     |
+
+## To get sheetnames of the workbook
+- | Open Excel |  C:\\Data\\ExcelTest.xlsx  |
+- | Get sheet names      |
+
+## To get the value of a cell by giving the sheetname, row value & column value
+- | Read Cell Data By Coordinates     |  SheetName | Row Number |  Column Number  |
+- | Read Cell Data By Coordinates     |  Sheet1 |  1  |  1  |
+- To pass integer arguments
+- | Read Cell Data By Coordinates     |  Sheet1 |  ${1}  |  ${3}  |
+
+## To get the values of all cells in all rows for given sheetname
+- | Get All Rows Data     |  SheetName |
+- | Get All Rows Data     |  Sheet1 |
+
+## To Write the value to a call using its co-ordinates
+- | Write Data By Coordinates    |  SheetName  | Row Number | Column Number |  Data  |
+- | Write Data By Coordinates    | Sheet1 | 1 | 1 |  TestData  |
+
+## To Save the excel file after writing the data.
+- Update existing file:
+-   | Openexcel File       |  C:\\Data\\ExcelTest.xlsx  |
+-   | Save Excelfile       |  C:\\Data\\ExcelTest.xlsx  |
+
+## Save in new file:
+- | Openexcel File       |  C:\\Data\\ExcelTest.xlsx  |
+- | Save Excelfile       |  D:\\Data\\ExcelRobotNewFile.xlsx  |
+
+## To add a new sheet
+| Add new sheet        | SheetName
+
+## License
+
+© 2021 Nagesh B Nagaraja Rao ( Email: nagesh.nagaraja@gmail.com )
+
+This repository is licensed under the MIT license. See LICENSE for details.
