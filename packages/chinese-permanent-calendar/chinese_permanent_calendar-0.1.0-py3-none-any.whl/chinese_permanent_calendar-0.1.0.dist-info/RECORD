@@ -1,0 +1,10 @@
+chinese_permanent_calendar/__init__.py,sha256=cXVHMPeVYVmC4gPSz-uudR9qX-UqV0jGA46SAQuTOpU,425
+chinese_permanent_calendar/calendar_helper.py,sha256=1T4lp2isougn_8jielQTH5mLEa175aF6spS2gKqQgCY,3182
+chinese_permanent_calendar/cp_calendar.csv.gz,sha256=gWQhQoyxGujCt4SwkAU33tDVQGVr0YKEP1DPA_MfrzI,2159150
+chinese_permanent_calendar/example.py,sha256=kJeExcdJrxruKtGwBoF0umovcbBvgN2HF7i1jq9lBK0,621
+chinese_permanent_calendar/perpetual_calendar.py,sha256=-5PIm_pjshj5zAfBoeamzs4cQoQMVd_TLASNNeSWc1Y,1163
+chinese_permanent_calendar-0.1.0.dist-info/LICENSE,sha256=Co6xhHdN9St7Q02SoFU5ALfrTqSNqQh3Jsatk5XpRlg,1065
+chinese_permanent_calendar-0.1.0.dist-info/METADATA,sha256=LFQTjxnKo-Q2lmTcEKyi0d0pcdv3nFLmeJWXEMViGHY,2998
+chinese_permanent_calendar-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chinese_permanent_calendar-0.1.0.dist-info/top_level.txt,sha256=zw6Xyu0JkR4Dlkf8wSq9qne4xVBheZ4RIRAumXlDyWY,27
+chinese_permanent_calendar-0.1.0.dist-info/RECORD,,
