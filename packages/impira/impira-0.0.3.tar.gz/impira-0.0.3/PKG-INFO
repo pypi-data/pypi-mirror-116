@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: impira
+Version: 0.0.3
+Summary: Official Impira Python SDK
+Home-page: https://github.com/impira/impira-python
+Author: Impira Engineering
+Author-email: engineering@impira.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/impira/impira-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Impira Python SDK
+
+Impira enables you to get everything you need from your PDFs, scanned documents, images, and more — with the help of machine learning. This API allows you to access Impira programatically through Python.
+
+## Installing
+
+You can install the Impira Python SDK directly through pip:
+
+```
+$ pip install impira
+```
+
+## Examples
+
+The examples directory contains end-to-end working examples for how to use the SDK. `upload_files.py` walks through uploading
+a file, either locally or through a URL, and then waiting for its results.
+
+
