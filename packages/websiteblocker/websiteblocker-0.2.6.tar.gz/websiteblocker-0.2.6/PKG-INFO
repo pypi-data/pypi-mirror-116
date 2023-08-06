@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: websiteblocker
+Version: 0.2.6
+Summary: Blocks distracting websites in Windows , Mac OS and Linux Based Distros .
+Home-page: https://github.com/Anish-M-code/Simple_Website_blocker
+Author: Anish M
+Author-email: aneesh25861@gmail.com
+License: GPLv3+
+Description: # Simple_Website_blocker
+        
+        A simple Website Blocker for windows, mac OS and all Linux Distributions.
+                                                                                                  
+        Quick Installation
+        ------------------
+        
+        To Install from [PyPI](https://pypi.org/project/websiteblocker/):
+        
+        Run the following commands in Windows powershell / command prompt / terminal to install from pypi:-
+        
+        ```
+        pip install websiteblocker
+        ```
+        Then type following command to get started :-
+        
+        ```
+        websiteblocker 
+        ```
+                                                                                                  
+        
+Keywords: Website Blocker,hosts file,student project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+[console_scripts]
+websiteblocker = websiteblocker:main
+
