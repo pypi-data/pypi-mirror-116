@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/vicdyf/__init__.py
+src/vicdyf/dataset.py
+src/vicdyf/funcs.py
+src/vicdyf/modules.py
+src/vicdyf/utils.py
+src/vicdyf/vicdyf.py
+src/vicdyf/workflow.py
+src/vicdyf_tiisaishima.egg-info/PKG-INFO
+src/vicdyf_tiisaishima.egg-info/SOURCES.txt
+src/vicdyf_tiisaishima.egg-info/dependency_links.txt
+src/vicdyf_tiisaishima.egg-info/top_level.txt
