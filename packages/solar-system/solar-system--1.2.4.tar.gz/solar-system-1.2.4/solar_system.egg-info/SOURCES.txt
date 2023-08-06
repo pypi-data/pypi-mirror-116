@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+solar_system/__init__.py
+solar_system.egg-info/PKG-INFO
+solar_system.egg-info/SOURCES.txt
+solar_system.egg-info/dependency_links.txt
+solar_system.egg-info/top_level.txt
+solar_system/test/BlackHole.jpg
+solar_system/test/__init__.py
+solar_system/test/solar_system - numba.py
+solar_system/test/solar_system - test.py
+solar_system/test/solar_system - test2.py
+solar_system/test/solar_system - test3.py
+solar_system/test/solar_system - test4.py
+solar_system/test/solar_system - test5.py
+solar_system/test/solar_system - test6.py

@@ -1,0 +1,2 @@
+include solar_system/*
+include solar_system/test/*
