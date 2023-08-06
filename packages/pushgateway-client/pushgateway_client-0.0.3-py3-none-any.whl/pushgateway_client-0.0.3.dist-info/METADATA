@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pushgateway-client
+Version: 0.0.3
+Summary: Python3专用的pushgateway客户端，可以便捷的向Pushgateway中推送指标数据
+Home-page: https://blog.taycc.com
+Author: Tay
+Author-email: tay3223@qq.com
+License: UNKNOWN
+Project-URL: 使用文档, https://blog.taycc.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
