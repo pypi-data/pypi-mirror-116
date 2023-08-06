@@ -1,0 +1,11 @@
+README.md
+setup.py
+awsmlpy/deploy_utils.py
+awsmlpy/docker_utils.py
+awsmlpy/train_utils.py
+awsmlpy.egg-info/PKG-INFO
+awsmlpy.egg-info/SOURCES.txt
+awsmlpy.egg-info/dependency_links.txt
+awsmlpy.egg-info/requires.txt
+awsmlpy.egg-info/top_level.txt
+awsmlpy.egg-info/zip-safe
