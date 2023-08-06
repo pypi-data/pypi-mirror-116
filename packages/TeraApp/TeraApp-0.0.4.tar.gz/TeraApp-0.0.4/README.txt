@@ -1,0 +1,1 @@
+This package is for creating simple applications.
