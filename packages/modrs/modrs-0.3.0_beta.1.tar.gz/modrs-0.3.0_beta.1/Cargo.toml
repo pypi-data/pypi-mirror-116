@@ -1,0 +1,18 @@
+[package]
+name = "modrs"
+version = "0.3.0-beta.1"
+authors = ["Nagendra_2k3 <71603665+nv2k3@users.noreply.github.com>"]
+description = "A Python module wirtten in Rust"
+edition = "2018"
+repository = "https://github.com/nv2k3/modrs"
+homepage = "https://github.com/nv2k3/modrs"
+readme = "README.md"
+keywords = ["python"]
+
+[lib]
+name = "modrs"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies.pyo3]
+version = "0.14.2"
+features = ["extension-module"]

@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - name : poetry env
+    init: |
+      poetry install
+    command: poetry shell
+
