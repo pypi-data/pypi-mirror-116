@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: mitmproxy-lin-customization
+Version: 5.2.2
+Summary: 基于mitmproxy，根据自己的使用习惯定制的内容，加入接口花费时间排序，按照定义规则自动跑接口造数据，graphqlview的功能
+Home-page: http://mitmproxy.org
+Author: Lin
+Author-email: hao.lin@teletraan.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE
+Requires-Dist: blinker (<1.5,>=1.4)
+Requires-Dist: Brotli (<1.1,>=1.0)
+Requires-Dist: certifi (>=2019.9.11)
+Requires-Dist: click (<8,>=7.0)
+Requires-Dist: cryptography (<3.0,>=2.9)
+Requires-Dist: flask (<1.2,>=1.1.1)
+Requires-Dist: h2 (<4,>=3.2.0)
+Requires-Dist: hyperframe (<6,>=5.1.0)
+Requires-Dist: kaitaistruct (<0.9,>=0.7)
+Requires-Dist: ldap3 (<2.8,>=2.6.1)
+Requires-Dist: passlib (<1.8,>=1.6.5)
+Requires-Dist: protobuf (<3.12,>=3.6.0)
+Requires-Dist: pyasn1 (<0.5,>=0.3.1)
+Requires-Dist: pyOpenSSL (<19.2,>=19.1.0)
+Requires-Dist: pyparsing (<2.5,>=2.4.2)
+Requires-Dist: pyperclip (<1.9,>=1.6.0)
+Requires-Dist: ruamel.yaml (<0.17,>=0.16)
+Requires-Dist: sortedcontainers (<2.2,>=2.1.0)
+Requires-Dist: tornado (<7,>=4.3)
+Requires-Dist: urwid (!=2.1.0,==2.0.1)
+Requires-Dist: wsproto (<0.16,>=0.14)
+Requires-Dist: publicsuffix2 (<3,>=2.20190812)
+Requires-Dist: zstandard (<0.14,>=0.11)
+Requires-Dist: beeprint (>=2.4.10)
+Requires-Dist: pydivert (<2.2,>=2.0.3) ; sys_platform == "win32"
+Provides-Extra: dev
+Requires-Dist: asynctest (>=0.12.0) ; extra == 'dev'
+Requires-Dist: Flask (<1.2,>=1.0) ; extra == 'dev'
+Requires-Dist: hypothesis (<5.9,>=5.8) ; extra == 'dev'
+Requires-Dist: parver (<2.0,>=0.1) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (<0.11,>=0.10.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (<3,>=2.7.1) ; extra == 'dev'
+Requires-Dist: pytest-timeout (<2,>=1.3.3) ; extra == 'dev'
+Requires-Dist: pytest-xdist (<2,>=1.29) ; extra == 'dev'
+Requires-Dist: pytest (<6,>=5.1.3) ; extra == 'dev'
+Requires-Dist: requests (<3,>=2.9.1) ; extra == 'dev'
+Requires-Dist: tox (<3.15,>=3.5) ; extra == 'dev'
+
+### 记录下用到的mitmproxy插件
+
+### 修改mitmproxy源码以加入接口响应时间的排序
+实际测试中需要查看接口的响应时间看看是否时间很长，mitmproxy的原生时间排序是根据
+发送时间进行排序
+这里加入接口花费时间
+
+![img.png](img_3.png)
+
+### 自动修改参数跑多个接口的插件
+
+实际测试中有许多bug是需要一定的数据量发现的，并且有时需要造大量的重复数据，对人力比较浪费 根据这个需求写一个插件来自动根据接口发送接口
+
+详情见AutoReplayFlows
+`replay.auto_replay flows path nums`
+
+- flows:指定哪些接口重跑，一般为 @focus
+- path:选择要递增的参数的路径
+- nums:要重新跑的接口的数量,默认为5
+
+`replay.auto_replay @focus input.account 10`
+
+为了配合这个插件使用，修改mitmproxy的快捷键 将`R`映射到`replay.auto_replay @focus`
+
+mitmproxy/tools/console/defaultkeys.py 加上一行
+
+```python
+km.add("R", "console.command replay.auto_replay @focus", ["global"], "Set intercept")
+```
+
+### graphql-view
+
+针对graphql加入两种view
+
+![img_1.png](img_1.png)
+
+![img.png](img_2.png)
+
+
+
