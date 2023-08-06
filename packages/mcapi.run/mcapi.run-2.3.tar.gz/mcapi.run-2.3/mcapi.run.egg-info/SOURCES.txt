@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+mcapi-help.py
+setup.py
+test.py
+mcapi/__init__.py
+mcapi.run.egg-info/PKG-INFO
+mcapi.run.egg-info/SOURCES.txt
+mcapi.run.egg-info/dependency_links.txt
+mcapi.run.egg-info/requires.txt
+mcapi.run.egg-info/top_level.txt
