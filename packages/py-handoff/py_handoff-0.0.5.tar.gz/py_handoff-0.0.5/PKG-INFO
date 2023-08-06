@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: py_handoff
+Version: 0.0.5
+Summary: Like Handoff, but in Python
+Home-page: https://github.com/xzpjerry/py-handoff
+Author: xzpjerry
+Author-email: xzpjerry@gmail.com
+License: UNKNOWN
+Description: # py-handoff: Like Handoff, but in Python
+        
+        ## Usage
+        On each Windows/MacOS/Linux devices connected to the same LAN, run the following command:
+        ```
+            pip install py-handoff
+            py-handoff
+        ```
+        Now all you devices would share their clipboard.
+        
+        ## Optional Config
+        ### Port
+        By exporting "PY_HANDOFF_PORT=<port_number:int>", you can customize the port py-handoff used for communication.
+        ### Secret Key
+        Similarly, exporting "PY_HANDOFF_KEY=<secret_key:str>", you can customize the secret key py-handoff used to obfuscate its connections.
+        
+        Keep in mind that all py-handoff instances can only reconize and communicate with each other if and only if they have the same port number and the same secret key.
+        
+        
+Keywords: py_handoff
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
