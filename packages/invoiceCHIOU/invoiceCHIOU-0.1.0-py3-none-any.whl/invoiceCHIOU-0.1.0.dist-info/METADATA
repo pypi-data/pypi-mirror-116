@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: invoiceCHIOU
+Version: 0.1.0
+Summary: Taiwan invoice number
+Home-page: https://github.com/chiou3qorz/invoiceCHIOU
+Author: jeng
+Author-email: chiou@e-happy.com.tw
+License: UNKNOWN
+Keywords: invoice
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+## 取得發票號碼
+### 安裝
+```
+pip insall invoiceTW
+```
+### 含入模組
+```
+from invoiceTW import invoice
+```
+### 使用
+```
+invoice.get_current()
+```
+傳回值：
+```
+{'title': '109年11月、12月', '特別獎': '77815838', '特獎': '39993297', '頭獎': '59028801、02813820、06896234', '增開六獎': '011、427'}
+```
+
