@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pytest-multithreading
+Version: 1.0.1
+Summary: a pytest plugin for th and concurrent testing
+Home-page: https://github.com/zhujiahuan/pytest-multithreading
+Author: zhujiahuan
+Author-email: zhujiahuan@yfcloud.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
