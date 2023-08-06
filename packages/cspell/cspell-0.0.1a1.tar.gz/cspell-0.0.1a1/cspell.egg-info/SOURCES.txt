@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cspell/__init__.py
+cspell/__main__.py
+cspell.egg-info/PKG-INFO
+cspell.egg-info/SOURCES.txt
+cspell.egg-info/dependency_links.txt
+cspell.egg-info/entry_points.txt
+cspell.egg-info/requires.txt
+cspell.egg-info/top_level.txt
+cspell/test/__init__.py
+cspell/test/test_spell.py
+cspell/test/test_utils.py
+cspell/test/utils.py
