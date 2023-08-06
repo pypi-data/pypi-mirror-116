@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: plover_phoenix_stenotype
+Version: 0.1.0
+Summary: A stenotype system designed to be used together with the Phoenix dictionary.
+Home-page: https://github.com/Volensia/plover_phoenix_stenotype
+Author: Volensia
+License: MIT
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Phoenix Stenotype
+
+The default stenotype system of Plover translates words like `KATD` as **catted** when it shouldn't translate at all.
+
+In contrast, the `plover_minimal_english_stenotype` plugin doesn't translate words like **cladded** properly. It mistranslates as **claded** instead.
+
+This plugin aims to fix those problems.
+
+
