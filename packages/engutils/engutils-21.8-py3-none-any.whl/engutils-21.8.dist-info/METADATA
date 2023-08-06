@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: engutils
+Version: 21.8
+Summary: Importable utilities for engineering problem solving.
+Home-page: https://github.com/MattCJones/engutils
+Author: Matthew C. Jones
+Author-email: matt.c.jones.aoe@gmail.com
+License: MIT License
+Keywords: utility engineering design problem solving
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pint
+Requires-Dist: numpy
+Requires-Dist: ambiance
+
+Engineering Utilities
+=====================
+
+About
+-----
+
+Module that contains commonly used utilities for solving arbitrary engineering
+problems.
+
+Author
+------
+
+Matthew C. Jones <matt.c.jones.aoe@gmail.com>
+
+Installation
+------------
+
+Install with:
+
+.. code-block:: bash
+
+    pip install <path/to/engutils>
+
+Usage
+-----
+In an ipython notebook or a Python script, import my utilities with:
+
+.. code-block:: bash
+
+    from engutils import *
+
+License
+-------
+
+Engutils is licensed under the MIT LICENSE. See the LICENSE document.
+
+Dependencies
+------------
+
+* `ambiance <https://github.com/airinnova/ambiance>`_: package for Standard Atmosphere calculations.
+* `pint <https://pint.readthedocs.io>`_: package for dealing with units.
+* `numpy <https://numpy.org>`_: package for broad scientific computing.
+
+
