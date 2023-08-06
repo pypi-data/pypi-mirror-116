@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: torchsar
+Version: 1.1.0
+Summary: PyTorch Tools for Synthetic Aperture Radar.
+Home-page: https://sar.iridescent.ink/
+Author: Zhi Liu
+Author-email: zhiliu.mind@gmail.com
+License: MIT
+Download-URL: https://github.com/aisari/torchsar
+Keywords: PyTorch,Synthetic Aperture Radar,Machine Learning,Deep Learning
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
