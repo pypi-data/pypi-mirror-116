@@ -1,0 +1,3 @@
+[console_scripts]
+sas2sqlite = sas2sqlite3.__main__:main
+

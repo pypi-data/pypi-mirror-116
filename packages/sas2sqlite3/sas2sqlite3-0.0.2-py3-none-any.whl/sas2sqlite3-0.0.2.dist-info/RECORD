@@ -1,0 +1,9 @@
+sas2sqlite3/__init__.py,sha256=NGdsXl6eMCpt0JNlzo6uESfWyvGlrAKewgbmjAnRLt4,3685
+sas2sqlite3/__main__.py,sha256=CTvgJ7hdbeLipGD1hBXLHSyXGmCykz1M0K94pca1JIk,3089
+sas2sqlite3/adapters.py,sha256=m-kfmdR4K8sM1Rwm6CnMkU8ScJvsmHYg0J_Jr9JAbMs,2319
+sas2sqlite3-0.0.2.dist-info/LICENSE,sha256=EgECjjXjjAAa8IHIOyr-Y1QERupm9jR-yEhWdRg6Bjw,1091
+sas2sqlite3-0.0.2.dist-info/METADATA,sha256=NgIEDiIr0bF9-g1sAEBHh19HAAmROd7zOiARdgL4bEQ,1807
+sas2sqlite3-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sas2sqlite3-0.0.2.dist-info/entry_points.txt,sha256=MLO96jGkX_kQ6WpOiYui8QE6eS8V1eDJ1ViIi0hkgW4,58
+sas2sqlite3-0.0.2.dist-info/top_level.txt,sha256=cdjw0To8Pz7xLkHWNqtaveIzb_KRJkN6JdDWqrnz8M4,12
+sas2sqlite3-0.0.2.dist-info/RECORD,,

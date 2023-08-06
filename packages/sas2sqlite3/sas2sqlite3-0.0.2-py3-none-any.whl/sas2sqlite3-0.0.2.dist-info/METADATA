@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: sas2sqlite3
+Version: 0.0.2
+Summary: Import sas7bdat files to sqlite3 dbase
+Home-page: https://github.com/ericgj/sas2sqlite.git
+Author: Eric Gjertsen
+Author-email: ericgj72@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sas7bdat
+Requires-Dist: julian
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# sas2sqlite3
+
+Import sas7bdat files to sqlite3 dbase. Uses the [sas7bdat][sas7bdat] SAS 
+dataset file parser.
+
+Command-line and python library interface with minimal requirements.
+
+
+## CLI usage
+
+Create and import data into `some_dataset` table in `some_sqlite.db`
+
+```sh
+sas2sqlite some_dataset.sas7bdat some_sqlite.db
+```
+
+Import data into existing `some_table` table in `some_sqlite.db`
+
+```sh
+sas2sqlite some_dataset.sas7bdat some_sqlite.db --table some_table --no-create-table
+```
+
+Import data storing dates and datetimes as Julian days, and times as `HH:MM`:
+
+```sh
+sas2sqlite some_dataset.sas7bdat some_sqlite.db \
+    --time "%H:%M" --date julian --datetime julian
+```
+
+
+## Install
+
+_Requires python 3.6+ and pip._
+
+```sh
+pip install sas2sqlite3
+```
+
+_Note: the package has a '3' at the end. The executable does not._
+
+
+## Other tools
+
+- [sas2db][sas2db]: Import SAS dataset and XPT files to any database supported
+  by [SQL Alchemy][SQLAlchemy]. Uses [pandas][pandas] SAS parser under the hood.
+
+
+[sas7bdat]: https://pypi.org/project/sas7bdat
+[sas2db]: https://pypi.org/project/sas2db
+[SQLAlchemy]: https://www.sqlalchemy.org
+[pandas]: https://pandas.pydata.org
+
+
+
