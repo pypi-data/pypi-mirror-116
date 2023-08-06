@@ -1,0 +1,8 @@
+README.md
+setup.py
+deepslide.egg-info/PKG-INFO
+deepslide.egg-info/SOURCES.txt
+deepslide.egg-info/dependency_links.txt
+deepslide.egg-info/not-zip-safe
+deepslide.egg-info/requires.txt
+deepslide.egg-info/top_level.txt

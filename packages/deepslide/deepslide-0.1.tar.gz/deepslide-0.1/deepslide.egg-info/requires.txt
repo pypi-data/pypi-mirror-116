@@ -1,0 +1,4 @@
+openslide-python
+Pillow
+numpy
+matplotlib
