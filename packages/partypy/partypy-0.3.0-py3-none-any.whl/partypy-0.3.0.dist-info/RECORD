@@ -1,0 +1,9 @@
+partypy/__init__.py,sha256=ILl_tMqkIfU_VQTogrIf36AEJh5Nmhvm6_ZB92jNA44,331
+partypy/data/party.csv,sha256=alaiD0bKRbYsUdaA2k-ZrWMddeAyJFWRMIhET1h_zEg,1955
+partypy/datasets.py,sha256=9wkSAQjfyC6bnTggqaMBHI6ApphJlVP6GsjHLP_vCmQ,975
+partypy/plotting.py,sha256=BtafXYwYWF9Gck4P_4oq8zLzeIIOgOJUafQym5oV6Zw,881
+partypy/simulate.py,sha256=dhtpsrZMXNBjS-vuiOT4Fmx-my34tvXaIc-mO8_W-OE,1330
+partypy-0.3.0.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+partypy-0.3.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+partypy-0.3.0.dist-info/METADATA,sha256=ylOzP6WpDJ5-zyruTzUMFC3peqdRvzB0VJk_v37gqoU,1877
+partypy-0.3.0.dist-info/RECORD,,
