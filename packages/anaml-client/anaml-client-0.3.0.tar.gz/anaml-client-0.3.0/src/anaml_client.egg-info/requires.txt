@@ -1,0 +1,14 @@
+isodate
+jsonschema
+matplotlib
+numpy
+pandas
+requests
+scipy
+seaborn
+
+[testing]
+flake8
+flake8-docstrings
+hypothesis
+pytest
