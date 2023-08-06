@@ -1,0 +1,9 @@
+LICENSE,sha256=11zpjwdYyOOBWtHGQaT9-XbS3xV-OB5XkNrZDuJ5aKg,1072
+slippers/__init__.py,sha256=zMG7Ef_lZL9BYF75mFl00alyyx2L7C1XvyFJhy4GCVY,52
+slippers/apps.py,sha256=S3A6vv6qtN6bxPh-W1wlebI-V2v8TOYenW0nQO-5oys,1793
+slippers/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slippers/templatetags/slippers.py,sha256=65PaB3DNKt1q7RHuv3y6yxOvjb9lrozw_v0GN8NzcOw,5648
+slippers-0.2.0.dist-info/LICENSE,sha256=11zpjwdYyOOBWtHGQaT9-XbS3xV-OB5XkNrZDuJ5aKg,1072
+slippers-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+slippers-0.2.0.dist-info/METADATA,sha256=tzMlaY6Oz8LzlIyD2YgTmcwm8vkvAcsN3RUMEUhPY18,3015
+slippers-0.2.0.dist-info/RECORD,,
