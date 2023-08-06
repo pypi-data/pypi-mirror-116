@@ -1,0 +1,10 @@
+tensorflow_io_gcs_filesystem/core/python/ops/libtensorflow_io_gcs_filesystem.so,sha256=hPtUNFVNaRj8WgHb0DTbnWasH7BjjtceMbvF1EqGYlA,5029376
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.data/purelib/tensorflow_io_gcs_filesystem/__init__.py,sha256=_JLsmDDxdx3Yx9Al-358IrvCtUjRxAZkLalWjXKmH_w,809
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.data/purelib/tensorflow_io_gcs_filesystem/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.data/purelib/tensorflow_io_gcs_filesystem/core/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.data/purelib/tensorflow_io_gcs_filesystem/core/python/ops/__init__.py,sha256=Z3KLcZHMnrHDLm370IXITG-mCXPKlfWuCMHOVGfGld4,2593
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.dist-info/METADATA,sha256=FEP6-au1tettzK-xGEVvxiwdMN5pV0GnFyn-o0KlhjE,13246
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.dist-info/top_level.txt,sha256=_D7B2mO0SFfak31jmeq5hQuWnU0EKPfSjC_DmAWGnMw,29
+tensorflow_io_gcs_filesystem_nightly-0.20.0.dev20210815170710.dist-info/RECORD,,
