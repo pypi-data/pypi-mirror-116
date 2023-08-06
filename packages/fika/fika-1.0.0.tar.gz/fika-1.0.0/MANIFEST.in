@@ -1,0 +1,5 @@
+include README.md
+include fika/config/technique_reasons.yml
+exclude */test_*.py
+include fika/templates/files/*
+include fika/config/config.yml

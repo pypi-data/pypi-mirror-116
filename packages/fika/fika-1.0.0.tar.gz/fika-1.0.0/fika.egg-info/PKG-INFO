@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fika
+Version: 1.0.0
+Summary: Automate Data Science Workflow from Exploratory Data Analysis to Model Deployment
+Home-page: https://github.com/karthikraja95/fika
+Author: Karthik Bhaskar
+Author-email: karthikrajabk@gmail.com
+License: GPL-3.0
+Description: # fika
+        
+        
+        
+        *"A collection of tools for Data Scientists and ML Engineers to automate their workflow of performing analysis to deploying models and pipelines."*
+        
+        fika is a library/platform that automates your data science and analytical tasks at any stage in the pipeline. fika is, at its core, a uniform API that helps automate analytical techniques from various libaries such as pandas, sci-kit learn, spacy, etc.
+        
+        ## Setup
+        
+        **Python Requirements**: 3.6, 3.7
+        
+        #### Install from GitHub
+        
+        `pip install fika`
+        
+        
+        ## How to use fika
+        
+        Take a look at this [fika.ipynb](https://github.com/karthikraja95/fika/blob/master/examples/fika.ipynb) notebook
+Keywords: datascience,machinelearning,automation,analysis,automl,python,eda
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: ptmodels
