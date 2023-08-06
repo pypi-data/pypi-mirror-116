@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: LeagueLibrary
+Version: 2021.8.15.5
+Summary: LeagueLibrary is a library for Python3 based on the origial Riot Games API.
+Home-page: https://github.com/Groot-cmd/LeagueLibrary
+Author: Gabriel Veras
+Author-email: developergabrielveras@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LeagueLibrary
+
+LeagueLibrary is a library for Python3 based on the origial Riot Games API.
+
+![LeagueLibrary Version](https://img.shields.io/badge/Version-2021.8.15-brightgreen)
+![LeagueLibrary Release](https://img.shields.io/badge/Release-5-brightgreen)
+
+
