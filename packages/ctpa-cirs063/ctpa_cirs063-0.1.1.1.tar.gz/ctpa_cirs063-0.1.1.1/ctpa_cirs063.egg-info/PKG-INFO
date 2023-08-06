@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ctpa-cirs063
+Version: 0.1.1.1
+Summary: Phantom analysis toolkit to fully automatically analyse several CT phantoms
+Home-page: UNKNOWN
+Author: Niels van der Werf
+Author-email: n.vanderwerf@erasmusmc.nl
+License: MIT
+Keywords: image images medical dicom CT phantom
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+License-File: LICENSE
+
+# CT_Phantom_Analysis
+
+Fully automatic analysis for several CT phantoms
+
