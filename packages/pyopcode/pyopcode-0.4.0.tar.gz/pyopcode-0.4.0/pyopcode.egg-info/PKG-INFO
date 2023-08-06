@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyopcode
+Version: 0.4.0
+Summary: OPCODE python bindings
+Home-page: https://github.com/ClinicalGraphics/pyopcode/
+Author: Korijn van Golen
+Author-email: korijn.vangolen@zimmerbiomet.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Provides-Extra: dev
+
+UNKNOWN
+
