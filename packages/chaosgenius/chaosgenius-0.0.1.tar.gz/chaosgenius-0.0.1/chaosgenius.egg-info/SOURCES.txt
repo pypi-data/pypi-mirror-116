@@ -1,0 +1,9 @@
+README.md
+setup.py
+chaosgenius.egg-info/PKG-INFO
+chaosgenius.egg-info/SOURCES.txt
+chaosgenius.egg-info/dependency_links.txt
+chaosgenius.egg-info/entry_points.txt
+chaosgenius.egg-info/not-zip-safe
+chaosgenius.egg-info/requires.txt
+chaosgenius.egg-info/top_level.txt
