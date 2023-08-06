@@ -1,0 +1,16 @@
+djangocms_mdeditor/__init__.py,sha256=eyXEVjaxNzagtWDL0XZ4Q0iK-HKDsPSfX-a26BE1O7Y,116
+djangocms_mdeditor/admin.py,sha256=xxhMOOcOJ295yqrkqOUWC8MiMz1N4NI_j19EuE8uw1U,259
+djangocms_mdeditor/apps.py,sha256=rnj7RJ8kns-_bnG5AWGNHO-7beTp1XDXN0_xyH9hqXo,155
+djangocms_mdeditor/cms_plugins.py,sha256=vC4yMtUa2bOb6QzrYS7IDSTJOpP2X-XrfU0WbPmLbrU,510
+djangocms_mdeditor/fields.py,sha256=TAiwKVikEIgtyewVP9lXxBhgDlbenfIC2_CwwBh6cU8,442
+djangocms_mdeditor/models.py,sha256=VB35b1f9rRSqdN8c84n28GGg0Da68mDs6i99d6khr5k,894
+djangocms_mdeditor/widgets.py,sha256=1iO6CA4w8zUDzEicHpgGRNSaXDecwnYMwRRwd-bXJzY,385
+djangocms_mdeditor/migrations/0001_initial.py,sha256=898eiSmT9bDEns0_9cKU-b-cajGMAIqORRxkCni_slU,843
+djangocms_mdeditor/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_mdeditor/static/css/ace-djangocms-fix.min.css,sha256=2FMrg7JzMGY2cfe9zqfmM7oxQMIViaeysMxOS_hknE0,672
+djangocms_mdeditor/templates/render_text_plugin.html,sha256=-SKnnqHesSZaemlh0wJHXZcJbP8IcmOqK4rigbbUJ2M,56
+djangocms_mdeditor-0.1b2.dist-info/LICENSE,sha256=3LEHo3a8vXduJi43W69upRb5sDR9mxUqkNT2TbXzWog,1071
+djangocms_mdeditor-0.1b2.dist-info/METADATA,sha256=giU9kjMimQqoSGUdnxAnmdVLyKV0n6C9MoqAfREvjGU,3549
+djangocms_mdeditor-0.1b2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+djangocms_mdeditor-0.1b2.dist-info/top_level.txt,sha256=RV77SQ9LV5wHKV2vwvdm2f_ku9Cgwxisu6ca183tZgE,19
+djangocms_mdeditor-0.1b2.dist-info/RECORD,,
