@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lib/sourcing_kaggle_datasets.egg-info/PKG-INFO
+lib/sourcing_kaggle_datasets.egg-info/SOURCES.txt
+lib/sourcing_kaggle_datasets.egg-info/dependency_links.txt
+lib/sourcing_kaggle_datasets.egg-info/top_level.txt
