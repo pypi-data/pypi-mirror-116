@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cell-imaging
+Version: 1.3.2
+Summary: UNKNOWN
+Home-page: https://github.com/lionben89/BGU_cell_imaging
+Author: Lion Ben Nedava
+Author-email: lionben89@gmail.com
+License: MIT
+Description: # BGU_cell_imaging
+        Building Unet...
+        
+        installation:
+        1. create ot activate conda env
+        2. pip install cell_imaging
+        
+        installation for development:
+        1. create ot activate conda env
+        2. for development cd to project dirctory
+        3. pip install -e .
+        
+        for deployment:
+        1. run deploy.bat from master (it will add,commit,bump,build and deploy to pip)
+        
+Keywords: cell_imaging
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
