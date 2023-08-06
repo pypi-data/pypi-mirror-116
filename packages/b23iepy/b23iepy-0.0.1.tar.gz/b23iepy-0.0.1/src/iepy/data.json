@@ -1,0 +1,259 @@
+{
+    "01-01": [
+        {
+            "year": 1993,
+            "data": {
+                "cz": {
+                    "summary": "Rozpad Československa",
+                    "description": "Československo se rozdělilo na dva státy Českou a Slovenskou republiku"
+                },
+                "en": {
+                    "summary": "The split of Czechoslovakia",
+                    "description": "Czechoslovakia split into two states the Czech and Slovak republics."
+                }
+            }
+        }
+    ],
+    "06-25": [
+        {
+            "year": 2003,
+            "data": {
+                "cz": {
+                    "summary": "Narodil se tvůrce tohoto modulu.",
+                    "description": "Narodil se Bertik23, tvůrce tohoto modulu."
+                },
+                "en": {
+                    "summary": "The creator of this package was born.",
+                    "description": "Bertik23, the creator of this package was born."
+                }
+            }
+        }
+    ],
+    "08-17": [
+        {
+            "year": 1999,
+            "data": {
+                "cz": {
+                    "summary": "Zemetřesení v Turecku",
+                    "description": "İzmit v Turecku zasáhlo zemětřesení o síle 7.4, zabilo 17 000 lidí."
+                },
+                "en": {
+                    "summary": "Earthquake in Turkey.",
+                    "description": "İzmit, Turkey was hit by a 7.4 magnitude earthquake, killing 17 000 people."
+                }
+            }
+        }
+    ],
+    "08-18": [
+        {
+            "year": 1934,
+            "data": {
+                "cz": {
+                    "summary": "SSSR byl přijat do Společnosti národů",
+                    "description": "Svaz sovětských socialistických republik byl přijat do Společnosti národů."
+                },
+                "en": {
+                    "summary": "USSR was admitted to the League of Nations",
+                    "description": "Union of Soviet Socialist Republics was admitted to the League of Nations."
+                }
+            }
+        },
+        {
+            "year": 1273,
+            "data": {
+                "cz": {
+                    "summary": "Prahu postihla povodeň.",
+                    "description": ""
+                },
+                "en": {
+                    "summary": "Prahu was hit by floods.",
+                    "description": ""
+                }
+            }
+        },
+        {
+            "year": 1813,
+            "data": {
+                "cz": {
+                    "summary": "Napoleon v Čechách.",
+                    "description": "Napoleonova vojska se objevila v Čechách a obsadila mino jiné Liberec, Českou Lípu a Frýdlant. Srabové Rakušáci utekli."
+                },
+                "en": {
+                    "summary": "Napoleon in Bohemia.",
+                    "description": "Napoleon's army entered Bohemia and captured Liberec, Česká Lípa and Frýdlant, among others. The Austrian troops escaped."
+                }
+            }
+        },
+        {
+            "year": 1990,
+            "data": {
+                "cz": {
+                    "summary": "Rollingstones v Praze.",
+                    "description": "Hrají Rollingstones v Praze. Těšíte se?"
+                },
+                "en": {
+                    "summary": "Rollingstones in Prague.",
+                    "description": "Rollingstones are in Prague. Are you looking forward to that?"
+                }
+            }
+        },
+        {
+            "year": 1834,
+            "data": {
+                "cz": {
+                    "summary": "Erupce Vesuvu",
+                    "description": "Sopka Vesuv u Neapole vybuchla a začala chrlit lávu."
+                }
+            }
+        },
+        {
+            "year": 1961,
+            "data": {
+                "cz": {
+                    "summary": "Berlínská zeď dokončena",
+                    "description": "Berlínská zeď, oddělující kapitalistický Západní Berlín od komunistického Východního Německa, byla dokončena."
+                },
+                "en": {
+                    "summary": "Berlin Wall completed",
+                    "description": "The Berlin Wall, separating capitalist West Berlin from communist East Germany, has been completed."
+                }
+            }
+        },
+        {
+            "year": 1998,
+            "data": {
+                "cz": {
+                    "summary": "Zemřel Otto Wichterle",
+                    "description": "S lítostí oznamujeme, že dnes zemřel vynálezce kontaktních čoček, Otto Wichterle."
+                },
+                "en": {
+                    "summary": "Otto Wichterle dies",
+                    "description": "We are sorry to announce that the inventor of contact lenses, Otto Wichterle, has died today."
+                }
+            }
+        }
+    ],
+    "08-19": [
+        {
+            "year": 1969,
+            "data": {
+                "cz": {
+                    "summary": "Protesty proti politice nového komunistickému vedení",
+                    "description": "Na mnoha místech republiky vypukly masové protesty proti nové politice komunistického vedení po vpádu vojsk našich spojenců, států Varšavské smlouvy."
+                },
+                "en": {
+                    "summary": "Protests against the policy of the new communist leadership",
+                    "description": "In many parts of the republic, mass protests broke out against the new policy of the communist leadership after the invasion of the troops of our allies, the Warwaw pact."
+                }
+            }
+        },
+        {
+            "year": 2010,
+            "data": {
+                "cz": {
+                    "summary": "Američani se stáhli z Iráku",
+                    "description": "Poslední americké jednotky se stáhly z Iráku."
+                },
+                "en": {
+                    "summary": "Americans have withdrawn from Iraq",
+                    "description": "The last American troops have withdrawn from Iraq."
+                }
+            }
+        },
+        {
+            "year": 14,
+            "data": {
+                "cz": {
+                    "summary": "Zemřel císař Augustus",
+                    "description": "Dnes ve věku 76 let zemřel první římský císař, Augustus (Gaius Iulius Ceasar Octavianus)."
+                },
+                "en": {
+                    "summary": "Emperor Augustus dies",
+                    "description": "Today, at the age of 76, the first Roman emperor, Augustus (Gaius Iulius Ceasar Octavianus), died."
+                }
+            }
+        }
+    ],
+    "08-20": [
+        {
+            "year": 1400,
+            "data": {
+                "cz": {
+                    "summary": "Václav IV. sesazen z římského trůnu",
+                    "description": "Ode dneška už není Václav IV. římským králem, pravděpodobně ho nahradí jeho bratr Zikmund."
+                },
+                "en": {
+                    "summary": "Wenceslas IV. deposed from the Roman throne",
+                    "description": "As of today, Wenceslas IV is no longer. Roman king, he will probably be replaced by his brother Sigismund."
+                }
+            }
+        },
+        {
+            "year": 1891,
+            "data": {
+                "cz": {
+                    "summary": "Petřínská rozhledna otevřena",
+                    "description": "Dnes byla otevřena Petřínská rozhledna pro veřejnost."
+                },
+                "en": {
+                    "summary": "Petřín Lookout Tower opened",
+                    "description": "Today the Petřín Lookout Tower was opened to the public."
+                }
+            }
+        },
+        {
+            "year": 1968,
+            "data": {
+                "cz": {
+                    "summary": "Invaze Varšavské smlouvy",
+                    "description": "Vojska NDR a Maďarska vstoupili na území ČSSR a začínají nás obsazovat. Co tady sakra chtějí?"
+                },
+                "en": {
+                    "summary": "Invasion of the Warsaw Pact",
+                    "description": "The troops of the GDR and Hungary entered the territory of the Czechoslovak Socialist Republic and began to occupy us. What the hell do they want here?"
+                }
+            }
+        },
+        {
+            "year": 2013,
+            "data": {
+                "cz": {
+                    "summary": "Rozpuštěna sněmovna",
+                    "description": "Sněmovna Parlamentu ČR se usnesla na rozpuštění sněmovny. Budou volby"
+                },
+                "en": {
+                    "summary": "Dissolved House",
+                    "description": "The Chamber of Deputies of the Parliament of the Czech Republic has resolved to dissolve the House. There will be elections"
+                }
+            }
+        }
+    ],
+    "08-21": [
+        {
+            "year": 1968,
+            "data": {
+                "cz": {
+                    "summary": "Invaze vojsk Varšavské smlouvy",
+                    "description": "Vojska varšavské smlouvy obsadili Československo. Vedení KSČ bylo zadrženo"
+                },
+                "en": {
+                    "summary": "Invasion of Warsaw Pact troops",
+                    "description": "Warsaw Pact troops occupied Czechoslovakia. The leadership of the Communist Party was detained"
+                }
+            }
+        },
+        {
+            "year": 2008,
+            "data": {
+                "cz": {
+                    "summary": "Barbora Špotáková je zlatá",
+                    "description": "Barbora Špotáková vytvořila nový český a evropský rekord. Na LOH v Pekingu zvítězila s výkonem 71.42 metru."
+                },
+                "en": {
+                    "summary": "Barbora Špotáková is golden",
+                    "description": "Barbora Špotáková set a new Czech and European record. She won the Olympic Games in Beijing with a power of 71.42 meters."
+                }
+            }
+        }
+    ]
+}
