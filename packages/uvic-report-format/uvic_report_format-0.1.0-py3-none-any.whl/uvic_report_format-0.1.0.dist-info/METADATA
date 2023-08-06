@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: uvic-report-format
+Version: 0.1.0
+Summary: 
+Author: Blake Smith
+Author-email: blakeinvictoria@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=2.11.3,<3.0.0)
+Requires-Dist: PyPDF2 (>=1.26.0,<2.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: pydantic-yaml (>=0.4.2,<0.5.0)
+Requires-Dist: pydantic[email] (>=1.8.2,<2.0.0)
+Requires-Dist: pypandoc (>=1.5,<2.0)

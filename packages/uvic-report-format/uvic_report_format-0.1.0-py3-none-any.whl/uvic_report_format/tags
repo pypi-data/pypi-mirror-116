@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Definition	glossary.py	/^class Definition:$/;"	c
+GLOSSARY_MD_TEMPLATE	glossary.py	/^GLOSSARY_MD_TEMPLATE = config.templates_dir \/ "glossary.md"$/;"	v
+build_path	config.py	/^build_path = root_dir.parent \/ "build"$/;"	v
+cli	cli.py	/^def cli():$/;"	f
+compile	cli.py	/^def compile(config):$/;"	f
+create_frontmatter	frontmatter.py	/^def create_frontmatter(yml_path):$/;"	f
+create_glossary	glossary.py	/^def create_glossary(yml_path):$/;"	f
+ensure_pandoc	pandoc.py	/^def ensure_pandoc():$/;"	f
+glossary_md	compile.py	/^    glossary_md = render_glossary($/;"	v
+load_config	compile.py	/^def load_config():$/;"	f
+load_config	config.py	/^def load_config(config_path):$/;"	f
+load_definitons	compile.py	/^def load_definitons(path):$/;"	f
+md	compile.py	/^    md = render_titlepage()$/;"	v
+md_to_pdf	pandoc.py	/^def md_to_pdf(md, outputfile, options=()):$/;"	f
+merge_pdfs	pandoc.py	/^def merge_pdfs(*paths):$/;"	f
+multiple_md_to_pdf	pandoc.py	/^def multiple_md_to_pdf(out, *md, include_before=None):$/;"	f
+read_yml_file	utils.py	/^def read_yml_file(path: os.PathLike):$/;"	f
+render_glossary	compile.py	/^def render_glossary(yml_path, md_path):$/;"	f
+render_markdown_template	pandoc.py	/^def render_markdown_template($/;"	f
+render_titlepage	compile.py	/^def render_titlepage():$/;"	f
+root_dir	config.py	/^root_dir = Path(__file__).parent$/;"	v
+templates_dir	config.py	/^templates_dir = root_dir \/ "templates"$/;"	v

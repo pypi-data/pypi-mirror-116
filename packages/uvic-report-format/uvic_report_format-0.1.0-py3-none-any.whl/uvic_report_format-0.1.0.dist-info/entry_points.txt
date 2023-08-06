@@ -1,0 +1,4 @@
+[console_scripts]
+uvic-report-compile=uvic_report_format.cli:compile
+uvic-report-format=uvic_report_format.cli:cli
+
