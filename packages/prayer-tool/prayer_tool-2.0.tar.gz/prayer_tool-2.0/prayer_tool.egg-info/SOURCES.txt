@@ -1,0 +1,10 @@
+README.md
+setup.py
+prayer_tool/__init__.py
+prayer_tool/__main__.py
+prayer_tool.egg-info/PKG-INFO
+prayer_tool.egg-info/SOURCES.txt
+prayer_tool.egg-info/dependency_links.txt
+prayer_tool.egg-info/entry_points.txt
+prayer_tool.egg-info/requires.txt
+prayer_tool.egg-info/top_level.txt
