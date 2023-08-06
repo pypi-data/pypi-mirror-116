@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+djangocms_mdeditor.egg-info/PKG-INFO
+djangocms_mdeditor.egg-info/SOURCES.txt
+djangocms_mdeditor.egg-info/dependency_links.txt
+djangocms_mdeditor.egg-info/requires.txt
+djangocms_mdeditor.egg-info/top_level.txt
