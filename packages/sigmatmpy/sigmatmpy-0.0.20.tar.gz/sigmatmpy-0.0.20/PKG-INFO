@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: sigmatmpy
+Version: 0.0.20
+Summary: BFJ manager api for python user
+Home-page: UNKNOWN
+Author: SigmaTM
+Author-email: wuyou1020@hotmail.com
+License: UNKNOWN
+Description: # SIGMATMPY
+        
+        > SIGMATMPY-library is an APIRequest driven trading and monitoring platform. Each functionality (trades, price etc.) is represented by it's own class covering all aspect of that functionality.
+        
+        
+        ## Getting Started
+        
+        ### Installation
+        
+        ```sh
+        $ pip install sigmatmpy
+        ```
+        
+        ### Basic functions
+        
+        ```sh
+        import sigmatmpy
+        
+        # initualize APIRequest token
+        username = 'username'
+        password = 'password'
+        API = sigmatmpy.API(username,password)
+        
+        # open a live order
+        API.open_order('EURUSD', 1, 0.01, 1.18245, 3, 0, 0,'comment')
+        
+        # open a pending order (limit and stop order)
+        API.open_order('EURUSD', 3, 0.01, 1.18245, 3, 0, 0,'comment')
+        
+        # close a live order 
+        API.close_order(9999999, 0.01, 1.18245)
+        
+        # delete a pending order 
+        API.close_order(9999999)
+        
+        # get trades history by datetime 
+        API.trades_history_by_datetime('2021-07-04 000000', '2021-07-16 075150')
+        
+        # get trades history by unixtime 
+        API.trades_history_by_unixtime(1625991769, 1626423769)
+        
+        # get live trades
+        API.live_trades()
+        
+        # get account information
+        API.account_info()
+        
+        # get server time
+        API.server_time()
+        ```
+        
+        ### Price data
+        
+        ```sh
+        # initialize data streaming for XAUUSD
+        API.initialize_price_stream('XAUUSD')
+        
+        # get current price
+        API.current_price('XAUUSD')
+        
+        # get XAUUSD 5 min bar chart data
+        API.bar_chart('XAUUSD', 5)
+        
+        # check appearance of new bar
+        API.check_new_bar('XAUUSD', 5)
+        
+        ```
+        
+        ## Error Code 
+        
+        Constant                            Value	Description
+        ERR_NO_ERROR                        0       No error returned.
+        ERR_NO_RESULT                       1       No error returned, but the result is unknown.
+        ERR_COMMON_ERROR                    2       Common error.
+        ERR_INVALID_TRADE_PARAMETERS        3       Invalid trade parameters.
+        ERR_SERVER_BUSY                     4       Trade server is busy.
+        ERR_OLD_VERSION                     5       Old version of the client terminal.
+        ERR_NO_CONNECTION                   6       No connection with trade server.
+        ERR_NOT_ENOUGH_RIGHTS               7       Not enough rights.
+        ERR_TOO_FREQUENT_REQUESTS           8       Too frequent requests.
+        ERR_MALFUNCTIONAL_TRADE             9       Malfunctional trade operation.
+        ERR_ACCOUNT_DISABLED                64      Account disabled.
+        ERR_INVALID_ACCOUNT                 65      Invalid account.
+        ERR_TRADE_TIMEOUT                   128     Trade timeout.
+        ERR_INVALID_PRICE                   129     Invalid price.
+        ERR_INVALID_STOPS                   130     Invalid stops.
+        ERR_INVALID_TRADE_VOLUME            131     Invalid trade volume.
+        ERR_MARKET_CLOSED                   132     Market is closed.
+        ERR_TRADE_DISABLED                  133     Trade is disabled.
+        ERR_NOT_ENOUGH_MONEY                134     Not enough money.
+        ERR_PRICE_CHANGED                   135     Price changed.
+        ERR_OFF_QUOTES                      136     Off quotes.
+        ERR_BROKER_BUSY                     137     Broker is busy.
+        ERR_REQUOTE                         138   	Requote.
+        ERR_ORDER_LOCKED                    139 	Order is locked.
+        ERR_LONG_POSITIONS_ONLY_ALLOWED     140 	Long positions only allowed.
+        ERR_TOO_MANY_REQUESTS               141 	Too many requests.
+        ERR_TRADE_MODIFY_DENIED             145	    Modification denied because an order is too close to market.
+        ERR_TRADE_CONTEXT_BUSY              146	    Trade context is busy.
+        ERR_TRADE_EXPIRATION_DENIED         147	    Expirations are denied by broker.
+        ERR_TRADE_TOO_MANY_ORDERS           148	    The amount of opened and pending orders has reached the limit set by a broker.
+        
+        ## Authors 
+        
+        * **SIGMATM** - *Initial work* - [SIGMATM]
+        
+        Please read [contributors](#) for more information.
+        
+        ## License
+        
+        Please read [LICENSE.md](LICENSE.md) for more detail.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
