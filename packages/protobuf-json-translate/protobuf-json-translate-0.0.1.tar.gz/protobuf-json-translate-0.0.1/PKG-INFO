@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: protobuf-json-translate
+Version: 0.0.1
+Summary: A python package that support proto data conversion from json to proto(binary) and vice versa
+Home-page: https://github.com/samcaspus/protobuf-json-translator
+Author: samcaspus
+Author-email: sandeepguptan1998@gmail.com
+License: MIT lisence
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+

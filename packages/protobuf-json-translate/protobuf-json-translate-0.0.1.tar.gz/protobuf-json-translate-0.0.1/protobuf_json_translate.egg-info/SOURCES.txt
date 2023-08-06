@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pjt/__init__.py
+pjt/translator.py
+protobuf_json_translate.egg-info/PKG-INFO
+protobuf_json_translate.egg-info/SOURCES.txt
+protobuf_json_translate.egg-info/dependency_links.txt
+protobuf_json_translate.egg-info/requires.txt
+protobuf_json_translate.egg-info/top_level.txt
