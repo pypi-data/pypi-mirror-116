@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: qsparser
+Version: 0.0.1
+Summary: The query string parser for Python.
+Home-page: https://github.com/fillmula/qsparser
+Author: Fillmula Inc.
+Author-email: victor.teo@fillmula.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+qsparser
+===========
+
+
