@@ -1,0 +1,3 @@
+pulumi-azure-native
+HiYaPyCo
+yamale
