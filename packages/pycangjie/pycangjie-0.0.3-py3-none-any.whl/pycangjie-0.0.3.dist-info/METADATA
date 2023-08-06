@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pycangjie
+Version: 0.0.3
+Summary: CangJie 倉頡 dictionary API.
+Home-page: https://github.com/foxe6/pycangjie
+Author: f̣ộx̣ệ6
+Author-email: foxe6@protonmail.com
+License: AGPL-3.0
+Keywords: quickcopy quick copy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: threadwrapper (>=0.0.1)
+Requires-Dist: lxml (>=0.0.1)
+
+# pyCangJie
+
+<badges>[![version](https://img.shields.io/pypi/v/pycangjie.svg)](https://pypi.org/project/pycangjie/)
+[![license](https://img.shields.io/pypi/l/pycangjie.svg)](https://pypi.org/project/pycangjie/)
+[![pyversions](https://img.shields.io/pypi/pyversions/pycangjie.svg)](https://pypi.org/project/pycangjie/)  
+[![donate](https://img.shields.io/badge/Donate-Paypal-0070ba.svg)](https://paypal.me/foxe6)
+[![powered](https://img.shields.io/badge/Powered%20by-UTF8-red.svg)](https://paypal.me/foxe6)
+[![made](https://img.shields.io/badge/Made%20with-PyCharm-red.svg)](https://paypal.me/foxe6)
+</badges>
+
+<i>CangJie 倉頡 dictionary API.</i>
+
+# Hierarchy
+
+```
+pyCangJie
+|---- convert()
+'---- printTable()
+```
+
+# Example
+
+## python
+```python
+import pyCangJie
+text = "倉頡API"
+print(pyCangJie.convert(text))
+print(pyCangJie.printTable(pyCangJie.convert(text)))
+```
+
+
