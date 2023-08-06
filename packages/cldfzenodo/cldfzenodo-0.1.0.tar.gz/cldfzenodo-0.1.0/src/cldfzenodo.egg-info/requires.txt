@@ -1,0 +1,15 @@
+attrs
+html5lib
+nameparser
+pycldf>=1.23.0
+
+[dev]
+flake8
+twine
+wheel
+
+[test]
+coverage>=4.2
+pytest-cov
+pytest-mock
+pytest>=5
