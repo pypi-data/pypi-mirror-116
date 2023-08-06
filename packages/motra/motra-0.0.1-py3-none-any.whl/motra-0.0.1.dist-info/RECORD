@@ -1,0 +1,9 @@
+motra/__init__.py,sha256=8IPpVF2OvPUG0hy2doP3gmELu6QdBSpFC3Xc_-Uu_-M,363
+motra/m2m.py,sha256=YEQ78DiaBnsTKJlsnjWVRnizIY7vzvYESyoHIbwpZyE,9343
+motra/trace/TransformationTrace.py,sha256=Hv-lcLnPluK650qT5cX0CCmLPdjjkq3I7cKFN9bO-dc,3952
+motra/trace/__init__.py,sha256=0Akw3sNUJnULYcUmyKLi0QYx-bxQFeZPo3y7PqEvjNo,1292
+motra-0.0.1.dist-info/LICENSE,sha256=IEcVKaBeiP2KRJFBqdJt7XouidQZ0kV2mrZzUhfSAbY,1523
+motra-0.0.1.dist-info/METADATA,sha256=AxB7pzH2UehqUV0QIuJhvyKSsGjkUH_4ybEAWA4AN3c,5078
+motra-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+motra-0.0.1.dist-info/top_level.txt,sha256=zAHejV_cuPpJfYam8IPW35aSt_zC-9tMkT6TNojKm5g,6
+motra-0.0.1.dist-info/RECORD,,
