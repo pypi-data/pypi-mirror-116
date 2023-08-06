@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: onnc-bench
+Version: 1.4.0
+Summary: ONNC-bench is a Python wrapper of ONNC
+Home-page: https://www.skymizer.com
+Author: The Skymizer Team
+Author-email: hello@skymizer.com
+License: Apache License 2.0
+Description: # ONNC-bench
+        
+        ONNC-bench is a Python wrapper of ONNC
+        
+        ## Installation
+        
+        ### Using pip
+        ```
+        pip install onnc-bench
+        
+        ```
+        
+        ## Python API Example
+        Here is an example to show how to use ONNC python API
+        ```
+        # Setup your ONNC API key
+        api_key = "Your API KEY"
+        
+        # Instantiate a workspace for deploying model for device `M487`
+        workspace = launch(api_key, 'NUMAKER_IOT_M487')
+        
+        # Quantize model to improve performance and reduce memory footprint.
+        # Here we need quantization dataset, using validation dataset
+        # is surfficent.
+        workspace.quantize(x_test)
+        
+        # Compile the model and get the compilation results
+        report = workspace.compile(model, "input_1", "dense_1")["report"]
+        
+        # Save the compiled model
+        workspace.save('./output')
+        
+        # Release disk space in cloud
+        workspace.close()
+        
+        print(report)
+        """
+        {'ram': 2490, 'rom': 101970}
+        
+        The report shows we need:
+            2,490 bytes of SRAM
+          101,970 bytes of ROM
+        to run this model on a CortexM device.
+        """
+        ```
+        
+        ## CLI tools
+        onnc-bench comes with cli tools to help you deploy model faster.
+        Follow below commands to scaffolding a bench.
+        
+        1. Create and enter your bench
+        ```
+        onnc-create mybench
+        cd mybench
+        ```
+        
+        2. Setup API key
+        ```
+        onnc-login --key "Your-API-Key-Here"
+        ```
+        
+        3. Create an infer `myinfer1` base on template `vww`
+        ```
+        ./create-project -t vww -o myinfer1
+        ```
+        
+        4. Compile the pretrained model 
+        ```
+        ./build-project -t myinfer1 -d NUMAKER_IOT_M487
+        ```
+        
+        5. Deoply the compiled model 
+        ```
+        ./deploy-project -t myinfer1 -o ./output
+        ```
+        
+        More examples can be found in [examples](https://git.skymizer.com/nnuxe/api-client/-/tree/master/examples), currently we provide below examples:
+        
+        1. [Keras MNIST](https://git.skymizer.com/nnuxe/api-client/-/tree/master/examples/keras): Contains a MNIST example in Keras from training to development.
+        2. [Simple Example](https://git.skymizer.com/nnuxe/api-client/-/tree/master/examples/serialized): Compile a serialized model, and download loadable with demo code in c++.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

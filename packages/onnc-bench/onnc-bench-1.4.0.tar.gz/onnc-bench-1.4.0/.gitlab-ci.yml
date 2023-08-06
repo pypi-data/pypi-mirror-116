@@ -1,0 +1,66 @@
+.default:
+  image: "registry.skymizer.com/nnuxe/nnuxe/ubuntu1604"
+  when: always
+  only:
+    - master
+    - merge_requests
+    - schedules
+
+stages:
+  - build
+
+before_script:
+  - if [ -d $SHARED_PATH/${CI_JOB_NAME} ]; then rm -rf $SHARED_PATH/${CI_JOB_NAME}; fi
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build_nnuxe:
+  extends: .default
+  stage: build
+  variables:
+    API_CLIENT_BRANCH: "master"
+    API_BACKEND_BRANCH: "master"
+    API_REGRESSION_TEST_BRANCH: "master"
+  before_script:
+    - echo "https://gitlab-ci-token:${CI_JOB_TOKEN}@git.skymizer.com" > ~/.git-credentials
+    - echo -e "[credential]\n\thelper = store" > ~/.gitconfig
+  script:
+    - echo $PWD
+    - cp -r ${PWD} /onnc/nnuxe
+    - cd /onnc && git clone -b ${API_BACKEND_BRANCH} https://git.skymizer.com/nnuxe/api-backend.git
+    - echo ${API_BACKEND_BRANCH}
+    - cd /onnc && git clone -b ${API_CLIENT_BRANCH} https://git.skymizer.com/nnuxe/api-client.git
+    - echo ${API_CLIENT_BRANCH}
+    - cd /onnc && git clone -b ${API_REGRESSION_TEST_BRANCH} https://git.skymizer.com/nnuxe/regression_test.git
+    - echo ${API_REGRESSION_TEST_BRANCH}
+    # - cd /onnc && git clone https://git.skymizer.com/mns/umbrella.git
+    # - cd /onnc/umbrella && ./envsetup.sh
+    # - cd /onnc/umbrella && make
+    # - cd /onnc/umbrella && skymizer-master-toplevel/bin/* /onnc/nnuxe/external/
+    - mkdir -p /onnc/nnuxe/external/
+    - mkdir -p /onnc/nnuxe/external/tinyonnc/
+    - mkdir -p /onnc/nnuxe_data/
+    - cp /nfs/qa/ci/nnuxe/bin/* /onnc/nnuxe/nnuxe/external/tinyonnc/
+    # - sudo add-apt-repository -y ppa:deadsnakes/ppa
+    - sudo apt update
+    - sudo apt install -y python3.7 python3-setuptools
+    - sudo apt-get install -y binutils-arm-none-eabi
+    # - sudo mv /usr/bin/python3 /usr/bin/python3-old
+    # - sudo ln -sf /usr/bin/python3.9 /usr/bin/python3
+    - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    - sudo apt install -y python3.7-distutils
+    - python3.7 get-pip.py
+    - cd /onnc/nnuxe && pip install -r requirements.txt
+    - cd /onnc/api-backend && pip install -r requirements.txt
+    - cd /onnc/api-client && pip install . -U --force-reinstall
+    - cd /onnc/regression_test && pip install -r requirements.txt
+    - cd /onnc/nnuxe/nnuxe/converters/h5file_kerasobject &&  pip install -r requirements.txt && sh env_setup.sh
+    - export PATH=/onnc/.local/bin:$PATH
+    - export NNUXE_PATH="/onnc/nnuxe"
+    - export ONNC_TESTMODE=1
+    - export ONNC_CICD_MODE=1
+    - export ONNC_APIKEY="4aaaf71530acd221a8b5046e6eb5dcf28e2676c09e33e7b33b6fe413b9510553"
+    - cd /onnc/api-backend && python3 -m uvicorn main:app --reload &
+    - cd /onnc/regression_test/tests && python3 -m pytest
+    - cd /onnc/api-client/tests && python3 -m pytest

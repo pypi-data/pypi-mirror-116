@@ -1,0 +1,10 @@
+requests
+matplotlib
+numpy
+onnx
+read-only-attributes
+click
+wget
+loguru
+sentry-sdk
+jinja2
