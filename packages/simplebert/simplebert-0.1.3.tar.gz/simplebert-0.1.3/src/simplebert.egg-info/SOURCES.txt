@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/simplebert/__init__.py
+src/simplebert/models.py
+src/simplebert/pretrained.py
+src/simplebert/pretrained_models.json
+src/simplebert/tokenizers.py
+src/simplebert/utils.py
+src/simplebert.egg-info/PKG-INFO
+src/simplebert.egg-info/SOURCES.txt
+src/simplebert.egg-info/dependency_links.txt
+src/simplebert.egg-info/requires.txt
+src/simplebert.egg-info/top_level.txt
