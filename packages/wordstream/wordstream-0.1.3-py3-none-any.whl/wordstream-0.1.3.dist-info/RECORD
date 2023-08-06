@@ -1,0 +1,12 @@
+wordstream/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+wordstream/api.py,sha256=ZtF7FT9EDqlnf957ewjigHzmy12tSnogUeGpo-JZr18,1549
+wordstream/dispatcher.py,sha256=nyKWVOWSdXg0NFAo_pod49VT-M4oZ65VSNxG1niecSw,3305
+wordstream/dissociate.py,sha256=pCT7t3MruNVHx6ESx5CLB83lS_HNx6JXnd8ZosQL76c,810
+wordstream/factory.py,sha256=HxiJRn0tM93DxCh8rXs3TeL9qt-mMZ25zq1zai4cSHE,1432
+wordstream/handlers.py,sha256=kJoMeQlzCc3KAklsDE_SMZvnwhDq4tUnQutdeq4I4y4,5074
+wordstream/main.py,sha256=mSWDwIBgVAcmRU_aW4ygXAMDKqJnKvSIghnW51fQ4co,1049
+wordstream-0.1.3.dist-info/METADATA,sha256=JLB2_Y59BAt8i25MEYmMgWwhL_rrrS29KL3e2kbTz2Q,2778
+wordstream-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wordstream-0.1.3.dist-info/entry_points.txt,sha256=xVgroP0jInbx9KtpbDJVA-TciPOcQGViHi2TJx0aUww,220
+wordstream-0.1.3.dist-info/top_level.txt,sha256=Y0KBLhXKkPXvecKEYoYqmbEmwGGuz4Zh8uO1sJ0JaCA,11
+wordstream-0.1.3.dist-info/RECORD,,
