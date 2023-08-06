@@ -1,0 +1,8 @@
+README.md
+setup.py
+authsrv/__init__.py
+authsrv/authsrv.py
+authsrv.egg-info/PKG-INFO
+authsrv.egg-info/SOURCES.txt
+authsrv.egg-info/dependency_links.txt
+authsrv.egg-info/top_level.txt
