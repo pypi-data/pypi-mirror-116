@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: thisbeatest
+Version: 0.1
+Summary: A CLI to work with DataHub metadata
+Home-page: https://datahubproject.io/
+License: Apache License 2.0
+Project-URL: Documentation, https://datahubproject.io/docs/
+Project-URL: Source, https://github.com/linkedin/datahub
+Project-URL: Changelog, https://github.com/linkedin/datahub/releases
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: base
+Provides-Extra: datahub-kafka
+Provides-Extra: datahub-rest
+Provides-Extra: airflow
+Provides-Extra: athena
+Provides-Extra: bigquery
+Provides-Extra: bigquery-usage
+Provides-Extra: dbt
+Provides-Extra: druid
+Provides-Extra: feast
+Provides-Extra: glue
+Provides-Extra: hive
+Provides-Extra: kafka
+Provides-Extra: kafka-connect
+Provides-Extra: ldap
+Provides-Extra: looker
+Provides-Extra: lookml
+Provides-Extra: mongodb
+Provides-Extra: mssql
+Provides-Extra: mssql-odbc
+Provides-Extra: mysql
+Provides-Extra: okta
+Provides-Extra: oracle
+Provides-Extra: postgres
+Provides-Extra: redshift
+Provides-Extra: sagemaker
+Provides-Extra: snowflake
+Provides-Extra: snowflake-usage
+Provides-Extra: sqlalchemy
+Provides-Extra: sql-profiles
+Provides-Extra: superset
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: dev-airflow1
+Provides-Extra: integration-tests
+
+This is a description
+
