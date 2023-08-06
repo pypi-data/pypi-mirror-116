@@ -1,0 +1,3 @@
+[console_scripts]
+randcolor = randcolor.menu:start
+
