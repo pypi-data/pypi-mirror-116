@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: execution-controller
+Version: 0.1.7
+Summary: Модуль инструментов для контроля процесса выполнения python программы
+License: MIT
+Author: rocshers
+Author-email: prog.rocshers@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# execution-controller
+
+Модуль python для контроля выполнения программы
+
