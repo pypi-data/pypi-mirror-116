@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ld_plot/__init__.py
+src/ld_plot/ld_plot.py
+src/ld_plot.egg-info/PKG-INFO
+src/ld_plot.egg-info/SOURCES.txt
+src/ld_plot.egg-info/dependency_links.txt
+src/ld_plot.egg-info/top_level.txt
