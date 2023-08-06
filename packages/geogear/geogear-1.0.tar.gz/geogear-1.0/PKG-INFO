@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: geogear
+Version: 1.0
+Summary: GEOGEAR analysis functions
+Author-email: Tim Lenters <timlenters@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas
+Requires-Dist: prov[dot]==2.0.0
+Requires-Dist: tqdm
+Requires-Dist: pyproj
+Requires-Dist: geopandas
+Requires-Dist: rasterio
+Requires-Dist: googledrivedownloader
+Requires-Dist: requests
+Project-URL: Home, https://github.com/tlenters/GEOGEAR

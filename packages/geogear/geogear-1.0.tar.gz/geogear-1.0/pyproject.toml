@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "geogear"
+authors = [{name = "Tim Lenters", email = "timlenters@gmail.com"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pandas",
+    "prov[dot]==2.0.0",
+    "tqdm",
+    "pyproj",
+    "geopandas",
+    "rasterio",
+    "googledrivedownloader",
+    "requests"
+]
+
+[project.urls]
+Home = "https://github.com/tlenters/GEOGEAR"
