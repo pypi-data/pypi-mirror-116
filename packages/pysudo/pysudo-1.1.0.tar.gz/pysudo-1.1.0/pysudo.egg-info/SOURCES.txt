@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+pysudo/__init__.py
+pysudo/main.py
+pysudo.egg-info/PKG-INFO
+pysudo.egg-info/SOURCES.txt
+pysudo.egg-info/dependency_links.txt
+pysudo.egg-info/top_level.txt
