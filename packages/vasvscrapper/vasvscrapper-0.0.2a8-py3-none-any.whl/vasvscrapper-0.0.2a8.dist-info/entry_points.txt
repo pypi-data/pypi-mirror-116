@@ -1,0 +1,5 @@
+[console_scripts]
+lint=vasvscrapper.scripts:lint
+release=vasvscrapper.scripts:release
+test=vasvscrapper.scripts:test
+
