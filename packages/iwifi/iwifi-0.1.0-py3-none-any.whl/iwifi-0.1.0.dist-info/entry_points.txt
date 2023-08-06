@@ -1,0 +1,3 @@
+[console_scripts]
+iwifi = iwifi.__main__:main
+
