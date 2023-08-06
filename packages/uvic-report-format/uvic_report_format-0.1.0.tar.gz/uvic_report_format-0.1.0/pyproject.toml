@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "uvic_report_format"
+version = "0.1.0"
+description = ""
+authors = ["Blake Smith <blakeinvictoria@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Jinja2 = "^2.11.3"
+PyYAML = "^5.4.1"
+pypandoc = "^1.5"
+click = "^7.1.2"
+PyPDF2 = "^1.26.0"
+pydantic = {extras = ["email"], version = "^1.8.2"}
+pydantic-yaml = "^0.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+uvic-report-compile = "uvic_report_format.cli:compile"
+uvic-report-format = "uvic_report_format.cli:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
