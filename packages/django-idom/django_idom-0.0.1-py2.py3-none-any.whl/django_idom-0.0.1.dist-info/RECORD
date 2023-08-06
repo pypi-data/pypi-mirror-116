@@ -1,0 +1,14 @@
+django_idom/__init__.py,sha256=H8B_gqoMAjPoMynK9K32QvPuZ7X28KpGnSLi3FQQcFU,145
+django_idom/config.py,sha256=yOkGWz_I57VN-b_GxVIDFrIZVy_HwWVcbQw9g8JMzYo,827
+django_idom/paths.py,sha256=raw8IVRz5DWHW94jaWwIl_tJjoP81BXJIjLioLzTrAQ,917
+django_idom/views.py,sha256=GirudaI6sePZC55WAUoCCDsL9tARnovxSTCoHUeLg8Q,1615
+django_idom/websocket_consumer.py,sha256=DaOBbDpud9SfrMXPmtPKTLTnOJF5mlz7t8F5Z7QktkM,2254
+django_idom/static/js/django-idom-client.js,sha256=WzOYYZChYKCpF_RsRtavtt8KyK0VETusXkQnYkI8VjM,1045747
+django_idom/templates/idom/view.html,sha256=sIxPHgTNY1TL4hEFuOPg-YGiSfSHObIjjN-G8Lk27Q8,439
+django_idom/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_idom/templatetags/idom.py,sha256=ENylFnd_0PltpZWiiB-Bl2y-fJN3kXh2EFgQGXosxHI,1515
+django_idom-0.0.1.dist-info/LICENSE,sha256=LgTkk56oabEKWDTij0_XR08HxR6WxE5Yin9zYXDdDVw,1083
+django_idom-0.0.1.dist-info/METADATA,sha256=w1yQ6ytPBCvzZUbxY94evDmnNCdAHwoqGaNG8IDKmZc,7696
+django_idom-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_idom-0.0.1.dist-info/top_level.txt,sha256=ldf_HE4p5tqw1unNhW-yeVAtgut1lJrEWmaFe8LLNLQ,12
+django_idom-0.0.1.dist-info/RECORD,,
