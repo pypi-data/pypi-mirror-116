@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: cmorlet_tensorflow
+Version: 0.3
+Summary: CWT - Tensorflow - GPU ACCELERATED WITH MIXED PRECISION SUPPORT
+Home-page: https://github.com/AyhmRB/cmorlet-tensorflow
+Author: Ayhm
+Author-email: ayhmdalilabzns@gmail.com
+License: MIT
+Download-URL: https://github.com/AyhmRB/cmorlet-tensorflow/archive/refs/tags/0.3.tar.gz
+Description: UNKNOWN
+Keywords: TENSORFLOW,CWT,GPU,MIXED_PRECISION
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
