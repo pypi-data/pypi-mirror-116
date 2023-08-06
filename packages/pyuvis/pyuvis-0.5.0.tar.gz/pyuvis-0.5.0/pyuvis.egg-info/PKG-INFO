@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pyuvis
+Version: 0.5.0
+Summary: Python tools for Cassini UVIS data
+Home-page: https://github.com/michaelaye/pyuvis/tree/master/
+Author: Michael Aye
+Author-email: kmichael.aye@gmail.com
+License: Apache Software License 2.0
+Keywords: Cassini UVIS Data Tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# pyuvis
+> This package provides tools to work with Cassini UVIS data.
+
+
+## How to install
+
+`pip install pyuvis`
+
+## How to use
+
+The tools in here depend on my now also much improved general `planetarypy` package, and the pip installer will look for the minimum required version of 0.12.
+
+When launched for the first time, `planetarypy` will ask for a storage path for all data managed by `planetarypy`.
+
+When using the `planetarypy.ctx` or `planetarypy.hirise` modules for the first time, they will automatically find, download, and convert the respective PDS index file, so please be patient.
+After this it will be very fast, as the index is stored in HDF5 format.
+
+If you are later interested in getting these indexes for more data search, do this:
+
+

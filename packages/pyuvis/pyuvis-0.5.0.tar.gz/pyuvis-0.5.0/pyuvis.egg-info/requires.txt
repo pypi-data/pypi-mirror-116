@@ -1,0 +1,7 @@
+pip
+packaging
+pandas
+xarray
+planetarypy>=0.12
+
+[dev]
