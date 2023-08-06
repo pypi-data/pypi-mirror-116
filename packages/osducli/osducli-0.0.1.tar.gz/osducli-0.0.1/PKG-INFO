@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: osducli
+Version: 0.0.1
+Summary: OSDU command line
+Home-page: https://github.com/equinor/osdu-cli
+Author: Equinor ASA
+Author-email: mhew@equinor.com
+License: MIT
+Description: # OSDU Command Line Interface (osducli)
+        =======================================
+        
+        Command-line interface for interacting with OSDU.
+        
+        Invocation
+        ==========
+        
+        To get started, after installation run the following:
+        
+        .. code-block:: bash
+        
+          osducli -h
+        
+        Change Log
+        ==========
+        
+        0.0.1
+        -----
+        
+        - Initial release.
+        
+Keywords: osdu
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Provides-Extra: test
