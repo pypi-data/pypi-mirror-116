@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+coi/__init__.py
+coi/__main__.py
+coi/utils.py
+coi.egg-info/PKG-INFO
+coi.egg-info/SOURCES.txt
+coi.egg-info/dependency_links.txt
+coi.egg-info/entry_points.txt
+coi.egg-info/top_level.txt
+coi/templates/for-loop.tmpl
