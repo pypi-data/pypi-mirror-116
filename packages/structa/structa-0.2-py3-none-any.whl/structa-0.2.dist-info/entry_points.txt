@@ -1,0 +1,3 @@
+[console_scripts]
+structa = structa.ui.cli:main
+
