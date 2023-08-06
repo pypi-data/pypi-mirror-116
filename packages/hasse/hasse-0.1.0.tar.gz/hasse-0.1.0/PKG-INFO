@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hasse
+Version: 0.1.0
+Summary: Python library for creating hasse diagram graphs.
+License: MIT
+Author: Marcell Vazquez-Chanlatte
+Author-email: mvc@linux.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs (>=21.2.0,<22.0.0)
+Requires-Dist: networkx (>=2.6.2,<3.0.0)
