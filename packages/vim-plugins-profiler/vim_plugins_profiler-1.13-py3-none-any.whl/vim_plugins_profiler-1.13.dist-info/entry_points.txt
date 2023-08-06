@@ -1,0 +1,3 @@
+[console_scripts]
+vim-plugins-profiler = vim_plugins_profiler:main
+
