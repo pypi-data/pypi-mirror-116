@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cpgzh
+Version: 0.1.5
+Summary: pgzhero的一个助手工具
+Home-page: https://gitee.com/deepin-opensource/cpgzhelper
+Author: fslong
+Author-email: fsl470657570@outlook.com
+License: MIT
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+pgzhero的一个助手工具
+
