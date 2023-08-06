@@ -1,0 +1,13 @@
+oarepo_doi_generator/__init__.py,sha256=Kg2fKXXDw4fc85mJdhrSjN80-A72q0HCebVpAw-PPmw,360
+oarepo_doi_generator/api.py,sha256=COYhCbuigvdUOGl81NdcYHliauqpuhXtvNaU6sQvLH4,2670
+oarepo_doi_generator/ext.py,sha256=-bdkVY68SN9vaUu85viZKieRGsD34Lr1S4Whl5Gnmfo,543
+oarepo_doi_generator/json_schema_mapping.py,sha256=tfzrlHKhhc5_XA62-3KI1HkvlUuC3qVhptUIVshH4Hs,4184
+oarepo_doi_generator/version.py,sha256=MuLe9FOt-77i7Hv6qlwp9CEKvC3rbN91g7jzkIUS7wk,1408
+oarepo_doi_generator/jsonschemas/__init__.py,sha256=22y-tLO3K1Ttep60VhAry4QriEe_YpuNga1AGoPey54,449
+oarepo_doi_generator/jsonschemas/datacite-oarepo-v1.0.0.json,sha256=jmm8mmks-N7X2C8yYZehpzjZS9LAg_V8zmqQHVkAq9U,17067
+oarepo_doi_generator-1.0.1.dist-info/LICENSE,sha256=oxlvOW3GiojF5mcapEzPff39MfADzIw5Qt8iOonks8c,1062
+oarepo_doi_generator-1.0.1.dist-info/METADATA,sha256=__m6xQYoThJweGN2Wz8piCcMPAnWmXWx6v6yQb-0Sbk,3476
+oarepo_doi_generator-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oarepo_doi_generator-1.0.1.dist-info/entry_points.txt,sha256=20kX83z1fX-X_h3VG6v8IR-zRrmZwybnmqzbHZmMV4E,109
+oarepo_doi_generator-1.0.1.dist-info/top_level.txt,sha256=73Cdy5UFXXxQjLYL8u6uqJ5rJTnQeiudZyytltJwMoM,21
+oarepo_doi_generator-1.0.1.dist-info/RECORD,,
