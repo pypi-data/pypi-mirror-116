@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+transparentwindow/__init__.py
+transparentwindow/_win.py
+transparentwindow/capture.py
+transparentwindow/posdlg.py
+transparentwindow/transparentdlg.py
+transparentwindow.egg-info/PKG-INFO
+transparentwindow.egg-info/SOURCES.txt
+transparentwindow.egg-info/dependency_links.txt
+transparentwindow.egg-info/not-zip-safe
+transparentwindow.egg-info/requires.txt
+transparentwindow.egg-info/top_level.txt

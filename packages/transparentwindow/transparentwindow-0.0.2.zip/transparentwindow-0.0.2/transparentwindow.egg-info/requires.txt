@@ -1,0 +1,5 @@
+
+[screencapture]
+numpy
+opencv-python
+pillow
