@@ -1,0 +1,3 @@
+import mcapi
+
+mcapi.init()
