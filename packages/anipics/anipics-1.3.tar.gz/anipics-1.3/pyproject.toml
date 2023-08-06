@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "bs4",
+    "requests",
+    "pydantic",
+    "aioify"
+]
+build-backend = "setuptools.build_meta"
