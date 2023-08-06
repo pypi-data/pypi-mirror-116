@@ -1,0 +1,13 @@
+gammu/__init__.py,sha256=Eipm2aLsbINghEHb_BAWtuCfpGLMWSph0GNEzUH0UlM,1175
+gammu/_gammu.cp39-win32.pyd,sha256=wNnYBoaqAqfW_MUxVTdmVVLpHpOGgPHsIMjnhzXEk7U,1298432
+gammu/asyncworker.py,sha256=_q_lEiTK1hRzV8nFbKoPfUViS1XCM0Q1YdlB0dqs97I,5622
+gammu/data.py,sha256=dp8-PzL8dJ3FnZ0Vd8nwYGpV1IgeG4VVViV-dNW5Hac,8118
+gammu/exception.py,sha256=4q7QuHoUcgGzAVuqSsbCs-no-Pw__q-BndUiMo549BM,1318
+gammu/smsd.py,sha256=uRjrsGk53SxvycSJG9nzdQfEqwpjAGNgDNOyutDEHb0,973
+gammu/worker.py,sha256=_4AeJpqr9ja_yrPV0Z5w59WvzkK_VaKK3IeMVwV1jWg,10736
+python_gammu-3.2.3.dist-info/AUTHORS,sha256=FW5xxPfFuJoST6r5YwP91QO-KyTcTDrHXPwOBmGu450,105
+python_gammu-3.2.3.dist-info/COPYING,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+python_gammu-3.2.3.dist-info/METADATA,sha256=9YDw7fvIG7wmqeGSqZyGWJX4wnI1xnzOGtPy2Lk3dg0,4562
+python_gammu-3.2.3.dist-info/WHEEL,sha256=xFUNU75GUJjrFouIkwjRY5mfiX90xTqA-0r9dgWcaTg,96
+python_gammu-3.2.3.dist-info/top_level.txt,sha256=DCkjQyKLL2Scv_sr-bcKLuYLvOBgT2TuYlP4CD2jvNw,6
+python_gammu-3.2.3.dist-info/RECORD,,
