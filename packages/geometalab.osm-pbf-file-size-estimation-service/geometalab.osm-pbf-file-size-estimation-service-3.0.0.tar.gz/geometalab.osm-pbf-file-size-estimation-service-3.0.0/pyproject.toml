@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "geometalab.osm-pbf-file-size-estimation-service"
+version = "3.0.0"
+description = "Rough pbf estimate of a certain extent."
+authors = ["Geometa Lab <geometalab@hsr.ch>"]
+license = "MIT"
+repository = "https://github.com/geometalab/osm-pbf-file-size-estimation-service"
+packages = [
+    { include = "pbf_file_size_estimation" },
+]
+include = ["planet-stats.csv"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+djangorestframework = "^3.12.4"
+
+[tool.poetry.dev-dependencies]
+pytest-django = "^4.4.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+flake8 = "^3.9.2"
+mkdocs = "^1.2.2"
+tox = "^3.24.1"
+Django = "^3.2.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
