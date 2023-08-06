@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "peach-partner"
+version = "0.0.4"
+description = "Peach Partner Library is a platform agnostic Python package to help integrating PeachPayments with their partners."
+readme = "README.md"
+authors = ["Peach Payments <support@peachpayments.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+autoflake = "^1.4"
+black = "^21.6b0"
+isort = "^5.9.1"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 96
+target-version = ["py39"]
+
+[tool.mypy]
+ignore_missing_imports=true
