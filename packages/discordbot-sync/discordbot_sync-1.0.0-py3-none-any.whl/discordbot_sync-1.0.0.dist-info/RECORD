@@ -1,0 +1,10 @@
+api/__init__.py,sha256=asv96-Lt_foTL3UJePDs-NoPDAvl3BmeC0TlEoIkSqQ,147
+api/opcode.py,sha256=tumOq3Urp9zUfR6o7Q9aIUAttkidcIsutTm_lBLp9Ps,772
+api/payload.py,sha256=hasJaW3O4WlZxZLKwUbGAoFyEOD2NKHC6i2WEGgZWi0,5428
+api/status_code.py,sha256=OnP-62t4qDCTXWfbOYh41RZn1MDrt1TRY2P17fj-DQY,534
+api/structure.py,sha256=cbtMrhWFbxfq8kiPns6XUt9ojXZDD8Q9-3ufideM8H4,6556
+discordbot_sync-1.0.0.dist-info/LICENSE,sha256=L8YzB5RJYWdQDpEcj-ZDBcibCCOMdIPgsI1qrmqegVE,33042
+discordbot_sync-1.0.0.dist-info/METADATA,sha256=mEIM5obdIlZ3_-46C-uoFi4L4l0-md1j3cV58OMelI8,2366
+discordbot_sync-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+discordbot_sync-1.0.0.dist-info/top_level.txt,sha256=0XF5TFwfelCuuPcFarhKT7zW-9WUsZmb3a790D78BZE,4
+discordbot_sync-1.0.0.dist-info/RECORD,,
