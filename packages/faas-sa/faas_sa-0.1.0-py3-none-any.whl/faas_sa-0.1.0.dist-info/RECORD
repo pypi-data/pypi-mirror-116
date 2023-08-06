@@ -1,0 +1,9 @@
+faas_sa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faas_sa/api.py,sha256=11mpYW3Ps0FdjvHrmaGfuJNspOhkRnfUi7AyxvJGoBw,3413
+faas_sa/faas_storage_agent_pb2.py,sha256=Oop4uDTlZjocc0C_7JI-aHNgFsqAU0Vqd3yDG7xdj5Y,12333
+faas_sa/faas_storage_agent_pb2_grpc.py,sha256=VYiUkvuZgYpHfMh5sK3WCS3KaPh-lz20AjNokIppgxY,11635
+faas_sa/test_server.py,sha256=MaKkJadlpCGY9rOXuTo39UEaQj0w93oSdpFEnL4zJpQ,2514
+faas_sa-0.1.0.dist-info/METADATA,sha256=d8cgbR0qm5hDkozanXfICpE1_s84ztW-jK0cI5DuKFk,179
+faas_sa-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+faas_sa-0.1.0.dist-info/top_level.txt,sha256=b0jUQX3gkGdfjWHi8iIvcV6QuVYM59AbWOdr2biuEQs,8
+faas_sa-0.1.0.dist-info/RECORD,,
