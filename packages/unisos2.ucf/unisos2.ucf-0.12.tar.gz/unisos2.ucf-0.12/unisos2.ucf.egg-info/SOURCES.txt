@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+TITLE.txt
+lh-agpl3-LICENSE.txt
+setup.py
+unisos2/__init__.py
+unisos2.ucf.egg-info/PKG-INFO
+unisos2.ucf.egg-info/SOURCES.txt
+unisos2.ucf.egg-info/dependency_links.txt
+unisos2.ucf.egg-info/namespace_packages.txt
+unisos2.ucf.egg-info/not-zip-safe
+unisos2.ucf.egg-info/top_level.txt
+unisos2/ucf/__init__.py
+unisos2/ucf/ucf.py
