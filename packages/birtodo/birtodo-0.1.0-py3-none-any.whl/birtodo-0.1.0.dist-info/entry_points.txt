@@ -1,0 +1,3 @@
+[console_scripts]
+poetry=birtodo.__main__:main
+

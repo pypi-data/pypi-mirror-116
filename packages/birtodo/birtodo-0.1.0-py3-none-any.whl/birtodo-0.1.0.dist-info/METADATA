@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: birtodo
+Version: 0.1.0
+Summary: A simple command-line interface to save user's to-dos.
+Home-page: https://github.com/Dositan/birtodo
+License: MIT
+Keywords: todo,cli,database
+Author: Dastan Ozgeldi
+Author-email: ozgdastan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Terminals
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/Dositan/birtodo
+Description-Content-Type: text/markdown
+
+<h1 align="center">BirTodo</h1>
+<p align="center">
+    ~ an extremely simple command-line interface for users to save their to-dos locally.
+</p>
+
+<h1 align="center">Some info</h1>
+<ol>
+    <li>Database: it uses the local `SQLite` database.</li>
+    <li>Features: todo add, remove, edit, show and export commands.</li>
+    <li>Documenting: every method is filled up with a corresponding docstring.</li>
+</ol>

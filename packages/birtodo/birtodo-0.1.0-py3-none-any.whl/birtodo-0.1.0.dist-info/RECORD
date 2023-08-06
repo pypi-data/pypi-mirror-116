@@ -1,0 +1,9 @@
+birtodo/__init__.py,sha256=4rXBOQM-MV1gXfW-TbbNUTqojxUNz93CJO8eE2d7rCA,178
+birtodo/__main__.py,sha256=rQ_2ui-ak-4Ya8Oqgz_jGxxX5Kx3SxLCLHoS8JMlIUA,638
+birtodo/app.py,sha256=5ebAffvXB9DV9ykWHVF5mIgEeFke7OIdBYcM4riM_9M,4141
+birtodo/database.py,sha256=8aDQBwnyeLv982ke6rKHI1g5ZVPWZmYNaCAIl8T7OuM,787
+birtodo/exceptions.py,sha256=nspkxcF3gAktW5ScxcPZ4HPiwy_QUJOS3mjjcI3MkQE,651
+birtodo-0.1.0.dist-info/entry_points.txt,sha256=n661SCviV1cv2blScx51Fyh4tiOtPPRpKq_Fhne6i4Q,48
+birtodo-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+birtodo-0.1.0.dist-info/METADATA,sha256=1wamkLO9hcrEJrjtzvAAmxwOvZyCRjLWOJ6RPh7XhRg,1232
+birtodo-0.1.0.dist-info/RECORD,,
