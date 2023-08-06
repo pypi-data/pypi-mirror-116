@@ -1,0 +1,8 @@
+requests
+jsonschema
+pyyaml
+pydes
+redis
+pymongo
+bson
+flask
