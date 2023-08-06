@@ -1,0 +1,17 @@
+LICENSE.txt,sha256=kcMqDuRhWSHUA9v1htzxgNKvJoxslW9XNRnfRe0i-pc,1067
+README.md,sha256=mvOUpiVjwt9wPgozbCBFXI9sVWgPvqmUAauKr2YnD08,2496
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+find_datacol_diff.py,sha256=P-XPINCl0Lv3a-3GwjDdJYXbdnVs7iFTcr4mOPJ54MY,8434
+utils.py,sha256=nWEr0oFol0Abh78pZZXMhcFmg51M24ac9bEejJA6AbQ,958
+pyspark_datacol_diff.egg-info/PKG-INFO,sha256=mntMxBIU8WpC_aE4AGgyKUqWTJgl44NWfjD99Rc4CXY,832
+pyspark_datacol_diff.egg-info/SOURCES.txt,sha256=wWFDHcHPr71HytdFs3tgDfRxDEXVliQnfOizYuAz2Jw,364
+pyspark_datacol_diff.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyspark_datacol_diff.egg-info/requires.txt,sha256=8s7WczRBO6s-zxPYWoe2RxGTn-jdShTo-4kuDK41xes,31
+pyspark_datacol_diff.egg-info/top_level.txt,sha256=dKJttjKaFqx2f9y20Fiy5YcUROZvTvhE5mxkObkF-lY,20
+pysparkdatacoldiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysparkdatacoldiff/find_dataframe_diff.py,sha256=W1PlyUtmL-XGbFMAL93Q-9k8mU05YfdD99DQxsGYGww,1421
+pyspark_datacol_diff-0.0.5.dist-info/LICENSE.txt,sha256=kcMqDuRhWSHUA9v1htzxgNKvJoxslW9XNRnfRe0i-pc,1067
+pyspark_datacol_diff-0.0.5.dist-info/METADATA,sha256=06SrQwygVJtQZzXoJBlq5IMkhbFOjw9N_X71nXIqP5g,879
+pyspark_datacol_diff-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyspark_datacol_diff-0.0.5.dist-info/top_level.txt,sha256=dKJttjKaFqx2f9y20Fiy5YcUROZvTvhE5mxkObkF-lY,20
+pyspark_datacol_diff-0.0.5.dist-info/RECORD,,
