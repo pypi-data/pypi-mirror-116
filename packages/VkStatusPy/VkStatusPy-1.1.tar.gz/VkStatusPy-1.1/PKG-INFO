@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: VkStatusPy
+Version: 1.1
+Summary: Simple module for easy-working with VK Status
+Home-page: UNKNOWN
+Author: LeetCrash
+Author-email: leetcrash.official@gmail.com
+License: UNKNOWN
+Description: ## VkStatusPy - простой способ для работы со статусом в ВК! ##
+        
+        ![VkStatusPy Logo](https://i.imgur.com/KicDzKe.png "VkStatusPy")
+        
+        **VkStatusPy** позволяет легче взаимодействовать со статусами во ВКонтакте! VkStatusPy работает быстро и хорошо в своём деле!
+        
+        
+        
+        
+        
+        
+        ### Инструкция: ###
+        Установка модуля **VkStatusPy** с **pypi.org**:
+        > pip3 install VkStatusPy
+        
+        ### Использование модуля: ###
+        Импортирование модуля **VkStatusPy**:
+        ```py
+        from VkStatusPy import *
+        ```
+        Подключение вашего API-токена:
+        ```py
+        test = VkStatusPy(token="ВАШ_ТОКЕН")
+        ```
+        Доступные методы:
+        ```py
+        test.set_status(text)
+        test.set_status_group(text, group_id)
+        test.get_status(user_id)
+        test.get_status_group(group_id)
+        
+        # text - строка; user_id - положительное число; group_id - положительно число.
+        ```
+        Получение статуса:
+        ```py
+        test.get_status(user_id=ID_ПОЛЬЗОВАТЕЛЯ)
+        >> Текст статуса
+        
+        test.get_status_group(group_id=ID_ГРУППЫ)
+        >> Текст статуса группы
+        ```
+        Обновление статуса (установка своего значения):
+        ```py
+        
+        # В случае успеха смены статуса, будет возвращаться значение - 1.
+        
+        test.set_status(text="ВАШ_ТЕКСТ")
+        >> 1
+        
+        test.set_status_group(text="ВАШ_ТЕКСТ", group_id=ID_ГРУППЫ)
+        >> 1
+        ```
+        Возможные ошибки:
+        
+        >**Error [15]** - доступ отклонен. Нету доступа к данной группе.
+        
+        >**Error [100]** - неверное ID группы/полозователя.
+        
+        >**Error [221]** - пользователя отключил трансляцию название музыки в статус.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

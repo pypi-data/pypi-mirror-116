@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+VkStatusPy/VkStatusPy.py
+VkStatusPy/__init__.py
+VkStatusPy.egg-info/PKG-INFO
+VkStatusPy.egg-info/SOURCES.txt
+VkStatusPy.egg-info/dependency_links.txt
+VkStatusPy.egg-info/not-zip-safe
+VkStatusPy.egg-info/top_level.txt
