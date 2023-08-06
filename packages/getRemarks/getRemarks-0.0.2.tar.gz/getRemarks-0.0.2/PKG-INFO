@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: getRemarks
+Version: 0.0.2
+Summary: Find grade scored and then remarks regarding the grade
+Home-page: UNKNOWN
+Author: Seyed Muzaffar
+Author-email: iammseyed@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#How to install:
+Copy the command from pypi.org and paste onto terminal. 
+
+#How to use:
+
+1: This package will help you to find grade by providing marks obtained and total marks.
+2: To get the grade, use the Grade() and supply marks obtained followed by total marks seperated by comma.
+   say Grade(100,150). Note, follow obtained marks and then total marks.
+3: Remember not to supply invalid details, if you do, you will get required error message at the end.
+4: There are total 5 grades within the package.
+   A grade is from 90-100
+   B grade is from 75-89
+   C grade is from 60-74
+   D grade is from 45-59 
+   F grade is from 0-44, obviously. To get the grade simply type objName.getGrade()
+5: According to grades, conclusion/remarks are provided at the end. To get the remarks, type objName.finalConclusion().
+
+#Example for you:
+   1: pip install getRemarks //this will install getRemarks package on your machine.
+
+   2: import getRemarks as gr  //where gr can be anything depending upon you. This will btw import getRemarks package which was installed in step 1.
+
+   3: gro= gr.Grade(x,y) //where gro is object and can be any thing. x,y are two int which denotes marks scored and total marks respectively. 
+      Remember to seperate two numbers via comma. Say Grade(100,400)
+
+   4: gro.getGrade() //this function will calculate grade, will find grade according to  #How to use Section point 4.
+
+   5: gro.remarks() //this will find the conclusion of the grade scored and will provide necessary feedback
+ 
+  	
+
+##Note: I didn't create this to divide students. This is just a project to get hands dirty with. All students are same and I too am a student. 
+
+
