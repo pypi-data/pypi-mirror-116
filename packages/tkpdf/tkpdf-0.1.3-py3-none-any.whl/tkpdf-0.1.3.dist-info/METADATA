@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tkpdf
+Version: 0.1.3
+Summary: PDF viewer for Tkinter.
+Home-page: https://github.com/rdbende/tkpdf
+Author: rdbende
+Author-email: rdbende@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pymupdf
+
+# tkpdf
+
+Pdf viewer widget for tkinter. Beta version.
+
+```
+Copyright (C) 2020 Roshan Paswan - convert pdf to image data
+Copyright (C) 2021 rdbende - tkpdf
+```
+
+
+Here is a not really useful screenshot:
+![image](https://user-images.githubusercontent.com/77941087/129190350-54ece240-2df5-4ece-86c9-b041428724f4.png)
+
+
