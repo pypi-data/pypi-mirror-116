@@ -1,0 +1,3 @@
+[console_scripts]
+pdfls = pdfls:run
+

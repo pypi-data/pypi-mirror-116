@@ -1,0 +1,9 @@
+README.md
+pdfls.py
+setup.py
+pdfls.egg-info/PKG-INFO
+pdfls.egg-info/SOURCES.txt
+pdfls.egg-info/dependency_links.txt
+pdfls.egg-info/entry_points.txt
+pdfls.egg-info/requires.txt
+pdfls.egg-info/top_level.txt
