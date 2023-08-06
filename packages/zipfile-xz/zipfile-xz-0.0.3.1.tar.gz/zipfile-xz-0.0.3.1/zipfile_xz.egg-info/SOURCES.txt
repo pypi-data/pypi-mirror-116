@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+zipfile_xz/__init__.py
+zipfile_xz/_patcher.py
+zipfile_xz/_zipfile.py
+zipfile_xz.egg-info/PKG-INFO
+zipfile_xz.egg-info/SOURCES.txt
+zipfile_xz.egg-info/dependency_links.txt
+zipfile_xz.egg-info/top_level.txt
