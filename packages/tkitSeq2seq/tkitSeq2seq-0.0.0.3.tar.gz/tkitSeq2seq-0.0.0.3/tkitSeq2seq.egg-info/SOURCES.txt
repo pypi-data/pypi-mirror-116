@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+test/test.py
+tkitSeq2seq/__init__.py
+tkitSeq2seq/decoder.py
+tkitSeq2seq/encoder.py
+tkitSeq2seq/model.py
+tkitSeq2seq.egg-info/PKG-INFO
+tkitSeq2seq.egg-info/SOURCES.txt
+tkitSeq2seq.egg-info/dependency_links.txt
+tkitSeq2seq.egg-info/requires.txt
+tkitSeq2seq.egg-info/top_level.txt
