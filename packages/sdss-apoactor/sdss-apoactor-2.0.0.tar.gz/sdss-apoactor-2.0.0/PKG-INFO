@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sdss-apoactor
+Version: 2.0.0
+Summary: APO weather server actor
+Home-page: https://github.com/sdss/apoActor
+Author: Jon Brinkman
+Maintainer: José Sánchez-Gallego
+Maintainer-email: gallegoj@uw.edu
+License: BSD 3-Clause License
+Project-URL: Repository, https://github.com/sdss/apoActor
+Keywords: astronomy,software
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.md
+
+# apoActor
+
+Actor that outputs weather information.
+
+

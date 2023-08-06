@@ -1,0 +1,9 @@
+sdss-actorcore>=5.0.1
+sdsstools
+
+[dev]
+black
+flake8
+twine
+wheel
+isort
