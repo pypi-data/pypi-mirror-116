@@ -1,0 +1,9 @@
+README.md
+setup.py
+motoo/__init__.py
+motoo/wit_util.py
+motoo.egg-info/PKG-INFO
+motoo.egg-info/SOURCES.txt
+motoo.egg-info/dependency_links.txt
+motoo.egg-info/not-zip-safe
+motoo.egg-info/top_level.txt
