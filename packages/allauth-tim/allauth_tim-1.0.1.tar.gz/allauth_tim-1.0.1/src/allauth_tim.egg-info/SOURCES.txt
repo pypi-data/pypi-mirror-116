@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/allauth_tim/__init__.py
+src/allauth_tim/provider.py
+src/allauth_tim/urls.py
+src/allauth_tim/views.py
+src/allauth_tim.egg-info/PKG-INFO
+src/allauth_tim.egg-info/SOURCES.txt
+src/allauth_tim.egg-info/dependency_links.txt
+src/allauth_tim.egg-info/requires.txt
+src/allauth_tim.egg-info/top_level.txt
