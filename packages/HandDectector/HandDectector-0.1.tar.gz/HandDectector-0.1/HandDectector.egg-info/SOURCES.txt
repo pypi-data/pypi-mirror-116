@@ -1,0 +1,8 @@
+setup.py
+HandDectector/HandDetector.py
+HandDectector/__init__.py
+HandDectector.egg-info/PKG-INFO
+HandDectector.egg-info/SOURCES.txt
+HandDectector.egg-info/dependency_links.txt
+HandDectector.egg-info/requires.txt
+HandDectector.egg-info/top_level.txt

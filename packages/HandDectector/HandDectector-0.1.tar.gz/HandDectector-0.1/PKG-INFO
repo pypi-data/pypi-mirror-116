@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HandDectector
+Version: 0.1
+Summary: HandDetector
+Home-page: UNKNOWN
+Author: Rishabh
+Author-email: rinku87096@gmail.com
+License: UNKNOWN
+Description: A package to Hand Tracking , Hnad Detector, Hand Recognition .
+Keywords: Hand Recognition,HandDectector,Hand Tracking,python tutorial,Rishabh,Sahil
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
