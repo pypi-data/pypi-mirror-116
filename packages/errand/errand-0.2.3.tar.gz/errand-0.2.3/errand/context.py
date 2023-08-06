@@ -1,0 +1,89 @@
+"""Errand context module
+
+Define Errand context
+
+"""
+
+import time, inspect
+
+from errand.order import Order
+from errand.engine import select_engine
+from errand.gofers import Gofers
+from errand.workshop import Workshop
+
+from errand.util import errand_builtins
+
+
+class Context(object):
+    """Context class: provides consistent interface of Errand
+
+"""
+
+    def __init__(self, order, workdir, engine=None, context=None, timeout=None):
+
+        self._env = dict(errand_builtins)
+        self.tasks = {}
+        self.output = []
+
+        self.order = order if isinstance(order, Order) else Order(order, self._env)
+
+        self.workdir = workdir
+        self.engine = select_engine(engine, self.order)(workdir)
+        self.context = context
+        self.timeout = timeout
+
+
+    def gofers(self, *vargs):
+
+        # may have many optional arguments that hints
+        # to determin how many gofers to be called, or the group hierachy 
+
+        if len(vargs) > 0:
+            return Gofers(*vargs)
+
+        else:
+            return Gofers(1)
+
+    def _pack_argument(self, arg, caller_args):
+        name = caller_args[id(arg)]
+        return {"data": arg, "npid": id(arg), "memid": id(arg.data),
+                "orgname": name, "curname": name}
+
+    def _split_arguments(self, vargs, caller_args):
+
+        inargs = []
+        outargs = None
+
+        for varg in vargs:
+            if isinstance(varg, str) and varg == "->":
+                outargs = []
+
+            elif outargs is not None:
+                outargs.append(self._pack_argument(varg, caller_args))
+
+            else:
+                inargs.append(self._pack_argument(varg, caller_args))
+
+        if outargs is None:
+            outargs = []
+
+        return (inargs, outargs)
+
+    def workshop(self, *vargs, **kwargs):
+
+        caller_local_vars = inspect.currentframe().f_back.f_locals.items()
+        caller_args = dict([(id(v), n) for n, v in caller_local_vars])
+
+        inargs, outargs = self._split_arguments(vargs, caller_args)
+
+        ws = Workshop(inargs, outargs, self.order, self.engine,
+                        self.workdir, **kwargs)
+
+        self.tasks[ws] = {}
+
+        return ws
+
+    def shutdown(self):
+
+        for ws in self.tasks:
+            self.output.append(ws.close(timeout=self.timeout))
