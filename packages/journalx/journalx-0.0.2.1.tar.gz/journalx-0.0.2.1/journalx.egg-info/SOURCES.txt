@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+description.md
+pyproject.toml
+setup.cfg
+journalx/__init__.py
+journalx/cli.py
+journalx/main.py
+journalx.egg-info/PKG-INFO
+journalx.egg-info/SOURCES.txt
+journalx.egg-info/dependency_links.txt
+journalx.egg-info/entry_points.txt
+journalx.egg-info/requires.txt
+journalx.egg-info/top_level.txt
