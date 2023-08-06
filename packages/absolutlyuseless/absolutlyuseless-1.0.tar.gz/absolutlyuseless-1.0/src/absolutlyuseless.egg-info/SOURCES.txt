@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/absolutlyuseless/__init__.py
+src/absolutlyuseless/main.py
+src/absolutlyuseless.egg-info/PKG-INFO
+src/absolutlyuseless.egg-info/SOURCES.txt
+src/absolutlyuseless.egg-info/dependency_links.txt
+src/absolutlyuseless.egg-info/top_level.txt
