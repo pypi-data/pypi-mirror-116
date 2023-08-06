@@ -1,0 +1,3 @@
+[console_scripts]
+multiprocess = shell_multiprocess.main:main
+
