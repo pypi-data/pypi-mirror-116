@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: quick-password
+Version: 0.1
+Summary: 用于快速生成密码
+Home-page: https://github.com/luxp4588/quick_log.git
+Author: python-xp
+Author-email: luxp4588@126.com
+License: MIT
+Keywords: password
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# it's so easy to use
+
