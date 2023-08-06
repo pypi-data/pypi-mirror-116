@@ -1,0 +1,5 @@
+orjson
+python-dateutil
+zstandard
+pydantic
+cityhash
