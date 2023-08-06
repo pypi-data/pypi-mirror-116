@@ -1,0 +1,2 @@
+recursive-include podcast_dl *.py
+include README.md
