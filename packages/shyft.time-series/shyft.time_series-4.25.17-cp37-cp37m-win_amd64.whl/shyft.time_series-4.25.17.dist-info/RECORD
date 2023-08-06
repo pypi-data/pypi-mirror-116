@@ -1,0 +1,16 @@
+shyft.time_series-4.25.17.data/purelib/shyft/lib/boost_filesystem-vc142-mt-x64-1_76.dll,sha256=ygsdWyExFJjBn_1XGIOTPdVg7ayJt81e6pz1yZXW7WQ,119296
+shyft.time_series-4.25.17.data/purelib/shyft/lib/boost_python37-vc142-mt-x64-1_76.dll,sha256=I2Fqo5IYKExH7Yp8xPonyF1NlZQ_zJPu5YJTXfisxUQ,193536
+shyft.time_series-4.25.17.data/purelib/shyft/lib/boost_serialization-vc142-mt-x64-1_76.dll,sha256=eos3GT3xqjxNMYSA-fAJ2Z1p7O3tZmDzM28zFIzn5lY,216064
+shyft.time_series-4.25.17.data/purelib/shyft/lib/boost_system-vc142-mt-x64-1_76.dll,sha256=-Az8zxn0IZT1xlhgVDMBae8JUzHGzqdcFxJtN7jKfxY,9728
+shyft.time_series-4.25.17.data/purelib/shyft/lib/boost_thread-vc142-mt-x64-1_76.dll,sha256=7fQt0PMfMnrvax5PtWNaG7rF434gTfFfYqjiY-i5M1w,73216
+shyft.time_series-4.25.17.data/purelib/shyft/lib/libopenblas.dll,sha256=_FLSPAOx--PiZjmlFEV88JscnsM7z5PuYsbKKLxDAFI,32492623
+shyft.time_series-4.25.17.data/purelib/shyft/pyapi/__init__.py,sha256=TahauaVf0ic9cQSqe6goqr2nzmKWf13pJEF_qcB21Io,226
+shyft.time_series-4.25.17.data/purelib/shyft/pyapi/selector_ts.py,sha256=foZP29HL-w8EwSjwXUoWKOQwooradhukKuEakCK2wy4,8014
+shyft.time_series-4.25.17.data/purelib/shyft/time_series/__init__.py,sha256=uh9uFdKb0N2705-UXW1T6zYVY6-jLbh48HDdWctxYjg,14540
+shyft.time_series-4.25.17.data/purelib/shyft/time_series/_time_series.pyd,sha256=2daMXwFyNXKy-CIowIZa6Wyu6-e0OE9PE9EEercan9w,13582848
+shyft.time_series-4.25.17.data/purelib/shyft/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shyft.time_series-4.25.17.data/purelib/shyft/utilities/environ_util.py,sha256=3NandPDdEH5bA7SjBdT8EYTnKcgkghc0c8JEgFlwaNA,3456
+shyft.time_series-4.25.17.dist-info/METADATA,sha256=wW50otAaZ71wHX8B0fO-1vPp0cUNzEOfJcdAmA1rHCk,318
+shyft.time_series-4.25.17.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+shyft.time_series-4.25.17.dist-info/top_level.txt,sha256=32NCG2Jv4R-uWVszxuLHffyTlANZ_dmIG5B-yoF9OGU,6
+shyft.time_series-4.25.17.dist-info/RECORD,,
