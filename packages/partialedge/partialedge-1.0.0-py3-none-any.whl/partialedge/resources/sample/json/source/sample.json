@@ -1,0 +1,196 @@
+{
+    "edges": [
+        {
+            "incident_nodes": [
+                0,
+                2
+            ]
+        },
+        {
+            "incident_nodes": [
+                0,
+                7
+            ]
+        },
+        {
+            "incident_nodes": [
+                1,
+                2
+            ]
+        },
+        {
+            "incident_nodes": [
+                1,
+                7
+            ]
+        },
+        {
+            "incident_nodes": [
+                2,
+                6
+            ]
+        },
+        {
+            "incident_nodes": [
+                2,
+                3
+            ]
+        },
+        {
+            "incident_nodes": [
+                2,
+                9
+            ]
+        },
+        {
+            "incident_nodes": [
+                3,
+                9
+            ]
+        },
+        {
+            "incident_nodes": [
+                3,
+                7
+            ]
+        },
+        {
+            "incident_nodes": [
+                3,
+                4
+            ]
+        },
+        {
+            "incident_nodes": [
+                3,
+                5
+            ]
+        },
+        {
+            "incident_nodes": [
+                4,
+                5
+            ]
+        },
+        {
+            "incident_nodes": [
+                4,
+                8
+            ]
+        },
+        {
+            "incident_nodes": [
+                5,
+                7
+            ]
+        },
+        {
+            "incident_nodes": [
+                5,
+                9
+            ]
+        },
+        {
+            "incident_nodes": [
+                5,
+                6
+            ]
+        },
+        {
+            "incident_nodes": [
+                5,
+                8
+            ]
+        },
+        {
+            "incident_nodes": [
+                6,
+                9
+            ]
+        },
+        {
+            "incident_nodes": [
+                6,
+                7
+            ]
+        },
+        {
+            "incident_nodes": [
+                6,
+                8
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "coordinates": [
+                0.8618664556197926,
+                -0.6791102633171362
+            ],
+            "index": 0
+        },
+        {
+            "coordinates": [
+                0.3036766146922891,
+                -1.0
+            ],
+            "index": 1
+        },
+        {
+            "coordinates": [
+                0.4486822725636347,
+                -0.26978545183545644
+            ],
+            "index": 2
+        },
+        {
+            "coordinates": [
+                0.05061781031923615,
+                0.42479476930384646
+            ],
+            "index": 3
+        },
+        {
+            "coordinates": [
+                -0.557161203516653,
+                0.8976307159953161
+            ],
+            "index": 4
+        },
+        {
+            "coordinates": [
+                -0.34330747662779354,
+                0.3460517626263829
+            ],
+            "index": 5
+        },
+        {
+            "coordinates": [
+                -0.28247726694316444,
+                -0.05725839950305926
+            ],
+            "index": 6
+        },
+        {
+            "coordinates": [
+                0.09137223481973453,
+                -0.35905569511240587
+            ],
+            "index": 7
+        },
+        {
+            "coordinates": [
+                -0.9082478024147488,
+                0.43117286364622015
+            ],
+            "index": 8
+        },
+        {
+            "coordinates": [
+                0.334978361487673,
+                0.26555969819629416
+            ],
+            "index": 9
+        }
+    ]
+}
