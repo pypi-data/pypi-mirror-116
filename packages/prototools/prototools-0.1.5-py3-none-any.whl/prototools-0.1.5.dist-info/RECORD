@@ -1,0 +1,16 @@
+prototools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prototools/algo.py,sha256=7JzK526JR9cr4ZHZ57iGRl-73oEZgIUb28WeiGxLoLo,3674
+prototools/color.py,sha256=Kg9DEPK8WtbI1neWC-tk4clUYbwz1YTT6VeuebGgpv8,2195
+prototools/componentes.py,sha256=vMZdByiiahI6Y1l1E4DVE52YXOdNJH6s3OasfDpcpLc,28839
+prototools/config.py,sha256=oJZGULVEsYwwWPAj-uO6v5PgBv2EvzrdB7K6zEU2oDw,2648
+prototools/constantes.py,sha256=AOQlUL5wQE2KU_vUb439TAI3Mx-nb3y7SeA1CcagXxg,1625
+prototools/entradas.py,sha256=yaHZVw6kII9deB-F6CtJUWE9uCk-3Kk3jQrt6yKQb4E,19113
+prototools/experimental.py,sha256=_MGEnpQOcVtJCee0F1_-u0kJC7-20FrLYsTOBBKfD68,5432
+prototools/menu.py,sha256=q2ko_-uPiIxxX0q4QEefpvJnzvrGHUqlax_xAAgQYOg,12731
+prototools/utils.py,sha256=ql-oRQWAxJaLq3QFWantmleTZ3cQc2Pz1eGFHysE4DA,17781
+prototools/validaciones.py,sha256=nKnsKz1AIanb3izyLklyzbGdtX-SapcJMPt26oPhjgQ,20007
+prototools-0.1.5.dist-info/LICENSE,sha256=dEl04mGdzp_NSZjpc5p3HzhR-QoKBcpSKfjLf-NfSMs,1094
+prototools-0.1.5.dist-info/METADATA,sha256=1y4OYaFak1PGeoJOmBZ9eP7plQVZGBCrjGjcYWceTQo,2176
+prototools-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+prototools-0.1.5.dist-info/top_level.txt,sha256=E08RtT9yNs0OW90PSDGRJeoKGLCMn8qJ-YM_w6jWwmQ,11
+prototools-0.1.5.dist-info/RECORD,,
