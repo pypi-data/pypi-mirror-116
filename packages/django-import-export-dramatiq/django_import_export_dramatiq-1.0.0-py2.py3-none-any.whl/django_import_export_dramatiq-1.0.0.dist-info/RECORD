@@ -1,0 +1,15 @@
+import_export_dramatiq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+import_export_dramatiq/admin.py,sha256=UYOQz5ogYRPmTnxMlIqRaWM2C03lhhfYZnfGADyCvxM,2623
+import_export_dramatiq/admin_actions.py,sha256=wtspkZsWJb7jXmhQrRqdsPUOnKyBvCSoEdaEvE_LeBo,1915
+import_export_dramatiq/model_config.py,sha256=n0CLDDDJak-LQUwYl1eifSmN1W5HX87AW24c7UtsUVE,514
+import_export_dramatiq/tasks.py,sha256=BY-W-VnnyVyfTK-KVHakjFjchjgtqZNRSfDg_j2kclk,9398
+import_export_dramatiq/migrations/0001_initial.py,sha256=V3XkRiCdKmG9Dp0jD5nwercUTT9Z22tmEksKkEuLa_c,7648
+import_export_dramatiq/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+import_export_dramatiq/models/__init__.py,sha256=NBH17ybg5XeF0ZKx1yoJQqmG0qLNP897SI7eeCUZpHE,253
+import_export_dramatiq/models/exportjob.py,sha256=E5k4qA2xvLCylqQOecmL31FR6bqesaMzF2yPLe2zHNI,4166
+import_export_dramatiq/models/importjob.py,sha256=EkSlIForcNiYQziXNbOEiVezjfrxzWagBQHegfnwad4,3253
+django_import_export_dramatiq-1.0.0.dist-info/LICENSE,sha256=y6VknjblVCUGm-6yW7PSQT94WVQ4xl1OfOxQT__r5mk,1060
+django_import_export_dramatiq-1.0.0.dist-info/METADATA,sha256=HpGHH7AQJvbVx-mNmK8RaZhl_MkUoqPqrvWBQOY6g4k,1621
+django_import_export_dramatiq-1.0.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_import_export_dramatiq-1.0.0.dist-info/top_level.txt,sha256=OyZuNK4qAM21HM7Tl9ml1Ozge35bNqfl1XIwFXY1nAk,23
+django_import_export_dramatiq-1.0.0.dist-info/RECORD,,
