@@ -1,0 +1,10 @@
+ldict/__init__.py,sha256=V5bOctJdo7XfSIU-OjPgYrh6oPIH_9kgkkgj45Jzr1U,1229
+ldict/abs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldict/abs/mixin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldict/abs/mixin/aux.py,sha256=ZaOukV2BLvUSYzLQAIW2F7ka8jo6fkLjRvfSPIe8KW4,8801
+ldict/data.py,sha256=yZtnQRFhcJyyJrKoMjoDfljuR0-Ycqs9Ynl_4kyBxlk,1866
+ldict/empty.py,sha256=HXLjmaxGHAue3qvjhevX3OmJAEXm6NsC2Bj1R9HDHA4,493
+ldict/ldict_.py,sha256=onk66cpvaqWnw7lD_c_mbD-NpLwyqrbwpn8tCQsQmy8,11092
+ldict-2.210815.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ldict-2.210815.2.dist-info/METADATA,sha256=IUX84bQBzntnR8npWyzBQ90KKFPxLqPKdwFS9AfgIvA,3226
+ldict-2.210815.2.dist-info/RECORD,,
