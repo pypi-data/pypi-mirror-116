@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: flask-kraken-wq
+Version: 2021.8.16
+Summary: flask sync run 
+Home-page: https://github.com/kraken-cloud/kraken
+Author: wei.fu
+Author-email: mefuwei@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+####  flask simple sync work
+
+#### example
+
+```python
+from flask_kraken_wq import  Queue,WorkTask
+
+app = Flask(__name__)
+
+from module import funname
+from redis import Redis
+@app.route('/')
+def hello_world():
+    Queue(Redis()).add(funname)
+    return 'Hello World!'
+### thread start work mode
+WorkTask(connect=Redis(),flask_app=app).thread() 
+
+### working start mode
+
+WorkTask(connect=Redis(),flask_app=app).start() 
+
+```
+
