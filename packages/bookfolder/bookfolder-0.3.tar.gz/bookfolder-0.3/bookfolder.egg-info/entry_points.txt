@@ -1,0 +1,4 @@
+[console_scripts]
+bookfolder = bookfolder.scripts.gui:start
+bookfolder-cli = bookfolder.scripts.cli:cli
+
