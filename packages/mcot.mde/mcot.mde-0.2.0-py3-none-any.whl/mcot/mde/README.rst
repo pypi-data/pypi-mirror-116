@@ -1,0 +1,1 @@
+Support for multiple diffusion encoding, i.e., any diffusion sequence sensitive to diffusion along more than one direction.
