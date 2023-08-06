@@ -1,0 +1,6 @@
+sniff/__init__.py,sha256=dLsoMShmXnLQvStrZT9twBKlMJT53wgCWsv2RLd7xJo,4131
+libsniff.cpython-39-x86_64-linux-gnu.so,sha256=lE_7eANlXc0YgF8TWpvAG6JZoKDApgVjXgLYvTiJpBw,192808
+libsniffpy-0.3.0.dist-info/COPYING,sha256=xh8S2nza1Sa9y-1HpMCmA-YNu_2vi2aTPNCI6RMsMD8,32472
+libsniffpy-0.3.0.dist-info/WHEEL,sha256=f90FVrXAALeD9gWBlT71WrIo89_-KqvqhRPHPiWnXqk,103
+libsniffpy-0.3.0.dist-info/METADATA,sha256=rGusghJ5AuT6mPGmuu-RUT_hb3g4QEvKvCX5tgxoaXM,1594
+libsniffpy-0.3.0.dist-info/RECORD,,
