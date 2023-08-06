@@ -1,0 +1,14 @@
+Music Sampler is a music player which associates each key on the keyboard to a
+set of actions to run.
+
+See full documentation in documentation_fr.md or documentation_en.md
+
+Git repository:
+https://git.immae.eu/cgit/perso/Immae/Projets/Python/MusicSampler.git/about/
+
+Bug Tracker:
+https://git.immae.eu/mantisbt/view_all_bug_page.php?project_id=1
+
+Contributors:
+Ismaël Bouya
+Denise Maurice

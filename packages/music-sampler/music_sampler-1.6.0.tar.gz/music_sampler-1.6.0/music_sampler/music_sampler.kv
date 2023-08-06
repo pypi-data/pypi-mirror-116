@@ -1,0 +1,922 @@
+#:import math math
+
+<Key>:
+  pad_col_sep: 0 if not self.pad_cols else self.parent.pad_x
+  pad_cols: False
+
+  y: (self.parent.top-self.parent.y) - (self.row) * self.parent.key_size - (self.row - 1) * self.parent.key_sep
+  x: (self.col - 1) * self.parent.key_size + int(self.col - 1) * self.parent.key_sep + self.pad_col_sep
+  size_hint: None, None
+  enabled: True
+  line_width: 2
+  row: 1
+  col: 0
+  key_code: 0
+  key_sym: ""
+  key_width: 1
+  key_height: 1
+  width: self.key_width * (self.parent.key_size + self.parent.key_sep) - self.parent.key_sep
+  height: self.key_height * (self.parent.key_size + self.parent.key_sep) - self.parent.key_sep
+  normal_font_size: self.parent.font_size
+  smaller_font_size: math.ceil(2 * math.sqrt(self.parent.key_size / 2))
+  canvas.before:
+    Color:
+      rgba: self.color
+    RoundedRectangle:
+      pos:  self.x, self.y
+      size: self.size
+  canvas:
+    Color:
+      rgba: self.line_color
+    Line:
+      rounded_rectangle: self.x + self.line_width, self.y + self.line_width, self.width - 2 * self.line_width, self.height - 2 * self.line_width, 10
+      width: self.line_width or 2
+    Color:
+      rgba: self.line_cross_color
+    Line:
+      points: self.x + self.line_width + 3, self.y + self.line_width + 3, self.x + self.width - 2 * self.line_width - 3, self.y + self.height - 2 * self.line_width - 3
+      width: self.line_width or 2
+    Line:
+      points: self.x + self.line_width + 3, self.y + self.height - 2 * self.line_width - 3, self.x + self.width - 2 * self.line_width - 3, self.y + self.line_width + 3
+      width: self.line_width or 2
+  Label:
+    id: key_label
+    font_name: "Ubuntu"
+    bold: True
+    font_size: self.parent.normal_font_size or 10
+    color: 0, 0, 0, 1
+    text: self.parent.key_sym
+    text_size: self.parent.width,self.font_size
+    shorten: True
+    shorten_from: "right"
+    split_str: ""
+    center_x: self.parent.x + self.texture_size[0] /2 + 5
+    center_y: self.parent.y + self.parent.height - self.texture_size[1] /2 - 5
+  Label:
+    id: key_description_title
+    font_name: "Ubuntu"
+    font_size: self.parent.smaller_font_size or 8
+    color: 0, 0, 0, 1
+    text: self.parent.description_title
+    text_size: self.parent.width - 2*self.parent.line_width, self.font_size
+    halign: "right"
+    valign: "middle"
+    center_x: self.parent.x + self.texture_size[0] /2
+    center_y: self.parent.y + self.parent.height - self.texture_size[1] /2 - 5
+  Label:
+    id: key_description
+    font_name: "Ubuntu"
+    font_size: self.parent.smaller_font_size or 8
+    color: 0, 0, 0, 1
+    text: "\n".join(self.parent.description)
+    text_size: 2 * self.parent.width,self.parent.height - key_label.font_size
+    halign: "left"
+    valign: "middle"
+    pos: self.parent.x + 2 * self.parent.line_width + 2, self.parent.y
+    size_hint: None, None
+    size: 2 * self.parent.width - 2 * self.parent.line_width, self.parent.height - key_label.font_size
+
+<UnfocusedOverlay>:
+  canvas.before:
+    Color:
+      rgba: 1, 0, 0, 0.9
+    Rectangle:
+      pos: 0, 0
+      size: self.width, self.height
+  size_hint: 1, 1
+  color: 1, 1, 1, 1
+  valign: "middle"
+  halign: "center"
+  font_name: "Ubuntu"
+  font_size: self.parent and 2 * self.parent.key_size or 42
+  text_size: self.size
+  text: _("Focus lost!")
+
+<Screen>:
+  canvas:
+    Color:
+      rgba: 229/255, 228/255, 226/255, 1
+    Rectangle:
+      pos: 0, 0
+      size: self.width, self.height
+
+  key_size: int( (3 * self.width - 16) / 56)
+  key_sep: int( self.key_size / 24)
+  key_pad_sep: int( self.key_size / 7) + 1
+
+  border: (self.width - self.key_size * 18 - self.key_sep * 16 - self.key_pad_sep)/ 2
+
+  mapping_height: self.key_size * 6 + self.key_sep * 5
+  mapping_width: self.key_size * 18 + self.key_sep * 16 + self.key_pad_sep
+  mapping_x: self.border
+  mapping_y: self.top - self.mapping_height - self.border
+
+  key_list_width: 4 * (mock_ubuntu_regular.width or 0)
+  key_list_height: self.height - self.mapping_height - 3 * self.border
+  key_list_x: (self.action_list_width or 0) + 2 * self.border
+  key_list_y: self.border
+
+  action_list_height: self.height - self.mapping_height - 3 * self.border
+  action_list_width: 3 * self.width / 4 - self.key_list_width - self.border
+  action_list_x: self.border
+  action_list_y: self.border
+
+  play_list_height: self.action_list_height
+  play_list_width: self.width - self.key_list_width - self.action_list_width - 4* self.border
+  play_list_y: self.border
+  play_list_x: self.action_list_width + self.key_list_width + 3 * self.border
+
+  font_size: math.ceil(2 * math.sqrt(self.key_size or 10))
+  max_height: 1.3 * self.font_size
+
+  Label:
+    id: mock_ubuntu_regular
+    font_name: "Ubuntu"
+    font_size: self.parent.font_size
+    color: 0, 0, 0, 0
+    text: "A"
+    text_size: None, None
+    size_hint: None, None
+    size: self.texture_size
+
+  Mapping:
+    id: Mapping
+    pos: self.parent.mapping_x, self.parent.mapping_y
+    size: self.parent.mapping_width, self.parent.mapping_height
+
+    key_size: self.parent.key_size
+    key_sep: self.parent.key_sep
+    key_pad_sep: self.parent.key_pad_sep
+    pad_x: self.key_size * 15 + 14 * self.key_sep + self.key_pad_sep
+  ActionList:
+    id: ActionList
+    pos: self.parent.action_list_x, self.parent.action_list_y
+    size: self.parent.action_list_width, self.parent.action_list_height
+  KeyList:
+    id: KeyList
+    pos: self.parent.key_list_x, self.parent.key_list_y
+    size: self.parent.key_list_width, self.parent.key_list_height
+  PlayList:
+    id: PlayList
+    pos: self.parent.play_list_x, self.parent.play_list_y
+    size: self.parent.play_list_width, self.parent.play_list_height
+
+<KeyList>:
+  font_size: self.parent.font_size or 10
+  size_hint: None, None
+  canvas:
+    Color:
+      rgba: 250./255, 250./255, 250./255, 1
+    Rectangle:
+      pos:  0, 0
+      size: self.width, self.height
+  Label:
+    id: key_list_first
+    font_name: "Ubuntu"
+    bold: True
+    font_size: self.parent.font_size
+    color: 0, 0, 0, 1
+    text: self.parent.first_key
+    text_size: None, None
+    valign: "top"
+    halign: "center"
+    size_hint: None, None
+    size: self.parent.width, self.texture_size[1]
+    pos: 0, self.parent.height - self.height
+  Label:
+    id: key_list_second
+    font_name: "Ubuntu"
+    font_size: self.parent.font_size
+    color: 0, 0, 0, 1
+    text: self.parent.second_key
+    text_size: None, None
+    valign: "top"
+    halign: "center"
+    size_hint: None, None
+    size: self.parent.width, self.texture_size[1]
+    pos: 0, self.parent.height - key_list_first.height - self.height
+  Label:
+    id: key_list_third
+    font_name: "Ubuntu"
+    font_size: self.parent.font_size
+    color: 0, 0, 0, 0.75
+    text: self.parent.third_key
+    text_size: None, None
+    valign: "top"
+    halign: "center"
+    size_hint: None, None
+    size: self.parent.width, self.texture_size[1]
+    pos: 0, self.parent.height - key_list_first.height - key_list_second.height - self.height
+  Label:
+    id: key_list_rest
+    font_name: "Ubuntu"
+    font_size: self.parent.font_size
+    color: 0, 0, 0, 0.5
+    text: "\n".join(self.parent.keylist[3:])
+    text_size: None, None
+    valign: "top"
+    halign: "center"
+    size_hint: None, None
+    size: self.parent.width, self.texture_size[1]
+    pos: 0, self.parent.height - key_list_first.height - key_list_second.height - key_list_third.height - self.height
+
+<ActionList>:
+  size_hint: None, None
+  labels_height: self.parent.max_height or 1
+  font_size: self.parent.font_size or 10
+  canvas:
+    Color:
+      rgba: 250./255, 250./255, 250./255, 1
+    Rectangle:
+      pos:  0, 0
+      size: self.width, self.height
+  Label:
+    id: action_list_title
+    font_name: "Ubuntu"
+    bold: True
+    font_size: self.parent.font_size
+    color: 0, 0, 0, 1
+    text: self.parent.action_title
+    text_size: None, self.parent.height
+    halign: "left"
+    valign: "top"
+    size_hint: None, None
+    size: self.texture_size[0], self.parent.height
+  ActionListIcons:
+    font_size: self.parent.font_size
+    labels_height: self.parent.labels_height
+    orientation: 'lr-tb'
+    size_hint: 0.02, 0.9
+    pos_hint: { 'x': 0, 'top': 0.9 }
+  ActionListDescriptions:
+    font_size: self.parent.font_size
+    labels_height: self.parent.labels_height
+    orientation: 'lr-tb'
+    size_hint: 0.98, 0.9
+    pos_hint: { 'x': 0.02, 'top': 0.9 }
+
+<ActionListIcon>:
+  font_size: self.parent and self.parent.font_size or 10
+  height: self.parent and self.parent.labels_height or 0
+  font_name: "Symbola"
+  color: 0, 0, 0, 1
+  text_size: None, None
+  halign: "left"
+  size_hint: None, None
+  width: self.texture_size[0]
+
+<ActionListDescription>:
+  font_size: self.parent and self.parent.font_size or 10
+  height: self.parent and self.parent.labels_height or 0
+  font_name: "Ubuntu"
+  color: 0, 0, 0, 1
+  text_size: self.width, None
+  shorten: True
+  shorten_from: "right"
+  split_str: ""
+  halign: "left"
+  size_hint: 1, None
+
+<PlayList>:
+  size_hint: None, None
+  labels_height: self.parent.max_height or 1
+  font_size: self.parent.font_size or 10
+  canvas:
+    Color:
+      rgba: 250./255, 250./255, 250./255, 1
+    Rectangle:
+      pos:  0, 0
+      size: self.width, self.height
+  PlayListIcons:
+    font_size: self.parent.font_size
+    labels_height: self.parent.labels_height
+    orientation: 'lr-tb'
+    size_hint: 0.05, 1
+    pos_hints: { 'x': 0, 'top': 0 }
+  PlayListNames:
+    font_size: self.parent.font_size
+    labels_height: self.parent.labels_height
+    orientation: 'lr-tb'
+    pos_hint: { 'x': 0.05, 'bottom': 0 }
+    size_hint: 0.65, 1
+  PlayListTimes:
+    font_size: self.parent.font_size
+    labels_height: self.parent.labels_height
+    orientation: 'lr-tb'
+    pos_hint: { 'x': 0.7, 'bottom': 0 }
+    size_hint: 0.30, 1
+ 
+<PlayListIcon>:
+  font_size: self.parent and self.parent.font_size or 10
+  height: self.parent and self.parent.labels_height or 0
+  font_name: "Symbola"
+  color: 0, 0, 0, 1
+  text_size: None, None
+  halign: "left"
+  size_hint: None, None
+  width: self.texture_size[0]
+
+<PlayListName>:
+  font_size: self.parent and self.parent.font_size or 10
+  height: self.parent and self.parent.labels_height or 0
+  font_name: "Ubuntu"
+  color: 0, 0, 0, 1
+  text_size: self.width, None
+  shorten: True
+  shorten_from: "right"
+  split_str: ""
+  halign: "left"
+  size_hint: 1, None
+
+<PlayListTime>:
+  font_size: self.parent and self.parent.font_size or 10
+  height: self.parent and self.parent.labels_height or 0
+  canvas.before:
+    Color:
+      rgba: 250./255, 250./255, 250./255, 1
+    Rectangle:
+      pos:  self.pos
+      size: self.width, self.height
+  font_name: "Ubuntu"
+  color: 0, 0, 0, 1
+  text_size: None, None
+  halign: "left"
+  size_hint: None, None
+  width: self.texture_size[0]
+
+<Mapping>:
+  size_hint: None, None
+  key_size: 48
+  font_size: self.parent.font_size
+  key_sep: 2
+  key_pad_sep: 7
+  pad_x: 755
+  canvas:
+    Color:
+      rgba: 250./255, 250./255, 250./255, 1
+    Rectangle:
+      pos:  0, 0
+      size: self.width, self.height
+    Color:
+      rgba: self.ready_color
+    Ellipse:
+      pos: self.width - self.key_size / 2, self.height - self.key_size /2
+      size: self.key_size / 3, self.key_size / 3
+  Label:
+    font_name: "Ubuntu"
+    font_size: self.parent.font_size or 10
+    color: 0, 0, 0, 1
+    text: _("volume: {}%").format(self.parent.master_volume)
+    valign: "top"
+    size_hint: None, None
+    size: self.texture_size[0], self.texture_size[1]
+    x: self.parent.width - self.width - 2 * self.parent.key_size / 3
+    center_y: self.parent.height - self.height
+  Key:
+    id: Key_27
+    key_code: 27
+    key_sym: "ESC"
+    row: 1
+    col: 1
+  Key:
+    id: Key_282
+    key_code: 282
+    key_sym: "F1"
+    row: 1
+    col: 3
+  Key:
+    id: Key_283
+    key_code: 283
+    key_sym: "F2"
+    row: 1
+    col: 4
+  Key:
+    id: Key_284
+    key_code: 284
+    key_sym: "F3"
+    row: 1
+    col: 5
+  Key:
+    id: Key_285
+    key_code: 285
+    key_sym: "F4"
+    row: 1
+    col: 6
+
+  Key:
+    id: Key_286
+    key_code: 286
+    key_sym: "F5"
+    row: 1
+    col: 7.5
+  Key:
+    id: Key_287
+    key_code: 287
+    key_sym: "F6"
+    row: 1
+    col: 8.5
+  Key:
+    id: Key_288
+    key_code: 288
+    key_sym: "F7"
+    row: 1
+    col: 9.5
+  Key:
+    id: Key_289
+    key_code: 289
+    key_sym: "F8"
+    row: 1
+    col: 10.5
+
+  Key:
+    id: Key_290
+    key_code: 290
+    key_sym: "F9"
+    row: 1
+    col: 12
+  Key:
+    id: Key_291
+    key_code: 291
+    key_sym: "F10"
+    row: 1
+    col: 13
+  Key:
+    id: Key_292
+    key_code: 292
+    key_sym: "F11"
+    row: 1
+    col: 14
+  Key:
+    id: Key_293
+    key_code: 293
+    key_sym: "F12"
+    row: 1
+    col: 15
+
+  Key:
+    id: Key_178
+    key_code: 178
+    key_sym: "²"
+    row: 2
+    col: 1
+  Key:
+    id: Key_38
+    key_code: 38
+    key_sym: "&"
+    row: 2
+    col: 2
+  Key:
+    id: Key_233
+    key_code: 233
+    key_sym: "é"
+    row: 2
+    col: 3
+  Key:
+    id: Key_34
+    key_code: 34
+    key_sym: '"'
+    row: 2
+    col: 4
+  Key:
+    id: Key_39
+    key_code: 39
+    key_sym: "'"
+    row: 2
+    col: 5
+  Key:
+    id: Key_40
+    key_code: 40
+    key_sym: "("
+    row: 2
+    col: 6
+  Key:
+    id: Key_45
+    key_code: 45
+    key_sym: "-"
+    row: 2
+    col: 7
+  Key:
+    id: Key_232
+    key_code: 232
+    key_sym: "è"
+    row: 2
+    col: 8
+  Key:
+    id: Key_95
+    key_code: 95
+    key_sym: "_"
+    row: 2
+    col: 9
+  Key:
+    id: Key_231
+    key_code: 231
+    key_sym: "ç"
+    row: 2
+    col: 10
+  Key:
+    id: Key_224
+    key_code: 224
+    key_sym: "à"
+    row: 2
+    col: 11
+  Key:
+    id: Key_41
+    key_code: 41
+    key_sym: ")"
+    row: 2
+    col: 12
+  Key:
+    id: Key_61
+    key_code: 61
+    key_sym: "="
+    row: 2
+    col: 13
+  Key:
+    id: Key_8
+    key_code: 8
+    key_sym: "<-"
+    row: 2
+    col: 14
+    key_width: 2
+  Key:
+    id: Key_9
+    key_code: 9
+    key_sym: "tab"
+    row: 3
+    col: 1
+    key_width: 1.48
+  Key:
+    id: Key_97
+    key_code: 97
+    key_sym: "a"
+    row: 3
+    col: 2.5
+  Key:
+    id: Key_122
+    key_code: 122
+    key_sym: "z"
+    row: 3
+    col: 3.5
+  Key:
+    id: Key_101
+    key_code: 101
+    key_sym: "e"
+    row: 3
+    col: 4.5
+  Key:
+    id: Key_114
+    key_code: 114
+    key_sym: "r"
+    row: 3
+    col: 5.5
+  Key:
+    id: Key_116
+    key_code: 116
+    key_sym: "t"
+    row: 3
+    col: 6.5
+  Key:
+    id: Key_121
+    key_code: 121
+    key_sym: "y"
+    row: 3
+    col: 7.5
+  Key:
+    id: Key_117
+    key_code: 117
+    key_sym: "u"
+    row: 3
+    col: 8.5
+  Key:
+    id: Key_105
+    key_code: 105
+    key_sym: "i"
+    row: 3
+    col: 9.5
+  Key:
+    id: Key_111
+    key_code: 111
+    key_sym: "o"
+    row: 3
+    col: 10.5
+  Key:
+    id: Key_112
+    key_code: 112
+    key_sym: "p"
+    row: 3
+    col: 11.5
+  Key:
+    id: Key_94
+    key_code: 94
+    key_sym: "^"
+    row: 3
+    col: 12.5
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_36
+    key_code: 36
+    key_sym: "$"
+    row: 3
+    col: 13.5
+  Key:
+    id: Key_13
+    key_code: 13
+    key_sym: "Enter"
+    row: 4
+    col: 14.8
+    key_width: 1.23
+    key_height: 2
+  Key:
+    id: Key_301
+    key_code: 301
+    key_sym: "CAPS"
+    row: 4
+    col: 1
+    key_width: 1.75
+
+  Key:
+    id: Key_113
+    key_code: 113
+    key_sym: "q"
+    row: 4
+    col: 2.8
+  Key:
+    id: Key_115
+    key_code: 115
+    key_sym: "s"
+    row: 4
+    col: 3.8
+  Key:
+    id: Key_100
+    key_code: 100
+    key_sym: "d"
+    row: 4
+    col: 4.8
+  Key:
+    id: Key_102
+    key_code: 102
+    key_sym: "f"
+    row: 4
+    col: 5.8
+  Key:
+    id: Key_103
+    key_code: 103
+    key_sym: "g"
+    row: 4
+    col: 6.8
+  Key:
+    id: Key_104
+    key_code: 104
+    key_sym: "h"
+    row: 4
+    col: 7.8
+  Key:
+    id: Key_106
+    key_code: 106
+    key_sym: "j"
+    row: 4
+    col: 8.8
+  Key:
+    id: Key_107
+    key_code: 107
+    key_sym: "k"
+    row: 4
+    col: 9.8
+  Key:
+    id: Key_108
+    key_code: 108
+    key_sym: "l"
+    row: 4
+    col: 10.8
+  Key:
+    id: Key_109
+    key_code: 109
+    key_sym: "m"
+    row: 4
+    col: 11.8
+  Key:
+    id: Key_249
+    key_code: 249
+    key_sym: "ù"
+    row: 4
+    col: 12.8
+  Key:
+    id: Key_42
+    key_code: 42
+    key_sym: "*"
+    row: 4
+    col: 13.8
+  Key:
+    id: Key_304
+    key_code: 304
+    key_sym: "LShift"
+    row: 5
+    col: 1
+    key_width: 1.3
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_60
+    key_code: 60
+    key_sym: "<"
+    row: 5
+    col: 2.3
+  Key:
+    id: Key_119
+    key_code: 119
+    key_sym: "w"
+    row: 5
+    col: 3.3
+  Key:
+    id: Key_120
+    key_code: 120
+    key_sym: "x"
+    row: 5
+    col: 4.3
+  Key:
+    id: Key_99
+    key_code: 99
+    key_sym: "c"
+    row: 5
+    col: 5.3
+  Key:
+    id: Key_118
+    key_code: 118
+    key_sym: "v"
+    row: 5
+    col: 6.3
+  Key:
+    id: Key_98
+    key_code: 98
+    key_sym: "b"
+    row: 5
+    col: 7.3
+  Key:
+    id: Key_110
+    key_code: 110
+    key_sym: "n"
+    row: 5
+    col: 8.3
+  Key:
+    id: Key_44
+    key_code: 44
+    key_sym: ","
+    row: 5
+    col: 9.3
+  Key:
+    id: Key_59
+    key_code: 59
+    key_sym: ";"
+    row: 5
+    col: 10.3
+  Key:
+    id: Key_58
+    key_code: 58
+    key_sym: ":"
+    row: 5
+    col: 11.3
+  Key:
+    id: Key_33
+    key_code: 33
+    key_sym: "!"
+    row: 5
+    col: 12.3
+  Key:
+    id: Key_303
+    key_code: 303
+    key_sym: "RShift"
+    row: 5
+    col: 13.3
+    key_width: 2.7
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_306
+    key_code: 306
+    key_sym: "LCtrl"
+    row: 6
+    col: 1
+    key_width: 1.3
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_311
+    key_code: 311
+    key_sym: "LSuper"
+    row: 6
+    col: 3.3
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_308
+    key_code: 308
+    key_sym: "LAlt"
+    row: 6
+    col: 4.3
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_32
+    key_code: 32
+    key_sym: "Espace"
+    row: 6
+    col: 5.3
+    key_width: 5
+  Key:
+    id: Key_313
+    key_code: 313
+    key_sym: "AltGr"
+    row: 6
+    col: 10.3
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_314
+    key_code: 314
+    key_sym: "Compose"
+    row: 6
+    col: 11.3
+    line_width: 1
+    enabled: False
+  Key:
+    id: Key_305
+    key_code: 305
+    key_sym: "RCtrl"
+    row: 6
+    col: 12.3
+    key_width: 1.3
+    line_width: 1
+    enabled: False
+
+
+  Key:
+    id: Key_277
+    key_code: 277
+    key_sym: "ins"
+    row: 2
+    col: 1
+    pad_cols: True
+  Key:
+    id: Key_278
+    key_code: 278
+    key_sym: "home"
+    row: 2
+    col: 2
+    pad_cols: True
+  Key:
+    id: Key_280
+    key_code: 280
+    key_sym: "pg_u"
+    row: 2
+    col: 3
+    pad_cols: True
+  Key:
+    id: Key_127
+    key_code: 127
+    key_sym: "del"
+    row: 3
+    col: 1
+    pad_cols: True
+  Key:
+    id: Key_279
+    key_code: 279
+    key_sym: "end"
+    row: 3
+    col: 2
+    pad_cols: True
+  Key:
+    id: Key_281
+    key_code: 281
+    key_sym: "pg_d"
+    row: 3
+    col: 3
+    pad_cols: True
+  Key:
+    id: Key_273
+    key_code: 273
+    key_sym: "up"
+    row: 5
+    col: 2
+    pad_cols: True
+  Key:
+    id: Key_274
+    key_code: 274
+    key_sym: "down"
+    row: 6
+    col: 2
+    pad_cols: True
+  Key:
+    id: Key_276
+    key_code: 276
+    key_sym: "left"
+    row: 6
+    col: 1
+    pad_cols: True
+  Key:
+    id: Key_275
+    key_code: 275
+    key_sym: "right"
+    row: 6
+    col: 3
+    pad_cols: True

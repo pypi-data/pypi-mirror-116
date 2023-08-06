@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "music_sampler"
+version = "1.6.0"
+description = "A music player which associates each key on the keyboard to a set of actions to run"
+authors = ["Ismaël Bouya <ismael.bouya@normalesup.org>", "Denise Maurice <denise.maurice@normalesup.org"]
+license = "MIT"
+keywords = ["music", "sampler", "keyboard"]
+readme = "README"
+homepage = "https://git.immae.eu/cgit/perso/Immae/Projets/Python/MusicSampler.git/about/"
+repository = "https://git.immae.eu/perso/Immae/Projets/Python/MusicSampler.git"
+include = [
+  "music_sampler/locales/fr/LC_MESSAGES/*.mo",
+  "run.py"
+]
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'Intended Audience :: End Users/Desktop',
+  'Topic :: Multimedia :: Sound/Audio :: Players'
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydub = "^0.25.1"
+sounddevice = "^0.4.2"
+transitions = "^0.8.8"
+PyYAML = "^5.4.1"
+Kivy = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+Markdown = "^3.3.4"
+Pygments = "^2.10.0"
+shiv = "^0.5.2"
+pyinstaller = "^4.5.1"
+setuptools-scm = "^6.0.1"
+
+[tool.poetry.scripts]
+music_sampler = "music_sampler.app:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

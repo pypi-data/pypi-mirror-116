@@ -1,0 +1,464 @@
+# This file is distributed under the same license as the music_sampler package.
+#
+msgid ""
+msgstr ""
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: music_sampler/action.py:113
+msgid "unknown action {}"
+msgstr "Action « {} » inconnue"
+
+#: music_sampler/helpers.py:69
+msgid "A Music Sampler application."
+msgstr "Un lecteur de musique préprogrammable"
+
+#: music_sampler/helpers.py:74
+msgid "Config file to load"
+msgstr "Fichier de configuration à charger"
+
+#: music_sampler/helpers.py:78
+msgid "Folder in which to find the music files"
+msgstr "Dossier dans lequel trouver les fichiers de musiques"
+
+#: music_sampler/helpers.py:82
+msgid "Print messages in console"
+msgstr "Afficher les messages de debug"
+
+#: music_sampler/helpers.py:85
+msgid ""
+"Make the mixing of sounds manually                    (do it if the system "
+"cannot handle it correctly)"
+msgstr "Faire le mixage en interne (activer si le système n'y parvient pas)"
+
+#: music_sampler/helpers.py:90
+msgid "Latency: low, high or number of seconds"
+msgstr "Latence: low, high ou un nombre de secondes."
+
+#: music_sampler/helpers.py:95
+msgid ""
+"Blocksize: If not 0, the number of frames to take                    at each "
+"step for the mixer"
+msgstr "Taille de block: si non nul, indique le nombre de frames à prendre à chaque étape de mixage"
+
+#: music_sampler/helpers.py:101
+msgid "Frame rate to play the musics"
+msgstr "Fréquence d'échantillonnage pour jouer les musiques"
+
+#: music_sampler/helpers.py:106
+msgid "Number of channels to use"
+msgstr "Nombre de canaux par musique"
+
+#: music_sampler/helpers.py:111
+msgid "Sample width (number of bytes for each frame)"
+msgstr "Largeur d'échantillonnage (nombre d'octets pour chaque frame)"
+
+#: music_sampler/helpers.py:114
+msgid ""
+"Displays the current version and exits. Only use                    in "
+"bundled package"
+msgstr "Affiche la version courante et quitte (utilisable uniuqement pour la version compilée)"
+
+#: music_sampler/helpers.py:119
+msgid "Select this sound device"
+msgstr "Sélectionne le périphérique de son"
+
+#: music_sampler/helpers.py:124
+msgid "List available sound devices"
+msgstr "Affiche la liste des périphériques de son disponibles"
+
+#: music_sampler/helpers.py:128
+msgid "Don't show warning when focus is lost"
+msgstr "Ne pas afficher d'avertissement lorsque l'application perd le focus."
+
+#: music_sampler/helpers.py:130
+msgid "Select another language"
+msgstr "Choix d'une autre langue"
+
+#: music_sampler/helpers.py:132
+msgid ""
+"Kivy arguments. All arguments after this are interpreted                    "
+"by Kivy. Pass \"-- --help\" to get Kivy's usage."
+msgstr "Arguments à passer à la librairie Kivy"
+
+#: music_sampler/helpers.py:170
+msgid "option '-v' can only be used in bundled package"
+msgstr "L'argument '-V' ne peut être utilisé que dans la version compilée"
+
+#: music_sampler/actions/interrupt_wait.py:5
+msgid "interrupt wait with id {}"
+msgstr "Interrompre l'attente d'identifiant {}"
+
+#: music_sampler/actions/interrupt_wait.py:5
+msgid "interrupt all waits"
+msgstr "Interrompre toutes les attentes"
+
+#: music_sampler/actions/pause.py:8
+msgid "pausing « {} »"
+msgstr "mise en pause de « {} »"
+
+#: music_sampler/actions/pause.py:10
+msgid "pausing all musics"
+msgstr "mise en pause des musiques"
+
+#: music_sampler/actions/pause_wait.py:5
+msgid "pause wait with id {}"
+msgstr "Mettre en pause l'attente d'identifiant {}"
+
+#: music_sampler/actions/pause_wait.py:5
+msgid "pause all waits"
+msgstr "Mettre en pause toutes les attentes"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at volume {}%"
+msgstr "lance « {} » au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at volume {}%"
+msgstr "lance toutes les musiques au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s at volume {}%"
+msgstr "lance « {} » à {}s au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s at volume {}%"
+msgstr "lance toutes les musiques à {}s au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » with {}s fade_in at volume {}%"
+msgstr "lance « {} » avec un fondu de {}s au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics with {}s fade_in at volume {}%"
+msgstr "lance toutes les musiques avec un fondu de {}s au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s with {}s fade_in at volume {}%"
+msgstr "lance « {} » à {}s avec un fondu de {}s au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s with {}s fade_in at volume {}%"
+msgstr "lance toutes les musiques à {}s avec un fondu de {}s au volume {}%"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at volume {}% {} times"
+msgstr "lance « {} » au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at volume {}% {} times"
+msgstr "lance toutes les musiques au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s at volume {}% {} times"
+msgstr "lance « {} » à {}s au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s at volume {}% {} times"
+msgstr "lance toutes les musiques à {}s au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » with {}s fade_in at volume {}% {} times"
+msgstr "lance « {} » avec un fondu de {}s au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics with {}s fade_in at volume {}% {} times"
+msgstr "lance toutes les musiques avec un fondu de {}s au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s with {}s fade_in at volume {}% {} times"
+msgstr "lance « {} » à {}s avec un fondu de {}s au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s with {}s fade_in at volume {}% {} times"
+msgstr "lance toutes les musiques à {}s avec un fondu de {}s au volume {}% {} fois"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at volume {}% in loop"
+msgstr "lance « {} » au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at volume {}% in loop"
+msgstr "lance toutes les musiques au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s at volume {}% in loop"
+msgstr "lance « {} » à {}s au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s at volume {}% in loop"
+msgstr "lance toutes les musiques à {}s au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » with {}s fade_in at volume {}% in loop"
+msgstr "lance « {} » avec un fondu de {}s au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics with {}s fade_in at volume {}% in loop"
+msgstr "lance toutes les musiques avec un fondu de {}s au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s with {}s fade_in at volume {}% in loop"
+msgstr "lance « {} » à {}s avec un fondu de {}s au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s with {}s fade_in at volume {}% in loop"
+msgstr "lance toutes les musiques à {}s avec un fondu de {}s au volume {}% en boucle"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at volume {}% (restarting if already running)"
+msgstr "lance « {} » au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at volume {}% (restarting if already running)"
+msgstr "lance toutes les musiques au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s at volume {}% (restarting if already running)"
+msgstr "lance « {} » à {}s au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s at volume {}% (restarting if already running)"
+msgstr "lance toutes les musiques à {}s au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » with {}s fade_in at volume {}% (restarting if already running)"
+msgstr "lance « {} » avec un fondu de {}s au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics with {}s fade_in at volume {}% (restarting if already running)"
+msgstr "lance toutes les musiques avec un fondu de {}s au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s with {}s fade_in at volume {}% (restarting if already running)"
+msgstr "lance « {} » à {}s avec un fondu de {}s au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s with {}s fade_in at volume {}% (restarting if already running)"
+msgstr "lance toutes les musiques à {}s avec un fondu de {}s au volume {}% (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at volume {}% {} times (restarting if already running)"
+msgstr "lance « {} » au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at volume {}% {} times (restarting if already running)"
+msgstr "lance toutes les musiques au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s at volume {}% {} times (restarting if already running)"
+msgstr "lance « {} » à {}s au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s at volume {}% {} times (restarting if already running)"
+msgstr "lance toutes les musiques à {}s au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » with {}s fade_in at volume {}% {} times (restarting if already running)"
+msgstr "lance « {} » avec un fondu de {}s au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics with {}s fade_in at volume {}% {} times (restarting if already running)"
+msgstr "lance toutes les musiques avec un fondu de {}s au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s with {}s fade_in at volume {}% {} times (restarting if already running)"
+msgstr "lance « {} » à {}s avec un fondu de {}s au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s with {}s fade_in at volume {}% {} times (restarting if already running)"
+msgstr "lance toutes les musiques à {}s avec un fondu de {}s au volume {}% {} fois (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at volume {}% in loop (restarting if already running)"
+msgstr "lance « {} » au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at volume {}% in loop (restarting if already running)"
+msgstr "lance toutes les musiques au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s at volume {}% in loop (restarting if already running)"
+msgstr "lance « {} » à {}s au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s at volume {}% in loop (restarting if already running)"
+msgstr "lance toutes les musiques à {}s au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » with {}s fade_in at volume {}% in loop (restarting if already running)"
+msgstr "lance « {} » avec un fondu de {}s au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics with {}s fade_in at volume {}% in loop (restarting if already running)"
+msgstr "lance toutes les musiques avec un fondu de {}s au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting « {} » at {}s with {}s fade_in at volume {}% in loop (restarting if already running)"
+msgstr "lance « {} » à {}s avec un fondu de {}s au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/play.py:50
+msgid "starting all musics at {}s with {}s fade_in at volume {}% in loop (restarting if already running)"
+msgstr "lance toutes les musiques à {}s avec un fondu de {}s au volume {}% en boucle (redémarre si déjà lancée)"
+
+#: music_sampler/actions/reset_wait.py:5
+msgid "reset wait with id {}"
+msgstr "Réinitialise l'attente d'identifiant {}"
+
+#: music_sampler/actions/reset_wait.py:5
+msgid "reset all waits"
+msgstr "Réinitialise toutes les attentes"
+
+#: music_sampler/actions/run_command.py:15
+msgid "running command {}"
+msgstr "lance la commande {}"
+
+#: music_sampler/actions/run_command.py:15
+msgid "running command {} (waiting for its execution to finish)"
+msgstr "lance la commande {} (attend la fin de son exécution)"
+
+#: music_sampler/actions/seek.py:8
+msgid "moving music « {} » by {:+d}s"
+msgstr "avance la musique « {} » de {:+d}s"
+
+#: music_sampler/actions/seek.py:11
+msgid "moving all musics by {:+d}s"
+msgstr "avance les musiques de {:+d}s"
+
+#: music_sampler/actions/seek.py:15
+msgid "moving music « {} » to position {}s"
+msgstr "avance la musique « {} » en position {}s"
+
+#: music_sampler/actions/seek.py:18
+msgid "moving all musics to position {}s"
+msgstr "avance les musiques en position {}s"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping music « {} »"
+msgstr "arrête la musique « {} »"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping all musics"
+msgstr "arrête toutes les musiques"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping music « {} » with {}s fadeout"
+msgstr "arrête la musique « {} » avec un fadeout de {}s"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping all musics with {}s fadeout"
+msgstr "arrête toutes les musiques avec un fadeout de {}s"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping music « {} » with {}s fadeout (waiting the end of fadeout, with id {})"
+msgstr "arrête la musique « {} » avec un fadeout de {}s (attend la fin du fadeout, avec l'identifiant {})"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping all musics with {}s fadeout (waiting the end of fadeout, with id {})"
+msgstr "arrête toutes les musiques avec un fadeout de {}s (attend la fin du fadeout, avec l'identifiant {})"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping music « {} » with {}s fadeout (waiting the end of fadeout)"
+msgstr "arrête la musique « {} » avec un fadeout de {}s (attend la fin du fadeout)"
+
+#: music_sampler/actions/stop.py:40
+msgid "stopping all musics with {}s fadeout (waiting the end of fadeout)"
+msgstr "arrête toutes les musiques avec un fadeout de {}s (attend la fin du fadeout)"
+
+#: music_sampler/actions/stop_all_actions.py:14
+msgid "stopping all actions"
+msgstr "arrête toutes les actions"
+
+#: music_sampler/actions/stop_all_actions.py:14
+msgid "stopping all actions except this key"
+msgstr "arrête toutes les actions sauf cette touche"
+
+#: music_sampler/actions/unpause.py:8
+msgid "unpausing « {} »"
+msgstr "reprend « {} »"
+
+#: music_sampler/actions/unpause.py:10
+msgid "unpausing all musics"
+msgstr "reprend toutes les musiques"
+
+#: music_sampler/actions/unpause_wait.py:5
+msgid "unpause wait with id {}"
+msgstr "Reprendre l'attente d'identifiant {}"
+
+#: music_sampler/actions/unpause_wait.py:5
+msgid "unpause all waits"
+msgstr "Reprendre toutes les attentes"
+
+#: music_sampler/actions/volume.py:32
+msgid "{:+d}% to volume of « {} »"
+msgstr "{:+d}% sur le volume de « {} »"
+
+#: music_sampler/actions/volume.py:32
+msgid "{:+d}% to volume"
+msgstr "{:+d}% sur le volume global"
+
+#: music_sampler/actions/volume.py:32
+msgid "{:+d}% to volume of « {} » with {}s fade"
+msgstr "{:+d}% sur le volume de « {} » avec {}s de fade"
+
+#: music_sampler/actions/volume.py:32
+msgid "{:+d}% to volume with {}s fade"
+msgstr "{:+d}% sur le volume global avec {}s de fade"
+
+#: music_sampler/actions/volume.py:32
+msgid "setting volume of « {} » to {}%"
+msgstr "changement du volume de « {} » à {}%"
+
+#: music_sampler/actions/volume.py:32
+msgid "setting volume to {}%"
+msgstr "changement du volume global à {}%"
+
+#: music_sampler/actions/volume.py:32
+msgid "setting volume of « {} » to {}% with {}s fade"
+msgstr "changement du volume de « {} » à {}% avec {}s de fade"
+
+#: music_sampler/actions/volume.py:32
+msgid "setting volume to {}% with {}s fade"
+msgstr "changement du volume global à {}% avec {}s de fade"
+
+#: music_sampler/actions/wait.py:36
+msgid "waiting {}s"
+msgstr "attend {}s"
+
+#: music_sampler/actions/wait.py:36
+msgid "waiting the end of « {} »"
+msgstr "attend la fin de « {} »"
+
+#: music_sampler/actions/wait.py:36
+msgid "waiting the end of « {} » + {}s"
+msgstr "attend la fin de « {} » + {}s"
+
+#: music_sampler/actions/wait.py:36
+msgid "waiting {}s (setting id = {})"
+msgstr "attend {}s (définit l'identifiant {})"
+
+#: music_sampler/actions/wait.py:36
+msgid "waiting the end of « {} » (setting id = {})"
+msgstr "attend la fin de « {} » (définit l'identifiant {})"
+
+#: music_sampler/actions/wait.py:36
+msgid "waiting the end of « {} » + {}s (setting id = {})"
+msgstr "attend la fin de « {} » + {}s (définit l'identifiant {})"
+
+#: music_sampler/app_blocks/actionlist.py:18
+msgid "actions linked to key {} (repeat protection {}s):"
+msgstr "actions liées à la touche {} (protection de {}s contre les répétitions) :"
+
+#: music_sampler/app_blocks/actionlist.py:18
+msgid "actions linked to key {}:"
+msgstr "actions liées à la touche {} :"
+
+#: music_sampler/music_sampler.kv:93
+msgid "Focus lost!"
+msgstr "Focus perdu !"
+
+#: music_sampler/music_sampler.kv:369
+msgid "volume: {}%"
+msgstr "volume : {}%"
