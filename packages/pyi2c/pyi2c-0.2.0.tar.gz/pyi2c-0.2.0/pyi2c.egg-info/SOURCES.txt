@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyi2c/__init__.py
+pyi2c/pyi2c.py
+pyi2c.egg-info/PKG-INFO
+pyi2c.egg-info/SOURCES.txt
+pyi2c.egg-info/dependency_links.txt
+pyi2c.egg-info/requires.txt
+pyi2c.egg-info/top_level.txt
