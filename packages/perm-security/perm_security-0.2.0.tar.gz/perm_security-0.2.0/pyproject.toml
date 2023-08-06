@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "perm_security"
+version = "0.2.0"
+description = "A package to bridge the gap between Discord's API and Perm-Banana"
+authors = ["TheJoeSmo <joesmo.joesmo12@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/TheJoeSmo/perm-security"
+repository = "https://github.com/TheJoeSmo/perm-security"
+keywords = ["discord", "perm-banana", "token"]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+discord = "^1.7.3"
+perm-banana = "^0.1.1"
+APScheduler = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.7b0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
