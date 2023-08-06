@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ml-deploy
+Version: 1.1.2
+Summary: Package to deploy ml model
+Home-page: http://192.168.7.138:8929/fauzantaufik/cad-it-ml/-/tree/master/python
+Author: Fauzan Taufik
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
