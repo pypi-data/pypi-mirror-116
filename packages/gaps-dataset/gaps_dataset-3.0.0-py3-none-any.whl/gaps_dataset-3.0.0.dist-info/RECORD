@@ -1,0 +1,16 @@
+gaps_dataset/__init__.py,sha256=qn5ii6ebDU2Toke3SlCSWIeNofbzApfI5VKo0JXxpBA,123
+gaps_dataset/ftp_info.py,sha256=SbIVK2KaBqCHjTCIOyio-kWE7BCGPhLjgfL01437epE,8113
+gaps_dataset/ftp_utils.py,sha256=Nk5vcOLCwQ_Yt9fF9BIvPtZTOFbxs4Kdoesm1oYwn_U,11050
+gaps_dataset/gaps.py,sha256=pBP2dISkaA5selRX_zbK134xTWaxZOIU-BQg1UFKnDM,5875
+gaps_dataset/version.py,sha256=hI40ugNDwbJrdeiJOwhwNevRYpeAf4Mb6xu0db7mFyU,568
+gaps_dataset/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gaps_dataset/examples/gaps10m_load_segmentation.py,sha256=DNp0_0RYbZuGUhor0SnQLEwrUMHkJ0Pf9IQyhmminKg,1384
+gaps_dataset/examples/gapsV1_load_images.py,sha256=9OZBjOqE5-WGo7eJx48yXfMAkv7EGV-vAZe5zf1B7R8,1964
+gaps_dataset/examples/gapsV1_load_patches.py,sha256=yJTJd0pLKkh97HyKtXH3MCm8ds7mvTVmbFQWbLZiINg,1551
+gaps_dataset/examples/gapsV2_load_images.py,sha256=YVMfztbq6hmqnEe4qOGgOGtz7GwXrpioVawzi9Psfi4,1953
+gaps_dataset/examples/gapsV2_load_patches.py,sha256=Sw2smTcj0ewjAROjq-wh-rAT6doqwWcPE04bQIUEULs,1808
+gaps_dataset/examples/gapsV2_load_segmentation.py,sha256=FMhDcICvPTIVLiC4kQp1y0sXn2NypKKy93Y4jOt0ANU,1068
+gaps_dataset-3.0.0.dist-info/METADATA,sha256=5nfKfjdPJmjrTYpSU4d1OBSZACBpL9RSpneQWmsV6K4,504
+gaps_dataset-3.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gaps_dataset-3.0.0.dist-info/top_level.txt,sha256=Gg9l6ZlYeT321bbBGUypCJHA3TYaMhwwCGYn4fJ-Yuo,13
+gaps_dataset-3.0.0.dist-info/RECORD,,
