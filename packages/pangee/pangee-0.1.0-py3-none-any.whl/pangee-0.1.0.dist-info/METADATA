@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pangee
+Version: 0.1.0
+Summary: Pangenome operations
+Home-page: UNKNOWN
+Author: Joel Romero Hernandez
+Author-email: joelroihe@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+
+This library allows to work with genomes and pangenomes
+
+
