@@ -1,0 +1,3 @@
+[napari.plugin]
+micromanager = micromanager_gui.__init__
+
