@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: prophet-builder
+Version: 0.0.2
+Summary: A package to set the environment variables for CMDSTANPY backend support and to install prophet, so it can be used as an extension to EvalML
+Home-page: https://github.com/alteryx/cmdstan_ext/
+Author: Alteryx, Inc.
+Author-email: support@featurelabs.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prophet_builder
+Install Prophet with cmdstan as a backend via pip! Enables commercial deployment of Facebook's Prophet time series model.
+
+
