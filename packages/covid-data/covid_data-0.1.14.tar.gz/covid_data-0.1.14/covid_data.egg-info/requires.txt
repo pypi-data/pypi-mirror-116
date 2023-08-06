@@ -1,0 +1,6 @@
+pandas
+beautifulsoup4
+click
+requests
+psycopg2
+Unidecode
