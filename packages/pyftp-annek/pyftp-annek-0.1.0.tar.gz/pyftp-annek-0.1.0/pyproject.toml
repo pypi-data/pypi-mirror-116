@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyftp-annek"
+version = "0.1.0"
+description = "FTP Uploader"
+authors = ["Michael MacKenna <mpmackenna@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pyftp = 'pyftp_annek.cli:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
