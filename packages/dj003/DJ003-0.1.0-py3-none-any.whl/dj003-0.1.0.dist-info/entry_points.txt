@@ -1,0 +1,3 @@
+[console_scripts]
+one-script=DJ003.run:main
+
