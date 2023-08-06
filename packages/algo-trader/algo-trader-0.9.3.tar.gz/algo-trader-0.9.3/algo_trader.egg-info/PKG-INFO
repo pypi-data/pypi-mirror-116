@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: algo-trader
+Version: 0.9.3
+Summary: Trade execution engine to process API data and transmit orders to Bitmex and other brokers.
+Home-page: https://github.com/dignitas123/algo_trader
+Author: Niclas Hummel
+Author-email: info@algoinvest.online
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
