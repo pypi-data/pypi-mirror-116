@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sqs_poller/SQSPoller.py
+src/sqs_poller/__init__.py
+src/sqs_poller.egg-info/PKG-INFO
+src/sqs_poller.egg-info/SOURCES.txt
+src/sqs_poller.egg-info/dependency_links.txt
+src/sqs_poller.egg-info/top_level.txt
