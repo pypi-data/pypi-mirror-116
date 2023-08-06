@@ -1,0 +1,10 @@
+nupass/__init__.py,sha256=xH5Kjom2uOr3EefancJYqJlSx4zmsv2zRmZZ4DkyypM,243
+nupass/nupass.py,sha256=92TKIYu3trjWk2Zqpp5BoO8ti3166w_og6cmLgeeZak,1539
+nupass/script.py,sha256=68oPJaQ0SDKBuI-aaKmSL_wpvxYgWTzdCFbK7RXpIX4,725
+nupass/wordlist.txt,sha256=73AQLzQiC8ATMZ9QG-mG3-cvWkJn8LxejTDY58HOlm0,10390
+nupass-1.0.0.dist-info/LICENSE,sha256=2ylvL381vKOhdO-w6zkrOxe9lLNBhRQpo9_0EbHC_HM,18046
+nupass-1.0.0.dist-info/METADATA,sha256=8JIbmFL2f18B8k9uD4sKzVTSHzSfewPvZQr-B3VG9D8,3467
+nupass-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nupass-1.0.0.dist-info/entry_points.txt,sha256=ZwYF3t7o_pjHirO5ouX0WUJj8t75A7MxT8EYE67j9CU,47
+nupass-1.0.0.dist-info/top_level.txt,sha256=pywz5Mz_D-ueLiw5IZk_SnNIjjNmPnDXvGSZj0wzoLM,7
+nupass-1.0.0.dist-info/RECORD,,
