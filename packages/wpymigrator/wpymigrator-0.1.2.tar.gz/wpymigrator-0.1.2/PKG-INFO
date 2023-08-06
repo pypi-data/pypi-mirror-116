@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: wpymigrator
+Version: 0.1.2
+Summary: A program designed to aide in WordPress development site creation, and integration back into production.
+Home-page: https://github.com/Jonxslays/wpymigrator
+License: GPL-3.0-only
+Author: Jonxslays
+Author-email: jon@jonxslays.com
+Requires-Python: >=3.8
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/Jonxslays/wpymigrator
+Description-Content-Type: text/markdown
+
+# WPyMigrator
+
+This package is still in early development.
+
+---
+
