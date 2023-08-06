@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mintchoco
+Version: 5.0.2
+Summary: Heliotrope python wrapper
+Home-page: https://github.com/Saebasol/Mintchoco
+Author: Ryu JuHeon
+Author-email: SaidBySolo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mintchoco
+
+> Heliotrope's Python wrapper
+
+
