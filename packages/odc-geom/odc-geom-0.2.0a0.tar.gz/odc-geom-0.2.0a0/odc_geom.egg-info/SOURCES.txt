@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+odc/geom/__init__.py
+odc/geom/_version.py
+odc_geom.egg-info/PKG-INFO
+odc_geom.egg-info/SOURCES.txt
+odc_geom.egg-info/dependency_links.txt
+odc_geom.egg-info/not-zip-safe
+odc_geom.egg-info/requires.txt
+odc_geom.egg-info/top_level.txt
