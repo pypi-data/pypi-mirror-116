@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: owl-pipeline-server
+Version: 0.6.0
+Summary: Owl Pipeline Server Framework
+Home-page: https://github.com/eddienko/owl-pipeline-server
+Author: Eduardo Gonzalez Solares
+Author-email: e.gonzalezsolares@gmail.com
+License: GNU General Public License v3
+Keywords: owl,pipeline,dask,kubernetes,python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Distributed Computing
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: aiohttp (==3.*)
+Requires-Dist: coloredlogs
+Requires-Dist: dask
+Requires-Dist: distributed
+Requires-Dist: dask-kubernetes
+Requires-Dist: kubernetes
+Requires-Dist: pyzmq
+Requires-Dist: psycopg2
+Requires-Dist: requests
+Requires-Dist: sqlalchemy
+Requires-Dist: tornado
+Requires-Dist: transaction
+Requires-Dist: pyyaml
+Requires-Dist: voluptuous
+Requires-Dist: databases
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: aiosqlite
+Requires-Dist: alembic
+
+# Owl Job Scheduler
+
+Owl is a job scheduler that allows to submit user jobs to a Kubernetes cluster from anywhere.
+
+Documentation in https://eddienko.github.io/owl-pipeline/
+
+
