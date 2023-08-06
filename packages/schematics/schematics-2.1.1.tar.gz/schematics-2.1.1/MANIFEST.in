@@ -1,0 +1,10 @@
+include AUTHORS
+include HISTORY.rst
+include LICENSE
+include README.rst
+include test-requirements.txt
+include tox.ini
+global-exclude .DS_Store
+
+recursive-include schematics *.pot *.po
+recursive-exclude schematics *.mo
