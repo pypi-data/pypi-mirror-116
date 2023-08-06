@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: anaml-client
+Version: 0.3.0
+Summary: Python SDK for Anaml
+Home-page: https://anaml.com
+Author: Simple Machines
+Author-email: hello@simplemachines.com.au
+License: Copyright 2020 Simple Machines Pty Ltd. All Rights Reserved
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.8
+Requires-Dist: isodate
+Requires-Dist: jsonschema
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Provides-Extra: testing
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: flake8-docstrings ; extra == 'testing'
+Requires-Dist: hypothesis ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+
+UNKNOWN
+
+
