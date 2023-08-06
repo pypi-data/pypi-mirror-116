@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: args-to-db
+Version: 0.0.8
+Summary: Runs python script in specified argument combinations and produces a pandas dataframe of all results.
+Home-page: https://github.com/schnellerhase/args_to_db
+Author: schnellerhase
+License: GPLv3
+Description: # <span style="color:#4078c0">args_to_db</span> - An Argument Optimisation Data Generation Tool
+        
+        ```sh
+            pip install args_to_db
+        ```
+        
+        You want to analyze a (python) script for different arguments/settings? - Argument optimization is becoming more and more important in many application areas. <span style="color:#4078c0">args_to_db</span> is an attempt to generalize and simplify the process of running a programm in different modes or configurations and combining the resulting datasets to allow for further analysis.
+        
+        ## When should I use <span style="color:#4078c0">args_to_db</span>?
+        You have a programm which is very general in its application, for example a solver framework for linear system of equations. This could look something like
+        
+        ```python
+            python solver.py A b [--solver SOLVER] [--preconditioner PRECONDITIONER]
+        ```
+        
+        Different inputs vary performance of solving methods dramatically. So we want to optimize the solver and preonditiner used for a specific linear system of equations.
+        
+        ## How do I use <span style="color:#4078c0">args_to_db</span>?
+        
+        So we want to compare different argument configurations. <span style="color:#4078c0">args_to_db</span> takes them in the array form:
+        ```python
+            argument_configurations = [['--solver', 'cg'],
+                                       ['--solver', 'cg', '--preconditioner', 'jacobi'],
+                                       ['--solver', 'lu']]
+        ```
+        
+        And then we run all cases via:
+        ```python
+            args_to_db.run('solver.py', argument_configurations, threads=3)
+        ```
+        
+        This spawns upto 3 concurrent processes each running the specified command. As complex applications are mostly reliant on argument optimisations, parallel execution is supported intuitively.
+        
+        ## Data collection
+        We want to run the test cases individually and not inside a bigger (benchmarking) framework, but spawning different process yields the problem of data collection. Therfore the scripts internally log the results and <span style="color:#4078c0">args_to_db</span> handles combination of those later on.
+        ```python
+            args_to_db.add_result('solver_time', 20.3)
+            args_to_db.add_result('solver_state', 'converged')
+        
+            args_to_db.write_results(__file__, args) # args currently is an argparse object
+        ```
+        This results in single file outputs of each script. Which are then combined into a single pandas dataframe after all simulations are completed.
+        
+        
+        
+Keywords: arguments,pandas,automatisation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
