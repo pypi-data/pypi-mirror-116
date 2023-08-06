@@ -1,0 +1,62 @@
+python simplified even further
+
+1. calculator() - make basic calculations
+ex - start.pyiseasy.calculator(1,2,'+')
+
+2. openfile() - open a text file
+ex - myfile=start.pyiseasy.openfile('example.txt','read')
+
+3. readfile() - read the contents of a file
+ex - start.pyiseasy.readfile(myfile)
+
+4.writetofile() - write some data to a file
+ex - start.pyiseasy.writetofile(myfile,'Hi there')
+
+5.closefile() - closes the file
+ex - start.pyiseasy.closefile(myfile)
+
+6.declaredatatype() - declares a type of data in the program
+ex - a=start.pyiseasy.declaredatatype(2,'integer')
+
+Note: this function can accept boolean variables as well.
+      To declare a boolean value using this function.
+      Please use:
+                b=start.pyiseasy.declaredatatype('bool','is true')
+
+7.printbackwards() - prints a string backwards
+ex - print(start.pyiseasy.printbackwards('racecar'))
+
+8.removeduplicate() - removes any repeated value from a list
+                      and gives a list with no duplicate 
+                      values.
+ex - withnodup=start.pyiseasy.removeduplicate(list)
+
+9. giveduplicates() - gives a list of all the duplicate values
+                      in a list.
+ex - dups=start.pyiseasy.giveduplicates(list)
+
+10. addDict() - this adds a key and a corresponding value to 
+                a dictionary
+ex - start.pyiseasy.addDict(dictionary,2,'Chicken')
+
+11.addtuple() - this adds an element to a tuple
+                please note that another tuple could
+                not be added to an existing tuple using
+                this function
+ex - start.pyiseasy.addtuple(tup,'Hello World!')
+
+12. findASCII() - finds the ASCII value of a character
+ex - start.pyiseasy.findASCII('b')
+
+13. findvalchar() - finds the character using an ASCII value
+ex - start.pyiseasy.findvalchar(65)
+
+14. probability() - finds the probability
+ex - prob=start.pyiseasy.probability(2,10)
+
+15.findvowels() - gives the number of vowels in a string
+ex - noofvowels=start.pyiseasy.findvowels(string)
+
+16. paragraph() - gives a paragraph
+ex - p=start.pyiseasy.paragraph(string)
+

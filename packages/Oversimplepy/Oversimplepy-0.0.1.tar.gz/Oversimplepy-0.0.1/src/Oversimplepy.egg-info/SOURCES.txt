@@ -1,0 +1,9 @@
+README.txt
+pyproject.toml
+setup.py
+src/Oversimplepy.egg-info/PKG-INFO
+src/Oversimplepy.egg-info/SOURCES.txt
+src/Oversimplepy.egg-info/dependency_links.txt
+src/Oversimplepy.egg-info/top_level.txt
+src/start/__init__.py
+src/start/pyiseasy.py
