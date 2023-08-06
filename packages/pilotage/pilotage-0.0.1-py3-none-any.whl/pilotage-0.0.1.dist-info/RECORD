@@ -1,0 +1,17 @@
+pilotage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pilotage/__main__.py,sha256=OaJLwZR5KtoCb8vJYuXYbB_n2nShvZ2EcQy7qAhaJfA,521
+pilotage/hooking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pilotage/hooking/ante_build_hook.py,sha256=xHHJNXnxb9watd2y7WjAJtYrYatQ5l-nIIue1G0R4gs,457
+pilotage/hooking/ante_release_hook.py,sha256=0zUaDxzt0xCA-CXaHGYtngfHXqgCVI-LIDorQtLP5sY,4687
+pilotage/hooking/post_build_hook.py,sha256=OORfwRWkgH7ibBj8g5TQ5qzRu2cUKbl1qzQhFtvdaB8,457
+pilotage/hooking/post_release_hook.py,sha256=BA0iuoN4Pvur4rRcmEOW6w1U5gy3Cagtf45BG_LmIeM,2183
+pilotage/pyrustic_data/hooking.json,sha256=J02HNQ5K0MSiH8dvnu3_1F5owQ3v3O7eSARaoDqY29k,290
+pilotage/pyrustic_data/hubstore.json,sha256=PYmFHCMCYZJ3_QeuTvBJVDIChqxxv6HuCg09hsXm6vU,166
+pilotage/pyrustic_data/release_info.json,sha256=Wp-2tVBcom2zIW8-Hw7TcEHx5d2y8SpVufi8Ygjt6Yo,273
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pilotage-0.0.1.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+pilotage-0.0.1.dist-info/METADATA,sha256=qJIbMizf1mnaWacYjsqM_rq5ztlwzWEQfusLPqcZBF8,1125
+pilotage-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pilotage-0.0.1.dist-info/entry_points.txt,sha256=QLrRnPD9T7bqXO3kIKwXpCL3JajZR3KExItYYhmXSvY,53
+pilotage-0.0.1.dist-info/top_level.txt,sha256=xenz3hRGlRetA39I6BAA5_R3l9R3neG4MOQcJSz_PLg,15
+pilotage-0.0.1.dist-info/RECORD,,

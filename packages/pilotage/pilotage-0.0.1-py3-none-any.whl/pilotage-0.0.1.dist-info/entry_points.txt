@@ -1,0 +1,3 @@
+[console_scripts]
+pilotage = pilotage.__main__:main
+
