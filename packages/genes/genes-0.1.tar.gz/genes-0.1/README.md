@@ -1,0 +1,1 @@
+[![codecov](https://codecov.io/gh/lbacik/genes/branch/main/graph/badge.svg?token=LP0KIDNBQ5)](https://codecov.io/gh/lbacik/genes)
