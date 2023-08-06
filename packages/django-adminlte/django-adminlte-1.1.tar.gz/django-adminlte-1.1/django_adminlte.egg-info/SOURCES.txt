@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+django_adminlte/__init__.py
+django_adminlte/welcom.py
+django_adminlte.egg-info/PKG-INFO
+django_adminlte.egg-info/SOURCES.txt
+django_adminlte.egg-info/dependency_links.txt
+django_adminlte.egg-info/top_level.txt
