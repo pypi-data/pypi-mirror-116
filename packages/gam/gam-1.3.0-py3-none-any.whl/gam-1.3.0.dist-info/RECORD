@@ -1,0 +1,15 @@
+gam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gam/clustering.py,sha256=l1o3KU8XoWkiH3kyIi9HR0HIpgtimrQf0YQGI0OFP_0,37359
+gam/gam.py,sha256=DbVzKAH0gw0-PXMM9PjxAFM2dqckn8-0eLctmKpfMnc,11258
+gam/kendall_tau_distance.py,sha256=XQ3yfw6VcTTCS-v55ktkTdreS_SHNJI8pEfXL7MkFCU,6143
+gam/spearman_distance.py,sha256=Nm6IjvNURlE6XLz93zoISpYcLKvxndi76QtEs3BwZio,2977
+tests/test_banditPAM.py,sha256=H-6Vo2NH-F7iVOGYcEQ53iIQsewvn4pyR7Rf4_HB6uo,1829
+tests/test_clustering.py,sha256=Tm9y8cgw_-rX-upam6GsatX6vl9A3kJUWD-LVSz-9a4,534
+tests/test_gam.py,sha256=cuFQbW6xLZ674zcKIXiN6zMniyRSa2cgrR9Ou1nLf9I,6859
+tests/test_kendall_tau_distance.py,sha256=Zxk8wEmdLvKxK3jrFvnc3GlEQDJChSKkxk4oW-LMQ_g,2172
+tests/test_spearman_distance.py,sha256=t7vp2oXxVFRhOIWPjBnpuhLizHfGP7V863Gg4vXhCdI,2442
+gam-1.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gam-1.3.0.dist-info/METADATA,sha256=tM8o9I54VEU6lW91BYeOO852jG5qWHVjiY55mpIp9Qg,3008
+gam-1.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gam-1.3.0.dist-info/top_level.txt,sha256=jftUOa1n4VMimllq-Y7guyNzgBf5ue6whBaowOtk1EM,10
+gam-1.3.0.dist-info/RECORD,,
