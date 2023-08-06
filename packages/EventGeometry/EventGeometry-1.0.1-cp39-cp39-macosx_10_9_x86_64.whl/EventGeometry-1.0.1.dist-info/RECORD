@@ -1,0 +1,9 @@
+eventgeometry/__init__.py,sha256=OvzSa53N0967y54KLkwyAdSlgDSzYUzJ_1Eez9Bwf7A,2194
+eventgeometry/eventgeometry.py,sha256=dx2SOxLTM7kgCglJ68TT6FVGV2nDE6G_gtmuTl5Vl2Q,104282
+eventgeometry/_eventgeometry.cpython-39-darwin.so,sha256=xgMvAP0eM4ZL9TC94VQsmtNrwws6-jES6MCpYEbTLQo,2858544
+eventgeometry/.dylibs/libomp.dylib,sha256=42xSuGHeJGW_nz8SfSSW51zcv23rn7ZfK6j_x1n_vXY,641008
+EventGeometry-1.0.1.dist-info/RECORD,,
+EventGeometry-1.0.1.dist-info/WHEEL,sha256=JIE30nfOWUuazI4Vcfiuv_cYm-SkZCh6YOqQQjhm90A,109
+EventGeometry-1.0.1.dist-info/COPYING,sha256=Dhl-8BuiXl1SrrHaaNZVJHWiZ3YpWYjjWdvPxO81GMs,18200
+EventGeometry-1.0.1.dist-info/top_level.txt,sha256=Xme1Hz7QT-5kJKhUuAjTMdqMAel1uJ-gUReNzEq0CUI,14
+EventGeometry-1.0.1.dist-info/METADATA,sha256=ffo9OWOxsPuRWO377Nug_M-AcnoNmcICWIA2mCJCCKY,5445
