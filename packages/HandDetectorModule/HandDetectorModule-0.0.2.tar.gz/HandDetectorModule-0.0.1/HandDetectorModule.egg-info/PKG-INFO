@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: HandDetectorModule
+Version: 0.0.1
+Summary: This is a simplified version of mediapipe to do hand Detection
+Home-page: UNKNOWN
+Author: Saurabh Lanje
+Author-email: saurabhlanje33@gmail.com
+License: MIT
+Description: This is a simplified version of mediapipe to do Hand Detection.
+        
+        The function findHands will accept an RGB image and detects the hand in the frame and locate the key points and draws the landmarks, the function findPosition will give the position of the hand along with the id.
+        
+        Then the main function where we initialize our module and also we write a while loop to run the model. Here you can install module by simple pip command as: pip install HandDetectorModule.
+        
+        Change Log
+        ===========
+        
+        0.0.1 (19/08/2020)
+        -------------------
+        - First Release
+Keywords: hand,Computervision,HandTracking,HandDetection,Hand-Detection
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10

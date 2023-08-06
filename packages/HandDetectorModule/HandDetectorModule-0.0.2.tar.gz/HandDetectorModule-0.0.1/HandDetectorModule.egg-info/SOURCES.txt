@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+HandDetectorModule.egg-info/PKG-INFO
+HandDetectorModule.egg-info/SOURCES.txt
+HandDetectorModule.egg-info/dependency_links.txt
+HandDetectorModule.egg-info/top_level.txt
