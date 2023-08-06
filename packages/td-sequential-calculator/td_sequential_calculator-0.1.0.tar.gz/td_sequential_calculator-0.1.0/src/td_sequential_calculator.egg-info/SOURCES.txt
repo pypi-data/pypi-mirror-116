@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/td_sequential_calculator/__init__.py
+src/td_sequential_calculator/td_sequential_calculator.py
+src/td_sequential_calculator.egg-info/PKG-INFO
+src/td_sequential_calculator.egg-info/SOURCES.txt
+src/td_sequential_calculator.egg-info/dependency_links.txt
+src/td_sequential_calculator.egg-info/not-zip-safe
+src/td_sequential_calculator.egg-info/top_level.txt
