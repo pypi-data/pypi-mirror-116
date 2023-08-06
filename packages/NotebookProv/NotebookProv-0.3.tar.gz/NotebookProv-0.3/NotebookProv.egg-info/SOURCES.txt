@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+NotebookProv.egg-info/PKG-INFO
+NotebookProv.egg-info/SOURCES.txt
+NotebookProv.egg-info/dependency_links.txt
+NotebookProv.egg-info/top_level.txt
+notebookprov/NotebookProvenance.py
