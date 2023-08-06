@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pastecord.py
+setup.py
+pastecord.egg-info/PKG-INFO
+pastecord.egg-info/SOURCES.txt
+pastecord.egg-info/dependency_links.txt
+pastecord.egg-info/requires.txt
+pastecord.egg-info/top_level.txt
