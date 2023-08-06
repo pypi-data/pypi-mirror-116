@@ -1,0 +1,8 @@
+setup.py
+funkiest/__init__.py
+funkiest/funk.py
+funkiest.egg-info/PKG-INFO
+funkiest.egg-info/SOURCES.txt
+funkiest.egg-info/dependency_links.txt
+funkiest.egg-info/not-zip-safe
+funkiest.egg-info/top_level.txt
