@@ -1,0 +1,16 @@
+apprise~=0.9
+bs4
+chardet==2.3.0
+eventlet>=0.31.0
+feedgen~=0.9
+flask-login~=0.5
+flask~=1.0
+inscriptis~=1.2
+jsonpath-ng~=1.5.3
+pytz
+requests[socks]~=2.15
+selenium~=3.141
+timeago~=1.0
+urllib3
+validators
+wtforms~=2.3.3
