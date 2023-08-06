@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+bin/coconerd
+coconerd/__init__.py
+coconerd/main.py
+coconerd.egg-info/PKG-INFO
+coconerd.egg-info/SOURCES.txt
+coconerd.egg-info/dependency_links.txt
+coconerd.egg-info/not-zip-safe
+coconerd.egg-info/requires.txt
+coconerd.egg-info/top_level.txt
