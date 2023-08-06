@@ -1,0 +1,12 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+sphinx_apischema/__init__.py
+sphinx_apischema/_version_git.py
+sphinx_apischema/example.py
+sphinx_apischema.egg-info/PKG-INFO
+sphinx_apischema.egg-info/SOURCES.txt
+sphinx_apischema.egg-info/dependency_links.txt
+sphinx_apischema.egg-info/requires.txt
+sphinx_apischema.egg-info/top_level.txt
