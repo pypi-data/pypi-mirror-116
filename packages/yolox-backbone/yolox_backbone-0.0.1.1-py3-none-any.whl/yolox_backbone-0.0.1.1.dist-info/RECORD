@@ -1,0 +1,15 @@
+yolox_backbone/__init__.py,sha256=kbOw7vf3wNsMkKLQr0BHfMijTqjeqrJAYXZelE2ncUE,78
+yolox_backbone/models/__init__.py,sha256=KPQv0wi6tcYDl_NhzoFx4bl28qv3vWB0qbVGML9VARA,125
+yolox_backbone/models/backbone.py,sha256=6W7JXPCZDwCWBOHBt1WuV9P1BGfCNeaVMA_hkODE7pw,3422
+yolox_backbone/models/darknet.py,sha256=r3UaccKF9QuM8lKw62bg1ClZV-Kaj19m6IgmCkeQHyQ,6205
+yolox_backbone/models/network_blocks.py,sha256=WMSlBa3QNhtZKECG_HHxI9HXdujR5o5IAb4SVgWmqpk,6310
+yolox_backbone/models/yolo_fpn.py,sha256=sNEDFEsM66bR0b0rsp_opUCCLXunczJzp-O19G9YSCQ,2921
+yolox_backbone/models/yolo_pafpn.py,sha256=_meUvmRisNLIjT0Q-4Y9sLYVEu8vAlaHaojMzKttZfQ,4027
+yolox_backbone/utils/__init__.py,sha256=xok7ThBGARQ2xVTmTUZBnv_ulZWrk6hXooVU16wZXK4,46
+yolox_backbone/utils/torch_utils.py,sha256=jXxX5krspaC371pMWsACIDrcLNZS5q9-v3b5c5-uPtM,258
+yolox_backbone/utils/utils.py,sha256=AxnLji-BRWmFVrT35cLvXSNUlhW-noUjDFTEJQhZolo,107
+yolox_backbone-0.0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+yolox_backbone-0.0.1.1.dist-info/METADATA,sha256=xIamC00m1cJSY-4ZSgN2ygJ1wJr1QiV1LjzdnXOfIho,3606
+yolox_backbone-0.0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+yolox_backbone-0.0.1.1.dist-info/top_level.txt,sha256=NflK7FveeJuetOSlYcSTmwAD0odJm9uJV2toO4Ji1FI,15
+yolox_backbone-0.0.1.1.dist-info/RECORD,,
