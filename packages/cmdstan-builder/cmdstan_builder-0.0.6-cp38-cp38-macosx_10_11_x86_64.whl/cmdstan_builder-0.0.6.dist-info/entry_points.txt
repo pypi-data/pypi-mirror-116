@@ -1,0 +1,3 @@
+[console_scripts]
+build_prophet = cmdstan_builder.env_variables_prophet:main
+
