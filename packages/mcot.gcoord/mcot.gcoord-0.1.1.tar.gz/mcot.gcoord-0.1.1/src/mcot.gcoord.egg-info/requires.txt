@@ -1,0 +1,8 @@
+fslpy
+mcot.surface~=0.2.0
+mcot.utils~=0.1.0
+nibabel
+numpy
+pymc3
+scipy
+theano
