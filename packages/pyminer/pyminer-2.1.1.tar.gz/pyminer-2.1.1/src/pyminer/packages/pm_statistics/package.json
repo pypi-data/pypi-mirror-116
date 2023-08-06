@@ -1,0 +1,25 @@
+{
+    "name":"pm_statistics",
+    "display_name":"统计",
+    "version":"0.1.0",
+    "description":"内置统计",
+    "icon":"ipython_console.jpg",
+    "interface":{
+        "file":"main.py",
+        "interface":"StatisticsInterface"
+    },
+    "widgets":[
+        {
+            "file":"main.py",
+            "widget":"PMStatsToolBar",
+            "position":"new_toolbar",
+            "config":{
+                "message": "no",
+                "name": "pm_statistics",
+                "text": "统计"
+            }
+        }
+    ],
+    "requirements":["workspace_inspector"
+    ]
+}

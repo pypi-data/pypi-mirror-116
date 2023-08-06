@@ -1,0 +1,25 @@
+{
+    "name":"pm_preprocess",
+    "display_name":"数据预处理",
+    "version":"0.1.0",
+    "description":"内置数据预处理菜单",
+    "icon":"ipython_console.jpg",
+    "interface":{
+        "file":"main.py",
+        "interface":"PreprocessInterface"
+    },
+    "widgets":[
+        {
+            "file":"main.py",
+            "widget":"PMPreprocessToolBar",
+            "position":"new_toolbar",
+            "config":{
+                "message": "no",
+                "name": "pm_preprocess",
+                "text": "数据"
+            }
+        }
+    ],
+    "requirements":["workspace_inspector"
+    ]
+}
