@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hn2016_falwa
+Version: 0.5.0
+Summary: python package to compute finite-amplitude local wave activity (Huang and Nakamura 2016, JAS)
+Home-page: https://github.com/csyhuang/hn2016_falwa
+Author: Clare S. Y. Huang
+Author-email: csyhuang@uchicago.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
