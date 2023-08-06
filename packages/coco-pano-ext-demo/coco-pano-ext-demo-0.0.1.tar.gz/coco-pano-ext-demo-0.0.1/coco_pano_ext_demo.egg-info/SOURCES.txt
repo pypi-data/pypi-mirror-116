@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+coco_pano_ext_demo/__init__.py
+coco_pano_ext_demo/coco.py
+coco_pano_ext_demo/iou.py
+coco_pano_ext_demo/prec_recall_map.py
+coco_pano_ext_demo.egg-info/PKG-INFO
+coco_pano_ext_demo.egg-info/SOURCES.txt
+coco_pano_ext_demo.egg-info/dependency_links.txt
+coco_pano_ext_demo.egg-info/requires.txt
+coco_pano_ext_demo.egg-info/top_level.txt
