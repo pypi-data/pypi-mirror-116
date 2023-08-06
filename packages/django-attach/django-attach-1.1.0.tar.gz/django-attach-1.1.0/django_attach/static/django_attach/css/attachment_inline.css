@@ -1,0 +1,67 @@
+.attachment-inline .attachment {
+    padding: 1em;
+}
+
+.attachment-inline .attachment.new {
+    background: #aaffaa;
+}
+
+.attachment-inline .attachment.remove {
+    text-decoration: line-through;
+}
+
+.attachment-inline .attachment .attachment-button {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0.1em;
+}
+
+.attachment-inline .attachment .attachment-button.delete {
+    background: url(../../admin/img/icon-deletelink.svg) no-repeat center center;
+    background-size: 100%;
+}
+
+.attachment-inline .attachment.remove .attachment-button.delete {
+    display: none;
+}
+
+.attachment-inline .attachment .attachment-button.revert {
+    background: url(../img/icon-revert.svg) no-repeat center center;
+    background-size: 100%;
+    display: none;
+}
+
+.attachment-inline .attachment.remove .attachment-button.revert {
+    display: inline-block;
+}
+
+.attachment-inline .attach {
+    margin: 1em;
+}
+
+.attachment-inline .error {
+    color: #d40000;
+    font-weight: bold;
+    background: #ffc0c0;
+    padding: 1em;
+}
+
+.attachment-inline .error a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.attachment-inline .note {
+    color: #0169c9;
+    font-weight: bold;
+    background: #d3eaff;
+    padding: 1em;
+}
+
+.attachment-inline .note a {
+    color: inherit;
+    text-decoration: underline;
+}
