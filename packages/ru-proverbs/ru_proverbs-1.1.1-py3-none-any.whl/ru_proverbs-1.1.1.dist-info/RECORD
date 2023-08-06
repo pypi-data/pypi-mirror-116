@@ -1,0 +1,15 @@
+LICENSE,sha256=_KNAH7-_feXJugOcxib2gl6GC90OwEUl3Gzb9j1SY_I,11350
+requirements.txt,sha256=g1qvgFI7lvAxD8TvluMY6qBnsV_Y4Iwk5rbfwlCH21U,27574
+ru_proverbs/__init__.py,sha256=RMQPQkqf7NMRfFm5hJjwcUUmHlpspoWPZi7ylEXrkrI,622
+ru_proverbs/__main__.py,sha256=WesMvXNO9LmWqS84LAlhJdi1zsNedq7xcev6_NZXLug,756
+ru_proverbs/generator.py,sha256=g4qUuVsUT5nLVoWhWqt7KWWIgtDVNhR7fnEEljsL7mk,1636
+ru_proverbs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ru_proverbs/ru_proverbs.txt,sha256=e0DhG0aCQhfJJHbSX6sYW5RNtFNrcaB3aYIiTzkbUW8,398980
+ru_proverbs/ru_proverbs_chars_config.json,sha256=IEcV5J3qHxx76--D9Mi0h8sE62w2IFjLQDDp2LRtok0,195
+ru_proverbs/ru_proverbs_chars_vocab.json,sha256=qqlwkUurjnCHSROu3Ks79407c93G21HTocvM2o4vv64,775
+ru_proverbs/ru_proverbs_chars_weights.hdf5,sha256=sJdCVMm11wSB5otP8j5JBbGojNna4drnmeG_mdybGmA,1743176
+ru_proverbs-1.1.1.dist-info/entry_points.txt,sha256=CyBpOUhV-9n5d2qEq9R8enZKXi_FxeMNK8viOQRd4dg,95
+ru_proverbs-1.1.1.dist-info/LICENSE,sha256=_KNAH7-_feXJugOcxib2gl6GC90OwEUl3Gzb9j1SY_I,11350
+ru_proverbs-1.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ru_proverbs-1.1.1.dist-info/METADATA,sha256=Av0cfcwgNsA17FfZSI5QbVCCcvFro5BtVMV90zH3s9o,2545
+ru_proverbs-1.1.1.dist-info/RECORD,,
