@@ -1,0 +1,12 @@
+.gitignore
+Makefile
+readme.md
+setup.py
+parsegitlog/__init__.py
+parsegitlog/__main__.py
+parsegitlog/gitlog.py
+parsegitlog/test_gitlog.py
+parsegitlog.egg-info/PKG-INFO
+parsegitlog.egg-info/SOURCES.txt
+parsegitlog.egg-info/dependency_links.txt
+parsegitlog.egg-info/top_level.txt
