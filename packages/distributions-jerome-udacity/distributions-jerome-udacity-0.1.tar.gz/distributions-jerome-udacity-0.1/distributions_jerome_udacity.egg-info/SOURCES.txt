@@ -1,0 +1,10 @@
+setup.py
+distributions-jerome-udacity/Binomialdistribution.py
+distributions-jerome-udacity/Gaussiandistribution.py
+distributions-jerome-udacity/Generaldistribution.py
+distributions-jerome-udacity/__init__.py
+distributions_jerome_udacity.egg-info/PKG-INFO
+distributions_jerome_udacity.egg-info/SOURCES.txt
+distributions_jerome_udacity.egg-info/dependency_links.txt
+distributions_jerome_udacity.egg-info/not-zip-safe
+distributions_jerome_udacity.egg-info/top_level.txt
