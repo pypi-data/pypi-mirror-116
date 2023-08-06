@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: tkitSeq2seq
+Version: 0.0.0.2
+Summary: Terry toolkit tkitSeq2seq
+Home-page: http://www.terrychan.org/tkit-seq2seq/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: torch (==1.9.0)
+Requires-Dist: Sphinx (==3.5.4)
+Requires-Dist: tqdm (==4.62.1)
+Requires-Dist: torchmetrics (==0.5.0)
+Requires-Dist: pytorch-lightning (==1.4.2)
+Requires-Dist: Demo (==0.1.0)
+
+# tkitSeq2seq
+
+简单的seq2seq模块
+
+基于gru
+
+
+
+
+
+
+
+# 生成配置文件
+Dump default configuration to have as reference
+
+> python  trainer.py --print_config > default_config.yaml
+
+# Create config including only options to modify
+> nano config.yaml
+
+# 运行训练操作
+Run training using created configuration
+
+
+> python trainer.py--config config.yaml
+
+
+核心训练模块
+
+https://pytorch-lightning.readthedocs.io/en/latest/common/lightning_cli.html
+

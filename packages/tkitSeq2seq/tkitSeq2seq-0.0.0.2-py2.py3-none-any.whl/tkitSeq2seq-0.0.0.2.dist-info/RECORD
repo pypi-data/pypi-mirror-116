@@ -1,0 +1,10 @@
+tkitSeq2seq/__init__.py,sha256=vEm9mN4otd5TTMk7KQRHVAlQFlinxbDexp1VR2-eGRk,145
+tkitSeq2seq/decoder.py,sha256=cf512ZheucRCFn3GQp9vBS36E_8UoqnpMce7Djypkaw,1063
+tkitSeq2seq/encoder.py,sha256=xMItSySFTX0BVLhhh7Xx9SoJCca0ipFyRprRqiDO37k,758
+tkitSeq2seq/model.py,sha256=PnuJYjj7Qyy06p0rIMNgwbgfaix2jPqBbSw2lHHsuD0,6732
+tkitSeq2seq/trainer.py,sha256=df3NfrTlCFm56pWsXNq10cJEAXcyYXTAu0vTJqHHWnc,762
+tkitSeq2seq-0.0.0.2.dist-info/LICENSE,sha256=CfO_jZGRHc5TE9YraZeMwoy6cYUu7-ppHM4Tsf4p-gI,11357
+tkitSeq2seq-0.0.0.2.dist-info/METADATA,sha256=lb9mL79zYIgnxijIsg80Fm6HPTlCuezOouvmSgO2-7g,936
+tkitSeq2seq-0.0.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+tkitSeq2seq-0.0.0.2.dist-info/top_level.txt,sha256=EqyC_D2wg2NUAUzPwWQrWf7ZxcB7ulCXkoI_2JVTm6U,12
+tkitSeq2seq-0.0.0.2.dist-info/RECORD,,
