@@ -1,0 +1,7 @@
+README.txt
+code.py
+setup.py
+sagemakerdevcloudrp.egg-info/PKG-INFO
+sagemakerdevcloudrp.egg-info/SOURCES.txt
+sagemakerdevcloudrp.egg-info/dependency_links.txt
+sagemakerdevcloudrp.egg-info/top_level.txt
