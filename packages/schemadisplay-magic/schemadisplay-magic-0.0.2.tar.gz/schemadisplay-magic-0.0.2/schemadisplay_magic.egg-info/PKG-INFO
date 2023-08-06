@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: schemadisplay-magic
+Version: 0.0.2
+Summary: Python package installation for ipython_magic_sqlalchemy_schemadisplay
+Home-page: https://github.com/innovationOUtside/ipython_magic_sqlalchemy_schemadisplay
+Author: Tony Hirst
+Author-email: tony.hirst@open.ac.uk
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
