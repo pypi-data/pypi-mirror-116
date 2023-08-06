@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: yt-concate-AliceHHH
+Version: 0.1.1
+Summary: Produce a concatenated video of clips that mentioned a word from youtube channel
+Home-page: https://github.com/Hahow-advanced/yt-concate
+Author: Alice Huang
+Author-email: viento.a13@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: moviepy
+Requires-Dist: pytube
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: python-dotenv
+
+
+# yt-concate
+
+
