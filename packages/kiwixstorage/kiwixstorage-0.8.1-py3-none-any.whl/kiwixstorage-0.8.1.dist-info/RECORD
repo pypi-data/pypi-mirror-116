@@ -1,0 +1,10 @@
+kiwixstorage/VERSION,sha256=qvZyHcN8QLQjOsz8CB8ld2_zvR0qS51c6nYNHCz4ZmU,6
+kiwixstorage/__init__.py,sha256=Ybu0De9X_r-Ojkm8tzWur4vm2Vs5qr3vUQMOReZU4-c,30539
+kiwixstorage/test_credentials.py,sha256=HhcuwwzbpUoHT24kUoSNec9yPQXhDFivpXrieuqUAYw,866
+kiwixstorage/__pycache__/__init__.cpython-38.pyc,sha256=aS64XN-wRBDJaBU_gJvivTk0ccB3GlGbuNDcADpFlRc,26001
+kiwixstorage-0.8.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kiwixstorage-0.8.1.dist-info/METADATA,sha256=1YTQAJx5K8-EZEcVe1aKViOOhbItk1LTgocvKYGiNaY,3331
+kiwixstorage-0.8.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kiwixstorage-0.8.1.dist-info/entry_points.txt,sha256=eDDzpliOyzuQRSGFMBbk3ZhRHoEZJEL-8S2_ubYpSMk,72
+kiwixstorage-0.8.1.dist-info/top_level.txt,sha256=gT-FJyGw0d5DPuUnxtipEbAnwyWMqJe0PkgkmMfMQRI,13
+kiwixstorage-0.8.1.dist-info/RECORD,,
