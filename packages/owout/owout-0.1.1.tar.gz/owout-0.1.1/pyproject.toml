@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "owout"
+version = "0.1.1"
+description = "Convert console output into owo."
+authors = ["vcokltfre <vcokltfre@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/vcokltfre/owout"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyowo = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
