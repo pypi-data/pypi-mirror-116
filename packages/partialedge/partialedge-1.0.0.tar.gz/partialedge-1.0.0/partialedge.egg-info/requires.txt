@@ -1,0 +1,4 @@
+networkx>=2
+pygeos
+matplotlib>=3
+scipy>=1

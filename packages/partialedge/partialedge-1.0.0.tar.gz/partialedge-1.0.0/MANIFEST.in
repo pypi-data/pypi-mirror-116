@@ -1,0 +1,3 @@
+graft partialedge/htd
+graft partialedge/resources
+prune test
