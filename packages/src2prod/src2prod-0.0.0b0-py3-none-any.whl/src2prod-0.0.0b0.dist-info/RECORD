@@ -1,0 +1,7 @@
+src2prod/README.md,sha256=EG_QcnH2l2JoQoFs6aNrDQTPtGhQiTeL0RX5gU1Se-4,4064
+src2prod/__init__.py,sha256=hmDLV-wsS7P42cK09EoP__eHw00fD826koDe6a3P0qg,45
+src2prod/lowlevel.py,sha256=e78nJNRcxdb2tVr3mXe0w2gyiDSWiMVKxMqrp3GWh2o,7860
+src2prod/project.py,sha256=yefJhwe8QwIfK9qiMvs2mIPXl2TGCZpgdZwtUaihYxY,11188
+src2prod-0.0.0b0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+src2prod-0.0.0b0.dist-info/METADATA,sha256=mV0UbNc60XlYY6znBt-RJGHohkrHmN_9CIdlTgGqDEY,4672
+src2prod-0.0.0b0.dist-info/RECORD,,
