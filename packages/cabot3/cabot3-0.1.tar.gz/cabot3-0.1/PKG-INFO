@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: cabot3
+Version: 0.1
+Summary: Cabot system migrated to python 3.6
+Home-page: https://github.com/senzil/cabot
+Author: Tomas Grossi
+Author-email: tomas@senzil.com
+License: UNKNOWN
+Download-URL: https://github.com/senzil/cabot/tarball/0.1
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
