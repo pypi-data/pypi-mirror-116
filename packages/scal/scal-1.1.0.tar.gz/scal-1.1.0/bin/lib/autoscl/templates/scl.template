@@ -1,0 +1,14 @@
+From {{start}} to {{end}}
+
+# Configuration
+language = {{language}}
+papersize = {{papersize}}
+
+# Holidays
+{%- for description, start, end in holidays -%}
+{%- if start == end %}
+{{ start }} {{ description }}
+{%- else %}
+{{ start }} {{ end }} {{ description }}
+{%- endif -%}
+{%- endfor -%}

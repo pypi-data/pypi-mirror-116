@@ -1,0 +1,21 @@
+From 2021-09-02 to 2022-07-06
+
+# Configuration
+language = french
+papersize = a4paper
+
+# Holidays
+2021-10-23 2021-11-07 Vacances de la Toussaint
+2021-11-01 Toussaint
+2021-11-11 Armistice
+2021-12-18 2022-01-02 Vacances de Noël
+2021-12-25 Noël
+2022-01-01 Jour de l'an
+2022-02-19 2022-03-06 Vacances d'Hiver
+2022-04-18 Lundi de Pâques
+2022-04-23 2022-05-08 Vacances de Printemps
+2022-05-01 Fête du travail
+2022-05-08 Victoire des alliés
+2022-05-26 2022-05-28 Ascension
+2022-06-06 Lundi de Pentecôte
+2022-07-07 9999-12-30 Vacances d'Été

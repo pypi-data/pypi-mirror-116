@@ -1,0 +1,21 @@
+From 2020-09-01 to 2021-07-07
+
+# Configuration
+language = french
+papersize = a4paper
+
+# Holidays
+2020-10-17 2020-11-01 Vacances de la Toussaint
+2020-11-01 Toussaint
+2020-11-11 Armistice
+2020-12-19 2021-01-03 Vacances de Noël
+2020-12-25 Noël
+2021-01-01 Jour de l'an
+2021-02-13 2021-02-28 Vacances d'Hiver
+2021-04-05 Lundi de Pâques
+2021-04-10 2021-04-25 Vacances de Printemps
+2021-05-01 Fête du travail
+2021-05-08 Victoire des alliés
+2021-05-13 2021-05-16 Pont de l'Ascension
+2021-05-24 Lundi de Pentecôte
+2021-07-07 2021-09-01 Vacances d'Été
