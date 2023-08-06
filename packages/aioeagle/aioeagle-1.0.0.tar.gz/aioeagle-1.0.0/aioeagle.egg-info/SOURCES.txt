@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+aioeagle/__init__.py
+aioeagle/electric_meter.py
+aioeagle/errors.py
+aioeagle/hub.py
+aioeagle/util.py
+aioeagle.egg-info/PKG-INFO
+aioeagle.egg-info/SOURCES.txt
+aioeagle.egg-info/dependency_links.txt
+aioeagle.egg-info/requires.txt
+aioeagle.egg-info/top_level.txt
+aioeagle.egg-info/zip-safe
