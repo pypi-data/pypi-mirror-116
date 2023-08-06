@@ -1,0 +1,12 @@
+mintchoco/__init__.py,sha256=AnjNdMx8cGAsqPS5kQaxaOg09AAZvz9GiYrTJ2i2H5s,367
+mintchoco/client.py,sha256=aGQcK27cJ6afDd3pyo2_2oMQeXZiejHy_2s9y5qoAKs,2548
+mintchoco/model.py,sha256=Lc1cQHSxyF6nEIP3Y9xNwp9ecihWfcAf6W8UKdJ3ZTc,5108
+mintchoco/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=SMXv5u7rTrjsn5xvuDLEoKcl2nsvWwvwns2Iytng-j8,243
+tests/test_mintchoco.py,sha256=UORBNArSjdhAne8jXDuq9pJj4eqBA7dzyMm6Fg6Hksg,708
+mintchoco-5.0.1.dist-info/LICENSE,sha256=nFD5MzPiIuuJwXqlxJAB0_YG_hz6-AGyLinjPJbc-Ik,1065
+mintchoco-5.0.1.dist-info/METADATA,sha256=0fy3jZJOmOe7Td5_acM0FkiT9N7sKu6pkj5_59u5-I4,357
+mintchoco-5.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mintchoco-5.0.1.dist-info/top_level.txt,sha256=-he6wuKUpzQreD0hhKCO9zmH2FpWUj6jYPaumfWAYm8,16
+mintchoco-5.0.1.dist-info/RECORD,,
