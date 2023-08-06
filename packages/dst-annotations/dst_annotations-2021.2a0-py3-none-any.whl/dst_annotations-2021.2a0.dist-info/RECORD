@@ -1,0 +1,11 @@
+dst_annotations/__init__.py,sha256=vXt3bIV_q_b1G6OVEFz9BEBIoFFNoSwTQN37ETXrb_8,517
+dst_annotations/_annotations.py,sha256=XahwtfWuncJ76so2K3oXbx9dfHFLJDj0KfTWff0gqyg,3736
+dst_annotations/_annotations.pyi,sha256=4J74T2o_c5NObUgYhhOtPFX9KnK-sM7WJcNWqiPIZ4U,2398
+dst_annotations/_inspect_annotations.py,sha256=bZllE9N9WmHY7OtSa2VWivrSP63P2sAOgTtpXC5mldQ,2380
+dst_annotations/_jsoncompatible.py,sha256=_dk4aDHQVaZmHNWu3kCH3u-KDFETzAFylTxwaXY1aA0,760
+dst_annotations/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dst_annotations-2021.2a0.dist-info/LICENSE,sha256=FQQjIMfemaSFQcKuo1bbP9XpbEY0Fp9tDXhHWkcYxtk,1064
+dst_annotations-2021.2a0.dist-info/METADATA,sha256=dUgaq1lJdSVrDMjFpwVTQZ1hsrOBBEyZsFhSJ-TEmlU,1694
+dst_annotations-2021.2a0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dst_annotations-2021.2a0.dist-info/top_level.txt,sha256=GC3-LBItsls0IsFjrMB4ZX9pOhSTaiUMyVhgQV3oMP4,16
+dst_annotations-2021.2a0.dist-info/RECORD,,
