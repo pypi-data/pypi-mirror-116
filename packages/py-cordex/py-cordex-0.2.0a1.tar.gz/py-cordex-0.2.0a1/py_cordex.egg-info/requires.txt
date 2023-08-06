@@ -1,0 +1,17 @@
+parse
+numpy
+pandas
+xarray
+netCDF4
+cdo
+urllib3
+xmltodict
+cdo
+tqdm
+sphinx-rtd-theme
+sphinxcontrib-mockautodoc
+numpydoc
+nbsphinx
+nbsphinx-link
+ipython
+pooch
