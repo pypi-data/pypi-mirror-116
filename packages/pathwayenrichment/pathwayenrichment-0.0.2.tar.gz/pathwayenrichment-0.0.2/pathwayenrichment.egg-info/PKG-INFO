@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pathwayenrichment
+Version: 0.0.2
+Summary: Perform permutation-based pathway enrichment analysis
+Home-page: http://github.com/robaina/pathwayEnrichment
+Author: Semidán Robaina Estévez
+Author-email: srobaina@ull.edu.es
+Maintainer: Semidán Robaina Estévez
+Maintainer-email: srobaina@gmail.com
+License: Creative Commons Attribution 4.0 International
+Download-URL: http://github.com/robaina/pathwayEnrichment
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Permutation-based pathway enrichment analysis
+
+Python tools to perform a permutation-based pathway enrichment analysis. Currently supporting KEGG pathways.
+
+

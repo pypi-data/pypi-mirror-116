@@ -1,0 +1,6 @@
+numpy
+staticinteract
+pandas
+matplotlib
+requests
+scikit_learn

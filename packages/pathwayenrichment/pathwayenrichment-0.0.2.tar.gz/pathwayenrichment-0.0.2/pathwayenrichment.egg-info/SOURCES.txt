@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pathwayenrichment/__init__.py
+pathwayenrichment/clusteranalysis.py
+pathwayenrichment/databaseparser.py
+pathwayenrichment/representation.py
+pathwayenrichment/utils.py
+pathwayenrichment/visualization.py
+pathwayenrichment.egg-info/PKG-INFO
+pathwayenrichment.egg-info/SOURCES.txt
+pathwayenrichment.egg-info/dependency_links.txt
+pathwayenrichment.egg-info/requires.txt
+pathwayenrichment.egg-info/top_level.txt
