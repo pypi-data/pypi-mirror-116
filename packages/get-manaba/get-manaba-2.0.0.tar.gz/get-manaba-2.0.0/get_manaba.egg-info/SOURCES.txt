@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+get_manaba.egg-info/PKG-INFO
+get_manaba.egg-info/SOURCES.txt
+get_manaba.egg-info/dependency_links.txt
+get_manaba.egg-info/requires.txt
+get_manaba.egg-info/top_level.txt
+manaba/__init__.py
+manaba/test_manaba.py
