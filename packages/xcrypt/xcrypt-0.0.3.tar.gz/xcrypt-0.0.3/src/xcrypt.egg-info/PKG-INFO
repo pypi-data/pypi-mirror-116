@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xcrypt
+Version: 0.0.3
+Summary: A Python encryption library.
+Home-page: https://github.com/kgsensei/XCrypt
+Author: kgsensei
+Author-email: ceojeremy@rainydais.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kgsensei/XCrypt/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+XCrypt is a lightweight Python library for encrypting data.
+
