@@ -1,0 +1,221 @@
+{
+  "events" : {
+    "frames" : [ {
+      "text" : "SENP1 desumoylates HIF1A",
+      "frame-id" : "evem-api6619-UAZ-r1-Reach-0-97955",
+      "arguments" : [ {
+        "text" : "desumoylates HIF1A",
+        "argument-type" : "event",
+        "type" : "controlled",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "evem-api6619-UAZ-r1-Reach-0-97956"
+      }, {
+        "text" : "SENP1",
+        "argument-type" : "entity",
+        "type" : "controller",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api6619-UAZ-r1-Reach-0-780521"
+      } ],
+      "type" : "regulation",
+      "frame-type" : "event-mention",
+      "subtype" : "positive-regulation",
+      "end-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 24,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 0,
+        "object-type" : "relative-pos"
+      },
+      "found-by" : "Desumoylation_syntax_1a_verb + toRelationMention",
+      "sentence" : "sent-api6619-UAZ-r1-Reach-0",
+      "verbose-text" : "SENP1 desumoylates HIF1A"
+    }, {
+      "frame-id" : "evem-api6619-UAZ-r1-Reach-0-97956",
+      "text" : "desumoylates HIF1A",
+      "arguments" : [ {
+        "text" : "HIF1A",
+        "argument-type" : "entity",
+        "type" : "theme",
+        "object-type" : "argument",
+        "index" : 0,
+        "arg" : "ment-api6619-UAZ-r1-Reach-0-780520"
+      } ],
+      "type" : "protein-modification",
+      "frame-type" : "event-mention",
+      "subtype" : "desumoylation",
+      "is-direct" : true,
+      "end-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 24,
+        "object-type" : "relative-pos"
+      },
+      "trigger" : "desumoylates",
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 6,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api6619-UAZ-r1-Reach-0",
+      "found-by" : "Desumoylation_syntax_1a_verb",
+      "verbose-text" : "SENP1 desumoylates HIF1A"
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2021-08-17T12:05:45Z",
+      "doc-id" : "api6619",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2021-08-17T12:05:45Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  },
+  "entities" : {
+    "frames" : [ {
+      "text" : "SENP1",
+      "frame-id" : "ment-api6619-UAZ-r1-Reach-0-780521",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 5,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9P0U3"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 0,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api6619-UAZ-r1-Reach-0",
+      "alt-xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "homo sapiens",
+        "object-type" : "db-reference",
+        "id" : "Q9P0U3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q9P0U3"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mouse",
+        "object-type" : "db-reference",
+        "id" : "P59110"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "mus musculus",
+        "object-type" : "db-reference",
+        "id" : "P59110"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pongo abelii",
+        "object-type" : "db-reference",
+        "id" : "Q5RBB1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "pongo pygmaeus abelii",
+        "object-type" : "db-reference",
+        "id" : "Q5RBB1"
+      }, {
+        "namespace" : "uniprot",
+        "species" : "sumatran orangutan",
+        "object-type" : "db-reference",
+        "id" : "Q5RBB1"
+      } ]
+    }, {
+      "text" : "HIF1A",
+      "frame-id" : "ment-api6619-UAZ-r1-Reach-0-780520",
+      "type" : "protein",
+      "frame-type" : "entity-mention",
+      "end-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 24,
+        "object-type" : "relative-pos"
+      },
+      "xrefs" : [ {
+        "namespace" : "uniprot",
+        "species" : "human",
+        "object-type" : "db-reference",
+        "id" : "Q16665"
+      } ],
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 19,
+        "object-type" : "relative-pos"
+      },
+      "sentence" : "sent-api6619-UAZ-r1-Reach-0"
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2021-08-17T12:05:45Z",
+      "doc-id" : "api6619",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2021-08-17T12:05:45Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  },
+  "sentences" : {
+    "frames" : [ {
+      "text" : "SENP1 desumoylates HIF1A",
+      "frame-id" : "pass-api6619-UAZ-r1-Reach",
+      "section-id" : "NoSection",
+      "frame-type" : "passage",
+      "is-title" : false,
+      "section-name" : "NoSection",
+      "object-type" : "frame",
+      "index" : "Reach",
+      "object-meta" : {
+        "component" : "nxml2fries",
+        "object-type" : "meta-info"
+      }
+    }, {
+      "text" : "SENP1 desumoylates HIF1A",
+      "frame-id" : "sent-api6619-UAZ-r1-Reach-0",
+      "passage" : "pass-api6619-UAZ-r1-Reach",
+      "frame-type" : "sentence",
+      "end-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 24,
+        "object-type" : "relative-pos"
+      },
+      "object-type" : "frame",
+      "start-pos" : {
+        "reference" : "pass-api6619-UAZ-r1-Reach",
+        "offset" : 0,
+        "object-type" : "relative-pos"
+      },
+      "object-meta" : {
+        "component" : "BioNLPProcessor",
+        "object-type" : "meta-info"
+      }
+    } ],
+    "object-type" : "frame-collection",
+    "object-meta" : {
+      "processing-end" : "2021-08-17T12:05:45Z",
+      "doc-id" : "api6619",
+      "component-type" : "machine",
+      "component" : "Reach",
+      "processing-start" : "2021-08-17T12:05:45Z",
+      "object-type" : "meta-info",
+      "organization" : "UAZ"
+    }
+  }
+}
