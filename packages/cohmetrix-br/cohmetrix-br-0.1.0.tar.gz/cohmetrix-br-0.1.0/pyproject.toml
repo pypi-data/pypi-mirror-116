@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "cohmetrix-br"
+version = "0.1.0"
+description = "A Brazilian-Portuguese version of cohmetrix"
+authors = ["Rafael Melo <rafaelflmello@gmail.com>","Rodrigues Neto <rodriguesnt01@gmail.com>", "Hyan Batista <hyanbatista42@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gensim = "^4.0.1"
+spacy = "^3.0.6"
+nltk = "^3.6.2"
+numpy = "^1.20.3"
+textblob = "^0.15.3"
+pandas = "^1.2.4"
+sklearn = "^0.0"
+scikit-learn = "^0.24.2"
+Pyphen = "^0.10.0"
+Unidecode = "^1.2.0"
+lexical-diversity = "^0.1.1"
+fastapi = "^0.65.2"
+orjson = "^3.5.3"
+uvicorn = "^0.14.0"
+billiard = "^3.6.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
