@@ -1,0 +1,9 @@
+tawnyapi/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+tawnyapi/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tawnyapi/vision/apitypes.py,sha256=x339pSzlBz_zBKofipQYqenEM8Aodb_b8bH6opjkPr8,389
+tawnyapi/vision/cli.py,sha256=-e-7-UYuSGhICJ4P8TYcV0C_XlbzZBC-5FYDb3HmUqo,1000
+tawnyapi/vision/client.py,sha256=HY0EqLRUiRALnrdoWZE9eGf1pQVrtk9Xw40jtDZfL4s,2598
+tawnyapi/vision/util.py,sha256=AN2waOaCv5L9sT6OOAu8QucTkrjGrPs9ToNYhlZeyHs,541
+tawnyapi-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tawnyapi-0.1.1.dist-info/METADATA,sha256=xg1p_vM2PP4oRyU427Pa7GqMVudOD6ShVNx8tDh66QQ,410
+tawnyapi-0.1.1.dist-info/RECORD,,
