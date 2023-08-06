@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: agentocr
+Version: 1.0.0
+Summary: An easy-to-use OCR package with multilingual support.
+Home-page: https://github.com/AgentMaker/AgentOCR
+Author: jm12138
+Author-email: UNKNOWN
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: shapely
+Requires-Dist: pyclipper
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: wget
+
+UNKNOWN
+
+
