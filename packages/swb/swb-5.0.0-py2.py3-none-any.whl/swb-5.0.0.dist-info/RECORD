@@ -1,0 +1,9 @@
+swb/__init__.py,sha256=S6SLLfQpcmxWZPZE87AdqdbJyPz-W5r9PuI_UwlcfqU,144
+swb/crop_evapotranspiration.py,sha256=JguMfQZOsHZD1FE_WXz18iBDabV1CabkBavVNgMy9xA,1839
+swb/effective_precipitation.py,sha256=BITO0v2TBczfeE08la9VydV08l_jF5xIBs2xEvIxhnU,228
+swb/swb.py,sha256=gOxYL0GcxRO1IQnfyMjtXPhxBD099gL02UBB0PgsTJY,5302
+swb-5.0.0.dist-info/LICENSE,sha256=45t5fCN4nZe0LMImjaxetaBAjHFAhTh2-9jyoJ0A0Zk,712
+swb-5.0.0.dist-info/METADATA,sha256=DZq0ZbPg5WsGlJCI0HhVP0as6aBYdwdj85VKzv77fuw,3300
+swb-5.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+swb-5.0.0.dist-info/top_level.txt,sha256=CJWRnKQSJpkitg-e_VMRpe-ZOaB9EqDwHl1bHSt8vd4,4
+swb-5.0.0.dist-info/RECORD,,
