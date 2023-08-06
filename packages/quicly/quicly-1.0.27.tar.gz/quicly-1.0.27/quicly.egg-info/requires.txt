@@ -1,0 +1,6 @@
+requests
+pymongo
+redis
+pyyaml
+bson
+pydes
