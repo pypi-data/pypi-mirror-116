@@ -1,0 +1,3 @@
+[console_scripts]
+pyunity-editor = editor.cli:run
+
