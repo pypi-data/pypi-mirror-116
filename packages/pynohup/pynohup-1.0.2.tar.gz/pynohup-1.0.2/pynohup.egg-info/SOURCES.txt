@@ -1,0 +1,8 @@
+setup.py
+pynohup/__init__.py
+pynohup/nhy_nohup.py
+pynohup.egg-info/PKG-INFO
+pynohup.egg-info/SOURCES.txt
+pynohup.egg-info/dependency_links.txt
+pynohup.egg-info/top_level.txt
+pynohup.egg-info/zip-safe
