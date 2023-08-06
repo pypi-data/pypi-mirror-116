@@ -1,0 +1,7 @@
+matplotlib
+wplotlib
+scipy
+sklearn
+numpy
+pandas
+torch
