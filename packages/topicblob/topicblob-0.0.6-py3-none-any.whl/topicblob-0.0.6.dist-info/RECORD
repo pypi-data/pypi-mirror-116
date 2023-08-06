@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=WGdzAVtQZ3F3s-WPnjOYDZBZK85lIj5u2WmBfPGKiBw,1046
+tests/test_gensim_topic_modelling.py,sha256=PdAogi2Kokje2Zo9FepAmQzrjrMaDD_QfNBsDffey9g,312
+topicblob/__init__.py,sha256=YAgIjSVM9FOtxg5QUXFGhHK4BbEyRrYNFcjPSYSXD6k,57
+topicblob/gensim_topic_modeling.py,sha256=2CPiAv9ZVM7xj4G3ND-T4RmsQfa8_gsH0fhOCF321bs,7747
+topicblob/topic.py,sha256=uuOK0V6XDEj8kYgy-fQPcl7UN9bj4q_tHI9Xx21BlJ0,1306
+topicblob-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+topicblob-0.0.6.dist-info/METADATA,sha256=EKPwvoeEsHjsE4FGxKgNw_KZ8HeTuBTDn57ekuFH1iE,1889
+topicblob-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+topicblob-0.0.6.dist-info/top_level.txt,sha256=PtsM2JOnz-6mCGYBMgqRnPgcoYAJumuFns2FLEBkbd8,16
+topicblob-0.0.6.dist-info/RECORD,,
