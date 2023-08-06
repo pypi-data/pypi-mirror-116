@@ -1,0 +1,10 @@
+setup.py
+k3utfjson/__init__.py
+k3utfjson/setup.py
+k3utfjson/synopsis.py
+k3utfjson/utfjson.py
+k3utfjson.egg-info/PKG-INFO
+k3utfjson.egg-info/SOURCES.txt
+k3utfjson.egg-info/dependency_links.txt
+k3utfjson.egg-info/requires.txt
+k3utfjson.egg-info/top_level.txt
