@@ -1,0 +1,3 @@
+[console_scripts]
+protoex = protoex:extract_cli
+
