@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: charon-jb
+Version: 0.0.1
+Summary: A specific utilities package
+Home-page: https://github.com/JBocage/charon
+Author: Julien Bocage
+Author-email: julien.bocage@polytechnique.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JBocage/charon/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# charon
+Personnal advanced tools
+
+

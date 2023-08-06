@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/charon/__init__.py
+src/charon/test_file.py
+src/charon_jb.egg-info/PKG-INFO
+src/charon_jb.egg-info/SOURCES.txt
+src/charon_jb.egg-info/dependency_links.txt
+src/charon_jb.egg-info/top_level.txt
