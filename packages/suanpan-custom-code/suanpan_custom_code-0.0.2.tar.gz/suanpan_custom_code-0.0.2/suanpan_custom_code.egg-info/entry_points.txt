@@ -1,0 +1,3 @@
+[console_scripts]
+run_code = suanpan_custom_code.custom_python_code:main
+
