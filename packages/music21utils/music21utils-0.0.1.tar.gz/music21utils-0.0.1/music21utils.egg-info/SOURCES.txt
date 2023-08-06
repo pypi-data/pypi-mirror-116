@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+music21utils/__init__.py
+music21utils/_nbdev.py
+music21utils/core.py
+music21utils.egg-info/PKG-INFO
+music21utils.egg-info/SOURCES.txt
+music21utils.egg-info/dependency_links.txt
+music21utils.egg-info/entry_points.txt
+music21utils.egg-info/not-zip-safe
+music21utils.egg-info/requires.txt
+music21utils.egg-info/top_level.txt
