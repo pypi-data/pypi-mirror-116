@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+DFRobot/DFR_ADS1115.py
+DFRobot/DFR_EC.py
+DFRobot/DFR_PH.py
+DFRobot/__init__.py
+DFRobot_EC_PH_ADC.egg-info/PKG-INFO
+DFRobot_EC_PH_ADC.egg-info/SOURCES.txt
+DFRobot_EC_PH_ADC.egg-info/dependency_links.txt
+DFRobot_EC_PH_ADC.egg-info/requires.txt
+DFRobot_EC_PH_ADC.egg-info/top_level.txt
