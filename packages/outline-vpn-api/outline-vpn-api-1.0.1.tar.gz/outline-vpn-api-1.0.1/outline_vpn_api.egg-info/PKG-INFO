@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: outline-vpn-api
+Version: 1.0.1
+Summary: Python API wrapper for Outline VPN
+Home-page: https://github.com/jadolg/outline-vpn-api/
+Author: Jorge Alberto Díaz Orozco (Akiel)
+Author-email: diazorozcoj@gmail.com
+License: MIT
+Description: # outline-vpn-api
+        
+        A Python API wrapper for [Outline VPN](https://getoutline.org/)
+        
+        [![Pylint](https://github.com/jadolg/outline-vpn-api/actions/workflows/pylint.yml/badge.svg)](https://github.com/jadolg/outline-vpn-api/actions/workflows/pylint.yml) 
+        [![Test](https://github.com/jadolg/outline-vpn-api/actions/workflows/test.yml/badge.svg)](https://github.com/jadolg/outline-vpn-api/actions/workflows/test.yml)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
