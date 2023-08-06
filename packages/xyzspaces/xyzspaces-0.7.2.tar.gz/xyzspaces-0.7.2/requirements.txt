@@ -1,0 +1,7 @@
+# Core dependencies
+backoff>=1.10.0
+geojson
+requests
+ijson>=3.1.1
+pyhocon
+requests-oauthlib
