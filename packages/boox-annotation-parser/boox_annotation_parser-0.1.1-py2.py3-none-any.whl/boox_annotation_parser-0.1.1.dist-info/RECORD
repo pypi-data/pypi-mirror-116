@@ -1,0 +1,12 @@
+boox_annotation_parser/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+boox_annotation_parser/__main__.py,sha256=pcYRuSy5_GmLFV3s0n1aLjTHMqjqoG2XtY2Ke8VSv8k,413
+boox_annotation_parser/cli.py,sha256=kaIIYYoMTwdNpV9NzgbZS49dR_JRRydP0fZJcEEyJAw,1715
+boox_annotation_parser/parser.py,sha256=LfDTe0ldTa7dyK555cpCnlgoz_NiBDo95ywZZYKwwAk,4339
+boox_annotation_parser/serializers.py,sha256=kpMUcyRFQK6MnX0VnkrAc1O0VQlm4JpSyLxIUjgcMR8,1611
+boox_annotation_parser-0.1.1.dist-info/AUTHORS.rst,sha256=DtwScT5KpezDtkZEBc79yMSZ02rhk-uF29clrMjJjO0,66
+boox_annotation_parser-0.1.1.dist-info/LICENSE,sha256=DEUtBgRKAbBCECJDJRb87nOJh22tzKBG1RIw1H-KoTg,1103
+boox_annotation_parser-0.1.1.dist-info/METADATA,sha256=J1B4LRMhiMxwGp634Ae6l6peL1ojMKE51oMkAjT7yBg,2896
+boox_annotation_parser-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+boox_annotation_parser-0.1.1.dist-info/entry_points.txt,sha256=Y9Pe7JrpD9lsyuCewzsKdTSUKFbE1IHpmfy35-4B2dA,76
+boox_annotation_parser-0.1.1.dist-info/top_level.txt,sha256=4wo-DJ1U1i06UwVvbUuXbb5ItMNSg5elurjjB1GAJi4,23
+boox_annotation_parser-0.1.1.dist-info/RECORD,,
