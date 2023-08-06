@@ -1,0 +1,7 @@
+README.md
+setup.py
+ntpclient.egg-info/PKG-INFO
+ntpclient.egg-info/SOURCES.txt
+ntpclient.egg-info/dependency_links.txt
+ntpclient.egg-info/top_level.txt
+test/test.py
