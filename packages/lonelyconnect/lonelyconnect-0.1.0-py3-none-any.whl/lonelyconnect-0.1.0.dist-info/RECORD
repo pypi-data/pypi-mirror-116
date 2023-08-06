@@ -1,0 +1,9 @@
+lonelyconnect/__init__.py,sha256=sPfS1fZQvipO6vWCj6yL4JTICJZQqsi7Cwgqqif9kWg,4311
+lonelyconnect/auth.py,sha256=71ioX2IEm6Ep8JgHMvHTGtK5DKARfsmePMaWP-RSKFk,1213
+lonelyconnect/game.py,sha256=alx9RdvSWHXnOVp0PhJmb1ONn2ozB2cTaL5TE1siCMw,12953
+lonelyconnect/models.py,sha256=hFmMzihxiDJSgPBs8iPmENYVEpwhyyKjDOy3P6_Lt2s,772
+lonelyconnect/route_ui.py,sha256=24NX_9MsidM-qYjnEK-Cj9E86RVZ3WMLLpaamzQLnKA,3196
+lonelyconnect-0.1.0.dist-info/entry_points.txt,sha256=H-_KXQYIek3TGq8GDJ4mK8ng2m1jvz2UvXRdJYEdfO0,58
+lonelyconnect-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+lonelyconnect-0.1.0.dist-info/METADATA,sha256=BMFpU-o2ImLzkHYhc1abcMpxvlHh6AvvXctGPrhP9_I,2723
+lonelyconnect-0.1.0.dist-info/RECORD,,
