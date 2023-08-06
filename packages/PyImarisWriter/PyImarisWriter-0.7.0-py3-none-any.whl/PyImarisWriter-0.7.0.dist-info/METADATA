@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: PyImarisWriter
+Version: 0.7.0
+Summary: Python wrapper for ImarisWriter library
+Home-page: https://github.com/imaris/ImarisWriter
+Author: Imaris
+Author-email: sacha@bitplane.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+PyImarisWriter is a python wrapper for the ImarisWriter library.
+
+With this, it is possible to write ims files from python.
+
+To get started, install the PyImarisWriter package and then run the example file from https://github.com/imaris/ImarisWriterTest/blob/master/testPy/PyImarisWriterExample.py
+
+It is also possible to directly pass numpy arrays to PyImarisWriter. For certain numpy array types, the data can be written to ims files without any conversion.
+
+The source of the python wrapper is available at https://github.com/imaris/ImarisWriter/tree/master/python/PyImarisWriter
+
+Python sample code is available at https://github.com/imaris/ImarisWriterTest/tree/master/testPy
+
+
+
+This package is distributed with windows compiled ImarisWriter dlls. The dlls depend on Visual C++ Redistributable for Visual Studio 2015 which can be downloaded from https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
+This package has only been tested with Windows.
+

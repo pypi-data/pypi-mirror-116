@@ -1,0 +1,11 @@
+PyImarisWriter/ImarisWriterCtypes.py,sha256=_h4-p6jFswLaX3Or0pQ89Ka8Wsj5fcbjQSeiQEJTNSA,7589
+PyImarisWriter/PyImarisWriter.py,sha256=oPOdOM4LGaoaxuV0U3U72Az6gpJJx57uWrZR0rpznzo,27205
+PyImarisWriter/__init__.py,sha256=NQutJ7REc48qHW63d4hExL5PUzKQ4DTPFQ4xeF_BxmU,28
+PyImarisWriter/bpImarisWriter96.dll,sha256=5tSRKWxUpmoeM5z3U0i7KcIu0-ZdNrWp-EOi2P3veU0,577536
+PyImarisWriter/hdf5.dll,sha256=_XY23Gt_GhXB3SMCm2EGhackC-4JW7yQEC-unpKyAKA,3066880
+PyImarisWriter/zlib.dll,sha256=4YvVZ5SdE-Rhl1-pVXQ0MIp6gq7pXDNYFgxYhOZnvB8,82432
+PyImarisWriter-0.7.0.dist-info/LICENSE.txt,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+PyImarisWriter-0.7.0.dist-info/METADATA,sha256=Y2iKX2kb6BmkcRL5zWXxlt09oUv8k9CwefGtZX-4mvk,1478
+PyImarisWriter-0.7.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PyImarisWriter-0.7.0.dist-info/top_level.txt,sha256=KHUcPjMWWEq82d6HLwawLL8MTIRVYT9bsKaH8x6hewg,15
+PyImarisWriter-0.7.0.dist-info/RECORD,,
