@@ -1,0 +1,16 @@
+README.md
+setup.py
+mashpit/__init__.py
+mashpit/config.py
+mashpit/create.py
+mashpit/mashpit.py
+mashpit/metadata.py
+mashpit/query.py
+mashpit/sketch.py
+mashpit/split.py
+mashpit.egg-info/PKG-INFO
+mashpit.egg-info/SOURCES.txt
+mashpit.egg-info/dependency_links.txt
+mashpit.egg-info/entry_points.txt
+mashpit.egg-info/requires.txt
+mashpit.egg-info/top_level.txt
