@@ -1,0 +1,9 @@
+tzar/__init__.py,sha256=-N7h-punQLzFiikzBEAx_I1me_camfInnjJm7UUs164,75
+tzar/cli.py,sha256=bqzGIX_G4g9L4DprNauqirdPxFL-3i3MIg5QdBtLYeA,1570
+tzar/config.py,sha256=m7BQjmCbWonKKyaKvSB0PEeRp9GCwYdzeeZZcKovbRQ,1224
+tzar/templates.py,sha256=ModrRwcTxcvWtOb9g_UkeBJLzOmLZOeMkCc5KY97HsY,3964
+tzar-0.1.2.dist-info/entry_points.txt,sha256=l89CspzSFAdZGyvjAFnYYJF46c318B47P4FhpRjJssI,37
+tzar-0.1.2.dist-info/LICENSE,sha256=KHydzbHn7mZFRX7Hl31kIEy4XD-Ic3z6w87PXtvnFXo,1065
+tzar-0.1.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+tzar-0.1.2.dist-info/METADATA,sha256=MVTLQuCsVK29NwkxTglU3pTWnDDqRWp9nHObBwHnkjI,3084
+tzar-0.1.2.dist-info/RECORD,,
