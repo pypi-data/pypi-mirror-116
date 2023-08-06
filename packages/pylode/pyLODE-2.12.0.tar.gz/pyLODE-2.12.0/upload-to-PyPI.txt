@@ -1,0 +1,19 @@
+# 1. Update README, esp Releases Roadmap - 3 places: "Current Release", table & release notes
+
+# 2. Update version in pylode/__init__.py
+
+# 3. $ git commit changes
+
+# 4. $ git tag <VERSION_NO>
+
+# 5. $ git push
+#    $ git push --tags
+
+# 6. For a major release, create a GitHub "release"
+
+# 7. remove build dirs: rm -r build dist pyLODE.egg-info
+
+# 8. $ python setup.py sdist bdist_wheel
+
+# 9. $ twine check dist/*  -- check ReStructuredText
+#    $ twine upload dist/*  -- push up
