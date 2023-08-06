@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: esdao
+Version: 0.1.0
+Summary: Thin abstraction layer that simplifies using Elasticsearch as a document database
+Home-page: https://github.com/hackydojo/esdao
+Author: Pedro Guzmán
+Author-email: info@subvertic.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
