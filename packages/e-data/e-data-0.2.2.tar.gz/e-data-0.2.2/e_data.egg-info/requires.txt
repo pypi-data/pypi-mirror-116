@@ -1,0 +1,5 @@
+bs4
+pandas
+pyjwt
+python-dateutil
+requests
