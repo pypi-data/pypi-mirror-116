@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/easySecurity/__init__.py
+src/easySecurity.egg-info/PKG-INFO
+src/easySecurity.egg-info/SOURCES.txt
+src/easySecurity.egg-info/dependency_links.txt
+src/easySecurity.egg-info/top_level.txt
