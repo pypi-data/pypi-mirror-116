@@ -1,0 +1,14 @@
+README.md
+setup.py
+autotoloka.egg-info/PKG-INFO
+autotoloka.egg-info/SOURCES.txt
+autotoloka.egg-info/dependency_links.txt
+autotoloka.egg-info/requires.txt
+autotoloka.egg-info/top_level.txt
+autotoloka_test/__init__.py
+autotoloka_test/create_pool.py
+autotoloka_test/create_task.py
+autotoloka_test/handler.py
+autotoloka_test/pipeline.py
+autotoloka_test/test.py
+autotoloka_test/utils.py
