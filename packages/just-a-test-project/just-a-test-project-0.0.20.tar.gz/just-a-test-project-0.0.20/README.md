@@ -1,0 +1,85 @@
+# Just a test project
+![PyPI](https://img.shields.io/pypi/v/just-a-test-project?style=flat-square)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/just-a-test-project?style=flat-square)
+![PyPI - License](https://img.shields.io/pypi/l/just-a-test-project?style=flat-square)
+---
+
+**Documentation**: [https://creditornot.github.io/just-a-test-project](https://creditornot.github.io/just-a-test-project)
+
+
+**PyPI**: [https://pypi.org/project/just-a-test-project/](https://pypi.org/project/just-a-test-project/)
+
+---
+
+A project for testing wolt-python-package-cookiecutter
+
+## Installation
+
+```sh
+pip install just-a-test-project
+```
+
+## Development
+* Clone this repository
+* Create a virtual environment and install the dependencies
+
+```sh
+poetry install
+```
+
+* Activate the virtual environment
+
+```sh
+poetry shell
+```
+
+### Testing
+
+```sh
+pytest
+```
+
+### Documentation
+The documentation is automatically generated from the content of the [docs directory](./docs) and from the docstrings
+ of the public signatures of the source code. The documentation is updated and published as a [Github project page
+ ](https://pages.github.com/) automatically as part each release.
+
+### Releasing
+The project uses [semantic versioning](https://semver.org/). Use `v` in front of the major version number.
+
+When you want to make a release, create and push a tag:
+
+```sh
+git tag v1.2.3
+git push origin v1.2.3
+```
+
+This triggers [draft_release](.github/workflows/draft_release.yml) workflow which updates the changelog
+ and creates a draft release in GitHub. Find the draft release from the [GitHub releases](https://github.com
+ /creditornot/just-a-test-project/releases) and publish it.
+
+When a release is published, it'll trigger [release](.github/workflows/release.yml) workflow which creates PyPI
+ release and deploys updated documentation.
+
+
+### Pre-commit
+
+Pre-commit hooks run all the auto-formatters (e.g. `black`, `isort`), linters (e.g. `mypy`, `flake8`), and other quality
+ checks to make sure the changeset is in good shape before a commit/push happens.
+
+You can install the hooks with (runs for each commit):
+
+```sh
+pre-commit install
+```
+
+Or if you want them to run only for each push:
+
+```sh
+pre-commit install -t pre-push
+```
+
+Or if you want e.g. want to run all checks manually for all files:
+```sh
+pre-commit run --all-files
+```
