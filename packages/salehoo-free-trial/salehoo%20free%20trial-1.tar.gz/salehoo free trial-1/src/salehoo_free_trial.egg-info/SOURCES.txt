@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/salehoo_free_trial.egg-info/PKG-INFO
+src/salehoo_free_trial.egg-info/SOURCES.txt
+src/salehoo_free_trial.egg-info/dependency_links.txt
+src/salehoo_free_trial.egg-info/top_level.txt
