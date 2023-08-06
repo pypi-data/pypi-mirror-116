@@ -1,0 +1,9 @@
+ponrawee-ssg/__init__.py,sha256=lqcWCpPbpW5J8okjzP4CM1bcfb8X2bE-6JGIL0p4rso,639
+ponrawee-ssg/featurizer.py,sha256=1R-KtB70Ji5f3AGbP9I2IV-ys-TooETAZOzL8KznnIw,3972
+ponrawee-ssg/artifacts/crf3_mix.crfsuite2,sha256=pCZTU7nUlJcwLlNxeLHLT6g2J8-w_EEpAV-7UmfQD1U,1181904
+ponrawee_ssg-0.0.8.data/scripts/ssg-cli,sha256=nraP9zGYWHxBUPIuJZWxLV77ugfRKYD6Tp8ODVW0QnM,547
+ponrawee_ssg-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ponrawee_ssg-0.0.8.dist-info/METADATA,sha256=1T5aDwsadwCd03v27dSMfqaFBvuTwbIMbaTrtv4EjkA,771
+ponrawee_ssg-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ponrawee_ssg-0.0.8.dist-info/top_level.txt,sha256=QtT1GRaGIVoD4hKpXdPirVuELKzF8p18gF7oeiRxtE0,13
+ponrawee_ssg-0.0.8.dist-info/RECORD,,
