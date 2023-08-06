@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: proto-formatter
+Version: 0.0.1
+Summary: Protocol Buffers file formatter.
+Home-page: https://github.com/YiXiaoCuoHuaiFenZi/proto-formatter
+Author: YiXiaoCuoHuaiFenZi(一小撮坏分子)
+Author-email: 249664317@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/YiXiaoCuoHuaiFenZi/proto-formatter/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anytree (==2.8.0)
+Provides-Extra: dev
+Requires-Dist: build (==0.5.1) ; extra == 'dev'
+Requires-Dist: twine (<4,>=3.4.2) ; extra == 'dev'
+Requires-Dist: pip-tools (<6,>=5) ; extra == 'dev'
+Requires-Dist: pytest (<6.3,>=6.2.4) ; extra == 'dev'
+
+# proto-formatter
+Protocol Buffers file formatter
+
+
