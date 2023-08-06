@@ -1,0 +1,11 @@
+pip_check_updates/__init__.py,sha256=rkKYsQk_IWtOmIjNg2B7Iv11tDZy9K87bBLi5E05EPg,1773
+pip_check_updates/__main__.py,sha256=h-iWkYiH4rl9zaQ9x-xD8xT4OUamfomRFSQw6NWEklE,4059
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_compare_versions.py,sha256=fxG9zB9GlQU0WFcPBMYXLwFVMfLz5sI2gQvhJMKxHME,1187
+tests/test_get_current_version.py,sha256=uHfXJNvm_BxnfJKbJ6mQp8zj3PR7sGyTRAUG3yLBJ04,532
+pip_check_updates-0.1.1.dist-info/METADATA,sha256=rd5cbqaGQkgNBP_cZbiXSuP93RRCyj1miqNr7J9v_8Q,3964
+pip_check_updates-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pip_check_updates-0.1.1.dist-info/entry_points.txt,sha256=e6VcDjPddGanC1_2d1smK7anGukVI1Pe2CO_ZAdjzgs,56
+pip_check_updates-0.1.1.dist-info/top_level.txt,sha256=Td4FRxoGYY0JGwHnlAJaKenGCAqDnxaG7nJmNUzUR-I,24
+pip_check_updates-0.1.1.dist-info/RECORD,,
