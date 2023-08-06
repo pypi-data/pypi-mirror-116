@@ -1,0 +1,10 @@
+architect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+architect/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+architect/core/logging.py,sha256=1iFMq2VYERMQlqCkMXK6_ddpzaN3G_Y5cwFNpyhHOsE,1331
+architect/core/schemas.py,sha256=31BWXub1FR3u-mnJ24OIhQVF4GiVgXapbRwogEyakUg,144
+architect/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+architect/providers/base.py,sha256=IT55SEkMM7ipHwMyhcsVAtX81Jf_pEwaWGmGqpTKCxo,1438
+boundary_io-0.0.1.dist-info/METADATA,sha256=8-wTC7ef-FKj7ErNIKuqYOAwIzOxbcpZ96gnwXR3JH0,543
+boundary_io-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+boundary_io-0.0.1.dist-info/top_level.txt,sha256=0l7e_7AOhIJWkIOm1sYA4Pxqsc29PL05rjxxsL-ACuM,10
+boundary_io-0.0.1.dist-info/RECORD,,
