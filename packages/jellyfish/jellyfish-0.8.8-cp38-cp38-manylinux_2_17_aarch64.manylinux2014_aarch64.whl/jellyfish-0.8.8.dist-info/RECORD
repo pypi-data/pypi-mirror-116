@@ -1,0 +1,12 @@
+jellyfish-0.8.8.dist-info/top_level.txt,sha256=2RbXqwqT7g7qfzNE8mlYFVmdDOI9Sdk7IQVB96VoNRk,10
+jellyfish-0.8.8.dist-info/WHEEL,sha256=Jnax5-OMZL0yh9oQzUB3-ZCPzYxEtVVHy-7Nb7UkUfc,150
+jellyfish-0.8.8.dist-info/LICENSE,sha256=eA9JFaoFZAl7sO7ns3Cue-pclvVgqzLqu-MDQJ7_yhE,1352
+jellyfish-0.8.8.dist-info/METADATA,sha256=6Rzhh_-Dy3re9FeqKcw-eJ-Oo5Jkdb_B-tp32wk1HMA,2798
+jellyfish-0.8.8.dist-info/RECORD,,
+jellyfish/test.py,sha256=z_f_7tPJ7xkGZGOxi70KcBXhE-w0OtEdZ6nv6ZxooEI,7156
+jellyfish/__init__.pyi,sha256=YweqLf-d_l06WvbuWmvwNaq-suOHTziRpDfnJ41ICH4,544
+jellyfish/porter.py,sha256=HbTLaLbQNVrs_bs6fN9vzIPYs0iUnO0lxR68WkdQS3M,6977
+jellyfish/__init__.py,sha256=EfjrLVxIBZ-QdyfkDrZgHXPaK3IT2OyWrfcyh7qdbvI,757
+jellyfish/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jellyfish/cjellyfish.cpython-38-aarch64-linux-gnu.so,sha256=3FxxomusDalykuglgvDj5nkpc4gssgyNuhAdw35OUoc,228792
+jellyfish/_jellyfish.py,sha256=zog8w8h6KFfCT8-HPxEGM3kqjV9Jt8GCmJtlsD6lq5c,13012
