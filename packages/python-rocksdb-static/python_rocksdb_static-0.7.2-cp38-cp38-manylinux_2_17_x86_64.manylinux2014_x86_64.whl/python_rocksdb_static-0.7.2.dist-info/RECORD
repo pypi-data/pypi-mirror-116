@@ -1,0 +1,14 @@
+python_rocksdb_static-0.7.2.dist-info/top_level.txt,sha256=S0T0Th1scBZxmd0YyQT8GNGWkCsprcQkVEoOjuDdY28,8
+python_rocksdb_static-0.7.2.dist-info/WHEEL,sha256=paN2rHE-sLfyg0Z4YvQnentMRWXxZnkclRDH8E5J6qk,148
+python_rocksdb_static-0.7.2.dist-info/METADATA,sha256=nOdvNDHHfD9dfUiiCK7t0rGd6eiPPaO_OEmD9g0IS_Y,820
+python_rocksdb_static-0.7.2.dist-info/RECORD,,
+python_rocksdb_static-0.7.2.dist-info/LICENSE.md,sha256=OIqCfXtVd9oe_FOAz_ilg6SdORlGaZFnf2Dx7JdsUDM,1485
+rocksdb/interfaces.py,sha256=CHMvurcftFP_K8-SXTNv3yACshp-oDRacBXEP0gYUrM,1262
+rocksdb/__init__.py,sha256=uep4ozgvpZUlah_FW7LtF2vwInmxRhLXfI1nmOv3K8w,24
+rocksdb/_rocksdb.cpython-38-x86_64-linux-gnu.so,sha256=2k07JG8ajRxcF1CiZE8abNfIJ3XNXnMtMmmekVXhG9c,219518016
+rocksdb/merge_operators.py,sha256=QmrPV8inSmuS7ZAKYKyupA4w6gC79fNJ3SwXJdhYew4,723
+rocksdb/errors.py,sha256=RsKOIViLLgQeIeH_tvRKMhBbovcB_LJMaftDWTDthvg,284
+rocksdb/tests/test_db.py,sha256=nwnpvS9gub4fsgA13NvnQ05E3_wuVCKCiiW03wK3X24,21601
+rocksdb/tests/test_options.py,sha256=qI6hz9s9BiyqptW9c0t97L56HtNONaxcg-TAZwU9KFg,6890
+rocksdb/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocksdb/tests/test_memtable.py,sha256=1IHCj2kjQvPpfOZM6MpxY5k1tJA2o40jhR_nyqXpDw0,762
