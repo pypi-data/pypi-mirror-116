@@ -1,0 +1,11 @@
+slumba/__init__.py,sha256=TDJ1tIUGsh3Q7o8567s5rZvkNWRzy0xBe6mkEfoUs2Q,3970
+slumba/aggregate.py,sha256=nQ6rROsn4qaaM9Av8diQ_tdSMyUTQWVW0zRnwar4wgY,3833
+slumba/numbaext.py,sha256=wzXhNwJwm5FS6wMcGagQA-k0Vp9LZLWPTGvdBeavD0w,7024
+slumba/scalar.py,sha256=7RQt6_EdLsGQvWWH7rYU9PrkND7DYuEMTihlLOzoLV4,1264
+slumba/sqlite.py,sha256=h9uMVt136lysjl0TFGL-qb_xzA2egZBeGNUQac-Xlyc,3428
+slumba/cslumba.cpython-39-x86_64-linux-gnu.so,sha256=m6Fp-9DsSQx2RsyZEp26yF3l7qPmW3wSM4EgjZk9eJo,132880
+slumba/cslumba.cc,sha256=rDQCBBrc1mt5-p0IR34ryImB8jNF9nCrknOdV_oiizw,783
+slumba-1.1.11.dist-info/LICENSE,sha256=UuKBTO6rKkzQ8OyTxMQty7oKVj46F_KEwAeRoMO7FM8,11352
+slumba-1.1.11.dist-info/WHEEL,sha256=f90FVrXAALeD9gWBlT71WrIo89_-KqvqhRPHPiWnXqk,103
+slumba-1.1.11.dist-info/METADATA,sha256=OtvIpdOxoekM_wBKEdlJi4RbqWgHI44LtU_640Fy3A0,3277
+slumba-1.1.11.dist-info/RECORD,,
