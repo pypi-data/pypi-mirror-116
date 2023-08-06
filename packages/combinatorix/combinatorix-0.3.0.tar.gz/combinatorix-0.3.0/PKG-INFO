@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: combinatorix
+Version: 0.3.0
+Summary: 
+Author: Amirouche
+Author-email: amirouche@hyper.dev
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
