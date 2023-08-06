@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_x_forwarded_host/__init__.py
+datasette_x_forwarded_host.egg-info/PKG-INFO
+datasette_x_forwarded_host.egg-info/SOURCES.txt
+datasette_x_forwarded_host.egg-info/dependency_links.txt
+datasette_x_forwarded_host.egg-info/entry_points.txt
+datasette_x_forwarded_host.egg-info/requires.txt
+datasette_x_forwarded_host.egg-info/top_level.txt
