@@ -1,0 +1,10 @@
+sendgrid_backend/__init__.py,sha256=NyNjT8ewM2UL6MMZAhAD6pLGmYqoX4NnnDW4DeUHKfc,83
+sendgrid_backend/mail.py,sha256=i1g4uX81sR3FE2TSNcOhREmscyLqWPyHfGgMvFpd3p0,18679
+sendgrid_backend/signals.py,sha256=pEec4uYwzIVrzEtq-YtVqDKr118WYPXwJ-RbppM5iNc,110
+sendgrid_backend/util.py,sha256=vX56Odj9w2em5dc6PbQ9yMT2TmBk-Y9CzOIqot7UG9c,1239
+sendgrid_backend/version.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+django_sendgrid_v5-1.1.0.dist-info/LICENSE,sha256=-cTHe6o4KABO5UuKTy2y6I7USmI3pJOWW_VR-sD8ti0,1023
+django_sendgrid_v5-1.1.0.dist-info/METADATA,sha256=mdhzm3eajGjj3Ql_6dkvgX1dw8VAN37g5X7Y9p_JySA,5035
+django_sendgrid_v5-1.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+django_sendgrid_v5-1.1.0.dist-info/top_level.txt,sha256=FGOPnc_pSvcUW2wi032RG2hui3u7PF0gGM6CqyIahok,17
+django_sendgrid_v5-1.1.0.dist-info/RECORD,,
