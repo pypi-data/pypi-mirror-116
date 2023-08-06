@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: hisyamcalc
+Version: 0.0.3
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Achmad Hisyam
+Author-email: achmadhisyam@gmail.com
+License: MIT
+Description: Ini adalah kalkulator sederhana saja
+        
+        Change Log
+        =================================
+        
+        0.0.1 (17/08/2021)
+        ------------------
+        - First Release
+        
+        0.0.2 (18/08/2021)
+        ------------------
+        - Fixing Minor Bug
+        
+        0.0.3 (19/08/2021)
+        ------------------
+        - Fixing Minor Error
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
