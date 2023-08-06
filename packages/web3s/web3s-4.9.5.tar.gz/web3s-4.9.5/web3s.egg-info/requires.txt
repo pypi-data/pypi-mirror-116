@@ -1,0 +1,9 @@
+eth-abi===2.1.1
+cytoolz==0.10.1
+eth-hash==0.2.0
+hexbytes==0.2.0
+eth-account==0.5.5
+requests==2.22.0
+lru-dict==1.1.6
+eth-utils==1.9.5
+aiohttp==3.6.2
