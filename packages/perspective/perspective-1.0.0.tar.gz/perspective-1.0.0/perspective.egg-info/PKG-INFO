@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: perspective
+Version: 1.0.0
+Summary: A package for interacting with the Perspective API
+Home-page: https://github.com/conway/perspective
+Author: Jake Conway
+Author-email: jake.h.conway@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/conway/perspective/issues
+Description: # perspective
+        
+        perspective is an API wrapper for Google's [Perspective API](http://www.perspectiveapi.com/)
+        
+        ## Installation
+        
+        To install, use `pip install perspective`
+        
+        ## Usage
+        
+        A simple example:
+        
+        ```python
+        from perspective import PerspectiveAPI
+        p = Perspective("API_KEY")
+        result = p.score("This is a comment")
+        print("Toxicity score: " + result["TOXICITY"])
+        ```
+        
+        More complex 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
