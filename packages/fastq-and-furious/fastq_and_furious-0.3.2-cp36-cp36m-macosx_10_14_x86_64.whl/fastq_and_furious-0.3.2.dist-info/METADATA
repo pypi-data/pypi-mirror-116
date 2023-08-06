@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fastq-and-furious
+Version: 0.3.2
+Summary: Fast handling of FASTQ files
+Home-page: https://github.com/lgautier/fastq-and-furious
+Author: Laurent Gautier
+Author-email: lgautier@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires: setuptools
+License-File: LICENSE
+Provides-Extra: demo
+Requires-Dist: ngs-plumbing ; extra == 'demo'
+Requires-Dist: screed ; extra == 'demo'
+Requires-Dist: biopython ; extra == 'demo'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
