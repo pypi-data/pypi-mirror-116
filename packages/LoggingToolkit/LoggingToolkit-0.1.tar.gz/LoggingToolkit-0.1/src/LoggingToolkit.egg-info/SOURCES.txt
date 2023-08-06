@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+src/LoggingToolkit.egg-info/PKG-INFO
+src/LoggingToolkit.egg-info/SOURCES.txt
+src/LoggingToolkit.egg-info/dependency_links.txt
+src/LoggingToolkit.egg-info/top_level.txt
