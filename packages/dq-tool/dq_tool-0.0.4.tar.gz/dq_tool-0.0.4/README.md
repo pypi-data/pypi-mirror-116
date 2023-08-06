@@ -1,0 +1,63 @@
+# dq_tool
+Data Quality Tool. Built on top of [Great Expectations](https://greatexpectations.io/)
+
+## Demo
+If you want to see / show someone DQ Tool in action, use the [Demo Guide](https://www.notion.so/datasentics/Demo-Guide-3af54cfe3344483aa5b2ace4e47c18ef)
+
+## Build
+DQ Tool uses [poetry](https://python-poetry.org/) for dependency management and wheel building. Follow the [installation notes](https://python-poetry.org/docs/basic-usage/), please.
+```sh 
+poetry build
+```
+The wheel will end up in the `dist` folder.
+
+## Databricks Installation
+As of now, only Databricks runtime 7.x is supported. There have been issues installing the package on 6.x. However if you need to use 6.x get in touch and we'll figure it out. 
+
+Install `dq_tool` from the wheel you built on a cluster or just for a notebook.
+
+## Storing Expectations
+We support two approaches to storing your expectations: in a Database or in notebooks. These approaches can be combined.
+
+### Expectation Store
+Expectations can be stored in an external database. This database can store expectation definitions and validation results. The validation results can be viewed using our frontend. For the infrastructure setup see our [Deployment Guide](https://www.notion.so/datasentics/Deployment-Guide-703b3a6db9bc4ae594ac113885c21584)
+#### Usage - Expectation Store
+Start with the following code to check that you can connect to the database. Replace the `host`, `port`, `database`, `username` and `password` with the credentials to your database. We highly recommend storing your password in a secure way, in dbutils secrets or Azure Key Vault.
+
+Running this code also creates the database schema if it's not there yet.
+```python
+from dq_tool import DQTool
+dq_tool = DQTool(
+    spark=spark,
+    db_store_connection={
+        'drivername': 'postgresql',
+        'host': 'apostgres.postgres.database.azure.com',
+        'port': '5432',
+        'database': 'postgres',
+        'username': 'postgres@apostgres',
+        'password': dbutils.secrets.get(scope='dq_tool', key='postgres_store_password')
+    }
+)
+```
+See the [expectation store guide](./docs/expectation_store.md) for details on how to use the store.
+
+### Expectations in Notebooks
+Expectation definitions can also be stored in notebooks as python dicst or code. 
+#### Usage - no Store
+```python
+from dq_tool import DQTool
+dq_tool = DQTool(spark=spark)
+```
+See the [notebook expectations guide](.docs/notebook_expectations.md) for details on how to work with expectation definitions in notebooks.
+
+## Guides
+The following guides can be used both for expectations stored in a database and in a notebook.
+
+### Expectations with Expressions
+See the [expressions guide](./docs/expressions.md)
+
+### Custom Expectations
+See the [custom expectations guide](./docs/custom_expectations.md)
+
+### Profiling (beta)
+See the [profiling guide](./docs/profiling.md)
