@@ -1,0 +1,10 @@
+nvsmi==0.3.0
+loguru==0.5.3
+arrow==1.1.1
+datetimerange==1.1.0
+configargparse==1.5.1
+freezegun==1.1.0
+black==21.6b0
+hydra-core==1.1.0
+simple_slurm==0.1.7
+psutil==5.8.0

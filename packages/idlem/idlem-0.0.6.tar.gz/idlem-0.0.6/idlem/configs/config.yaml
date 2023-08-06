@@ -1,0 +1,17 @@
+# @package _global_
+
+# specify here default training configuration
+defaults:
+  - strict_config
+  - scheduler: night
+  - miner: gminer_eth
+  # disable logging
+  - override hydra/job_logging: none
+  - override hydra/hydra_logging: none
+
+
+# extra steps to disable logging
+hydra:
+  output_subdir: null
+  run:
+    dir: .

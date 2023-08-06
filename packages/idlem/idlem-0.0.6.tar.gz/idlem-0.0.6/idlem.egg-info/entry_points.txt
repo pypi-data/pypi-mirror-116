@@ -1,0 +1,5 @@
+[console_scripts]
+mp = idlem.utils:miner_pause
+ms = idlem.run:main
+mup = idlem.utils:miner_unpause
+

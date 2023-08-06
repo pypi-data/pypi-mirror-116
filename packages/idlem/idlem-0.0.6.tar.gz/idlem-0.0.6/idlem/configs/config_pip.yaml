@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - strict_config
+  - scheduler: full
+  - miner: trex_eth
+  # disable logging
+  - override hydra/job_logging: none
+  - override hydra/hydra_logging: none
+
+# extra steps to disable logging
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+# want to check pause every 15 sec
+sleep_time: 15
