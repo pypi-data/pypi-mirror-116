@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: DFRobot-EC-PH-ADC
+Version: 0.1.0
+Summary: This package is a fork of the DFRobot_PH package, modified for python3 and packaged for pip
+Home-page: https://github.com/moha7108/DFRobot_PH
+Author: Mohamed Debbagh
+Author-email: moha7108@protonmail.com
+License: GNU LGPL-2.1
+Project-URL: Bug Tracker, https://github.com/moha7108/DFRobot_PH/issues
+Project-URL: Github, https://github.com/moha7108/DFRobot_PH
+Keywords: Raspberry Pi,Raspi,Python,GPIO,PH,EC,DFRobot,Gravity,Sensor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: smbus
+
+This package is a fork of the DFRobot_PH package, modified for python3 and packaged for pip.
+
+- [Github](https://github.com/moha7108/DFRobot_PH)
+
+## Installation
+
+- pip
+```shell
+pip install DFRobot_EC_PH_ADC
+```
+- source
+```shell
+git clone https://github.com/moha7108/DFRobot_PH
+```
+
+## Example Usage
+
+```python
+from DFRobot import DFR_EC, DFR_PH, DFR_ADS1115
+
+```
+
+## Feedback
+
+All kinds of feedback and contributions are welcome.
+
+- [Create an issue](https://github.com/moha7108/DFRobot_PH/issues)
+- Create a pull request
+- Reach out to @moha7108
+
+## Contributors
+- Written by Jiawei Zhang, 2018. (Welcome to our [website](https://www.dfrobot.com/))
+- Mohamed Debbagh
+  - [GitLab](https://gitlab.com/moha7108/), [Github](https://github.com/moha7108/), [Twitter](https://twitter.com/moha7108)
+
+## Change Log
+
+### 0.1.0
+- debut code
+
+
