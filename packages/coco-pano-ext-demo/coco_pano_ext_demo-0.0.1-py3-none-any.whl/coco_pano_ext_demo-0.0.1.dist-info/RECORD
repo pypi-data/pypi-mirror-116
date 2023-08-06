@@ -1,0 +1,9 @@
+coco_pano_ext_demo/__init__.py,sha256=13aWxNXF8hxcDB5AOd3wokiwEEE-FJyALFjc21sBKjE,182
+coco_pano_ext_demo/coco.py,sha256=VAO70VXT7HllMPONtJ7kGhQMCO1QTeCCFS2nX1rMIGc,6391
+coco_pano_ext_demo/iou.py,sha256=IlDYhTGKTFJZQAAOpk6qFP84UR6OdVlYroIuzKu8kIU,7100
+coco_pano_ext_demo/prec_recall_map.py,sha256=Dypoy0dQCC9ffzLycI-5ugXAPqzac4h9pGFEXVFe6TM,1038
+coco_pano_ext_demo-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+coco_pano_ext_demo-0.0.1.dist-info/METADATA,sha256=JArgdTmU1FT_IZdFkNI15Od3c09YZFkIwcA_47mfb54,262
+coco_pano_ext_demo-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+coco_pano_ext_demo-0.0.1.dist-info/top_level.txt,sha256=DuvpDvOyY0HI-bPv8vsb1d1CPME_zeIjeCHtIbqGse0,19
+coco_pano_ext_demo-0.0.1.dist-info/RECORD,,
