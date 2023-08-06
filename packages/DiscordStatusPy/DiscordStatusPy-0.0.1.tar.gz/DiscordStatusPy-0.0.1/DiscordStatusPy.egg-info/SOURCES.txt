@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+DiscordStatusPy/__init__.py
+DiscordStatusPy/client.py
+DiscordStatusPy/urls.py
+DiscordStatusPy.egg-info/PKG-INFO
+DiscordStatusPy.egg-info/SOURCES.txt
+DiscordStatusPy.egg-info/dependency_links.txt
+DiscordStatusPy.egg-info/requires.txt
+DiscordStatusPy.egg-info/top_level.txt
