@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: sf_nba
+Version: 0.3
+Summary: Simulate NBA Games Between Custom Teams and Forecast Player Stats in Future Games
+Home-page: https://github.com/tarsur909/SF_NBA
+Author: Tarun Suresh
+Author-email: tarsur909@gmail.com
+License: MIT
+Download-URL: https://github.com/tarsur909/SF_NBA/archive/refs/tags/v_05.tar.gz
+Description: UNKNOWN
+Keywords: NBA,Machine Learning,Time Series Forecasting
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
