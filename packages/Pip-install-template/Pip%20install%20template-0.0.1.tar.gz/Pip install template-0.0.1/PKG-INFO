@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: Pip install template
+Version: 0.0.1
+Summary: A pip Install template
+Home-page: UNKNOWN
+Author: Max_Mnemo
+Author-email: maximilian.freitag@gmx.de
+License: MIT
+Description: This is a pip install template
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (14/08/2021)
+        -------------------
+        - First Release
+        
+Keywords: template
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
