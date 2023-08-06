@@ -1,0 +1,13 @@
+README.md
+setup.py
+nowem/__init__.py
+nowem/aiorequests.py
+nowem/client.py
+nowem/exception.py
+nowem/playerprefs.py
+nowem/secret.py
+nowem.egg-info/PKG-INFO
+nowem.egg-info/SOURCES.txt
+nowem.egg-info/dependency_links.txt
+nowem.egg-info/requires.txt
+nowem.egg-info/top_level.txt
