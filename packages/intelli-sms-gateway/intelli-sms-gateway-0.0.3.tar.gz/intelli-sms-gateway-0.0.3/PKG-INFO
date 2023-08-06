@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: intelli-sms-gateway
+Version: 0.0.3
+Summary: A package extending developable features of the Intelli-Africa Solutions SMS Gateway
+Home-page: UNKNOWN
+Author: Intelli Africa Solutions
+Author-email: info@intelliafrica.solutions
+License: MIT
+Description: UNKNOWN
+Keywords: SMS,Bulk Sms,Bulk Email
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
