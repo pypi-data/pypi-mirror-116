@@ -1,0 +1,3 @@
+[console_scripts]
+vencopy = vencopy.__main__:create
+
