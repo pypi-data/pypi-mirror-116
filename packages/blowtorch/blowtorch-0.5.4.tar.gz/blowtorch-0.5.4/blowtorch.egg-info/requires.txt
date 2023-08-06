@@ -1,0 +1,6 @@
+wheel
+colorama==0.4
+ruamel.yaml
+halo==0.0.31
+coolname==1.1
+tqdm==4.30
