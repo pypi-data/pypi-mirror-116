@@ -1,0 +1,15 @@
+UniversalParser/__init__.py,sha256=SUaXGLzA3Jwdon2aYyESEmOHf0jZHk_HhWPiiF6IsNg,268
+UniversalParser/_collections.py,sha256=ZtwWEbYAg1IG-qdHBh6XotBuft9K5MQRdCHXMLOL7bo,749
+UniversalParser/_decorator.py,sha256=9IDAQGaYLz6ARqdAM34m4Z3zvui5KEf4NlYNRQIPDYM,515
+UniversalParser/_exception.py,sha256=lmrplj5-6cE83eg_eUkTR5eC3ArZebb5pAzpbvYiAiE,302
+UniversalParser/_ntype.py,sha256=hTQDY8ztXcK_iESfGG0xaBjijSL4NYixG3iyCBul_6U,259
+UniversalParser/_parse.py,sha256=Yx-E7dZ2ta_zKmPaSjoL1DhhbfTvi0TFXLFyst9pS8I,2811
+UniversalParser/_rely.py,sha256=IIPHx4IlCoR22UzQ5RoR9f12hcDQ7i1FctKK3Q7YqAI,552
+UniversalParser/_tools.py,sha256=BT0j8ZMMVdCcwZQnMXdqgnN9mnQsO3-cW9t6V08H1NI,367
+UniversalParser/manager.py,sha256=tB1SpzgpoLL9pwZ-GhHTUYLmYQubqudutWDigdCmsDo,16703
+UniversalParser/struct.py,sha256=pzV4gZk-UDgwSZsCIt6OFUrjnOnren-CH9eI39j_64A,19134
+UniversalParser-0.2.4.0.dist-info/LICENSE,sha256=YLvfxA00dB-Caje31c2b2ilMDf1hCM0Lf0-JCTF4viw,1087
+UniversalParser-0.2.4.0.dist-info/METADATA,sha256=8gXaTszmpzIGUS3D9dGZE4hnK9_jH0m7BlmpJe8loPI,1082
+UniversalParser-0.2.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+UniversalParser-0.2.4.0.dist-info/top_level.txt,sha256=Ep-RGux7Q6SCUFHyTLpb9wD1lNk9DCYEIE1rDop8zhI,16
+UniversalParser-0.2.4.0.dist-info/RECORD,,
