@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "spatial_image_multiscale"
+author = "Matt McCormick"
+author-email = "matt.mccormick@kitware.com"
+home-page = "https://github.com/spatial-image/spatial-image-multiscale"
+classifiers = [ "License :: OSI Approved :: Apache Software License",]
+description-file = "README.md"
+
+requires = [
+    "numpy",
+    "xarray",
+    "spatial_image>=0.0.3",
+]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+    "pytest-mypy",
+    "fsspec",
+    "ipfsspec",
+    "zarr",
+]
+
+[tool.black]
+line-length = 88
