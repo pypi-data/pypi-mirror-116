@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+beyondpapers/__init__.py
+beyondpapers.egg-info/PKG-INFO
+beyondpapers.egg-info/SOURCES.txt
+beyondpapers.egg-info/dependency_links.txt
+beyondpapers.egg-info/requires.txt
+beyondpapers.egg-info/top_level.txt
+beyondpapers/regressors/__base_regressor.py
+beyondpapers/regressors/__init__.py
+beyondpapers/regressors/__tensorflow_regressor.py
+beyondpapers/switcher/__init__.py
+beyondpapers/switcher/__switcher.py
