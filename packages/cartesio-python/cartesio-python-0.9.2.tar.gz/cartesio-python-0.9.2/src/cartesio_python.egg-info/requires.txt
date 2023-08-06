@@ -1,0 +1,6 @@
+micromind
+numba
+numpy
+opencv-contrib-python-headless
+scikit-image
+simplejson
