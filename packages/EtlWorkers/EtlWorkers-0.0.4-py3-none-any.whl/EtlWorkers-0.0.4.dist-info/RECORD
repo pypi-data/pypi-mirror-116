@@ -1,0 +1,8 @@
+EtlWorkers/__init__.py,sha256=LG7dE-IS7sOEN0x-CjhTqlu4GjQKrBL957FwsXM_geE,136
+EtlWorkers/workers/FileWorker.py,sha256=uxurVYvMh_hdA1bSm-7ECb79rg9X3EtBET3a70KwaKg,1379
+EtlWorkers/workers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EtlWorkers-0.0.4.dist-info/LICENSE,sha256=XcCbn8UUc2SSgVvZGCKOXsDL7AWXi1b7-PuKx79KoYQ,1067
+EtlWorkers-0.0.4.dist-info/METADATA,sha256=hERhnkRf4ZKBRGhoDNJECq064NAqyariTk6EGDtmhTE,260
+EtlWorkers-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+EtlWorkers-0.0.4.dist-info/top_level.txt,sha256=6o6QNbFBVDScHjUD3ie92D242WTziL2uRmeEf2k18Pk,11
+EtlWorkers-0.0.4.dist-info/RECORD,,
