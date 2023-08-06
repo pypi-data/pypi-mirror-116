@@ -1,0 +1,9 @@
+mirai_extensions/trigger/__init__.py,sha256=rAsEor1hjekNrLhvPU_K-cVXu8v4_8iUw8tV9A3JNyM,593
+mirai_extensions/trigger/handler.py,sha256=ajlwfXIV3O9wnl1BbiIgbFmnLQUJ1txqgd5APNOlOvs,3847
+mirai_extensions/trigger/interrupt.py,sha256=S3_aos4N_fHHkr1cu3A4FJk7TvGUfRV7J8lf0CgI6RE,3143
+mirai_extensions/trigger/message.py,sha256=HruiV7aFoP9_yhnoOFhxaswxdTCy8XTtqywgKY8ygm0,7800
+mirai_extensions/trigger/trigger.py,sha256=lqXC6-Lf9bWW3DVKhzoAeRSXw8FRRUSnrR1a9JVB_XQ,7076
+yiri_mirai_trigger-0.2.0.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+yiri_mirai_trigger-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+yiri_mirai_trigger-0.2.0.dist-info/METADATA,sha256=tsYx-VBSjmOFcRk8XLRQC_TSTBlnCVpUds0bsw3AISo,545
+yiri_mirai_trigger-0.2.0.dist-info/RECORD,,
