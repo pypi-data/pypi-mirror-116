@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SLBoomber/SLBoomber.py
+src/SLBoomber/__init__.py
+src/SLBoomber.egg-info/PKG-INFO
+src/SLBoomber.egg-info/SOURCES.txt
+src/SLBoomber.egg-info/dependency_links.txt
+src/SLBoomber.egg-info/top_level.txt
