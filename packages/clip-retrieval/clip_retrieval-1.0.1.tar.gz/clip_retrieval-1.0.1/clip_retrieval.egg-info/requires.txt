@@ -1,0 +1,10 @@
+clip-anytorch
+tqdm
+fire
+torch
+torchvision
+numpy
+faiss-cpu
+flask
+flask_restful
+flask_cors
