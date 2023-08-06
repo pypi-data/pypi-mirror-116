@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+seabornWrapper/__init__.py
+seabornWrapper/flexiblePlots.py
+seabornWrapper.egg-info/PKG-INFO
+seabornWrapper.egg-info/SOURCES.txt
+seabornWrapper.egg-info/dependency_links.txt
+seabornWrapper.egg-info/requires.txt
+seabornWrapper.egg-info/top_level.txt

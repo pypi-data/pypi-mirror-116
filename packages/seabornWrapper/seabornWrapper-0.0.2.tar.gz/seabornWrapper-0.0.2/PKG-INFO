@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: seabornWrapper
+Version: 0.0.2
+Summary: Wrapper for Seaborn plotting methods
+Home-page: UNKNOWN
+Author: Michael Panicci
+Author-email: <mapanicci@gmail.com.com>
+License: UNKNOWN
+Keywords: seaborn,plotting,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+Wrapper for Seaborn plotting methods that helps reduce redundant code to produce custom plots
+
