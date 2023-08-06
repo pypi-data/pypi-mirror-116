@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "metaverse.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "metaverse.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "metaverse.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "metaverse.hooking.post_release_hook"
+    ]
+}
