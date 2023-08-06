@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PIPWeb.egg-info/PKG-INFO
+PIPWeb.egg-info/SOURCES.txt
+PIPWeb.egg-info/dependency_links.txt
+PIPWeb.egg-info/top_level.txt
+ShareImage/__init__.py
