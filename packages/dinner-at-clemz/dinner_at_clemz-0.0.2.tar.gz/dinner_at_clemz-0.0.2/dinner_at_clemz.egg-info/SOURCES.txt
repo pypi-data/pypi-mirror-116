@@ -1,0 +1,12 @@
+README.md
+setup.py
+dinner_at_clemz.egg-info/PKG-INFO
+dinner_at_clemz.egg-info/SOURCES.txt
+dinner_at_clemz.egg-info/dependency_links.txt
+dinner_at_clemz.egg-info/entry_points.txt
+dinner_at_clemz.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/messages/__init__.py
+src/messages/all_messages.py
+src/messages/tomodachi.py
