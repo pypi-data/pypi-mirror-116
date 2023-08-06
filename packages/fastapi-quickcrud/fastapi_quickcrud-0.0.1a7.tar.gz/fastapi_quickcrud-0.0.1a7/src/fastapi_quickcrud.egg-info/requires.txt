@@ -1,0 +1,5 @@
+fastapi
+pydantic
+SQLAlchemy==1.4.22
+StrEnum
+psycopg2
