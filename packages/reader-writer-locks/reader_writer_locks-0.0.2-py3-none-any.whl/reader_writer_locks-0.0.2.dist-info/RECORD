@@ -1,0 +1,11 @@
+reader_writer_lock/Base.py,sha256=b9BGABSLA0pg4v2BsNsoMOqutPud9qYjt8DiFeuHM6A,544
+reader_writer_lock/MpFactory.py,sha256=b8EntoWN8my4SjfUxYKp6Rg7tSif4W8UbISJDdl1HO8,1625
+reader_writer_lock/MtFactory.py,sha256=f28GoBLrKWnwrkZpIsHLC1G5-FI53UShhbT1GBO4fA4,1600
+reader_writer_lock/ReadLock.py,sha256=cJ-6kBMfMbh98rt_4mjNxbBEQJxuXx0K5C-lSCq83Ek,1280
+reader_writer_lock/WriteLock.py,sha256=Lj3-nFXc-1hitqeYxDrBO_fVhL785pq_m9x-suY48VM,1389
+reader_writer_lock/__init__.py,sha256=WAn5TMkeP2WGYOblTn1rgZo3WWQHfJog_TEnMNB27Rw,159
+reader_writer_locks-0.0.2.dist-info/LICENSE.txt,sha256=8zHT0rsXKvg6IAnebyyjf-AS5CefAsagiJoPwEemsso,1052
+reader_writer_locks-0.0.2.dist-info/METADATA,sha256=_taTQmC1ynghnKuVZ_XRHObsWBeD2yHwWy8twxY14f8,2004
+reader_writer_locks-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+reader_writer_locks-0.0.2.dist-info/top_level.txt,sha256=W27o8aLedYxWEflMwwUWJzt7AVbsbWPAixzVbJJFk0E,19
+reader_writer_locks-0.0.2.dist-info/RECORD,,
