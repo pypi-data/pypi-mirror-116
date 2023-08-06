@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: impeek
+Version: 0.0.8
+Summary: Quickly create a collage of images using a regular expression.
+Home-page: https://github.com/nikwl/impeek
+Author: Nikolas Lamb
+Author-email: nikolas.lamb@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# impeek
+
+
