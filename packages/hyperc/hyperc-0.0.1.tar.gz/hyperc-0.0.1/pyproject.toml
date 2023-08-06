@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "hyperc"
+version = "0.0.1"
+description = "Python AI Planning and automated programming"
+authors = ["Andrew Gree <andrew@hyperc.com>"]
+license = "PROPRIETARY"
+readme = "README.md"
+homepage = "https://github.com/hyperc-ai/hyperc"
+repository = "https://github.com/hyperc-ai/hyperc"
+
+keywords = [ "ai", "ai-planning", "constraint-programming", 
+            "automated-planning", "optimization", "compilers" ]
+
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python :: 3.7',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+wrapt= "==1.11.2"
+diskcache = "^4.1.0"
+formulas = "^1.0.0"
+psutil = ">=5.7"
+unidecode = ">=1.1.1"
+dill = ">=0.3.2"
+downward_ch = ">=0.0.9"
+
+[tool.poetry.dev-dependencies]
+pytest-profiling = "^1.7"
+
+[tool.poetry.scripts]
+hc = "hyperc.hc:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
