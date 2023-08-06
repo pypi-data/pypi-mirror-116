@@ -1,0 +1,9 @@
+README.md
+setup.py
+vscodedebugvisualizer/Visualize.py
+vscodedebugvisualizer/__init__.py
+vscodedebugvisualizer.egg-info/PKG-INFO
+vscodedebugvisualizer.egg-info/SOURCES.txt
+vscodedebugvisualizer.egg-info/dependency_links.txt
+vscodedebugvisualizer.egg-info/requires.txt
+vscodedebugvisualizer.egg-info/top_level.txt
