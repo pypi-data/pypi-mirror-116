@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyshmht3
+Version: 0.1.1
+Summary: python share memory dict for py3
+License: BSD
+Author: muyakongali
+Author-email: muyakongali@tencent.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
