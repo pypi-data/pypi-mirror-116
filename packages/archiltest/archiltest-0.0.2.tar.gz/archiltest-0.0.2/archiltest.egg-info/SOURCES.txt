@@ -1,0 +1,7 @@
+README.txt
+setup.py
+archiltest.egg-info/PKG-INFO
+archiltest.egg-info/SOURCES.txt
+archiltest.egg-info/dependency_links.txt
+archiltest.egg-info/top_level.txt
+simple_test/__init__.py
