@@ -1,0 +1,9 @@
+ditat_etl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ditat_etl/utils.py,sha256=lOs-IKJlRJVQfZhyf3psQPTFTRuqLTnHEw4u46mPfug,789
+ditat_etl/databases/__init__.py,sha256=yCKYbxVzrDhygu8ZsqFimrgmp_mZQ0KiUHwlRKb5bLY,31
+ditat_etl/databases/postgres.py,sha256=PPg7MvCOuJYIsLaotln1XO5FnekHsZpjl-US2VEPePc,16395
+ditat_etl-0.0.3.dist-info/LICENSE,sha256=46SsfhsIXogqtlu_fMgN2503Yndn5D8wV1ldj2hH_GE,1062
+ditat_etl-0.0.3.dist-info/METADATA,sha256=1vMpEhPoOD3mNahbeZeLrPqsGpBr5E3jjipWnsfi-4A,2004
+ditat_etl-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ditat_etl-0.0.3.dist-info/top_level.txt,sha256=tiH-UXRo7MiNRX0hYZenwH6bq9tYfWsMq83cxQSDTCA,10
+ditat_etl-0.0.3.dist-info/RECORD,,
