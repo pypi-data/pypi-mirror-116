@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: cgshop2022utils
+Version: 0.1.0
+Summary: Utilities for the CG:SHOP 2022 Optimization Competition on Minimum Partition into Plane Subgraphs.
+Home-page: https://cgshop.ibr.cs.tu-bs.de/competition/cg-shop-2022/
+Author: TU Braunschweig, IBR, Algorithms Group (Phillip Keldenich, Rouven Kniep, and Dominik Krupke)
+Author-email: keldenich@ibr.cs.tu-bs.de, krupke@ibr.cs.tu-bs.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+
+# Official Utilities for the CG:SHOP 2022 Challenge
+
+This package provides some utilities for handling instances and solutions for the
+*CG:SHOP 2022 Challenge on Minimum Partition into Plane Subgraphs*.
+These are the tools that are used by us, the (technical) organizers, to handle our
+instances and your solutions.
+* Reading and writing instances.
+* Reading and writing solutions.
+* Verifying solutions for correctness.
+
+The source code can be found [here](https://gitlab.ibr.cs.tu-bs.de/alg/cgshop2022-pyutils).
+
+## Installation
+
+The installation is simple:
+```shell
+pip install cgshop2022utils
+```
+
+If `pip` does not install the dependencies for you you may also need
+```shell
+pip install networkx
+```
+
+The verification component (currently under development) will be implemented in C++
+and require a more complicated installation. We will probably provide a precompiled
+version for Linux, but other systems may need to compile the package by hand.
+We will provide instructions for this in due time.
+
+## Reading instances
+
+```python
+from cgshop2022utils.io import read_instance
+
+instance = read_instance("path or file object to instance")
+```
+The instance is a dict of the following format:
+```python
+{
+        "type": "Instance_CGSHOP2022",
+        "id": "unique name of instance",
+        "meta": dict, # with information on the instance (e.g., the polygon for visibility instances)
+        "graph": networkx.Graph, # The instance graph with typing.Tuple[int, int] as vertices.
+}
+```
+
+Check out the documentation of [networkx](https://networkx.org/documentation/stable/) on how to deal with the graphs.
+It is fairly straight forward.
+For example:
+```python
+print("Points:")
+for v in graph.nodes:
+    print(v)
+print("Edges:")
+for v,w in graph.edges:
+    print(v, "<->", w)
+```
+
+
