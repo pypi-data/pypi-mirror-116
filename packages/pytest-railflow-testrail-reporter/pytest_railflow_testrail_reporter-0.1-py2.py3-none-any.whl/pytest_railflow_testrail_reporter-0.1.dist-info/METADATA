@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: pytest-railflow-testrail-reporter
+Version: 0.1
+Summary: Generate json reports along with specified metadata defined in test markers.
+Home-page: https://github.com/railflow/railflow-pytest-plugin
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT License
+Keywords: py.test pytest json railflow report
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pytest
+
+pytest-railflow-testrail-reporter
+=================================
+
+|Testing| |Cov| |MIT license|
+
+Pytest-Railflow-Testrail-reporter is the Pytest plugin generates json outputs with predefined metadata as json attributes defined during the tests.
+
+It is designed for generating testrail outputs.
+
+Requirements
+------------
+
+In order to use pytest-railflow-testrail-reporter plugin, following prerequsites should be met.
+
+    - Python 2.7, 3.4 or greater   
+    - Pytest
+
+Installation
+------------
+
+Install Requirements first using:
+
+::
+
+   pip install -r requirements.txt
+
+Using Pip
+~~~~~~~~~
+
+To install the pytest-railflow-testrail-reporter plugin using pip
+open the terminal in root folder where ``setup.py`` is located.
+
+Run the following command in terminal:
+
+::
+
+   pip install .
+
+This will install the plugin to python package library.
+
+Usage
+------
+
+Currently the plugin supports the metadata attributes given below. All other undefined metadata attributes will be rejected with a warning.
+
+=========================   ======================
+Function level Attributes   Class level Attributes
+=========================   ======================
+author           			author
+description      			case_fields
+jira_id          			result-fields
+test_path        			test_path
+case_fields      			case-type
+result-fields    			case-priority
+id-mappings      
+case-type        
+case-priority    
+=========================   ======================
+
+To run the test, enter the following command in the terminal from test
+directory.
+
+::
+
+   pytest --jsonfile output.json
+
+Please check examples_ for more information and sample tests.
+
+
+
+
+.. |Testing| image:: https://github.com/railflow/railflow-pytest-plugin/actions/workflows/testing.yml/badge.svg
+   :target: https://github.com/railflow/railflow-pytest-plugin/actions/workflows/testing.yml
+.. |Cov| image:: https://codecov.io/gh/railflow/railflow-pytest-plugin/branch/main/graph/badge.svg?token=7SB1JK4HWO
+   :target: https://codecov.io/gh/railflow/railflow-pytest-plugin
+.. |MIT license| image:: https://img.shields.io/badge/License-MIT-blue.svg
+   :target: https://lbesson.mit-license.org/
+.. _examples: https://github.com/railflow/railflow-pytest-plugin/tree/main/examples
+
+
