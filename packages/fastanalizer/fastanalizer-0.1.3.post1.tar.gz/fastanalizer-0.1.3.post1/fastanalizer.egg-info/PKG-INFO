@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: fastanalizer
+Version: 0.1.3.post1
+Summary: fastanalizer - Fast protein domain analysis tool
+Home-page: https://github.com/alezanatta/fastanalizer
+Author: Alexandre Zanatta Vieira
+Author-email: al-zanatta@hotmail.com
+License: MIT
+Download-URL: https://github.com/alezanatta/fastanalizer/archive/refs/tags/v0.1.3.post1.tar.gz
+Description: fastanalizer - Fast protein domain analysis tool
+Keywords: BIOINFORMATICS,PROTEIN,PHYLOGENY
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
