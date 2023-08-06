@@ -1,0 +1,11 @@
+Change Log
+==========
+
+0.0.1 (16/8/2021)
+-------------------
+- First Release
+- added the following sorting algorithms
+    - Merge Sort
+    - Quick Sort
+    - Bubble Sort
+- Works for integer arrays.

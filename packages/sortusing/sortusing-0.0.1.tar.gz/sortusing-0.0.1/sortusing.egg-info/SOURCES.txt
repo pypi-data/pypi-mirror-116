@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sortusing/__init__.py
+sortusing.egg-info/PKG-INFO
+sortusing.egg-info/SOURCES.txt
+sortusing.egg-info/dependency_links.txt
+sortusing.egg-info/top_level.txt
