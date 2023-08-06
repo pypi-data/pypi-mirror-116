@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bolt12
+Version: 0.1.0
+Summary: Lightning Network BOLT12 Routines
+License: MIT
+Author: Rusty Russell
+Author-email: rusty@rustcorp.com.au
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bech32 (>=1.2.0,<2.0.0)
+Requires-Dist: pyln-proto (>=0.10.1,<0.11.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
