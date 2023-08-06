@@ -1,0 +1,10 @@
+setup.py
+k3cat/__init__.py
+k3cat/cat.py
+k3cat/setup.py
+k3cat/synopsis.py
+k3cat.egg-info/PKG-INFO
+k3cat.egg-info/SOURCES.txt
+k3cat.egg-info/dependency_links.txt
+k3cat.egg-info/requires.txt
+k3cat.egg-info/top_level.txt
