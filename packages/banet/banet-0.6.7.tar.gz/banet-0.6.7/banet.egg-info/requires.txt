@@ -1,0 +1,13 @@
+geoget
+fire_split
+fastcore
+nbdev
+fastai==2.2.7
+rasterio
+geopandas
+shapely
+netcdf4
+pyhdf==0.10.2
+proj
+geos
+cartopy
