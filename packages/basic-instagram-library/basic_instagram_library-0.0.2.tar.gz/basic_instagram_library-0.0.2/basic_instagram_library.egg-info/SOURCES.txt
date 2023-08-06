@@ -1,0 +1,10 @@
+README.md
+setup.py
+basic_instagram_library/__init__.py
+basic_instagram_library/find_tags.py
+basic_instagram_library/tests.py
+basic_instagram_library.egg-info/PKG-INFO
+basic_instagram_library.egg-info/SOURCES.txt
+basic_instagram_library.egg-info/dependency_links.txt
+basic_instagram_library.egg-info/requires.txt
+basic_instagram_library.egg-info/top_level.txt
