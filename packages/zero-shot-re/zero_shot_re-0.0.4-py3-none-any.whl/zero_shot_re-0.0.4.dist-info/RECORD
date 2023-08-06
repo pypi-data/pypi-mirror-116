@@ -1,0 +1,10 @@
+zero-shot-re/__init__.py,sha256=-w1Ah6JRY6eEiaSsALl21B8IrypqXUOgYC-IRkS7WgY,41
+zero-shot-re/extractor.py,sha256=oNKNR--_1uq1BcITpmJDuPySDmtNE1AOl8MgaSBViJc,3410
+zero_shot_re/__init__.py,sha256=BjEmGsIrSQlDIp1VbDuVTJyAg0_SSPbPCY6prje5iNY,74
+zero_shot_re/extractor.py,sha256=oNKNR--_1uq1BcITpmJDuPySDmtNE1AOl8MgaSBViJc,3410
+zero_shot_re/model.py,sha256=WbvpejsqtO7Au8Y9LUMoNP5NDqBL9Ah7HEalCMpORwQ,1941
+zero_shot_re/test_pretrained.py,sha256=gMqlr6-kDl-7tJ8S9E9eonKV3etXk-iJNvO2hY7F8C4,487
+zero_shot_re-0.0.4.dist-info/METADATA,sha256=P4LqoLCTntxt5b4TrxUDJOtEw4RR5zS2EzZtRj3-HRw,2854
+zero_shot_re-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zero_shot_re-0.0.4.dist-info/top_level.txt,sha256=lP4UjshYNaCeHFt50Q16I89q2VSnS2eHCYMVtZZprYM,13
+zero_shot_re-0.0.4.dist-info/RECORD,,
