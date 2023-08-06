@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+torch_pconv/__init__.py
+torch_pconv/pconv.py
+torch_pconv.egg-info/PKG-INFO
+torch_pconv.egg-info/SOURCES.txt
+torch_pconv.egg-info/dependency_links.txt
+torch_pconv.egg-info/requires.txt
+torch_pconv.egg-info/top_level.txt
