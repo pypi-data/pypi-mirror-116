@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flake8-too-many
+Version: 0.1.0a0
+Summary: A flake8 plugin that prevents you from writing "too many" bad codes.
+Author: Queensferry
+Author-email: queensferry.me@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dataclasses (>=0.8,<0.9); python_version < "3.7"
+Requires-Dist: flake8 (>=3.9.2,<4.0.0)
