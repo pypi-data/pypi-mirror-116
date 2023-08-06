@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cpgzh.egg-info/PKG-INFO
+cpgzh.egg-info/SOURCES.txt
+cpgzh.egg-info/dependency_links.txt
+cpgzh.egg-info/requires.txt
+cpgzh.egg-info/top_level.txt
