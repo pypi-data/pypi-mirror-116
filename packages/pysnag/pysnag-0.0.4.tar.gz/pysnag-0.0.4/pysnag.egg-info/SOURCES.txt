@@ -1,0 +1,8 @@
+README.md
+setup.py
+pysnag/__init__.py
+pysnag/pysnag.py
+pysnag.egg-info/PKG-INFO
+pysnag.egg-info/SOURCES.txt
+pysnag.egg-info/dependency_links.txt
+pysnag.egg-info/top_level.txt
