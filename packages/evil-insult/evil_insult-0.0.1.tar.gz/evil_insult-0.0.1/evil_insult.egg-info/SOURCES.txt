@@ -1,0 +1,9 @@
+setup.py
+evil_insult/__init__.py
+evil_insult/__main__.py
+evil_insult/api.py
+evil_insult.egg-info/PKG-INFO
+evil_insult.egg-info/SOURCES.txt
+evil_insult.egg-info/dependency_links.txt
+evil_insult.egg-info/requires.txt
+evil_insult.egg-info/top_level.txt

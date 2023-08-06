@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: evil-insult
+Version: 0.0.1
+Summary: A very basic example of calling your python app from terminal
+Home-page: UNKNOWN
+Author: Pranav Bhatia
+Author-email: <prav10194@gmail.com>
+License: UNKNOWN
+Description: A very basic example of calling your python app from terminal
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
