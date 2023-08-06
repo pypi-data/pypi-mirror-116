@@ -1,0 +1,11 @@
+keras_lmu/__init__.py,sha256=na2C9Uely2AYmYwg5XSQZmZGcuaQTF3C_rwrlAi-8Ps,284
+keras_lmu/layers.py,sha256=f8Wbds0C4VCGxlWPGTQcO63gttbbSH0qAIkX3I60J8g,35525
+keras_lmu/version.py,sha256=5d34MBtyK6gppzhsyFOu5a5GwLDtnBeL2UK8w0I32qU,773
+keras_lmu/tests/__init__.py,sha256=kaYUv7KNnukHzy2ilXQVF1OYQ5G1c-mVa1jVPOzvTU4,488
+keras_lmu/tests/test_benchmarks.py,sha256=A6d6PIk9Cwx6ZLqngyWE95WXrtzKGkndBX5zrNjiyKE,2557
+keras_lmu/tests/test_layers.py,sha256=v6u9UTgyHHNOzJ9o1k-a8J2YLb9_yLSdOljB8u1pQlI,21183
+keras_lmu-0.4.0.dist-info/LICENSE.rst,sha256=tnLZ9e7UhK2hneV3yo-4VVm0ZbkqR7C_FfEcSJEt_pI,1128
+keras_lmu-0.4.0.dist-info/METADATA,sha256=4QWE1da0XX66elgaJSzXmedQCVBqnRhDWE3wRHtXHfw,12022
+keras_lmu-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+keras_lmu-0.4.0.dist-info/top_level.txt,sha256=MFwLxiUcq7vokVeNJbrq4BsEKvXP80-pqGfRiicrtZ8,10
+keras_lmu-0.4.0.dist-info/RECORD,,
