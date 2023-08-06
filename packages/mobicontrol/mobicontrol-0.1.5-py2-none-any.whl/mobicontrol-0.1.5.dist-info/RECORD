@@ -1,0 +1,11 @@
+mobicontrol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobicontrol/main.py,sha256=cCWnk31VPJU5XXd26gzRhMXfZPQmJO8k46WfYWyKbjk,2883
+mobicontrol/utils.py,sha256=U3WK-ston-NzRSFpuq0NChqeUYfbJmPuK_Kl8GDrDtQ,245
+mobicontrol/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobicontrol/scripts/fetch_token.py,sha256=3_u9PIEvi0_ruEZDn_pDln0iu6dvJ-dJxgVahZu-NBc,386
+mobicontrol/scripts/upload_package.py,sha256=FXGwv_xAnPhYtetvxnQswwE9JKib_u2E-V2iNNsXdDs,922
+mobicontrol-0.1.5.dist-info/METADATA,sha256=U8WdwTRVSuBMCZPbehFHVqR6ed-nhCvSieAAaoL-0t0,220
+mobicontrol-0.1.5.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+mobicontrol-0.1.5.dist-info/entry_points.txt,sha256=cxhD2MuM6i7u8vidGHlGZE-dfhrUS7krPKcyGLejNVc,62
+mobicontrol-0.1.5.dist-info/top_level.txt,sha256=odqUnJXl0HX8-bf93lJgRoSHRe6J_fqCgaeNkmwcm9M,12
+mobicontrol-0.1.5.dist-info/RECORD,,
