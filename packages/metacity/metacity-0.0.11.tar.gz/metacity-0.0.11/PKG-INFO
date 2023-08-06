@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: metacity
+Version: 0.0.11
+Summary: Python toolkit for Urban Data processing
+Home-page: https://github.com/MetacitySuite/Metacity
+Author: Metacity
+License: MIT
+Description: # Metacity
+        
+        Toolkit for Urban Data processing
+        
+        https://pypi.org/project/metacity/
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
