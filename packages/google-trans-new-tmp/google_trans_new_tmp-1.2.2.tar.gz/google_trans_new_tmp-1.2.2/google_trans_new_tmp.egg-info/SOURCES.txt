@@ -1,0 +1,9 @@
+README.md
+setup.py
+google_trans_new/constant.py
+google_trans_new/google_trans_new.py
+google_trans_new_tmp.egg-info/PKG-INFO
+google_trans_new_tmp.egg-info/SOURCES.txt
+google_trans_new_tmp.egg-info/dependency_links.txt
+google_trans_new_tmp.egg-info/requires.txt
+google_trans_new_tmp.egg-info/top_level.txt
