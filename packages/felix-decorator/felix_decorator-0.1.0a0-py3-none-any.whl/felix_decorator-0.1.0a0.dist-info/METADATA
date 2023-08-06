@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: felix-decorator
+Version: 0.1.0a0
+Summary: A collection of handy decorators for Python
+Home-page: https://github.com/zzhengnan/felix
+Author: Zhengnan Zhao
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Requires-Dist: setuptools ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: qa
+Requires-Dist: flake8 ; extra == 'qa'
+Provides-Extra: test
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+# `felix`
+
+A collection of handy decorators for Python.
+
+Named after [Allyson Felix](https://en.wikipedia.org/wiki/Allyson_Felix), the most _decorated_ woman in Olympic track and field history.
+
+# Installation
+
+```
+$ python -m pip install felix-decorator
+```
+
+# Resources
+The decorators in this package borrow heavily from this [excellent tutorial on Real Python](https://realpython.com/primer-on-python-decorators/).
+
+
