@@ -1,0 +1,6 @@
+requires = [
+    "beautifulsoup4",
+    "requests",
+    "lxml"
+]
+build-backend = "setuptools.build_meta"

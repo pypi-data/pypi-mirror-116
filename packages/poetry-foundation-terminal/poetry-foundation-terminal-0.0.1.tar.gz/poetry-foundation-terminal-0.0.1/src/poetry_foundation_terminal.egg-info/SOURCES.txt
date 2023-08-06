@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/poetry-in-terminal/__init__.py
+src/poetry-in-terminal/final_v1.py
+src/poetry_foundation_terminal.egg-info/PKG-INFO
+src/poetry_foundation_terminal.egg-info/SOURCES.txt
+src/poetry_foundation_terminal.egg-info/dependency_links.txt
+src/poetry_foundation_terminal.egg-info/entry_points.txt
+src/poetry_foundation_terminal.egg-info/top_level.txt

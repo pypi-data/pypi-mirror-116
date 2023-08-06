@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: poetry-foundation-terminal
+Version: 0.0.1
+Summary: A small package to read daily poetries and essays posted by Poetry Foundation
+Home-page: https://github.com/vishxm/poetry-in-terminal/
+Author: Vishwas Modhera
+Author-email: vishwasmodhera@pm.me
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vishxm/poetry-in-terminal/
+Project-URL: Reddit, https://reddit.com/u/vishxm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Get poetry and essay in terminal posted by [Poetry Foundation](https://www.poetryfoundation.org/)
+
+Requirements :
+1. beautifulsoup4
+2. requests
+3. lxml
+4. python
+

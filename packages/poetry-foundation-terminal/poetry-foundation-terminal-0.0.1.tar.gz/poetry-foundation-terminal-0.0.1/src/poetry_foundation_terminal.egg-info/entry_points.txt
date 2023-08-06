@@ -1,0 +1,3 @@
+[console_scripts]
+pFoundation = poetry_foundation.final_v1.py:start
+
