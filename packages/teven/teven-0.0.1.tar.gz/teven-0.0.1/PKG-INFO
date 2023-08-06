@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: teven
+Version: 0.0.1
+Summary: To retrieve even numbers between two numbeers
+Home-page: UNKNOWN
+Author: Trimurthulu Chinni
+Author-email: trimuchinni23@gmail.com
+License: MIT
+Description: This module return all the even umbers between the given two numbers(Both inclusive).
+        
+        Change Log
+        =====================
+        
+        0.0.1(15/08/2021)
+        ----------------------
+        -First Release
+Keywords: even
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

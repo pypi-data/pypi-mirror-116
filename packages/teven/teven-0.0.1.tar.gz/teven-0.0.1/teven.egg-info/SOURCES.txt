@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+teven/__init__.py
+teven.egg-info/PKG-INFO
+teven.egg-info/SOURCES.txt
+teven.egg-info/dependency_links.txt
+teven.egg-info/top_level.txt
