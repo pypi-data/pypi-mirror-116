@@ -1,0 +1,12 @@
+buildpan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildpan/buildpan.py,sha256=58I6RIqwFeeWqRh3h1OFpTILa8hQOU7FeTYXwVIKIc8,552
+cli_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_commands/build.py,sha256=ZPVVpPoVlEhQG346xlEHCRoP19pBE7MYpY4XELSYuGI,307
+cli_commands/deploy.py,sha256=1cuZJCsmOSer2ClUdZstAdtfQ_1PJqWQN9t7wnmUaMs,493
+cli_commands/init.py,sha256=GrchYyPA9A9ZgxRkq6IodnUPv070Dsyp0OXQHv6V_h8,4562
+cli_commands/version.py,sha256=LOrYAaXSf82mv-zAUYGQvISsag0L1nSdxsPjSoAu9eg,399
+gitcidi-0.0.30.dist-info/METADATA,sha256=1CNQKZQrqnt2ChY4SVjggzSqE3wGct04PxJd3gU7kEc,976
+gitcidi-0.0.30.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitcidi-0.0.30.dist-info/entry_points.txt,sha256=RLU6op304LfQlYxucw_ERg7M65eMVKuAp9UiEUqXMss,57
+gitcidi-0.0.30.dist-info/top_level.txt,sha256=3WRy8RjPOh4mHBYJiokpw6LHKqgDsedeZJOoRpgo6-k,22
+gitcidi-0.0.30.dist-info/RECORD,,
