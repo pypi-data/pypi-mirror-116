@@ -1,0 +1,9 @@
+PFAS_SAT_InputData
+PFAS_SAT_ProcessModels
+jupyter
+pandas
+stats-arrays
+PySide2
+plotly
+graphviz
+matplotlib
